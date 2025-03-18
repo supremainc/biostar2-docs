@@ -71,8 +71,13 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: "/",
         hashed: true,
-        docsRouteBasePath: "/docs",
+        language: ["ko", "en"],
+        highlightSearchTermsOnTargetPage: true,
+        searchBarPosition: "right",
       })
     ]
   ],
