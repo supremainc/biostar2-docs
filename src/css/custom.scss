@@ -1,0 +1,611 @@
+// @import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap');
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #009fe8;
+  --ifm-color-primary-dark: #008fd1;
+  --ifm-color-primary-darker: #0087c5;
+  --ifm-color-primary-darkest: #006fa2;
+  --ifm-color-primary-light: #00afff;
+  --ifm-color-primary-lighter: #0cb2ff;
+  --ifm-color-primary-lightest: #2fbdff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-color-gray: #333;
+  --ifm-color-color-ol-gray: #696969;
+  --ifm-footer-padding-vertical: 28px;
+  --ifm-footer-padding-horizontal: 1rem;
+  --ifm-color-border: #adadad;
+  --ifm-list-paragraph-margin: .7rem;
+  --ifm-paragraph-margin-bottom: .7rem;
+  --ifm-admonition-font-size: 1rem;
+  --ifm-color-cmd: #A32343;
+  --docsearch-searchbox-background: none !important;
+  --ifm-color-nextstep-background: #f5f5f5;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #009fe8;
+  --ifm-color-primary-dark: #008fd1;
+  --ifm-color-primary-darker: #0087c5;
+  --ifm-color-primary-darkest: #006fa2;
+  --ifm-color-primary-light: #00afff;
+  --ifm-color-primary-lighter: #0cb2ff;
+  --ifm-color-primary-lightest: #2fbdff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-color-gray: #dadada;
+  --ifm-color-color-ol-gray: #b4b4b4;
+  --ifm-color-border: #d1d1d1;
+  --ifm-color-cmd: #bb7f8f;
+  --ifm-color-nextstep-background: #4d4d4d;
+}
+
+// 언어별 폰트 설정
+html[lang='ko-KR'] * {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+html[lang='ja-JP'] * {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html[lang='en-US'] * {
+  font-family: 'Noto Sans', sans-serif;
+}
+// 언어별 폰트 설정
+
+// index.js 페이지
+.hero__title, .hero__subtitle {
+  color: #fff;
+}
+.aa-Autocomplete {
+  width: 70%;
+  margin: 0 auto !important;
+  .aa-Form {
+    border: 1px solid var(--ifm-color-primary);
+  }
+  .aa-Input {
+    width: 70%;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+  }
+}
+.aa-Panel {
+  width: 70%;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  .aa-Item {
+    border-bottom: 1px solid var(--ifm-color-primary-darkest);
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}
+.aa-ItemContent {
+  a {
+    text-decoration: none;
+    .aa-ItemTitle {
+      h3 {
+        font-size: 1.2rem;
+      }
+      .hit-breadcrums {
+        mark {
+          background-color: yellow;
+        }
+      }
+    }
+    .content {
+      color: #333;
+      mark {
+        background-color: yellow;
+      }
+    }
+  }
+  mark {
+    background-color: yellow !important;
+  }
+}
+// index.js 페이지
+
+// layout 스타일
+.DocSearch-Hit-title {
+  overflow: hidden;
+}
+.DocSearch-Input {
+  transform: none !important;
+  animation: none !important;
+  transition: none !important;
+}
+div[class*='docItemCol'] {
+  padding-left: 2rem;
+}
+.navbar__items {
+  a.navbar__brand {
+    font-size: 18px;
+    color: #595757;
+    margin-right: 100px;
+    &:hover {
+      color: #595757;
+    }
+    &:visited {
+      color: #595757;
+    }
+  }
+  .navbar__item {
+    font-weight: 400;
+    a {
+      font-weight: 400;
+    }
+  }
+  div[class*='navbarSearchContainer'] {
+    padding-right: 0;
+  }
+  .DocSearch-Button-Placeholder, .DocSearch-Button-Keys {
+    display: none;
+  }
+}
+.theme-doc-sidebar-menu {
+  li.p-title {
+    &> .menu__list-item-collapsible {
+      a.menu__link--active {
+        color: var(--ifm-menu-color);
+        font-weight: 700;
+      }
+    }
+    &> ul.menu__list {
+      padding-left: 0;
+    }
+  }
+  .theme-doc-sidebar-item-link-level-3 {
+    font-weight: 400;
+  }
+  .theme-doc-sidebar-item-category-level-3 a {
+    font-weight: 400;
+  }
+}
+ul.breadcrumbs {
+  float: left;
+  display: contents;
+  li.breadcrumbs__item:first-of-type a {
+    padding: 0;
+    position: relative;
+    top: 2px
+  }
+}
+footer {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .footer__logo {
+    margin-top: 0;
+  }
+  .sns--right {
+    justify-content: flex-end;
+    flex: 0 0 auto;
+  }
+  ul.sns__list {
+    list-style: none;
+    margin: 0;
+    float: left;
+    li {
+      float: left;
+      margin: 0 10px;
+    }
+  }
+  .dropdown {
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+    text-align: left;
+    .dropdown-button {
+      font-size: .8rem;
+      width: 107px;
+      cursor: pointer;
+    }
+    .dropdown-button:hover {
+      background-color: #e0e0e0;
+    }
+    .dropdown-menu {
+      position: absolute;
+      top: -87px;
+      left: -93px;
+      width: 200px;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 5px;
+        li {
+          padding: 2px 0;
+        }
+      }
+    }
+    .dropdown-item {
+      padding: 8px 16px;
+      a {
+        font-size: .7rem;
+        display: block;
+        color: #333;
+        text-decoration: none;
+      }
+      &:hover {
+        background-color: #f5f5f5;
+      }
+    }
+  }
+  .footer__copyright {
+    color: #898989;
+    font-size: .8rem;
+    margin-top: 15px;
+  }
+}
+.pagination-nav__label {
+  font-size: 1rem;
+}
+.pagination-nav__sublabel {
+  font-size: var(--ifm-admonition-font-size);
+}
+// layout 스타일
+
+// markdown 콘텐츠 스타일 
+.markdown {
+  h1 { font-size: var(--ifm-h1-font-size); }
+  h2 { 
+    --ifm-h2-font-size: 1.8rem;
+    font-size: var(--ifm-h2-font-size); 
+    font-weight: 600;
+    // border-top: 1px dotted;
+    padding-top: calc(var(--ifm-h2-vertical-rhythm-top) * var(--ifm-leading));
+  }
+  h3 { 
+    --ifm-h3-font-size: 1.5rem;
+    font-size: var(--ifm-h3-font-size);
+    font-weight: 400;
+  }
+  h4 { 
+    --ifm-h4-font-size: 1.5rem;
+    font-size: var(--ifm-h4-font-size);
+    font-weight: 400;
+    .cmd {
+      font-size: 18px;
+    }
+  }
+  h5 { 
+    --ifm-h5-font-size: 1.1rem;
+    font-size: var(--ifm-h5-font-size); 
+  }
+  h6 { font-size: var(--ifm-h6-font-size); }
+
+  section {
+    &.row {
+      a.padding--lg {
+        padding: 20px !important;
+        color: var(--ifm-color-content);
+        text-decoration: none;
+        h2 {
+          font-size: var(--ifm-h4-font-size);
+          font-weight: 600;
+          padding: 0;
+        }
+        p {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          line-height: 1.2;
+          min-height: 2.5em;
+          white-space: normal;
+        }
+      }
+    }
+  }
+
+  /* Alert */
+  .alert {
+    --ifm-alert-border-radius: 5px;
+    color: var(--ifm-color-base);
+    --ifm-alert-background-color: #F5F7F9;
+    a {
+      color: var(--ifm-color-primary-light);
+    }
+  }
+  .alert--secondary {
+    --ifm-alert-border-color: #102B8D;
+    --ifm-alert-foreground-color: #102B8D;
+  }
+  .alert--info {
+    --ifm-alert-border-color: var(--ifm-color-primary-light);
+    --ifm-alert-foreground-color: var(--ifm-color-primary-light);
+  }
+  .alert--success {
+    --ifm-alert-foreground-color: rgb(0, 148, 0)
+  }
+  .alert--warning {
+    --ifm-alert-border-color: #F7B52C;
+    --ifm-alert-foreground-color: #F7B52C;
+  }
+  .alert--danger {
+    --ifm-alert-border-color: #A32343;
+    --ifm-alert-foreground-color: #A32343;
+  }
+  /* Alert */
+
+  p {
+    em {
+      // font-style: normal;
+      font-family: 'Noto Sans Coptic';
+      // font-size: .85rem;
+      font-weight: 500;
+      color: var(--ifm-color-color-gray);
+    }
+    code {
+      font-size: .85rem;
+      font-family: 'Noto Sans Coptic';
+    }
+    &.hasimg {
+      margin-top: var(--ifm-leading);
+      img {
+        // margin-left: auto;
+        // margin-right: auto;
+        display: block;
+        border: 1px solid var(--ifm-color-color-ol-gray);
+        &.w--400 {
+          width: 400px;
+        }
+      }
+    }
+  }
+  ul ul, ul ol, ol ol, ol ul {
+    margin: 1rem 0;
+  }
+  ul, ol {
+    li {
+      margin: var(--ifm-list-paragraph-margin) 0;
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      p + .theme-admonition {
+        margin-top: 1rem;
+      }
+    }
+    li:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  ul + ul > li:first-of-type {
+    margin-top: 0;
+  }
+  ol {
+    li {
+      &::marker {
+        color: var(--ifm-color-color-ol-gray);
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+    }
+  }
+  ol, ul {
+    p.hasimg {
+      margin-top: 0;
+      margin-bottom: 15px;
+      img {
+        margin-left: 0;
+      }
+    }
+  }
+
+  a {
+    color: var(--ifm-color-primary-light);
+    text-decoration: underline dotted;
+  }
+
+  span.cmd {
+    font-weight: 600;
+    color: var(--ifm-color-cmd);
+  }
+
+  span.cmd.bold, span.bold {
+    font-weight: bold;
+    color: var(--ifm-color-color-gray);
+  }
+
+  ul, ol {
+    padding-left: 28px;
+  }
+
+  pre * {
+    font-family: 'Noto Sans Coptic';
+  }
+
+  // Table
+  table {
+    width: 100%;
+    display: table;
+    &.col2-2-8 {
+      td:first-of-type {
+        width: 20%;
+      }
+      td:nth-of-type(2) {
+        width: 80%;
+      }
+    }
+    p {
+      margin: 0;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+  }
+  .table-fixed {
+    table {
+      table-layout: fixed;
+    }
+  }
+  .col5--15-10-25 {
+    table {
+      td {
+        &:nth-of-type(1) {
+          width: 15%;
+        }
+        &:nth-of-type(2) {
+          width: 10%;
+        }
+        &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5) {
+          width: 25%;
+        }
+      }
+    }
+  }
+
+  // Columns
+  .container {
+    .text--left {
+      padding-left: 0;
+    }
+  }
+
+  // License
+  .lower-latin {
+    ul {
+      list-style-type: lower-latin;
+    }
+  }
+}
+
+// Dark theme
+[data-theme='dark'] .markdown {
+  /* Alert */
+  .alert {
+    --ifm-alert-background-color: #354e5c;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  footer {
+    .sns--right {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 695px) {
+  .aa-Autocomplete {
+    width: 100%;
+    margin: 0;
+  }
+  .aa-Panel {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 640px) and (max-width: 480px) {
+  .markdown {
+    .overflow-x {
+      overflow-x: scroll;
+      table {
+        width: max-content;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .DocSearch-Commands, .DocSearch-Hit-Tree {
+    display: flex !important;
+  }
+}
+
+// 인쇄 시 CSS 적용
+@media print {
+  @page {
+    size: A4;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    margin-left: 0.5in;
+    margin-right: 0.5in;
+  }
+  nav.theme-doc-breadcrumbs, .theme-back-to-top-button {
+    display: none;
+  }
+  .markdown {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari, Edge */
+    print-color-adjust: exact !important;                 /*Firefox*/
+    h1 { font-size: 2rem; }
+    h2 { 
+      font-size: 1.8rem; 
+      page-break-before: auto;
+    }
+    h3 { font-size: 1.6rem; }
+    h4 { font-size: 1.4rem; }
+    h5 { font-size: 1.2rem; }
+    h6 { font-size: 1rem; }
+    p {
+      font-size: .8rem;
+      line-height: 1.2;
+    }
+    img {
+      max-width: 65%;
+    }
+    ol {
+      li {
+        page-break-inside: avoid;
+      }
+    }
+    table {
+      font-size: .8rem;
+      border: 1px;
+      td {
+        padding: .3rem;
+      }
+    }
+    .theme-code-block {
+      font-size: .8rem;
+    }
+    .theme-admonition {
+      page-break-inside: avoid;
+    }
+    div.container {
+      .col {
+        display: inline;
+        flex: none !important;
+        float: left;
+        width: 50%;
+      }
+    }
+    section.row {
+      article {
+        display: inline;
+        flex: none !important;
+        width: 50%;
+        > a.padding--lg {
+          padding: 20px !important;
+        }
+      }
+    }
+  }
+  .theme-doc-footer {
+    display: none;
+  }
+}
