@@ -28,7 +28,7 @@ const sidebars = {
         id: 'index',
       },
       items: [
-        
+        'test'
       ]
     }
   ]
