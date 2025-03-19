@@ -23,12 +23,18 @@ const sidebars = {
       collapsed: false,
       collapsible: false,
       className: 'p-title',
-      link: {
-        type: 'doc',
-        id: 'index',
-      },
       items: [
-        'test'
+        {
+          type: 'category',
+          label: 'BioStar 2 신규 기능 소개',
+          link: {
+            type: 'doc',
+            id: 'index',
+          },
+          items: [
+            '298',
+          ]
+        }
       ]
     }
   ]
