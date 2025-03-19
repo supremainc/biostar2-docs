@@ -415,6 +415,17 @@ footer {
     }
   }
 
+  figure {
+    img {
+      border: 1px solid;
+    }
+    figcaption {
+      font-size: .8rem;
+      color: var(--ifm-color-color-gray);
+      text-align: center;
+    }
+  }
+
   a {
     color: var(--ifm-color-primary-light);
     text-decoration: underline dotted;
