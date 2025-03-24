@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-298-mdx-f6d.json
-var site_docs_298_mdx_f6d_namespaceObject = JSON.parse('{"id":"298","title":"BioStar 2 v2.9.8 업데이트 안내","description":"BioStar 2 v2.9.8 업데이트 안내입니다.","source":"@site/docs/298.mdx","sourceDirName":".","slug":"/298","permalink":"/biostar2-docs/298","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"298","title":"BioStar 2 v2.9.8 업데이트 안내","description":"BioStar 2 v2.9.8 업데이트 안내입니다.","keywords":["2.9.8","keyword 2"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"BioStar 2 신규 기능 소개","permalink":"/biostar2-docs/"}}')
+var site_docs_298_mdx_f6d_namespaceObject = JSON.parse('{"id":"298","title":"BioStar 2 v2.9.8 업데이트 안내","description":"BioStar 2 v2.9.8 업데이트 안내입니다.","source":"@site/docs/298.mdx","sourceDirName":".","slug":"/298","permalink":"/biostar2-docs/en/298","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"298","title":"BioStar 2 v2.9.8 업데이트 안내","description":"BioStar 2 v2.9.8 업데이트 안내입니다.","keywords":["2.9.8","keyword 2"],"isTranslationMissing":true},"sidebar":"biostar","previous":{"title":"BioStar 2 신규 기능 소개","permalink":"/biostar2-docs/en/"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -31,7 +31,7 @@ const frontMatter = {
 		'2.9.8',
 		'keyword 2'
 	],
-	isTranslationMissing: false
+	isTranslationMissing: true
 };
 const contentTitle = undefined;
 
@@ -474,13 +474,10 @@ function _createMdxContent(props) {
       children: "삭제된 카드 ID로 재발급 방지"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: "삭제 이력이 있는 CSN 모바일 카드를 다른 사용자에게 발급하려고 하는 경우 실패 처리합니다."
-    }), "\n", (0,jsx_runtime.jsx)("p", {
-      align: "center",
-      children: (0,jsx_runtime.jsx)(Image, {
-        src: "/img/ko/biostar-298-deleted-CSN-Mobile-Card-1.png",
-        className: "none",
-        caption: true
-      })
+    }), "\n", (0,jsx_runtime.jsx)(Image, {
+      src: "/img/ko/biostar-298-deleted-CSN-Mobile-Card-1.png",
+      className: "none",
+      caption: true
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: ["삭제된 카드 ID로 카드를 발급하고자 하는 경우 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "setting.card.deletedCsnMobileCard"
