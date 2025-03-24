@@ -401,23 +401,6 @@ footer {
         margin-top: 1rem;
       }
     }
-    li:last-of-type {
-      margin-bottom: 0;
-    }
-  }
-  ul + ul > li:first-of-type {
-    margin-top: 0;
-  }
-  ol {
-    li {
-      &::marker {
-        color: var(--ifm-color-color-ol-gray);
-        font-weight: 600;
-        font-size: 1.1rem;
-      }
-    }
-  }
-  ol, ul {
     p.hasimg {
       margin-top: 0;
       margin-bottom: 15px;
@@ -434,6 +417,21 @@ footer {
     }
     figcaption {
       text-align: left;
+    }
+    li:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  ul + ul > li:first-of-type {
+    margin-top: 0;
+  }
+  ol {
+    li {
+      &::marker {
+        color: var(--ifm-color-color-ol-gray);
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
     }
   }
 
