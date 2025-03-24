@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-test-mdx-435.json
-var site_docs_test_mdx_435_namespaceObject = JSON.parse('{"id":"test","title":"테스트 문서","description":"Description","source":"@site/docs/test.mdx","sourceDirName":".","slug":"/test","permalink":"/help/docs/en/test","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"test","title":"테스트 문서","description":"Description","keywords":["keyword1","keyword2"],"isTranslationMissing":true}}')
+var site_docs_test_mdx_435_namespaceObject = JSON.parse('{"id":"test","title":"테스트 문서","description":"Description","source":"@site/docs/test.mdx","sourceDirName":".","slug":"/test","permalink":"/biostar2-docs/test","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"test","title":"테스트 문서","description":"Description","keywords":["keyword1","keyword2"],"isTranslationMissing":false}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -31,7 +31,7 @@ const frontMatter = {
 		'keyword1',
 		'keyword2'
 	],
-	isTranslationMissing: true
+	isTranslationMissing: false
 };
 const contentTitle = undefined;
 

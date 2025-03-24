@@ -123,7 +123,7 @@ __webpack_require__.hmd = function (module) {
           // return url for filenames not based on template
           
           // return url for filenames based on template
-          return "assets/js/" + ({"112": "aba21aa0","151": "138e0e15","211": "a7bd4aaa","230": "1a4e3797","432": "5e95c892","48": "17896441","5": "4edc808e","525": "435bcd1f","55": "75e04269","911": "f6d2a478","914": "a94703ab",}[chunkId] || chunkId) + "." + {"112": "dfdbb257","151": "861efdbb","21": "ce2e0e5a","211": "c32d594f","230": "3292a7e1","298": "6a140749","393": "fea735c7","432": "e6bab75b","48": "42dbb520","5": "222ba685","513": "433d2b13","525": "e2a79b10","55": "4b2612c5","853": "ec14268d","911": "52e46a89","914": "40db84b2",}[chunkId] + ".js";
+          return "assets/js/" + ({"112": "aba21aa0","151": "138e0e15","211": "a7bd4aaa","230": "1a4e3797","432": "5e95c892","48": "17896441","5": "4edc808e","525": "435bcd1f","815": "e8365100","911": "f6d2a478","914": "a94703ab",}[chunkId] || chunkId) + "." + {"112": "dfdbb257","151": "861efdbb","21": "ce2e0e5a","211": "c32d594f","230": "3292a7e1","298": "1c22d46c","393": "fea735c7","432": "e6bab75b","48": "42dbb520","5": "3dc94070","513": "433d2b13","525": "0707cbbd","815": "6d6727a0","853": "ec14268d","911": "f5350869","914": "40db84b2",}[chunkId] + ".js";
         };
       
 })();
@@ -141,7 +141,7 @@ __webpack_require__.hmd = function (module) {
 // webpack/runtime/get_full_hash
 (() => {
 __webpack_require__.h = function () {
-	return "b30492f5763f2c13";
+	return "d7f1cf9dc8a40598";
 };
 
 })();
@@ -280,7 +280,7 @@ __webpack_require__.O = function (result, chunkIds, fn, priority) {
 })();
 // webpack/runtime/public_path
 (() => {
-__webpack_require__.p = "/help/docs/en/";
+__webpack_require__.p = "/biostar2-docs/en/";
 
 })();
 // webpack/runtime/rspack_version
@@ -293,7 +293,7 @@ __webpack_require__.rv = function () {
 // webpack/runtime/ChunkAssetRuntimeModule
 (() => {
 // Docusaurus function to get chunk asset
-__webpack_require__.gca = function(chunkId) { chunkId = {"17896441":"48","4edc808e":"5","75e04269":"55","aba21aa0":"112","138e0e15":"151","a7bd4aaa":"211","1a4e3797":"230","5e95c892":"432","435bcd1f":"525","f6d2a478":"911","a94703ab":"914"}[chunkId]||chunkId; return __webpack_require__.p + __webpack_require__.u(chunkId); };
+__webpack_require__.gca = function(chunkId) { chunkId = {"17896441":"48","4edc808e":"5","aba21aa0":"112","138e0e15":"151","a7bd4aaa":"211","1a4e3797":"230","5e95c892":"432","435bcd1f":"525","e8365100":"815","f6d2a478":"911","a94703ab":"914"}[chunkId]||chunkId; return __webpack_require__.p + __webpack_require__.u(chunkId); };
 })();
 // webpack/runtime/jsonp_chunk_loading
 (() => {

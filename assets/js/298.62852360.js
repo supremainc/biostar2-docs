@@ -129,7 +129,7 @@ __webpack_require__.e = function (chunkId) {
 // webpack/runtime/get_full_hash
 (() => {
 __webpack_require__.h = function () {
-	return "5efcb49e72853bf4";
+	return "6c5d29c93709bca0";
 };
 
 })();
@@ -182,7 +182,7 @@ __webpack_require__.O = function (result, chunkIds, fn, priority) {
 })();
 // webpack/runtime/public_path
 (() => {
-__webpack_require__.p = "/help/docs/";
+__webpack_require__.p = "/biostar2-docs/";
 
 })();
 // webpack/runtime/rspack_version

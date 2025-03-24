@@ -123,7 +123,7 @@ __webpack_require__.hmd = function (module) {
           // return url for filenames not based on template
           
           // return url for filenames based on template
-          return "assets/js/" + ({"112": "aba21aa0","151": "138e0e15","211": "a7bd4aaa","230": "1a4e3797","432": "5e95c892","48": "17896441","5": "4edc808e","525": "435bcd1f","881": "0a77129c","911": "f6d2a478","914": "a94703ab",}[chunkId] || chunkId) + "." + {"112": "dfdbb257","151": "861efdbb","21": "ce2e0e5a","211": "c32d594f","230": "3292a7e1","298": "dc5f9dde","393": "fea735c7","432": "e6bab75b","48": "42dbb520","5": "39cb4baa","513": "433d2b13","525": "abd6472e","853": "ec14268d","881": "4f708b77","911": "3ade4b79","914": "40db84b2",}[chunkId] + ".js";
+          return "assets/js/" + ({"112": "aba21aa0","151": "138e0e15","211": "a7bd4aaa","230": "1a4e3797","432": "5e95c892","48": "17896441","5": "4edc808e","525": "435bcd1f","745": "bb2b3c07","911": "f6d2a478","914": "a94703ab",}[chunkId] || chunkId) + "." + {"112": "dfdbb257","151": "861efdbb","21": "ce2e0e5a","211": "c32d594f","230": "3292a7e1","298": "62852360","393": "fea735c7","432": "e6bab75b","48": "42dbb520","5": "1c5ab6fe","513": "433d2b13","525": "abb0e8ab","745": "88711a84","853": "ec14268d","911": "75e55696","914": "40db84b2",}[chunkId] + ".js";
         };
       
 })();
@@ -141,7 +141,7 @@ __webpack_require__.hmd = function (module) {
 // webpack/runtime/get_full_hash
 (() => {
 __webpack_require__.h = function () {
-	return "5efcb49e72853bf4";
+	return "6c5d29c93709bca0";
 };
 
 })();
@@ -280,7 +280,7 @@ __webpack_require__.O = function (result, chunkIds, fn, priority) {
 })();
 // webpack/runtime/public_path
 (() => {
-__webpack_require__.p = "/help/docs/";
+__webpack_require__.p = "/biostar2-docs/";
 
 })();
 // webpack/runtime/rspack_version
@@ -293,7 +293,7 @@ __webpack_require__.rv = function () {
 // webpack/runtime/ChunkAssetRuntimeModule
 (() => {
 // Docusaurus function to get chunk asset
-__webpack_require__.gca = function(chunkId) { chunkId = {"17896441":"48","4edc808e":"5","aba21aa0":"112","138e0e15":"151","a7bd4aaa":"211","1a4e3797":"230","5e95c892":"432","435bcd1f":"525","0a77129c":"881","f6d2a478":"911","a94703ab":"914"}[chunkId]||chunkId; return __webpack_require__.p + __webpack_require__.u(chunkId); };
+__webpack_require__.gca = function(chunkId) { chunkId = {"17896441":"48","4edc808e":"5","aba21aa0":"112","138e0e15":"151","a7bd4aaa":"211","1a4e3797":"230","5e95c892":"432","435bcd1f":"525","bb2b3c07":"745","f6d2a478":"911","a94703ab":"914"}[chunkId]||chunkId; return __webpack_require__.p + __webpack_require__.u(chunkId); };
 })();
 // webpack/runtime/jsonp_chunk_loading
 (() => {
