@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-298-mdx-f6d.json
-var site_docs_298_mdx_f6d_namespaceObject = JSON.parse('{"id":"298","title":"BioStar 2 v2.9.8 업데이트 안내","description":"BioStar 2 v2.9.8 업데이트 안내입니다.","source":"@site/docs/298.mdx","sourceDirName":".","slug":"/298","permalink":"/biostar2-docs/en/298","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"298","title":"BioStar 2 v2.9.8 업데이트 안내","description":"BioStar 2 v2.9.8 업데이트 안내입니다.","keywords":["2.9.8","keyword 2"],"isTranslationMissing":true},"sidebar":"biostar","previous":{"title":"BioStar 2 신규 기능 소개","permalink":"/biostar2-docs/en/"}}')
+var site_docs_298_mdx_f6d_namespaceObject = JSON.parse('{"id":"298","title":"BioStar 2 v2.9.8 업데이트 안내","description":"BioStar 2 v2.9.8 업데이트 안내입니다.","source":"@site/docs/298.mdx","sourceDirName":".","slug":"/298","permalink":"/biostar2-docs/298","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"298","title":"BioStar 2 v2.9.8 업데이트 안내","description":"BioStar 2 v2.9.8 업데이트 안내입니다.","keywords":["2.9.8","keyword 2"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"BioStar 2 신규 기능 소개","permalink":"/biostar2-docs/"},"next":{"title":"다중 인증으로 BioStar 2 로그인하기","permalink":"/biostar2-docs/297-1"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -31,7 +31,7 @@ const frontMatter = {
 		'2.9.8',
 		'keyword 2'
 	],
-	isTranslationMissing: true
+	isTranslationMissing: false
 };
 const contentTitle = undefined;
 

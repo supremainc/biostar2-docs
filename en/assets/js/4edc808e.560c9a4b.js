@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-index-mdx-4ed.json
-var site_docs_index_mdx_4ed_namespaceObject = JSON.parse('{"id":"index","title":"BioStar 2 신규 기능 소개","description":"BioStar 2.9.5 버전부터는 신기능이나 개선된 기능의 사용 방법에 대해 주제 단위로 분리하여 기능 가이드를 제공합니다.","source":"@site/docs/index.mdx","sourceDirName":".","slug":"/","permalink":"/biostar2-docs/","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"title":"BioStar 2 신규 기능 소개","description":"BioStar 2.9.5 버전부터는 신기능이나 개선된 기능의 사용 방법에 대해 주제 단위로 분리하여 기능 가이드를 제공합니다.","isTranslationMissing":false},"sidebar":"biostar","next":{"title":"BioStar 2 v2.9.8 업데이트 안내","permalink":"/biostar2-docs/298"}}')
+var site_docs_index_mdx_4ed_namespaceObject = JSON.parse('{"id":"index","title":"BioStar 2 신규 기능 소개","description":"BioStar 2.9.5 버전부터는 신기능이나 개선된 기능의 사용 방법에 대해 주제 단위로 분리하여 기능 가이드를 제공합니다.","source":"@site/docs/index.mdx","sourceDirName":".","slug":"/","permalink":"/biostar2-docs/en/","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"title":"BioStar 2 신규 기능 소개","description":"BioStar 2.9.5 버전부터는 신기능이나 개선된 기능의 사용 방법에 대해 주제 단위로 분리하여 기능 가이드를 제공합니다.","isTranslationMissing":true},"sidebar":"biostar","next":{"title":"BioStar 2 v2.9.8 업데이트 안내","permalink":"/biostar2-docs/en/298"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -26,7 +26,7 @@ var lib = __webpack_require__("65");
 const frontMatter = {
 	title: 'BioStar 2 신규 기능 소개',
 	description: 'BioStar 2.9.5 버전부터는 신기능이나 개선된 기능의 사용 방법에 대해 주제 단위로 분리하여 기능 가이드를 제공합니다.',
-	isTranslationMissing: false
+	isTranslationMissing: true
 };
 const contentTitle = undefined;
 
@@ -80,11 +80,17 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "다중 인증으로 BioStar 2 로그인하기"
+          children: (0,jsx_runtime.jsx)(_components.a, {
+            href: "297-1",
+            children: "다중 인증으로 BioStar 2 로그인하기"
+          })
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "비주얼 페이스를 템플릿으로만 동기화하기"
+          children: (0,jsx_runtime.jsx)(_components.a, {
+            href: "297-2",
+            children: "비주얼 페이스를 템플릿으로만 동기화하기"
+          })
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
