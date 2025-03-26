@@ -17,9 +17,10 @@ const defaultProps = {
 export default function AdmonitionTypeNote(props) {
   return (
     <AdmonitionLayout
-      {...defaultProps}
+      // {...defaultProps}
       {...props}
       className={clsx(infimaClassName, props.className)}>
+      <div className='admNote'><IconNote /></div>
       {props.children}
     </AdmonitionLayout>
   );
