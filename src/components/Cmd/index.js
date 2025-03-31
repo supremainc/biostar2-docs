@@ -22,7 +22,7 @@ const ReplacementLocaleText = ({ sid, code, className, children }) => {
     const locale = localeMap[currentLocale] || localeMap.en;
     
     if (sid === 'door.apbUseDoorSensor') {
-      const localeText = locale[sid].replace('<br>', ' ');
+      const localeText = locale[sid].replace('<br/>', ' ');
     } else {
       const localeText = locale[sid] ? locale[sid].replace('<br>', '') : null;
     }
