@@ -32,7 +32,7 @@ const sidebars = {
             id: 'index',
           },
           items: [
-            '298','297-1','297-2','295-1','295-6',
+            '298','multi-factor-auth-for-login','visual-face-with-template','new-dashboard','quick-action','timed-apb','advanced-search','user-photo-enroll-using-webcam','wireless-door-lock','unified-gateway'
           ]
         }
       ]
