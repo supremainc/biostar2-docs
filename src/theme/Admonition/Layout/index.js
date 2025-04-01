@@ -16,7 +16,7 @@ function AdmonitionContainer({type, className, children}) {
   );
 }
 function AdmonitionHeading({icon, title, type}) {
-  console.log(type);
+  // console.log(type);
   return (
     <div className={(type === 'note') ? styles.admonitionHeadingNote : styles.admonitionHeading}>
       <span className={styles.admonitionIcon}>{icon}</span>
