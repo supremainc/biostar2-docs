@@ -847,7 +847,7 @@ function DocItemLayout(param) {
 
 
 }),
-"6750": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+"5739": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
@@ -1201,6 +1201,35 @@ function Head(param) {
 
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
 var useBaseUrl = __webpack_require__("3187");
+;// CONCATENATED MODULE: ./src/components/Image/useImageDimensions.js
+
+function useImageDimensions(src) {
+    const [dimensions, setDimensions] = (0,react.useState)({
+        width: null,
+        height: null
+    });
+    (0,react.useEffect)(()=>{
+        if (!src) return; // src가 없으면 로직 실행 중단
+        const img = new Image();
+        img.src = src;
+        img.onload = ()=>{
+            setDimensions({
+                width: img.width,
+                height: img.height
+            });
+        };
+        img.onerror = ()=>{
+            setDimensions({
+                width: null,
+                height: null
+            });
+        };
+    }, [
+        src
+    ]);
+    return dimensions;
+}
+
 ;// CONCATENATED MODULE: ./src/components/Image/index.js
 
 
@@ -1208,11 +1237,13 @@ var useBaseUrl = __webpack_require__("3187");
 
 
 
-function Image(param) {
+
+function Image_Image(param) {
     let { src, alt, className, alone, caption, ico } = param;
     const { i18n: { currentLocale } } = (0,useDocusaurusContext/* default */.Z)();
     const imagePath = currentLocale === 'ko' || alone ? (0,useBaseUrl/* default */.ZP)(src) : (0,useBaseUrl/* default */.ZP)(src.replace('/img/', `/img/${currentLocale}/`));
     const errTarget = (0,useBaseUrl/* default */.ZP)('/img/default-placeholder-image.webp');
+    const dimensions = useImageDimensions(imagePath);
     // Handle image loading errors
     function onError(e) {
         e.target.src = errTarget;
@@ -1223,7 +1254,9 @@ function Image(param) {
             src: imagePath,
             alt: alt,
             className: (0,clsx/* default */.Z)('ico', className),
-            onError: onError
+            onError: onError,
+            width: dimensions.width || undefined,
+            height: dimensions.height || undefined
         });
     } else {
         return /*#__PURE__*/ (0,jsx_runtime.jsx)(MDXContent/* default */.Z, {
@@ -1234,7 +1267,9 @@ function Image(param) {
                         src: imagePath,
                         alt: alt,
                         className: (0,clsx/* default */.Z)('img', className),
-                        onError: onError
+                        onError: onError,
+                        width: dimensions.width || undefined,
+                        height: dimensions.height || undefined
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("figcaption", {
                         children: (0,Translate/* translate */.I)({
@@ -1250,7 +1285,9 @@ function Image(param) {
                     src: imagePath,
                     alt: alt,
                     className: className,
-                    onError: onError
+                    onError: onError,
+                    width: dimensions.width || undefined,
+                    height: dimensions.height || undefined
                 })
             })
         });
@@ -1527,8 +1564,631 @@ function NextItem(param) {
     });
 }
 
-;// CONCATENATED MODULE: ./static/img/menus/ico-license.svg
+;// CONCATENATED MODULE: ./src/components/Num/num-1.svg
 var _path, _path2;
+function num_1_extends() { return num_1_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_1_extends.apply(null, arguments); }
+
+const SvgNum1 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_1_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 25,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 25 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.5 25.03c6.904 0 12.5-5.596 12.5-12.5S19.404.03 12.5.03 0 5.626 0 12.53s5.596 12.5 12.5 12.5"
+  })), _path2 || (_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M13.51 18.95h-1.89v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07a7 7 0 0 1-.49.47c-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58v12.85z"
+  })));
+};
+/* ESM default export */ const num_1 = (SvgNum1);
+;// CONCATENATED MODULE: ./src/components/Num/num-2.svg
+var num_2_path, num_2_path2;
+function num_2_extends() { return num_2_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_2_extends.apply(null, arguments); }
+
+const SvgNum2 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_2_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_2_path || (num_2_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.58 25.03c6.904 0 12.5-5.596 12.5-12.5S19.484.03 12.58.03.08 5.626.08 12.53s5.596 12.5 12.5 12.5"
+  })), num_2_path2 || (num_2_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M16.91 19.04H8.27v-1.48l3.31-3.37c.65-.66 1.19-1.23 1.62-1.72s.76-.95.97-1.4c.22-.45.32-.94.32-1.47 0-.65-.19-1.14-.57-1.48s-.88-.5-1.5-.5c-.59 0-1.12.11-1.58.32-.47.22-.95.53-1.46.94L8.35 7.6c.52-.43 1.1-.81 1.76-1.12.66-.32 1.45-.48 2.36-.48 1.21 0 2.17.31 2.88.94.71.62 1.06 1.46 1.06 2.5 0 .68-.14 1.32-.41 1.91-.28.59-.67 1.17-1.17 1.75s-1.1 1.19-1.78 1.84l-2.39 2.32v.09h6.25z"
+  })));
+};
+/* ESM default export */ const num_2 = (SvgNum2);
+;// CONCATENATED MODULE: ./src/components/Num/num-3.svg
+var num_3_path, num_3_path2;
+function num_3_extends() { return num_3_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_3_extends.apply(null, arguments); }
+
+const SvgNum3 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_3_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_3_path || (num_3_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.67 25.03c6.904 0 12.5-5.596 12.5-12.5S19.574.03 12.67.03.17 5.626.17 12.53s5.596 12.5 12.5 12.5"
+  })), num_3_path2 || (num_3_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M16.59 9.1c0 .88-.25 1.57-.74 2.09s-1.14.86-1.94 1.03v.07c1.02.12 1.79.44 2.3.97.52.53.77 1.21.77 2.05 0 .74-.18 1.41-.53 1.99s-.9 1.04-1.64 1.37-1.68.5-2.83.5c-.68 0-1.32-.05-1.91-.16s-1.15-.29-1.67-.54v-1.73c.54.28 1.12.49 1.75.63.62.14 1.21.22 1.76.22 1.1 0 1.89-.21 2.37-.62.47-.41.71-.99.71-1.74s-.29-1.25-.86-1.58c-.58-.33-1.44-.5-2.59-.5h-1.17v-1.57h1.19c1.09 0 1.88-.2 2.38-.61s.74-.94.74-1.6c0-.58-.19-1.02-.57-1.34s-.92-.48-1.63-.48c-.66 0-1.23.11-1.72.32s-.94.45-1.36.73l-.94-1.31c.48-.36 1.06-.67 1.73-.93q1.005-.39 2.34-.39 1.995 0 3.03.87c.69.58 1.04 1.34 1.04 2.28z"
+  })));
+};
+/* ESM default export */ const num_3 = (SvgNum3);
+;// CONCATENATED MODULE: ./src/components/Num/num-4.svg
+var num_4_path, num_4_path2;
+function num_4_extends() { return num_4_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_4_extends.apply(null, arguments); }
+
+const SvgNum4 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_4_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_4_path || (num_4_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.75 25.03c6.904 0 12.5-5.596 12.5-12.5S19.654.03 12.75.03.25 5.626.25 12.53s5.596 12.5 12.5 12.5"
+  })), num_4_path2 || (num_4_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M17.56 16.14h-1.78v2.84h-1.85v-2.84H7.97v-1.51l5.92-8.55h1.89v8.44h1.78zm-3.64-1.62v-3.49c0-.56 0-1.09.03-1.59.02-.5.04-.92.06-1.25h-.07c-.1.24-.22.49-.36.74s-.28.47-.41.67l-3.4 4.93h4.16z"
+  })));
+};
+/* ESM default export */ const num_4 = (SvgNum4);
+;// CONCATENATED MODULE: ./src/components/Num/num-5.svg
+var num_5_path, num_5_path2;
+function num_5_extends() { return num_5_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_5_extends.apply(null, arguments); }
+
+const SvgNum5 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_5_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_5_path || (num_5_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.83 25.03c6.904 0 12.5-5.596 12.5-12.5S19.734.03 12.83.03.33 5.626.33 12.53s5.596 12.5 12.5 12.5"
+  })), num_5_path2 || (num_5_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M12.76 10.89c1.27 0 2.3.33 3.08.99s1.17 1.6 1.17 2.83c0 1.36-.43 2.42-1.28 3.19s-2.06 1.15-3.62 1.15c-.67 0-1.3-.06-1.88-.18s-1.08-.29-1.49-.52V16.6c.43.25.96.46 1.58.61.62.16 1.21.23 1.77.23.9 0 1.62-.21 2.16-.62s.81-1.06.81-1.93c0-.78-.24-1.38-.73-1.79s-1.25-.62-2.29-.62c-.34 0-.71.03-1.12.09s-.75.12-1 .18l-.88-.52.49-6.21h6.61v1.69h-4.95l-.29 3.37c.2-.04.46-.07.77-.12.31-.04.68-.06 1.1-.06z"
+  })));
+};
+/* ESM default export */ const num_5 = (SvgNum5);
+;// CONCATENATED MODULE: ./src/components/Num/num-6.svg
+var num_6_path, num_6_path2;
+function num_6_extends() { return num_6_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_6_extends.apply(null, arguments); }
+
+const SvgNum6 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_6_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_6_path || (num_6_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.92 25.03c6.904 0 12.5-5.596 12.5-12.5S19.824.03 12.92.03.42 5.626.42 12.53s5.596 12.5 12.5 12.5"
+  })), num_6_path2 || (num_6_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M8.65 13.48c0-.74.05-1.48.15-2.2q.15-1.08.54-2.04c.26-.64.61-1.21 1.07-1.71s1.03-.89 1.74-1.17 1.55-.42 2.55-.42c.25 0 .54 0 .86.03q.48.03.78.12v1.6c-.23-.07-.48-.13-.75-.16-.27-.04-.54-.05-.8-.05-.83 0-1.51.13-2.05.38s-.97.6-1.28 1.04-.54.96-.68 1.55q-.21.885-.27 1.89h.11c.26-.42.64-.78 1.12-1.07s1.1-.44 1.85-.44c1.12 0 2.01.34 2.69 1.04s1.02 1.67 1.02 2.92c0 1.34-.38 2.41-1.12 3.19-.75.78-1.77 1.17-3.05 1.17-.83 0-1.58-.2-2.26-.61s-1.21-1.03-1.61-1.86-.59-1.89-.59-3.18zm4.45 4.07c.68 0 1.24-.23 1.67-.68s.65-1.15.65-2.1q0-1.14-.57-1.8c-.38-.44-.95-.67-1.7-.67-.52 0-.97.11-1.35.32-.38.22-.68.49-.9.83s-.32.68-.32 1.03c0 .48.1.96.29 1.43s.47.86.85 1.17c.37.31.83.46 1.39.46z"
+  })));
+};
+/* ESM default export */ const num_6 = (SvgNum6);
+;// CONCATENATED MODULE: ./src/components/Num/num-7.svg
+var num_7_path, num_7_path2;
+function num_7_extends() { return num_7_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_7_extends.apply(null, arguments); }
+
+const SvgNum7 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_7_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_7_path || (num_7_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M13 25.03c6.904 0 12.5-5.596 12.5-12.5S19.904.03 13 .03.5 5.626.5 12.53s5.596 12.5 12.5 12.5"
+  })), num_7_path2 || (num_7_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "m10.25 18.95 5.13-11.16H8.63V6.1h8.8v1.37l-5.11 11.48z"
+  })));
+};
+/* ESM default export */ const num_7 = (SvgNum7);
+;// CONCATENATED MODULE: ./src/components/Num/num-8.svg
+var num_8_path, num_8_path2;
+function num_8_extends() { return num_8_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_8_extends.apply(null, arguments); }
+
+const SvgNum8 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_8_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_8_path || (num_8_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M13.09 25.03c6.904 0 12.5-5.596 12.5-12.5S19.994.03 13.09.03.59 5.626.59 12.53s5.596 12.5 12.5 12.5"
+  })), num_8_path2 || (num_8_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M13.07 5.92c.76 0 1.43.12 2.02.35s1.05.58 1.39 1.04.51 1.03.51 1.7c0 .77-.23 1.4-.7 1.89s-1.03.91-1.69 1.24c.5.25.97.54 1.39.86.43.32.77.69 1.03 1.12q.39.645.39 1.5 0 1.08-.54 1.86c-.36.52-.86.93-1.5 1.21s-1.39.43-2.26.43c-1.39 0-2.47-.3-3.22-.91-.76-.61-1.13-1.46-1.13-2.55 0-.58.12-1.08.36-1.52s.56-.81.95-1.12c.4-.31.83-.58 1.3-.79-.62-.36-1.15-.79-1.57-1.31-.42-.51-.63-1.15-.63-1.93 0-.66.17-1.22.52-1.68s.82-.81 1.4-1.04c.59-.23 1.25-.35 1.98-.35m-2.48 9.72c0 .58.2 1.06.61 1.44s1.03.58 1.87.58 1.44-.19 1.86-.57.64-.87.64-1.47-.23-1.07-.7-1.46c-.47-.38-1.05-.73-1.75-1.03l-.27-.11c-.73.31-1.29.67-1.68 1.09-.39.41-.58.92-.58 1.52zm2.46-8.22c-.6 0-1.09.15-1.48.44-.38.29-.58.71-.58 1.25 0 .6.21 1.07.62 1.4s.92.63 1.5.89c.55-.24 1.03-.53 1.42-.88.4-.35.59-.82.59-1.4 0-.54-.19-.96-.58-1.25-.38-.29-.89-.44-1.51-.44z"
+  })));
+};
+/* ESM default export */ const num_8 = (SvgNum8);
+;// CONCATENATED MODULE: ./src/components/Num/num-9.svg
+var num_9_path, num_9_path2;
+function num_9_extends() { return num_9_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_9_extends.apply(null, arguments); }
+
+const SvgNum9 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_9_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_9_path || (num_9_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M13.17 25.03c6.904 0 12.5-5.596 12.5-12.5S20.074.03 13.17.03.67 5.626.67 12.53s5.596 12.5 12.5 12.5"
+  })), num_9_path2 || (num_9_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M17.47 11.59q0 1.095-.15 2.19c-.1.73-.28 1.41-.54 2.05s-.62 1.21-1.07 1.71c-.46.5-1.04.89-1.75 1.17s-1.56.42-2.56.42c-.24 0-.52-.01-.85-.04-.33-.02-.6-.07-.8-.13v-1.6c.23.07.48.13.77.16.28.04.55.05.82.05.83 0 1.51-.12 2.05-.37s.97-.59 1.28-1.04c.31-.44.54-.96.68-1.54s.23-1.21.25-1.88h-.11c-.26.41-.63.76-1.1 1.05s-1.1.44-1.89.44c-1.1 0-1.99-.34-2.66-1.03s-1.01-1.66-1.01-2.91c0-1.36.38-2.42 1.13-3.2S11.73 5.92 13 5.92c.83 0 1.58.2 2.26.61s1.21 1.03 1.61 1.86.59 1.89.59 3.18zm-4.44-4.08c-.68 0-1.24.23-1.67.68s-.65 1.15-.65 2.09c0 .77.19 1.37.56 1.82.37.44.94.67 1.69.67.53 0 .99-.11 1.38-.32.39-.22.69-.49.9-.83s.32-.68.32-1.04c0-.48-.09-.95-.28-1.42a2.86 2.86 0 0 0-.85-1.17c-.38-.31-.84-.47-1.4-.47z"
+  })));
+};
+/* ESM default export */ const num_9 = (SvgNum9);
+;// CONCATENATED MODULE: ./src/components/Num/num-10.svg
+var num_10_path, num_10_path2;
+function num_10_extends() { return num_10_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_10_extends.apply(null, arguments); }
+
+const SvgNum10 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_10_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_10_path || (num_10_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M13.25 25.02c6.904 0 12.5-5.596 12.5-12.5S20.154.02 13.25.02.75 5.616.75 12.52s5.596 12.5 12.5 12.5"
+  })), num_10_path2 || (num_10_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.84 18.96H7.95v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13L4.58 9l3.67-2.88h1.58v12.85zM21.92 12.52c0 1.39-.14 2.58-.43 3.56s-.75 1.74-1.39 2.27-1.49.79-2.53.79c-1.48 0-2.56-.58-3.27-1.76-.7-1.17-1.05-2.79-1.05-4.87 0-1.39.14-2.58.42-3.56s.74-1.74 1.38-2.26q.96-.78 2.52-.78c1.46 0 2.56.58 3.28 1.74s1.08 2.78 1.08 4.87zm-6.76 0c0 1.68.18 2.94.54 3.77s.98 1.25 1.87 1.25 1.5-.41 1.87-1.24.56-2.09.56-3.78-.19-2.92-.56-3.75-1-1.25-1.87-1.25-1.51.42-1.87 1.25q-.54 1.245-.54 3.75"
+  })));
+};
+/* ESM default export */ const num_10 = (SvgNum10);
+;// CONCATENATED MODULE: ./src/components/Num/num-11.svg
+var num_11_path, num_11_path2;
+function num_11_extends() { return num_11_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_11_extends.apply(null, arguments); }
+
+const SvgNum11 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_11_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 25,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 25 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_11_path || (num_11_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.5 25.03c6.904 0 12.5-5.596 12.5-12.5S19.404.03 12.5.03 0 5.626 0 12.53s5.596 12.5 12.5 12.5"
+  })), num_11_path2 || (num_11_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M10.48 18.95H8.59v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58v12.85zM19.77 18.95h-1.89v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07a7 7 0 0 1-.49.47c-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58v12.85z"
+  })));
+};
+/* ESM default export */ const num_11 = (SvgNum11);
+;// CONCATENATED MODULE: ./src/components/Num/num-12.svg
+var num_12_path, num_12_path2;
+function num_12_extends() { return num_12_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_12_extends.apply(null, arguments); }
+
+const SvgNum12 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_12_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_12_path || (num_12_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.58 25.03c6.904 0 12.5-5.596 12.5-12.5S19.484.03 12.58.03.08 5.626.08 12.53s5.596 12.5 12.5 12.5"
+  })), num_12_path2 || (num_12_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.18 19.04H7.29v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07a7 7 0 0 1-.49.47c-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22L7.59 6.2h1.58v12.85zM21.24 19.04H12.6v-1.48l3.31-3.37c.65-.66 1.19-1.23 1.62-1.72s.76-.95.97-1.4c.22-.45.32-.94.32-1.47 0-.65-.19-1.14-.57-1.48s-.88-.5-1.5-.5c-.59 0-1.12.11-1.58.32-.47.22-.95.53-1.46.94L12.68 7.6c.52-.43 1.1-.81 1.76-1.12.66-.32 1.45-.48 2.36-.48 1.21 0 2.17.31 2.88.94.71.62 1.06 1.46 1.06 2.5 0 .68-.14 1.32-.41 1.91-.28.59-.67 1.17-1.17 1.75s-1.1 1.19-1.78 1.84l-2.39 2.32v.09h6.25z"
+  })));
+};
+/* ESM default export */ const num_12 = (SvgNum12);
+;// CONCATENATED MODULE: ./src/components/Num/num-13.svg
+var num_13_path, num_13_path2;
+function num_13_extends() { return num_13_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_13_extends.apply(null, arguments); }
+
+const SvgNum13 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_13_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_13_path || (num_13_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.66 25.07c6.904 0 12.5-5.596 12.5-12.5S19.564.07 12.66.07.16 5.666.16 12.57s5.596 12.5 12.5 12.5"
+  })), num_13_path2 || (num_13_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.31 19H7.42v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88H9.3v12.85zM20.88 9.12c0 .88-.25 1.57-.74 2.09s-1.14.86-1.94 1.03v.07c1.02.12 1.79.44 2.3.97.52.53.77 1.21.77 2.05 0 .74-.18 1.41-.53 1.99s-.9 1.04-1.64 1.37-1.68.5-2.83.5c-.68 0-1.32-.05-1.91-.16s-1.15-.29-1.67-.54v-1.73c.54.28 1.12.49 1.75.63.62.14 1.21.22 1.76.22 1.1 0 1.89-.21 2.37-.62.47-.41.71-.99.71-1.74s-.29-1.25-.86-1.58c-.58-.33-1.44-.5-2.59-.5h-1.17V11.6h1.19c1.09 0 1.88-.2 2.38-.61s.74-.94.74-1.6c0-.58-.19-1.02-.57-1.34s-.92-.48-1.63-.48c-.66 0-1.23.11-1.72.32s-.94.45-1.36.73l-.94-1.31c.48-.36 1.06-.67 1.73-.93q1.005-.39 2.34-.39 1.995 0 3.03.87c.69.58 1.04 1.34 1.04 2.28z"
+  })));
+};
+/* ESM default export */ const num_13 = (SvgNum13);
+;// CONCATENATED MODULE: ./src/components/Num/num-14.svg
+var num_14_path, num_14_path2;
+function num_14_extends() { return num_14_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_14_extends.apply(null, arguments); }
+
+const SvgNum14 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_14_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_14_path || (num_14_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.75 25.04c6.904 0 12.5-5.596 12.5-12.5S19.654.04 12.75.04.25 5.636.25 12.54s5.596 12.5 12.5 12.5"
+  })), num_14_path2 || (num_14_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.1 18.99H7.21v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58V19zM21.65 16.15h-1.78v2.84h-1.85v-2.84h-5.96v-1.51l5.92-8.55h1.89v8.44h1.78zm-3.63-1.62v-3.49c0-.56 0-1.09.03-1.59.02-.5.04-.92.06-1.25h-.07c-.1.24-.22.49-.36.74s-.28.47-.41.67l-3.4 4.93h4.16z"
+  })));
+};
+/* ESM default export */ const num_14 = (SvgNum14);
+;// CONCATENATED MODULE: ./src/components/Num/num-15.svg
+var num_15_path, num_15_path2;
+function num_15_extends() { return num_15_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_15_extends.apply(null, arguments); }
+
+const SvgNum15 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_15_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_15_path || (num_15_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.83 25.07c6.904 0 12.5-5.596 12.5-12.5S19.734.07 12.83.07.33 5.666.33 12.57s5.596 12.5 12.5 12.5"
+  })), num_15_path2 || (num_15_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.5 18.91H7.61v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58v12.85zM17.17 10.94c1.27 0 2.3.33 3.08.99s1.17 1.6 1.17 2.83c0 1.36-.43 2.42-1.28 3.19s-2.06 1.15-3.62 1.15c-.67 0-1.3-.06-1.88-.18s-1.08-.29-1.49-.52v-1.75c.43.25.96.46 1.58.61.62.16 1.21.23 1.77.23.9 0 1.62-.21 2.16-.62s.81-1.06.81-1.93c0-.78-.24-1.38-.73-1.79s-1.25-.62-2.29-.62c-.34 0-.71.03-1.12.09s-.75.12-1 .18l-.88-.52.49-6.21h6.61v1.69H15.6l-.29 3.37c.2-.04.46-.07.77-.12.31-.04.68-.06 1.1-.06z"
+  })));
+};
+/* ESM default export */ const num_15 = (SvgNum15);
+;// CONCATENATED MODULE: ./src/components/Num/num-16.svg
+var num_16_path, num_16_path2;
+function num_16_extends() { return num_16_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_16_extends.apply(null, arguments); }
+
+const SvgNum16 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_16_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_16_path || (num_16_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M12.92 25.08c6.904 0 12.5-5.596 12.5-12.5S19.824.08 12.92.08.42 5.676.42 12.58s5.596 12.5 12.5 12.5"
+  })), num_16_path2 || (num_16_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.48 19H7.59v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58v12.85zM12.96 13.52c0-.74.05-1.48.15-2.2q.15-1.08.54-2.04c.26-.64.61-1.21 1.07-1.71s1.03-.89 1.74-1.17q1.05-.42 2.55-.42c.25 0 .54 0 .86.03q.48.03.78.12v1.6c-.23-.07-.48-.13-.75-.16-.27-.04-.54-.05-.8-.05-.83 0-1.51.13-2.05.38s-.97.6-1.28 1.04-.54.96-.68 1.55q-.21.885-.27 1.89h.11c.26-.42.64-.78 1.12-1.07s1.1-.44 1.85-.44c1.12 0 2.01.35 2.69 1.04s1.02 1.67 1.02 2.93c0 1.34-.38 2.41-1.12 3.19-.75.78-1.77 1.17-3.05 1.17-.83 0-1.58-.2-2.26-.61s-1.21-1.03-1.61-1.86-.59-1.89-.59-3.18zm4.45 4.07c.68 0 1.24-.22 1.67-.67s.65-1.15.65-2.1q0-1.14-.57-1.8c-.38-.44-.95-.67-1.7-.67-.52 0-.97.11-1.35.32-.38.22-.68.49-.9.83s-.32.68-.32 1.03c0 .48.1.96.29 1.43s.47.86.85 1.17c.37.31.83.46 1.39.46z"
+  })));
+};
+/* ESM default export */ const num_16 = (SvgNum16);
+;// CONCATENATED MODULE: ./src/components/Num/num-17.svg
+var num_17_path, num_17_path2;
+function num_17_extends() { return num_17_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_17_extends.apply(null, arguments); }
+
+const SvgNum17 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_17_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_17_path || (num_17_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M13 25.03c6.904 0 12.5-5.596 12.5-12.5S19.904.03 13 .03.5 5.626.5 12.53s5.596 12.5 12.5 12.5"
+  })), num_17_path2 || (num_17_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.58 18.95H7.69v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58v12.85zM14.5 18.95l5.13-11.16h-6.75V6.1h8.8v1.37l-5.11 11.48z"
+  })));
+};
+/* ESM default export */ const num_17 = (SvgNum17);
+;// CONCATENATED MODULE: ./src/components/Num/num-18.svg
+var num_18_path, num_18_path2;
+function num_18_extends() { return num_18_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_18_extends.apply(null, arguments); }
+
+const SvgNum18 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_18_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_18_path || (num_18_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M13.08 25.09c6.903 0 12.5-5.596 12.5-12.5S19.984.09 13.08.09.58 5.686.58 12.59s5.596 12.5 12.5 12.5"
+  })), num_18_path2 || (num_18_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.68 19.01H7.79v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58v12.85zM17.41 5.98c.76 0 1.43.12 2.02.35s1.05.58 1.39 1.04.51 1.03.51 1.7c0 .77-.23 1.4-.7 1.89s-1.03.91-1.69 1.24c.5.25.97.54 1.39.86.43.32.77.69 1.03 1.12q.39.645.39 1.5 0 1.08-.54 1.86c-.36.52-.86.93-1.5 1.21s-1.39.43-2.26.43c-1.39 0-2.47-.3-3.22-.91-.76-.61-1.13-1.46-1.13-2.55 0-.58.12-1.08.36-1.52s.56-.81.95-1.12c.4-.31.83-.58 1.3-.79-.62-.36-1.15-.79-1.57-1.31-.42-.51-.63-1.15-.63-1.93 0-.66.17-1.22.52-1.68s.82-.81 1.4-1.04c.59-.23 1.25-.35 1.98-.35m-2.49 9.72c0 .58.2 1.06.61 1.44s1.03.58 1.87.58 1.44-.19 1.86-.57.64-.87.64-1.47-.23-1.07-.7-1.46c-.47-.38-1.05-.73-1.75-1.03l-.27-.11c-.73.31-1.29.67-1.68 1.09-.39.41-.58.92-.58 1.52zm2.47-8.23c-.6 0-1.09.15-1.48.44-.38.29-.58.71-.58 1.25 0 .6.21 1.07.62 1.4s.92.63 1.5.89c.55-.24 1.03-.53 1.42-.88.4-.35.59-.82.59-1.4 0-.54-.19-.96-.58-1.25-.38-.29-.89-.44-1.51-.44z"
+  })));
+};
+/* ESM default export */ const num_18 = (SvgNum18);
+;// CONCATENATED MODULE: ./src/components/Num/num-19.svg
+var num_19_path, num_19_path2;
+function num_19_extends() { return num_19_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_19_extends.apply(null, arguments); }
+
+const SvgNum19 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_19_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 25,
+    fill: "none",
+    viewBox: "0 0 26 25",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_19_path || (num_19_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M13.17 25c6.904 0 12.5-5.596 12.5-12.5S20.074 0 13.17 0 .67 5.596.67 12.5 6.266 25 13.17 25"
+  })), num_19_path2 || (num_19_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M9.77 18.92H7.88v-8.53c0-.46 0-.87.02-1.23.01-.37.03-.72.05-1.07-.16.17-.32.32-.49.47-.17.14-.36.31-.58.49l-1.4 1.13-.97-1.22 3.67-2.88h1.58v12.85zM21.82 11.56q0 1.095-.15 2.19c-.1.73-.28 1.41-.54 2.05s-.62 1.21-1.07 1.71-1.04.89-1.75 1.17-1.56.42-2.56.42c-.24 0-.52-.01-.85-.04s-.6-.07-.8-.13v-1.6c.23.07.48.13.77.16.28.04.55.05.82.05.83 0 1.51-.12 2.05-.37s.97-.59 1.28-1.04c.31-.44.54-.96.68-1.54s.23-1.21.25-1.88h-.11c-.26.41-.63.76-1.1 1.05s-1.1.44-1.89.44c-1.1 0-1.99-.34-2.66-1.04-.67-.69-1.01-1.66-1.01-2.91 0-1.36.38-2.42 1.13-3.2.76-.78 1.77-1.17 3.04-1.17.83 0 1.58.21 2.26.61.68.41 1.21 1.03 1.61 1.86s.59 1.89.59 3.18zm-4.45-4.09c-.68 0-1.24.23-1.67.68-.43.46-.65 1.15-.65 2.09 0 .77.19 1.37.56 1.82.37.44.94.67 1.69.67.53 0 .99-.11 1.38-.32.39-.22.69-.49.9-.83.21-.33.32-.68.32-1.04 0-.48-.09-.95-.28-1.42a2.86 2.86 0 0 0-.85-1.17c-.38-.31-.84-.47-1.4-.47z"
+  })));
+};
+/* ESM default export */ const num_19 = (SvgNum19);
+;// CONCATENATED MODULE: ./src/components/Num/num-20.svg
+var num_20_path, num_20_path2;
+function num_20_extends() { return num_20_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, num_20_extends.apply(null, arguments); }
+
+const SvgNum20 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/react.createElement("svg", num_20_extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 26,
+    height: 26,
+    fill: "none",
+    viewBox: "0 0 26 26",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/react.createElement("title", {
+    id: titleId
+  }, title) : null, num_20_path || (num_20_path = /*#__PURE__*/react.createElement("path", {
+    fill: "#A42444",
+    d: "M13.25 25.07c6.904 0 12.5-5.596 12.5-12.5S20.154.07 13.25.07.75 5.666.75 12.57s5.596 12.5 12.5 12.5"
+  })), num_20_path2 || (num_20_path2 = /*#__PURE__*/react.createElement("path", {
+    fill: "#fff",
+    d: "M12.41 19H3.77v-1.48l3.31-3.37c.65-.66 1.19-1.23 1.62-1.72s.76-.95.97-1.4c.22-.45.32-.94.32-1.47 0-.65-.19-1.14-.57-1.48s-.88-.5-1.5-.5c-.59 0-1.12.11-1.58.32-.47.22-.95.53-1.46.94L3.85 7.56c.52-.43 1.1-.81 1.76-1.12.66-.32 1.45-.48 2.36-.48 1.21 0 2.17.31 2.88.94.71.62 1.06 1.46 1.06 2.5 0 .68-.14 1.32-.41 1.91-.28.59-.67 1.17-1.17 1.75s-1.1 1.19-1.78 1.84l-2.39 2.32v.09h6.25zM22.73 12.56c0 1.39-.14 2.58-.43 3.56s-.75 1.74-1.39 2.27-1.49.79-2.53.79c-1.48 0-2.56-.58-3.27-1.75s-1.05-2.79-1.05-4.87c0-1.39.14-2.58.42-3.56s.74-1.74 1.38-2.26q.96-.78 2.52-.78c1.46 0 2.56.58 3.28 1.74s1.08 2.78 1.08 4.87zm-6.77 0c0 1.68.18 2.94.54 3.77s.98 1.25 1.87 1.25 1.5-.41 1.87-1.24.56-2.09.56-3.78-.19-2.92-.56-3.75-1-1.25-1.87-1.25-1.51.42-1.87 1.25q-.54 1.245-.54 3.75"
+  })));
+};
+/* ESM default export */ const num_20 = (SvgNum20);
+;// CONCATENATED MODULE: ./src/components/Num/styles.module.css
+// extracted by css-extract-rspack-plugin
+/* ESM default export */ const Num_styles_module = ({"leadNum":"leadNum_DX6E"});
+;// CONCATENATED MODULE: ./src/components/Num/index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 모든 숫자 컴포넌트를 배열로 관리
+const NumComponents = [
+    num_1,
+    num_2,
+    num_3,
+    num_4,
+    num_5,
+    num_6,
+    num_7,
+    num_8,
+    num_9,
+    num_10,
+    num_11,
+    num_12,
+    num_13,
+    num_14,
+    num_15,
+    num_16,
+    num_17,
+    num_18,
+    num_19,
+    num_20
+];
+function Num(param) {
+    let { num } = param;
+    // 유효한 숫자 범위 확인 (1-20)
+    if (num < 1 || num > 20) {
+        return null;
+    }
+    // 배열 인덱스는 0부터 시작하므로 num-1로 접근
+    const NumComponent = NumComponents[num - 1];
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+        className: Num_styles_module.leadNum,
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(NumComponent, {})
+    });
+}
+
+;// CONCATENATED MODULE: ./static/img/menus/ico-license.svg
+var ico_license_path, ico_license_path2;
 function ico_license_extends() { return ico_license_extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, ico_license_extends.apply(null, arguments); }
 
 const SvgIcoLicense = _ref => {
@@ -1546,13 +2206,13 @@ const SvgIcoLicense = _ref => {
     "aria-labelledby": titleId
   }, props), title ? /*#__PURE__*/react.createElement("title", {
     id: titleId
-  }, title) : null, _path || (_path = /*#__PURE__*/react.createElement("path", {
+  }, title) : null, ico_license_path || (ico_license_path = /*#__PURE__*/react.createElement("path", {
     stroke: "#000",
     strokeLinecap: "round",
     strokeLinejoin: "round",
     strokeWidth: 1.333,
     d: "M10 1.333H4a1.333 1.333 0 0 0-1.333 1.334v10.666A1.333 1.333 0 0 0 4 14.667h8a1.333 1.333 0 0 0 1.333-1.334V4.667z"
-  })), _path2 || (_path2 = /*#__PURE__*/react.createElement("path", {
+  })), ico_license_path2 || (ico_license_path2 = /*#__PURE__*/react.createElement("path", {
     stroke: "#000",
     strokeLinecap: "round",
     strokeLinejoin: "round",
@@ -1782,6 +2442,7 @@ const SvgIcoMore = _ref => {
 
 
 
+
 // icon images svg
 
 
@@ -1801,7 +2462,7 @@ const SvgIcoMore = _ref => {
     Folder: Folder,
     File: File,
     Head: Head,
-    Image: Image,
+    Image: Image_Image,
     DocsSidebar: Toc,
     Collection: components_Collection,
     Kbd: Kbd,
@@ -1819,6 +2480,7 @@ const SvgIcoMore = _ref => {
     Start: Start,
     NextStep: NextStep,
     NextItem: NextItem,
+    Num: Num,
     IcLicense: ico_license,
     IcAdd: ico_add,
     IcClose: ico_close,
