@@ -32,7 +32,51 @@ const sidebars = {
             id: 'index',
           },
           items: [
-            '298','multi-factor-auth-for-login','visual-face-with-template','new-dashboard','quick-action','timed-apb','advanced-search','user-photo-enroll-using-webcam','wireless-door-lock','unified-gateway',
+            {
+              type: 'category',
+              label: 'BioStar 2.9.8',
+              link: {
+                type: 'doc',
+                id: 'biostar_298'
+              },
+              items: [
+                '298-deny-access-when-wearing-mask',
+                '298-file-upload-user-information',
+                '298-device-display-message',
+                '298-update-timed-apb',
+                '298-csn-mobile-card',
+                '298-other-update',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'BioStar 2.9.7',
+              link: {
+                type: 'doc',
+                id: 'biostar_297'
+              },
+              items: [
+                'multi-factor-auth-for-login',
+                'visual-face-with-template',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'BioStar 2.9.5',
+              link: {
+                type: 'doc',
+                id: 'biostar_295'
+              },
+              items: [
+                'new-dashboard',
+                'quick-action',
+                'timed-apb',
+                'advanced-search',
+                'user-photo-enroll-using-webcam',
+                'wireless-door-lock',
+                'unified-gateway',
+              ]
+            },
           ]
         }
       ]
