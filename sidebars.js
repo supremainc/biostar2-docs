@@ -29,7 +29,7 @@ const sidebars = {
           label: '신규 기능 소개',
           link: {
             type: 'doc',
-            id: 'index',
+            id: 'update/index',
           },
           items: [
             {
@@ -37,15 +37,15 @@ const sidebars = {
               label: 'BioStar 2.9.8',
               link: {
                 type: 'doc',
-                id: 'biostar_298'
+                id: 'update/biostar_298'
               },
               items: [
-                '298-deny-access-when-wearing-mask',
-                '298-file-upload-user-information',
-                '298-device-display-message',
-                '298-update-timed-apb',
-                '298-csn-mobile-card',
-                '298-other-update',
+                'update/298/deny-access-when-wearing-mask',
+                'update/298/file-upload-user-information',
+                'update/298/device-display-message',
+                'update/298/update-timed-apb',
+                'update/298/csn-mobile-card',
+                'update/298/other-update',
               ]
             },
             {
@@ -53,11 +53,11 @@ const sidebars = {
               label: 'BioStar 2.9.7',
               link: {
                 type: 'doc',
-                id: 'biostar_297'
+                id: 'update/biostar_297'
               },
               items: [
-                'multi-factor-auth-for-login',
-                'visual-face-with-template',
+                'update/297/multi-factor-auth-for-login',
+                'update/297/visual-face-with-template',
               ]
             },
             {
@@ -65,16 +65,16 @@ const sidebars = {
               label: 'BioStar 2.9.5',
               link: {
                 type: 'doc',
-                id: 'biostar_295'
+                id: 'update/biostar_295'
               },
               items: [
-                'new-dashboard',
-                'quick-action',
-                'timed-apb',
-                'advanced-search',
-                'user-photo-enroll-using-webcam',
-                'wireless-door-lock',
-                'unified-gateway',
+                'update/295/new-dashboard',
+                'update/295/quick-action',
+                'update/295/timed-apb',
+                'update/295/advanced-search',
+                'update/295/user-photo-enroll-using-webcam',
+                'update/295/wireless-door-lock',
+                'update/295/unified-gateway',
               ]
             },
           ]
