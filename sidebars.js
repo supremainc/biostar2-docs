@@ -26,7 +26,7 @@ const sidebars = {
       items: [
         {
           type: 'category',
-          label: 'BioStar 2 신규 기능 소개',
+          label: '신규 기능 소개',
           link: {
             type: 'doc',
             id: 'index',
