@@ -245,23 +245,23 @@ function _createMdxContent(props) {
           src: "/img/ko/biostar-setting-security-unified-gateway.png",
           className: "none",
           caption: true
-        }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
-          type: "info",
-          children: (0,jsx_runtime.jsxs)(_components.ul, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: [(0,jsx_runtime.jsx)(Cmd, {
-                  sid: "common.enabled"
-                }), "를 활성화하면 서버가 재시작되며 자동으로 로그인 페이지로 이동합니다."]
-              }), "\n"]
-            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "사용중인 포트일 경우 팝업 메시지가 나타납니다. 다른 포트 번호를 입력하고 다시 활성화하세요."
-              }), "\n"]
-            }), "\n"]
-          })
         }), "\n"]
       }), "\n"]
+    }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+      type: "info",
+      children: (0,jsx_runtime.jsxs)(_components.ul, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
+              sid: "common.enabled"
+            }), "를 활성화하면 서버가 재시작되며 자동으로 로그인 페이지로 이동합니다."]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+            children: "사용중인 포트일 경우 팝업 메시지가 나타납니다. 다른 포트 번호를 입력하고 다시 활성화하세요."
+          }), "\n"]
+        }), "\n"]
+      })
     })]
   });
 }

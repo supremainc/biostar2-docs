@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-user-photo-enroll-using-webcam-mdx-8db.json
-var site_docs_user_photo_enroll_using_webcam_mdx_8db_namespaceObject = JSON.parse('{"id":"user-photo-enroll-using-webcam","title":"웹캠으로 프로필 사진 & 비주얼 페이스 등록하기","description":"PC에 연결된 웹캠으로 사진을 촬영하고, 촬영된 사진으로 사용자 프로필 사진과 비주얼 페이스 크리덴셜을 등록할 수 있습니다.","source":"@site/docs/user-photo-enroll-using-webcam.mdx","sourceDirName":".","slug":"/user-photo-enroll-using-webcam","permalink":"/biostar2-docs/user-photo-enroll-using-webcam","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"user-photo-enroll-using-webcam","title":"웹캠으로 프로필 사진 & 비주얼 페이스 등록하기","description":"PC에 연결된 웹캠으로 사진을 촬영하고, 촬영된 사진으로 사용자 프로필 사진과 비주얼 페이스 크리덴셜을 등록할 수 있습니다.","keywords":["2.9.5","웹캠"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"고급 검색으로 사용자 검색하기","permalink":"/biostar2-docs/advanced-search"},"next":{"title":"무선 도어락 사용하기","permalink":"/biostar2-docs/wireless-door-lock"}}')
+var site_docs_user_photo_enroll_using_webcam_mdx_8db_namespaceObject = JSON.parse('{"id":"user-photo-enroll-using-webcam","title":"웹캠으로 프로필 사진 & 비주얼 페이스 등록하기","description":"PC에 연결된 웹캠으로 사진을 촬영하고, 촬영된 사진으로 사용자 프로필 사진과 비주얼 페이스 크리덴셜을 등록할 수 있습니다.","source":"@site/docs/user-photo-enroll-using-webcam.mdx","sourceDirName":".","slug":"/user-photo-enroll-using-webcam","permalink":"/biostar2-docs/en/user-photo-enroll-using-webcam","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"user-photo-enroll-using-webcam","title":"웹캠으로 프로필 사진 & 비주얼 페이스 등록하기","description":"PC에 연결된 웹캠으로 사진을 촬영하고, 촬영된 사진으로 사용자 프로필 사진과 비주얼 페이스 크리덴셜을 등록할 수 있습니다.","keywords":["2.9.5","웹캠"],"isTranslationMissing":true},"sidebar":"biostar","previous":{"title":"고급 검색으로 사용자 검색하기","permalink":"/biostar2-docs/en/advanced-search"},"next":{"title":"무선 도어락 사용하기","permalink":"/biostar2-docs/en/wireless-door-lock"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -31,7 +31,7 @@ const frontMatter = {
 		'2.9.5',
 		'웹캠'
 	],
-	isTranslationMissing: false
+	isTranslationMissing: true
 };
 const contentTitle = undefined;
 
@@ -161,65 +161,63 @@ function _createMdxContent(props) {
               }), "을 클릭하면 사용자의 비주얼 페이스 크리덴셜로 등록되어 비주얼 페이스 지원 장치에서 비주얼 페이스로 인증할 수 있습니다."]
             }), "\n"]
           }), "\n"]
-        }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
-          type: "info",
-          children: (0,jsx_runtime.jsxs)(_components.ul, {
+        }), "\n"]
+      }), "\n"]
+    }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+      type: "info",
+      children: (0,jsx_runtime.jsxs)(_components.ul, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+            children: "비주얼 페이스를 사용할 수 있는 장치는 아래와 같습니다."
+          }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
+              children: "FaceStation F2, BioStation 3"
+            }), "\n"]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+            children: "웹캠으로 얼굴을 촬영할 때 다음 사항에 유의하세요."
+          }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "비주얼 페이스를 사용할 수 있는 장치는 아래와 같습니다."
-              }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-                children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "FaceStation F2, BioStation 3"
-                  }), "\n"]
-                }), "\n"]
+                children: "웹캠과 너무 가깝거나 너무 멀지 않게 거리를 유지하세요."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "웹캠으로 얼굴을 촬영할 때 다음 사항에 유의하세요."
-              }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-                children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "웹캠과 너무 가깝거나 너무 멀지 않게 거리를 유지하세요."
-                  }), "\n"]
-                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "움직이지 말고 정면으로 얼굴을 등록하세요."
-                  }), "\n"]
-                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "표정이 변하지 않도록 주의하세요."
-                  }), "\n"]
-                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "마스크, 모자, 안대를 착용하지 마세요."
-                  }), "\n"]
-                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "고개를 들거나 숙이지 마세요."
-                  }), "\n"]
-                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "진한 화장을 하지 마세요."
-                  }), "\n"]
-                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "눈을 감지 마세요."
-                  }), "\n"]
-                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "양쪽 어깨가 모두 나타나도록 하세요."
-                  }), "\n"]
-                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "두 명의 얼굴이 동시에 나타나지 않도록 주의하세요. 한 번에 한 사람씩 촬영하세요."
-                  }), "\n"]
-                }), "\n"]
+                children: "움직이지 말고 정면으로 얼굴을 등록하세요."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "표정이 변하지 않도록 주의하세요."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "마스크, 모자, 안대를 착용하지 마세요."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "고개를 들거나 숙이지 마세요."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "진한 화장을 하지 마세요."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "눈을 감지 마세요."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "양쪽 어깨가 모두 나타나도록 하세요."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "두 명의 얼굴이 동시에 나타나지 않도록 주의하세요. 한 번에 한 사람씩 촬영하세요."
               }), "\n"]
             }), "\n"]
-          })
+          }), "\n"]
         }), "\n"]
-      }), "\n"]
+      })
     })]
   });
 }
