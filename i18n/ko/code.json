@@ -97,7 +97,7 @@
     "description": "The name for the light color mode"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "{count} 항목",
+    "message": "{count} 문서",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
@@ -355,12 +355,10 @@
     "description": "The title of the tag list page"
   },
   "theme.docs.nextStep": {
-    "message": "다음 단계",
-    "description": "The label for the next step section"
+    "message": "다음 단계"
   },
   "theme.figureCaption.desc": {
-    "message": "위 이미지는 예시 화면입니다. 실제 화면과 다를 수 있습니다.",
-    "description": "The description for the figure caption"
+    "message": "위 이미지는 예시 화면입니다. 실제 화면과 다를 수 있습니다."
   },
   "theme.cover.address": {
     "message": "<b>(주) 슈프리마</b><br/>13554 경기도 성남시 분당구 정자일로 248 파크뷰타워 17층<br/>영업 문의 1522 4507(1번) korea@suprema.co.kr | 고객지원 1522 4507(2번) cs@suprema.co.kr",
@@ -400,5 +398,8 @@
   },
   "biostar2.install.complete": {
     "message": "완료"
+  },
+  "theme.docs.overview.viewContent": {
+    "message": "둘러보기"
   }
 }

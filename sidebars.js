@@ -34,49 +34,107 @@ const sidebars = {
           items: [
             {
               type: 'category',
-              label: 'BioStar 2.9.8',
+              label: '2.9.8 버전',
               link: {
                 type: 'doc',
-                id: 'biostar_298'
+                id: 'update/biostar2-298'
               },
               items: [
-                '298-deny-access-when-wearing-mask',
-                '298-file-upload-user-information',
-                '298-device-display-message',
-                '298-update-timed-apb',
-                '298-csn-mobile-card',
-                '298-other-update',
+                'update/298/deny-access-when-wearing-mask',
+                'update/298/file-upload-user-information',
+                'update/298/device-display-message',
+                'update/298/update-timed-apb',
+                'update/298/csn-mobile-card',
+                'update/298/other-update',
               ]
             },
             {
               type: 'category',
-              label: 'BioStar 2.9.7',
+              label: '2.9.7 버전',
               link: {
                 type: 'doc',
-                id: 'biostar_297'
+                id: 'update/biostar2-297'
               },
               items: [
-                'multi-factor-auth-for-login',
-                'visual-face-with-template',
+                'update/297/multi-factor-auth-for-login',
+                'update/297/visual-face-with-template',
               ]
             },
             {
               type: 'category',
-              label: 'BioStar 2.9.5',
+              label: '2.9.5 버전',
               link: {
                 type: 'doc',
-                id: 'biostar_295'
+                id: 'update/biostar2-295'
               },
               items: [
-                'new-dashboard',
-                'quick-action',
-                'timed-apb',
-                'advanced-search',
-                'user-photo-enroll-using-webcam',
-                'wireless-door-lock',
-                'unified-gateway',
+                'update/295/new-dashboard',
+                'update/295/quick-action',
+                'update/295/timed-apb',
+                'update/295/advanced-search',
+                'update/295/user-photo-enroll-using-webcam',
+                'update/295/wireless-door-lock',
+                'update/295/unified-gateway',
               ]
             },
+          ]
+        },
+        {
+          type: 'html',
+          value: '<hr/>'
+        },
+        {
+          type: 'category',
+          label: '리비전 노트',
+          link: {
+            type: 'doc',
+            id: 'revision/index',
+          },
+          items: [
+            'revision/298',
+            'revision/297',
+            'revision/296',
+            'revision/295',
+            'revision/294',
+            'revision/293',
+            'revision/292',
+            'revision/291',
+            'revision/290',
+            'revision/2817',
+            'revision/2816',
+            'revision/2815',
+            'revision/2814',
+            'revision/2813',
+            'revision/2812',
+            'revision/2811',
+            'revision/2810',
+            'revision/289',
+            'revision/288',
+            'revision/286',
+            'revision/285',
+            'revision/284',
+            'revision/283',
+            'revision/282',
+            'revision/281',
+            'revision/280',
+            'revision/2714',
+            'revision/2712',
+            'revision/2711',
+            'revision/2710',
+            'revision/278',
+            'revision/277',
+            'revision/276',
+            'revision/275',
+            'revision/274',
+            'revision/273',
+            'revision/272',
+            'revision/271',
+            'revision/270',
+            'revision/264',
+            'revision/263',
+            'revision/262',
+            'revision/261',
+            'revision/260',
           ]
         }
       ]
