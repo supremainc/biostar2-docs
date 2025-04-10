@@ -29,15 +29,15 @@ const sidebars = {
           label: '신규 기능 소개',
           link: {
             type: 'doc',
-            id: 'update/index',
+            id: 'index',
           },
           items: [
             {
               type: 'category',
-              label: 'BioStar 2.9.8',
+              label: '2.9.8 버전',
               link: {
                 type: 'doc',
-                id: 'update/biostar_298'
+                id: 'update/biostar2-298'
               },
               items: [
                 'update/298/deny-access-when-wearing-mask',
@@ -50,10 +50,10 @@ const sidebars = {
             },
             {
               type: 'category',
-              label: 'BioStar 2.9.7',
+              label: '2.9.7 버전',
               link: {
                 type: 'doc',
-                id: 'update/biostar_297'
+                id: 'update/biostar2-297'
               },
               items: [
                 'update/297/multi-factor-auth-for-login',
@@ -62,10 +62,10 @@ const sidebars = {
             },
             {
               type: 'category',
-              label: 'BioStar 2.9.5',
+              label: '2.9.5 버전',
               link: {
                 type: 'doc',
-                id: 'update/biostar_295'
+                id: 'update/biostar2-295'
               },
               items: [
                 'update/295/new-dashboard',
@@ -77,6 +77,64 @@ const sidebars = {
                 'update/295/unified-gateway',
               ]
             },
+          ]
+        },
+        {
+          type: 'html',
+          value: '<hr/>'
+        },
+        {
+          type: 'category',
+          label: '리비전 노트',
+          link: {
+            type: 'doc',
+            id: 'revision/index',
+          },
+          items: [
+            'revision/298',
+            'revision/297',
+            'revision/296',
+            'revision/295',
+            'revision/294',
+            'revision/293',
+            'revision/292',
+            'revision/291',
+            'revision/290',
+            'revision/2817',
+            'revision/2816',
+            'revision/2815',
+            'revision/2814',
+            'revision/2813',
+            'revision/2812',
+            'revision/2811',
+            'revision/2810',
+            'revision/289',
+            'revision/288',
+            'revision/286',
+            'revision/285',
+            'revision/284',
+            'revision/283',
+            'revision/282',
+            'revision/281',
+            'revision/280',
+            'revision/2714',
+            'revision/2712',
+            'revision/2711',
+            'revision/2710',
+            'revision/278',
+            'revision/277',
+            'revision/276',
+            'revision/275',
+            'revision/274',
+            'revision/273',
+            'revision/272',
+            'revision/271',
+            'revision/270',
+            'revision/264',
+            'revision/263',
+            'revision/262',
+            'revision/261',
+            'revision/260',
           ]
         }
       ]
