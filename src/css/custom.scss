@@ -170,6 +170,13 @@ div[class*='docItemCol'] {
       padding-left: 0;
     }
   }
+  li {
+    hr {
+      margin: 1rem 64px 1rem 12px;
+      border-top: 1px dotted;
+      border: none;
+    }
+  }
   .theme-doc-sidebar-item-link-level-3 {
     font-weight: 400;
   }
@@ -487,6 +494,12 @@ footer {
   span.cmd {
     font-weight: 600;
     color: var(--ifm-color-cmd);
+  }
+
+  span.sep {
+    margin: 0 .7rem;
+    font-size: .8rem;
+    font-weight: bold;
   }
 
   span.cmd.bold, span.bold {
