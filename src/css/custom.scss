@@ -497,9 +497,12 @@ footer {
   }
 
   span.sep {
+    display: inline-block;
+    position: relative;
     margin: 0 .7rem;
     font-size: .8rem;
     font-weight: bold;
+    top: -2px;
   }
 
   span.cmd.bold, span.bold {
