@@ -20,6 +20,8 @@ import { NextStep, NextItem } from '@site/src/components/NextStep';
 import Num from '@site/src/components/Num';
 import Overview from '@site/src/components/Overview';
 import Separator from '@site/src/components/Separator';
+import Badge from '@site/src/components/Badge';
+import BugLists from '@site/src/components/BugLists';
 // icon images svg
 import IcLicense from '@site/static/img/menus/ico-license.svg';
 import IcAdd from '@site/static/img/menus/ico-add.svg';
@@ -61,6 +63,8 @@ export default {
     Num,
     Overview,
     Separator,
+    Badge,
+    BugLists,
     IcLicense,
     IcAdd,
     IcClose,
