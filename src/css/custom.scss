@@ -478,11 +478,11 @@ footer {
         p {
           position: relative;
           width: 80%;
-          padding: .2rem .5rem .2rem 0;
+          padding: .2rem .8rem .2rem 0;
           .badge {
             position: absolute;
             right: -24%;
-            top: .3rem;
+            top: .4rem;
           }
         }
       }
@@ -673,6 +673,19 @@ footer {
   }
   .aa-Panel {
     width: 100%;
+  }
+  .markdown {
+    .bug--lists {
+      ol {
+        li {
+          padding-right: 2.2rem;
+        }
+      }
+      .badge {
+        bottom: .4rem;
+        top: unset !important
+      }
+    }
   }
 }
 
