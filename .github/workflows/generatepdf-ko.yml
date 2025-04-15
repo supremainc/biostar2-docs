@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 env:
-  PRINCE_VER: 15.3
+  PRINCE_VER: 16
 
 jobs:
   build-n-deploy:
