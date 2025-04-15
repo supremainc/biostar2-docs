@@ -1,0 +1,196 @@
+---
+id: new-dashboard
+title: How to Use the New Dashboard
+description: The newly added dashboard can be customized as desired by selecting the desired information for each user, adding widgets, and freely arranging the widgets.
+keywords: [ New Dashboard, Widget ]
+---
+
+The newly added dashboard can be customized as desired by selecting the desired information for each user, adding widgets, and freely arranging the widgets.
+
+:::info
+
+* For each user, the **New Dashboard** can be configured for them personally.
+
+* Information available on the **New Dashboard** may vary depending on <Cmd sid="user.bioStarOperator" />.
+
+:::
+
+## New Dashboard Main Screen
+
+<Image src='/img/en/biostar-custom-dashboard.png' className='none' caption />
+
+* <Num num='1'/> **Widget Area**: The area where user-added widgets are displayed.
+
+    * The size of each widget can be freely adjusted within the size limits for each widget.
+
+    * Widgets can only be placed in empty areas, and they cannot overlap each other.
+
+* <Num num='2'/> **Refresh**: Refresh the new dashboard page to update the data in the modified widget.
+
+    * Set the refresh cycle in <Cmd sid="reportApp.autoRefreshInterval" /> in <Cmd sid="reportApp.dashboardSettings" />.
+
+* <Num num='3'/> <Cmd sid="reportApp.dashboardSettings" />: Add new widgets or set the data and appearance of the added widgets.
+
+## Adding Widgets
+
+1. Click <Image src='/img/en/ico-new-dashboard.png' ico /> on the main screen of BioStar 2.
+
+1. Click <Cmd sid="reportApp.addWidget" />.
+
+    * If widgets have already been added, click <Image src='/img/common/ico-new-dashboard-setting.png' ico /> to enter <Cmd sid="reportApp.dashboardSettings" />, and then click <Cmd sid="reportApp.addWidget" />.
+
+1. Select the desired <Cmd sid="reportApp.widgetTypes" />, then enter or set the required fields, depending on the widget.
+
+### Widget Types
+
+:::info
+
+* The default widget size is set differently for each widget and is optimized to look best at the default.
+
+* All widgets can be resized by dragging the lower-right corner.
+
+    <Image src='/img/en/biostar-295-adjust-win-size.png' caption />
+
+:::
+
+#### Chart
+
+<Image src='/img/common/biostar-295-chart.png' className='none' caption />
+
+Selecting desired chart data enables the display of the number of events that occurred in a chart.
+
+* <Cmd sid="reportApp.widgetTypes.chartData" />: From the daily or weekly event list, select the desired chart data.
+
+    * <Cmd sid="reportApp.dailyAccessGranted" />, <Cmd sid="reportApp.dailyAccessDenied" />, <Cmd sid="reportApp.dailyCommunicationIssue" />, <Cmd sid="reportApp.dailyAPBViolation" />, <Cmd sid="reportApp.weeklyAccessGranted" />, <Cmd sid="reportApp.weeklyAccessDenied" />, <Cmd sid="reportApp.weeklyCommunicationIssue" />, <Cmd sid="reportApp.weeklyAPBViolation" />
+
+* <Cmd sid="reportApp.chartType" />: Select the desired type among <Cmd sid="reportApp.chartTypes.verticalBar" />, <Cmd sid="reportApp.chartTypes.horizontalBar" />, <Cmd sid="reportApp.chartTypes.line" />, and <Cmd sid="reportApp.chartTypes.pie" />.
+
+* <Cmd sid="reportApp.chartColorSchemes" />: Select the desired color among 5 color schemes.
+
+:::info
+
+The charts shown when selecting <Cmd sid="reportApp.chartColorSchemes" /> are random values for preview, not actual values.
+
+:::
+
+#### Counter
+
+<Image src='/img/common/biostar-295-counter.png' caption />
+
+Selecting desired counter data enables the display of the number of events that occurred as a number.
+
+* <Cmd sid="reportApp.widgetTypes.counterData" />: From the daily or weekly event list, select the desired counter data.
+
+    * <Cmd sid="reportApp.dailyAccessGranted" />, <Cmd sid="reportApp.dailyAccessDenied" />, <Cmd sid="reportApp.dailyCommunicationIssue" />, <Cmd sid="reportApp.dailyAPBViolation" />, <Cmd sid="reportApp.weeklyAccessGranted" />, <Cmd sid="reportApp.weeklyAccessDenied" />, <Cmd sid="reportApp.weeklyCommunicationIssue" />, <Cmd sid="reportApp.weeklyAPBViolation" />
+
+#### Text
+
+<Image src='/img/common/biostar-295-text.png' caption />
+
+In the widgets area of **New Dashboard**, you can enter and place desired text. After creation, you can place it in the required location and use it as a title for a widget or as a notice.
+
+:::info
+
+If you select the <Cmd sid="reportApp.widgetTypes.text.removeBackground" /> option while creating a <Cmd sid="reportApp.widgetTypes.text" /> widget, transparency will be applied to the background.
+
+:::
+
+#### Real-time Events
+
+<Image src='/img/en/biostar-295-real-time-event.png' caption />
+
+Shows events occurring in BioStar 2 in real time. You can check events by filtering specific events, users, doors, and devices.
+
+* <Cmd sid="reportApp.pause" />: To pause the real-time event.
+
+* <Cmd sid="reportApp.play" />: Resume a real-time event that stopped.
+
+* <Cmd sid="reportApp.clear" />: The entire captured record will be removed.
+
+:::info
+
+If you navigate to another page and subsequently return to the **New Dashboard**, the list will be cleared, and events will be logged anew.
+
+:::
+
+#### Checkpoint
+
+<Image src='/img/en/biostar-295-checkpoint.png' caption />
+
+Select one device and display the profile photo and information (<Cmd sid="reportApp.user" />, <Cmd sid="reportApp.date" />, <Cmd sid="reportApp.device" />) of the user who successfully authenticated to the selected device in real time.
+
+* <Cmd sid="reportApp.pause" />: To pause the checkpoint.
+
+* <Cmd sid="reportApp.play" />: To resume the checkpoint that paused.
+
+* <Cmd sid="reportApp.clear" />: The entire captured record will be removed.
+
+:::info
+
+<Cmd sid="reportApp.widgetTypes.checkpoint" /> are recorded for up to 5 people.
+
+:::
+
+#### System Usage
+
+<Image src='/img/common/biostar-295-system usage.png' caption />
+
+The various usage statuses of BioStar 2 are displayed in numbers.
+
+    * The <Cmd sid="reportApp.widgetTypes.systemUsage" /> that can be displayed is as follows:
+
+        * <Cmd sid="reportApp.systemUsage.users" />, <Cmd sid="reportApp.systemUsage.cards" />, <Cmd sid="reportApp.systemUsage.fingerprint" />, <Cmd sid="reportApp.systemUsage.visualFace" />, <Cmd sid="reportApp.systemUsage.face" />, <Cmd sid="reportApp.systemUsage.qrBarcode" />, <Cmd sid="reportApp.systemUsage.mobileAccessCard" />, <Cmd sid="reportApp.systemUsage.devices" />, <Cmd sid="reportApp.systemUsage.doors" />, <Cmd sid="reportApp.systemUsage.zones" />, <Cmd sid="reportApp.systemUsage.accessGroups" />, <Cmd sid="reportApp.systemUsage.userGroups" />, <Cmd sid="reportApp.systemUsage.deviceGroups" />
+
+#### Door Control
+
+<Image src='/img/en/biostar-295-door-control.png' className='none' />
+
+Select one door to check and control its status.
+
+    * The following items can be controlled with the <Cmd sid="reportApp.doorControl.actionsBtn"/> buttons:
+
+        * <Cmd sid="reportApp.doorControl.actions.open" />, <Cmd sid="reportApp.doorControl.actions.normalize" />, <Cmd sid="reportApp.doorControl.actions.lock" />, <Cmd sid="reportApp.doorControl.actions.unlock" />, <Cmd sid="reportApp.doorControl.actions.clearAlarm" />, <Cmd sid="reportApp.doorControl.actions.clearAPB" />
+
+    :::info
+
+    The name of the <Cmd sid="reportApp.widgetTypes.doorControl" /> widget is automatically assigned to the name of the door and cannot be modified.
+
+    :::
+
+4. After completing the settings of the widget, click <Cmd sid="reportApp.apply" />, and the widget will be created in the widget area. Adjust it to the desired size and location, then click <Cmd sid="reportApp.apply" />, and the widget will be added to the **New Dashboard**.
+
+## Edit Widget
+
+1. Click <Image src='/img/en/ico-new-dashboard.png' ico /> on the main screen of BioStar 2.
+
+1. Click <Image src='/img/common/ico-new-dashboard-setting.png' ico /> at the top right to enter <Cmd sid="reportApp.dashboardSettings" />.
+
+1. Click <Image src='/img/common/ico-widget-edit.png' ico /> at the top right of the **Widget** you want to edit, then edit the desired part.
+
+    <Image src='/img/en/biostar-295-widget-edit.png' className='none' caption />
+
+1. After making edits, click <Cmd sid="reportApp.apply" /> to save the changes.
+
+1. After making adjustments to the widgets, select <Cmd sid="reportApp.apply" />, located at the top-right of the <Cmd sid="reportApp.dashboardSettings" /> screen, to apply and save the changes.
+
+:::info
+
+* The <Cmd sid="reportApp.editWidget" /> cannot be changed in the <Cmd sid="reportApp.widgetTypes" />.
+
+* <Cmd sid="reportApp.widgetTypes.systemUsage" />, <Cmd sid="reportApp.widgetTypes.checkpoint" />, and <Cmd sid="reportApp.widgetTypes.doorControl" /> that use a specific name cannot modify the <Cmd sid="reportApp.widgetName" />.
+
+:::
+
+## Delete Widget
+
+1. Click <Image src='/img/en/ico-new-dashboard.png' ico /> on the main screen of BioStar 2.
+
+1. Click <Image src='/img/common/ico-new-dashboard-setting.png' ico /> in the upper right to enter <Cmd sid="reportApp.dashboardSettings" />.
+
+1. Click <Image src='/img/common/ico-widget-del.png' ico /> at the top right of the **Widget** you want to delete.
+
+    <Image src='/img/en/biostar-295-widget-del.png' className='none' caption />
+
+1. Check the deletion confirmation pop-up and click <Cmd sid="reportApp.yes" />.
+
+1. Click <Cmd sid="reportApp.apply" /> at the top right of the <Cmd sid="reportApp.dashboardSettings" /> screen to apply the deletion.

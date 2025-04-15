@@ -388,5 +388,8 @@
   },
   "biostar2.install.complete": {
     "message": "Finish"
+  },
+  "theme.docs.overview.viewContent": {
+    "message": "Read more"
   }
 }

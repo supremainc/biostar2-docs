@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "BioStar 2",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Suprema Docs",
+    "description": "The alt text of navbar logo"
+  }
+}

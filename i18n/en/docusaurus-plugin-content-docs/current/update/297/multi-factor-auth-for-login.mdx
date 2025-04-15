@@ -1,0 +1,113 @@
+---
+id: multi-factor-auth-for-login
+title: 다중 인증으로 BioStar 2 로그인하기
+description: 다중 인증으로 BioStar 2 로그인하는 방법입니다.
+keywords: [ 다중 인증 ]
+---
+
+BioStar 2에 로그인 시 ID와 비밀번호만으로는 계정의 보안이 부족하다고 느끼거나 보안을 강화하고 싶은 사용자의 경우 <Cmd sid="common.fingerprintLogin" /> 기능을 사용하여 계정의 보안을 향상 시킬 수 있습니다.
+
+<Cmd sid="common.fingerprintLogin" />은 기존의 ID와 비밀번호 조합에 지문 스캐너를 이용한 지문 인증 단계를 추가하여 사용자 계정의 보안을 향상시킬 수 있는 기능입니다.
+
+<Image src='/img/ko/biostar-297-login-full.png' className='none' caption />
+
+:::info
+
+<Cmd sid="common.fingerprintLogin" /> 기능을 사용하려면 BioStar 2 클라이언트에 다중 인증 로그인이 지원되는 지문 스캐너가 연결되어 있어야 합니다.
+
+지원되는 지문 스캐너는 다음과 같습니다.
+
+* BioMini
+* BioMini Plus 2
+
+:::
+
+## 참고사항
+
+:::caution
+
+전체 관리자(ID 1번) 계정에 <Cmd sid="common.fingerprintLogin" />을 사용하는 동안 지문을 사용할 수 없게 되는 경우 계정에 영구적으로 로그인할 수 없게 되므로 주의가 필요합니다.
+
+* 지문을 사용할 수 없게 되어 로그인이 불가해진 경우 [슈프리마 기술지원팀](https://support.supremainc.com)으로 문의하세요.
+
+:::
+
+:::info
+
+* <Cmd sid="common.fingerprintLogin" />이 설정되어 있는 사용자가 **BioStar 2 클라우드**로 접속할 경우 지문 인증 로그인을 지원하지 않으므로 <Cmd sid="common.fingerprintLogin" />을 사용할 수 없습니다.
+
+* 액티브 디렉토리 서버 계정으로 <Cmd sid="biostar.login" /> 옵션을 사용 중인 경우 <Cmd sid="common.fingerprintLogin" />을 사용할 수 없습니다.
+
+* <Cmd sid="common.fingerprintLogin" />이 설정되어 있는 사용자는 BioStar 2 AC 이외의 BioStar 2 서비스에 등록할 수 없습니다.
+
+:::
+
+## 다중 인증 로그인 설정하기
+
+1. <Cmd sid="common.gnb.user" /> 메뉴를 클릭하세요.
+
+1. <Cmd sid="common.fingerprintLogin" />을 설정하려는 사용자를 클릭하세요.
+
+1. <Cmd sid="common.fingerprintLogin" />을 <Cmd sid="user.fingerprintLogin.active" />으로 설정하세요.
+
+    :::info
+
+    <Cmd sid="common.fingerprintLogin" /> 기능을 사용하기 전에 다음 조건들을 만족해야 합니다.
+
+    * 이 기능을 사용하려는 사용자에게 지문 인증 수단이 등록되어 있어야 합니다.
+
+    * <Cmd sid="user.bioStarOperator" />, <Cmd sid="user.loginId" /> 및 <Cmd sid="common.password" />가 설정되어 있어야 합니다.
+
+    :::
+
+    <Image src='/img/ko/biostar-multi-factor-auth-1.png' caption />
+
+1. 설정을 저장하려면 <Cmd sid="button.apply" />을 클릭하세요.
+
+### 여러 사용자에게 동시에 설정하기
+
+일괄 편집에서 여러명의 사용자를 선택하여 한 번에 설정할 수 있습니다.
+
+1. <Cmd sid="common.gnb.user" /> 메뉴를 클릭하세요.
+
+1. 사용자 목록에서 설정하려는 사용자들을 <Image src='/img/common/ico-checkbox.png' ico /> 체크하여 선택한 다음 <Image src='/img/ko/ico-batch-edit.png' ico />을 클릭하세요.
+
+1. <Cmd sid="common.fingerprintLogin" />의 <Image src='/img/common/ico-batch-edit-activate-button.png' ico />을 클릭하여 편집 모드로 변경한 다음 <Cmd sid="user.fingerprintLogin.active" />으로 설정하고 <Cmd sid="button.ok" />을 클릭하세요.
+
+    <Image src='/img/ko/biostar-multi-factor-auth-2.png' className='none' caption />
+
+    * 선택한 사용자 중에 <Cmd sid="common.fingerprintLogin" />을 <Cmd sid="user.fingerprintLogin.active" />으로 설정하는 데에 필요한 조건들을 만족하지 않는 사용자가 있는 경우 팝업 메시지에 <Cmd sid="user.batchedit.popup.notavailableuser" />가 표시됩니다. 설정에 필요한 조건들을 확인한 다음 다시 시도하세요.
+
+    :::info
+
+    <Cmd sid="common.fingerprintLogin" /> 기능을 사용하려면 다음 조건들을 만족해야 합니다.
+
+    * 이 기능을 사용하려는 사용자에게 지문 인증 수단이 등록되어 있어야 합니다.
+
+    * <Cmd sid="user.bioStarOperator" />, <Cmd sid="user.loginId" /> 및 <Cmd sid="common.password" />가 설정되어 있어야 합니다.
+
+    :::
+
+## 다중 인증으로 로그인하기
+
+1. BioStar 2 로그인 화면에서 사용자 ID와 비밀번호를 입력하고 로그인하세요.
+
+    <Image src='/img/ko/biostar-297-login.png' caption />
+
+1. 지문 입력 화면이 나타납니다. 지문 스캐너에 등록한 손가락의 지문을 입력하세요.
+
+    <Image src='/img/ko/biostar-297-multi-factor-auth-3.png' caption />
+
+    :::info
+
+    * 스캔 제한 시간은 18초로 고정되어 있으며 변경할 수 없습니다.
+
+    * 지문은 3회까지 연속으로 스캔할 수 있으며 3회 내에 지문이 정확하게 스캔 되지 않으면 인증 실패 처리됩니다.
+
+    * 인증에 실패한 경우 <Image src='/img/ko/ico-retry.png' ico />를 클릭하여 지문 인증을 재시도할 수 있습니다. 최대 2회까지 재시도할 수 있습니다.
+
+        * 재시도 횟수 2회 동안에도 인증에 실패하는 경우 ID + 비밀번호 로그인 단계로 되돌아갑니다.
+
+    <Image src='/img/ko/biostar-297-multi-factor-auth-fail.png' caption />
+
+    :::

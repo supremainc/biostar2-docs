@@ -1,0 +1,51 @@
+---
+id: timed-apb
+title: 시간 제한 안티패스백 설정하기
+description: 시간 제한 안티패스백은 사용자가 출입 인증 후 동일한 장치에 다시 인증하고자 할 때 발생하는 안티패스백이 재인증을 할 수 있을 때까지 걸리는 초기화 시간을 설정하여 빈번한 입실을 제한할 수 있습니다.
+keywords: [ 시간 제한 안티패스백 ]
+---
+
+
+<Cmd sid="timedAPB.field" />은 사용자가 출입 인증 후 동일한 장치에 다시 인증하고자 할 때 발생하는 <Cmd sid="door.antiPassBack" />이 재인증을 할 수 있을 때까지 걸리는 초기화 시간을 설정하여 빈번한 입실을 제한할 수 있습니다.
+
+:::info
+
+<Cmd sid="timedAPB.field" />은 별도의 BioStar 2 라이선스 없이 사용할 수 있습니다.
+
+:::
+
+## 출입문에 시간 제한 안티패스백 설정하기
+
+1. <Cmd sid="common.gnb.door" /> 메뉴를 클릭하세요.
+
+1. <Cmd sid="button.func.addDoor" />를 클릭하고 <Cmd sid="common.information" />, <Cmd sid="device.info.configuration" />, <Cmd sid="common.option" /> 등을 설정하세요.
+
+    <Image src='/img/ko/biostar-295-add-door.png' className='none' caption />
+
+    :::info
+
+    * 무선 도어락으로 출입문을 설정한 경우 <Cmd sid="timedAPB.field" />을 사용할 수 없습니다.
+
+    * <Cmd sid="timedAPB.field" />은 <Cmd sid="door.entryDevice" /> 또는 <Cmd sid="door.exitDevice" />와 <Cmd sid="common.doorRelay" />가 선택된 상태에서만 설정할 수 있습니다.
+
+        * 출입문의 보안을 강화하기 위해 사용하는 기능이므로 <Cmd sid="door.entryDevice" /> 또는 <Cmd sid="door.exitDevice" /> 중 하나만 선택된 상태에서도 설정할 수 있습니다.
+
+    * <Cmd sid="timedAPB.field" />과 <Cmd sid="door.apbUseDoorSensor" /> 기능은 동시에 사용할 수 없습니다.
+
+    * <Cmd sid="timedAPB.field" />과 <Cmd sid="door.antiPassBack" />은 동시에 사용할 수 없습니다.
+
+    :::
+
+1. <Cmd sid="timedAPB.field" />을 <Cmd>사용</Cmd>으로 활성화하고 원하는 <Cmd sid="door.resetTime" />을 입력하세요.
+
+    <Image src='/img/ko/biostar-295-timed-apb.png' className='none' caption />
+
+    * <Cmd sid="door.resetTime" />: 입력 단위는 분(min.)이며 기본값은 10분이고 입력 가능한 시간의 범위는 0 ~ 60분입니다.
+
+    :::info
+
+    <Cmd sid="door.resetTime" />을 0분으로 설정하면 <Cmd sid="timedAPB.field" />이 동작하지 않습니다.
+
+    :::
+
+1. 설정을 저장하려면 <Cmd sid="button.apply" />을 클릭하세요.<br/>설정 후 <Cmd sid="timedAPB.field" />이 발생하면 <Cmd sid="common.gnb.monitoring" /> 메뉴에서 이벤트 및 <Cmd>이미지 로그</Cmd>를 확인할 수 있습니다.

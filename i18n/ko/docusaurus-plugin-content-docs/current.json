@@ -26,5 +26,21 @@
   "sidebar.biostar.category.BioStar 2.9.5": {
     "message": "BioStar 2.9.5",
     "description": "The label for category BioStar 2.9.5 in sidebar biostar"
+  },
+  "sidebar.biostar.category.2.9.8 버전": {
+    "message": "2.9.8 버전",
+    "description": "The label for category 2.9.8 버전 in sidebar biostar"
+  },
+  "sidebar.biostar.category.2.9.7 버전": {
+    "message": "2.9.7 버전",
+    "description": "The label for category 2.9.7 버전 in sidebar biostar"
+  },
+  "sidebar.biostar.category.2.9.5 버전": {
+    "message": "2.9.5 버전",
+    "description": "The label for category 2.9.5 버전 in sidebar biostar"
+  },
+  "sidebar.biostar.category.리비전 노트": {
+    "message": "리비전 노트",
+    "description": "The label for category 리비전 노트 in sidebar biostar"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "copyright": {
+    "message": "Copyright © Suprema Inc. All rights reserved. | SUPREMA Co., Ltd. Business Registration Number 431-87-00369",
+    "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "Suprema Security & biometrics",
+    "description": "The alt text of footer logo"
+  }
+}
