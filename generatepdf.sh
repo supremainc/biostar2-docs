@@ -1,1 +1,1 @@
-gh workflow run generatepdf-ko.yml --ref main --filed version=2.9.8 --filed date=250415
+gh workflow run generatepdf-ko.yml --ref main --field version=2.9.8 --field date=250415
