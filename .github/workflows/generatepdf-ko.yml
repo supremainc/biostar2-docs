@@ -6,6 +6,12 @@ on:
       name:
         description: "Deployment?"
         default: "Suprema"
+      version:
+        description: "Version of the release"
+        required: true
+      date:
+        description: "Release date"
+        required: true
 
 permissions:
   contents: write
