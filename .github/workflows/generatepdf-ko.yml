@@ -51,7 +51,7 @@ jobs:
 
     - name: Build PDF
       run: |
-        node generatepdf -u "https://supremainc.github.io/biostar2-docs/cover/biostar2" --prince-args="--page-size='a4' --page-margin='0mm' --style=./print.css --javascript" -o ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_KO_${{ github.event.inputs.date }}.pdf --dest ./pdf --include-index
+        node generatepdf -u "https://supremainc.github.io/biostar2-docs/cover/biostar2" --prince-args="--page-size='a4' --page-margin='0.7in 0.5in' --style=./print.css --javascript" -o ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_KO_${{ github.event.inputs.date }}.pdf --dest ./pdf --include-index
         pdfcpu annot remove -pages 1 ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_KO_${{ github.event.inputs.date }}.pdf
         pdfcpu merge -mode append ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_KO_${{ github.event.inputs.date }}.pdf back-cover.pdf
     
