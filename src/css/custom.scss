@@ -787,6 +787,13 @@ footer {
     img {
       max-width: 65%;
     }
+    ul {
+      li {
+        table {
+          margin-top: .7rem
+        }
+      }
+    }
     ol {
       li {
         page-break-inside: avoid;
