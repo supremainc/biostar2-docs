@@ -1,7 +1,7 @@
 ---
 id: visual-face-with-template
 title: 비주얼 페이스를 템플릿으로만 동기화하기
-description: 비주얼 페이스를 템플릿으로만 동기화하는 방법입니다.
+description: BioStar 2 v2.9.7부터는 사용자 동기화 시 비주얼 페이스에서 실제 이미지를 제외한 템플릿만 전송하도록 프로토콜을 개선하여 동기화 소요 시간을 대폭 단축시키고 개인정보 관련 문제 발생을 방지할 수 있습니다.
 keywords: [ 비주얼 페이스, 마이그레이션 ]
 ---
 
@@ -29,17 +29,9 @@ BioStar 2 v2.9.7부터는 사용자 동기화 시 비주얼 페이스에서 실�
 
 ## 시작하기 전에
 
-:::note
+import DocumentA from '../../common/_fsf2-firmware-support-discontinuation.mdx'
 
-**FaceStation F2 v1.x.x 펌웨어 지원 중단 안내**
-
-BioStar 2 v2.9.7에서는 사용자의 비주얼 페이스를 장치에 동기화할 때 템플릿만 전송하도록 변경하여 동기화 성능을 최적화했습니다.
-
-따라서 BioStar 2 v2.9.7부터 장치에서만 템플릿을 추출할 수 있는 FaceStation F2 v1.x.x 펌웨어의 지원이 중단됩니다.
-
-현재 FaceStation F2의 v1.x.x 펌웨어를 사용 중인 경우 BioStar 2 v2.9.7을 사용하기 위해서는 FaceStation F2를 최신 펌웨어로 업그레이드하여 사용하세요. 최신 펌웨어는 [슈프리마 다운로드 센터](https://download.supremainc.com)에서 다운로드할 수 있습니다.
-
-:::
+<DocumentA />
 
 ### 비주얼 페이스 템플릿 타입 관련 유의사항
 
@@ -57,7 +49,7 @@ FaceStation F2와 BioStation 3, BioEntry W3는 서로 비주얼 페이스 템플
 
 * **비주얼 페이스는 BioStar 2에서 등록하는 것을 권장합니다.**
 
-    장치의 <Cmd>비주얼 페이스 이미지 저장하기</Cmd> 옵션을 사용하지 않는 상태에서 비주얼 페이스를 등록한 경우, BioStar 2에는 템플릿만 동기화되기 때문에 비주얼 페이스 템플릿 타입이 다른 장치에 동기화할 수 없게 되므로 비주얼 페이스는 BioStar 2에서 등록하는 것을 권장합니다.
+    장치의 <Cmd sid="device.info.storeVisualFaceImage" /> 옵션을 사용하지 않는 상태에서 비주얼 페이스를 등록한 경우, BioStar 2에는 템플릿만 동기화되기 때문에 비주얼 페이스 템플릿 타입이 다른 장치에 동기화할 수 없게 되므로 비주얼 페이스는 BioStar 2에서 등록하는 것을 권장합니다.
 
 :::
 
