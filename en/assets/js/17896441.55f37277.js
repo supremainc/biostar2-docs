@@ -893,7 +893,7 @@ const ReplacementLocaleText = (param)=>{
         if (sid === 'door.apbUseDoorSensor') {
             localeText = locale[sid].replace('<br/>', ' ');
         } else {
-            localeText = locale[sid] ? locale[sid].replace('<br>', '') : null;
+            localeText = locale[sid] ? locale[sid].replace('<br>', '').replace('</br>', ' ').replace('&sol;', '/') : null;
         }
         if (!localeText) {
             console.error(`Locale text not found for SID: ${sid}`);
