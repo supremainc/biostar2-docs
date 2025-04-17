@@ -1,124 +1,124 @@
 ---
 id: 284
-title: 버전 2.8.4 (v2.8.4.34)
+title: Version 2.8.4 (Build No. 2.8.4.34)
 ---
 
-릴리즈<Separator/>2020-08-05
+Release<Separator/>2020-08-05
 
-## 신규 기능 및 개선
-
----
-
-1. 모바일 출입카드 기능 안정화
-
-    * 모바일 출입카드 발급 로직 개선
-    
-    * CSV를 이용한 모바일 출입카드 발급 로직 개선
-
-    * 에러 코드에 대한 팝업 메시지 보완
-
-    * 모바일 출입카드 관련 메시지 추가 및 개선
-
-    * 사용자 상세 페이지에서의 모바일 출입카드 발급 개수 제한
-
-    * 다이나믹 사이트 미지원 팝업 메시지 추가
-
-    * 모바일 출입카드 미지원 장치에 대한 체크 로직 추가
-
-1. Web-App, CGI server system.conf 백업 및 복구 로직 개선
-
-1. 보안 향상을 위한 TLS V1.1 제외
-  
-1. REST API 요청 실패 시 슈프리마 기술 지원 페이지(support.supremainc.com)로 연결되도록 개선
-
-1. Thrift 통신 로직 로그 보완
-
-1. Redis 보안 취약점 개선
-  
-1. New API 2.8.0 기준 보완
-
-    * API 설명 및 문구 업데이트
-
-    * New API 목록에 장기 미출입 사용자에 대해 필터 해제하여 출력되도록 개선
-
-    * New API 목록에 블랙리스트에 대해 필터 해제하여 출력되도록 개선
-
-    * 엘리베이터 관련 필수 parameter 설명 추가
-
-    * 장치 잠금 해제 API 추가
-
-    * *POST/api/user_groups*를 사용하여 사용자 그룹 생성 시 ID를 지정하면 오류가 발생하는 문제 개선
-
-1. 사용성 개선
-
-    * 사용자 이메일 주소 유형을 고려하여 **86자.60자.20자.6자** 형식으로 도메인을 최소 6자까지 입력할 수 있도록 개선
-
-    * 커스텀 권한 설정의 **수정** 열을 **수정/보기**로 수정
-
-    * 표준 시간대 선택 항목에 CET(Central European Time) 지원
-
-    * 사용자 상세 페이지의 필수 항목 표시
-
-    * 스마트 카드 발급 시 기본 값을 AoC로 변경
-
-    * 언어 리소스 및 펌웨어 업그레이드, 공장 초기화 등 장치 재부팅 시 장치 목록 화면으로 이동하도록 개선
-
-    * 커스텀 권한 관리자로 접속했을 때 모니터링 메뉴에서 장치 필터링이 가능하도록 개선
-
-    * 사용자 권한 등급을 **없음**으로 설정한 경우 로그인 ID와 암호 필드가 자동 숨김 처리되도록 개선
-
-    * 사용자 ID를 0으로만 구성할 수 없도록 개선
-
-    * 불필요한 오류 로그 제외
-
-1. 동시에 여러 쿼리 수행 시 발생한 Lock 에러에 대해 해당 쿼리를 재시도하도록 개선
-
-1. BioStar 2 업그레이드 시 Root 암호를 검사하는 단계 추가
-  
-## 주요 버그 수정
+## New Features and Improvements
 
 ---
 
-1. 서버의 미할당 카드를 리더로 등록 또는 직접 입력을 통해 발급할 수 있도록 개선
+1. Stabilization of features for Mobile Access.
 
-1. 지원하지 않는 시간 형식이 사용된 데이터에 대해 데이터 파일 가져오기에 실패하는 문제
+    * Improved the logic for issuing Mobile Access Cards.
 
-1. 개인 정보 DB 암호화를 사용할 때 Active Directory 동기화에 실패하는 문제
+    * Improved the logic for issuing Mobile Access Cards using CSV.
 
-1. MS SQL Server 데이터베이스를 사용하는 환경에서 사용자 검색 시 사용자 ID가 지원하는 범위 안의 값임에도 조회되지 않는 문제
+    * Added pop-up error code messages.
 
-1. 서버 과부하 시 이벤트 로그가 일부 누락되어 데이터베이스에 저장되는 문제
+    * Added and improved messages related to Mobile Access Cards.
 
-## 버그 수정
+    * Limited the number of Mobile Access Cards that can be issued on the User details page.
+
+    * Added pop-up messages to display dynamic sites are not supported yet.
+
+    * Added check logic for devices that do not support Mobile Access Cards.
+
+1. Improvement of backup and recovery logic for Web-App, CGI server system.conf.
+
+1. Exclusion of TLS V1.1 for improved security
+
+1. Improvement of redirection to the Suprema technical support page link (support.supremainc.com) when REST API request fails.
+
+1. Improved Thrift communication logic log.
+
+1. Improved security vulnerabilities on Redis.
+
+1. Improvements on New API 2.8.0
+
+    * Updated API descriptions and phrases.
+
+    * Disabled filters for users who have not accessed the system for a long time when outputting a new API list.
+
+    * Disabled blacklist filter when outputting a new API list.
+
+    * Added descriptions for required parameters in relation to the elevator.
+
+    * Added API for unlocking devices.
+
+    * Improved the problem of an error occurring when specifying an ID upon creating a user group by using POST/api/user_groups.
+
+1. Improvements on usability
+
+    * Allowed users to enter a domain of at least 6 characters in ‘86 character@60-.20-.6-‘ format, depending on the user‘s email address type.
+
+    * Changed the 'Edit' column of Custom Account Levels Set to 'Edit/Read'.
+
+    * Added Central European Time (CET) to the time zone option.
+
+    * Displayed required items on the User details page.
+
+    * Changed the default value to Access on Card from the smart card issue menu.
+
+    * Improved sequence to move back to the device list page when the device is rebooted for language change, firmware upgrade, factory reset, etc.
+
+    * Allowed device filtering in the MONITORING menu upon accessing it as a custom level administrator.
+
+    * Changed the fields of Login ID and Password to be automatically hidden when the user’s operation level is set to ‘None’.
+
+    * Prevented creation on user ID with only 0s.
+
+    * Excluded unnecessary error logs.
+
+1. Changed queries to retry for lock error occurring when multiple queries are executed at the same time.
+
+1. Added step of checking the root password upon upgrading BioStar 2.
+
+## Main Fixes
 
 ---
 
-1. BioStar 2 API 문서에서 *POST:/api/users*의 지문 템플릿에 Base64 데이터에 대한 설명 추가
+1. Allowed the unassigned card on the server to be registered by card reader or enter manually.
 
-1. 작업 조건 및 동작이 설정한 대로 적용되지 않는 문제
+1. Data files using unsupported time formats failed to be imported.
 
-1. 로그 업로드를 자동으로 설정한 상태에서 발생한 이벤트가 로그로 출력되지 않는 문제
+1. Active Directory failed to synchronize when using Personal Information DB Encryption.
 
-1. BioStar 2 설치 시 포트를 변경할 경우 변경 내용이 server_url.conf 파일에 자동으로 반영되지 않는 문제
+1. When searching for a user in the MS SQL Server database environment, the user failed to be found even though the user ID is within the supported range.
 
-1. 개인 정보 DB 암호화를 사용할 때 방문자가 체크인 시 등록한 지문이 복호화된 상태로 저장되고, 등록한 지문 확인 시 지문 이미지가 표시되지 않는 문제
+1. Partially missing event logs in the database when the server was overloaded.
 
-1. system.conf와 setting.conf 파일이 삭제될 경우 TA 서버를 시작할 수 없는 문제
+## Bug Fixes
 
-1. 그래픽 맵에서 잘못된 에러 코드가 출력되는 문제
+---
 
-1. BioStar 1.x to BioStar 2.x Migration Tool을 이용해 마이그레이션을 실행할 때 사용자 그룹이 삭제되지 않아 마이그레이션에 실패하는 문제
+1. A description of Base64 data has been added to the POST:/api/users fingerprint template in the BioStar 2 API document.
 
-1. BioStar Setting에서 Video의 Database Name, Database User, Database Password가 입력되지 않은 경우 Windows 인증 연결에 실패하는 문제
+1. Triggers and actions were not applied as set.
 
-1. *PUT/api/users/* 를 이용해 용량이 큰 이미지를 사용자 프로필 사진으로 추가할 경우 화면상에서 이미지가 일부 잘려서 표시되는 문제
+1. When the log upload is set as automatic it was not outputted as a log.
 
-1. 장치 상세 페이지에서 시간 설정을 변경하지 않고 **시간 적용**을 클릭할 경우 INVALID_JSON_FORMAT 오류 메시지가 출력되는 문제
+1. When the port was changed upon installing BioStar 2, the change did not automatically reflect in the server_url.conf file.
 
-1. MariaDB를 사용하는 환경에서 모니터링 메뉴에서 알람을 조회할 때 mysqld.exe가 PC의 CPU를 과도하게 점유하는 문제
+1. When a fingerprint registered by the visitor at check-in was stored in a decrypted state, upon the use of Personal Information DB Encryption, the fingerprint image was not displayed after the registered fingerprint was identified.
 
-1. MS SQL Server 데이터베이스를 사용하는 환경에서 개인 정보 DB를 암호화하였을 때 특정 문자가 포함되어 있는 사용자를 검색하면 결과 값이 1,000개 이상일 경우 조회되지 않는 문제
+1. If system.conf and setting.conf files were deleted, the TA server could not be started.
 
-1. **특정 장치** 사용자 자동 동기화 옵션 사용 시 사용자 추가에 실패할 경우 모든 장치에 반복적으로 동기화를 시도하는 문제
+1. Incorrect error codes were displayed in the graphic map.
 
-1. Active Directory에서 사용자 동기화 시 모든 사용자 수 표시가 업데이트되지 않는 문제
+1. When performing migration using the BioStar 1.x to BioStar 2.x Migration Tool, the user group was not deleted so the migration fails.
+
+1. The Windows authentication connection failed when the database name, database user, and database password of the video were not entered in BioStar Settings.
+
+1. When adding a big image as a user profile image to PUT/api/users/, some of the image was cut off on the side of the screen. 
+
+1. The INVALID_JSON_FORMAT error message appeared when clicking **Set Time** if the time setting on the Device details page wasn‘t changed.
+
+1. Mysqld.exe took up too much space on the CPU of the PC when querying an alarm from the MONITORING menu in an environment using MariaDB.
+
+1. When searching for a user name containing a specific character after encrypting personal information in the DB under an environment using an MS SQL Server database, if the resulting value did not exceed 1,000, the search was not performed.
+
+1. When failing to add a user after using the Automatic Synchronization Option of a user with a ‘Specific Devices,’ attempts for synchronization to all devices was conducted repeatedly.
+
+1. Upon user synchronization in Active Directory, the number of users was not updated.

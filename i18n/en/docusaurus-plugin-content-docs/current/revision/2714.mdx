@@ -1,106 +1,106 @@
 ---
 id: 2714
-title: 버전 2.7.14 (v2.7.14.52)
+title: Version 2.7.14 (Build No. 2.7.14.52)
 ---
 
-릴리즈<Separator/>2020-04-03
+Release<Separator/>2020-04-03
 
-## 신규 기능 및 개선
+## New Features and Improvements
 
 ---
 
-1. 신규 장치 연결 지원
+1. Support for connecting new devices.
 
     * XPass D2 (Rev 2)
 
-1. 모바일 크리덴셜 기능 안정화
+1. Enhancement in Mobile Credential usage.
 
-    * BioStar 2상에서 연결된 장치로 직접 모바일 크리덴셜 인증서를 전송할 수 있도록 지원
+    * Added feature to send mobile credential certificates directly to connected devices on the BioStar 2.
 
-1. MS SQL Server 2017 지원
+1. Supports MS SQL Server 2017.
 
-1. MS SQL 데이터베이스 서버 연결에 대해 Windows Authentication 지원
+1. Supports Windows Authentication for MS SQL database server connections.
 
-1. BioStar 2 로컬 API에서 */api/events/search*를 사용하여 이벤트 로그 조회 시 정렬 검색 기능 지원
+1. Added option to receive results sorted as desired when retrieving event logs using api/events/search from the BioStar 2 local API.
 
-1. **특정 장치** 사용자 자동 동기화 옵션 안정화
+1. Stabilization of 'Specific Devices' Automatic User Synchronization option
 
-    * 동기화 속도 개선
+    * Improved synchronization speed.
 
-    * 해당하는 출입 등급 또는 층 등급에 속한 장치만 동기화할 수 있도록 개선
+    * Improved to synchronize only devices that belong to the corresponding access level or floor level.
 
-    * 출입 그룹이 사용자 그룹으로 설정되어 있을 때 해당 사용자 그룹을 끌어다 놓기로 변경한 경우 변경 내용이 정상적으로 적용되지 않는 문제 개선
+    * Improved the problem of changes not being applied properly if the user group is changed by drag-and-drop when access groups are set as user groups.
 
-1. BioStar 2 API 문서에 층 제어 API 추가
+1. Added Floor Control API to BioStar 2 API Documents.
 
-1. 사용자 이메일 계정 입력란에 일부 기호(-, _)를 사용할 수 있도록 지원
+1. Allowed additional symbols (-, _) in the user's email account field.
     
-## 주요 버그 수정
+## Main Fixes
 
 ---
 
-1. 생성된 사용자 그룹의 개수가 많을 경우 BioStar 2 로드 시간이 오래 걸리는 문제
+1. Slow loading of BioStar 2 when there are a large number of created user groups.
 
-1. 버전2.7.11과 2.7.12에서 출입통제, 근태관리, 비디오, 방문자 라이선스에 대해 오프라인 활성화를 할 수 없는 문제
+1. A problem where the offline activation for AC, TA, Video and Visitor licenses doesn't work properly in version 2.7.11 and 2.7.12.
 
-1. 근태관리 라이선스를 오프라인 활성화할 경우 새로고침 하거나 서버 메뉴에 재진입하지 않으면 다른 라이선스에 대해 오프라인 활성화를 할 수 없는 문제
+1. When the license for TA is activated offline, offline activation for other licenses cannot be performed without refreshing or reentering the server menu.
 
-1. MS SQL Server 데이터베이스를 사용하는 환경에서 장치의 **작업 조건 및 동작**을 2개 이상 생성한 경우, 같은 작업 조건에 대하여 다른 동작을 설정하면 오류가 발생하는 문제
+1. In the environment using MS SQL Server database and when two or more <Trigger & Action> of the device were created, setting different actions for the same trigger causes an error.
 
-1. 기본 설치 경로가 아닌 임의의 경로에 BioStar 2를 설치할 경우 오류가 발생하는 문제
+1. Error occurs when installing BioStar 2 on any path other than the default installation path.
 
-    * 서비스가 정상적으로 시작되지 않는 문제
+    * The service does not start normally.
 
-    * 웹 브라우저에서 HTTPS로 접속할 경우 페이지가 로드되지 않는 문제
+    * The page does not load when connecting via HTTPS from a web browser.
 
-1. 사용자 얼굴을 등록할 때 동시에 다른 클라이언트에서 사용자 메뉴에 정상적으로 접근할 수 없는 문제
+1. User menu cannot be accessed properly by other clients at the same time when a user‘s face is being registered.
 
-1. 사용자 ID 종류를 영숫자로 설정한 경우 블랙리스트로 등록된 AoC (Access on Card)로 인증해도 인증에 성공하는 문제
+1. If User ID Type is set as alphanumeric, authentication succeeds even with AoC (Access on Card) registered on a blacklist.
 
-1. 사용자 ID 종류를 영숫자로 설정한 경우 장치에서 직접 등록한 사용자 ID에 공백 또는 일부 기호(,)가 포함되면 오류가 발생하는 문제
+1. When the User ID Type is set to alphanumeric, an error occurs if the user ID registered directly on the device contained a space or some symbol (,).
 
-    * BioStar 2 장치 메뉴에서 해당 장치의 상세 페이지로 진입할 때 BioStar 2가 비정상적으로 종료됨.
+    * When entering the setting page of the device from the BioStar 2, BioStar 2 is abnormally terminated.
 
-1. 생성된 사용자 그룹이 1,000개 이상일 경우 근태관리 메뉴의 스케줄 설정 화면에 사용자 그룹 정보가 정상적으로 출력되지 않는 문제
+1. Problems with user group information not being display normally on the Schedule setting screen of the TA menu when there are more than 1,000 user groups created.
 
-1. 등록된 사용자의 수가 많을 경우 사용자 목록 인쇄가 정상적으로 동작하지 않는 문제
+1. Printing of a user list doesn't work properly when there are a large number of registered users.
 
-1. 장치와 서버간 연결이 끊긴 뒤 다시 연결되면 일부 로그가 누락되는 문제
+1. Event logs not transferred to the server when the device gets disconnected from the server and then reconnected following by a certain condition.
 
-1. USB Device Agent의 포트를 변경한 뒤 새로고침을 하지 않으면 장치 목록에 해당 장치가 표시되지 않는 문제
+1. Problem where the device is not displayed in the list if the user doesn't click the refresh button after changing the port of the USB Device Agent.
 
-1. BioStar 2의 버전을 업그레이드할 때 db-converter 오류 로그가 발생하는 문제
+1. When upgrading the version of BioStar 2, db-converter error log occurs.
 
-1. **모든 IN/OUT 이력** 옵션을 선택해 업데이트한 개인별 보고서에 관리자가 수동으로 입력한 출입 로그가 출력되지 않는 문제
+1. Punch log manually entered by the administrator does not appear in the individual report correctly when updated with the 'All Punches' option selected.
 
-1. 등록된 사용자의 수가 많을 경우 사용자 목록 인쇄 미리보기 화면에 일부 사용자만 보여지는 문제
+1. When there are a large number of registered users, the print preview screen of the user list shows only some users.
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
-1. 장치의 **작업 조건 및 동작**에서 변경한 신호 설정이 정상적으로 적용되지 않는 문제
+1. A bug where signal setting changes in **Trigger & Action** of a device does not get applied properly.
 
-1. USB 지문 스캐너를 이용할 경우 ISO, ANSI378 템플릿 형식으로 지문을 등록할 수 없는 문제
+1. A bug when using the USB fingerprint scanner, the fingerprints cannot be registered in ISO, ANSI378 template formats.
 
-1. BioEntry R2와 XPass D2의 상세 페이지에서 불필요한 사용자 인터페이스 제거
+1. Removed unnecessary UI from the setting pages of BioEntry R2 and XPass D2.
 
-1. BioStar 2 서버에 등록된 사용자 얼굴 개수가 3,000개 이상인 경우, FaceStation 2에 저장된 개수가 3,000개 미만임에도 인증 모드에서 얼굴을 설정할 수 없는 문제
+1. An issue where the number of user faces registered on the BioStar 2 server is 3,000 or more, a face cannot be set in the authentication mode even though the number stored on the FaceStation 2 is less than 3,000.
 
-1. 언어를 러시아어로 설정했을 때 이미지 로그 화면에서 각 항목의 텍스트가 겹쳐서 출력되는 문제
+1. A bug where the text of each item displays in overlap on the image log screen when the language is set as Russian.
 
-1. 사용자 목록을 CSV 불러오기가 정상적으로 동작하지 않는 문제
+1. A problem where the CSV user import list not being displayed properly.
 
-    * 사용자 ID의 일부 글자가 누락되는 문제
+    * Some characters in user IDs are missing.
 
-    * 일부 사용자가 누락되는 문제
+    * Some users are missing.
 
-1.  **모든 IN/OUT 이력** 옵션을 선택해 업데이트한 개인별 보고서에서 입실 또는 퇴실 열의 시간 값이 없는 셀을 클릭하면 부적합한 메시지가 출력되는 문제
+1. Incorrect messages when clicking a cell that does not have the time value in the IN or Out column from the individual report updated with the 'All Punches' option selected.
 
-1.  **모든 IN/OUT 이력** 옵션을 선택해 업데이트한 개인별 보고서에서 일부 이벤트 이름이 비정상적으로 출력되는 문제
+1. Incorrect labeling in the individual report updated with the 'All Punches' option selected.
 
-    * **식사 시간 시작**, **휴식 시작** 이벤트가 **입실**로 출력
+    * 'Meal Start', 'Break Start' incorrectly output to 'In'.
 
-    * **식사 시간 종료**, **휴식 종료** 이벤트가 **퇴실**로 출력
+    * 'Meal End' and 'Break End' incorrectly output to 'Out'.
 
-1. **처음 인증 출근 & 마지막 인증 퇴근** 옵션을 활성화하지 않았을 때, **모든 IN/OUT 이력** 옵션을 선택해 업데이트한 개인별 보고서에 시간 기록이 없는 이벤트가 출력되지 않는 문제
+1. A bug when the 'First check-in Last check-out' option is not enabled, events without punch type does not appear in the individual report when updated with the 'All Punches' option selected.

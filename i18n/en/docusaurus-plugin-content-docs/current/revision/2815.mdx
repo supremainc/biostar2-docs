@@ -1,39 +1,39 @@
 ---
 id: 2815
-title: 버전 2.8.15 (v2.8.15.12)
+title: Version 2.8.15 (Build No. 2.8.15.12)
 ---
 
-릴리즈<Separator/>2022-02-16
+Release<Separator/>2022-02-16
 
-## 신규 기능 및 개선
+## New Features and Improvements
 
 ---
 
-1. Log4j 2 2.17.1 버전 적용
+1. Applied Log4j 2 v2.17.1.
 
-1. 사용자 자동 동기화 성능 개선
+1. Improved Automatic User Synchronization performance.
 
-    * **특정 장치** 사용자 자동 동기화 모드를 사용할 때 출입문 추가 또는 수정 시 동기화 속도 개선
+    * Improved the synchronization speed when adding or modifying doors while using ‘Specific Devices’ Automatic User Synchronization.
+    
+    * Improved 'Delete Data & Sync Device' performance when using ‘Specific Devices’ Automatic User Synchronization: Fixed the problem that the synchronization performance deteriorated by retrieving all user data from all connected devices when 'Delete Data & Sync Device' was performed.
 
-    * **특정 장치** 사용자 자동 동기화 시 **데이터 삭제 후 장치 동기화** 성능 개선: **데이터 삭제 후 장치 동기화** 시 연결된 모든 장치에서 전체 사용자 데이터를 조회하여 동기화 성능 저하 발생하는 문제 수정
+1. Adjusted the number of threads for Thrift communication between C server and Java server.
 
-1. C서버와 Java 서버간 Thrift 통신에 대한 스레드 개수 조정
+    * Improved API request processing performance by reducing the number of threads used in ‘Specific Devices’ Automatic User Synchronization.
 
-    * **특정 장치** 사용자 자동 동기화에서 사용하는 스레드 개수를 줄여 API 요청 처리 속도 개선
-
-    * 서버 구동 시 BioStar 2 Thrift 스레드 개수를 체크하여 최소 값(10개)보다 적을 경우 10개로 변경되도록 개선
+    * Improved to change to 10 if it was less than the minimum value (10) by checking the number of BioStar 2 Thrift threads when running the server.
 
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
 <BugLists>
 
-1. 사용자 자동 동기화 시 단시간 동안 추가, 삭제, 편집 등 사용자 데이터 변경이 잦을 경우 DB Lock이 발생하는 문제 <Badge>발생 버전: v2.7.14</Badge>
+1. DB Lock occurred when user data changes frequently, such as adding, deleting, or editing, were made in a short period of time during Automatic User Synchronization <Badge>Affects version: v2.7.14</Badge>.
 
-1. MS SQL Server 데이터베이스를 사용하는 환경에서 **특정 장치** 사용자 자동 동기화 시 출입 그룹에 사용자 그룹 또는 사용자를 526개 이상 설정할 경우 BioStar 2가 정상적으로 동작하지 않는 문제 <Badge>발생 버전: v2.8.14</Badge>
+1. In the MS SQL Server database environment, BioStar 2 did not operate normally if more than 526 user groups or users were set in the access group when using ‘Specific Devices’ Automatic User Synchronization <Badge>Affects version: v2.8.14</Badge>.
 
-1. **특정 장치** 사용자 자동 동기화 모드를 사용할 때 사용자 동기화 실패 로그 테이블에 이미 삭제된 장치의 데이터가 남아 있는 문제 <Badge>발생 버전: v2.7.11</Badge>
+1. The data of the already deleted devices were logged in the user synchronization fail table when using ‘Specific Devices’ Automatic User Synchronization <Badge>Affects version: v2.7.11</Badge>.
 
 </BugLists>

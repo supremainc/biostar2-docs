@@ -1,22 +1,22 @@
 ---
 id: 264
-title: 버전 2.6.4 (v2.6.4.7)
+title: Version 2.6.4 (Build No. 2.6.4.7)
 ---
 
-릴리즈<Separator/>2018-10-26
+Release<Separator/>2018-10-26
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
-1. CSV 내보내기를 실행하면 중복된 로그가 출력되는 문제
+1. The duplicate logs are output when a user runs CSV export.
 
-1. TLS 1.1보다 낮은 버전의 요청을 수신하는 문제(TLS 1.1 이상 지원)
+1. The server receives requests with a version lower than TLS 1.1 (Supports TLS 1.1 and above).
 
-1. 작업 조건 및 동작, 경비 구역, 인터락 구역을 설정할 때 다른 조건의 이벤트에 대해서는 같은 동작을 설정할 수 없는 문제
+1. The user cannot set the same action for different triggers when setting Trigger & Action, Intrusion Alarm Zone, or Interlock Zone.
 
-1. 이미 할당된 카드를 API를 이용해 다른 사용자에게 할당할 경우 할당 완료 메시지가 표시되는 문제
+1. The assignment complete message is displayed even if a user assigns an already assigned card to another user using the API.
 
-1. 출입문 메뉴에 대한 권한이 없는 계정으로 로그인하면 구역 메뉴의 출입문 목록이 비활성화되는 문제
+1. When a user who does not have permission on the door menu logs, the door list of the zone menu is disabled.
 
-1. 구역 메뉴의 각 항목을 마우스 오른쪽 버튼으로 클릭할 때 구역 추가 옵션이 나타나지 않는 문제
+1. The Add Zone option is not displayed when a user right-clicks each item in the zone menu.

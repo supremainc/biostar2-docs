@@ -1,114 +1,114 @@
 ---
 id: 293
-title: 버전 2.9.3 (v2.9.3.26)
+title: Version 2.9.3 (Build No. 2.9.3.26)
 ---
 
-릴리즈<Separator/>2023-06-26
+Release<Separator/>2023-06-26
 
-## 신규 기능 및 개선
+## New Features and Improvements
 
 ---
 
-1. **리포트** 생성 기능 추가
+1. Added **REPORT** feature.
 
-1. **카드 프린터** 기능 추가
+1. Added **CARD PRINTER** feature.
 
-    * cardPresso 프로그램을 사용하여 BioStar 2에서 직접 카드를 프린트할 수 있도록 지원
+    * Supports card printing directly from BioStar 2 using the cardPresso.
 
-1. **시스템 백업** 및 **복원** 기능 추가
+1. Added **SYSTEM BACKUP** and **RESTORE** feature.
 
-    * 백업된 파일을 사용하여 시스템을 복원 할 수 있는 **BioStar Restore** 프로그램 제공(BioStar 2 설치 프로그램에 포함)
+    * Provides **BioStar Restore** program that can restore the system using backup files (included in BioStar 2 installer).
 
-1. BioStation 3 QR 코드 인증 지원
+1. Supports QR code authentication in BioStation 3.
 
-    * 펌웨어 v1.1.0 이상
+    * Firmware v1.1.0 or higher.
 
-1. **키패드 백라이트** 설정 기능 지원
+1. Supports Xpass D2 **Keypad Backlight**.
 
-    * XPass D2 (XPD2-GKDB) 하드웨어 V02M, 펌웨어 v1.7.1 이상
+    * XPass D2 (XPD2-GKDB) hardware V02M, firmware v1.7.1 or higher.
 
-1. 보안 취약점 개선
+1. Improved security vulnerabilities.
 
-    * Moment.js 라이브러리 버전 업데이트
+    * Update Moment.js library version.
 
-    * Lodash 라이브러리 버전 업데이트
+    * Updated Lodash library version.
 
-    * enckey 파일 생성 로직 개선
+    * Improved enckey file creation logic.
 
-1. **개인 정보 DB 암호화**를 사용할 때 **CSV 불러오기** 시 업데이트 속도 개선
+1. Improved update speed on **CSV Import** when using **Encrypt Personal Data on Database**.
 
-1. **CSV 불러오기** 시 CSV 파일 내에 UTF-16 유니코드를 사용하는 문자도 정상적으로 인식하도록 개선
+1. Improved to properly recognize characters using UTF-16 in CSV files when **CSV Import**.
 
-1. 근태 관리 보안 취약점 개선
+1. Improved Time & Attendance security vulnerabilities.
 
-    * Swagger UI 버전 업그레이드
+    * Swagger UI Version upgrade.
 
-    * X-Frame-Options 추가
+    * Added X-Frame-Options.
 
-    * iframe 취약점 개선(Unified Gateway)
+    * Improvement of iframe vulnerability by providing Unified Gateway feature.
 
-1. **근태 관리** 메뉴에 사용자 추가 시 라이선스 종류에 따라 정해져 있는 최대 사용자 수가 초과된 경우 표시되는 팝업 메시지 개선
+1. Improved pop-up messages that appear when adding users to the **TIME ATTENDANCE** menu when exceeding the maximum number of users set by license type.
 
-1. **사용자 자동 동기화** - **특정 장치(해당하는 출입 그룹에 속한 장치만 동기화)** 모드 사용 시 성능 개선
+1. Improved performance when **Automatic User Synchronization** is set to **Specific Devices(Only devices belonging to the access group)** option.
 
-    * 장치 설정 속도 개선
+    * Improved device setup performance.
 
-    * 구역 활성/비활성 시 처리 속도 개선
+    * Improved processing performance on zone activation/inactivation.
 
-    * 사용자 그룹 이동 시 동기화 속도 개선
+    * Improved synchronization performance when moving user groups.
 
-1. C서버에 쿼리 실행 시 불필요한 데이터베이스 체크 로직 개선
+1. Improved inefficient DB check logics when executing queries on the server.
 
-1. 임시 테이블에 누락된 인덱스를 추가하여 성능 개선
+1. Improved performance by adding missing indexes to temporary tables.
 
-1. User API을 사용하여 임시 테이블 업데이트 또는 삭제 시 서브쿼리 동작 최적화
+1. Optimized subquery when updating or deleting temporary tables using the User API.
 
-1. **모니터링**의 **출입문 상태** 조회 속도 개선
+1. Improved **Door Status** inquiry performance of **MONITORING**.
 
-1. 모바일 출입카드 등록 시 사용자 이름에 미지원 문자 사용 여부를 체크하도록 개선
+1. Improved to check whether unsupported characters are used in user names when enrolling mobile access card.
 
-1. **IP 인터폰** 설정 메뉴의 특정 항목에 일부 기호(+, -, @, .) 입력 지원
+1. Supports entering symbols (+, -, @, .) in configuration of the **Intercom** menu.
 
-    * **사용자명**, **인증ID**, **내선 번호**
+    * **SIP Username**, **Authorization ID**, **Extension Number**
 
-1. QR코드 인증 관련 이벤트 코드 추가
+1. Added event code related to QR code authentication.
 
-1. **라이선스** 메뉴 신설로 인한 위치 혼동을 방지하기 위해 기존 라이선스 메뉴 위치(**설정** → **서버**)에 안내 메시지 추가
+1. Added a guide message to the existing license menu location (**Settings** → **SERVER**) to prevent location confusion due to the new **LICENSE** menu.
 
-1. 사용자 정보에 **이메일** 항목이 입력되지 않은 상태에서 모바일 출입카드 등록 시 나타나는 오류 팝업 메시지 개선
+1. Improvement of error message that appears when enrolling mobile access card when an **Email** is not entered in the user information.
 
-1. 장치 목록의 장치별 아이콘 시인성 개선
+1. Improved visibility of icons for each device in the device list.
 
-1. 로그인 페이지 변경
+1. Updated login page.
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
 <BugLists>
 
-1. **모바일 출입카드 등록** 시 간헐적으로 **등록** 버튼이 비활성화 되는 문제 <Badge>발생 버전: v2.8.9</Badge>
+1. The **Enroll** button is intermittently disabled on the **Enroll Mobile Access Card** screen. <Badge>Affects version: v2.8.9</Badge>
 
-1. C서버에서 getTrackingInfo로 추적 데이터를 조회하지 못한 경우 서버가 충돌하는 문제 <Badge>발생 버전: v2.6.0</Badge>
+1. The server crashes when the server fails to retrieve tracking data using getTrackingInfo. <Badge>Affects version: v2.6.0</Badge>
 
-1. 특정 조건으로 검색된 사용자를 **모두 선택** 후 **장치에서 삭제** 진행 시 선택하지 않았던 사용자들까지 모두 삭제되는 문제 <Badge>발생 버전: v2.7.1</Badge>
+1. When **Select All** and **Delete From Device** are performed on users searched with specific conditions, unselected users get deleted. <Badge>Affects version: v2.7.1</Badge>
 
-1. **서버** 메뉴의 **등록용 장치 설정**에 추가된 장치를 **장치** 메뉴에서 삭제하여도 **등록용 장치 설정** 목록에서 삭제되지 않는 문제 <Badge>발생 버전: v2.2.1</Badge>
+1. Device added as **Enrollment Device** in the **SERVER** menu does not get deleted properly. <Badge>Affects version: v2.2.1</Badge>
 
-1. **서버** 메뉴의 **등록용 장치 설정**에 장치를 추가할 때 장치가 검색되지 않는 문제 <Badge>발생 버전: v2.2.1</Badge>
+1. When adding a device to **Enrollment Device** in the **SERVER** menu, the device is not searched. <Badge>Affects version: v2.2.1</Badge>
 
-1. **서버** 메뉴의 **세션 만료 시간**이 설정된 상태에서 서버를 재시작하면 **세션 만료 시간**이 기본값(60분)으로 동작하는 문제 <Badge>발생 버전: v2.8.14</Badge>
+1. When the server is restarted while the **Session Timeout** in the **SERVER** menu is set, the **Session Timeout** operates as the default value (60 minutes). <Badge>Affects version: v2.8.14</Badge>
 
-1. **대시보드**의 **사용 현황**에 최대값을 초과한 항목의 값이 잘못 표시되는 문제 <Badge>발생 버전: v2.0.0</Badge>
+1. Incorrectly displaying the values of items that exceed the maximum in **Usage** on the **Dashboard**. <Badge>Affects version: v2.0.0</Badge>
 
-1. ID에 특정 알파벳 또는 기호가 포함되어 있는 사용자에게 발급된 **액세스 온 카드**가 사용 정지 처리된 이후에도 인증에 성공하는 문제 <Badge>발생 버전: v2.7.14</Badge>
+1. Authentication succeeded with a blacklisted **Access On Card** containing a specific alphabet or symbol in the card ID. <Badge>Affects version: v2.7.14</Badge>
 
-1. **사용자** 메뉴에서 **데이터 파일 가져오기** 완료 후 장치에 동기화되지 않는 문제 <Badge>발생 버전: v2.1.0</Badge>
+1. User data not syncing to the device after completing **Data File Import** in the **USER** menu. <Badge>Affects version: v2.1.0</Badge>
 
-1. **근태 관리** 메뉴의 **근무 스케줄**에 **부재**가 설정되어 있을 때 승인자인 사용자가 삭제되면 **근태 기록**이 조회되지 않는 문제 <Badge>발생 버전: v2.7.0</Badge>
+1. When **Leave** is set in **Schedule** in the **TIME ATTENDANCE** menu and the user who is the approver is deleted, the T&A reports are not searched. <Badge>Affects version: v2.7.0</Badge>
 
-1. 일부 1:N 인증 성공 이벤트가 근태에서 누락되는 문제 <Badge>발생 버전: v2.8.6</Badge>
+1. Some 1:N authentication succeeded events missing from Time & Attendance. <Badge>Affects version: v2.8.6</Badge>
 
-1. 버전을 2.8.8 이하에서 2.8.9 이상으로 업그레이드한 후 TA 설정에서 장치 추가 시 오류가 발생하는 문제 <Badge>발생 버전: v2.8.9</Badge>
+1. An error occurs when adding a device in the TA setting after upgrading version from 2.8.8 or earlier to 2.8.9 or later. <Badge>Affects version: v2.8.9</Badge>
 
 </BugLists>

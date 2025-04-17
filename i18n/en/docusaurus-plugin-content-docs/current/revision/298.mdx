@@ -1,47 +1,51 @@
 ---
 id: 298
-title: 버전 2.9.8 (v2.9.8.30)
+title: Version 2.9.8 (Build No. 2.9.8.30)
 ---
 
-릴리즈<Separator/>2024-12-06
+Release<Separator/>2024-12-06
 
-## 신규 기능 및 개선
+import DocumentA from '../common/_fsf2-firmware-support-discontinuation.mdx';
+
+<DocumentA />
+
+## New Features and Improvements
 
 ---
 
-1. BioStar 2 **비디오** 기능 지원 중단
+1. Discontinuation of support for the BioStar 2 **VIDEO**.
 
-1. 사용자 정보에 파일을 업로드할 수 있는 **커스텀 사용자 필드** - **파일 업로드** 옵션 지원
+1. Supports **Custom User Field** - **File Upload** option that allows files to be uploaded to user information.
 
-1. 사용자 인증 시 장치 화면에 표시할 개인 메시지를 입력할 수 있는 **장치 표시 메시지** UI 추가
+1. Added **Device Display Message** UI to enter a private message to be displayed on the device screen during user authentication.
 
-1. 얼굴 인증 시 마스크를 착용한 경우 인증을 거부하도록 설정할 수 있는 옵션 지원
+1. Added an option to set face authentication to deny authentication if a mask is worn.
 
-1. **삭제된 CSN 모바일 카드** 별도 관리 페이지 추가
+1. Added a separate management page for **Deleted CSN Mobile Card**.
 
-1. **시간 제한 안티패스백** 기능 업데이트
+1. Updated **Timed Anti PassBack** feature.
 
-    * 장치별로 **시간 제한 안티패스백**을 설정할 수 있도록 UI 개선
+    * Improved UI to allow setting **Timed Anti Passback** for each device.
 
-    * **시간 제한 안티패스백**의 **항시 통과 그룹** 추가
+    * Added a **Bypass Group** for **Timed Anti Passback**.
 
-1. 장치 목록에 **펌웨어 버전** 표시 추가
+1. Added **Firmware Version** to device list.
 
-1. **출입문** 메뉴 UI 개선
+1. Improved **DOOR** menu UI.
 
-    * 출입문 **열림 시간** 설정의 UI 개선
+    * Improved door **Open Time** setting UI.
 
-    * 알람 설정에서 **안티패스백**과 **시간 제한 안티패스백** 중 어떤 기능에 대한 알람인지 구분할 수 있도록 UI 개선
+    * Improved UI in the alarm settings to differentiate between **Anti PassBack** and **Timed Anti PassBack**.
 
-1. **리포트** 메뉴 성능 개선
+1. Improved **REPORT** performance.
 
-    * AC 서비스에 리포트 서비스 병합
+    * Merged report service into AC service.
 
-    * **커스텀 리포트** 생성 시 필터 조건을 일치(AND)에서 포함(OR)으로 변경
+    * Changed filter condition from AND to OR when creating **Custom Report**.
 
-1. **대시보드** 메뉴 성능 개선
+1. Improved **DASHBOARD** performance.
 
-1. Wiegand 카드 사전 정의 포맷 추가
+1. Added new predefined Wiegand card formats.
 
     * MIFARE CSN 32bit
 
@@ -51,82 +55,82 @@ title: 버전 2.9.8 (v2.9.8.30)
 
     * DESFire 58bit (Parity)
 
-1. **고급 검색** 기능 개선
+1. Improved **Advanced Search**.
 
-    * 사용자 목록 인쇄 기능 개선
+    * Improved user list printing feature.
 
-    * **고급 검색** 후 모두 선택할 수 있도록 개선
+    * Improved to allow selecting all after **Advanced Search**.
 
-1. **이벤트 로그**의 **열 목록**에 **엘리베이터**, **구역** 열 추가
+1. Added **Elevator** and **Zone** columns to the **Column List** of the **Event Log**.
 
-1. Bootstrap 라이브러리 버전 업그레이드 (3.4.1)
+1. Upgraded Bootstrap library (3.4.1).
 
-1. USB Agent 보안 취약점 개선
+1. Improved USB Agent security vulnerabilities.
 
-1. **근태 관리** 메뉴의 **근무 스케줄** 성능 개선
+1. Improved performance of **Schedule** in **TIME ATTENDANCE** menu.
 
-1. **근태 관리** 메뉴의 **근태 기록** 성능 개선
+1. Improved performance of **Report** in **TIME ATTENDANCE** menu.
 
-1. Node.js 버전 업그레이드
+1. Upgraded Node.js version.
 
-1. TA API 호출 시 설정된 사용자 권한에 따라 올바른 결과 값이 조회되도록 개선
+1. Improved to ensure that calling the TA API retrieves correct result values according to the set user permissions.
 
-1. 근태 관리 보안 취약점 개선
+1. Improved security vulnerabilities.
 
-    * HTTPS 프로토콜 보안 취약점 개선
+    * Improved HTTPS protocol security vulnerabilities.
 
-    * SQL Injection 보안 취약점 개선
+    * Improved SQL Injection security vulnerabilities.
 
-1. BioStar 2 QR 인식률 개선
+1. Improved the recognition rate of BioStar 2 QR.
 
-1. C서버에서 사용자 변경 시 성능 최적화
+1. Optimized performance when updating users on the C server.
 
-1. API를 사용하여 CSN 카드 생성 시 유효성 검증에 실패했을 경우 표시되는 메시지 수정
+1. Modified the message displayed if validation fails when creating a CSN card using API.
 
-1. 카드 등록 시 속도 개선
+1. Improved performance when enrolling cards.
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
 <BugLists>
 
-1. **새 대시보드**의 일부 위젯에 **DST**(**일광 절약 시간**) 설정이 제대로 반영되지 않는 문제 <Badge>발생 버전: v2.9.6</Badge>
+1. **Daylight Saving Time** settings are not properly applied in some widgets of the New Dashboard. <Badge>Affects version: v2.9.6</Badge>
 
-1. **리포트** 생성 시 제목의 날짜 및 기간이 BioStar 2 시간 설정을 따르지 않는 문제 <Badge>발생 버전: v2.9.3</Badge>
+1. When generating a **Report**, the date and period in the title do not follow the BioStar 2 time settings. <Badge>Affects version: v2.9.3</Badge>
 
-1. 특정 특수 문자가 포함된 **커스텀 사용자 필드 콤보 박스**를 **고급 검색**에서 검색했을 때 검색되지 않는 문제 <Badge>발생 버전: v2.9.6</Badge>
+1. **Advanced Search** does not return results when searching for a **Custom User Field Combo Box** that contains specific special characters. <Badge>Affects version: v2.9.6</Badge>
 
-1. 안드로이드 모바일 환경에서 **비주얼 페이스 모바일 등록 링크**를 통해 비주얼 페이스를 등록하고자 할 때 얼굴 사진을 직접 찍는 옵션이 동작하지 않는 문제 <Badge>발생 버전: v2.8.9</Badge>
+1. In the Android mobile environment, when attempting to enroll a visual face through the **Visual Face Mobile Enrollment Link**, the option to take a face photo directly does not function. <Badge>Affects version: v2.8.9</Badge>
 
-1. Maria DB 비밀번호에 특수문자가 포함되어있을 때 시스템 백업에 실패하는 문제 <Badge>발생 버전: v2.9.3</Badge>
+1. System backup fails when the Maria DB password contains special characters. <Badge>Affects version: v2.9.3</Badge>
 
-1. 사용자 그룹을 선택하고 **고급 검색**을 수행한 다음 인쇄를 했을 때 사용자 목록이 검색된 결과대로 인쇄되지 않는 문제 <Badge>발생 버전: v2.9.5</Badge>
+1. When selecting a user group and performing an **Advanced Search**, and then printing, the user list does not print according to the search results. <Badge>Affects version: v2.9.5</Badge>
 
-1. 간헐적으로 사용자의 **출입 그룹**이 비정상적으로 보여지는 문제 <Badge>발생 버전: v2.9.5</Badge>
+1. Intermittently, the user’s **Access Group** is displayed incorrectly. <Badge>Affects version: v2.9.5</Badge>
 
-1. 크롬(Chrome)의 자동 완성 기능을 통해 ID 및 비밀번호가 저장된 상태에서 사용자 추가 시 특정 필드에 자동으로 값이 입력되는 문제 <Badge>발생 버전: v2.9.6</Badge>
+1. When the account ID and password are saved in Chrome’s Passwords and autofill, certain fields are automatically filled when adding a user. <Badge>Affects version: v2.9.6</Badge>
 
-1. 사용자 정보에 등록된 이메일로 로그인이 되지 않는 문제 <Badge>발생 버전: v2.8.0</Badge>
+1. Unable to log in with the email address registered in user information. <Badge>Affects version: v2.8.0</Badge>
 
-1. **커스텀 스마트 카드** 레이아웃 수정 시 간헐적으로 레이아웃이 없다는 오류 팝업 메시지가 나타나는 문제 <Badge>발생 버전: v2.9.4</Badge>
+1. Intermittently, an error popup message appears stating that there is no layout when modifying the **Custom Smart Card** layout. <Badge>Affects version: v2.9.4</Badge>
 
-1. 크롬(Chrome)의 Keyboard focusable scrollers 기능으로 인해 특정 옵션에서 드롭다운 목록을 제대로 선택할 수 없던 문제 <Badge>발생 버전: v2.0.0</Badge>
+1. Due to Chrome’s Keyboard focusable scrollers feature, the dropdown list cannot be properly selected for certain options. <Badge>Affects version: v2.0.0</Badge>
 
-1. 장치에서 사용자 정보를 수정한 후 서버에 동기화된 경우 사용자 정보에서 **출입 그룹**이 사라지는 문제 <Badge>발생 버전: v2.0.0</Badge>
+1. After modifying user information on the device and syncing it to the server, the **Access Group** disappears from the user information. <Badge>Affects version: v2.0.0</Badge>
 
-1. 일부 메뉴에서 검색을 수행한 후 선택이 되지 않는 문제 <Badge>발생 버전: v2.9.7</Badge>
+1. In some menus, search results cannot be selected. <Badge>Affects version: v2.9.7</Badge>
 
-1. **출입 그룹**의 이름을 검색한 후 선택하면 검색 목록이 초기화되는 문제 <Badge>발생 버전: v2.0.0</Badge>
+1. Search list resets after searching and selecting an **Access Group** by group name. <Badge>Affects version: v2.0.0</Badge>
 
-1. **개인 정보 DB 암호화** 기능이 **사용 안 함**으로 설정된 복호화 환경에서 **근무 스케줄** 수정 시 **추가된 사용자** 항목에서 사용자 검색이 되지 않는 문제 <Badge>발생 버전: v2.9.6</Badge>
+1. In a decryption environment where the **Encrypt Personal Data on Database** is set to **Not Use**, users cannot be searched in the **Added users** section when modifying a TA Schedule. <Badge>Affects version: v2.9.6</Badge>
 
-1. 외부에서 서버에 접속한 경우 **근태 관리** 메뉴에 접근하면 로그아웃되는 문제 <Badge>발생 버전: v2.4.0</Badge>
+1. When accessing the **TIME ATTENDANCE** menu from an external connection to the server, the user is logged out. <Badge>Affects version: v2.4.0</Badge>
 
-1. 특정 상황에서 **업그레이드 필요 (장치 데이터베이스 손상)** 이벤트가 발생하는 문제 <Badge>발생 버전: v2.9.4</Badge>
+1. **Upgrade required (Device database corrupted)** event occurs in certain situations. <Badge>Affects version: v2.9.4</Badge>
 
-1. BioStar 2 로그인 시 간헐적으로 로그인이 되지 않는 문제 <Badge>발생 버전: v2.6.0</Badge>
+1. Intermittent login issues occur during BioStar 2 login. <Badge>Affects version: v2.6.0</Badge>
 
-1. start_datetime 열이 비어있는 CSV 파일을 가져온 후 사용자 메뉴에 진입하면 사용자가 표시되지 않는 문제 <Badge>발생 버전: v2.9.7</Badge>
+1. After importing a CSV file with an empty start_datetime column, users are not displayed when entering the **USER** menu. <Badge>Affects version: v2.9.7</Badge>
 
 </BugLists>

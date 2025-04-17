@@ -1,58 +1,58 @@
 ---
 id: 285
-title: 버전 2.8.5 (v2.8.5.46)
+title: Version 2.8.5 (Build No. 2.8.5.46)
 ---
 
-릴리즈<Separator/>2020-08-25
+Release<Separator/>2020-08-25
 
-## 신규 기능 및 개선
+## New Features and Improvements
 
 ---
 
-1. Wiegand 장치를 근태관리 장치로 사용할 수 있도록 지원
+1. Supports Wiegand devices as a time and attendance management device.
 
-1. 개인별 보고서 사용성 개선
+1. Improvement on usability of individual reports.
 
-    * 보고서 목록 상단의 사용자 정보에 조회 기간에 따라 근무 시간을 표시하는 행 추가 
+    * Added a row to display working hours to at the top of the report list for the period selected.
     
-    * **모든 이력** 옵션을 선택해 업데이트한 개인별 보고서의 열 순서와 초기 설정값 변경
+    * Changed column order and initial settings of the updated individual reports when selecting 'All Punches' option.
 
-    * **출퇴근 이력** 옵션을 선택해 업데이트한 개인별 보고서의 조회 속도 개선
+    * Improvement to the speed of viewing updated individual reports by selecting the ‘In/Out Only’ option.
 
-1. 일반 사용자 권한을 가진 사용자가 본인의 근태 보고서를 업데이트할 수 있도록 개선
-  
-## 주요 버그 수정
+1. Improvement to allow users with general user permissions to update own TA reports.
 
----
-
-1. **모든 이력** 옵션을 선택해 개인별 보고서를 업데이트하면 로딩이 무한하게 지속되는 문제
-
-1. 임시 스케줄 또는 부재를 설정할 때 **다른 사용자에게 적용**을 선택하면 오류가 발생하는 문제
-
-1. 개인별 보고서에서 이름과 날짜로 목록 정렬이 정상적으로 동작하지 않는 문제
-
-1. **모든 이력** 옵션을 선택해 개인별 보고서를 조회한 뒤 일별 보고서를 조회하면 출근 및 퇴근 시간이 표시되지 않는 문제
-
-1. 누적된 근무 기록이 많을 경우 보고서 생성 속도가 느린 문제
-
-## 버그 수정
+## Main Fixes
 
 ---
 
-1. 일별 보고서의 열 설정에 지원하지 않는 항목이 표시되는 문제
+1. When the individual report was updated by selecting the ‘All Punches’ option, screen entered into an infinite loop state.
 
-1. **모든 이력** 옵션을 선택해 업데이트한 개인별 보고서에서 CSV 내보내기를 실행할 경우 공백이 Null로 표시되는 문제
+1. Upon setting a temporary schedule or leave, if ‘Apply to Other user(s)’ was selected, an error occurred.
 
-1. 개인별 보고서에서 기본 설정이 아닌 열을 설정할 경우 **모든 이력** 옵션 선택 시 출입 로그 열에 값이 반복되어 출력되는 문제
+1. List sorting by name and date did not work properly in individual reports.
 
-1. **모든 이력** 옵션을 선택해 업데이트한 개인별 보고서에 변경된 사용자 그룹 이름이 반영되지 않는 문제
+1. Daily reports did not display the time of In and Out correctly after generating individual reports with ‘All Punches’ option
 
-1. **모든 이력** 옵션을 선택해 업데이트한 개인별 보고서의 예외 열이 빈 값일 경우 (-)로 출력되는 문제
+1. When there are many accumulated time cards, the speed of updating reports will slow down.
 
-1. **모든 이력** 옵션을 선택해 업데이트한 개인별 보고서의 출근, 퇴근 열의 데이터가 출력되지 않고, 부재 열의 데이터가 클릭 가능한 형태로 표시되지 않는 문제
+## Bug Fixes
 
-1. 개인별 보고서가 설정한 목록 표시 개수에 따라 표시되지 않는 문제
+---
 
-1. 로그인 ID가 동일할 경우 세션 ID가 달라도 근무 기록이 보여지는 문제
+1. Items not supported in the column settings of daily reports were displayed.
 
-1. 동일한 세션 ID로 과거에 생성된 근무 기록이 누적되는 문제
+1. Upon running a CSV export in the updated individual reports by selecting the ‘All Punches’ option, the blank was displayed as null.
+
+1. When setting a column other than the default settings in an individual report with the 'All Punches' option, the value was repeatedly displayed in the punch log column.
+
+1. The name of a user group that had been changed in the updated individual reports by selecting the ‘All Punches’ option was not reflected.
+
+1. If the exception column of the updated individual reports with the ‘All Punches’ option was an empty value, the value was displayed as ‘-’.
+
+1. The data in the In and Out columns of the updated individual reports with the ‘All Punches’ option was not displayed and the Leave column was not displayed in a clickable form.
+
+1. The individual report was not displayed according to the set list display count.
+
+1. If the login ID was the same, the time card was displayed even if the session ID was different.
+
+1. The time cards created in the past with the same session ID were accumulated.

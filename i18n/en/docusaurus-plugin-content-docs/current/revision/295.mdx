@@ -1,68 +1,68 @@
 ---
 id: 295
-title: 버전 2.9.5 (v2.9.5.29)
+title: Version 2.9.5 (Build No. 2.9.5.29)
 ---
 
-릴리즈<Separator/>2024-03-18
+Release<Separator/>2024-03-18
 
-## 신규 기능 및 개선
+## New Features and Improvements
 
 ---
 
-1. **새 대시보드** 기능 추가
+1. Added **New Dashboard** feature.
 
-1. **퀵 액션** 기능 추가
+1. Added **Quick Action** feature.
 
-1. **출입문** 메뉴에 **시간 제한 안티패스백** 기능 추가
+1. Added **Timed Anti PassBack** feature in the **DOOR** menu.
 
-1. 웹캠을 이용한 사용자 프로필 사진 및 비주얼 페이스 등록 지원
+1. Supports user profile photo and visual face enrollment using webcam.
 
-1. **사용자** 메뉴 개선
+1. Improved **USER** menu.
 
-    * **사용자** 메뉴 화면에서 나타낼 수 있는 열 종류 추가 기간 (**시작 날짜**, **끝 날짜**), **권한 등급**, **로그인 ID**, **사용자 IP**, **PIN**, **QR/바코드**, **모바일 카드**
+    * Added column types that can be displayed on the **USER** menu screen. Period (**Start datetime**, **End datetime**), **Operator Level**, **Login ID**, **User IP**, **PIN**, **QR/Barcode**, **Mobile Access Card**
 
-    * **고급 검색** 기능 추가 **ID**, **이름**, **이메일**, **부서**, **직함**, **전화번호**, **그룹**, **출입 그룹**, **상태**, **권한 등급**, **카드**, **커스텀 사용자 필드**
+    * Added **Advanced Search** feature. **ID**, **Name**, **Email**, **Department**, **Title**, **Telephone**, **Group**, **Access Group**, **Status**, **Operator Level**, **Card**, **Custom User Field**
 
-1. **작업 조건 및 동작** 메뉴 개선
+1. Improved **TRIGGER & ACTION** menu.
 
-    * **모니터링**에 표시되는 이벤트 추가
+    * Added events displayed in **MONITORING**.
 
-    * 출입문 릴레이 동작 설정 지원
+    * Supports door relay operation settings.
 
-    * 동작에 따른 알림 이메일 발송 기능 추가
+    * Added notification email sending function based on action.
 
-    * 여러 동작을 하나로 설정할 수 있는 **동작 목록** 추가
+    * Added **Action List** where multiple actions can be set as one.
 
-1. 장치 **일괄 편집**에서 **슈프리마 스마트 카드**에 대한 설정이 가능하도록 개선
+1. Improvements have been made to allow setting **Suprema Smart Card** from **Batch Edit**.
 
-1. **CSV 불러오기**로 덮어쓰기 시 이미 발급된 **템플릿 온 모바일**이 삭제되는 것을 방지할 수 있는 **CSV 필드** 추가
+1. Added **CSV Field** to prevent already issued **Template on Mobile** from being deleted when overwritten by **CSV Import**.
 
     * ToM AoC, ToM SCC
 
-1. CoreStation의 무선 안테나 모듈 및 무선 도어락 연결 사양 변경
+1. Changed CoreStation’s wireless antenna module and wireless door lock connection specification
 
-    * CoreStation 한대에 연결할 수 있는 무선 안테나 모듈: 1대 → 2대
+    * Wireless antenna modules that can be connected to one CoreStation: 1 → 2
 
-    * 무선 안테나 모듈 한대에 연결할 수 있는 무선 도어락: 8대 → 6대
+    * Wireless door locks that can be connected to one wireless antenna module: 8 → 6
 
-    * 연결 가능한 최대 무선 도어락: 8대 → 12대
+    * Maximum connectable wireless door lock: 8 → 12
 
-1. 구글 크롬 및 마이크로소프트 엣지 브라우저 업데이트로 인한 인증서 관련 오류 개선
+1. Improved certificate errors due to Google Chrome and Microsoft Edge browser updates.
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
 <BugLists>
 
-1. 별도의 도메인과 사설 인증서를 사용할 경우 **리포트** 메뉴를 사용할 수 없는 문제 <Badge>발생 버전: v2.9.3</Badge>
+1. **REPORT** menu is not available when using a separate domain and private certificate. <Badge>Affects version: v2.9.3</Badge>
 
-1. Azure 데이터베이스로 설치했을 경우 **리포트** 메뉴를 사용할 수 없는 문제 <Badge>발생 버전: v2.9.3</Badge>
+1. **REPORT** menu is not available when installed on an Azure database. <Badge>Affects version: v2.9.3</Badge>
 
-1. **카드 프린터**를 사용하여 카드에 유니코드 문자를 출력 했을 때 문자가 깨져서 출력되는 문제 <Badge>발생 버전: v2.9.3</Badge>
+1. When printing Unicode characters on cards using **Card Printer**, the characters are printed garbled. <Badge>Affects version: v2.9.3</Badge>
 
-1. **통합 게이트웨이** 사용 시 1분 이상 소요되는 작업이 실패하는 문제 <Badge>발생 버전: v2.9.3</Badge>
+1. The operation fails if it takes more than 1 minute when using **Unified Gateway**. <Badge>Affects version: v2.9.3</Badge>
 
-1. 마스터 장치에 OM-120을 두 대 이상 연결하여 사용하는 환경에서 **특정 장치 사용자 자동 동기화** 모드로 장치를 동기화한 후 인증했을 때 릴레이가 오동작하는 문제 <Badge>발생 버전: v2.7.14</Badge>
+1. In an environment where multiple OM-120s are connected to the master device and the device is synchronized using the **Automatic User Synchronization** - **Specific Devices** mode and then authenticated, the relay malfunctions. <Badge>Affects version: v2.7.14</Badge>
 
 </BugLists>
