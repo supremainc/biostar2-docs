@@ -199,7 +199,7 @@ function _createMdxContent(props) {
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["If widgets have already been added, click ", (0,jsx_runtime.jsx)(Image, {
-              src: "/img/ico-new-dashboard-setting.png",
+              src: "/img/common/ico-new-dashboard-setting.png",
               ico: true,
               alone: true
             }), " to enter ", (0,jsx_runtime.jsx)(Cmd, {
@@ -239,7 +239,7 @@ function _createMdxContent(props) {
       id: "chart",
       children: "Chart"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-295-chart.png",
+      src: "/img/common/biostar-295-chart.png",
       className: "none",
       caption: true,
       alone: true
@@ -304,7 +304,7 @@ function _createMdxContent(props) {
       id: "counter",
       children: "Counter"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-295-counter.png",
+      src: "/img/common/biostar-295-counter.png",
       caption: true,
       alone: true
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -341,7 +341,7 @@ function _createMdxContent(props) {
       id: "text",
       children: "Text"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-295-text.png",
+      src: "/img/common/biostar-295-text.png",
       caption: true,
       alone: true
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -437,7 +437,7 @@ function _createMdxContent(props) {
       id: "system-usage",
       children: "System Usage"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-295-system usage.png",
+      src: "/img/common/biostar-295-system usage.png",
       caption: true,
       alone: true
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -544,7 +544,7 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["Click ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-new-dashboard-setting.png",
+            src: "/img/common/ico-new-dashboard-setting.png",
             ico: true,
             alone: true
           }), " at the top right to enter ", (0,jsx_runtime.jsx)(Cmd, {
@@ -554,7 +554,7 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["Click ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-widget-edit.png",
+            src: "/img/common/ico-widget-edit.png",
             ico: true,
             alone: true
           }), " at the top right of the ", (0,jsx_runtime.jsx)(_components.strong, {
@@ -619,7 +619,7 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["Click ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-new-dashboard-setting.png",
+            src: "/img/common/ico-new-dashboard-setting.png",
             ico: true,
             alone: true
           }), " in the upper right to enter ", (0,jsx_runtime.jsx)(Cmd, {
@@ -629,7 +629,7 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["Click ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-widget-del.png",
+            src: "/img/common/ico-widget-del.png",
             ico: true,
             alone: true
           }), " at the top right of the ", (0,jsx_runtime.jsx)(_components.strong, {

@@ -1,6 +1,6 @@
 "use strict";
-(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["9505"], {
-"2068": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["2905"], {
+"2693": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -8,28 +8,28 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_docs_update_298_file_upload_user_information_mdx_b86_namespaceObject),
+  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_298_file_upload_user_information_mdx_d00_namespaceObject),
   assets: () => (/* binding */ assets),
   toc: () => (/* binding */ toc),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-298-file-upload-user-information-mdx-b86.json
-var site_docs_update_298_file_upload_user_information_mdx_b86_namespaceObject = JSON.parse('{"id":"update/298/file-upload-user-information","title":"사용자 정보에 파일 업로드하기","description":"커스텀 사용자 필드를 사용하여 사용자 정보에 파일을 업로드하고 저장할 수 있습니다.","source":"@site/docs/update/298/file-upload-user-information.mdx","sourceDirName":"update/298","slug":"/update/298/file-upload-user-information","permalink":"/biostar2-docs/update/298/file-upload-user-information","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"file-upload-user-information","title":"사용자 정보에 파일 업로드하기","description":"커스텀 사용자 필드를 사용하여 사용자 정보에 파일을 업로드하고 저장할 수 있습니다.","keywords":["커스텀 사용자 필드","파일 업로드"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"마스크를 착용한 경우 인증을 거부하도록 설정하기","permalink":"/biostar2-docs/update/298/deny-access-when-wearing-mask"},"next":{"title":"장치에 사용자 개인 메시지 표시하기","permalink":"/biostar2-docs/update/298/device-display-message"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-298-file-upload-user-information-mdx-d00.json
+var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_298_file_upload_user_information_mdx_d00_namespaceObject = JSON.parse('{"id":"update/298/file-upload-user-information","title":"Uploading Files to User Information","description":"Files can be uploaded and saved to the user\'s information using the Custom User Field.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/file-upload-user-information.mdx","sourceDirName":"update/298","slug":"/update/298/file-upload-user-information","permalink":"/biostar2-docs/en/update/298/file-upload-user-information","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"file-upload-user-information","title":"Uploading Files to User Information","description":"Files can be uploaded and saved to the user\'s information using the Custom User Field.","keywords":["Custom User Field","File Upload"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Setting Denial of Authentication When Wearing a Mask","permalink":"/biostar2-docs/en/update/298/deny-access-when-wearing-mask"},"next":{"title":"Displaying User Private Messages on Devices","permalink":"/biostar2-docs/en/update/298/device-display-message"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__("65");
-;// CONCATENATED MODULE: ./docs/update/298/file-upload-user-information.mdx
+;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/298/file-upload-user-information.mdx
 
 
 const frontMatter = {
 	id: 'file-upload-user-information',
-	title: '사용자 정보에 파일 업로드하기',
-	description: '커스텀 사용자 필드를 사용하여 사용자 정보에 파일을 업로드하고 저장할 수 있습니다.',
+	title: 'Uploading Files to User Information',
+	description: 'Files can be uploaded and saved to the user\'s information using the Custom User Field.',
 	keywords: [
-		'커스텀 사용자 필드',
-		'파일 업로드'
+		'Custom User Field',
+		'File Upload'
 	],
 	isTranslationMissing: false
 };
@@ -57,32 +57,30 @@ function _createMdxContent(props) {
   if (!Image) _missingMdxReference("Image", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
-      children: "커스텀 사용자 필드를 사용하여 사용자 정보에 파일을 업로드하고 저장할 수 있습니다."
+      children: "Files can be uploaded and saved to the user's information using the Custom User Field."
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["Navigate to ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.server"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.server.userDeviceManagement"
-          }), "로 이동하세요."]
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
-            sid: "setting.server.custom_field.title"
-          }), "의 ", (0,jsx_runtime.jsx)(Image, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Image, {
             src: "/img/ico-add.png",
             ico: true
-          }), "를 클릭하여 필드를 추가한 다음, 원하는 이름을 입력하고 ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "setting.server.custom_field.configure.th.type"
-          }), "을 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " under ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "setting.server.custom_field.title"
+          }), " to add a new field, enter the desired name, select ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.server.custom_field.type.fileupload"
-          }), "를 선택한 후 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " as the type, and click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "을 클릭하여 저장하세요."]
+          }), " to save."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-custom-user-field-file-upload.png",
           className: "none",
@@ -90,23 +88,23 @@ function _createMdxContent(props) {
         }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
           type: "info",
           children: (0,jsx_runtime.jsx)(_components.p, {
-            children: "파일 업로드 필드는 최대 2개까지 추가할 수 있습니다."
+            children: "A maximum of two file upload fields can be added."
           })
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["Go to the ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.gnb.user"
-          }), " 메뉴로 진입한 다음 사용자 목록에서 원하는 사용자를 클릭하세요."]
+          }), " menu, then select the desired user from the user list."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["추가한 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["In the added ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.server.custom_field.type.fileupload"
-          }), " 커스텀 사용자 필드 부분에 ", (0,jsx_runtime.jsx)(Image, {
+          }), " custom user field, click ", (0,jsx_runtime.jsx)(Image, {
             src: "/img/ico-browse.png",
             ico: true
-          }), "를 클릭하여 원하는 파일을 업로드하세요."]
+          }), " to upload the desired file."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-custom-user-field-file-upload-1.png",
           caption: true
@@ -114,47 +112,47 @@ function _createMdxContent(props) {
           type: "note",
           children: [(0,jsx_runtime.jsx)(_components.p, {
             children: (0,jsx_runtime.jsx)(_components.strong, {
-              children: "업로드 파일 제약사항"
+              children: "Upload File Restrictions"
             })
           }), (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "파일 유형에는 제약이 없습니다."
+                children: "There are no restrictions on file types."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "지원하는 최대 파일 크기는 1MB 입니다."
+                children: "The maximum supported file size is 1MB."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "파일명은 영숫자와 특수 기호(-, _)을 포함하여 최대 120자까지 입력할 수 있습니다."
+                children: "File names can include alphanumeric characters and special symbols (-, _), with a maximum length of 120 characters."
               }), "\n"]
             }), "\n"]
           })]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["업로드한 파일을 저장하려면 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["To save the uploaded file, click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "을 클릭하고, 삭제하려면 ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-upload-delete.png",
+          }), ". To delete it, click the ", (0,jsx_runtime.jsx)(Image, {
+            src: "/img/common/ico-upload-delete.png",
             ico: true,
             alone: true
-          }), "를 클릭하세요."]
+          }), "."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["업로드한 파일을 저장한 후에는 사용자 정보에서 ", (0,jsx_runtime.jsx)(Image, {
-              src: "/img/ico-download.png",
+            children: ["After saving, the file can be downloaded by clicking the ", (0,jsx_runtime.jsx)(Image, {
+              src: "/img/common/ico-download.png",
               ico: true,
               alone: true
-            }), "를 클릭하여 파일을 다운로드하거나 ", (0,jsx_runtime.jsx)(Image, {
-              src: "/img/ico-delete.png",
+            }), " or deleted by clicking the ", (0,jsx_runtime.jsx)(Image, {
+              src: "/img/common/ico-delete.png",
               ico: true,
               alone: true
-            }), "를 클릭하여 삭제할 수 있습니다."]
+            }), " from the user information page."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
-          src: "/img/biostar-298-custom-user-field-file-upload-2.png",
+          src: "/img/common/biostar-298-custom-user-field-file-upload-2.png",
           caption: true,
           alone: true
         }), "\n"]

@@ -1,6 +1,6 @@
 "use strict";
-(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["2491"], {
-"523": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["77"], {
+"6498": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -8,27 +8,27 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_docs_update_295_quick_action_mdx_61e_namespaceObject),
+  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_295_quick_action_mdx_5c0_namespaceObject),
   assets: () => (/* binding */ assets),
   toc: () => (/* binding */ toc),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-295-quick-action-mdx-61e.json
-var site_docs_update_295_quick_action_mdx_61e_namespaceObject = JSON.parse('{"id":"update/295/quick-action","title":"퀵 액션 사용하기","description":"작업 조건 및 동작 메뉴에 새롭게 추가된 퀵 액션은 긴급 상황에서 출입문의 동작을 빠르게 제어할 수 있도록 해줍니다.","source":"@site/docs/update/295/quick-action.mdx","sourceDirName":"update/295","slug":"/update/295/quick-action","permalink":"/biostar2-docs/update/295/quick-action","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"quick-action","title":"퀵 액션 사용하기","description":"작업 조건 및 동작 메뉴에 새롭게 추가된 퀵 액션은 긴급 상황에서 출입문의 동작을 빠르게 제어할 수 있도록 해줍니다.","keywords":["퀵 액션"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"새 대시보드 사용하기","permalink":"/biostar2-docs/update/295/new-dashboard"},"next":{"title":"시간 제한 안티패스백 설정하기","permalink":"/biostar2-docs/update/295/timed-apb"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-295-quick-action-mdx-5c0.json
+var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_295_quick_action_mdx_5c0_namespaceObject = JSON.parse('{"id":"update/295/quick-action","title":"How to Use the Quick Action","description":"A new addition to the TRIGGER & ACTION menu, Quick Action allows you to quickly control the operation of the door in an emergency situation.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/quick-action.mdx","sourceDirName":"update/295","slug":"/update/295/quick-action","permalink":"/biostar2-docs/en/update/295/quick-action","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"quick-action","title":"How to Use the Quick Action","description":"A new addition to the TRIGGER & ACTION menu, Quick Action allows you to quickly control the operation of the door in an emergency situation.","keywords":["Quick Action"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"How to Use the New Dashboard","permalink":"/biostar2-docs/en/update/295/new-dashboard"},"next":{"title":"How to Set Up the Timed Anti Passback","permalink":"/biostar2-docs/en/update/295/timed-apb"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__("65");
-;// CONCATENATED MODULE: ./docs/update/295/quick-action.mdx
+;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/295/quick-action.mdx
 
 
 const frontMatter = {
 	id: 'quick-action',
-	title: '퀵 액션 사용하기',
-	description: '작업 조건 및 동작 메뉴에 새롭게 추가된 퀵 액션은 긴급 상황에서 출입문의 동작을 빠르게 제어할 수 있도록 해줍니다.',
+	title: 'How to Use the Quick Action',
+	description: 'A new addition to the TRIGGER & ACTION menu, Quick Action allows you to quickly control the operation of the door in an emergency situation.',
 	keywords: [
-		'퀵 액션'
+		'Quick Action'
 	],
 	isTranslationMissing: false
 };
@@ -41,20 +41,20 @@ const assets = {
 
 
 const toc = [{
-  "value": "퀵 액션으로 사용할 작업 조건 및 동작 추가하기",
-  "id": "퀵-액션으로-사용할-작업-조건-및-동작-추가하기",
+  "value": "Adding the Trigger &amp; Action to Use as Quick Action",
+  "id": "adding-the-trigger--action-to-use-as-quick-action",
   "level": 2
 }, {
-  "value": "메인화면에 퀵 액션 버튼 추가하기",
-  "id": "메인화면에-퀵-액션-버튼-추가하기",
+  "value": "Adding the Quick Action Button to the Biostar 2 Main Screen",
+  "id": "adding-the-quick-action-button-to-the-biostar-2-main-screen",
   "level": 2
 }, {
-  "value": "퀵 액션 버튼 수정하기",
-  "id": "퀵-액션-버튼-수정하기",
+  "value": "Editing the Quick Action Buttons",
+  "id": "editing-the-quick-action-buttons",
   "level": 2
 }, {
-  "value": "퀵 액션 버튼 삭제하기",
-  "id": "퀵-액션-버튼-삭제하기",
+  "value": "Deleting the Quick Action Button",
+  "id": "deleting-the-quick-action-button",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -72,51 +72,51 @@ function _createMdxContent(props) {
   if (!Image) _missingMdxReference("Image", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsxs)(_components.p, {
-      children: [(0,jsx_runtime.jsx)(Cmd, {
+      children: ["A new addition to the ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.triggerAndAction"
-      }), " 메뉴에 새롭게 추가된 ", (0,jsx_runtime.jsx)(Cmd, {
+      }), " menu, ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.quickAction"
-      }), "은 긴급 상황에서 출입문의 동작을 빠르게 제어할 수 있도록 해줍니다."]
+      }), " allows you to quickly control the operation of the door in an emergency situation."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: [(0,jsx_runtime.jsx)(Cmd, {
+      children: ["By adding the ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "common.quickAction"
+      }), " button in the ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.customInterface"
-      }), " 메뉴에서 ", (0,jsx_runtime.jsx)(Cmd, {
+      }), " menu, you gain the ability to conveniently control multiple doors simultaneously. Simply click the ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.quickAction"
-      }), " 버튼을 추가하면 BioStar 2 메인화면에서 간편하게 ", (0,jsx_runtime.jsx)(Cmd, {
-        sid: "common.quickAction"
-      }), " 버튼을 클릭하여 다수의 출입문을 한 번에 제어할 수 있습니다."]
+      }), " button on the BioStar 2 main screen to initiate the command."]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "퀵-액션으로-사용할-작업-조건-및-동작-추가하기",
-      children: "퀵 액션으로 사용할 작업 조건 및 동작 추가하기"
+      id: "adding-the-trigger--action-to-use-as-quick-action",
+      children: "Adding the Trigger & Action to Use as Quick Action"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.triggerAndAction"
-          }), "을 클릭하세요."]
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.func.addTriggerAndAction"
-          }), "를 클릭한 다음 각 항목을 설정하여 원하는 동작을 추가하세요."]
+          }), ", and then set each item to add the desired action."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-295-trigger-action.png",
           caption: true
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["Select ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "triggerAction.schedule"
-          }), "을 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " to ", (0,jsx_runtime.jsx)(Cmd, {
             children: "Always"
-          }), "로 선택하고 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ", check Use as ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "triggerAction.quickAction"
-          }), "를 체크한 다음 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ", and then click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "을 클릭하여 설정을 저장하세요."]
+          }), " to save settings."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -126,41 +126,41 @@ function _createMdxContent(props) {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "common.quickAction"
-            }), "은 ", (0,jsx_runtime.jsx)(Cmd, {
+            }), " is only available when the ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "triggerAction.schedule"
-            }), "이 ", (0,jsx_runtime.jsx)(Cmd, {
+            }), " is ", (0,jsx_runtime.jsx)(Cmd, {
               children: "Always"
-            }), "로 설정된 경우에만 사용할 수 있습니다."]
+            }), "."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: [(0,jsx_runtime.jsx)(Cmd, {
+            children: ["By selecting ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "triggerAction.quickAction"
-            }), "를 체크하면 ", (0,jsx_runtime.jsx)(Cmd, {
+            }), ", you can create an action without the need to specify an ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "setting.triggerAction.event"
-            }), "를 선택하지 않아도 동작을 생성할 수 있습니다."]
+            }), "."]
           }), "\n"]
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "메인화면에-퀵-액션-버튼-추가하기",
-      children: "메인화면에 퀵 액션 버튼 추가하기"
+      id: "adding-the-quick-action-button-to-the-biostar-2-main-screen",
+      children: "Adding the Quick Action Button to the Biostar 2 Main Screen"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.customInterface"
-          }), "를 클릭하세요."]
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["In the ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.quickActionLayout"
-          }), "에서 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ", click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.plusAdd"
-          }), "를 클릭하여 각 항목을 입력 및 선택하세요."]
+          }), " to enter and select each item."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-295-add-new-quick-action.png",
           className: "none",
@@ -170,49 +170,49 @@ function _createMdxContent(props) {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.customInterface.quickAction.operatorLevel"
-              }), ": 추가하려는 ", (0,jsx_runtime.jsx)(Cmd, {
-                sid: "common.quickAction"
-              }), "을 실행할 수 있는 ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": Select the ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.customInterface.quickAction.operatorLevel"
-              }), "을 선택하세요. 복수로 선택할 수 있습니다."]
+              }), " that can run the added ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "common.quickAction"
+              }), ". You can select multiple options."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.customInterface.quickAction.triggerAction"
-              }), ": 실행되게 할 ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": Select the ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.customInterface.quickAction.triggerAction"
-              }), "을 선택하세요. 복수로 선택할 수 있습니다."]
+              }), " to run. You can select multiple options."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.customInterface.quickAction.confirmBeforeRun"
-              }), ": 이 옵션을 활성화하면 메인화면에서 ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": Enabling this option prompts a confirmation pop-up when pressing the ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.quickAction"
-              }), " 버튼을 눌렀을 때 ", (0,jsx_runtime.jsx)(Cmd, {
+              }), " button on the main screen, asking whether to proceed with running the ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.quickAction"
-              }), "의 실행 여부를 묻는 확인 팝업창이 나타납니다."]
+              }), "."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["설정을 저장하려면 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "을 클릭하세요."]
+          }), " to save the settings."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.customInterface"
-          }), " 화면에서 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "을 클릭하세요. 확인 팝업창을 확인하고 ", (0,jsx_runtime.jsx)(Cmd, {
-            children: "예"
-          }), "를 클릭하면 BioStar 2 상단 바에 추가한 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " on the ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "common.customInterface"
+          }), " screen. Check the confirmation pop-up and click ", (0,jsx_runtime.jsx)(Cmd, {
+            children: "Yes"
+          }), ". The ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.quickAction"
-          }), " 버튼이 생성됩니다."]
+          }), " button added to the top bar of BioStar 2 will be created."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-295-quick-action-top-bar.png",
           className: "none",
@@ -222,85 +222,85 @@ function _createMdxContent(props) {
           children: (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: [(0,jsx_runtime.jsx)(Cmd, {
+                children: ["Up to 4 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "common.quickAction"
-                }), " 버튼은 메인화면의 상단 바에 최대 4개까지 추가할 수 있습니다."]
+                }), " buttons can be added to the top bar of the main screen."]
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["사용자에게 설정된 ", (0,jsx_runtime.jsx)(Cmd, {
-                  sid: "user.bioStarOperator"
-                }), "에 따라 나타나는 ", (0,jsx_runtime.jsx)(Cmd, {
+                children: ["The ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "common.quickAction"
-                }), " 버튼이 다를 수 있습니다."]
+                }), " button that appears may vary depending on the ", (0,jsx_runtime.jsx)(Cmd, {
+                  sid: "user.bioStarOperator"
+                }), " set for the user."]
               }), "\n"]
             }), "\n"]
           })
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["상단 바에 생성된 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["Clicking the ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.quickAction"
-          }), " 버튼을 클릭하면 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " button, created on the top bar of the main screen, will execute the predefined actions set in ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.triggerAndAction"
-          }), "에서 설정한대로 동작합니다."]
+          }), "."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "퀵-액션-버튼-수정하기",
-      children: "퀵 액션 버튼 수정하기"
+      id: "editing-the-quick-action-buttons",
+      children: "Editing the Quick Action Buttons"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.customInterface"
-          }), "를 클릭하세요."]
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["수정하고자 하는 퀵 액션 버튼 우측 열의 ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-quick-action-button-edit.png",
+          children: ["Click the ", (0,jsx_runtime.jsx)(Image, {
+            src: "/img/common/ico-quick-action-button-edit.png",
             ico: true,
             alone: true
-          }), " 아이콘을 클릭한 다음 원하는 부분을 수정하고 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " icon in the right column of the Quick Action button to edit, then edit the desired part and click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "을 클릭하세요."]
+          }), "."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-295-custom-interface.png",
           caption: true
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.customInterface"
-          }), " 화면에서 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "을 클릭하세요. 팝업창을 확인하고 ", (0,jsx_runtime.jsx)(Cmd, {
-            children: "예"
-          }), "를 클릭하면 수정한 사항이 반영됩니다."]
+          }), " on the ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "common.customInterface"
+          }), " screen. Check the pop-up and click ", (0,jsx_runtime.jsx)(Cmd, {
+            children: "Yes"
+          }), " to apply the modifications."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "퀵-액션-버튼-삭제하기",
-      children: "퀵 액션 버튼 삭제하기"
+      id: "deleting-the-quick-action-button",
+      children: "Deleting the Quick Action Button"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.customInterface"
-          }), "를 클릭하세요."]
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["삭제하고자 하는 퀵 액션 버튼 우측 열의 ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-quick-action-button-del.png",
+          children: ["Click the ", (0,jsx_runtime.jsx)(Image, {
+            src: "/img/common/ico-quick-action-button-del.png",
             ico: true,
             alone: true
-          }), " 아이콘을 클릭하세요."]
+          }), " icon in the right column of the Quick Action button to delete."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-295-quick action-del.png",
           className: "none",
@@ -308,19 +308,19 @@ function _createMdxContent(props) {
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["삭제 확인 팝업창을 확인하고 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["Check the deletion confirmation pop-up and click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.yes"
-          }), "를 클릭하세요."]
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.customInterface"
-          }), " 화면에서 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "을 클릭하세요. 팝업창을 확인하고 ", (0,jsx_runtime.jsx)(Cmd, {
-            children: "예"
-          }), "를 클릭하면 삭제한 사항이 반영됩니다."]
+          }), " on the ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "common.customInterface"
+          }), " screen. Check the pop-up and click ", (0,jsx_runtime.jsx)(Cmd, {
+            children: "Yes"
+          }), " to apply the deletion."]
         }), "\n"]
       }), "\n"]
     })]

@@ -144,14 +144,14 @@ function _createMdxContent(props) {
       id: "biostar-2-structure-basic",
       children: "BioStar 2 Structure (Basic)"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-current-structure.svg",
+      src: "/img/common/biostar-current-structure.svg",
       className: "none",
       alone: true
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
       id: "biostar-2-structure-unified-gateway",
       children: "BioStar 2 Structure (Unified Gateway)"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-ug-structure.svg",
+      src: "/img/common/biostar-ug-structure.svg",
       className: "none",
       alone: true
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -191,7 +191,7 @@ function _createMdxContent(props) {
             }), "\n"]
           })
         }), "\n", (0,jsx_runtime.jsx)(Image, {
-          src: "/img/biostar-setting.png",
+          src: "/img/common/biostar-setting.png",
           className: "none",
           caption: true,
           alone: true
@@ -210,7 +210,7 @@ function _createMdxContent(props) {
             children: "Unified Gateway"
           }), ", and then change it."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
-          src: "/img/biostar-setting-unified-gateway.png",
+          src: "/img/common/biostar-setting-unified-gateway.png",
           caption: true,
           alone: true
         }), "\n"]

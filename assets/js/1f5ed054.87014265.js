@@ -199,7 +199,7 @@ function _createMdxContent(props) {
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["이미 위젯이 추가 되어있는 경우에는 ", (0,jsx_runtime.jsx)(Image, {
-              src: "/img/ico-new-dashboard-setting.png",
+              src: "/img/common/ico-new-dashboard-setting.png",
               ico: true,
               alone: true
             }), " 아이콘을 클릭해 ", (0,jsx_runtime.jsx)(Cmd, {
@@ -239,7 +239,7 @@ function _createMdxContent(props) {
       id: "차트",
       children: "차트"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-295-chart.png",
+      src: "/img/common/biostar-295-chart.png",
       className: "none",
       caption: true,
       alone: true
@@ -304,7 +304,7 @@ function _createMdxContent(props) {
       id: "카운터",
       children: "카운터"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-295-counter.png",
+      src: "/img/common/biostar-295-counter.png",
       caption: true,
       alone: true
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -341,7 +341,7 @@ function _createMdxContent(props) {
       id: "텍스트",
       children: "텍스트"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-295-text.png",
+      src: "/img/common/biostar-295-text.png",
       caption: true,
       alone: true
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -437,7 +437,7 @@ function _createMdxContent(props) {
       id: "시스템-사용-현황",
       children: "시스템 사용 현황"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/biostar-295-system usage.png",
+      src: "/img/common/biostar-295-system usage.png",
       caption: true,
       alone: true
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -544,7 +544,7 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["우측 상단의 ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-new-dashboard-setting.png",
+            src: "/img/common/ico-new-dashboard-setting.png",
             ico: true,
             alone: true
           }), " 아이콘을 클릭해 ", (0,jsx_runtime.jsx)(Cmd, {
@@ -556,7 +556,7 @@ function _createMdxContent(props) {
           children: ["수정하고자 하는 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "위젯"
           }), "의 우측 상단에 ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-widget-edit.png",
+            src: "/img/common/ico-widget-edit.png",
             ico: true,
             alone: true
           }), " 아이콘을 클릭한 다음 원하는 부분을 수정하세요."]
@@ -619,7 +619,7 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["우측 상단의 ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-new-dashboard-setting.png",
+            src: "/img/common/ico-new-dashboard-setting.png",
             ico: true,
             alone: true
           }), " 아이콘을 클릭해 ", (0,jsx_runtime.jsx)(Cmd, {
@@ -631,7 +631,7 @@ function _createMdxContent(props) {
           children: ["삭제하고자 하는 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "위젯"
           }), "의 우측 상단에 ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-widget-del.png",
+            src: "/img/common/ico-widget-del.png",
             ico: true,
             alone: true
           }), " 아이콘을 클릭하세요."]

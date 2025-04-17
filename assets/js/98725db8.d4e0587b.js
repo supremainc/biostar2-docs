@@ -1,6 +1,6 @@
 "use strict";
-(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["7351"], {
-"523": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["1057"], {
+"8941": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -8,27 +8,27 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_297_multi_factor_auth_for_login_mdx_052_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_update_297_multi_factor_auth_for_login_mdx_987_namespaceObject),
   assets: () => (/* binding */ assets),
   toc: () => (/* binding */ toc),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-297-multi-factor-auth-for-login-mdx-052.json
-var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_297_multi_factor_auth_for_login_mdx_052_namespaceObject = JSON.parse('{"id":"update/297/multi-factor-auth-for-login","title":"Logging in Biostar 2 with Multi-Factor Authentication","description":"If users feel that using only an ID and password to log in to BioStar 2 is not secure enough or want to enhance their account security, they can use the Multi-Factor Auth for Login feature to improve their account security.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/297/multi-factor-auth-for-login.mdx","sourceDirName":"update/297","slug":"/update/297/multi-factor-auth-for-login","permalink":"/biostar2-docs/en/update/297/multi-factor-auth-for-login","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"multi-factor-auth-for-login","title":"Logging in Biostar 2 with Multi-Factor Authentication","description":"If users feel that using only an ID and password to log in to BioStar 2 is not secure enough or want to enhance their account security, they can use the Multi-Factor Auth for Login feature to improve their account security.","keywords":["Multi-Factor Auth for Login"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Version 2.9.7","permalink":"/biostar2-docs/en/update/biostar2-297"},"next":{"title":"Synchronizing Visual Face as Template Only","permalink":"/biostar2-docs/en/update/297/visual-face-with-template"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-297-multi-factor-auth-for-login-mdx-987.json
+var site_docs_update_297_multi_factor_auth_for_login_mdx_987_namespaceObject = JSON.parse('{"id":"update/297/multi-factor-auth-for-login","title":"다중 인증으로 BioStar 2 로그인하기","description":"BioStar 2에 로그인 시 ID와 비밀번호만으로는 계정의 보안이 부족하다고 느끼거나 보안을 강화하고 싶은 사용자의 경우 다중 인증 로그인 기능을 사용하여 계정의 보안을 향상 시킬 수 있습니다.","source":"@site/docs/update/297/multi-factor-auth-for-login.mdx","sourceDirName":"update/297","slug":"/update/297/multi-factor-auth-for-login","permalink":"/biostar2-docs/update/297/multi-factor-auth-for-login","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"multi-factor-auth-for-login","title":"다중 인증으로 BioStar 2 로그인하기","description":"BioStar 2에 로그인 시 ID와 비밀번호만으로는 계정의 보안이 부족하다고 느끼거나 보안을 강화하고 싶은 사용자의 경우 다중 인증 로그인 기능을 사용하여 계정의 보안을 향상 시킬 수 있습니다.","keywords":["다중 인증 로그인"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"2.9.7 버전","permalink":"/biostar2-docs/update/biostar2-297"},"next":{"title":"비주얼 페이스를 템플릿으로만 동기화하기","permalink":"/biostar2-docs/update/297/visual-face-with-template"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__("65");
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/297/multi-factor-auth-for-login.mdx
+;// CONCATENATED MODULE: ./docs/update/297/multi-factor-auth-for-login.mdx
 
 
 const frontMatter = {
 	id: 'multi-factor-auth-for-login',
-	title: 'Logging in Biostar 2 with Multi-Factor Authentication',
-	description: 'If users feel that using only an ID and password to log in to BioStar 2 is not secure enough or want to enhance their account security, they can use the Multi-Factor Auth for Login feature to improve their account security.',
+	title: '다중 인증으로 BioStar 2 로그인하기',
+	description: 'BioStar 2에 로그인 시 ID와 비밀번호만으로는 계정의 보안이 부족하다고 느끼거나 보안을 강화하고 싶은 사용자의 경우 다중 인증 로그인 기능을 사용하여 계정의 보안을 향상 시킬 수 있습니다.',
 	keywords: [
-		'Multi-Factor Auth for Login'
+		'다중 인증 로그인'
 	],
 	isTranslationMissing: false
 };
@@ -41,20 +41,20 @@ const assets = {
 
 
 const toc = [{
-  "value": "Before Using",
-  "id": "before-using",
+  "value": "참고사항",
+  "id": "참고사항",
   "level": 2
 }, {
-  "value": "How to Use Multi-Factor Authentication Login",
-  "id": "how-to-use-multi-factor-authentication-login",
+  "value": "다중 인증 로그인 설정하기",
+  "id": "다중-인증-로그인-설정하기",
   "level": 2
 }, {
-  "value": "How to Set Up for Multiple Users at Once",
-  "id": "how-to-set-up-for-multiple-users-at-once",
+  "value": "여러 사용자에게 동시에 설정하기",
+  "id": "여러-사용자에게-동시에-설정하기",
   "level": 3
 }, {
-  "value": "Logging in with Multi-Factor Authentication",
-  "id": "logging-in-with-multi-factor-authentication",
+  "value": "다중 인증으로 로그인하기",
+  "id": "다중-인증으로-로그인하기",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -74,13 +74,13 @@ function _createMdxContent(props) {
   if (!Image) _missingMdxReference("Image", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsxs)(_components.p, {
-      children: ["If users feel that using only an ID and password to log in to BioStar 2 is not secure enough or want to enhance their account security, they can use the ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["BioStar 2에 로그인 시 ID와 비밀번호만으로는 계정의 보안이 부족하다고 느끼거나 보안을 강화하고 싶은 사용자의 경우 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.fingerprintLogin"
-      }), " feature to improve their account security."]
+      }), " 기능을 사용하여 계정의 보안을 향상 시킬 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "common.fingerprintLogin"
-      }), " enhances user account security by adding a fingerprint authentication step using a fingerprint scanner to the existing ID and password login method."]
+      }), "은 기존의 ID와 비밀번호 조합에 지문 스캐너를 이용한 지문 인증 단계를 추가하여 사용자 계정의 보안을 향상시킬 수 있는 기능입니다."]
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/biostar-297-login-full.png",
       className: "none",
@@ -88,11 +88,11 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
       type: "info",
       children: [(0,jsx_runtime.jsxs)(_components.p, {
-        children: ["To use the ", (0,jsx_runtime.jsx)(Cmd, {
+        children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "common.fingerprintLogin"
-        }), " feature, a fingerprint scanner that supports multi-factor authentication login must be connected to the BioStar 2 client."]
+        }), " 기능을 사용하려면 BioStar 2 클라이언트에 다중 인증 로그인이 지원되는 지문 스캐너가 연결되어 있어야 합니다."]
       }), (0,jsx_runtime.jsx)(_components.p, {
-        children: "The supported fingerprint scanners are as follows:"
+        children: "지원되는 지문 스캐너는 다음과 같습니다."
       }), (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -105,20 +105,20 @@ function _createMdxContent(props) {
         }), "\n"]
       })]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "before-using",
-      children: "Before Using"
+      id: "참고사항",
+      children: "참고사항"
     }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
       type: "caution",
       children: [(0,jsx_runtime.jsxs)(_components.p, {
-        children: ["When using ", (0,jsx_runtime.jsx)(Cmd, {
+        children: ["전체 관리자(ID 1번) 계정에 ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "common.fingerprintLogin"
-        }), " with the main Administrator (ID 1) account, if fingerprint authentication becomes unavailable, the main Administrator account may be permanently unable to log in. Please be cautious."]
+        }), "을 사용하는 동안 지문을 사용할 수 없게 되는 경우 계정에 영구적으로 로그인할 수 없게 되므로 주의가 필요합니다."]
       }), (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-          children: ["If login becomes impossible due to fingerprint issues, please contact ", (0,jsx_runtime.jsx)(_components.a, {
+          children: ["지문을 사용할 수 없게 되어 로그인이 불가해진 경우 ", (0,jsx_runtime.jsx)(_components.a, {
             href: "https://support.supremainc.com",
-            children: "Suprema Technical Support"
-          }), "."]
+            children: "슈프리마 기술지원팀"
+          }), "으로 문의하세요."]
         }), "\n"]
       })]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -126,63 +126,63 @@ function _createMdxContent(props) {
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["When a user with ", (0,jsx_runtime.jsx)(Cmd, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "common.fingerprintLogin"
-            }), " enabled accesses BioStar 2 through the ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "이 설정되어 있는 사용자가 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "cloud.title"
-            }), ", fingerprint authentication for login is not supported, so ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "로 접속할 경우 지문 인증 로그인을 지원하지 않으므로 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.fingerprintLogin"
-            }), " cannot be used."]
+            }), "을 사용할 수 없습니다."]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: ["액티브 디렉토리 서버 계정으로 ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "biostar.login"
+            }), " 옵션을 사용 중인 경우 ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "common.fingerprintLogin"
+            }), "을 사용할 수 없습니다."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "common.fingerprintLogin"
-            }), " cannot be used if the ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "biostar.login"
-            }), " option is enabled for an Active Directory server account."]
-          }), "\n"]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Users with ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.fingerprintLogin"
-            }), " enabled cannot be registered for BioStar 2 services other than BioStar 2 AC."]
+            }), "이 설정되어 있는 사용자는 BioStar 2 AC 이외의 BioStar 2 서비스에 등록할 수 없습니다."]
           }), "\n"]
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "how-to-use-multi-factor-authentication-login",
-      children: "How to Use Multi-Factor Authentication Login"
+      id: "다중-인증-로그인-설정하기",
+      children: "다중 인증 로그인 설정하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.gnb.user"
-          }), "."]
+          }), " 메뉴를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click on the user who needs to use ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.fingerprintLogin"
-          }), "."]
+          }), "을 설정하려는 사용자를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Set ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.fingerprintLogin"
-          }), " to ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "을 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "user.fingerprintLogin.active"
-          }), "."]
+          }), "으로 설정하세요."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
           type: "info",
           children: [(0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Before using the ", (0,jsx_runtime.jsx)(Cmd, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "common.fingerprintLogin"
-            }), " feature, the following conditions must be met:"]
+            }), " 기능을 사용하기 전에 다음 조건들을 만족해야 합니다."]
           }), (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "The user who intends to use this feature must have an enrolled fingerprint for authentication."
+                children: "이 기능을 사용하려는 사용자에게 지문 인증 수단이 등록되어 있어야 합니다."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -190,9 +190,9 @@ function _createMdxContent(props) {
                   sid: "user.bioStarOperator"
                 }), ", ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "user.loginId"
-                }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+                }), " 및 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "common.password"
-                }), " must be set."]
+                }), "가 설정되어 있어야 합니다."]
               }), "\n"]
             }), "\n"]
           })]
@@ -202,71 +202,71 @@ function _createMdxContent(props) {
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["설정을 저장하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), " to save the settings."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
-      id: "how-to-set-up-for-multiple-users-at-once",
-      children: "How to Set Up for Multiple Users at Once"
+      id: "여러-사용자에게-동시에-설정하기",
+      children: "여러 사용자에게 동시에 설정하기"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "In batch editing, multiple users can be selected and set up at once."
+      children: "일괄 편집에서 여러명의 사용자를 선택하여 한 번에 설정할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.gnb.user"
-          }), "."]
+          }), " 메뉴를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["In the user list, ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-checkbox.png",
+          children: ["사용자 목록에서 설정하려는 사용자들을 ", (0,jsx_runtime.jsx)(Image, {
+            src: "/img/common/ico-checkbox.png",
             ico: true,
             alone: true
-          }), " check and select the users to configure, then click ", (0,jsx_runtime.jsx)(Image, {
+          }), " 체크하여 선택한 다음 ", (0,jsx_runtime.jsx)(Image, {
             src: "/img/ico-batch-edit.png",
             ico: true
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click the ", (0,jsx_runtime.jsx)(Image, {
-            src: "/img/ico-batch-edit-activate-button.png",
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "common.fingerprintLogin"
+          }), "의 ", (0,jsx_runtime.jsx)(Image, {
+            src: "/img/common/ico-batch-edit-activate-button.png",
             ico: true,
             alone: true
-          }), " for ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.fingerprintLogin"
-          }), " to change to edit mode, then set it to ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "을 클릭하여 편집 모드로 변경한 다음 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "user.fingerprintLogin.active"
-          }), " and click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "으로 설정하고 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.ok"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-multi-factor-auth-2.png",
           className: "none",
           caption: true
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["If any of the selected users do not meet the conditions required to set ", (0,jsx_runtime.jsx)(Cmd, {
+            children: ["선택한 사용자 중에 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.fingerprintLogin"
-            }), " to ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "을 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "user.fingerprintLogin.active"
-            }), ", a pop-up message will display '", (0,jsx_runtime.jsx)(Cmd, {
+            }), "으로 설정하는 데에 필요한 조건들을 만족하지 않는 사용자가 있는 경우 팝업 메시지에 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "user.batchedit.popup.notavailableuser"
-            }), "'. Please check the conditions required for the settings and try again."]
+            }), "가 표시됩니다. 설정에 필요한 조건들을 확인한 다음 다시 시도하세요."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
           type: "info",
           children: [(0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Before using the ", (0,jsx_runtime.jsx)(Cmd, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "common.fingerprintLogin"
-            }), " feature, the following conditions must be met:"]
+            }), " 기능을 사용하려면 다음 조건들을 만족해야 합니다."]
           }), (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "The user who intends to use this feature must have an enrolled fingerprint for authentication."
+                children: "이 기능을 사용하려는 사용자에게 지문 인증 수단이 등록되어 있어야 합니다."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -274,28 +274,28 @@ function _createMdxContent(props) {
                   sid: "user.bioStarOperator"
                 }), ", ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "user.loginId"
-                }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+                }), " 및 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "common.password"
-                }), " must be set."]
+                }), "가 설정되어 있어야 합니다."]
               }), "\n"]
             }), "\n"]
           })]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "logging-in-with-multi-factor-authentication",
-      children: "Logging in with Multi-Factor Authentication"
+      id: "다중-인증으로-로그인하기",
+      children: "다중 인증으로 로그인하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Enter the user ID and password on the BioStar 2 login screen and login."
+          children: "BioStar 2 로그인 화면에서 사용자 ID와 비밀번호를 입력하고 로그인하세요."
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-297-login.png",
           caption: true
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "The fingerprint input screen will appear. Place the enrolled finger on the fingerprint scanner to scan your fingerprint."
+          children: "지문 입력 화면이 나타납니다. 지문 스캐너에 등록한 손가락의 지문을 입력하세요."
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar-297-multi-factor-auth-3.png",
           caption: true
@@ -304,22 +304,22 @@ function _createMdxContent(props) {
           children: [(0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "The scan time limit is fixed at 18 seconds and cannot be changed."
+                children: "스캔 제한 시간은 18초로 고정되어 있으며 변경할 수 없습니다."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "Fingerprint scanning can be attempted up to three times consecutively. If the fingerprint is not accurately scanned within these three attempts, authentication will fail."
+                children: "지문은 3회까지 연속으로 스캔할 수 있으며 3회 내에 지문이 정확하게 스캔 되지 않으면 인증 실패 처리됩니다."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["In the case of authentication failure, click the ", (0,jsx_runtime.jsx)(Image, {
+                children: ["인증에 실패한 경우 ", (0,jsx_runtime.jsx)(Image, {
                   src: "/img/ico-retry.png",
                   ico: true
-                }), " to attempt fingerprint authentication again. Up to two retry attempts are allowed."]
+                }), "를 클릭하여 지문 인증을 재시도할 수 있습니다. 최대 2회까지 재시도할 수 있습니다."]
               }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
                 children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
                   children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "If authentication fails after two retry attempts, the process will revert to the ID and Password login step."
+                    children: "재시도 횟수 2회 동안에도 인증에 실패하는 경우 ID + 비밀번호 로그인 단계로 되돌아갑니다."
                   }), "\n"]
                 }), "\n"]
               }), "\n"]
