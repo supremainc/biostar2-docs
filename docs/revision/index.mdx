@@ -1,6 +1,6 @@
 ---
 title: BioStar 2 업그레이드 시 주의사항
-description: 신기능이나 개선된 기능 및 버그 수정에 대한 정보를 제공합니다.
+description: 이 문서는 BioStar 2 각 버전에 적용된 기능 개선, 버그 수정, 주요 변경 사항을 요약하여 제공합니다.
 ---
 
 * **BioStar 2.9.2** 버전부터는 32비트 운영체제용 설치 파일이 제공되지 않습니다.
@@ -50,33 +50,33 @@ description: 신기능이나 개선된 기능 및 버그 수정에 대한 정보
 <Columns>
 <Column className='text--left'>
 
-* HTTP 포트: 80
+* <Cmd sid="port.webServerHttp" />: 80
 
-* 웹소켓 포트: 9002
+* <Cmd sid="port.webSocket" />: 9002
 
-* 데이터베이스 포트: 3312
+* <Cmd sid="port.mariaDB" />: 3312
 
-* 근태 HTTPS 포트: 3002
+* <Cmd sid="port.tnaHttps" />: 3002
 
-* FastCGI 포트: 9000
+* <Cmd sid="port.webServerFastCgi" />: 9000
 
-* 통합 게이트웨이 HTTPS 포트: 5002
+* <Cmd sid="port.gatewayHttps" />: 5002
 
 </Column>
 
 <Column className='text--left'>
 
-* HTTPS 포트: 443
+* <Cmd sid="port.webServerHttps" />: 443
 
-* API 포트: 9010
+* <Cmd sid="port.apiPort" />: 9010
 
-* 근태 HTTP 포트: 3000
+* <Cmd sid="port.tnaHttp" />: 3000
 
-* 근태 클라우드 포트: 52001
+* <Cmd sid="port.tnaNgrok" />: 52001
 
-* 통합 게이트웨이 HTTP 포트: 5000
+* <Cmd sid="port.gatewayHttp" />: 5000
 
-* 리포트 HTTP 포트: 4213
+* <Cmd sid="port.reportHttp" />: 4213
 
 </Column>
 </Columns>

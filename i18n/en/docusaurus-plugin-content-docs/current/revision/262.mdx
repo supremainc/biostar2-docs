@@ -1,106 +1,106 @@
 ---
 id: 262
-title: 버전 2.6.2 (v2.6.2.64)
+title: Version 2.6.2 (Build No. 2.6.2.64)
 ---
 
-릴리즈<Separator/>2018-06-25
+Release<Separator/>2018-06-25
 
-## 신규 기능 및 개선
+## New Features and Improvements
 
 ---
 
-1. 사용자 및 로그 USB 불러오기, 내보내기 지원
+1. Support for user and log import and export via USB.
 
-1. XPass D2(XPD2-GKDB)의 PIN 입력을 카드 ID와 동일하게 처리하는 옵션 지원
+1. Support an option for processing PIN input for XPass D2 (XPD2-GKDB) the same as card ID.
 
-1. 실시간 비디오 보기 지원
+1. Support for real-time video viewing.
 
-1. 사용성 및 문구 표현 개선
+1. Improves usability and phraseology.
 
-1. 이벤트 로그 조회 속도 개선
+1. Improves event log retrieval speed.
 
-1. 신규 장치 연결 지원
+1. Support for connecting new devices.
 
     * FaceStation 2(FS2-DS), BioLite N2(BLN2-PAB), XPass D2(XPD2-GDB, XPD2-GKDB)
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
-1. 설정한 일광 절약 시간 종료 이후에도 BioStar 2 로그가 일광 절약 시간으로 표시되는 문제
+1. Issue where BioStar 2 log continues to be displayed as daylight saving time even after the set period of daylight saving time has ended.
 
-1. 비디오 라이선스를 오프라인으로 활성화할 경우, 비디오 서버가 구동되지 않는 문제
+1. Issue where the video server does not work if the video license is activated offline.
 
-1. 전체 관리자 권한을 가진 사용자가 모바일에서 로그인할 경우 설정 옵션을 변경할 수 없는 문제
+1. Issue where it is not possible to change configurable options when a user with administrator logs in from a mobile device.
 
-1. 2.4.1 이하 버전을 사용할 때 HTTPS 기본 포트를 사용하는 상태에서 버전을 업그레이드하면 데이터베이스가 Migration 되지 않고, 로그인 페이지도 출력되지 않는 문제
+1. Issue in version 2.4.1 or earlier where database does not migrate and login page does not appear when a version upgrade has been carried out while HTTPS default port is used.
 
-1. 서버가 데이터베이스 접속에 실패한 뒤 재시도하지 않는 문제
+1. Issue where server does not retry after failing to connect to database.
 
-1. 얼굴 템플릿을 삭제했을 때 장치에 자동 동기화되지 않는 문제
+1. Issue where device is not auto-synced when face template has been deleted.
 
-1. 사용자 로그인ID, 암호, PIN을 설정했음에도 장치 보안 통신 상태가 **사용 안 함**으로 변경 가능한 문제
+1. Issue where device secure communication status can be changed to ‘Disabled' even when user login ID, password, and PIN have been set.
 
-1. OM-120, DM-20 연결 해제된 상태에서 장치 상세 페이지에 진입해도 페이지가 출력되는 문제
+1. Issue where page display error occurs when device details page is accessed with OM-120 and DM-20 disconnected.
 
-1. BioStar 2 서버에서 일광 절약 시간을 설정한 뒤 FaceStation 2 장치에 일광 절약 시간 스케줄을 할당할 경우 적용되지 않는 문제
+1. Issue where after a daylight saving time schedule has been set up on BioStar 2 server, a daylight saving schedule cannot be assigned to FaceStation 2 device.
 
-1. 펌웨어 업그레이드 항목에서 XPass D2, BioLite N2의 모델명이 올바르게 표시되지 않는 문제
+1. Issue where model names of XPass D2 and BioLite N2 are not correctly displayed in the firmware upgrade list.
 
-1. 2.6.0 버전을 신규로 설치하면 FaceStation 2 장치에 일광 절약 시간 설정이 불가능한 문제
+1. Issue where daylight saving time cannot be set up for FaceStation 2 device when version 2.6.0 has been installed newly.
 
-1. 일별 스케줄의 시작 날짜 및 휴일 날짜 선택 시 31일이 없는 달에는 한 달이 더해져 출력되는 문제
+1. Issue regarding selecting start date for daily schedule or selecting holiday dates where an extra month is added to the resulting screen in the case of months without a 31st day.
 
-1. 시스템 로그 저장 기간이 120일로 설정 불가능한 문제
+1. Issue where it is not possible to set system log storage period to 120 days.
 
-1. 2.5.0 버전에서 업그레이드한 뒤 사용자 계정 컨트롤이 기본값일 때 USB Agent 자동 시작이 불가능한 문제
+1. Issue in a version upgraded from version 2.5.0 where USB Agent does not start automatically when user account control is set to default value.
 
-1. 서버 주소에 문자열을 입력하면 잘못된 IP 주소 알림 팝업이 발생하는 문제
+1. Issue where incorrect IP address notification pop-up appears when a string is entered in the server address field.
 
-1. 데이터베이스 포트를 변경하면 비디오 서버가 종료되지 않는 문제
+1. Issue where video server does not shut down when changing database port.
 
-1. 장치 상세 정보에서 우측 상단의 방향 키로 이동할 때, NVR 상세 화면이 출력되는 문제
+1. Issue where NVR details screen is displayed when scrolling the page with arrow keys at the upper right corner of Device Details.
 
-1. 네트워크 설정을 제외한 초기화를 하면 BioStar 2 이벤트 로그에 **17677**로 출력되는 문제
+1. Issue where "17677" is displayed in BioStar 2 event log when reset without network.
 
-1. 장치를 추가할 때 발생하는 데이터 암호화 관련 팝업 문구 변경
+1. Changed data encryption related pop-up text that appears when adding a device.
 
-1. 기존에 구성되어 있는 스케줄 개방 구역을 편집할 때, 같은 RS-485 네트워크로 연결된 장치가 아닌 다른 장치까지 설정이 가능한 문제
+1. Issue where it is possible to configure devices other than those connected to the same RS-485 network when editing pre-configured schedule unlocked zone.
 
-1. BioLite Net, Xpass S2를 추가한 뒤 사용자 ID 종류를 영문자로 변경하면 오류 팝업이 출력되지 않는 문제
+1. Issue where error pop-up does not appear when you change user ID type to alphanumeric characters after adding BioLite Net and Xpass S2.
 
-1. 일광 절약 시간을 설정했음에도 모니터링 메뉴의 층 상태와 구역 상태에는 적용되지 않은 시간이 출력되는 문제
+1. Issue where despite daylight saving time having been set up, a time not applicable to Monitoring’s floor and zone statuses is displayed.
 
-1. 하나 이상의 글로벌 구역의 상태를 변경할 때 한 구역의 상태를 정상으로 변경하면 이후 다른 구역의 상태가 변경되지 않는 문제
+1. Issue regarding changing the status of one or more global zones where changing the status of one zone does not automatically change the status of the other zones.
 
-1. 2.6.2 버전으로 업그레이드한 뒤 비디오 라이선스 입력창이 활성화되는 문제
+1. Issue where video license input window is activated after an upgrade to version 2.6.2.
 
-1. 출입 등급에 속한 출입문을 삭제하면 마스터 장치가 동기화 오류 상태로 전환되는 문제
+1. Issue where master device switches to synchronization error status when deleting a door belonging to Access Level.
 
-1. 사용자의 지문을 2개 이상 등록한 뒤 스마트 카드를 등록하면 지문 이미지가 정상적으로 출력되지 않는 문제
+1. Issue where fingerprint image does not appear normally when a smart card has been added after the addition of two or more fingerprints of user.
 
-1. 네트워크 설정을 제외한 초기화를 실행한 뒤 해당 장치에서 탬퍼가 발생한 경우, 탬퍼 켜짐 알람 팝업에 장치 이름이 출력되지 않는 문제
+1. Issue where device name does not show in tamper-on alarm pop-up if a tamper has occurred on the device after reset without network.
 
-1. 사용자 이름이 존재하는 이미지 로그를 큰 화면으로 출력하면 UI가 정상적으로 출력되지 않는 문제
+1. Issue where UI does not show normally when displaying an image log with a user name on a larger screen.
 
-1. 출입문을 일괄 편집할 때 설정을 변경하지 않고 확인 버튼을 클릭할 경우 올바르지 않은 알림 팝업이 출력되는 문제
+1. Issue regarding batch-editing doors where incorrect notification pop-up appears when the OK button is clicked without changing the settings.
 
-1. 설정의 카드 메뉴에서 열 설정을 변경한 뒤 카드 메뉴에 다시 진입하면 열이 기본값으로 변경되는 문제
+1. Issue where column switches to its default value when entering the card menu again after changing the column settings in the card menu in Settings.
 
-1. 모니터링 메뉴의 장치 상태와 경보 이력에서 장치 이름으로 필터링할 경우 NVR이 출력되는 문제
+1. Issue where NVR appears when filtering by device name in Device Status or Alert History in Monitoring.
 
-1. 장치 네트워크 연결을 해제해도 스케줄 잠금/개방 구역 상태에 **알 수 없음**으로 출력되지 않는 문제
+1. Issue where the “unknown” message does not appear in Schedule Lock/Unlock zone status when the device has been disconnected from the network.
 
-1. 비디오 관리자 권한으로 로그인하면 NVR/카메라 추가, 삭제, 수정 기능이 미동작하는 문제
+1. Issue where Add, Delete, Modify NVR/camera features do not function when user has logged in as a video operator.
 
-1. 스케줄이 비디오 메뉴에 업데이트 되지 않는 문제
+1. Issue where schedules are not updated in the video menu.
 
-1. 근태 관리 메뉴 사용 중 비디오 메뉴에 접근하면 세션 만료 시간 알림이 발생하는 문제
+1. Issue where session timeout notification occurs when accessing video menu while using Time Attendance menu.
 
-1. 일별 및 휴일 스케줄에 대한 카메라 녹화 이벤트가 정상적으로 동작하지 않는 문제
+1. Issue where camera recording events for daily/holiday schedules do not function properly.
 
-1. 카메라 메뉴에 구성된 출입문의 설정을 변경해도 변경점이 업데이트되지 않는 문제
+1. Problem that the change point is not updated even if the setting of the door configured in the camera menu is changed.
 
-1. NVR 설정 정보 업데이트를 실패한 뒤 카메라를 추가할 경우 검색에 실패하는 문제
+1. Issue where device search fails when adding a camera after failure to updating NVR configuration information.
 
-1. 카메라에 설정된 스케줄을 삭제한 뒤 비디오 메뉴에서 NVR을 선택할 경우 다음 단계로 넘어가지 않는 문제
+1. Issue where you cannot proceed to the next step when selecting NVR in video menu after deleting schedules set up for camera.

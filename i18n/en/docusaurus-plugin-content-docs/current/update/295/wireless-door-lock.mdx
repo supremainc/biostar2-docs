@@ -1,150 +1,148 @@
 ---
 id: wireless-door-lock
-title: 무선 도어락 사용하기
-description: 무선 도어락의 연결 방법부터 설정 방법까지 설명합니다.
-keywords: [ 무선 도어락 ]
+title: How to Use a Wireless Door Lock
+description: Explains how to connect and set up a wireless door lock.
+keywords: [ Wireless Door Lock ]
 ---
 
-CoreStation에 무선 도어락을 연결하여 출입문으로 사용할 수 있습니다.
+Connect a wireless door lock to CoreStation and use it as an entry door.
 
-이 문서에서는 무선 도어락의 연결 방법부터 설정 방법까지 설명합니다.
-
-:::info
-
-무선 도어락은 CoreStation v1.7.1 이상, BioStar 2 v2.9.4 이상에서 사용할 수 있습니다.
-
-:::
-
-## 무선 도어락 장치 라이선스 활성화하기
-
-무선 도어락을 등록하고 사용하려면 별도의 장치 라이선스가 필요합니다.
-
-장치 라이선스를 발급하려면 구입처에 문의하세요.
+This document explains how to connect and set up a wireless door lock.
 
 :::info
 
-* <Cmd>무선 도어락</Cmd> 장치 라이선스는 BioStar 2를 통해 CoreStation에 활성화할 수 있습니다.
-
-* 장치 라이선스 파일은 암호화 된 파일이므로 임의로 수정할 수 없습니다.
-
-* 장치 라이선스는 장치 ID를 기준으로 발급됩니다. 비정상적인 방법으로 장치 ID를 변경할 경우 라이선스에 대한 보증 서비스가 제공되지 않습니다.
-
-* 연결하려는 무선 도어락 대수만큼 최대 12대까지 장치 라이선스를 발급받을 수 있습니다.
-
-* 장치 라이선스로 연결할 수 있는 무선 도어락의 최대 장치 수는 12대입니다. 장치 라이선스 여러 개를 활성화하여도 12대를 초과할 수 없습니다.
+Wireless Door Lock is available for CoreStation v1.7.1 or later and BioStar 2 v2.9.4 or later.
 
 :::
 
-1. <Cmd sid="common.setting" /> > <Cmd sid="common.license" />를 클릭하세요.
+## Activating a Wireless Door Lock Device License
 
-1. <Cmd sid="setting.server.license.device" />에서 <Cmd sid="user.list.csvImport.browse" />를 클릭하고 발급받은 무선 도어락 장치 라이선스를 불러오세요.
+Enrolling and using the wireless door lock requires a separate device license.
 
-    <Image src='/img/ko/biostar-device-license.png' caption />
-
-1. 장치 목록을 확인한 후 <Cmd sid="setting.server.license.button.activate" />를 클릭하여 장치 라이선스를 활성화하세요. 라이선스 활성화에 실패할 경우 활성화 실패 메시지가 표시되며, 라이선스 활성화를 다시 시도할 수 있습니다.
-
-## CoreStation에 무선 도어락 등록하기
-
-BioStar 2에 등록된 CoreStation에 무선 도어락을 추가할 수 있습니다.
+Contact the place of purchase to issue a device license.
 
 :::info
 
-* 지원되는 OSDP 안테나와 무선 도어락은 다음과 같습니다.
+* <Cmd>Wireless Door Lock</Cmd> device licenses can be activated on CoreStation through BioStar 2.
 
-    * U&Z OSDP 안테나: CX8936
+* The device license file is an encrypted file and cannot be modified arbitrarily.
 
-    * U&Z 무선 도어락: CX217x(Handle), CX212x(Knob)
+* Device licenses are issued based on the device ID. If the device ID is changed in an unusual way, the warranty service for the license is not provided.
 
-* 무선 도어락을 연결하려면 CoreStation에 무선 안테나 모듈이 연결되어 있어야 합니다. 무선 안테나 모듈은 2대만 연결할 수 있습니다.
+* You can issue a device license for up to 12 devices, equal to the number of wireless door locks you want to connect.
 
-* 무선 안테나 모듈 한대에 연결할 수 있는 무선 도어락은 6대이며, CoreStation 한대에 연결할 수 있는 무선 도어락의 최대 수는 12대입니다.
+* The maximum number of wireless door locks that can be connected with a device license is 12. Even if you activate multiple device licenses, you cannot exceed 12 devices.
 
 :::
 
-1. <Cmd sid="common.gnb.device" />를 클릭하세요.
+1. Click <Cmd sid="common.setting" /> → <Cmd sid="common.license" />.
 
-1. CoreStation의 장치 이름에 마우스 오른쪽 버튼을 클릭한 뒤 <Cmd sid="device.menu.addOsdpDevice" />를 클릭하세요.
+1. Click <Cmd sid="user.list.csvImport.browse" /> to load the <Cmd sid="setting.server.license.device" /> file from the path where the device license is saved.
 
-    <Image src='/img/ko/biostar-cs40-add-osdp-device.png' caption />
+    <Image src='/img/biostar-device-license.png' caption />
 
-1. <Cmd sid="device.menu.selectOsdpDeviceType" /> 창이 나타납니다. <Cmd sid="device.info.osdpModule" />를 선택하고 <Cmd sid="button.ok" />을 클릭하세요.
+1. After checking the device list, click <Cmd sid="setting.server.license.button.activate" /> to activate the device license. If the license activation fails, an activation failed message is displayed, and you can try to activate the license again.
 
-    <Image src='/img/ko/biostar-cs40-select-osdp-type-antenna.png' className='none' caption />
+## Enrolling a Wireless Door Lock with Corestation
 
-1. 포트 목록이 나타납니다. <Cmd sid="device.info.portStatus" />가 <Cmd sid="device.info.portStatusAvailable" />으로 되어있는 포트 중에서 OSDP 안테나를 추가할 포트를 선택하세요.
+Add a wireless door lock to a CoreStation enrolled in BioStar 2.
 
-    <Image src='/img/ko/biostar-cs40-add-osdp-device-zoom80.png' className='none' caption />
+:::info
 
-1. <Cmd sid="device.info.information" />, <Cmd sid="device.info.osdpNetworkRS485" /> 항목을 설정하고 <Cmd sid="button.apply" />을 클릭하세요.
+* Supported OSDP antenna and wireless door lock are as below:
 
-    <Image src='/img/ko/biostar-cs40-add-osdp-antenna-zoom80.png' caption />
+    * U&Z OSDP Antenna: CX8936
+
+    * U&Z Wireless Door Lock: CX217x (Handle), CX212x (Knob)
+
+* To connect the Wireless Door Lock, the wireless antenna module must be connected to the CoreStation. Only two wireless antenna modules can be connected.
+
+* 6 wireless door locks can be connected to one wireless antenna module, and the maximum number of wireless door locks that can be connected to one CoreStation is 12.
+
+:::
+
+1. Click <Cmd sid="common.gnb.device" />.
+
+1. Right-click on the name of a CoreStation and click <Cmd sid="device.menu.addOsdpDevice" />.
+
+    <Image src='/img/biostar-cs40-add-osdp-device.png' caption />
+
+1. The <Cmd sid="device.menu.selectOsdpDeviceType" /> window appears. Select <Cmd sid="device.info.osdpModule" /> and then click <Cmd sid="button.ok" />.
+
+    <Image src='/img/biostar-cs40-select-osdp-type-antenna.png' className='none' caption />
+
+1. A list of ports appears. Among the ports whose <Cmd sid="device.info.portStatus" /> is <Cmd sid="device.info.portStatusAvailable" />, select the port to add the OSDP antenna.
+
+    <Image src='/img/biostar-cs40-add-osdp-device-zoom80.png' className='none' caption />
+
+1. Set the <Cmd sid="device.info.information" />, <Cmd sid="device.info.osdpNetworkRS485" />, and click <Cmd sid="button.apply" />.
+
+    <Image src='/img/biostar-cs40-add-osdp-antenna-zoom80.png' caption />
 
     :::info
 
-    <Cmd sid="device.info.osdpOsdpID" />는 기본값이 0으로 설정되어 있습니다. OSDP 안테나에 설정되어 있는 <Cmd sid="device.info.osdpOsdpID" />를 입력하세요.
+    <Cmd sid="device.info.osdpOsdpID" /> defaults to 0. Enter the <Cmd sid="device.info.osdpOsdpID" /> set on the OSDP antenna.
 
     ::::
 
-1. 추가된 OSDP 안테나에 마우스 오른쪽 버튼을 클릭한 뒤 <Cmd sid="device.menu.autoAddWirelessDoorLock" />를 클릭하세요.
+1. Right-click the added OSDP antenna and click <Cmd sid="device.menu.autoAddWirelessDoorLock" />.
 
-    <Image src='/img/ko/biostar-cs40-auto-add-wireless-doorlock.png' caption />
+    <Image src='/img/biostar-cs40-auto-add-wireless-doorlock.png' caption />
 
-1. 제공받은 SERVICEKEY 카드를 무선 도어락에 태그하세요.
+1. Tag the provided SERVICEKEY card on the wireless door lock.
 
-1. OSDP 안테나가 무선 도어락과 연결됩니다. 연결된 무선 도어락에 출입문을 설정하여 사용할 수 있습니다.
+1. The OSDP antenna connects to the wireless door lock. Set the door to a connected wireless door lock and use it.
 
-## 무선 도어락 장치 설정 변경하기
+## Setting a Wireless Door Lock
 
-무선 도어락의 <Cmd>장치 이름</Cmd>, <Cmd>상태</Cmd> 및 <Cmd>인증</Cmd> 항목을 설정할 수 있습니다.
+You can set the <Cmd sid="device.info.osdpName" />, <Cmd sid="device.info.osdpStatus" />, and <Cmd sid="device.info.authenticationMode" /> of the enrolled wireless door lock.
 
-1. <Cmd sid="common.gnb.device" />를 클릭하세요.
+1. Click <Cmd sid="common.gnb.device" />.
 
-1. 장치 목록에서 설정하려는 무선 도어락을 클릭하세요.
+1. Click a wireless door lock on the device list to edit.
 
-    <Image src='/img/ko/biostar-device-door-lock.png' caption />
+    <Image src='/img/biostar-device-door-lock.png' caption />
 
-    * <Cmd sid="device.info.osdpName" />: 장치 이름을 입력할 수 있습니다. 입력하지 않더라도 자동으로 지정됩니다.
+    * <Cmd sid="device.info.osdpName" />: Enter a device name. If not entered, it will be assigned automatically.
 
-    * <Cmd sid="device.info.osdpStatus" />: 장치 상태를 설정할 수 있습니다. <Cmd>비활성</Cmd>으로 설정하면 CoreStation이 무선 도어락과 통신하지 않습니다.
+    * <Cmd sid="device.info.osdpStatus" />: Set the device status. If set to <Cmd>Inactive</Cmd>, CoreStation will not communicate with the wireless door lock.
 
-    * <Cmd sid="device.info.authenticationMode" />: 무선 도어락은 인증 모드로 CSN 카드만 사용할 수 있습니다.
+    * <Cmd sid="device.info.authenticationMode" />: The wireless door lock can only use a CSN card as an authentication mode.
 
         :::info
 
-        <Cmd sid="button.plusAdd" />를 클릭한 뒤 <Cmd>카드</Cmd>를 끌어다 놓으세요. 원하는 스케줄을 선택한 뒤 <Cmd>확인</Cmd>을 클릭하면 인증 모드가 등록됩니다.
-
-        원하는 스케줄이 없다면 <Cmd sid="button.plusAddSchedule" />를 클릭하여 설정하세요.
+        Click <Cmd sid="button.plusAdd" />, then drag and drop the <Cmd>Card</Cmd>. Select a schedule and click <Cmd>OK</Cmd> to register the authentication mode. If no desired schedule is available, click <Cmd sid="button.plusAddSchedule" /> to create one.
 
         :::
 
-    * <Cmd sid="device.info.usersHaveFullAccess" />: 무선 도어락이 연결된 CoreStation에 등록된 사용자에게 출입 그룹 설정 없이 모든 출입 권한을 부여할 수 있습니다.
+    * <Cmd sid="device.info.usersHaveFullAccess" />: Full access can be granted to users registered in the CoreStation to which the wireless door lock is connected without setting an access group.
 
-1. 설정을 저장하려면 <Cmd sid="button.apply" />을 클릭하세요.
+1. Click <Cmd sid="button.apply" /> to save the settings.
 
-## 무선 도어락 상태 확인하기
+## View a Wireless Door Lock Status
 
-<Cmd sid="common.gnb.monitoring" /> 메뉴에서 사용중인 무선 도어락의 배터리 상태를 확인할 수 있습니다.
+Check the battery status of the wireless door lock in use.
 
-1. <Cmd sid="common.gnb.monitoring" />을 클릭하세요.
+1. Click <Cmd sid="common.gnb.monitoring" />.
 
-1. <Cmd sid="monitoring.view.list" />에서 <Cmd sid="monitoring.doorLockStatus" />를 클릭하세요.
+1. Click <Cmd sid="monitoring.doorLockStatus" /> in the <Cmd sid="monitoring.view.list" />.
 
-<Image src='/img/ko/biostar-status-wireless-door-lock.png' className='none' caption />
+<Image src='/img/biostar-status-wireless-door-lock.png' className='none' caption />
 
-* <Num num='1'/> <Cmd>필터 저장</Cmd> **버튼**: 설정한 필터를 저장할 수 있습니다.
+* <Num num='1'/> <Cmd>Save Filter</Cmd> **Button**: Saves the set filter.
 
-* <Num num='2'/> **기능 버튼 (열 설정)**: 로그 목록의 열 설정을 변경할 수 있습니다.
+* <Num num='2'/> **Function Buttons (Column Setting)**: Changes the column setting of the log.
 
-* <Num num='3'/> **상태 목록**: 무선 도어락의 배터리 상태를 확인할 수 있습니다.
+* <Num num='3'/> **Status List**: Check the battery status of the wireless door lock in use.
 
-    * <Cmd sid="device.info.BatteryFullStatus" />: 배터리가 충분한 상태입니다.
+    * <Cmd sid="device.info.BatteryFullStatus" />: The battery level is sufficient.
 
-    * <Cmd sid="device.info.BatteryGoodStatus" /> / <Cmd sid="device.info.BatteryHalfStatus" />: 배터리 잔량이 부족한 상태이므로 원활한 작동을 위해 배터리 교체를 권장합니다.
+    * <Cmd sid="device.info.BatteryGoodStatus" /> / <Cmd sid="device.info.BatteryHalfStatus" />: The battery level is low, it is recommended to replace the battery for smooth operation.
 
-    * <Cmd sid="device.info.BatteryLowStatus" />: 배터리 잔량이 거의 없는 상태입니다. 배터리를 교체해주세요.
+    * <Cmd sid="device.info.BatteryLowStatus" />: The battery level is almost empty. Please replace the battery.
 
 :::info
 
-<Cmd sid="common.setting" /> > <Cmd sid="common.alert" /> 메뉴에서 <Cmd sid="eventType.19969" />, <Cmd sid="eventType.19970" />, <Cmd sid="eventType.19971" /> 시 알람이 발생하도록 설정할 수 있습니다.
+In the <Cmd sid="common.setting" /> → <Cmd sid="common.alert" /> menu, you can set alarms to occur at <Cmd sid="eventType.19969" />, <Cmd sid="eventType.19970" />, and <Cmd sid="eventType.19971" />.
 
 :::

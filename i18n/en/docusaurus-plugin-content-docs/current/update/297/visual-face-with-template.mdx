@@ -1,158 +1,150 @@
 ---
 id: visual-face-with-template
-title: 비주얼 페이스를 템플릿으로만 동기화하기
-description: 비주얼 페이스를 템플릿으로만 동기화하는 방법입니다.
-keywords: [ 비주얼 페이스, 마이그레이션 ]
+title: Synchronizing Visual Face as Template Only
+description: Starting with BioStar 2 v2.9.7, the synchronization protocol has been improved to only transmit templates, excluding the actual images during user synchronization. Additionally, an option to prevent storing the actual images in the visual face can be used to prevent privacy-related issues.
+keywords: [ Visual Face, Migration ]
 ---
 
-BioStar 2 v2.9.6 이하에서는 비주얼 페이스를 가진 사용자를 동기화할 때 실제 이미지까지 동기화하여 다소 많은 시간이 소요되었습니다. 또한, 서버나 장치에 저장된 실제 얼굴 사진으로 인해 개인정보 문제가 일어날 수 있는 기관이나 장소에서는 부담이 따르는 옵션이었습니다.
+In BioStar 2 v2.9.6 and earlier versions, synchronizing users including visual faces, involved syncing actual images, which resulted in longer synchronization times. Additionally, the actual facial images stored on the server or device could cause privacy-related issues.
 
-BioStar 2 v2.9.7부터는 사용자 동기화 시 비주얼 페이스에서 실제 이미지를 제외한 템플릿만 전송하도록 프로토콜을 개선하여 동기화 소요 시간을 대폭 단축시키고 개인정보 관련 문제 발생을 방지할 수 있습니다.
+Starting with BioStar 2 v2.9.7, the synchronization protocol has been improved to only transmit templates, excluding the actual images during user synchronization. Additionally, an option to prevent storing the actual images in the visual face can be used to prevent privacy-related issues.
 
 :::note
 
-**비주얼 페이스를 템플릿으로만 동기화할 수 있는 장치 목록**
+**List of devices that can synchronize visual face using templates only**
 
-* FaceStation F2 펌웨어 v2.2.0 이상
+* FaceStation F2 firmware v2.2.0 or later
 
-* BioStation 3 펌웨어 v1.3.1 이상
+* BioStation 3 firmware v1.3.1 or later
 
-* BioEntry W3 펌웨어 v1.0.0 이상
+* BioEntry W3 firmware v1.0.0 or later
 
 :::
 
 :::info
 
-사용자 동기화 시 비주얼 페이스를 템플릿으로만 동기화하려면 [비주얼 페이스 마이그레이션](#visual-face-migration)을 필수적으로 진행해야 합니다.
+To synchronize visual faces as templates only during user synchronization, [Visual Face Migration](#visual-face-migration) must be completed.
 
 :::
 
-## 시작하기 전에
+## Before Start
+
+import DocumentA from '../../common/_fsf2-firmware-support-discontinuation.mdx'
+
+<DocumentA />
+
+### Notes on Visual Face Template Types
+
+Differences in Visual Face Template Types for FaceStation F2, BioStation 3, and BioEntry W3.
+
+* **NPU Type**: BioStation 3, BioEntry W3
+
+* **GPU Type**: FaceStation F2
 
 :::note
 
-**FaceStation F2 v1.x.x 펌웨어 지원 중단 안내**
+*  **Synchronization Time Between Devices with Different Visual Face Template Types**
 
-BioStar 2 v2.9.7에서는 사용자의 비주얼 페이스를 장치에 동기화할 때 템플릿만 전송하도록 변경하여 동기화 성능을 최적화했습니다.
+    Before performing <Cmd sid="user.list.visualFaceMigration.title" />, if BioStation 3 or BioEntry W3 is added to an environment using only FaceStation F2, synchronization will require extracting NPU-type templates from actual images due to differing template types. This process may take a significant amount of time, depending on the number of visual faces enrolled on the server.
 
-따라서 BioStar 2 v2.9.7부터 장치에서만 템플릿을 추출할 수 있는 FaceStation F2 v1.x.x 펌웨어의 지원이 중단됩니다.
+* **Recommended to Enroll Visual Faces through Biostar 2**
 
-현재 FaceStation F2의 v1.x.x 펌웨어를 사용 중인 경우 BioStar 2 v2.9.7을 사용하기 위해서는 FaceStation F2를 최신 펌웨어로 업그레이드하여 사용하세요. 최신 펌웨어는 [슈프리마 다운로드 센터](https://download.supremainc.com)에서 다운로드할 수 있습니다.
-
-:::
-
-### 비주얼 페이스 템플릿 타입 관련 유의사항
-
-FaceStation F2와 BioStation 3, BioEntry W3는 서로 비주얼 페이스 템플릿 타입이 다릅니다.
-
-* **NPU 타입**: BioStation 3, BioEntry W3
-
-* **GPU 타입**: FaceStation F2
-
-:::note
-
-*  **비주얼 페이스 템플릿 타입이 다른 장치 간 동기화 소요시간**
-
-    <Cmd sid="user.list.visualFaceMigration.title" />을 하기 전, FaceStation F2만 연결하여 사용하던 환경에 BioStation 3나 BioEntry W3를 추가하여 동기화하면 템플릿 타입이 달라 실제 이미지에서 NPU 타입 템플릿을 추출하므로, 서버에 등록된 비주얼 페이스의 개수에 따라 상당한 시간이 소요될 수 있습니다.
-
-* **비주얼 페이스는 BioStar 2에서 등록하는 것을 권장합니다.**
-
-    장치의 <Cmd>비주얼 페이스 이미지 저장하기</Cmd> 옵션을 사용하지 않는 상태에서 비주얼 페이스를 등록한 경우, BioStar 2에는 템플릿만 동기화되기 때문에 비주얼 페이스 템플릿 타입이 다른 장치에 동기화할 수 없게 되므로 비주얼 페이스는 BioStar 2에서 등록하는 것을 권장합니다.
+    When enrolling visual faces without using the option to <Cmd sid="device.info.storeVisualFaceImage" /> on the device, only the template is synchronized with BioStar 2. As a result, it cannot be synchronized to devices with different visual face template types. Therefore, it is recommended to enroll visual faces through BioStar 2.
 
 :::
 
-### BioStar 2 v2.9.7에서 FaceStation F2 또는 BioStation 3 사용 시 유의사항
+### Notes on Using Facestation F2 or Biostation 3 in Biostar 2 v2.9.7
 
 :::caution
 
-BioStar 2 v2.9.7에서 FaceStation F2, BioStation 3를 사용할 경우 최신 버전의 펌웨어로 업그레이드를 권장합니다.
+When using FaceStation F2 or BioStation 3 with BioStar 2 v2.9.7, it is recommended to upgrade to the latest firmware version.
 
-최신 펌웨어는 [슈프리마 다운로드 센터](https://download.supremainc.com)에서 다운로드할 수 있습니다.
+The latest firmware can be downloaded from the [Suprema Download Center](https://download.supremainc.com).
 
 :::
 
-BioStar 2 v2.9.7에서 내보낸 사용자 데이터 파일의 경우 실제 이미지 없이 템플릿만 가지고 있으므로 기존 펌웨어를 사용 중인 FaceStation F2 및 BioStation 3에 사용자 데이터 파일을 가져올 수 없습니다.
+The user data file exported from BioStar 2 v2.9.7 contains only visual face templates and no actual images. Therefore, if using existing firmware on FaceStation F2 and BioStation 3, the user data file cannot be imported.
 
-따라서 FaceStation F2 및 BioStation 3에서 <Cmd sid="menu.dataExport" /> 시에는 아래의 버전 이상에서만 데이터 파일을 내보낼 수 있습니다.
+When <Cmd sid="menu.dataExport" /> from FaceStation F2 and BioStation 3, the data files can only be exported using firmware versions above the following:
 
-* FaceStation F2 펌웨어 v2.2.0 이상
+* FaceStation F2 firmware v2.2.0 or later
 
-* BioStation 3 펌웨어 v1.3.1 이상
+* BioStation 3 firmware v1.3.1 or later
 
-<Image src='/img/ko/biostar-data-file-export.png' className='none' caption />
+<Image src='/img/biostar-data-file-export.png' className='none' caption />
 
-## 비주얼 페이스 마이그레이션하기 {#visual-face-migration}
+## How to Visual Face Migration {#visual-face-migration}
 
-<Cmd sid="user.list.visualFaceMigration.title" />이란?
+What is <Cmd sid="user.list.visualFaceMigration.title" />?
 
-BioStar 2 서버에 이미 저장되어 있던 사용자의 실제 이미지로 두 가지 유형의 비주얼 페이스 템플릿을 생성하는 기능입니다.
+Visual Face Migration is a feature that generates two types of Visual Face templates from actual images of users already stored on the BioStar 2 server.
 
-사용자 동기화 시 비주얼 페이스를 템플릿으로만 동기화하려면 <Cmd sid="user.list.visualFaceMigration.title" />을 필수적으로 진행해야 합니다.
+To synchronize Visual Face data as templates only, it is mandatory to perform <Cmd sid="user.list.visualFaceMigration.title" />.
 
 :::caution
 
-<Cmd sid="user.list.visualFaceMigration.title" />은 관리자 계정에서만 진행할 수 있습니다.
+<Cmd sid="user.list.visualFaceMigration.title" /> can only be performed from an administrator account.
 
 :::
 
-1. <Cmd sid="common.gnb.user" /> 메뉴를 클릭하세요.
+1. Click <Cmd sid="common.gnb.user" />.
 
-1. 우측의 <Image src='/img/common/ico-user-option.png' ico />을 클릭한 다음 <Cmd sid="user.list.visualFaceMigration.title" />을 선택하세요.
+1. Click the <Image src='/img/common/ico-user-option.png' ico /> on the right and select <Cmd sid="user.list.visualFaceMigration.title" />.
 
-    <Image src='/img/ko/biostar-297-visual-face-migration-1.png' caption />
+    <Image src='/img/biostar-297-visual-face-migration-1.png' caption />
 
-1. 경고 팝업창의 내용을 숙지한 다음 <Cmd sid="button.continue" />을 클릭하세요. <Cmd sid="user.list.visualFaceMigration.title" />이 진행됩니다.
-
-    :::caution
-
-    * 사용자에 따라 등록된 비주얼 페이스 이미지의 크기가 클수록 템플릿 생성 시 시간이 다소 오래 소요될 수 있습니다.
-
-    * 비주얼 페이스 1,000개 기준 소요 시간은 약 18분이며 서버의 성능에 따라 달라질 수 있습니다.
-
-    * 마이그레이션이 진행되는 동안 현재 페이지를 벗어나지 마세요.
-
-    :::
-
-1. <Cmd sid="user.list.visualFaceMigration.title" />이 완료되면 결과 팝업이 나타납니다. BioStar 2에 등록된 총 비주얼 페이스 개수, 마이그레이션 성공 및 실패한 비주얼 페이스 개수를 확인할 수 있습니다.
-
-    <Image src='/img/ko/biostar-297-visual-face-migration-2.png' className='none' caption />
-
-1. 마이그레이션이 실패하면 마이그레이션에 실패한 사용자 목록을 CSV 파일로 다운로드할 수 있으며, 마이그레이션에 실패한 비주얼 페이스는 삭제를 클릭하여 일괄 <Cmd>삭제</Cmd>할 수 있습니다.
-
-## 사용자의 실제 이미지를 저장하지 않는 기능 안내
-
-### 비주얼 페이스 이미지 저장하기
-
-비주얼 페이스에 실제 이미지와 템플릿을 모두 저장하도록 하거나 실제 이미지는 저장하지 않고 템플릿만 저장하도록 설정할 수 있습니다.
-
-1. <Cmd sid="common.setting" /> > <Cmd sid="common.server" /> > <Cmd sid="settings.expertSettings.title" />에서 <Cmd sid="settings.expertSettings.enableOptionLabel" />를 <Cmd sid="common.use" />으로 활성화하세요.
-
-    <Image src='/img/ko/biostar-297-expert-setting-1.png' caption />
+1. After checking the warning pop-up message, click <Cmd sid="button.continue" />. The <Cmd sid="user.list.visualFaceMigration.title" /> will proceed.
 
     :::caution
 
-    <Cmd sid="settings.expertSettings.enableOptionLabel" />를 활성화하기 전에 <Cmd sid="common.server" /> 메뉴 내에서 변경한 부분이 있을 경우 먼저 <Cmd sid="button.apply" />을 클릭하여 변경 내용을 저장하세요.
+    * The larger the size of the registered visual face images for each user, the longer it may take to generate the templates.
+
+    * For approximately 1,000 visual faces, the process takes about 18 minutes, although this may vary depending on server performance.
+
+    * Do not navigate away from the current page while the migration is in progress.
 
     :::
 
-1. <Image src='/img/ko/ico-expert-setting.png' ico />을 클릭하여 <Cmd sid="settings.expertSettings.detail.title" />으로 진입한 다음 <Cmd sid="settings.expertSettings.detail.storeVisualFaceImageOptionLabel" />를 원하는 대로 설정하세요.
+1. When <Cmd sid="user.list.visualFaceMigration.title" /> is complete, a result pop-up will appear. It will show the total number of visual faces enrolled in BioStar 2, as well as the number of visual faces that were successfully migrated and those that failed.
 
-    <Image src='/img/ko/biostar-297-expert-setting-2.png' caption />
+    <Image src='/img/biostar-297-visual-face-migration-2.png' className='none' caption />
 
-    * <Cmd sid="common.use" />: 기본값입니다. 비주얼 페이스에 실제 이미지와 템플릿을 모두 저장합니다.
+1. If the migration fails, you can download a list of users whose migration failed as a CSV file. Additionally, you can click <Cmd>Delete</Cmd> to remove all visual faces that failed to migrate at once.
 
-    * <Cmd sid="common.notUse" />: 비주얼 페이스에 실제 이미지는 저장하지 않고 템플릿만 저장합니다. <Cmd sid="common.notUse" />으로 비활성화하려는 경우 나타나는 경고 팝업을 주의 깊게 읽어본 다음 설정하세요.
+## Feature to Not Store the User's Actual Image
+
+### Store Visual Face Image
+
+Set whether to store both the actual image and the template in the visual face or to store only the template without storing the actual image.
+
+1. Go to <Cmd sid="common.setting" /> → <Cmd sid="common.server" /> → <Cmd sid="settings.expertSettings.title" /> and activate <Cmd sid="settings.expertSettings.enableOptionLabel" /> to <Cmd sid="common.use" />.
+
+    <Image src='/img/biostar-297-expert-setting-1.png' caption />
+
+    :::caution
+
+    If there are any changes made in the <Cmd sid="common.server" /> menu, click <Cmd sid="button.apply" /> to save the changes before activating <Cmd sid="settings.expertSettings.enableOptionLabel" />.
+
+    :::
+
+1. Click the <Image src='/img/ico-expert-setting.png' ico /> to enter <Cmd sid="settings.expertSettings.detail.title" /> and set <Cmd sid="settings.expertSettings.detail.storeVisualFaceImageOptionLabel" /> as desired.
+
+    <Image src='/img/biostar-297-expert-setting-2.png' caption />
+
+    * <Cmd sid="common.use" />: This is the default setting. Visual face stores both the actual image and the template.
+
+    * <Cmd sid="common.notUse" />: Only the template is stored without saving the actual image for visual face. If disabling this by setting it to <Cmd sid="common.notUse" />, carefully read the warning pop-up before proceeding.
 
     :::note
 
-    **비주얼 페이스 이미지 저장하기 옵션 비활성화 시 주의사항**
+    **Caution When Disabling Store Visual Face Image Option**
     
-    * 이 기능을 비활성화할 경우 저장된 비주얼 페이스의 이미지가 모두 삭제되며, 앞으로 등록되는 비주얼 페이스도 이미지를 제외한 템플릿만을 저장합니다.
+    * Disabling this feature will delete all stored visual face images, and future enrolled visual faces will only store the template without the image.
 
-    * 등록된 비주얼 페이스가 두 가지 타입의 템플릿을 가지고 있지 않은 경우 이 기능을 비활성화할 수 없습니다. [비주얼 페이스 마이그레이션](#visual-face-migration)을 진행하세요.
+    * If the enrolled visual faces do not have both types of templates, this feature cannot be disabled. Please proceed with [Visual Face Migration](#visual-face-migration).
 
-    * 이 기능을 비활성화한 후 <Cmd sid="menu.dataImport" /> 시 유효하지 않은 비주얼 페이스 템플릿이 포함되어 있는 경우 데이터 파일을 가져올 수 없습니다. 문제를 해결하려면 이 기능을 일시적으로 활성화한 후 데이터 파일을 가져오세요.
+    * If this feature is disabled and <Cmd sid="menu.dataImport" /> is performed, the data file cannot be imported if it contains invalid visual face templates. To resolve this issue, temporarily enable this feature before importing the data file.
 
     :::
 
-1. 설정을 저장하려면 <Cmd sid="button.apply" />을 클릭하세요.
+1. Click <Cmd sid="button.apply" /> to save the settings.

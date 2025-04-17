@@ -1,76 +1,76 @@
 ---
 id: unified-gateway
-title: BioStar 2 통합 게이트웨이 사용하기
-description: 이 문서에서는 BioStar 2의 통합 게이트웨이에 대한 간단한 설명과 사용 방법을 설명합니다.
-keywords: [ 통합 게이트웨이 ]
+title: How to Use the Unified Gateway
+description: This document provides an overview of the BioStar 2 Unified Gateway and offers guidance on its usage.
+keywords: [ Unified Gateway ]
 ---
 
-이 문서에서는 BioStar 2의 통합 게이트웨이에 대한 간단한 설명과 사용 방법을 설명합니다.
+This document provides an overview of the BioStar 2 Unified Gateway and offers guidance on its usage.
 
-## 통합 게이트웨이
+## Unified Gateway
 
-BioStar 2는 서로 다른 구조를 가진 AC와 TA 웹페이지가 하나의 서버에 접속하는 구조를 가지고 있는데, <Cmd sid="common.enabled" />를 설정하면 BioStar 2의 실행 포트를 하나의 통합 게이트웨이로 변경할 수 있습니다.
+BioStar 2 has a structure where AC and TA web pages with different structures access one server, and by setting up a <Cmd sid="common.enabled" />, you can change the execution port of BioStar 2 to one Unified Gateway.
 
-<Cmd sid="common.enabled" />는 리버스 프록시 방식을 통하여 BioStar 2 서버에 대한 요청을 효율적으로 처리할 수 있게 해주며 iframe의 보안 취약점을 개선하고 SSL 인증서 오류를 최소화합니다.
+<Cmd sid="common.enabled" /> allows efficient processing of requests to the BioStar 2 server through a reverse proxy method, improves security vulnerabilities in iframes, and minimizes SSL certificate errors.
 
 :::info
 
-* <Cmd sid="common.enabled" />는 BioStar 2 v2.9.3부터 사용할 수 있습니다.
+* <Cmd sid="common.enabled" /> is available from BioStar 2 v2.9.3.
 
-* BioStar 2 설치 및 업그레이드 시 <Cmd sid="common.enabled" />는 <Cmd>비활성</Cmd> 상태이며, 포트 초기값은 다음과 같습니다.
+* When installing or upgrading BioStar 2, the <Cmd sid="common.enabled" /> is <Cmd>Inactive</Cmd>, and the default port values are as follows:
 
     * <Cmd sid="port.gatewayHttps" />: 5002
 
     * <Cmd sid="port.gatewayHttp" />: 5000
 
-* <Cmd sid="common.enabled" />를 사용하는 환경에서 SSL 인증서를 적용할 경우 <Cmd sid="common.enabled" />를 재시작해야 합니다.
+* When applying an SSL certificate in an environment using <Cmd sid="common.enabled" />, restart <Cmd sid="common.enabled" />.
 
-* <Cmd sid="common.biostar" /> <Cmd sid="common.cloud" />를 사용하는 환경에서는 <Cmd sid="common.enabled" />를 사용할 수 없습니다.
+* <Cmd sid="common.enabled" /> is not available in environments using <Cmd sid="cloud.title" />.
 
 :::
 
-### BioStar 2 구조 (기본)
+### BioStar 2 Structure (Basic)
 
 <Image src='/img/common/biostar-current-structure.svg' className='none' alone />
 
-### BioStar 2 구조 (통합 게이트웨이)
+### BioStar 2 Structure (Unified Gateway)
 
 <Image src='/img/common/biostar-ug-structure.svg' className='none' alone />
 
-### BioStar Setting에서 통합 게이트웨이 설정하기
+### Setting up a Unified Gateway in the BioStar Setting
 
-1. <Start/> > <Cmd sid="common.biostar" /> > **BioStar Setting**을 실행하세요.
+1. Run <Start/> → <Cmd sid="common.biostar" /> → **BioStar Setting**.
 
-1. **Unified Gateway** 부분의 **Start** 버튼을 클릭하세요. <Cmd sid="common.enabled" />가 활성화됩니다.
+1. Click the **Start** button in the **Unified Gateway** section. <Cmd sid="common.enabled" /> becomes active.
 
     :::info
 
-    * <Cmd sid="common.enabled" />를 활성화하면 서버가 재시작됩니다.
+    * Activating <Cmd sid="common.enabled" /> will restart the server.
 
-    * 사용중인 포트일 경우 팝업 메시지가 나타납니다. 다른 포트 번호를 입력하고 다시 활성화하세요.
+    * If the port is in use, a pop-up message will appear. Enter a different port number and activate it again.
 
     :::
 
     <Image src='/img/common/biostar-setting.png' className='none' caption />
 
-1. HTTPS 접속 상태일 경우 **HTTPS Port** 필드가 5002로 변경되고 **Unified Gateway**의 **Port** 필드는 443으로 변경됩니다.<br/>포트를 변경하려면 **Stop**을 클릭하여 **Unified Gateway**를 정지한 다음 변경하세요.
+1. If the HTTPS connection, the **HTTPS Port** field changes to 5002, and the **Unified Gateway**’s **Port** field changes to 443.<br/>To change the port, click **Stop** to stop **Unified Gateway**, and then change it.
 
     <Image src='/img/common/biostar-setting-unified-gateway.png' caption />
 
-### BioStar 2에 접속하여 통합 게이트웨이 설정하기
+### Setting up a Unified Gateway in BioStar 2
 
-1. <Cmd sid="common.biostar" />에 접속하세요.
+1. Access to <Cmd sid="common.biostar" />\.
 
-1. <Cmd sid="common.setting" /> > <Cmd sid="setting.systemSecurity" />을 클릭하세요.
+1. Click <Cmd sid="common.setting" /> → <Cmd sid="setting.systemSecurity" />.
 
-1. <Cmd sid="setting.systemSecurity.sessionGateway" />에서 <Cmd sid="common.enabled" />를 활성화하세요.
+1. Activate the <Cmd sid="common.enabled" /> in the <Cmd sid="setting.systemSecurity.sessionGateway" />.
 
-    <Image src='/img/ko/biostar-setting-security-unified-gateway.png' className='none' caption />
+    <Image src='/img/biostar-setting-security-unified-gateway.png' className='none' caption />
 
 :::info
 
-* <Cmd sid="common.enabled" />를 활성화하면 서버가 재시작되며 자동으로 로그인 페이지로 이동합니다.
+* When you activate <Cmd sid="common.enabled" />, the server restarts and is automatically directed to the login page.
 
-* 사용중인 포트일 경우 팝업 메시지가 나타납니다. 다른 포트 번호를 입력하고 다시 활성화하세요.
+* If the port is in use, a pop-up message will appear. Enter a different port number and activate it again.
 
 :::
