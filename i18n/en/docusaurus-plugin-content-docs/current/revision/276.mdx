@@ -1,66 +1,66 @@
 ---
 id: 276
-title: 버전 2.7.6 (v2.7.6.16)
+title: Version 2.7.6 (Build No. 2.7.6.16)
 ---
 
-릴리즈<Separator/>2019-05-20
+Release<Separator/>2019-05-20
 
-## 신규 기능 및 개선
-
----
-
-1. 사용자별 APB 해제 지원
-
-1. BioStar 1.x to BioStar 2.x Migration Tool 추가
-
-    * BioStar 1.x의 사용자 및 이벤트 로그 데이터를 BioStar 2에서 사용할 수 있도록 지원
-
-1. 이미지 로그 설정에서 지원하는 이벤트 종류 추가
-
-1. 액티브 디렉토리에 암호화 옵션 추가
-
-1. 포트 메뉴의 FastCGI 항목에서 9000번 포트를 변경할 수 있도록 개선
-
-1. 경보 이메일에서 이벤트 발생 시간을 표준 시간대, 장치 시간, 서버 시간을 모두 표시하도록 개선
-
-## 주요 버그 수정
+## New Features and Improvements
 
 ---
 
-1. 언어를 스페인어(스페인)로 설정할 경우 근태 보고서 PDF로 내보내기가 정상적으로 동작하지 않는 문제
+1. Support to the Clear APB for each user.
 
-1. 장치 설정의 작업 조건 및 동작에서 신호 입력(이벤트 이름 변경) 옵션을 선택해 이벤트를 설정할 경우, 해당 이벤트 발생 시 정상적으로 동작하지 않는 문제
+1. Add BioStar 1.x to BioStar 2.x Migration Tool.
+
+    * Supports the use of user and event logs from BioStar 1.x in BioStar 2.
+
+1. Add the event items to IMAGE LOG menu.
+
+1. Add the encryption option to Active Directory.
+
+1. Improve that the administrator can change the port 9000 in FastCGI of Port menu.
+
+1. Improve that the time of events is displayed as the time zone, device time, and server time on the alarm email.
+
+## Main Fixes
+
+---
+
+1. If an administrator set the language to Spanish(Spain), exporting the T&A report in PDF does not work properly.
+
+1. If you set an event by selecting the Input (Event Name Change) option in Trigger & Action of the device settings, the event does not work properly as follows:
 
     * DM-20
 
-        * 경보가 출력되지 않는 문제
+        * The alert does not occur.
 
-        * 실시간 로그에 설정한 이벤트 이름이 아닌 **-1**이 출력되는 문제
+        * '-1' is displayed instead of the event name set in Real-time Log.
 
-        * 이벤트 로그에 설정한 이벤트 이름이 아닌 **Input detect**가 출력되는 문제
+        * 'Input detect' is displayed instead of the event name set in Event Log.
 
-    * 모든 장치
+    * All devices
 
-        * 모니터링 메뉴 및 대시보드에 설정한 이벤트 이름이 아닌 코드 이름이 출력되는 문제
+        * The code name is displayed instead of the event name set in DASH BOARD and MONITORING menu.
 
-1. 출입 기록이 없는 사용자에 대한 처리 방법 수정
+1. Change the recording method for users who do not have access logs.
 
-    * 장기 미출입 사용자 메뉴 목록에 표시
+    * Displayed in Long-term Idle Users menu.
 
-    * 최종 출입일 열에 **기록 없음**으로 로그 출력
+    * Log 'No history' on the Last Entrance Date column.
 
-1. 특정 사용자 그룹에 대한 권한을 가진 커스텀 권한 관리자로 접속한 경우, **장치에서 삭제**에서 장치 그룹에 속한 장치 및 하위 그룹을 선택할 수 없는 문제
+1. When an administrator logs in as the custom level with permissions to a user group, the administrator cannot select the devices and subgroups belonging to the device group in **Delete From Device**.
 
-1. BioStar 2 버전 업그레이드 시 사용자 정의 설치 창의 데이터 베이스 연결 확인 및 데이터 베이스 테이블 생성 옵션 비활성화
+1. Deactivate 'Check the database connection' and 'Generate the database tables' options in the Custom installation window when upgrading the BioStar 2 version.
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
-1. 3DES 암호화 옵션을 비활성화하여 보안 취약점 수정
+1. Fixed a security vulnerability by deactivating the 3DES encryption option.
 
-1. 한국어 또는 영어 이외의 언어를 설정할 경우 로그인한 뒤 도움말을 선택하면 오류가 발생하는 문제
+1. If an administrator sets the language other than Korean or English, an error occurs when a user logs in and select Help menu.
 
-1. 인터락 구역에서 발생한 입력 감지 이벤트가 실시간 로그에 **-1**로 출력되는 문제
+1. The 'Input detect' event that occurred in the interlock zone is displayed as '-1' in Real-time log.
 
-1. 사용자 그룹을 선택해 출입 그룹을 생성할 경우, 설정한 출입 그룹의 정보 및 개수가 정상적으로 출력되지 않는 문제
+1. If an administrator selects a user group when adding an access group, the information and the number of the access group are not output properly.

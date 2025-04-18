@@ -1,46 +1,46 @@
 ---
 id: 273
-title: 버전 2.7.3 (v2.7.3.23)
+title: Version 2.7.3 (Build No. 2.7.3.23)
 ---
 
-릴리즈<Separator/>2019-02-25
+Release<Separator/>2019-02-25
 
-## 신규 기능 및 개선
-
----
-
-1. 장치당 추가 가능한 관리자 수 확대
-
-    * 기존: 10명
-
-    * 변경: 최대 1,000명(장치 펌웨어 버전에 따라 추가 가능한 관리자 수 상이)
-
-1. 장치 일괄 편집을 이용해 관리자를 추가할 때 새로운 설정이 적용되는 방식 변경
-
-    * 기존: 기존 설정에 새로 설정한 내용을 덮어쓰는 방식
-
-    * 변경: 기존 설정에 새로 설정한 내용을 추가하는 방식
-
-1. 포트 포워딩 방식으로 장치를 구성한 경우에도 장치 재연결 시 정상적으로 연결되도록 개선
-
-## 주요 버그 수정
+## New Features and Improvements
 
 ---
 
-1. 근태 기록을 PDF로 내보낼 때 아랍어가 정상적으로 표시되지 않는 문제
+1. Increase the number of administrators that can be added per device.
 
-1. 커스텀 권한 관리자로 접속한 경우, 특정 장치 및 사용자에 대한 권한이 있어도 사용자를 해당 장치에 전송할 수 없는 문제
+    * Before: 10
+    
+    * After: up to 1,000 (depends on the firmware version of the device.)
 
-1. 버전을 2.7.0 이상으로 업그레이드할 때 이전에 설정한 스케줄에서 부재를 생성할 수 없는 문제
+1. Change the way new settings are applied when adding administrators using batch edit of devices.
 
-1. 사용자 그룹을 50개 이상 추가했을 때, 생성된 그룹 중 하위 그룹을 포함한 항목이 있을 경우 근태 보고서를 CSV 파일로 내보낼 수 없는 문제
+    * Before: Overwrite a new setting to existing settings.
 
-## 버그 수정
+    * After: Add a new setting to existing settings.
+
+1. Improved that the device will be normally connected when you reconnect the device even when it is configured as a port forwarding.
+
+## Main Fixes
 
 ---
 
-1. 출입 그룹을 생성할 때 동일한 사용자를 사용자 그룹 항목과 사용자 항목에 동시에 추가할 경우 설정이 정상적으로 적용되지 않는 문제
+1. Arabic does not display properly if an administrator exports the T&A report in PDF.
 
-1. 서버에서 장치의 설정을 변경하면 해당 장치의 서버 개인 메시지 옵션이 항상 비활성화로 변경되는 문제
+1. When an administrator logs in as the custom level, even though the administrator has permissions to a specific device and the user, cannot transfer users to that device.
 
-1. 버전을 2.7.0 이하에서 2.7.2로 업그레이드하면 근태관리 기능이 정상적으로 동작하지 않는 문제
+1. If upgrading to version 2.7.0 or later, the administrator cannot add a leave in a previously set schedule.
+
+1. When there are more than 50 user groups, you cannot export the T & A report to a CSV file if any groups contain subgroups.
+
+## Bug Fixes
+
+---
+
+1. When creating an Access Group, the setting is not applied properly if you add the same user to the User Group and User at the same time.
+
+1. If an administrator edits the settings of the device on the server, Server Private Msg option on that device will always change to disabled.
+
+1. The T&A function does not work properly if you upgrade from version 2.7.0 or earlier to 2.7.2.

@@ -1,51 +1,50 @@
 ---
 id: timed-apb
-title: 시간 제한 안티패스백 설정하기
-description: 시간 제한 안티패스백은 사용자가 출입 인증 후 동일한 장치에 다시 인증하고자 할 때 발생하는 안티패스백이 재인증을 할 수 있을 때까지 걸리는 초기화 시간을 설정하여 빈번한 입실을 제한할 수 있습니다.
-keywords: [ 시간 제한 안티패스백 ]
+title: How to Set Up the Timed Anti Passback
+description: Timed Anti PassBack restricts frequent entries by setting an initialization time for anti-passback. This feature prevents users from re-authenticating with the same device immediately after access authentication, ensuring a defined period must elapse before re-authentication is possible.
+keywords: [ Timed Anti PassBack ]
 ---
 
-
-<Cmd sid="timedAPB.field" />은 사용자가 출입 인증 후 동일한 장치에 다시 인증하고자 할 때 발생하는 <Cmd sid="door.antiPassBack" />이 재인증을 할 수 있을 때까지 걸리는 초기화 시간을 설정하여 빈번한 입실을 제한할 수 있습니다.
+<Cmd sid="timedAPB.field" /> restricts frequent entries by setting an initialization time for anti-passback. This feature prevents users from re-authenticating with the same device immediately after access authentication, ensuring a defined period must elapse before re-authentication is possible.
 
 :::info
 
-<Cmd sid="timedAPB.field" />은 별도의 BioStar 2 라이선스 없이 사용할 수 있습니다.
+<Cmd sid="timedAPB.field" /> can be used without a separate BioStar 2 license.
 
 :::
 
-## 출입문에 시간 제한 안티패스백 설정하기
+## Setting Timed Anti PassBack on the Door
 
-1. <Cmd sid="common.gnb.door" /> 메뉴를 클릭하세요.
+1. Click <Cmd sid="common.gnb.door" />.
 
-1. <Cmd sid="button.func.addDoor" />를 클릭하고 <Cmd sid="common.information" />, <Cmd sid="device.info.configuration" />, <Cmd sid="common.option" /> 등을 설정하세요.
+1. Click <Cmd sid="button.func.addDoor" /> and set <Cmd sid="common.information" />, <Cmd sid="device.info.configuration" />, <Cmd sid="common.option" />, etc.
 
-    <Image src='/img/ko/biostar-295-add-door.png' className='none' caption />
-
-    :::info
-
-    * 무선 도어락으로 출입문을 설정한 경우 <Cmd sid="timedAPB.field" />을 사용할 수 없습니다.
-
-    * <Cmd sid="timedAPB.field" />은 <Cmd sid="door.entryDevice" /> 또는 <Cmd sid="door.exitDevice" />와 <Cmd sid="common.doorRelay" />가 선택된 상태에서만 설정할 수 있습니다.
-
-        * 출입문의 보안을 강화하기 위해 사용하는 기능이므로 <Cmd sid="door.entryDevice" /> 또는 <Cmd sid="door.exitDevice" /> 중 하나만 선택된 상태에서도 설정할 수 있습니다.
-
-    * <Cmd sid="timedAPB.field" />과 <Cmd sid="door.apbUseDoorSensor" /> 기능은 동시에 사용할 수 없습니다.
-
-    * <Cmd sid="timedAPB.field" />과 <Cmd sid="door.antiPassBack" />은 동시에 사용할 수 없습니다.
-
-    :::
-
-1. <Cmd sid="timedAPB.field" />을 <Cmd>사용</Cmd>으로 활성화하고 원하는 <Cmd sid="door.resetTime" />을 입력하세요.
-
-    <Image src='/img/ko/biostar-295-timed-apb.png' className='none' caption />
-
-    * <Cmd sid="door.resetTime" />: 입력 단위는 분(min.)이며 기본값은 10분이고 입력 가능한 시간의 범위는 0 ~ 60분입니다.
+    <Image src='/img/biostar-295-add-door.png' className='none' caption />
 
     :::info
 
-    <Cmd sid="door.resetTime" />을 0분으로 설정하면 <Cmd sid="timedAPB.field" />이 동작하지 않습니다.
+    * If the door is set up with a wireless door lock, <Cmd sid="timedAPB.field" /> cannot be used.
+
+    * <Cmd sid="timedAPB.field" /> can only be set when <Cmd sid="door.entryDevice" /> or <Cmd sid="door.exitDevice" /> and <Cmd sid="common.doorRelay" /> are selected.
+
+        * Since this feature is used to enhance door security, it can be set even when one of the <Cmd sid="door.entryDevice" /> or <Cmd sid="door.exitDevice" /> is selected.
+
+    * <Cmd sid="timedAPB.field" /> and <Cmd sid="door.apbUseDoorSensor" /> features cannot be used at the same time.
+
+    * <Cmd sid="timedAPB.field" /> and <Cmd sid="door.antiPassBack" /> features cannot be used at the same time.
 
     :::
 
-1. 설정을 저장하려면 <Cmd sid="button.apply" />을 클릭하세요.<br/>설정 후 <Cmd sid="timedAPB.field" />이 발생하면 <Cmd sid="common.gnb.monitoring" /> 메뉴에서 이벤트 및 <Cmd>이미지 로그</Cmd>를 확인할 수 있습니다.
+1. Set <Cmd sid="timedAPB.field" /> to <Cmd>Use</Cmd> and enter the desired reset time.
+
+    <Image src='/img/biostar-295-timed-apb.png' className='none' caption />
+
+    * <Cmd sid="door.resetTime" />: The input unit is in minutes (min.), with a default setting of 10 minutes. Users can input a time within the range of 0 to 60 minutes.
+
+    :::info
+
+    If <Cmd sid="door.resetTime" /> is set to 0 minutes, <Cmd sid="timedAPB.field" /> will not operate.
+
+    :::
+
+1. Click <Cmd sid="button.apply" /> to save the settings.<br/>If <Cmd sid="timedAPB.field" /> occurs after setup, you can check the event and <Cmd>Image Log</Cmd> in the <Cmd sid="common.gnb.monitoring" /> menu.

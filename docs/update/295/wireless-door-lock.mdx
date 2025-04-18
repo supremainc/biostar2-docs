@@ -39,7 +39,7 @@ CoreStation에 무선 도어락을 연결하여 출입문으로 사용할 수 �
 
 1. <Cmd sid="setting.server.license.device" />에서 <Cmd sid="user.list.csvImport.browse" />를 클릭하고 발급받은 무선 도어락 장치 라이선스를 불러오세요.
 
-    <Image src='/img/ko/biostar-device-license.png' caption />
+    <Image src='/img/biostar-device-license.png' caption />
 
 1. 장치 목록을 확인한 후 <Cmd sid="setting.server.license.button.activate" />를 클릭하여 장치 라이선스를 활성화하세요. 라이선스 활성화에 실패할 경우 활성화 실패 메시지가 표시되며, 라이선스 활성화를 다시 시도할 수 있습니다.
 
@@ -65,19 +65,19 @@ BioStar 2에 등록된 CoreStation에 무선 도어락을 추가할 수 있습�
 
 1. CoreStation의 장치 이름에 마우스 오른쪽 버튼을 클릭한 뒤 <Cmd sid="device.menu.addOsdpDevice" />를 클릭하세요.
 
-    <Image src='/img/ko/biostar-cs40-add-osdp-device.png' caption />
+    <Image src='/img/biostar-cs40-add-osdp-device.png' caption />
 
 1. <Cmd sid="device.menu.selectOsdpDeviceType" /> 창이 나타납니다. <Cmd sid="device.info.osdpModule" />를 선택하고 <Cmd sid="button.ok" />을 클릭하세요.
 
-    <Image src='/img/ko/biostar-cs40-select-osdp-type-antenna.png' className='none' caption />
+    <Image src='/img/biostar-cs40-select-osdp-type-antenna.png' className='none' caption />
 
 1. 포트 목록이 나타납니다. <Cmd sid="device.info.portStatus" />가 <Cmd sid="device.info.portStatusAvailable" />으로 되어있는 포트 중에서 OSDP 안테나를 추가할 포트를 선택하세요.
 
-    <Image src='/img/ko/biostar-cs40-add-osdp-device-zoom80.png' className='none' caption />
+    <Image src='/img/biostar-cs40-add-osdp-device-zoom80.png' className='none' caption />
 
 1. <Cmd sid="device.info.information" />, <Cmd sid="device.info.osdpNetworkRS485" /> 항목을 설정하고 <Cmd sid="button.apply" />을 클릭하세요.
 
-    <Image src='/img/ko/biostar-cs40-add-osdp-antenna-zoom80.png' caption />
+    <Image src='/img/biostar-cs40-add-osdp-antenna-zoom80.png' caption />
 
     :::info
 
@@ -87,7 +87,7 @@ BioStar 2에 등록된 CoreStation에 무선 도어락을 추가할 수 있습�
 
 1. 추가된 OSDP 안테나에 마우스 오른쪽 버튼을 클릭한 뒤 <Cmd sid="device.menu.autoAddWirelessDoorLock" />를 클릭하세요.
 
-    <Image src='/img/ko/biostar-cs40-auto-add-wireless-doorlock.png' caption />
+    <Image src='/img/biostar-cs40-auto-add-wireless-doorlock.png' caption />
 
 1. 제공받은 SERVICEKEY 카드를 무선 도어락에 태그하세요.
 
@@ -95,13 +95,13 @@ BioStar 2에 등록된 CoreStation에 무선 도어락을 추가할 수 있습�
 
 ## 무선 도어락 장치 설정 변경하기
 
-무선 도어락의 <Cmd>장치 이름</Cmd>, <Cmd>상태</Cmd> 및 <Cmd>인증</Cmd> 항목을 설정할 수 있습니다.
+무선 도어락의 <Cmd sid="device.info.osdpName" />, <Cmd sid="device.info.osdpStatus" /> 및 <Cmd sid="device.info.authenticationMode" />를 설정할 수 있습니다.
 
 1. <Cmd sid="common.gnb.device" />를 클릭하세요.
 
 1. 장치 목록에서 설정하려는 무선 도어락을 클릭하세요.
 
-    <Image src='/img/ko/biostar-device-door-lock.png' caption />
+    <Image src='/img/biostar-device-door-lock.png' caption />
 
     * <Cmd sid="device.info.osdpName" />: 장치 이름을 입력할 수 있습니다. 입력하지 않더라도 자동으로 지정됩니다.
 
@@ -129,13 +129,13 @@ BioStar 2에 등록된 CoreStation에 무선 도어락을 추가할 수 있습�
 
 1. <Cmd sid="monitoring.view.list" />에서 <Cmd sid="monitoring.doorLockStatus" />를 클릭하세요.
 
-<Image src='/img/ko/biostar-status-wireless-door-lock.png' className='none' caption />
+<Image src='/img/biostar-status-wireless-door-lock.png' className='none' caption />
 
-* <Num num='1'/> <Cmd>필터 저장</Cmd> **버튼**: 설정한 필터를 저장할 수 있습니다.
+* <Num num='1' /> <Cmd>필터 저장</Cmd> **버튼**: 설정한 필터를 저장할 수 있습니다.
 
-* <Num num='2'/> **기능 버튼 (열 설정)**: 로그 목록의 열 설정을 변경할 수 있습니다.
+* <Num num='2' /> **기능 버튼 (열 설정)**: 로그 목록의 열 설정을 변경할 수 있습니다.
 
-* <Num num='3'/> **상태 목록**: 무선 도어락의 배터리 상태를 확인할 수 있습니다.
+* <Num num='3' /> **상태 목록**: 무선 도어락의 배터리 상태를 확인할 수 있습니다.
 
     * <Cmd sid="device.info.BatteryFullStatus" />: 배터리가 충분한 상태입니다.
 

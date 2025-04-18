@@ -1,68 +1,68 @@
 ---
 id: 2712
-title: 버전 2.7.12 (v2.7.12.39)
+title: Version 2.7.12 (Build No. 2.7.12.39)
 ---
 
-릴리즈<Separator/>2020-01-15
+Release<Separator/>2020-01-15
 
-## 신규 기능 및 개선
-
----
-
-1. 슈프리마 모바일 크리덴셜 지원
-
-1. **특정 장치** 사용자 자동 동기화 옵션 안정화
-
-1. 근태 기록을 여러 클라이언트에서 동시에 생성할 수 있도록 개선
-
-1. BioStar 2 설치 파일(exe, dll)에 CodeSign 적용
-
-1. Java 1.8.0_201 상위 버전의 유료화에 따른 Java 버전 변경
-
-    * 기존: 1.8.0_231
-
-    * 변경: 1.8.0_201
-
-## 주요 버그 수정
+## New Features and Improvements
 
 ---
 
-1. BioStar 2 서버 라이브러리에서 디버그를 위해 사용하는 Windows 시작 이벤트가 없을 경우 BioStar 2가 정상적으로 구동되지 않는 문제
+1. Added the new Suprema Mobile Credential.
 
-1. 소집 구역을 사용할 때 이벤트 로그 처리 중 교착(Deadlock)이 발생하는 문제
+1. Stabilized ‘Specific Devices’ Automatic User Synchronization option.
 
-1. 근태 관리 메뉴에서 부재 설정 시 시작 시간을 다른 부재의 종료 시간과 동일하게 설정할 수 없는 문제
+1. Improved TA module to allow generating reports simultaneously on multiple clients.
 
-1. 생성된 사용자 그룹의 개수가 많을 경우 사용자 그룹을 생성, 편집, 삭제할 때 시간이 오래 걸리는 문제
+1. Applied code signing on BioStar2 installer including executables and library files.
 
-1. ngrok 로그가 비정상적으로 생성되며 BioStar 2 클라우드에 접속할 수 없는 문제
+1. Changed version of Java due to subscription policy on versions higher than 1.8.0_201.
 
-1. ngrok 자동 업데이트 기능으로 인해 BioStar 2 클라우드에 접속할 수 없는 문제
+    * Before: 1.8.0_231
+    
+    * After: 1.8.0_201
 
-1. 휴식 시간과 관련된 근태 보고서가 정상적으로 업데이트되지 않는 문제
-
-1. **특정 장치** 사용자 자동 동기화 옵션을 사용할 때 CSV 불러오기를 실행하면 사용자가 모든 장치에 동기화되는 문제
-
-## 버그 수정
+## Main Fixes
 
 ---
 
-1. 근태 기록을 PDF로 내보낼 때 한자가 정상적으로 표시되지 않는 문제
+1. A problem where BioStar 2 server does not start correctly when a certain Windows OS event does not exist.
 
-1. MS SQL Server 데이터베이스를 사용하는 환경에서 Unicode를 사용하는 언어에 대해 검색 기능이 정상적으로 동작하지 않는 문제
+1. Improved Muster Zone to not fall into a deadlock while processing event logs.
 
-1. CSV 불러오기를 통해 사용자를 추가할 때 해당 사용자가 속한 사용자 그룹이 업데이트되지 않아 사용자가 목록에 표시되지 않는 문제
+1. A bug in TA module where it did not allow the next leave’s start time to overlap the previous leave’s end time.
 
-1. 장치 상세 페이지에서 이미지 로그 옵션을 사용할 때 **출입 거부(안티테일게이팅)** 이벤트를 설정해도 정상적으로 적용되지 않는 문제
+1. Improved performance when having a great deal of user groups.
 
-1. 특정 사용자 그룹에 대한 권한만을 가진 커스텀 권한 관리자가 모든 사용자에 대한 실시간 로그를 확인할 수 있는 문제
+1. An issue where access through BioStar 2 Cloud doesn’t work due to an abnormal behavior of ngrok.
 
-1. 언어를 일본어로 설정했을 때 근태 관리 메뉴의 **기타 근무 규칙 추가** 페이지에서 **시간 규칙** 항목의 콤보 박스가 출력되지 않는 문제
+1. An issue where access through BioStar 2 Cloud doesn’t work due to an automatic update on ngrok.
 
-1. 장치의 **작업 조건 및 동작**에서 신호 입력 포트를 **입력 포트 0**으로 설정한 뒤 다른 작업 조건을 추가하고 저장할 경우 해당 설정이 정상적으로 적용되지 않는 문제
+1. Fixed TA module to update reports related to break time properly.
 
-1. 근태 보고서를 업데이트할 때 **예외** 열의 크기를 초과하는 데이터가 조회될 경우 오류가 발생하는 문제
+1. Fixed the ‘Specific Devices’ Automatic User Synchronization option to work accurately when users are created using CSV import.
 
-1. 상태에 부적합한 메시지가 출력되는 문제
+## Bug Fixes
 
-    * 데이터베이스 연결이 끊긴 상황에서 비밀번호 오류 메시지가 출력
+---
+
+1. An issue where Chinese characters were not displayed correctly on the exported PDF TA report.
+
+1. A bug in an environment using MS SQL Server database where the results are not correct when searched in languages using Unicode.
+
+1. An issue where the user does not get displayed on the user list properly due to a bug when CSV file contains user group information.
+
+1. A bug where ‘Image Log’ did not work correctly with ‘Access Denied(Anti-tailgating)’ event.
+
+1. An issue where a custom level administrator with permission only on a specific user group could view all user's real-time logs.
+
+1. A bug where ‘Time Code’ does not appear from the **Rule** menu on TA module when the language is set as Japanese.
+
+1. A bug where the action of ‘Trigger & Action’ configuration from device disappears after saving the settings.
+
+1. An issue where an error occurs when updating the TA report that has data exceeding the maximum length of the ‘Exception’ column.
+
+1. Fixed an error message that shows inaccurate status.
+
+    * Incorrect password popup displays when the BioStar 2 server cannot connect to the database.

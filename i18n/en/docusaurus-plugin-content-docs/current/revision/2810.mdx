@@ -1,147 +1,146 @@
 ---
 id: 2810
-title: 버전 2.8.10 (v2.8.10.37)
+title: Version 2.8.10 (Build No. 2.8.10.37)
 ---
 
-릴리즈<Separator/>2021-04-08
+Release<Separator/>2021-04-08
 
-## 신규 기능 및 개선
+## New Features and Improvements
 
 ---
 
-1. 비주얼 페이스 기능 개선
+1. Enhanced Visual Face functionality.
 
-    * **사진 올리기**로 비주얼 페이스 등록 시 끌어다 놓기(Drag & Drop) 방식 지원
+    * Supports drag & drop when registering Visual Face with 'Upload Image.'
 
-    * 비주얼 페이스 모바일 등록 성공 여부 안내를 제공하여 실패 시 사용자가 등록을 다시 시도할 수 있도록 지원
+    * Provides guidance on success or failure of Visual Face Mobile Enrollment so that users can retry registration in the case of failure.
 
-    * 비주얼 페이스 이미지 파일에 대한 최대 사이즈 및 용량 변경
+    * Changed the maximum size and capacity for Visual Face image files.
 
-1. 열화상 카메라 기능 개선
+1. Improved Thermal Camera functionality.
 
-    * 최저 기준 온도 설정 기능 추가
+    * Added minimum threshold temperature setting.
 
     :::info
 
-    최저 기준 온도 설정 기능을 지원하는 장치 펌웨어 버전을 확인하십시오.
+    Device firmware versions that support minimum threshold temperature setting:
+    
+    * FaceStation 2 firmware 1.4.2 or later
 
-    * FaceStation 2 펌웨어 1.4.2 이상
-
-    * FaceStation F2 펌웨어 1.0.2 이상
+    * FaceStation F2 firmware 1.0.2 or later
 
     :::
 
-1. 이메일 설정 기능 개선
+1. Improved Email Settings.
 
-    * 회사 로고 이미지 파일 용량을 5 MB로 제한
+    * Limited the file size of a company logo image to 5 MB.
 
-    * SMTP를 설정하지 않은 상태에서 비주얼 페이스 모바일 등록 링크 전송을 시도할 경우 SMTP 설정 안내 메시지를 표시하도록 개선
+    * Added a warning message for attempting to send a Send Visual Face Mobile Enrollment Link without setting the SMTP.
 
-    * 이메일 정보가 없는 사용자를 포함하여 비주얼 페이스 모바일 등록 링크 전송을 시도할 경우 경고 메시지를 표시하도록 개선
+    * Added a warning message for attempting to send a Visual Face Mobile Enrollment Link to users without email information.
 
-    * 사용자 이름 및 암호를 요구하지 않는 SMTP 서버 지원
-  
-1. 인텔리전트 슬레이브 지원
+    * Supports SMTP servers that do not require a username and password.
 
-    * 인텔리전트 슬레이브: 슈프리마 장치와 타사 컨트롤러를 연결하였을 때 슈프리마 장치에서 직접 1:1 또는 1:N 매칭을 수행하고 인증 결과를 OSDP 카드 데이터로 타사 컨트롤러에 전송할 수 있는 기능.
+1. Intelligent Slave Support
 
-    * 지원 장치: BioEntry W2 펌웨어 1.6.3 이상
+    * Intelligent Slave: A function that enables 1:1 or 1:N matching directly from the Suprema device and transmits the authentication result as OSDP card data to the third-party controller.
 
+    * Supported devices: BioEntry W2 firmware 1.6.3 or later
 
-1. 신규 데이터 파일 내보내기/가져오기 지원
+1. Supports new Export/Import User Information.
 
     :::info
 
-    * 본 버전으로 업그레이드를 진행할 경우 기존 방식의 데이터 파일 내보내기/가져오기를 사용할 수 없습니다.
+    * The existing data file Export/Import User Information method from older BioStar 2 versions will not be supported after upgrading to this version.
 
-    * 신규 데이터 파일 내보내기/가져오기를 지원하는 장치 펌웨어 버전을 확인하십시오.
+    * Device firmware versions that support new Export/Import User Information:
 
-        * BioStation 2 펌웨어 1.9.0 이상
+        * BioStation 2 firmware 1.9.0 or later
 
-        * BioStation A2 펌웨어 1.8.0 이상
+        * BioStation A2 firmware 1.8.0 or later
 
-        * FaceStation 2 펌웨어 1.4.0 이상
+        * FaceStation 2 firmware 1.4.0 or later
 
-        * FaceStation F2 펌웨어 1.0.0 이상
+        * FaceStation F2 firmware 1.0.0 or later
 
-    * 사진 올리기 또는 모바일 링크를 통해 등록한 비주얼 페이스의 경우 데이터 파일 내보내기/가져오기를 이용하여 데이터를 옮길 수 없습니다.
+    * For Visual Face registered through Upload Image or mobile links, data cannot be transferred to the FaceStation F2 using the Export/Import User Information. 
 
     :::
 
-1. FaceStation 2, FaceStation F2에 화면 보호기 지원
-  
-1. New API 2.8.10 기준 보완
+1. Screensaver support for FaceStation 2 and FaceStation F2.
 
-    * POST/api/user_groups를 사용하여 사용자 그룹 생성 시 사용자 그룹 ID 유무에 관계없이 가장 큰 사용자 그룹 ID가 응답 값으로 전송되는 문제
+1. New API 2.8.10 standard supplement
 
-    * 서버 매칭, CSV 내보내기 및 가져오기 관련 Swagger API 기능 안정화
-  
-1. conf 파일 오류 발생 시 오류가 발생한 파일만 복구하도록 체크 로직 개선
-  
-1. 독일어 리소스 파일 업데이트
+    * The largest user group ID was sent as a response value regardless of the user group ID when creating a user group using POST/api/user_groups.
 
-## 주요 버그 수정
+    * Stabilized Swagger API functions related to server matching, CSV export and import.
+
+1. Improved to recover only the file having an error when a conf file error occurs.
+
+1. Updated the German resource file.
+
+## Main Fixes
 
 ---
 
 <BugLists>
 
-1. BioStar 2 버전 2.6.0 미만인 HTTP 사용 환경에서 2.7.11 이상 버전으로 업그레이드한 뒤 사용자 및 사용자 그룹을 추가해도 갱신되지 않는 문제 <Badge>발생 버전: v2.7.11</Badge>
+1. User and user groups were not getting updated after upgrading to 2.7.11 or later from BioStar 2 version 2.6.0 or earlier in an HTTP-enabled environment. <Badge>Affects version: v2.7.11</Badge>
 
-1. 구버전 FaceStation F2 연결 시 펌웨어 업그레이드 경고 메시지가 표시되지 않는 문제 <Badge>발생 버전: v2.8.6</Badge>
+1. A warning message indicating to upgrade the firmware to the latest release was not displayed when connecting to FaceStation F2 running an older version of the firmware. <Badge>Affects version: v2.8.6</Badge>
 
-1. **장치 기본 인증 모드 미포함** 옵션을 활성화하고 개인 인증 모드를 설정하였음에도 장치 기본 인증 모드로 인증되는 문제 <Badge>발생 버전: v2.8.6</Badge>
+1. Device default authentication mode was able to be used for users while Private Mode was set to “Exclude Device Default Authentication Mode”. <Badge>Affects version: v2.8.6</Badge>
 
-1. 작업 조건 및 동작의 경보 이메일에서 섭씨/화씨 표기가 깨지는 문제 <Badge>발생 버전: v2.8.8</Badge>
+1. The Celsius/Fahrenheit mark was incorrectly displayed in the Trigger & Action alert email. <Badge>Affects version: v2.8.8</Badge>
 
-1. 작업 조건 및 동작 관련 이벤트 로그를 생성할 때 이벤트 코드에 유효하지 않은 값이 포함되어 있을 경우 서버가 정상적으로 동작하지 않는 문제 <Badge>발생 버전: v2.7.12</Badge>
+1. The server did not work properly if the event code contained invalid values when generating Trigger & Action-related event logs. <Badge>Affects version: v2.7.12</Badge>
 
-1. 특정 버전의 크롬(Chrome 86)을 사용하는 환경에서 비주얼 페이스를 등록하면 이미지가 회전하는 문제 <Badge>발생 버전: v2.8.6</Badge>
+1. Registering a Visual Face was not correctly done due to image rotation  when using Chrome version 86. (Affects version v2.8.6)
 
-1. 동일한 계정으로 동시에 접속한 상태에서 동시 접속 허용을 비활성화한 경우 해당 설정이 동작하지 않고 동시 접속이 가능한 문제 <Badge>발생 버전: v2.7.11</Badge>
+1. A simultaneous connection error occurred when connecting with the same account at the same time, even though Simultaneous Connection Allow was disabled. <Badge>Affects version: v2.7.11</Badge>
 
-1. Wiegand 형식 또는 커스텀 사용자 필드를 사용할 경우 비주얼 페이스 CSV 불러오기에 실패하는 문제 <Badge>발생 버전: v2.8.8</Badge>
+1. Visual Face CSV import failed when using the Wiegand format or a Custom User Field. <Badge>Affects version: v2.8.8</Badge>
 
-1. 이메일 설정에서 SMTP 보안 종류가 **None** 또는 **TLS**일 때 이메일 전송이 정상적으로 동작하지 않는 문제 <Badge>발생 버전: v2.8.6</Badge>
+1. Email transmission did not function properly when SMTP Security Type was 'None' or 'TLS' in email settings. <Badge>Affects version: v2.8.6</Badge>
 
-1. MS SQL Server 데이터베이스 환경에서 BioStar 버전 2.8.5 이하를 사용할 때 개인 정보 DB 암호화 설정을 끈 뒤 Biostar 2 버전을 업그레이드하면 이벤트 로그가 발생하지 않는 문제 <Badge>발생 버전: v2.8.0</Badge>
+1. From BioStar 2 version 2.8.5 or earlier using MS SQL Server database, if the BioStar 2 was upgraded to a higher version after turning off the “Encrypt Personal Data on Database” the event logs did not appear from the Event Log menu. <Badge>Affects version: v2.8.0</Badge>
 
-1. TA 데이터베이스의 인증 시간 기록 테이블에 중복된 행이 존재할 경우 버전을 2.8.9로 업그레이드하면 근태관리 메뉴에 접속할 수 없는 문제 <Badge>발생 버전: v2.8.9</Badge>
+1. If there were duplicate rows in the TA database’s Punch Log, the TIME ATTENDANCE menu could not be accessed after upgrading the version to 2.8.9. <Badge>Affects version: v2.8.9</Badge>
 
-1. FaceStation F2 장치 상세 페이지에서 얼굴 설정을 변경하면 장치의 얼굴 검출 설정이 초기화되는 문제 <Badge>발생 버전: v2.8.9</Badge>
+1. Face Detect Settings was initialized after changing face settings from the FaceStation F2’s configuration page. <Badge>Affects version: v2.8.9</Badge>
 
-1. 시간 기록을 수정한 이력이 있는 사용자를 삭제한 뒤 신규 사용자를 추가하거나 기존 사용자의 정보를 편집할 경우 근태관리 메뉴의 사용자 동기화가 정상적으로 동작하지 않는 문제 <Badge>발생 버전: v2.8.9</Badge>
+1. User synchronization in the T&A menu did not work properly when adding users or editing user information after deleting a user with a history of modifying the punch logs. <Badge>Affects version: v2.8.9</Badge>
 
-1. PDF로 내보낸 이벤트 로그 데이터에 이벤트 목록이 표시되지 않는 문제 <Badge>발생 버전: v2.8.9</Badge>
+1. The event list was not displayed in event log data exported to PDF. <Badge>Affects version: v2.8.9</Badge>
 
-1. FaceStation F2 장치 상세 페이지에서 Wiegand 입력, 출력, 입/출력을 동시 설정할 수 있는 것처럼 표시되는 문제 <Badge>발생 버전: v2.8.6</Badge>
+1. The options for Wiegand Input, Output, and Input/Output were displayed as if they were able to be set simultaneously from the FaceStation F2’s configuration page. <Badge>Affects version: v2.8.6</Badge>
 
-1. 모바일 출입카드 **사용** 설정 후 서버 메뉴에서 확인을 클릭하면 모바일 출입카드 설정이 **사용 안 함**으로 변경되는 문제
+1. If clicking Apply in the SERVER menu after setting the mobile access card option to 'Use', the setting was changed to 'Not Use'.
 
-1. 시간 기록이 존재하는 사용자를 삭제한 뒤 동일한 사용자 ID로 새로운 사용자를 등록할 경우 앞서 삭제한 사용자의 시간 기록이 조회되는 문제 <Badge>발생 버전: v2.8.9</Badge>
+1. When registering a new user by using the same user ID of the deleted user who had Punch logs, the previous user's Punch logs were displayed. <Badge>Affects version: v2.8.9</Badge>
 
 </BugLists>
 
-## 버그 수정
+## Bug Fixes
 
 ---
 
 <BugLists>
 
-1. BioStar 2에서 이메일 수신 시 장치와 서버의 시간이 상이한 문제 <Badge>발생 버전: v2.6.0</Badge>
+1. Time between device and server was displayed differently when receiving email from BioStar 2. <Badge>Affects version: v2.6.0</Badge>
 
-1. 이벤트 발생 시 경보 알림 메시지에서 **확인**을 클릭해도 화면 하단의 알림 아이콘에 신규 알림 표시(N)가 유지되는 문제 <Badge>발생 버전: v2.7.11</Badge>
+1. The new notification indication (N) remained at the bottom of the screen when an event occurred, even after clicking “Acknowledge” in the alert notification message. <Badge>Affects version: v2.7.11</Badge>
 
-1. 간헐적으로 실시간 로그에 로그가 발생하지 않는 문제 <Badge>발생 버전: v2.0.0</Badge>
+1. Logs were not displayed in real-time intermittently. <Badge>Affects version: v2.0.0</Badge>
 
-1. 끊어진 웹 소켓 세션 정보가 남아 있을 경우 실시간 로그가 느리게 업데이트되거나 누락되는 문제<Badge>발생 버전: v2.0.0</Badge>
+1. The real-time log was updated with delay or was missing when disconnected web socket session information remained. <Badge>Affects version: v2.0.0</Badge>.
 
-1. 개인 정보 DB 암호화를 사용할 때 이미지 로그 생성 과정에서 파일이 생성되기 전에 암호화가 먼저 진행되어 이미지 로그에 0KB 파일이 생성되는 문제 <Badge>발생 버전: v2.8.7</Badge>
+1. Encryption was performed before the file was created in the image log creation process, creating a 0 KB file in the image log while using “Encrypt Personal Data on Database”. <Badge>Affects version: v2.8.7</Badge>
 
-1. 특정 버전의 크롬을 사용하는 환경에서 이벤트 로그 필터 선택 시 필터 조건 설정 화면이 출력되지 않는 문제 <Badge>발생 버전: v2.6.0</Badge>
+1. The filter condition setting screen was not displayed when selecting an event log filter in an environment using a specific Chrome version. <Badge>Affects version: v2.6.0</Badge>
 
-1. BioStar Server가 메모리를 과도하게 점유하는 문제 <Badge>발생 버전: v2.7.14</Badge>
+1. The BioStar server occupied too much memory in certain cases. <Badge>Affects version: v2.7.14</Badge>
 
-1. MS SQL Server 데이터베이스를 사용하는 환경에서 근태관리 시간 기록 테이블 데이터 동기화가 정상적으로 동작하지 않는 문제<Badge>발생 버전: v2.8.9</Badge>
+1. Punch log table data synchronization did not work properly when using MS SQL Server database. <Badge>Affects version: v2.8.9</Badge>
 
 </BugLists>

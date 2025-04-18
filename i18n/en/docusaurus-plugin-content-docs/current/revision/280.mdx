@@ -1,32 +1,30 @@
 ---
 id: 280
-title: 버전 2.8.0 (v2.8.0.106)
+title: Version 2.8.0 (Build No. 2.8.0.106)
 ---
 
-릴리즈<Separator/>2020-05-15
+Release<Separator/>2020-05-15
 
-## 신규 기능 및 개선
+## New Features and Improvements
 
 ---
 
-1. 개인 정보 보안 강화를 위한 DB 암호화 지원
+1. DB encryption to enhance security on personal information
 
-    * 프로필 이미지, 사용자 ID, 이름, 전화번호, 사용자 IP, 보낸 사람 및 받는 사람의 이메일 정보, 로그인 ID, 로그인 암호, 얼굴 템플릿, 지문 템플릿, 카드 ID, 스마트 카드 레이아웃 키, 사용자 및 방문자에 대한 커스텀 정보, 이미지 로그 파일 암호화
+    * Encrypts profile image, user ID, name, phone number, user IP, Email information for sender and recipients, login ID, login password, face template, fingerprint template, card ID, smart card layout key, custom information for user and visitor, and image logs.
     
-    * 암호화 키 저장 경로를 사용자가 직접 설정할 수 있도록 지원
+    * Supports manual key storage path setting for encryption key.
 
-1. BioStar 2.6.0 이상 버전부터 최신 버전으로의 업그레이드가 가능하도록 변경
+1. Supports manual key storage path setting for encryption key.
 
-## 주요 버그 수정
-
----
-
-1. 장치와 보안 통신 옵션을 사용할 때 펌웨어 업그레이드가 정상적으로 동작하지 않는 문제
-
-## 버그 수정
+## Main Fixes
 
 ---
 
-1. 장치와 보안 통신 옵션을 사용할 때 Wiegand 리더를 연결하면 상황과 무관한 오류 메시지가 잘못 출력되는 문제
+1. Firmware upgrade does not succeed properly when using ‘Secure Communication with Device’ option.
 
-    * Wiegand 리더는 장치와 보완 통신 옵션과 연관이 없음에도 장치 또는 펌웨어가 해당 옵션을 지원하지 않기 때문에 Wiegand 리더를 사용할 수 없다는 오류 메시지가 출력됨
+## Bug Fixes
+
+---
+
+1. An issue when using ‘Secure Communication with Device’ generates a false error indicating Wiegand readers cannot be used since the firmware or device does not support the option.

@@ -1,68 +1,68 @@
 ---
 id: 277
-title: 버전 2.7.7 (v2.7.7.38)
+title: Version 2.7.7 (Build No. 2.7.7.38)
 ---
 
-릴리즈<Separator/>2019-06-19
+Release<Separator/>2019-06-19
 
-## 신규 기능 및 개선
-
----
-
-1. 방문자 출입 관리 기능 추가
-
-1. 근태 관리 라이선스 정책 변경
-
-1. 사설 도메인 주소를 이용해 BioStar 2에 접속해도 근태 관리 메뉴를 사용할 수 있도록 개선
-
-1. 사용자가 근태 관리 메뉴에 동기화될 때 로그인 ID를 가진 사용자부터 동기화가 진행되도록 개선
-
-1. BioStar 2 설치 과정에서 dbscript 오류가 발생할 경우 BioStar 2 설치 완료 화면에 **Error dbscript db-converter** 메시지 제공
-
-1. Java 버전 변경
-
-    * 기존: 1.8.0_201 버전
-
-    * 변경: 1.8.0_212 버전
-
-## 주요 버그 수정
+## New Features and Improvements
 
 ---
 
-1. 스마트 카드 레이아웃 사용 중 레이아웃 옵션을 **없음**으로 변경해도 설정이 적용되지 않는 문제
+1. Add the visitor management.
 
-1. MS SQL Server를 재시작하면 데이터베이스가 정상적으로 연결되지 않는 문제
+1. The license policy of Time & Attendance is changed.
 
-1. 이미지 로그의 이벤트 목록에서 **소프트 안티패스백 위반 감지**, **하드 안티패스백 위반 감지** 항목이 누락된 문제
+1. Improved that a user can access the Time Attendance menu using a private domain address.
 
-1. 일부 장치(BS2-OIPW, BSA2-OIPW)에서 RFID 카드를 지원 옵션과 다르게 지원하는 문제
+1. Improved to allow users with login IDs to proceed first when users are synchronized to the Time Attendance menu.
 
-1. 커스텀 사용자 필드를 구성한 경우, 사용자 목록을 인쇄할 때 필드 이름은 출력되나 데이터는 표시되지 않는 문제
+1. Provided the 'Error dbscript db-converter' message on the Completing the BioStar 2 Setup Wizard screen if a db script error occurs during the BioStar 2 installation.
 
-1. 장치 설정에서 관리자를 설정한 경우, 장치를 초기화해도 관리자 설정은 초기화되지 않는 문제
+1. Changes the Java version.
 
-1. 액티브 디렉토리 암호화를 설정할 때 루트 인증서를 복사한 뒤 서버를 재시작하지 않으면 Active Directory 서버와 연결되지 않는 문제
+    * Before: 1.8.0_201
 
-1. BioStar 2.3.0 이하 버전에서 생성한 커스텀 권한 관리자가 있을 경우, 2.6.3 이상 버전에서 커스텀 권한 목록이 출력되지 않는 문제
+    * After: 1.8.0_212
 
-1. 스마트 카드 레이아웃의 설정을 변경할 때 변경 사항이 있는 카드 유형의 레이아웃만 동기화가 진행되는 문제
-
-1. MS SQL Server 데이터베이스를 사용하는 환경에서 이벤트 로그를 수동 또는 자동으로 가져올 때 로그 중 사용자 ID가 32자인 데이터가 있을 경우 오류가 발생하는 문제
-
-1. 이벤트 로그를 수동 또는 자동으로 가져올 때 일부 로그가 누락되는 문제
-
-## 버그 수정
+## Main Fixes
 
 ---
 
-1. 사용자 인터페이스가 정상적으로 출력되지 않는 문제
+1. Even if changing the Smart Card Layout option to ‘None’, that setting is not applied.
 
-    * 얼굴 그룹 매칭 설정에서 사용자 그룹을 선택할 때 얼굴 아이콘 및 문구가 비정상적으로 출력되는 문제
+1. When restarting MS SQL Server, the database is not connected normally.
 
-    * 계정 설정의 아이템 상세 권한 화면이 비정상적으로 출력되는 문제
+1. 'Soft anti-passback violation detected' and 'Hard anti-passback violation detected' options are missed from the event item of IMAGE LOG.
 
-    * 계정 설정의 아이템 상세 권한에서 아이템을 선택할 때 문구가 비정상적으로 출력되는 문제
+1. Some devices(BS2-OIPW, BSA2-OIPW) support the RFID cards that are different from the correct options.
 
-1. 출입문 설정에서 자동문 사용 옵션을 **켬**으로 설정해도 화면상에 **끔**으로 표시되는 문제
+1. If Custom User Field is configured, the custom field name is displayed but data is not output when printing the user list.
 
-1. 언어를 스페인어(스페인)로 설정했을 때 근태 관리 메뉴의 스케줄 달력이 한자로 표시되는 문제
+1. When the Administrator option is set in the device setting, that setting is not reset even if the device is reset.
+
+1. The BioStar 2 server will not be able to connect to the Active Directory server without restarting the server after copying the root certificate when setting the encryption of the Active Directory.
+
+1. The custom level administrator created in BioStar 2.3.0 or earlier will not be output in versions 2.6.3 or later.
+
+1. When changing the settings of the smart card layout, only the layout of the card type with the changes is synchronized.
+
+1. In an environment that uses an MS SQL Server database, an error occurs if there is a log with 32 characters of user ID when importing the event logs manually or automatically.
+
+1. Some logs are not imported when importing the event logs manually or automatically.
+
+## Bug Fixes
+
+---
+
+1. Problems that the user interface does not output properly.
+
+    * Icons and strings are displayed abnormally when a user select the user group in FACE GROUP MATCHING.
+
+    * The Admin Item Settings of ACCOUNT is not displayed properly.
+
+    * Strings are not displayed properly when a user selects an item from the Admin Item Settings in ACCOUNT.
+
+1. Even if the Use Automatic Door is set to 'ON' in the door setting, it will still be displayed as 'OFF' on the screen.
+
+1. When the language is set to Spanish(Spain), the schedule calendar of the Time Attendance menu is displayed Chinese characters.
