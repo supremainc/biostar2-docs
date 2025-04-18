@@ -24,6 +24,8 @@ const ReplacementLocaleText = ({ sid, code, className, children }) => {
 
     if (sid === 'door.apbUseDoorSensor') {
       localeText = locale[sid].replace('<br/>', ' ');
+    } else if (sid === 'port.gatewayHttps') {
+      localeText = locale[sid].replace('<br>', ' ');
     } else {
       localeText = locale[sid] ? locale[sid]
                   .replace('<br>', '')
