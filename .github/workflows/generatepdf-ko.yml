@@ -56,7 +56,7 @@ jobs:
         pdfcpu merge -mode append ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_KO_${{ github.event.inputs.date }}.pdf back-cover.pdf
         node generatepdf -u "https://supremainc.github.io/biostar2-docs/en/cover/biostar2" --prince-args="--page-size='a4' --style=./print.css --javascript" -o ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_EN_${{ github.event.inputs.date }}.pdf --dest ./pdf --include-index
         pdfcpu annot remove -pages 1 ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_EN_${{ github.event.inputs.date }}.pdf
-        pdfcpu merge -mode append ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_EN_${{ github.event.inputs.date }}.pdf back-cover.pdf
+        pdfcpu merge -mode append ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_EN_${{ github.event.inputs.date }}.pdf back-cover-en.pdf
     
     - name: Create Release
       id: create_release
