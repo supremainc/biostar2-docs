@@ -371,7 +371,7 @@
     "description": "The copyright of the company"
   },
   "theme.cover.qrCodetext": {
-    "message": "For more information about Suprema’s global branch offices,<br/>visit the webpage below by scanning the QR code.<br/>https://supremainc.com/en/about/global-office.asp",
+    "message": "For more information about Suprema's global branch offices,<br/>visit the webpage below by scanning the QR code.<br/>https://supremainc.com/en/about/global-office.asp",
     "description": "The QR code text"
   },
   "index.search": {

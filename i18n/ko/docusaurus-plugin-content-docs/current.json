@@ -7,25 +7,9 @@
     "message": "BioStar 2",
     "description": "The label for category BioStar 2 in sidebar biostar"
   },
-  "sidebar.biostar.category.BioStar 2 신규 기능 소개": {
-    "message": "BioStar 2 신규 기능 소개",
-    "description": "The label for category BioStar 2 신규 기능 소개 in sidebar biostar"
-  },
   "sidebar.biostar.category.신규 기능 소개": {
     "message": "신규 기능 소개",
     "description": "The label for category 신규 기능 소개 in sidebar biostar"
-  },
-  "sidebar.biostar.category.BioStar 2.9.8": {
-    "message": "BioStar 2.9.8",
-    "description": "The label for category BioStar 2.9.8 in sidebar biostar"
-  },
-  "sidebar.biostar.category.BioStar 2.9.7": {
-    "message": "BioStar 2.9.7",
-    "description": "The label for category BioStar 2.9.7 in sidebar biostar"
-  },
-  "sidebar.biostar.category.BioStar 2.9.5": {
-    "message": "BioStar 2.9.5",
-    "description": "The label for category BioStar 2.9.5 in sidebar biostar"
   },
   "sidebar.biostar.category.2.9.8 버전": {
     "message": "2.9.8 버전",
@@ -42,5 +26,9 @@
   "sidebar.biostar.category.리비전 노트": {
     "message": "리비전 노트",
     "description": "The label for category 리비전 노트 in sidebar biostar"
+  },
+  "sidebar.biostar.category.2.9.9 버전": {
+    "message": "2.9.9 버전",
+    "description": "The label for category 2.9.9 버전 in sidebar biostar"
   }
 }
