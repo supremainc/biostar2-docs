@@ -40,7 +40,7 @@ const sidebars = {
                 id: 'update/biostar2-299'
               },
               items: [
-                'update/299/how-to-use-cs20',
+                'update/299/how-to-use-corestation20',
               ]
             },
             {
