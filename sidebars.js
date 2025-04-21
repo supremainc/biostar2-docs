@@ -34,6 +34,17 @@ const sidebars = {
           items: [
             {
               type: 'category',
+              label: '2.9.9 버전',
+              link: {
+                type: 'doc',
+                id: 'update/biostar2-299'
+              },
+              items: [
+                'update/299/how-to-use-corestation20',
+              ]
+            },
+            {
+              type: 'category',
               label: '2.9.8 버전',
               link: {
                 type: 'doc',
@@ -91,6 +102,7 @@ const sidebars = {
             id: 'revision/index',
           },
           items: [
+            'revision/299',
             'revision/298',
             'revision/297',
             'revision/296',
