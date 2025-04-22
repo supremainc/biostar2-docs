@@ -529,9 +529,9 @@ footer {
         }
         ul {
           li {
-            margin-right: calc(0.5rem + 138px);
+            margin-right: 0 !important;
             p {
-              padding-right: 0;
+              padding-right: calc(0.5rem + 138px);
             }
           }
         }
