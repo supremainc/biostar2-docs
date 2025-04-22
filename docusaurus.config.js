@@ -75,6 +75,7 @@ const config = {
         indexPages: false,
         docsRouteBasePath: "/",
         hashed: true,
+        removeDefaultStemmer: true,
         language: ["ko", "en"],
         highlightSearchTermsOnTargetPage: true,
         searchBarPosition: "right",
