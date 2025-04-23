@@ -47,6 +47,7 @@
   --ifm-color-border: #d1d1d1;
   --ifm-color-cmd: #bb7f8f;
   --ifm-color-nextstep-background: #4d4d4d;
+  --ifm-color-markdown-link: #009fe8;
 }
 
 // 언어별 폰트 설정
@@ -374,7 +375,7 @@ footer {
     color: var(--ifm-color-base);
     --ifm-alert-background-color: #F5F7F9;
     a {
-      color: var(--ifm-color-primary-light);
+      color: var(--ifm-color-markdown-link);
     }
   }
   .theme-admonition-note {
@@ -563,11 +564,13 @@ footer {
 
   a {
     color: var(--ifm-color-markdown-link);
+    font-weight: 500;
     border-bottom: 1px solid;
   }
 
   a:hover {
     text-decoration: none;
+    border-bottom: 2px solid;
   }
 
   span.cmd {
