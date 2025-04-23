@@ -1,4 +1,42 @@
 .dltable {
   display: block;
-  width: content;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.dlhead {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 25% 75%;
+  background-color: var(--ifm-table-stripe-background);
+}
+
+.dlitem {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 25% 75%;
+}
+
+.dlitem:nth-of-type(odd) {
+  background-color: var(--ifm-table-stripe-background);
+}
+
+.dlheaditem {
+  border: 1px solid var(--ifm-table-border-color);
+  font-weight: bold;
+  padding: var(--ifm-table-cell-padding);
+}
+
+.dlitemid, .dlitemdesc {
+  border: 1px solid var(--ifm-table-border-color);
+  padding: var(--ifm-table-cell-padding);
+  border-top: none;
+}
+
+.dlitemdesc ul {
+  margin-bottom: 0;
+}
+
+.dlheaditem:first-of-type, .dlitemid {
+  border-right: none;
 }
