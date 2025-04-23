@@ -27,13 +27,23 @@ description: 이 문서는 BioStar 2 각 버전에 적용된 기능 개선, 버�
 
   </div>
 
-* Windows 8.1을 사용하는 경우 [다음 링크](https://support.microsoft.com/ko-kr/help/2919355/windows-rt-8-1--windows-8-1--and-windows-server-2012-r2-update-april-2)를 참고하여 KB2919355 업데이트를 설치하세요.
+* Windows 8.1을 사용하는 경우 [KB2919355 업데이트](https://support.microsoft.com/ko-kr/help/2919355/windows-rt-8-1--windows-8-1--and-windows-server-2012-r2-update-april-2)를 설치하세요.
 
-* MS SQL 2012 Express를 사용할 경우 [다음 링크](https://www.microsoft.com/ko-kr/download/details.aspx?id=49996)를 참고하여 서비스 팩 3를 설치하세요.
+* MS SQL 2012 Express를 사용할 경우 [서비스 팩 3](https://www.microsoft.com/ko-kr/download/details.aspx?id=49996)를 설치하세요.
 
-* MS SQL 2014 Express를 사용할 경우 [다음 링크](https://www.microsoft.com/ko-kr/download/details.aspx?id=53168)를 참고하여 서비스 팩 2를 설치하세요.
+* MS SQL 2014 Express를 사용할 경우 [서비스 팩 2](https://www.microsoft.com/ko-kr/download/details.aspx?id=53168)를 설치하세요.
 
-* MS SQL Server와 **BioStar 2**가 서로 다른 PC에 설치된 경우 [다음 링크](https://www.microsoft.com/ko-kr/download/details.aspx?id=50402)를 참고하여 **BioStar 2**가 설치된 PC에 Native Client를 설치해야 합니다.
+* **BioStar 2.9.9** 버전부터는 MS SQL Server 2022 연결을 지원하며, 연결 방식으로 Microsoft OLE DB Driver for SQL Server 또는 Native Client를 사용할 수 있습니다.
+
+    * OLE DB 드라이버가 설치된 환경에서는 OLE DB를 기본 연결 방식으로 사용하며, Native Client만 설치된 경우에는 Native Client로 연결됩니다.
+
+    * Native Client는 SQL Server 2022부터 기본 설치되지 않으며, 호환성과 기능 측면에서 제한이 있으므로 **최신 SQL Server와의 연결에는 OLE DB 드라이버 사용을 권장**합니다.
+
+* MS SQL Server와 **BioStar 2**가 서로 다른 PC에 설치된 경우, BioStar 2가 설치된 PC에는 [Microsoft OLE DB Driver for SQL Server](https://learn.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server) 또는 [Native Client](https://www.microsoft.com/ko-kr/download/details.aspx?id=50402)를 설치해야 합니다.
+
+    * AC 데이터베이스는 OLE DB 연결을 지원하며, TA 및 VE 데이터베이스는 OLE DB 지원 여부가 달라질 수 있습니다.
+
+    * TA 메뉴 사용 시에는 [ODBC 드라이버](https://learn.microsoft.com/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16)가 필요하므로 환경에 맞게 확인하여 설치하세요.
 
 * MS SQL Server를 사용할 경우 서버 및 각 테이블의 `Collation` 옵션을 CI(Case-insensitive)로 설정하세요.
 
