@@ -7,14 +7,16 @@
 .dlhead {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 25% 75%;
   background-color: var(--ifm-table-stripe-background);
+}
+
+.defintion .dlhead, .defintion .dlitem {
+  grid-template-columns: 25% 75%;
 }
 
 .dlitem {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 25% 75%;
 }
 
 .dlitem:nth-of-type(odd) {
