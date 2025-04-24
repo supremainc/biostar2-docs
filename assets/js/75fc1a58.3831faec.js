@@ -47,6 +47,7 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
+    code: "code",
     h2: "h2",
     hr: "hr",
     li: "li",
@@ -175,7 +176,7 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "사용자 자동 동기화"
-          }), " - ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), " → ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "특정 장치(해당하는 출입 그룹에 속한 장치만 동기화)"
           }), " 모드 사용 시 성능 개선"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
@@ -221,7 +222,15 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "IP 인터폰"
-          }), " 설정 메뉴의 특정 항목에 일부 기호(+, -, @, .) 입력 지원"]
+          }), " 설정 메뉴의 특정 항목에 일부 기호 ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "+"
+          }), " ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "-"
+          }), " ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "@"
+          }), " ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "."
+          }), " 입력 지원"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: [(0,jsx_runtime.jsx)(_components.strong, {
