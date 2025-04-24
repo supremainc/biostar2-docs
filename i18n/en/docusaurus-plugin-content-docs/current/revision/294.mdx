@@ -151,11 +151,15 @@ Release<Separator/>2023-09-20
 
 1. After exporting users to USB from FaceStation F2 v2.x.x, visual faces are not uploaded when running **Data File Import** from BioStar 2. <Badge>Affects version: v2.8.10</Badge>
 
-    * FaceStation F2 firmware v1.x.x no longer supports **Data File Export** in BioStar 2. Please upgrade your device firmware to use **Data File Export**.
+    :::info
+
+    FaceStation F2 firmware v1.x.x no longer supports **Data File Export** in BioStar 2. Please upgrade your device firmware to use **Data File Export**.
+
+    :::
 
 1. When deleting a user with an enrolled mobile card after setting **Mobile Access Setting** to **Not Use**, an unnecessary error pop-up is displayed. <Badge>Affects version: v2.9.0</Badge>
 
-1. When calling an API using /api/users/data_export?id=*, the server terminates if the user entered in the id parameter does not exist on the server. <Badge>Affects version: v2.8.10</Badge>
+1. When calling an API using */api/users/data_export?id=\**, the server terminates if the user entered in the id parameter does not exist on the server. <Badge>Affects version: v2.8.10</Badge>
 
 1. When issuing CSN cards using API, it is possible to issue with an invalid CARD_ID. <Badge>Affects version: v2.0.0</Badge>
 

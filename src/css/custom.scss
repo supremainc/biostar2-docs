@@ -29,6 +29,7 @@
   --ifm-color-cmd: #A32343;
   --docsearch-searchbox-background: none !important;
   --ifm-color-nextstep-background: #f5f5f5;
+  --ifm-color-markdown-link: #1549c6;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -46,6 +47,10 @@
   --ifm-color-border: #d1d1d1;
   --ifm-color-cmd: #bb7f8f;
   --ifm-color-nextstep-background: #4d4d4d;
+  --ifm-color-markdown-link: #009fe8;
+  .navbar__title {
+    color: #fff !important;
+  }
 }
 
 // 언어별 폰트 설정
@@ -76,7 +81,10 @@ html[lang='en-US'] * {
       }
       ul {
         li {
-          margin-right: calc(0.5rem + 177px);
+          margin-right: 0;
+            p {
+              padding-right: calc(0.5rem + 177px);
+            }
         }
       }
     }
@@ -345,6 +353,10 @@ footer {
         padding: 20px !important;
         color: var(--ifm-color-content);
         text-decoration: none;
+        border-bottom-color: var(--ifm-color-emphasis-200);
+        &:hover {
+          border-bottom: 1px solid var(--ifm-color-primary);
+        }
         h2 {
           font-size: var(--ifm-h4-font-size);
           font-weight: 600;
@@ -370,7 +382,8 @@ footer {
     color: var(--ifm-color-base);
     --ifm-alert-background-color: #F5F7F9;
     a {
-      color: var(--ifm-color-primary-light);
+      color: var(--ifm-color-markdown-link);
+      text-decoration: none;
     }
   }
   .theme-admonition-note {
@@ -418,8 +431,18 @@ footer {
       color: var(--ifm-color-color-gray);
     }
     code {
+      position: relative;
+      top: -2px;
       font-size: .85rem;
       font-family: 'Noto Sans Coptic';
+      background-color: #dceaffd8;
+      color: #1549c6;
+      border: 1px solid #dceaffd8;
+      border-radius: 0.3em;
+      padding: 0.1em 0.2em;
+      line-height: 1;
+//      white-space: break-spaces;
+//      word-break: break-word;
     }
     &.hasimg {
       margin-top: calc(1.25 * .5rem) !important;
@@ -529,9 +552,9 @@ footer {
         }
         ul {
           li {
-            margin-right: calc(0.5rem + 138px);
+            margin-right: 0;
             p {
-              padding-right: 0;
+              padding-right: calc(0.5rem + 138px);
             }
           }
         }
@@ -558,8 +581,14 @@ footer {
   }
 
   a {
-    color: var(--ifm-color-primary-light);
-    text-decoration: underline dotted;
+    color: var(--ifm-color-markdown-link);
+    font-weight: 500;
+    border-bottom: 1px solid;
+  }
+
+  a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid;
   }
 
   span.cmd {
@@ -876,7 +905,7 @@ footer {
         display: inline;
         flex: none !important;
         width: 50%;
-        > a.padding--lg {
+        &> a.padding--lg {
           padding: 20px !important;
         }
       }
