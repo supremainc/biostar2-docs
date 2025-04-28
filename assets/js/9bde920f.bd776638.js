@@ -51,6 +51,7 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
+    code: "code",
     em: "em",
     h2: "h2",
     hr: "hr",
@@ -125,8 +126,12 @@ function _createMdxContent(props) {
           children: "BioStar 2 API 문서에 층 제어 API 추가"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "사용자 이메일 계정 입력란에 일부 기호(-, _)를 사용할 수 있도록 지원"
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["사용자 이메일 계정 입력란에 일부 기호 ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "-"
+          }), " ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "_"
+          }), "를 사용할 수 있도록 지원"]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -174,8 +179,10 @@ function _createMdxContent(props) {
           children: "사용자 ID 종류를 영숫자로 설정한 경우 블랙리스트로 등록된 AoC (Access on Card)로 인증해도 인증에 성공하는 문제"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "사용자 ID 종류를 영숫자로 설정한 경우 장치에서 직접 등록한 사용자 ID에 공백 또는 일부 기호(,)가 포함되면 오류가 발생하는 문제"
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["사용자 ID 종류를 영숫자로 설정한 경우 장치에서 직접 등록한 사용자 ID에 공백 또는 일부 기호 ", (0,jsx_runtime.jsx)(_components.code, {
+            children: ","
+          }), "가 포함되면 오류가 발생하는 문제"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
             children: "BioStar 2 장치 메뉴에서 해당 장치의 상세 페이지로 진입할 때 BioStar 2가 비정상적으로 종료됨."

@@ -47,6 +47,7 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
+    code: "code",
     h2: "h2",
     hr: "hr",
     li: "li",
@@ -431,7 +432,9 @@ function _createMdxContent(props) {
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["QR/바코드를 발급한 사용자의 이름에 일부 기호(-)를 입력할 수 없는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["QR/바코드를 발급한 사용자의 이름에 일부 기호 ", (0,jsx_runtime.jsx)(_components.code, {
+              children: "-"
+            }), "를 입력할 수 없는 문제 ", (0,jsx_runtime.jsx)(Badge, {
               children: "발생 버전: v2.8.11"
             })]
           }), "\n"]

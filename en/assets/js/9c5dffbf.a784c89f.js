@@ -51,6 +51,7 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
+    code: "code",
     h2: "h2",
     hr: "hr",
     li: "li",
@@ -120,8 +121,12 @@ function _createMdxContent(props) {
           children: "Added Floor Control API to BioStar 2 API Documents."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Allowed additional symbols (-, _) in the user's email account field."
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["Allowed additional symbols ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "-"
+          }), " ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "_"
+          }), " in the user's email account field."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
@@ -169,8 +174,10 @@ function _createMdxContent(props) {
           children: "If User ID Type is set as alphanumeric, authentication succeeds even with AoC (Access on Card) registered on a blacklist."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "When the User ID Type is set to alphanumeric, an error occurs if the user ID registered directly on the device contained a space or some symbol (,)."
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["When the User ID Type is set to alphanumeric, an error occurs if the user ID registered directly on the device contained a space or some symbol ", (0,jsx_runtime.jsx)(_components.code, {
+            children: ","
+          }), "."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
             children: "When entering the setting page of the device from the BioStar 2, BioStar 2 is abnormally terminated."

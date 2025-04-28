@@ -47,6 +47,7 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
+    code: "code",
     h2: "h2",
     hr: "hr",
     li: "li",
@@ -166,8 +167,32 @@ function _createMdxContent(props) {
               }), " button to Time Code, Shift, Schedule Template, Rule, Schedule setting screen."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "Change some special characters (\\, /, :, *, ?, \", ', `, <, >, |, .) to be unavailable when setting a user name."
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+              children: ["Change some special characters ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "\\"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "/"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: ":"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "*"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "?"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "\""
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "'"
+              }), " ", (0,jsx_runtime.jsx)("code", {
+                children: "`"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "<"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: ">"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "|"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "."
+              }), " to be unavailable when setting a user name."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -225,8 +250,12 @@ function _createMdxContent(props) {
           }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Users who have special characters (-, _) in the ID cannot be selected in the T & A report."
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["Users who have special characters ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "-"
+          }), " ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "_"
+          }), " in the ID cannot be selected in the T & A report."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {

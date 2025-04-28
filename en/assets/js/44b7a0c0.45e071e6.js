@@ -47,6 +47,7 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
+    code: "code",
     h2: "h2",
     hr: "hr",
     li: "li",
@@ -418,7 +419,9 @@ function _createMdxContent(props) {
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Certain symbols (-) could not be entered in the name of a user who issued the QR/Barcode ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["Certain symbols ", (0,jsx_runtime.jsx)(_components.code, {
+              children: "-"
+            }), " could not be entered in the name of a user who issued the QR/Barcode ", (0,jsx_runtime.jsx)(Badge, {
               children: "Affects version: v2.8.11"
             }), "."]
           }), "\n"]

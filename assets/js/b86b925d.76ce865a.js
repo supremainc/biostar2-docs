@@ -45,6 +45,7 @@ const toc = [];
 function _createMdxContent(props) {
   const _components = {
     admonition: "admonition",
+    code: "code",
     li: "li",
     ol: "ol",
     p: "p",
@@ -126,8 +127,12 @@ function _createMdxContent(props) {
                 children: "지원하는 최대 파일 크기는 1MB 입니다."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "파일명은 영숫자와 특수 기호(-, _)을 포함하여 최대 120자까지 입력할 수 있습니다."
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: ["파일명은 영숫자와 특수 기호 ", (0,jsx_runtime.jsx)(_components.code, {
+                  children: "-"
+                }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                  children: "_"
+                }), "를 포함하여 최대 120자까지 입력할 수 있습니다."]
               }), "\n"]
             }), "\n"]
           })]

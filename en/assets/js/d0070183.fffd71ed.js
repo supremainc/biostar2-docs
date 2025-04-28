@@ -45,6 +45,7 @@ const toc = [];
 function _createMdxContent(props) {
   const _components = {
     admonition: "admonition",
+    code: "code",
     li: "li",
     ol: "ol",
     p: "p",
@@ -124,8 +125,12 @@ function _createMdxContent(props) {
                 children: "The maximum supported file size is 1MB."
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "File names can include alphanumeric characters and special symbols (-, _), with a maximum length of 120 characters."
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: ["File names can include alphanumeric characters and special symbols ", (0,jsx_runtime.jsx)(_components.code, {
+                  children: "-"
+                }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                  children: "_"
+                }), ", with a maximum length of 120 characters."]
               }), "\n"]
             }), "\n"]
           })]

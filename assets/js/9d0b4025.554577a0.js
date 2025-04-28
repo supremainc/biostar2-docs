@@ -47,6 +47,7 @@ const toc = [{
 }];
 function _createMdxContent(props) {
   const _components = {
+    code: "code",
     h2: "h2",
     hr: "hr",
     li: "li",
@@ -166,8 +167,32 @@ function _createMdxContent(props) {
               }), " 버튼 추가"]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "사용자 이름을 설정할 때 일부 특수 문자(\\, /, :, *, ?, \", ', `, <, >, |, .)를 사용할 수 없도록 수정"
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+              children: ["사용자 이름을 설정할 때 일부 특수 문자 ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "\\"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "/"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: ":"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "*"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "?"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "\""
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "'"
+              }), " ", (0,jsx_runtime.jsx)("code", {
+                children: "`"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "<"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: ">"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "|"
+              }), " ", (0,jsx_runtime.jsx)(_components.code, {
+                children: "."
+              }), "를 사용할 수 없도록 수정"]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -225,8 +250,12 @@ function _createMdxContent(props) {
           }), "의 설정을 기준으로 동작하도록 수정"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "근태 보고서에서 ID에 특수 문자(-, _)가 포함된 사용자는 선택할 수 없는 문제"
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["근태 보고서에서 ID에 특수 문자 ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "-"
+          }), " ", (0,jsx_runtime.jsx)(_components.code, {
+            children: "_"
+          }), "가 포함된 사용자는 선택할 수 없는 문제"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
