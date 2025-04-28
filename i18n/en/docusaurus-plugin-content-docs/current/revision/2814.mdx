@@ -53,7 +53,7 @@ Release<Separator/>2021-12-15
 
     * Improved to check Operator Level and Custom Account Level when using API.
 
-    * Fixed an issue where if the CSV export file contains a formula symbol ( = ), the formula is applied when the file is executed.
+    * Fixed an issue where if the CSV export file contains a formula symbol `=`, the formula is applied when the file is executed.
 
     * Improved to perform CORS check and security check for session ID when connecting to web socket.
 
@@ -67,7 +67,7 @@ Release<Separator/>2021-12-15
 
     * Added Visual Face Image Upload API.
 
-    * Fixed an issue where users were not added to the actual device differently from the result returned when adding users to devices using [POST] /devices/`{id}` /users or [POST] /api/users/export.
+    * Fixed an issue where users were not added to the actual device differently from the result returned when adding users to devices using [POST] */devices/\{id\}/users* or [POST] */api/users/export*.
 
 1. Improved event log processing performance.
 
@@ -125,7 +125,7 @@ Release<Separator/>2021-12-15
 
 1. Even though the screen saver function is supported, the function was not displayed on the Settings of the X-Station 2 fingerprint model (XS2-ODPB, XS2-OAPB) <Badge>Affects version: v2.8.12</Badge>
 
-1. When using the 'Specific Devices' Automatic User Synchronization option, it did not sync if the user ID contains some symbols (_) <Badge>Affects version: v2.7.11</Badge>.
+1. When using the 'Specific Devices' Automatic User Synchronization option, it did not sync if the user ID contains some symbols `_` <Badge>Affects version: v2.7.11</Badge>.
 
 1. When using the 'Specific Devices' Automatic User Synchronization option, the synchronization logic operated as 'All Devices' when executing Write Smart Card <Badge>Affects version: v2.7.11</Badge>.
 

@@ -347,12 +347,25 @@ footer {
     }
   }
 
+  .tabs-container {
+    ul.tabs {
+      padding-left: 0;
+    }
+    h4.tab-label {
+      display: none;
+    }
+  }
+
   section {
     &.row {
       a.padding--lg {
         padding: 20px !important;
         color: var(--ifm-color-content);
         text-decoration: none;
+        border-bottom-color: var(--ifm-color-emphasis-200);
+        &:hover {
+          border-bottom: 1px solid var(--ifm-color-primary);
+        }
         h2 {
           font-size: var(--ifm-h4-font-size);
           font-weight: 600;
@@ -427,8 +440,18 @@ footer {
       color: var(--ifm-color-color-gray);
     }
     code {
+      position: relative;
+      top: -2px;
       font-size: .85rem;
       font-family: 'Noto Sans Coptic';
+      background-color: #dceaffd8;
+      color: #1549c6;
+      border: 1px solid #dceaffd8;
+      border-radius: 0.3em;
+      padding: 0.1em 0.2em;
+      line-height: 1;
+//      white-space: break-spaces;
+//      word-break: break-word;
     }
     &.hasimg {
       margin-top: calc(1.25 * .5rem) !important;
@@ -463,9 +486,20 @@ footer {
   p:has(.jira-link) {
     margin-top: 2rem;
     font-weight: 600;
+    margin-bottom: .5rem;
+    .jira-link::before {
+      content: "\a";
+      display: block;
+    }
+    .badge + .jira-link::before {
+      display: inline-block;
+    }
     &+ol {
       list-style: none;
       border-left: 1px solid;
+      background: var(--ifm-color-nextstep-background);
+      padding-top: .2rem;
+      padding-bottom: .8rem;
     }
   }
   ul ul, ul ol, ol ol, ol ul {
@@ -802,6 +836,19 @@ footer {
       border: 1px solid var(--ifm-color-cmd);
       margin-top: 0;
     }
+    .tabs-container {
+      ul.tabs {
+        padding-left: 0;
+        display: none;
+      }
+      h4.tab-label {
+        display: block;
+        margin-top: 1rem;
+      }
+      .margin-top--md > div {
+        display: block;
+      }
+    }
     details {
       background: none !important;
       summary {
@@ -891,7 +938,7 @@ footer {
         display: inline;
         flex: none !important;
         width: 50%;
-        > a.padding--lg {
+        &> a.padding--lg {
           padding: 20px !important;
         }
       }
