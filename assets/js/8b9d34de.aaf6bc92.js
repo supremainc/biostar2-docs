@@ -118,7 +118,7 @@ function _createMdxContent(props) {
                     sid: "common.name"
                   })
                 }), (0,jsx_runtime.jsxs)(_components.td, {
-                  children: ["사용자의 이름에 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "* ", (0,jsx_runtime.jsx)(Cmd, {
+                  children: ["사용자의 이름에 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "- ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "common.name"
                   }), " 검색은 대소문자를 구분하지 않습니다."]
                 })]
@@ -136,7 +136,7 @@ function _createMdxContent(props) {
                     sid: "common.department"
                   })
                 }), (0,jsx_runtime.jsxs)(_components.td, {
-                  children: ["사용자가 소속된 부서명이 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "* ", (0,jsx_runtime.jsx)(Cmd, {
+                  children: ["사용자가 소속된 부서명이 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "- ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.sever.secure.comm.encrypt.db"
                   }), "가 활성화되어 있는 경우에는 전문 검색만 가능합니다."]
                 })]
@@ -146,7 +146,7 @@ function _createMdxContent(props) {
                     sid: "common.title"
                   })
                 }), (0,jsx_runtime.jsxs)(_components.td, {
-                  children: ["사용자의 직함이 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "* ", (0,jsx_runtime.jsx)(Cmd, {
+                  children: ["사용자의 직함이 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "- ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.sever.secure.comm.encrypt.db"
                   }), "가 활성화되어 있는 경우에는 전문 검색만 가능합니다."]
                 })]
@@ -200,7 +200,7 @@ function _createMdxContent(props) {
                     sid: "common.card"
                   })
                 }), (0,jsx_runtime.jsxs)(_components.td, {
-                  children: ["카드에 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "* CSN 카드, Wiegand 카드만 해당합니다."]
+                  children: ["카드에 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "- CSN 카드, Wiegand 카드만 해당합니다."]
                 })]
               }), (0,jsx_runtime.jsxs)(_components.tr, {
                 children: [(0,jsx_runtime.jsx)(_components.td, {
@@ -210,9 +210,9 @@ function _createMdxContent(props) {
                 }), (0,jsx_runtime.jsxs)(_components.td, {
                   children: [(0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.server.custom_field.title"
-                  }), "에 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "* ", (0,jsx_runtime.jsx)(Cmd, {
+                  }), "에 포함된 키워드로 검색할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), "- ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.server.custom_field.title"
-                  }), " 검색은 대소문자를 구분합니다.", (0,jsx_runtime.jsx)("br", {}), "* ", (0,jsx_runtime.jsx)(Cmd, {
+                  }), " 검색은 대소문자를 구분합니다.", (0,jsx_runtime.jsx)("br", {}), "- ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.sever.secure.comm.encrypt.db"
                   }), "가 활성화되어 있는 경우에는 전문 검색만 가능합니다."]
                 })]

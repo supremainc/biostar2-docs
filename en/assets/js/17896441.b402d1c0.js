@@ -2512,11 +2512,18 @@ function Separator() {
 
 ;// CONCATENATED MODULE: ./src/components/Badge/index.js
 
+
 function Badge(param) {
     let { children } = param;
-    return /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
         className: "badge",
-        children: children
+        children: [
+            (0,Translate/* translate */.I)({
+                id: "theme.revision.badge"
+            }),
+            ":\xa0",
+            children
+        ]
     });
 }
 

@@ -118,7 +118,7 @@ function _createMdxContent(props) {
                     sid: "common.name"
                   })
                 }), (0,jsx_runtime.jsxs)(_components.td, {
-                  children: ["Search using keywords included in the user's name.", (0,jsx_runtime.jsx)("br", {}), "* ", (0,jsx_runtime.jsx)(Cmd, {
+                  children: ["Search using keywords included in the user's name.", (0,jsx_runtime.jsx)("br", {}), "- ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "common.name"
                   }), " searches are case-insensitive."]
                 })]
@@ -136,7 +136,7 @@ function _createMdxContent(props) {
                     sid: "common.department"
                   })
                 }), (0,jsx_runtime.jsxs)(_components.td, {
-                  children: ["Search using keywords included in the user's department.", (0,jsx_runtime.jsx)("br", {}), "* If ", (0,jsx_runtime.jsx)(Cmd, {
+                  children: ["Search using keywords included in the user's department.", (0,jsx_runtime.jsx)("br", {}), "- If ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.sever.secure.comm.encrypt.db"
                   }), " is enabled, it can only be searched in full text."]
                 })]
@@ -146,7 +146,7 @@ function _createMdxContent(props) {
                     sid: "common.title"
                   })
                 }), (0,jsx_runtime.jsxs)(_components.td, {
-                  children: ["Search using keywords included in the user's title.", (0,jsx_runtime.jsx)("br", {}), "* If ", (0,jsx_runtime.jsx)(Cmd, {
+                  children: ["Search using keywords included in the user's title.", (0,jsx_runtime.jsx)("br", {}), "- If ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.sever.secure.comm.encrypt.db"
                   }), " is enabled, it can only be searched in full text."]
                 })]
@@ -200,7 +200,7 @@ function _createMdxContent(props) {
                     sid: "common.card"
                   })
                 }), (0,jsx_runtime.jsxs)(_components.td, {
-                  children: ["Search using keywords included in the card.", (0,jsx_runtime.jsx)("br", {}), "* Only CSN cards and Wiegand cards can be searched."]
+                  children: ["Search using keywords included in the card.", (0,jsx_runtime.jsx)("br", {}), "- Only CSN cards and Wiegand cards can be searched."]
                 })]
               }), (0,jsx_runtime.jsxs)(_components.tr, {
                 children: [(0,jsx_runtime.jsx)(_components.td, {
@@ -210,9 +210,9 @@ function _createMdxContent(props) {
                 }), (0,jsx_runtime.jsxs)(_components.td, {
                   children: ["Search using keywords included in the ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.server.custom_field.title"
-                  }), ".", (0,jsx_runtime.jsx)("br", {}), "* ", (0,jsx_runtime.jsx)(Cmd, {
+                  }), ".", (0,jsx_runtime.jsx)("br", {}), "- ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.server.custom_field.title"
-                  }), " searches are case-sensitive.", (0,jsx_runtime.jsx)("br", {}), "* If ", (0,jsx_runtime.jsx)(Cmd, {
+                  }), " searches are case-sensitive.", (0,jsx_runtime.jsx)("br", {}), "- If ", (0,jsx_runtime.jsx)(Cmd, {
                     sid: "setting.sever.secure.comm.encrypt.db"
                   }), " is enabled, it can only be searched in full text."]
                 })]
