@@ -41,17 +41,13 @@ description: 이 문서는 BioStar 2 각 버전에 적용된 기능 개선, 버�
 
 * MS SQL Server와 **BioStar 2**가 서로 다른 PC에 설치된 경우, BioStar 2가 설치된 PC에는 [Microsoft OLE DB Driver for SQL Server](https://learn.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server) 또는 [Native Client](https://www.microsoft.com/ko-kr/download/details.aspx?id=50402)를 설치해야 합니다.
 
-    * AC 데이터베이스는 OLE DB 연결을 지원하며, TA 및 VE 데이터베이스는 OLE DB 지원 여부가 달라질 수 있습니다.
-
-    * TA 메뉴 사용 시에는 [ODBC 드라이버](https://learn.microsoft.com/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16)가 필요하므로 환경에 맞게 확인하여 설치하세요.
+    * TA 메뉴 사용 시에는 [Microsoft ODBC Driver 17 for SQL Server](https://learn.microsoft.com/ko-kr/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16#version-17)가 필요하므로 환경에 맞게 확인하여 설치하세요.
 
 * MS SQL Server를 사용할 경우 서버 및 각 테이블의 `Collation` 옵션을 CI(Case-insensitive)로 설정하세요.
 
 * 기존 버전의 **BioStar 2**에서 데이터베이스를 백업할 때 모든 서비스를 사용 중지한 뒤 진행하세요. 또한, AC 데이터베이스와 TA 데이터베이스를 함께 백업하고 복원하지 않으면 TA 데이터베이스를 사용할 수 없게 됩니다.
 
 * **BioStar 2** 데이터베이스를 백업하려면 *\Program Files\BioStar 2(x64)\util* 폴더의 *enckey* 파일과 *\Program Files\BioStar 2(x64)* 폴더의 *system.conf*, *setting.conf* 파일도 반드시 함께 백업하세요. 그렇지 않으면, 데이터베이스를 사용할 수 없게 됩니다.
-
-<div class Name='page-break' />
 
 * **BioStar 2**가 사용하는 포트의 기본 값은 아래와 같습니다. 다른 프로그램에서 동일한 포트를 점유할 경우 **BioStar 2**가 정상적으로 구동되지 않을 수 있습니다.
 

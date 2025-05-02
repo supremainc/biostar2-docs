@@ -35,9 +35,12 @@ BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화�
 1. Updated BioStar 2 Mobile application.
 
 <Jira num='BE-3613' /> 기존 Active Directory 동기화 개선
+<Jira num='FISS-4038' /> [Suprema ME - ELM] 바이오스타의 이벤트 로그가 Database에 실시간 반영되지 않는 현상이 발생 - 긴급 처리 요청 건 
+
 1. <Cmd sid="settings.activeDirectory" /> 동기화 성능 개선
 
 <Jira num='BE-3615' /> Microsoft Entra ID(Azure Active Directory) 연동
+
 1. Microsoft Entra ID(Azure Active Directory) 연동하여 BioStar 2에 로그인할 수 있도록 지원
 
 <Jira num='BE-3671' /> BioStar 에 연결되는 BioMini 제품 종류에 따른 아이콘 표시 지원 
@@ -80,7 +83,9 @@ BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화�
 
 1. X-Station 2 (XS2-QAPB, XS2-QDPB) 모델에서 <Cmd sid="device.info.useVisualBarcode" /> 기능 지원
 
-<Badge>제외</Badge> <Jira num='BE-3745' /> CS-40 이름 수정 건
+<Jira num='BE-3745' /> CS-40 이름 수정 건
+
+`제외`
 
 <Jira num='BE-3768' /> 컨트롤러 Custom Smart Card 미지원, 슬레이브가 지원일 때, 설정을 지원하는 방안
 
@@ -97,7 +102,7 @@ BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화�
 <Jira num='BF-1162' /> db convertor validation check 에 대한 System log 기록 및 back table 삭제 기능 추가 2.8 
 <Jira num='FISS-3484' /> [Besense] BioStar 2 업그레이드 후 DB 암호화를 활성화했던 현장에서 복호화가 되지 않음 2.8.0
 
-1. <Cmd sid="setting.sever.secure.comm.encrypt.db" />를 진행했던 환경에서 다시 복호화를 진행할 때 실패하는 문제 <Badge>발생 버전: v2.9.6</Badge>
+1. <Cmd sid="setting.sever.secure.comm.encrypt.db" />를 진행했던 환경에서 다시 복호화를 진행할 때 실패하는 문제 <Badge>2.8.0</Badge>
 
 <Jira num='BF-1320' /> OLE DB + MSSQL 2022 지원
 
@@ -105,37 +110,88 @@ BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화�
 
 1. Supports MS SQL Server 2022.
 
-<Jira num='BF-1351' /> 장치 동기화 시 BS_ERR_INVALID_SLOT_NO = -702 응답을 받았지만 사용자 재 동기화 하는 문제 2
+<Jira num='BF-1351' /> 장치 동기화 시 BS_ERR_INVALID_SLOT_NO = -702 응답을 받았지만 사용자 재 동기화 하는 문제 2.0.0
+<Jira num='FISS-3634' /> [Entripas][GO-WORK] log 파일 사이즈 급증, 메모리 활용률 문제 이슈
+
+1. 장치 동기화 시 특정 오류로 인해 사용자 동기화가 반복되어 메모리 사용량 및 로그 파일 크기가 비정상적으로 증가하던 문제 <Badge>2.0.0</Badge>
+
+1. Repeated user synchronization and abnormal increase in memory usage and log file size due to specific error during device synchronization. <Badge>2.0.0</Badge>
 
 <Jira num='BF-1596' /> 커스텀 계정이 사용자 그룹 1100개 권한을 가진 경우 로그인시 사용자 조회 안됨. 2.9.5
 
-<Jira num='BF-1798' /> C서버 error log callstack 추가 
+1. 커스텀 계정이 1100개 이상의 사용자 그룹 권한을 가진 경우 사용자 조회가 되지 않던 문제 <Badge>2.9.5</Badge>
+
+1. Failed to load users after login when a custom account had permissions for more than 1100 user groups. <Badge>2.9.5</Badge>
+
+<Badge>제외</Badge> <Jira num='BF-1798' /> C서버 error log callstack 추가
 
 <Jira num='BF-1815' /> Visual Face Migration 대상 개수 표기 오류 2.9.7
+<Jira num='FISS-4297' /> [STC (Saudi Telecommunication Company)] User>Visual Face Migration 선택 (대쉬보드의 Visual Face유저와 다름) 2.9.7
+
+1. 비주얼 페이스 마이그레이션 대상 개수가 실제와 다르게 표시되던 문제 <Badge>2.9.7</Badge>
+
+1. Visual Face Migration target count was displayed incorrectly. <Badge>2.9.7</Badge>
 
 <Jira num='BF-1860' /> ToM 을 지원하지만, ToM 등록을 미지원하는 장치의 상세 페이지에 ToM Enrollment 메뉴가 보이는 문제. 2.9.4
 
+1. <Cmd sid="device.info.templateOnMobile" /> 등록을 지원하지 않는 장치의 상세 페이지에 <Cmd sid="device.info.enrollTemplateOnMobile" /> 메뉴가 나타나는 문제 <Badge>2.9.4</Badge>
+
+1. <Cmd sid="device.info.enrollTemplateOnMobile" /> menu appeared on the device detail page for devices that do not support <Cmd sid="device.info.templateOnMobile" /> enrollment. <Badge>2.9.4</Badge>
+
 <Jira num='BF-1865' /> [성능 개선] 출입그룹에 속한 사용자 조회 View 쿼리 성능 개선 2
+
+1. 출입 그룹에 속해 있는 사용자 조회 성능 개선
+
+1. Improved performance when retrieving users belonging to access groups.
 
 <Jira num='BF-1876' /> 네트워크 트래픽 제한 설정 버그 수정 2.9.1
 
+1. 네트워크 트래픽 제한 설정 시 장치 연결이 끊기던 문제 <Badge>2.9.4</Badge>
+
+1. Device connections were lost due to network traffic limit settings. <Badge>2.9.4</Badge>
+
 <Jira num='BF-1881' /> TA 레지스터된 환경에서 바이오스타 로그아웃시 캐시 초기화 안되는 문제 
+
+1. TA가 등록된 환경에서 로그아웃 시 캐시가 초기화되지 않아 이전 정보가 남아있던 문제 <Badge>???</Badge>
+
+1. Cached data was not cleared after logout in environments where TA was registered, causing previous information to remain. <Badge>???</Badge>
 
 <Jira num='BF-1885' /> FaceStation F2(ToM 지원 Version) 의 Device Detail 에 ToM Enrollment 의 Info Message 가 잘못 표기되는 문제 2.9.4
 
-<Jira num='BF-1890' /> C 서버 기동 시 서버 정보 로그 추가 
+1. FaceStation F2(2.2.0 버전 이상)의 장치 상세 페이지에서 <Cmd sid="device.info.enrollTemplateOnMobile" />의 안내 메시지가 잘못 표시되던 문제 <Badge>2.9.4</Badge>
 
-<Jira num='BF-1895' /> AC사용자 그룹 변경에 따른 LSTMOD 추가 
+1. <Cmd sid="device.info.enrollTemplateOnMobile" /> info message was incorrectly displayed on the device detail page for FaceStation F2 (version 2.2.0 or higher). <Badge>2.9.4</Badge>
 
-<Jira num='BF-1898' /> mssql 스마트카드 mifare_primary_key 빈값으로 넣는경우 쿼리 에러 
+<Jira num='BF-1895' /> AC사용자 그룹 변경에 따른 LSTMOD 추가
+<Jira num='FISS-4309' /> [긴급][Suprema ME][Petrojet Time and attendance system] AC와 TA 사용자 수가 다른 문제 2.8.9
+
+1. <Cmd sid="setting.server.license.ac" /> 사용자와 <Cmd sid="setting.server.license.ta" /> 사용자의 수가 일치하지 않는 문제 <Badge>2.8.9</Badge>
+
+1. The number of <Cmd sid="setting.server.license.ac" /> users and <Cmd sid="setting.server.license.ta" /> users does not match. <Badge>2.8.9</Badge>
+
+<Jira num='BF-1898' /> mssql 스마트카드 mifare_primary_key 빈값으로 넣는경우 쿼리 에러
+
+`제외`
 
 <Jira num='BF-1919' /> FSF2, BS3 T_DEVCAPS MX_SYNC_CNT DB 누락 2.9.8
 
+`제외`
+
 <Jira num='BJ-600' /> BioStar2 2.7.1에서 2.8.11 이상 버전으로 업그레이드 후 BioStar 2 QR 발급 정보가 Audit Trail에 기록 되지 않는 문제 2.8.11
+
+1. BioStar 2.8.11 이상 버전에서 <Cmd sid="user.qrSecureCredentialCard" />의 발급 정보가 <Cmd sid="monitoring.auditTrail" />에 기록되지 않는 문제 <Badge>2.8.11</Badge>
+
+1. In BioStar 2.8.11 and above, issuance information for <Cmd sid="user.qrSecureCredentialCard" /> was not recorded in <Cmd sid="monitoring.auditTrail" /> <Badge>2.8.11</Badge> .
 
 <Jira num='BJ-626' /> 특정 사용자 그룹의 사용자를 Select All로 선택하여 Batch Edit 수정 시, Audit Trail에 '모든 사용자'로 출력되는 문제 2.7.1
 
+1. 특정 사용자 그룹 내에서 사용자를 전체 선택하여 <Cmd sid="user.header.batchEdit" />했을 때 감사 추적에 모든 사용자로 잘못 기록되는 문제 <Badge>2.7.1</Badge>
+
+1. When performing <Cmd sid="user.header.batchEdit" /> with select all in a specific user group, the <Cmd sid="monitoring.auditTrail" /> incorrectly logged the target as All User. <Badge>2.7.1</Badge>
+
 <Jira num='BJ-682' /> 사용자에 크리덴셜 추가를 위해 TCP/IP로 추가된 Slave 장치로 Scan 시 팝업 문구 개선 2
+
+1. 
 
 <Jira num='BJ-693' /> User ID와 동일한 ID를 가진 Card 인증 실패 시 로그에 카드 ID(사용자 이름)로 출력 되는 현상 2
 
@@ -253,13 +309,9 @@ BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화�
 
 <Jira num='FISS-3632' /> [Suprema EMEA] BioStar 2 Mobile APP 사용 불가 - 로그인 정보가 만료되었습니다 or ACE Error Code 101 
 
-<Jira num='FISS-3634' /> [Entripas][GO-WORK] log 파일 사이즈 급증, 메모리 활용률 문제 이슈 
-
 <Jira num='FISS-3935' /> [Hanman] OpenJDK is affected by multiple vulnerabilities. 2.3.0(처음부터)
 
 <Jira num='FISS-3939' /> [키말디] 특정 사용자에 대한 T&A Report를 생성하고자 할 때, 사용자 검색창에 어떠한 사용자도 나타나지 않는 문제가 발생 2.8.0
-
-<Jira num='FISS-4038' /> [Suprema ME - ELM] 바이오스타의 이벤트 로그가 Database에 실시간 반영되지 않는 현상이 발생 - 긴급 처리 요청 건 
 
 <Jira num='FISS-4073' /> [Suprema JP - 세큐아, enduser: LineYahoo] 다음의 2가지 문제가 발생 (이슈1. "1:1 인증 카드 인증 실패 시 userID(user name) 가 로그에 기록되는 현상 / 이슈2. -702 에러가 발생" 2
 
@@ -276,10 +328,6 @@ BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화�
 <Jira num='FISS-4288' /> [Nedo Corporation] /tna/report.json 호출 시, 너무 오래 걸리고 데이터가 돌아오지 않을 때도 있음 2.8.5
 
 <Jira num='FISS-4294' /> [Suprema ME][Centena Saudi Arabia] 8월부터 ta 리포트가 생성되지 않고, ta db 에 archivedpunchlog 도 없음.  2.8.13
-
-<Jira num='FISS-4297' /> [STC (Saudi Telecommunication Company)] User>Visual Face Migration 선택 (대쉬보드의 Visual Face유저와 다름) 2.9.7
-
-<Jira num='FISS-4309' /> [긴급][Suprema ME][Petrojet Time and attendance system] AC와 TA 사용자 수가 다른 문제 2.8.9
 
 <Jira num='FISS-4325' /> [Suprema JP - 세큐아] custom 계정을 사용하는 현장에서 특정 시나리오를 따를 때, edit/read 권한이 없는 Access group에 대해서도 read/edit가 가능한 문제가 발생함 
 

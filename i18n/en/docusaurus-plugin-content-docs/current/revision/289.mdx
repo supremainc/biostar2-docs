@@ -39,35 +39,35 @@ Release<Separator/>2020-12-29
 
 <BugLists>
 
-1. Extended auth mode gets disabled intermittently when multiple FaceStation F2 devices try to connect to the server simultaneously. <Badge>Affects version: v2.8.8</Badge>
+1. Extended auth mode gets disabled intermittently when multiple FaceStation F2 devices try to connect to the server simultaneously. <Badge>2.8.8</Badge>
 
-1. Punch logs were not displayed if the punch type was null in the updated individual reports by selecting the 'All Punches' option. <Badge>Affects version: v2.7.10</Badge>
+1. Punch logs were not displayed if the punch type was null in the updated individual reports by selecting the 'All Punches' option. <Badge>2.7.10</Badge>
 
-1. Punch logs were not recorded properly in the individual reports updated by selecting the 'All Punches' option. <Badge>Affects version: v2.7.10</Badge>
+1. Punch logs were not recorded properly in the individual reports updated by selecting the 'All Punches' option. <Badge>2.7.10</Badge>
 
     * The 'Check In' log was only recorded in the report even though the user selected 'Check Out' on the T&A device.
 
-1. BioStar 2 could not connect with the TA database if using a port other than the default port when installed using MS SQL Windows authentication. <Badge>Affects version: v2.7.14</Badge>
+1. BioStar 2 could not connect with the TA database if using a port other than the default port when installed using MS SQL Windows authentication. <Badge>2.7.14</Badge>
 
-1. PIN authentication failed due to the device default hash key transmission error. <Badge>Affects version: v2.4.0</Badge>
+1. PIN authentication failed due to the device default hash key transmission error. <Badge>2.4.0</Badge>
 
-1. If both user data registered with a face template and user data registered with a visual face template were sent to FaceStation 2 and FaceStation F2 at the same time, the authentication failed on FaceStation F2. <Badge>Affects version: v2.8.6</Badge>
+1. If both user data registered with a face template and user data registered with a visual face template were sent to FaceStation 2 and FaceStation F2 at the same time, the authentication failed on FaceStation F2. <Badge>2.8.6</Badge>
 
 1. T&A device synchronization problems
 
     * Devices added in DEVICE menu were not synchronized with the TIME ATTENDANCE menu.
 
-    * FaceLite added in DEVICE menu were not displayed in the T&A device list. <Badge>Affects version: v2.7.10</Badge>
+    * FaceLite added in DEVICE menu were not displayed in the T&A device list. <Badge>2.7.10</Badge>
 
-    * Devices added in DEVICE menu were not displayed in the T&A device list because the value of device group ID became null due to a synchronization problem. <Badge>Affects version: v2.7.5</Badge>
+    * Devices added in DEVICE menu were not displayed in the T&A device list because the value of device group ID became null due to a synchronization problem. <Badge>2.7.5</Badge>
 
-1. When starting the T&A service, a user was automatically signed out of BioStar 2 and was not able to sign in again. <Badge>Affects version: v2.8.4</Badge>
+1. When starting the T&A service, a user was automatically signed out of BioStar 2 and was not able to sign in again. <Badge>2.8.4</Badge>
 
     * When accessing the T&A service while a user was signed in to BioStar 2, 'Unknown error. Check the log file for detailed information' error message was displayed.
 
 1. If clicking Apply in the SERVER menu after setting the mobile access card option to 'Use', the setting was changed to 'Not Use'. 
 
-1. An email notification about users who have reached their specified working hours was not sent even after configuring the SMTP setting of Automated Email. (Affects version: v2.8.6, v2.8.8)
+1. An email notification about users who have reached their specified working hours was not sent even after configuring the SMTP setting of Automated Email. <Badge>2.8.6, 2.8.8</Badge>
 
 </BugLists>
 
@@ -77,18 +77,18 @@ Release<Separator/>2020-12-29
 
 <BugLists>
 
-1. An error occurred when creating work history after running user sync with personal information DB turned on or off. <Badge>Affects version: v.2.8.0</Badge>
+1. An error occurred when creating work history after running user sync with personal information DB turned on or off. <Badge>2.8.0</Badge>
 
-1. A migration error occurred when encrypting and decrypting personal information DB since the table name was checked incorrectly during the Swap process. <Badge>Affects version: v.2.8.0</Badge>
+1. A migration error occurred when encrypting and decrypting personal information DB since the table name was checked incorrectly during the Swap process. <Badge>2.8.0</Badge>
 
 1. The calculation was not possible if the calculation scope of the parity bit was overlapped with the scope of the other parity bits when setting the Wiegand format.
 
-1. BioStar 1.x logs did not appear in the event log list after the log migration since the Temper column was not supported on BioStar 1.x. <Badge>Affects version: v2.8.6</Badge>
+1. BioStar 1.x logs did not appear in the event log list after the log migration since the Temper column was not supported on BioStar 1.x. <Badge>2.8.6</Badge>
 
-1. BioStar 2 occupied excessive memory when logging in as a custom level administrator with permissions for a lot of user groups in an environment using the MS SQL Server database. <Badge>Affects version: v2.8.7</Badge>
+1. BioStar 2 occupied excessive memory when logging in as a custom level administrator with permissions for a lot of user groups in an environment using the MS SQL Server database. <Badge>2.8.7</Badge>
 
-1. When issuing mobile cards, model names of some devices were not correctly displayed in the pop-up message. <Badge>Affects version: v2.6.0</Badge>
+1. When issuing mobile cards, model names of some devices were not correctly displayed in the pop-up message. <Badge>2.6.0</Badge>
 
-1. Delay occurred when uploading event logs related with temperature from FaceStation F2 to the server and unnecessary logs, such as temperature data with zero value, were uploaded. <Badge>Affects version: v2.8.6</Badge>
+1. Delay occurred when uploading event logs related with temperature from FaceStation F2 to the server and unnecessary logs, such as temperature data with zero value, were uploaded. <Badge>2.8.6</Badge>
 
 </BugLists>

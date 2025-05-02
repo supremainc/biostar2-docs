@@ -27,21 +27,27 @@ description: This document provides an overview of feature enhancements, bug fix
 
   </div>
 
-* If you are using Windows 8.1, install the KB2919355 update by referring to the [following link](https://support.microsoft.com/en-us/help/2919355/windows-rt-8-1--windows-8-1--and-windows-server-2012-r2-update-april-2).
+* If you are using Windows 8.1, install the [KB2919355 update](https://support.microsoft.com/en-us/help/2919355/windows-rt-8-1--windows-8-1--and-windows-server-2012-r2-update-april-2).
 
-* If you are using MS SQL 2012 Express, install the Service Pack 3 by referring to the [following link](https://www.microsoft.com/en-us/download/details.aspx?id=49996).
+* If you are using MS SQL 2012 Express, install the [Service Pack 3](https://www.microsoft.com/en-us/download/details.aspx?id=49996).
 
-* If you are using MS SQL 2014 Express, install the Service Pack 2 by referring to the [following link](https://www.microsoft.com/en-us/download/details.aspx?id=53168).
+* If you are using MS SQL 2014 Express, install the [Service Pack 2](https://www.microsoft.com/en-us/download/details.aspx?id=53168).
 
-* If MS SQL Server and **BioStar 2** are installed on different PCs, install the Native Client on the PC where **BioStar 2** is installed by referring to the [following link](https://www.microsoft.com/en-us/download/details.aspx?id=50402).
+* Starting from **BioStar 2 v2.9.9**, MS SQL Server 2022 is supported, and you can connect using either the Microsoft OLE DB Driver for SQL Server or Native Client.
+
+    * If the OLE DB driver is installed, BioStar 2 will use OLE DB as the default connection method. If only the Native Client is installed, the system will connect using Native Client.
+
+    * Since Native Client is no longer included with SQL Server 2022 and has limitations in terms of compatibility and features, **it is recommended to use the OLE DB driver for connecting to newer versions of SQL Server**.
+
+* If MS SQL Server and BioStar 2 are installed on different PCs, the PC running BioStar 2 must have either the [Microsoft OLE DB Driver for SQL Server](https://learn.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server) or [Native Client](https://www.microsoft.com/en-us/download/details.aspx?id=50402) installed.
+
+    * When using the TA menu, an [Microsoft ODBC Driver 17 for SQL Server](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver16#version-17) is also required. Please verify your environment and install it accordingly.
 
 * If you are using MS SQL Server, set the `Collation` option of the server and each table to CI (Case-insensitive).
 
 * When backing up a database from an older version of **BioStar 2**, disable all services and procedures. Furthermore, if you do not back up and restore the AC database and the TA database together, you will not be able to use the TA database.
 
 * If you want to back up the database of **BioStar 2**, be sure to also back up the *enckey* in the *\Program Files\BioStar 2 (x64)\util* folder and the *system.conf* and *setting.conf* file in the *\Program Files\BioStar 2(x64)* folder. Otherwise, the database will be unavailable.
-
-<div class Name='page-break' />
 
 * The default values for the ports used by **BioStar 2** are as follows. If another program occupies the same port, **BioStar 2** may not work properly.
 
