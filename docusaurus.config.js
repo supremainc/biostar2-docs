@@ -119,16 +119,7 @@ const config = {
   ],
   plugins: [
     [ 'docusaurus-plugin-sass', {} ],
-    [ 'plugin-image-zoom', {
-      selector: '.markdown img',
-      options: {
-        margin: 24,
-        background: '#BADA55',
-        scrollOffset: 0,
-        container: '#zoom-container',
-        template: '#zoom-template'
-      }
-    }]
+    [ 'docusaurus-plugin-image-zoom', {}]
   ],
   markdown: {
     parseFrontMatter: async (params) => {
@@ -187,6 +178,15 @@ const config = {
       },
       prism: {
         additionalLanguages: [ 'ini', 'sql' ]
+      },
+      zoom: {
+        selector: '.markdown :not(em, div) > img:not(.ico)',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+        },
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        config: {}
       }
     }),
 };
