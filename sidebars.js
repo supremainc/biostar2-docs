@@ -41,6 +41,7 @@ const sidebars = {
               },
               items: [
                 'update/299/how-to-use-cs20',
+                'update/299/sync-with-entraid',
               ]
             },
             {
