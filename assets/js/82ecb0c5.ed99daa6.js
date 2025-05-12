@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-299-settings-diretory-integration-mdx-82e.json
-var site_docs_update_299_settings_diretory_integration_mdx_82e_namespaceObject = JSON.parse('{"id":"update/299/settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","source":"@site/docs/update/299/settings-diretory-integration.mdx","sourceDirName":"update/299","slug":"/update/299/settings-diretory-integration","permalink":"/biostar2-docs/en/update/299/settings-diretory-integration","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","isTranslationMissing":true},"sidebar":"biostar","previous":{"title":"CoreStation 20 사용하기","permalink":"/biostar2-docs/en/update/299/how-to-use-cs20"},"next":{"title":"Updates in BioStar 2 v2.9.8","permalink":"/biostar2-docs/en/update/biostar2-298"}}')
+var site_docs_update_299_settings_diretory_integration_mdx_82e_namespaceObject = JSON.parse('{"id":"update/299/settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","source":"@site/docs/update/299/settings-diretory-integration.mdx","sourceDirName":"update/299","slug":"/update/299/settings-diretory-integration","permalink":"/biostar2-docs/update/299/settings-diretory-integration","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"CoreStation 20 사용하기","permalink":"/biostar2-docs/update/299/how-to-use-cs20"},"next":{"title":"2.9.8 버전 업데이트 안내","permalink":"/biostar2-docs/update/biostar2-298"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -307,7 +307,7 @@ const settings_diretory_integration_frontMatter = {
 	id: 'settings-diretory-integration',
 	title: '디렉토리 연동 설정하기',
 	description: 'Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.',
-	isTranslationMissing: true
+	isTranslationMissing: false
 };
 const settings_diretory_integration_contentTitle = undefined;
 
@@ -442,7 +442,7 @@ function settings_diretory_integration_createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
-          }), " > ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.activeDirectory.menu"
           }), "을 클릭하세요."]
         }), "\n"]
@@ -662,7 +662,7 @@ function settings_diretory_integration_createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
-          }), " > ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.activeDirectory.menu"
           }), "을 클릭하세요."]
         }), "\n"]
@@ -692,7 +692,7 @@ function settings_diretory_integration_createMdxContent(props) {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["Active Directory 서버를 사용하려면 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.setting"
-            }), " > ", (0,jsx_runtime.jsx)(Cmd, {
+            }), " → ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "setting.server"
             }), " 메뉴의 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "setting.server.userDeviceManagement"
