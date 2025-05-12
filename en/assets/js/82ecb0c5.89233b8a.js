@@ -342,7 +342,6 @@ function settings_diretory_integration_createMdxContent(props) {
     a: "a",
     admonition: "admonition",
     code: "code",
-    em: "em",
     h2: "h2",
     h3: "h3",
     li: "li",
@@ -887,7 +886,7 @@ function settings_diretory_integration_createMdxContent(props) {
         children: "Entra ID"
       }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Active Directory"
-      }), "와 연동할 경우, 서버에 존재하지 않는 사용자는 ", (0,jsx_runtime.jsx)(_components.em, {
+      }), "와 연동할 경우, 서버에 존재하지 않는 사용자는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "BioStar 2"
       }), "에서 삭제될 수 있습니다. 삭제되지 않길 원하는 사용자가 있다면 아래 방법을 통해 연동에서 제외할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
