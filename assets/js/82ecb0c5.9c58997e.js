@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-299-settings-diretory-integration-mdx-82e.json
-var site_docs_update_299_settings_diretory_integration_mdx_82e_namespaceObject = JSON.parse('{"id":"update/299/settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","source":"@site/docs/update/299/settings-diretory-integration.mdx","sourceDirName":"update/299","slug":"/update/299/settings-diretory-integration","permalink":"/biostar2-docs/en/update/299/settings-diretory-integration","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","isTranslationMissing":true},"sidebar":"biostar","previous":{"title":"CoreStation 20 사용하기","permalink":"/biostar2-docs/en/update/299/how-to-use-cs20"},"next":{"title":"Updates in BioStar 2 v2.9.8","permalink":"/biostar2-docs/en/update/biostar2-298"}}')
+var site_docs_update_299_settings_diretory_integration_mdx_82e_namespaceObject = JSON.parse('{"id":"update/299/settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","source":"@site/docs/update/299/settings-diretory-integration.mdx","sourceDirName":"update/299","slug":"/update/299/settings-diretory-integration","permalink":"/biostar2-docs/update/299/settings-diretory-integration","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"CoreStation 20 사용하기","permalink":"/biostar2-docs/update/299/how-to-use-cs20"},"next":{"title":"2.9.8 버전 업데이트 안내","permalink":"/biostar2-docs/update/biostar2-298"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -307,7 +307,7 @@ const settings_diretory_integration_frontMatter = {
 	id: 'settings-diretory-integration',
 	title: '디렉토리 연동 설정하기',
 	description: 'Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.',
-	isTranslationMissing: true
+	isTranslationMissing: false
 };
 const settings_diretory_integration_contentTitle = undefined;
 
@@ -330,7 +330,7 @@ const settings_diretory_integration_toc = [{
   "level": 2
 }, ...toc, ..._usercustomfield_toc, ..._sync_with_integ_toc, {
   "value": "설정 결과 확인하기",
-  "id": "checksettingEtraid",
+  "id": "checksettings",
   "level": 2
 }, {
   "value": "디렉토리 연동 제외하기",
@@ -345,7 +345,6 @@ function settings_diretory_integration_createMdxContent(props) {
     em: "em",
     h2: "h2",
     h3: "h3",
-    hr: "hr",
     li: "li",
     ol: "ol",
     p: "p",
@@ -638,7 +637,19 @@ function settings_diretory_integration_createMdxContent(props) {
           name: "Entra ID"
         })
       })]
-    }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsx)(_components.h2, {
+    }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+      type: "note",
+      children: (0,jsx_runtime.jsxs)(_components.p, {
+        children: [(0,jsx_runtime.jsx)(Cmd, {
+          sid: "setting.activeDirectory.menu"
+        }), " 설정을 모두 완료한 후 ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "button.apply"
+        }), " 버튼을 클릭하세요. 설정 결과를 확인하려면 ", (0,jsx_runtime.jsx)(_components.a, {
+          href: "#checksettings",
+          children: "다음 문서"
+        }), "를 참고하세요."]
+      })
+    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "sync-with-active-directory",
       children: "액티브 디렉토리(Active Directory)와 연동하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
@@ -825,17 +836,27 @@ function settings_diretory_integration_createMdxContent(props) {
           name: "Active Directory"
         })
       })]
+    }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+      type: "note",
+      children: (0,jsx_runtime.jsxs)(_components.p, {
+        children: [(0,jsx_runtime.jsx)(Cmd, {
+          sid: "setting.activeDirectory.menu"
+        }), " 설정을 모두 완료한 후 ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "button.apply"
+        }), " 버튼을 클릭하세요. 설정 결과를 확인하려면 ", (0,jsx_runtime.jsx)(_components.a, {
+          href: "#checksettings",
+          children: "다음 문서"
+        }), "를 참고하세요."]
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "checksettingEtraid",
+      id: "checksettings",
       children: "설정 결과 확인하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(_components.strong, {
         children: "Entra ID"
       }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Active Directory"
-      }), "와 연동 설정을 완료하고, 화면 아래에 ", (0,jsx_runtime.jsx)(Cmd, {
-        sid: "button.apply"
-      }), " 버튼을 클릭하세요. 다음 항목을 참고해 동기화된 설정을 확인할 수 있습니다."]
+      }), "와 연동 설정을 완료했다면, 다음 항목을 참고해 동기화된 설정을 확인할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
