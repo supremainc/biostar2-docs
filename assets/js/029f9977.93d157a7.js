@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-revision-299-mdx-029.json
-var site_docs_revision_299_mdx_029_namespaceObject = JSON.parse('{"id":"revision/299","title":"버전 2.9.9 (빌드 번호 2.9.9.XX)","description":"릴리즈2025-05-30","source":"@site/docs/revision/299.mdx","sourceDirName":"revision","slug":"/revision/299","permalink":"/biostar2-docs/en/revision/299","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"299","title":"버전 2.9.9 (빌드 번호 2.9.9.XX)","isTranslationMissing":true},"sidebar":"biostar","previous":{"title":"Precautions when upgrading BioStar 2","permalink":"/biostar2-docs/en/revision/"},"next":{"title":"Version 2.9.8 (Build No. 2.9.8.30)","permalink":"/biostar2-docs/en/revision/298"}}')
+var site_docs_revision_299_mdx_029_namespaceObject = JSON.parse('{"id":"revision/299","title":"버전 2.9.9 (빌드 번호 2.9.9.XX)","description":"릴리즈2025-05-30","source":"@site/docs/revision/299.mdx","sourceDirName":"revision","slug":"/revision/299","permalink":"/biostar2-docs/revision/299","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"299","title":"버전 2.9.9 (빌드 번호 2.9.9.XX)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"BioStar 2 업그레이드 시 주의사항","permalink":"/biostar2-docs/revision/"},"next":{"title":"버전 2.9.8 (빌드 번호 2.9.8.30)","permalink":"/biostar2-docs/revision/298"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -26,7 +26,7 @@ var lib = __webpack_require__("65");
 const frontMatter = {
 	id: 299,
 	title: '버전 2.9.9 (빌드 번호 2.9.9.XX)',
-	isTranslationMissing: true
+	isTranslationMissing: false
 };
 const contentTitle = undefined;
 
@@ -142,24 +142,6 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(Jira, {
-        num: "BE-3744"
-      }), " XS2-Q 모델에서 Camera QR 지원"]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
-      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["X-Station 2 (XS2-QAPB, XS2-QDPB) 모델에서 ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "device.info.useVisualBarcode"
-          }), " 기능 지원"]
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Support for ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "device.info.useVisualBarcode"
-          }), " feature on X-Station 2 (XS2-QAPB, XS2-QDPB) models."]
-        }), "\n"]
-      }), "\n"]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: [(0,jsx_runtime.jsx)(Jira, {
         num: "BE-3615"
       }), " Microsoft Entra ID(Azure Active Directory) 연동"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
@@ -170,20 +152,6 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
           children: "Added support for logging in to BioStar 2 using Microsoft Entra ID (Azure Active Directory) integration."
-        }), "\n"]
-      }), "\n"]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: [(0,jsx_runtime.jsx)(Jira, {
-        num: "BE-3678"
-      }), " BS3, XS2 장치에서 PIN 입력용 숫자 키패드 옵션 설정"]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
-      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "인증 메뉴에 스크램블 키패드를 켜고 끌 수 있는 옵션 추가"
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Added option to turn scramble keypad on and off in authentication menu."
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -206,6 +174,20 @@ function _createMdxContent(props) {
           children: ["Improved ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory"
           }), " synchronization performance."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: [(0,jsx_runtime.jsx)(Jira, {
+        num: "BE-3678"
+      }), " BS3, XS2 장치에서 PIN 입력용 숫자 키패드 옵션 설정"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
+      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "인증 메뉴에 스크램블 키패드를 켜고 끌 수 있는 옵션 추가"
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "Added option to turn scramble keypad on and off in authentication menu."
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -1422,6 +1404,28 @@ function _createMdxContent(props) {
       children: (0,jsx_runtime.jsx)(_components.code, {
         children: "제외"
       })
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: [(0,jsx_runtime.jsx)(Jira, {
+        num: "BE-3744"
+      }), " XS2-Q 모델에서 Camera QR 지원"]
+    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
+      children: (0,jsx_runtime.jsx)(_components.code, {
+        children: "제외 - 펌웨어 개발 미완"
+      })
+    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
+      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["X-Station 2 (XS2-QAPB, XS2-QDPB) 모델에서 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.useVisualBarcode"
+          }), " 기능 지원"]
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["Support for ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.useVisualBarcode"
+          }), " feature on X-Station 2 (XS2-QAPB, XS2-QDPB) models."]
+        }), "\n"]
+      }), "\n"]
     })]
   });
 }
