@@ -497,7 +497,11 @@ function settings_diretory_integration_createMdxContent(props) {
                 sid: "settings.activeDirectory.ClientID"
               }), ": ", (0,jsx_runtime.jsx)(_components.strong, {
                 children: "Entra ID"
-              }), "에서 등록한 애플리케이션의 클라이언트 아이디를 입력하세요."]
+              }), "에서 등록한 애플리케이션의 ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "클라이언트 아이디"
+              }), "(", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Client ID"
+              }), ")를 입력하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
