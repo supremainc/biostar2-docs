@@ -571,7 +571,8 @@ const DocuementButton = ()=>{
         window.print();
     };
     const curLocation = isClient ? window.location.href : '';
-    const target = `https://forms.office.com/Pages/ResponsePage.aspx?id=_bYDU8LVnkqxz7A7AWK9TZ3QlIh-_zNBvEgx2mDsll1UQjNOVDhQNEFHUjMyTUw4NUZWWktMTUwwTi4u&r41f093b8508c4bf1996887fab4eb1ad0=${curLocation}`;
+    const destURL = encodeURIComponent(curLocation);
+    const target = `https://forms.office.com/Pages/ResponsePage.aspx?id=_bYDU8LVnkqxz7A7AWK9TZ3QlIh-_zNBvEgx2mDsll1UQjNOVDhQNEFHUjMyTUw4NUZWWktMTUwwTi4u&r41f093b8508c4bf1996887fab4eb1ad0=${destURL}`;
     const popupWidth = 600;
     const popupHeight = 800;
     const browserWidth = isClient ? window.innerWidth : 0;
