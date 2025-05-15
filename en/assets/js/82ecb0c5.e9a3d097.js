@@ -192,6 +192,7 @@ function _sync_with_integ_createMdxContent(props) {
     admonition: "admonition",
     li: "li",
     p: "p",
+    strong: "strong",
     ul: "ul",
     ...(0,lib/* useMDXComponents */.a)(),
     ...props.components
@@ -237,7 +238,11 @@ function _sync_with_integ_createMdxContent(props) {
                 sid: "settings.activeDirectory.autosyncInterval"
               }), " 항목에 설정한 간격으로 ", (0,jsx_runtime.jsx)("strong", {
                 children: props.name
-              }), "에서 사용자 정보를 가져와 동기화합니다. 동기화 주기는 분 단위로 설정할 수 있습니다."]
+              }), "에서 사용자 정보를 가져와 동기화합니다. 동기화 간격은 분 단위로 설정할 수 있습니다. 최소 설정값은 ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "30"
+              }), "분, 최대 설정값은 ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "10,080"
+              }), "분(7일)입니다."]
             }), "\n", (0,jsx_runtime.jsx)(Image, {
               src: "/img/biostar2-setting-directory-sync-auto.png"
             }), "\n"]
