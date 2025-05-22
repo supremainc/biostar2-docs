@@ -28,7 +28,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 :::
 
-## Entra ID와 연동하기 {#sync-with-entraid}
+## Entra ID와 연동하기 {#intergrate-with-entraid}
 
 1. **BioStar 2**에 관리자 아이디로 로그인하세요.
 
@@ -89,11 +89,11 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 ### <Cmd sid='settings.activeDirectory.LogintitleEI' /> {#setssoEntraid}
 
-**Entra ID SSO**로 **BioStar 2**를 로그인하도록 설정하려면, <Cmd sid='settings.activeDirectory.LogintitleEI' /> 항목을 <Cmd sid='common.use' />으로 변경하세요.
+**Entra ID SSO**로 **BioStar 2**를 로그인하도록 설정하려면, <Cmd sid='settings.activeDirectory.LogintitleEI' /> 항목을 <Cmd sid='device.info.enabled' />으로 변경하세요.
 
 <Image src='/img/biostar2-setting-directory-login-with-entraid.png' />
 
-<Cmd sid='settings.activeDirectory.RedirectionUri' /> 항목의 리디렉션 주소를 복사(<Image src='/img/menus/ico-copy.png' ico />)하고, **Entra ID** 포털의 SSO 리디렉션 설정에 붙여넣으세요. 사용자가 **Entra ID**로 로그인에 성공하면 이 주소로 리디렉션됩니다.
+<Cmd sid='settings.activeDirectory.RedirectionUri' /> 항목의 리디렉션 주소를 복사(<Image src='/img/menus/ico-copy.png' ico alone />)하고, **Entra ID** 포털의 SSO 리디렉션 설정에 붙여넣으세요. 사용자가 **Entra ID**로 로그인에 성공하면 이 주소로 리디렉션됩니다.
 
 :::info
 
@@ -125,7 +125,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 :::
 
-## 액티브 디렉토리(Active Directory)와 연동하기 {#sync-with-active-directory}
+## 액티브 디렉토리(Active Directory)와 연동하기 {#integrate-with-active-directory}
 
 1. **BioStar 2**에 관리자 아이디로 로그인하세요.
 
@@ -141,7 +141,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 * Active Directory는 Widows Server 2008 R2 이상의 시스템 환경에서 사용할 수 있습니다.
 
-* Active Directory 서버를 사용하려면 <Cmd sid='common.setting' /> → <Cmd sid='setting.server' /> 메뉴의 <Cmd sid='setting.server.userDeviceManagement' /> 섹션에서 <Cmd sid='setting.userDevice.useridType' /> 항목을 <Cmd sid='setting.userDevice.useridType.alphanumeric' /> 로 설정해야 합니다.
+* Active Directory 서버를 사용하려면 <Cmd sid='common.setting' /> → <Cmd sid='setting.server' /> 메뉴에서 <Cmd sid='setting.userDevice.useridType' /> 항목을 <Cmd sid='setting.userDevice.useridType.alphanumeric' />로 설정해야 합니다.
 
 :::
 
@@ -159,7 +159,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 * <Cmd sid='settings.activeDirectory.UserName' />: Windows Active Directory 로그인 아이디를 입력하세요.
 
-* <Cmd sid='settings.activeDirectory.Password' />: Windows Active Directory 로그인 암호를 입력하세요.
+* <Cmd sid='settings.activeDirectory.Password' />: Windows Active Directory 로그인 비밀번호를 입력하세요.
 
 * <Cmd sid='settings.activeDirectory.DomainNode' />: Windows Active Directory 기본 도메인 이름을 입력하세요. 기본 도메인 이름은 아래 과정을 통해 확인할 수 있습니다.
 
@@ -174,7 +174,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 * <Cmd sid='settings.activeDirectory.secureTransfer' />: Windows Active Directory 서버와 통신할 때 암호화를 사용할 수 있습니다. Active Directory 인증서 서비스를 설치하고 <Cmd sid='settings.activeDirectory.keystorePassword' />를 설정하려면 [다음 문서](ad-encrypt)를 참고하세요.
 
-  * <Cmd sid='settings.activeDirectory.keystorePassword' />: Windows Active Directory 서버 암호화 키 저장소 비밀번호를 입력하세요. <Cmd sid='settings.activeDirectory.DomainNode' /> 항목을 <Cmd sid='common.use' />으로 설정하면 입력할 수 있습니다.
+  * <Cmd sid='settings.activeDirectory.keystorePassword' />: Windows Active Directory 서버 암호화 키 저장소 비밀번호를 입력하세요. <Cmd sid='settings.activeDirectory.secureTransfer' /> 항목을 <Cmd sid='device.info.enabled' />으로 설정하면 입력할 수 있습니다.
 
 </Step>
 
@@ -194,7 +194,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 ### <Cmd sid='settings.activeDirectory.LogintitleAD' /> {#setssoAD}
 
-Active Directory 서버의 사용자 아이디로 로그인하도록 설정하려면 <Cmd sid='settings.activeDirectory.LogintitleAD' /> 항목을 <Cmd sid='common.use' />으로 변경하세요. Active Directory 서버의 `sAMAccountName` 필드의 값이 BioStar 2 로그인 아이디로 맵핑됩니다.
+Active Directory 서버의 사용자 아이디로 로그인하도록 설정하려면 <Cmd sid='settings.activeDirectory.LogintitleAD' /> 항목을 <Cmd sid='device.info.enabled' />으로 변경하세요. Active Directory 서버의 `sAMAccountName` 필드의 값이 **BioStar 2** 로그인 아이디로 맵핑됩니다.
 
 <Image src='/img/biostar2-setting-directory-login-with-ad.png' />
 
@@ -230,7 +230,9 @@ Active Directory 서버의 사용자 아이디로 로그인하도록 설정하�
 
 ## 디렉토리 연동 제외하기 {#exclude-integration}
 
-동기화 기능을 통해 **Entra ID** 또는 **Active Directory**와 연동할 경우, 디렉토리 서비스에 존재하지 않는 사용자는 **BioStar 2**에서 삭제될 수 있습니다. 삭제되지 않길 원하는 사용자가 있다면 아래 방법을 통해 연동에서 제외할 수 있습니다.
+<Cmd sid='setting.activeDirectory.menu' /> 기능을 통해 **Entra ID** 또는 **Active Directory**와 연동할 경우, 디렉토리 서비스에 존재하지 않는 사용자는 **BioStar 2**에서 삭제될 수 있습니다. 삭제되지 않길 원하는 사용자가 있다면 아래 방법을 통해 연동에서 제외할 수 있습니다.
+
+1. **BioStar 2**에 관리자 아이디로 로그인하세요.
 
 1. <Cmd sid='common.user' /> 메뉴로 이동하세요.
 
@@ -242,10 +244,10 @@ Active Directory 서버의 사용자 아이디로 로그인하도록 설정하�
 
 1. <Cmd sid='button.apply' /> 버튼을 클릭하세요.
 
-선택한 사용자는 동기화 기능을 사용할 때 연동에서 제외됩니다.
+선택한 사용자는 <Cmd sid='setting.activeDirectory.menu' /> 기능을 사용할 때 연동에서 제외됩니다.
 
 
-## 디렉토리 연동 해제하기 {#unsetIntegration}
+## 디렉토리 연동 해제하기 {#disableIntegration}
 
 <Cmd sid='settings.activeDirectory.title' /> 기능을 해제하려면 다음 안내에 따라 진행하세요.
 
@@ -257,7 +259,7 @@ Active Directory 서버의 사용자 아이디로 로그인하도록 설정하�
 
     <Image src='/img/biostar2-setting-directory-unset.png' />
 
-1. <Cmd sid='modal.warningTitle' /> 메시지가 나타나면 <Cmd sid='button.continue' /> 버튼을 클릭하세요.
+1. <Cmd sid='alert.warning' /> 메시지가 나타나면 <Cmd sid='button.continue' /> 버튼을 클릭하세요.
 
     <Image src='/img/biostar2-setting-directory-unset-warn-message.png' />
 

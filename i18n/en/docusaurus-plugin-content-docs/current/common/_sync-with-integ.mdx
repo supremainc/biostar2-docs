@@ -1,0 +1,27 @@
+<Head level={3} hashid={props.hashid}><Cmd sid='settings.activeDirectory.SyncDataFromADServer' /></Head>
+
+This feature allows you to synchronize user information changed in <strong>{props.name}</strong>.
+
+* <Cmd sid='settings.activeDirectory.SyncDataFromADServer' />: You can select the desired synchronization method and set the synchronization interval.
+
+  * <Cmd sid='common.manual' />: Each time you click <Cmd sid='settings.activeDirectory.SyncNow' />, user information is retrieved and synchronized from <strong>{props.name}</strong>.
+
+    <Image src='/img/biostar2-setting-directory-sync-manual.png' />
+
+  * <Cmd sid='common.auto' />: User information is retrieved and synchronized from <strong>{props.name}</strong> at the interval set in the <Cmd sid='settings.activeDirectory.autosyncInterval' /> item. The synchronization interval can be set in minutes. The minimum value is **30** minutes, and the maximum value is **10,080** minutes (7 days).
+
+    <Image src='/img/biostar2-setting-directory-sync-auto.png' />
+
+* <Cmd sid='settings.activeDirectory.lastSynchronized' />: You can check the date and time of the most recent synchronization.
+
+:::info
+
+* When you click <Cmd sid='settings.activeDirectory.SyncNow' />, a warning message will appear. To continue, click <Cmd sid='button.continue' />. To cancel, click <Cmd sid='button.cancel' />.
+
+  <Image src='/img/biostar2-setting-directory-sync-warn-message.png' />
+
+  To exclude specific users from synchronization when using the integration feature, refer to the [following](#exclude-integration).
+
+* Even when the synchronization method is set to <Cmd sid='common.auto' />, you can synchronize immediately by clicking <Cmd sid='settings.activeDirectory.SyncNow' />.
+
+:::

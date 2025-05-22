@@ -35,8 +35,7 @@ const ReplacementLocaleText = ({ sid, code, className, children }) => {
     }
 
     if (!localeText) {
-      console.error(`Locale text not found for SID: ${sid}`);
-      return null;
+      return <span className={clsx('cmd', className)}>Error sid: {sid}</span>;;
     }
     return <span className={clsx('cmd', className)}>{localeText}</span>;
   } else if (code) {
