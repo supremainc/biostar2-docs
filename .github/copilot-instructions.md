@@ -10,6 +10,6 @@
 2. How-to guide
 3. Reference guide
 
-문서 작성 원칙은 가능한 마이크로소프의 스타일 가이드를 따르길 원합니다. 마이크로소프트의 스타일 가이드는 [여기](https://docs.microsoft.com/en-us/style-guide/welcome/)에서 확인할 수 있습니다.
+문서 작성 원칙은 가능한 마이크로소프트의 스타일 가이드를 따르길 원합니다. 마이크로소프트의 스타일 가이드는 [여기](https://docs.microsoft.com/en-us/style-guide/welcome/)에서 확인할 수 있습니다.
 
 필요시 문서 엔지니어링과 관련한 기술적인 역량을 요구할 수 있습니다: React, Javascript, Python 등(Javascript를 더 선호합니다.)
