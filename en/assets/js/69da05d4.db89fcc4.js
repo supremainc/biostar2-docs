@@ -79,7 +79,7 @@ function _createMdxContent(props) {
             src: "/img/menus/ico-search.png",
             ico: true,
             alone: true
-          }), " to search for the desired user group."]
+          }), " icon to search for the desired user group."]
         }), "\n"]
       }), "\n"]
     })]
@@ -518,7 +518,7 @@ function settings_diretory_integration_createMdxContent(props) {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.ClientSecret"
               }), ": Enter the ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "Client Secret"
+                children: "Client secret"
               }), " added in ", (0,jsx_runtime.jsx)(_components.strong, {
                 children: "Certificates & secrets"
               }), " of the application registered in ", (0,jsx_runtime.jsx)(_components.strong, {
@@ -1006,7 +1006,7 @@ function settings_diretory_integration_createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["When the ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "modal.warningTitle"
+            sid: "alert.warning"
           }), " message appears, click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.continue"
           }), "."]

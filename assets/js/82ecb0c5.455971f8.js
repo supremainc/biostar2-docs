@@ -1008,7 +1008,7 @@ function settings_diretory_integration_createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
-            sid: "modal.warningTitle"
+            sid: "alert.warning"
           }), " 메시지가 나타나면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.continue"
           }), " 버튼을 클릭하세요."]
