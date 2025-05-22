@@ -89,7 +89,7 @@ The <Cmd sid='device.info.enabledrId' /> field cannot be mapped when integrating
 
 ### <Cmd sid='settings.activeDirectory.LogintitleEI' /> {#setssoEntraid}
 
-Change the <Cmd sid='settings.activeDirectory.LogintitleEI' /> item to <Cmd sid='device.info.enabled' /> to enable login to  **BioStar 2** using **Entra ID SSO**.
+Change the <Cmd sid='settings.activeDirectory.LogintitleEI' /> to <Cmd sid='device.info.enabled' /> to enable login to  **BioStar 2** using **Entra ID SSO**.
 
 <Image src='/img/biostar2-setting-directory-login-with-entraid.png' />
 
@@ -174,7 +174,7 @@ Enter the server information for **Active Directory** and click <Cmd sid='settin
 
 * <Cmd sid='settings.activeDirectory.secureTransfer' />: You can use encryption when communicating with the Windows Active Directory server. To install the Active Directory Certificate Services and configure the <Cmd sid='settings.activeDirectory.keystorePassword' />, refer to the [following](ad-encrypt).
 
-  * <Cmd sid='settings.activeDirectory.keystorePassword' />: Enter the password for the encryption key store of the Windows Active Directory server. You can enter the password when the <Cmd sid='settings.activeDirectory.secureTransfer' /> item is set to <Cmd sid='device.info.enabled' />.
+  * <Cmd sid='settings.activeDirectory.keystorePassword' />: Enter the password for the encryption key store of the Windows Active Directory server. You can enter the password when the <Cmd sid='settings.activeDirectory.secureTransfer' /> is set to <Cmd sid='device.info.enabled' />.
 
 </Step>
 
@@ -192,9 +192,9 @@ Enter the server information for **Active Directory** and click <Cmd sid='settin
 
 <Step>
 
-### <Cmd sid='settings.activeDirectory.LogintitleAD' /> (SSO 설정) {#setssoAD}
+### <Cmd sid='settings.activeDirectory.LogintitleAD' /> {#setssoAD}
 
-To configure login to **BioStar 2** using the user ID of the Active Directory server, change the <Cmd sid='settings.activeDirectory.LogintitleAD' /> item to <Cmd sid='device.info.enabled' />. The value of the `sAMAccountName` field from the Active Directory server will be mapped to the **BioStar 2** login ID.
+To configure login to **BioStar 2** using the user ID of the Active Directory server, change the <Cmd sid='settings.activeDirectory.LogintitleAD' /> to <Cmd sid='device.info.enabled' />. The value of the `sAMAccountName` field from the Active Directory server will be mapped to the **BioStar 2** login ID.
 
 <Image src='/img/biostar2-setting-directory-login-with-ad.png' />
 
