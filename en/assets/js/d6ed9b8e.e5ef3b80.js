@@ -1,6 +1,6 @@
 "use strict";
-(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["7566"], {
-"7208": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["9268"], {
+"7051": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -8,31 +8,25 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_docs_update_299_how_to_use_cs_20_mdx_871_namespaceObject),
+  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_biostar_2_298_mdx_d6e_namespaceObject),
   assets: () => (/* binding */ assets),
   toc: () => (/* binding */ toc),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-299-how-to-use-cs-20-mdx-871.json
-var site_docs_update_299_how_to_use_cs_20_mdx_871_namespaceObject = JSON.parse('{"id":"update/299/how-to-use-cs20","title":"CoreStation 20 사용하기","description":"BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다.","source":"@site/docs/update/299/how-to-use-cs20.mdx","sourceDirName":"update/299","slug":"/update/299/how-to-use-cs20","permalink":"/biostar2-docs/en/update/299/how-to-use-cs20","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"how-to-use-cs20","title":"CoreStation 20 사용하기","description":"BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다.","keywords":["CoreStation 20","CS-20","CS-20P"],"isTranslationMissing":true},"sidebar":"biostar","previous":{"title":"2.9.9 버전 업데이트 안내","permalink":"/biostar2-docs/en/update/biostar2-299"},"next":{"title":"디렉토리 연동 설정하기","permalink":"/biostar2-docs/en/update/299/settings-diretory-integration"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-biostar-2-298-mdx-d6e.json
+var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_biostar_2_298_mdx_d6e_namespaceObject = JSON.parse('{"id":"update/biostar2-298","title":"Updates in BioStar 2 v2.9.8","description":"Introduces the updated features in BioStar version 2.9.8 and provides a guide for easy usage.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-298.mdx","sourceDirName":"update","slug":"/update/biostar2-298","permalink":"/biostar2-docs/en/update/biostar2-298","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"biostar2-298","title":"Updates in BioStar 2 v2.9.8","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Directory Integration Settings","permalink":"/biostar2-docs/en/update/299/settings-diretory-integration"},"next":{"title":"Setting Denial of Authentication When Wearing a Mask","permalink":"/biostar2-docs/en/update/298/deny-access-when-wearing-mask"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__("65");
-;// CONCATENATED MODULE: ./docs/update/299/how-to-use-cs20.mdx
+;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-298.mdx
 
 
 const frontMatter = {
-	id: 'how-to-use-cs20',
-	title: 'CoreStation 20 사용하기',
-	description: 'BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다.',
-	keywords: [
-		'CoreStation 20',
-		'CS-20',
-		'CS-20P'
-	],
-	isTranslationMissing: true
+	id: 'biostar2-298',
+	title: 'Updates in BioStar 2 v2.9.8',
+	isTranslationMissing: false
 };
 const contentTitle = undefined;
 
@@ -44,7 +38,17 @@ const assets = {
 
 const toc = [];
 function _createMdxContent(props) {
-  return (0,jsx_runtime.jsx)(jsx_runtime.Fragment, {});
+  const _components = {
+    p: "p",
+    ...(0,lib/* useMDXComponents */.a)(),
+    ...props.components
+  }, {DocCardList} = _components;
+  if (!DocCardList) _missingMdxReference("DocCardList", true);
+  return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
+    children: [(0,jsx_runtime.jsx)(_components.p, {
+      children: "Introduces the updated features in BioStar version 2.9.8 and provides a guide for easy usage."
+    }), "\n", (0,jsx_runtime.jsx)(DocCardList, {})]
+  });
 }
 function MDXContent(props = {}) {
   const {wrapper: MDXLayout} = {
@@ -57,6 +61,9 @@ function MDXContent(props = {}) {
       ...props
     })
   }) : _createMdxContent(props);
+}
+function _missingMdxReference(id, component) {
+  throw new Error("Expected " + (component ? "component" : "object") + " `" + id + "` to be defined: you likely forgot to import, pass, or provide it.");
 }
 
 

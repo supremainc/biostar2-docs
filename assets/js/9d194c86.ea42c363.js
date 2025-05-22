@@ -78,7 +78,7 @@ function _createMdxContent(props) {
             children: "서버 관리자"
           }), "를 실행한 뒤 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "관리"
-          }), " > ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), " → ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "역할 및 기능 추가"
           }), "를 클릭하세요."]
         }), "\n"]

@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-299-settings-diretory-integration-mdx-82e.json
-var site_docs_update_299_settings_diretory_integration_mdx_82e_namespaceObject = JSON.parse('{"id":"update/299/settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","source":"@site/docs/update/299/settings-diretory-integration.mdx","sourceDirName":"update/299","slug":"/update/299/settings-diretory-integration","permalink":"/biostar2-docs/en/update/299/settings-diretory-integration","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","isTranslationMissing":true},"sidebar":"biostar","previous":{"title":"CoreStation 20 사용하기","permalink":"/biostar2-docs/en/update/299/how-to-use-cs20"},"next":{"title":"Updates in BioStar 2 v2.9.8","permalink":"/biostar2-docs/en/update/biostar2-298"}}')
+var site_docs_update_299_settings_diretory_integration_mdx_82e_namespaceObject = JSON.parse('{"id":"update/299/settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","source":"@site/docs/update/299/settings-diretory-integration.mdx","sourceDirName":"update/299","slug":"/update/299/settings-diretory-integration","permalink":"/biostar2-docs/update/299/settings-diretory-integration","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"CoreStation 20 사용하기","permalink":"/biostar2-docs/update/299/how-to-use-cs20"},"next":{"title":"2.9.8 버전 업데이트 안내","permalink":"/biostar2-docs/update/biostar2-298"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -75,7 +75,8 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Image, {
             src: "/img/menus/ico-search.png",
-            ico: true
+            ico: true,
+            alone: true
           }), " 버튼을 클릭해 원하는 사용자 그룹을 검색할 수 있습니다."]
         }), "\n"]
       }), "\n"]
@@ -312,7 +313,7 @@ const settings_diretory_integration_frontMatter = {
 	id: 'settings-diretory-integration',
 	title: '디렉토리 연동 설정하기',
 	description: 'Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.',
-	isTranslationMissing: true
+	isTranslationMissing: false
 };
 const settings_diretory_integration_contentTitle = undefined;
 
@@ -327,11 +328,11 @@ const assets = {
 
 const settings_diretory_integration_toc = [{
   "value": "Entra ID와 연동하기",
-  "id": "sync-with-entraid",
+  "id": "intergrate-with-entraid",
   "level": 2
 }, ...toc, ..._usercustomfield_toc, ..._sync_with_integ_toc, {
   "value": "액티브 디렉토리(Active Directory)와 연동하기",
-  "id": "sync-with-active-directory",
+  "id": "integrate-with-active-directory",
   "level": 2
 }, ...toc, ..._usercustomfield_toc, ..._sync_with_integ_toc, {
   "value": "설정 결과 확인하기",
@@ -343,7 +344,7 @@ const settings_diretory_integration_toc = [{
   "level": 2
 }, {
   "value": "디렉토리 연동 해제하기",
-  "id": "unsetIntegration",
+  "id": "disableIntegration",
   "level": 2
 }];
 function settings_diretory_integration_createMdxContent(props) {
@@ -446,7 +447,7 @@ function settings_diretory_integration_createMdxContent(props) {
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "sync-with-entraid",
+      id: "intergrate-with-entraid",
       children: "Entra ID와 연동하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -591,9 +592,9 @@ function settings_diretory_integration_createMdxContent(props) {
             children: [(0,jsx_runtime.jsx)(_components.strong, {
               children: "Entra ID"
             }), "와 연동할 때 ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.userId"
+              sid: "device.info.enabledrId"
             }), " 필드는 맵핑할 수 없습니다. ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.userId"
+              sid: "device.info.enabledrId"
             }), "는 ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "BioStar 2"
             }), "에서 자동 생성하여 적용합니다."]
@@ -613,7 +614,7 @@ function settings_diretory_integration_createMdxContent(props) {
           }), "를 로그인하도록 설정하려면, ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.LogintitleEI"
           }), " 항목을 ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.use"
+            sid: "device.info.enabled"
           }), "으로 변경하세요."]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-login-with-entraid.png"
@@ -622,7 +623,8 @@ function settings_diretory_integration_createMdxContent(props) {
             sid: "settings.activeDirectory.RedirectionUri"
           }), " 항목의 리디렉션 주소를 복사(", (0,jsx_runtime.jsx)(Image, {
             src: "/img/menus/ico-copy.png",
-            ico: true
+            ico: true,
+            alone: true
           }), ")하고, ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID"
           }), " 포털의 SSO 리디렉션 설정에 붙여넣으세요. 사용자가 ", (0,jsx_runtime.jsx)(_components.strong, {
@@ -687,7 +689,7 @@ function settings_diretory_integration_createMdxContent(props) {
         src: "/img/biostar2-setting-directory-btn-apply.png"
       })]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "sync-with-active-directory",
+      id: "integrate-with-active-directory",
       children: "액티브 디렉토리(Active Directory)와 연동하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -829,9 +831,9 @@ function settings_diretory_integration_createMdxContent(props) {
                 children: [(0,jsx_runtime.jsx)(Cmd, {
                   sid: "settings.activeDirectory.keystorePassword"
                 }), ": Windows Active Directory 서버 암호화 키 저장소 비밀번호를 입력하세요. ", (0,jsx_runtime.jsx)(Cmd, {
-                  sid: "settings.activeDirectory.DomainNode"
+                  sid: "settings.activeDirectory.secureTransfer"
                 }), " 항목을 ", (0,jsx_runtime.jsx)(Cmd, {
-                  sid: "common.use"
+                  sid: "device.info.enabled"
                 }), "으로 설정하면 입력할 수 있습니다."]
               }), "\n"]
             }), "\n"]
@@ -860,10 +862,12 @@ function settings_diretory_integration_createMdxContent(props) {
           children: ["Active Directory 서버의 사용자 아이디로 로그인하도록 설정하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.LogintitleAD"
           }), " 항목을 ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.use"
+            sid: "device.info.enabled"
           }), "으로 변경하세요. Active Directory 서버의 ", (0,jsx_runtime.jsx)(_components.code, {
             children: "sAMAccountName"
-          }), " 필드의 값이 BioStar 2 로그인 아이디로 맵핑됩니다."]
+          }), " 필드의 값이 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "BioStar 2"
+          }), " 로그인 아이디로 맵핑됩니다."]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-login-with-ad.png"
         })]
@@ -922,7 +926,9 @@ function settings_diretory_integration_createMdxContent(props) {
       id: "exclude-integration",
       children: "디렉토리 연동 제외하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["동기화 기능을 통해 ", (0,jsx_runtime.jsx)(_components.strong, {
+      children: [(0,jsx_runtime.jsx)(Cmd, {
+        sid: "setting.activeDirectory.menu"
+      }), " 기능을 통해 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Entra ID"
       }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Active Directory"
@@ -959,10 +965,12 @@ function settings_diretory_integration_createMdxContent(props) {
           }), " 버튼을 클릭하세요."]
         }), "\n"]
       }), "\n"]
-    }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "선택한 사용자는 동기화 기능을 사용할 때 연동에서 제외됩니다."
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["선택한 사용자는 ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "setting.activeDirectory.menu"
+      }), " 기능을 사용할 때 연동에서 제외됩니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "unsetIntegration",
+      id: "disableIntegration",
       children: "디렉토리 연동 해제하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(Cmd, {
