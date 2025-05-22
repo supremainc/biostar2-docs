@@ -340,11 +340,7 @@ const settings_diretory_integration_toc = [{
   "value": "Integrate with Active Directory",
   "id": "integrate-with-active-directory",
   "level": 2
-}, ...toc, ..._usercustomfield_toc, {
-  "value": "<Cmd></Cmd> (SSO 설정)",
-  "id": "setssoAD",
-  "level": 3
-}, ..._sync_with_integ_toc, {
+}, ...toc, ..._usercustomfield_toc, ..._sync_with_integ_toc, {
   "value": "Check the settings results",
   "id": "checksettings",
   "level": 2
@@ -609,7 +605,7 @@ function settings_diretory_integration_createMdxContent(props) {
         }), (0,jsx_runtime.jsxs)(_components.p, {
           children: ["Change the ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.LogintitleEI"
-          }), " item to ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " to ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.enabled"
           }), " to enable login to  ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
@@ -828,7 +824,7 @@ function settings_diretory_integration_createMdxContent(props) {
                   sid: "settings.activeDirectory.keystorePassword"
                 }), ": Enter the password for the encryption key store of the Windows Active Directory server. You can enter the password when the ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "settings.activeDirectory.secureTransfer"
-                }), " item is set to ", (0,jsx_runtime.jsx)(Cmd, {
+                }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "device.info.enabled"
                 }), "."]
               }), "\n"]
@@ -849,17 +845,17 @@ function settings_diretory_integration_createMdxContent(props) {
           sid: "settings.activeDirectory.FieldNameAD"
         })
       }), (0,jsx_runtime.jsxs)(Step, {
-        children: [(0,jsx_runtime.jsxs)(_components.h3, {
+        children: [(0,jsx_runtime.jsx)(_components.h3, {
           id: "setssoAD",
-          children: [(0,jsx_runtime.jsx)(Cmd, {
+          children: (0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.LogintitleAD"
-          }), " (SSO 설정)"]
+          })
         }), (0,jsx_runtime.jsxs)(_components.p, {
           children: ["To configure login to ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
           }), " using the user ID of the Active Directory server, change the ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.LogintitleAD"
-          }), " item to ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " to ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.enabled"
           }), ". The value of the ", (0,jsx_runtime.jsx)(_components.code, {
             children: "sAMAccountName"
