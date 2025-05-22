@@ -1,6 +1,6 @@
 "use strict";
-(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["2116"], {
-"5128": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["202"], {
+"1942": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -8,19 +8,19 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ settings_diretory_integration_MDXContent),
   frontMatter: () => (/* binding */ settings_diretory_integration_frontMatter),
-  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_299_settings_diretory_integration_mdx_69d_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_update_299_settings_diretory_integration_mdx_82e_namespaceObject),
   assets: () => (/* binding */ assets),
   toc: () => (/* binding */ settings_diretory_integration_toc),
   contentTitle: () => (/* binding */ settings_diretory_integration_contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-299-settings-diretory-integration-mdx-69d.json
-var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_299_settings_diretory_integration_mdx_69d_namespaceObject = JSON.parse('{"id":"update/299/settings-diretory-integration","title":"Directory Integration Settings","description":"This document provides guidance on synchronizing and managing users by integrating Microsoft Entra ID or Active Directory with BioStar 2.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/299/settings-diretory-integration.mdx","sourceDirName":"update/299","slug":"/update/299/settings-diretory-integration","permalink":"/biostar2-docs/en/update/299/settings-diretory-integration","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"settings-diretory-integration","title":"Directory Integration Settings","description":"This document provides guidance on synchronizing and managing users by integrating Microsoft Entra ID or Active Directory with BioStar 2.","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"CoreStation 20 사용하기","permalink":"/biostar2-docs/en/update/299/how-to-use-cs20"},"next":{"title":"Updates in BioStar 2 v2.9.8","permalink":"/biostar2-docs/en/update/biostar2-298"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-299-settings-diretory-integration-mdx-82e.json
+var site_docs_update_299_settings_diretory_integration_mdx_82e_namespaceObject = JSON.parse('{"id":"update/299/settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","source":"@site/docs/update/299/settings-diretory-integration.mdx","sourceDirName":"update/299","slug":"/update/299/settings-diretory-integration","permalink":"/biostar2-docs/update/299/settings-diretory-integration","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"settings-diretory-integration","title":"디렉토리 연동 설정하기","description":"Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"CoreStation 20 사용하기","permalink":"/biostar2-docs/update/299/how-to-use-cs20"},"next":{"title":"2.9.8 버전 업데이트 안내","permalink":"/biostar2-docs/update/biostar2-298"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__("65");
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/common/_usergroupfilter.mdx
+;// CONCATENATED MODULE: ./docs/common/_usergroupfilter.mdx
 
 
 const frontMatter = (/* unused pure expression or super */ null && ({}));
@@ -51,19 +51,17 @@ function _createMdxContent(props) {
         sid: "settings.activeDirectory.userGroup"
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["After completing the settings in ", (0,jsx_runtime.jsx)(Cmd, {
+      children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "settings.activeDirectory.ADServerConfiguration"
-      }), " and clicking ", (0,jsx_runtime.jsx)(Cmd, {
+      }), " 섹션에서 설정을 완료하고 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "settings.activeDirectory.Connect"
-      }), ", user group information from ", (0,jsx_runtime.jsx)("strong", {
-        children: props.name
-      }), " will be retrieved in ", (0,jsx_runtime.jsx)(Cmd, {
+      }), " 버튼을 클릭하면, ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "settings.activeDirectory.userGroup"
-      }), "."]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Deselect any user groups that you do not want to synchronize with ", (0,jsx_runtime.jsx)(_components.strong, {
+      }), " 섹션에 ", (0,jsx_runtime.jsx)("strong", {
+        children: props.name
+      }), "로부터 사용자 그룹 정보를 가져옵니다. ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "BioStar 2"
-      }), "."]
+      }), "에 동기화하지 않을 사용자 그룹을 선택 해제하세요."]
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/biostar2-setting-directory-usergroup-filter.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
@@ -71,15 +69,15 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.Refresh"
-          }), ": Click to refresh the user group information."]
+          }), ": 사용자 그룹 정보를 새로 불러오려면 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click the ", (0,jsx_runtime.jsx)(Image, {
+          children: [(0,jsx_runtime.jsx)(Image, {
             src: "/img/menus/ico-search.png",
             ico: true,
             alone: true
-          }), " to search for the desired user group."]
+          }), " 버튼을 클릭해 원하는 사용자 그룹을 검색할 수 있습니다."]
         }), "\n"]
       }), "\n"]
     })]
@@ -102,7 +100,7 @@ function _missingMdxReference(id, component) {
 }
 
 
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/common/_usercustomfield.mdx
+;// CONCATENATED MODULE: ./docs/common/_usercustomfield.mdx
 
 
 const _usercustomfield_frontMatter = (/* unused pure expression or super */ null && ({}));
@@ -132,33 +130,29 @@ function _usercustomfield_createMdxContent(props) {
         sid: "settings.activeDirectory.FieldConfiguration"
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["You can configure the ", (0,jsx_runtime.jsx)("strong", {
-        children: props.name
-      }), " field to be mapped with the user field of ", (0,jsx_runtime.jsx)(_components.strong, {
+      children: [(0,jsx_runtime.jsx)(_components.strong, {
         children: "BioStar 2"
-      }), "."]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Select the field of ", (0,jsx_runtime.jsx)("strong", {
+      }), "의 사용자 필드와 맵핑할 ", (0,jsx_runtime.jsx)("strong", {
         children: props.name
-      }), " to use as the user field of ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "BioStar 2"
-      }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+      }), " 필드를 설정할 수 있습니다. ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "settings.activeDirectory.FieldConfiguration"
-      }), "."]
+      }), " 섹션에서 ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "BioStar 2"
+      }), "의 사용자 필드로 사용할 ", (0,jsx_runtime.jsx)("strong", {
+        children: props.name
+      }), "의 필드를 선택하세요."]
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: `/img/${props.img01}`
     }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
       type: "info",
       children: [(0,jsx_runtime.jsxs)(_components.p, {
-        children: ["Each user field of ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: [(0,jsx_runtime.jsx)(_components.strong, {
           children: "BioStar 2"
-        }), " is set by default to map to the corresponding user information in ", (0,jsx_runtime.jsx)("strong", {
+        }), "의 각 사용자 필드는 ", (0,jsx_runtime.jsx)("strong", {
           children: props.name
-        }), "."]
-      }), (0,jsx_runtime.jsxs)(_components.p, {
-        children: ["To select a field value other than the default, click the item in ", (0,jsx_runtime.jsx)(Cmd, {
+        }), "의 사용자 정보와 일치하는 항목을 맵핑할 수 있도록 기본 설정되어 있습니다. 기본 설정된 필드값이 아닌 다른 필드값을 선택하려면 ", (0,jsx_runtime.jsx)(Cmd, {
           sid: props.sid
-        }), " and select the desired field value."]
+        }), " 열의 항목을 클릭하고 원하는 필드값을 선택하세요."]
       }), (0,jsx_runtime.jsx)(Image, {
         src: `/img/${props.img02}`
       })]
@@ -182,7 +176,7 @@ function _usercustomfield_missingMdxReference(id, component) {
 }
 
 
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/common/_sync-with-integ.mdx
+;// CONCATENATED MODULE: ./docs/common/_sync-with-integ.mdx
 
 
 const _sync_with_integ_frontMatter = (/* unused pure expression or super */ null && ({}));
@@ -215,25 +209,25 @@ function _sync_with_integ_createMdxContent(props) {
         sid: "settings.activeDirectory.SyncDataFromADServer"
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["This feature allows you to synchronize user information changed in ", (0,jsx_runtime.jsx)("strong", {
+      children: [(0,jsx_runtime.jsx)("strong", {
         children: props.name
-      }), "."]
+      }), "에서 변경된 사용자 정보를 동기화할 수 있는 기능입니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.SyncDataFromADServer"
-          }), ": You can select the desired synchronization method and set the synchronization interval."]
+          }), ": 원하는 동기화 방식을 선택하고 동기화 간격을 설정할 수 있습니다."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.manual"
-              }), ": Each time you click ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.SyncNow"
-              }), ", user information is retrieved and synchronized from ", (0,jsx_runtime.jsx)("strong", {
+              }), " 버튼을 클릭할 때마다 ", (0,jsx_runtime.jsx)("strong", {
                 children: props.name
-              }), "."]
+              }), "에서 사용자 정보를 가져와 동기화합니다."]
             }), "\n", (0,jsx_runtime.jsx)(Image, {
               src: "/img/biostar2-setting-directory-sync-manual.png"
             }), "\n"]
@@ -241,15 +235,15 @@ function _sync_with_integ_createMdxContent(props) {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.auto"
-              }), ": User information is retrieved and synchronized from ", (0,jsx_runtime.jsx)("strong", {
-                children: props.name
-              }), " at the interval set in the ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.autosyncInterval"
-              }), " item. The synchronization interval can be set in minutes. The minimum value is ", (0,jsx_runtime.jsx)(_components.strong, {
+              }), " 항목에 설정한 간격으로 ", (0,jsx_runtime.jsx)("strong", {
+                children: props.name
+              }), "에서 사용자 정보를 가져와 동기화합니다. 동기화 간격은 분 단위로 설정할 수 있습니다. 최소 설정값은 ", (0,jsx_runtime.jsx)(_components.strong, {
                 children: "30"
-              }), " minutes, and the maximum value is ", (0,jsx_runtime.jsx)(_components.strong, {
+              }), "분, 최대 설정값은 ", (0,jsx_runtime.jsx)(_components.strong, {
                 children: "10,080"
-              }), " minutes (7 days)."]
+              }), "분(7일)입니다."]
             }), "\n", (0,jsx_runtime.jsx)(Image, {
               src: "/img/biostar2-setting-directory-sync-auto.png"
             }), "\n"]
@@ -259,7 +253,7 @@ function _sync_with_integ_createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.lastSynchronized"
-          }), ": You can check the date and time of the most recent synchronization."]
+          }), ": 가장 최근에 동기화한 날짜와 시간을 확인할 수 있습니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -267,28 +261,28 @@ function _sync_with_integ_createMdxContent(props) {
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["When you click ", (0,jsx_runtime.jsx)(Cmd, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "settings.activeDirectory.SyncNow"
-            }), ", a warning message will appear. To continue, click ", (0,jsx_runtime.jsx)(Cmd, {
+            }), " 버튼을 클릭하면 경고 메시지가 나타납니다. 메시지를 확인하고 계속하려면 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "button.continue"
-            }), ". To cancel, click ", (0,jsx_runtime.jsx)(Cmd, {
+            }), " 버튼을 취소하려면 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "button.cancel"
-            }), "."]
+            }), " 버튼을 클릭하세요."]
           }), "\n", (0,jsx_runtime.jsx)(Image, {
             src: "/img/biostar2-setting-directory-sync-warn-message.png"
           }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["To exclude specific users from synchronization when using the integration feature, refer to the ", (0,jsx_runtime.jsx)(_components.a, {
+            children: ["동기화 기능을 통해 연동할 때 특정 사용자를 동기화에서 제외하려면 ", (0,jsx_runtime.jsx)(_components.a, {
               href: "#exclude-integration",
-              children: "following"
-            }), "."]
+              children: "다음 문서"
+            }), "를 참고하세요."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Even when the synchronization method is set to ", (0,jsx_runtime.jsx)(Cmd, {
+            children: ["동기화 방식이 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.auto"
-            }), ", you can synchronize immediately by clicking ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "인 상태에서도 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "settings.activeDirectory.SyncNow"
-            }), "."]
+            }), " 버튼을 클릭하면 즉시 동기화할 수 있습니다."]
           }), "\n"]
         }), "\n"]
       })
@@ -312,13 +306,13 @@ function _sync_with_integ_missingMdxReference(id, component) {
 }
 
 
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/299/settings-diretory-integration.mdx
+;// CONCATENATED MODULE: ./docs/update/299/settings-diretory-integration.mdx
 
 
 const settings_diretory_integration_frontMatter = {
 	id: 'settings-diretory-integration',
-	title: 'Directory Integration Settings',
-	description: 'This document provides guidance on synchronizing and managing users by integrating Microsoft Entra ID or Active Directory with BioStar 2.',
+	title: '디렉토리 연동 설정하기',
+	description: 'Microsoft Entra ID와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다.',
 	isTranslationMissing: false
 };
 const settings_diretory_integration_contentTitle = undefined;
@@ -333,23 +327,23 @@ const assets = {
 
 
 const settings_diretory_integration_toc = [{
-  "value": "Integrate with Entra ID",
+  "value": "Entra ID와 연동하기",
   "id": "intergrate-with-entraid",
   "level": 2
 }, ...toc, ..._usercustomfield_toc, ..._sync_with_integ_toc, {
-  "value": "Integrate with Active Directory",
+  "value": "액티브 디렉토리(Active Directory)와 연동하기",
   "id": "integrate-with-active-directory",
   "level": 2
 }, ...toc, ..._usercustomfield_toc, ..._sync_with_integ_toc, {
-  "value": "Check the settings results",
+  "value": "설정 결과 확인하기",
   "id": "checksettings",
   "level": 2
 }, {
-  "value": "Exclude the directory integration",
+  "value": "디렉토리 연동 제외하기",
   "id": "exclude-integration",
   "level": 2
 }, {
-  "value": "Disable the directory integration",
+  "value": "디렉토리 연동 해제하기",
   "id": "disableIntegration",
   "level": 2
 }];
@@ -374,59 +368,59 @@ function settings_diretory_integration_createMdxContent(props) {
   if (!Steps) settings_diretory_integration_missingMdxReference("Steps", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsxs)(_components.p, {
-      children: ["This document provides guidance on how to synchronize and manage users by integrating ", (0,jsx_runtime.jsx)(_components.strong, {
+      children: [(0,jsx_runtime.jsx)(_components.strong, {
         children: "Microsoft Entra ID"
-      }), " (hereafter ", (0,jsx_runtime.jsx)(_components.strong, {
+      }), "(이하 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Entra ID"
-      }), ") or ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "Active Directory"
-      }), " with ", (0,jsx_runtime.jsx)(_components.strong, {
+      }), ") 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "액티브 디렉토리"
+      }), "(Active Directory)와 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "BioStar 2"
-      }), "."]
+      }), "를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Integrating with ", (0,jsx_runtime.jsx)(_components.strong, {
+      children: [(0,jsx_runtime.jsx)(_components.strong, {
         children: "Entra ID"
-      }), " or ", (0,jsx_runtime.jsx)(_components.strong, {
+      }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Active Directory"
-      }), " provides the following convenient features, enhancing both security and usability."]
+      }), "와 연동하면 아래의 편의 기능을 사용할 수 있습니다. 이를 통해 보안과 편의성을 높일 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["You can log in to ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
+            children: "Entra ID"
+          }), "에서 제공하는 Single Sign-On(SSO) 기능을 통해 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Entra ID"
+          }), " 계정으로 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
-          }), " using your ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Entra ID"
-          }), " account via Single Sign-On (SSO) provided by ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Entra ID"
-          }), "."]
+          }), "에 로그인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["You can log in to ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), " using Lightweight Directory Access Protocol (LDAP) authentication provided by ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "Active Directory"
-          }), "."]
+          }), "에서 제공하는 Lightweight Directory Access Protocol(LDAP) 인증을 통해 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "BioStar 2"
+          }), "에 로그인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Users and groups configured in ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID"
-          }), " or ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Active Directory"
-          }), " can be synchronized with ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), "에서 구성한 사용자 및 그룹을 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
-          }), "."]
+          }), "와 동기화할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["User information such as title, department, and group used in ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID"
-          }), " or ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Active Directory"
-          }), " can be mapped to custom fields in ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), "에서 사용되는 직함과 부서, 그룹 등의 사용자 정보를 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
-          }), "."]
+          }), "의 사용자 정의 필드와 맵핑할 수 있습니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -434,55 +428,55 @@ function settings_diretory_integration_createMdxContent(props) {
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["The ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
               children: "Entra ID"
-            }), " or ", (0,jsx_runtime.jsx)(_components.strong, {
+            }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "Active Directory"
-            }), " integration setting is available when the ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "Advance"
-            }), " license is activated."]
+            }), " 설정 기능은 ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "어드밴스"
+            }), "(Advance) 라이선스를 활성화했을 때 사용할 수 있습니다."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["The ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
               children: "Entra ID"
-            }), " integration setting is available in ", (0,jsx_runtime.jsx)(_components.strong, {
+            }), " 연동 기능은 ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "BioStar 2.9.9"
-            }), " or later."]
+            }), " 버전 이상에서 사용할 수 있습니다."]
           }), "\n"]
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "intergrate-with-entraid",
-      children: "Integrate with Entra ID"
+      children: "Entra ID와 연동하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Log in to ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
-          }), " with an administrator account."]
+          }), "에 관리자 아이디로 로그인하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.activeDirectory.menu"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Select ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "settings.activeDirectory.AdServerNew"
-          }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.title"
-          }), "."]
+          }), " 항목에서 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "settings.activeDirectory.AdServerNew"
+          }), "를 선택하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-integ-entraid.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Set each item as instructed below."
+          children: "다음 안내에 따라 각 항목을 설정하세요."
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(Steps, {
@@ -493,13 +487,13 @@ function settings_diretory_integration_createMdxContent(props) {
             sid: "settings.activeDirectory.ADServerConfiguration"
           })
         }), (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Enter the server information for ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Entra ID"
-          }), " and click ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "settings.activeDirectory.Connect"
-          }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.ADServerConfiguration"
-          }), "."]
+          }), " 섹션에서 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Entra ID"
+          }), "의 서버 정보를 입력하고 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "settings.activeDirectory.Connect"
+          }), " 버튼을 클릭하세요."]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-server.png"
         }), (0,jsx_runtime.jsxs)(_components.ul, {
@@ -507,33 +501,39 @@ function settings_diretory_integration_createMdxContent(props) {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.ClientID"
-              }), ": Enter the ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "Client ID"
-              }), " of the application registered in ", (0,jsx_runtime.jsx)(_components.strong, {
+              }), ": ", (0,jsx_runtime.jsx)(_components.strong, {
                 children: "Entra ID"
-              }), "."]
+              }), "에서 등록한 애플리케이션의 ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "클라이언트 아이디"
+              }), "(", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Client ID"
+              }), ")를 입력하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.ClientSecret"
-              }), ": Enter the ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "Client Secret"
-              }), " added in ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "Certificates & secrets"
-              }), " of the application registered in ", (0,jsx_runtime.jsx)(_components.strong, {
+              }), ": ", (0,jsx_runtime.jsx)(_components.strong, {
                 children: "Entra ID"
-              }), "."]
+              }), "에서 등록한 애플리케이션의 ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "인증서 및 암호"
+              }), "(", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Certificates & secrets"
+              }), ")에 추가한 ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "클라이언트 암호"
+              }), "(", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Client secrets"
+              }), ")를 입력하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.PrimaryDomain"
-              }), ": Enter the ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "Directory (Tenant) ID"
-              }), " of the application registered in ", (0,jsx_runtime.jsx)(_components.strong, {
+              }), ": ", (0,jsx_runtime.jsx)(_components.strong, {
                 children: "Entra ID"
-              }), "."]
+              }), "에서 등록한 애플리케이션의 ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "디렉토리(테넌트) ID"
+              }), "를 입력하세요."]
             }), "\n"]
           }), "\n"]
         }), (0,jsx_runtime.jsx)(_components.admonition, {
@@ -541,33 +541,35 @@ function settings_diretory_integration_createMdxContent(props) {
           children: (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["For more information on registering an application in ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: [(0,jsx_runtime.jsx)(_components.strong, {
                   children: "Entra ID"
-                }), ", refer to the ", (0,jsx_runtime.jsx)(_components.a, {
+                }), "에서 애플리케이션을 등록하는 방법은 ", (0,jsx_runtime.jsx)(_components.a, {
                   href: "https://learn.microsoft.com/entra/identity-platform/quickstart-register-app",
-                  children: "following link"
-                }), "."]
-              }), "\n"]
-            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["For more information on configuring ", (0,jsx_runtime.jsx)(_components.strong, {
-                  children: "Certificates & secrets"
-                }), " in ", (0,jsx_runtime.jsx)(_components.strong, {
-                  children: "Entra ID"
-                }), ", refer to the ", (0,jsx_runtime.jsx)(_components.a, {
-                  href: "https://learn.microsoft.com/entra/identity-platform/how-to-add-credentials?tabs=client-secret",
-                  children: "following link"
-                }), "."]
+                  children: "다음 링크"
+                }), "를 참고하세요."]
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
                 children: [(0,jsx_runtime.jsx)(_components.strong, {
-                  children: "Tenant ID"
-                }), " can be found in the ", (0,jsx_runtime.jsx)(_components.strong, {
-                  children: "Overview"
-                }), " of the registered application in ", (0,jsx_runtime.jsx)(_components.strong, {
                   children: "Entra ID"
-                }), "."]
+                }), "에서 ", (0,jsx_runtime.jsx)(_components.strong, {
+                  children: "인증서 및 암호"
+                }), " 설정 방법은 ", (0,jsx_runtime.jsx)(_components.a, {
+                  href: "https://learn.microsoft.com/entra/identity-platform/how-to-add-credentials?tabs=client-secret",
+                  children: "다음 링크"
+                }), "를 참고하세요."]
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(_components.strong, {
+                  children: "테넌트 ID"
+                }), "는 ", (0,jsx_runtime.jsx)(_components.strong, {
+                  children: "Entra ID"
+                }), "에서 등록한 애플리케이션의 ", (0,jsx_runtime.jsx)(_components.strong, {
+                  children: "개요"
+                }), "(", (0,jsx_runtime.jsx)(_components.strong, {
+                  children: "Overview"
+                }), ")에서 확인할 수 있습니다."]
               }), "\n"]
             }), "\n"]
           })
@@ -587,13 +589,15 @@ function settings_diretory_integration_createMdxContent(props) {
         }), (0,jsx_runtime.jsx)(_components.admonition, {
           type: "caution",
           children: (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["The ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "device.info.enabledrId"
-            }), " field cannot be mapped when integrating with ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
               children: "Entra ID"
-            }), ". It is automatically generated and applied by ", (0,jsx_runtime.jsx)(_components.strong, {
+            }), "와 연동할 때 ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "common.userId"
+            }), " 필드는 맵핑할 수 없습니다. ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "common.userId"
+            }), "는 ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "BioStar 2"
-            }), "."]
+            }), "에서 자동 생성하여 적용합니다."]
           })
         })]
       }), (0,jsx_runtime.jsxs)(Step, {
@@ -603,61 +607,63 @@ function settings_diretory_integration_createMdxContent(props) {
             sid: "settings.activeDirectory.LogintitleEI"
           })
         }), (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Change the ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "settings.activeDirectory.LogintitleEI"
-          }), " to ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "device.info.enabled"
-          }), " to enable login to  ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), " using ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID SSO"
-          }), "."]
+          }), "로 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "BioStar 2"
+          }), "를 로그인하도록 설정하려면, ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "settings.activeDirectory.LogintitleEI"
+          }), " 항목을 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.enabled"
+          }), "으로 변경하세요."]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-login-with-entraid.png"
         }), (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Copy the redirection URI from the ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.RedirectionUri"
-          }), " field(", (0,jsx_runtime.jsx)(Image, {
+          }), " 항목의 리디렉션 주소를 복사(", (0,jsx_runtime.jsx)(Image, {
             src: "/img/menus/ico-copy.png",
-            alone: true,
-            ico: true
-          }), ") and paste it into the SSO redirection settings in the ", (0,jsx_runtime.jsx)(_components.strong, {
+            ico: true,
+            alone: true
+          }), ")하고, ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID"
-          }), " portal. When a user successfully logs in with ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), " 포털의 SSO 리디렉션 설정에 붙여넣으세요. 사용자가 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID"
-          }), ", they will be redirected to this address."]
+          }), "로 로그인에 성공하면 이 주소로 리디렉션됩니다."]
         }), (0,jsx_runtime.jsx)(_components.admonition, {
           type: "info",
           children: (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["For more information on registering an application in ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: [(0,jsx_runtime.jsx)(_components.strong, {
                   children: "Entra ID"
-                }), " and adding a redirection URI, refer to the following links."]
+                }), "에 애플리케이션을 등록하고, 리디렉션 URI를 추가하는 방법은 다음 링크를 참고하세요."]
               }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
                 children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
                   children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
                     children: (0,jsx_runtime.jsx)(_components.a, {
                       href: "https://learn.microsoft.com/entra/identity-platform/quickstart-register-app",
-                      children: "Register an application in Microsoft Entra ID"
+                      children: "Microsoft Entra ID에 애플리케이션 등록"
                     })
                   }), "\n"]
                 }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
                   children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
                     children: (0,jsx_runtime.jsx)(_components.a, {
                       href: "https://learn.microsoft.com/entra/identity-platform/how-to-add-redirect-uri",
-                      children: "How to add a redirect URI to your application"
+                      children: "앱에 리디렉션 URI 추가"
                     })
                   }), "\n"]
                 }), "\n"]
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["The redirection address can be found in the ", (0,jsx_runtime.jsx)(_components.strong, {
-                  children: "Overview"
-                }), " of the registered application in ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: ["리디렉션 주소는 ", (0,jsx_runtime.jsx)(_components.strong, {
                   children: "Entra ID"
-                }), "."]
+                }), "에서 등록한 애플리케이션의 ", (0,jsx_runtime.jsx)(_components.strong, {
+                  children: "개요"
+                }), "(", (0,jsx_runtime.jsx)(_components.strong, {
+                  children: "Overview"
+                }), ")에서 확인할 수 있습니다."]
               }), "\n"]
             }), "\n"]
           })
@@ -671,48 +677,48 @@ function settings_diretory_integration_createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
       type: "note",
       children: [(0,jsx_runtime.jsxs)(_components.p, {
-        children: ["After completing all settings in ", (0,jsx_runtime.jsx)(Cmd, {
+        children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "setting.activeDirectory.menu"
-        }), ", click ", (0,jsx_runtime.jsx)(Cmd, {
+        }), " 설정을 모두 완료한 후 저장하려면 화면 가장 아래에 ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "button.apply"
-        }), " at the bottom of the screen to save. Refer to the ", (0,jsx_runtime.jsx)(_components.a, {
+        }), " 버튼을 클릭하세요. 설정 결과를 확인하려면 ", (0,jsx_runtime.jsx)(_components.a, {
           href: "#checksettings",
-          children: "following"
-        }), " to check the results."]
+          children: "다음 문서"
+        }), "를 참고하세요."]
       }), (0,jsx_runtime.jsx)(Image, {
         src: "/img/biostar2-setting-directory-btn-apply.png"
       })]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "integrate-with-active-directory",
-      children: "Integrate with Active Directory"
+      children: "액티브 디렉토리(Active Directory)와 연동하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Log in to ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
-          }), " with an administrator account."]
+          }), "에 관리자 아이디로 로그인하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.activeDirectory.menu"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Select ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "settings.activeDirectory.AdServerOld"
-          }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.title"
-          }), "."]
+          }), " 항목에서 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "settings.activeDirectory.AdServerOld"
+          }), "를 선택하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-integ-ad.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Set each item as instructed below."
+          children: "다음 안내에 따라 각 항목을 설정하세요."
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -720,19 +726,19 @@ function settings_diretory_integration_createMdxContent(props) {
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-            children: "The Active Directory is available for a system environment with Windows Server 2008 R2 or\nlater."
+            children: "Active Directory는 Widows Server 2008 R2 이상의 시스템 환경에서 사용할 수 있습니다."
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["To use the Active Directory server, set the ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "setting.userDevice.useridType"
-            }), " to ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "setting.userDevice.useridType.alphanumeric"
-            }), " in the ", (0,jsx_runtime.jsx)(Cmd, {
+            children: ["Active Directory 서버를 사용하려면 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.setting"
             }), " → ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "setting.server"
-            }), "."]
+            }), " 메뉴에서 ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "setting.userDevice.useridType"
+            }), " 항목을 ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "setting.userDevice.useridType.alphanumeric"
+            }), "로 설정해야 합니다."]
           }), "\n"]
         }), "\n"]
       })
@@ -744,13 +750,13 @@ function settings_diretory_integration_createMdxContent(props) {
             sid: "settings.activeDirectory.ADServerConfiguration"
           })
         }), (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Enter the server information for ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Active Directory"
-          }), " and click ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "settings.activeDirectory.Connect"
-          }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.ADServerConfiguration"
-          }), "."]
+          }), " 섹션에서 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Active Directory"
+          }), "의 서버 정보를 입력하고 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "settings.activeDirectory.Connect"
+          }), " 버튼을 클릭하세요."]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-ad-server.png"
         }), (0,jsx_runtime.jsxs)(_components.ul, {
@@ -758,53 +764,53 @@ function settings_diretory_integration_createMdxContent(props) {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.ServerAddress"
-              }), ": Enter the server address for Windows Active Directory."]
+              }), ": Windows Active Directory 서버 주소를 입력하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.UserName"
-              }), ": Enter the user name used by Windows Active Directory."]
+              }), ": Windows Active Directory 로그인 아이디를 입력하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.Password"
-              }), ": Enter the password used by Windows Active Directory."]
+              }), ": Windows Active Directory 로그인 비밀번호를 입력하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.DomainNode"
-              }), ": Enter the base domain name for Windows Active Directory. You can find the base domain name in the following steps:"]
+              }), ": Windows Active Directory 기본 도메인 이름을 입력하세요. 기본 도메인 이름은 아래 과정을 통해 확인할 수 있습니다."]
             }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
                 children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                  children: ["Run the ", (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "Active Directory Administrative Center"
-                  }), "."]
+                  children: [(0,jsx_runtime.jsx)(_components.strong, {
+                    children: "Active Directory 관리 센터"
+                  }), "를 실행하세요."]
                 }), "\n"]
               }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
                 children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                  children: ["Right-click on the node where user data is stored, and then click ", (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "Property"
-                  }), "."]
+                  children: ["사용자 데이터가 저장된 노드(Node)에서 마우스 오른쪽 버튼을 클릭하고 ", (0,jsx_runtime.jsx)(_components.strong, {
+                    children: "속성"
+                  }), "을 선택하세요."]
                 }), "\n"]
               }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
                 children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                  children: ["In the ", (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "property"
-                  }), " window, select ", (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "Expand"
-                  }), " and then click ", (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "Attribute Editor"
-                  }), "."]
+                  children: [(0,jsx_runtime.jsx)(_components.strong, {
+                    children: "속성"
+                  }), " 창에서 ", (0,jsx_runtime.jsx)(_components.strong, {
+                    children: "확장"
+                  }), "을 선택하고, ", (0,jsx_runtime.jsx)(_components.strong, {
+                    children: "특성 편집기"
+                  }), "를 클릭하세요."]
                 }), "\n"]
               }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
                 children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                  children: ["View the value of ", (0,jsx_runtime.jsx)(_components.strong, {
+                  children: [(0,jsx_runtime.jsx)(_components.strong, {
                     children: "distinguishedName"
-                  }), "."]
+                  }), " 값을 확인하세요."]
                 }), "\n"]
               }), "\n"]
             }), "\n"]
@@ -812,21 +818,21 @@ function settings_diretory_integration_createMdxContent(props) {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.secureTransfer"
-              }), ": You can use encryption when communicating with the Windows Active Directory server. To install the Active Directory Certificate Services and configure the ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": Windows Active Directory 서버와 통신할 때 암호화를 사용할 수 있습니다. Active Directory 인증서 서비스를 설치하고 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "settings.activeDirectory.keystorePassword"
-              }), ", refer to the ", (0,jsx_runtime.jsx)(_components.a, {
+              }), "를 설정하려면 ", (0,jsx_runtime.jsx)(_components.a, {
                 href: "ad-encrypt",
-                children: "following"
-              }), "."]
+                children: "다음 문서"
+              }), "를 참고하세요."]
             }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
                 children: [(0,jsx_runtime.jsx)(Cmd, {
                   sid: "settings.activeDirectory.keystorePassword"
-                }), ": Enter the password for the encryption key store of the Windows Active Directory server. You can enter the password when the ", (0,jsx_runtime.jsx)(Cmd, {
+                }), ": Windows Active Directory 서버 암호화 키 저장소 비밀번호를 입력하세요. ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "settings.activeDirectory.secureTransfer"
-                }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
+                }), " 항목을 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "device.info.enabled"
-                }), "."]
+                }), "으로 설정하면 입력할 수 있습니다."]
               }), "\n"]
             }), "\n"]
           }), "\n"]
@@ -851,17 +857,15 @@ function settings_diretory_integration_createMdxContent(props) {
             sid: "settings.activeDirectory.LogintitleAD"
           })
         }), (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["To configure login to ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), " using the user ID of the Active Directory server, change the ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["Active Directory 서버의 사용자 아이디로 로그인하도록 설정하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.LogintitleAD"
-          }), " to ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " 항목을 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.enabled"
-          }), ". The value of the ", (0,jsx_runtime.jsx)(_components.code, {
+          }), "으로 변경하세요. Active Directory 서버의 ", (0,jsx_runtime.jsx)(_components.code, {
             children: "sAMAccountName"
-          }), " field from the Active Directory server will be mapped to the ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), " 필드의 값이 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
-          }), " login ID."]
+          }), " 로그인 아이디로 맵핑됩니다."]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-login-with-ad.png"
         })]
@@ -874,160 +878,164 @@ function settings_diretory_integration_createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
       type: "note",
       children: [(0,jsx_runtime.jsxs)(_components.p, {
-        children: ["After completing all settings in ", (0,jsx_runtime.jsx)(Cmd, {
+        children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "setting.activeDirectory.menu"
-        }), ", click ", (0,jsx_runtime.jsx)(Cmd, {
+        }), " 설정을 모두 완료한 후 저장하려면 화면 가장 아래에 ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "button.apply"
-        }), " at the bottom of the screen to save. Refer to the ", (0,jsx_runtime.jsx)(_components.a, {
+        }), " 버튼을 클릭하세요. 설정 결과를 확인하려면 ", (0,jsx_runtime.jsx)(_components.a, {
           href: "#checksettings",
-          children: "following"
-        }), " to check the results."]
+          children: "다음 문서"
+        }), "를 참고하세요."]
       }), (0,jsx_runtime.jsx)(Image, {
         src: "/img/biostar2-setting-directory-btn-apply.png"
       })]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "checksettings",
-      children: "Check the settings results"
+      children: "설정 결과 확인하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["After completing the integration settings with ", (0,jsx_runtime.jsx)(_components.strong, {
+      children: [(0,jsx_runtime.jsx)(_components.strong, {
         children: "Entra ID"
-      }), " or ", (0,jsx_runtime.jsx)(_components.strong, {
+      }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Active Directory"
-      }), ", click ", (0,jsx_runtime.jsx)(Cmd, {
-        sid: "button.apply"
-      }), " at the bottom of the screen. Refer to the following to check the synchronized settings."]
+      }), "와 연동 설정을 완료했다면, 다음 항목을 참고해 동기화된 설정을 확인할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["You can check the synchronized user list in the ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.user"
-          }), " menu."]
+          }), " 메뉴에서 동기화된 사용자 목록을 확인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["After completing the login settings with ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID"
-          }), " or ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Active Directory"
-          }), ", you can see ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "login.entraidLoginBtn"
-          }), " when logging in to ", (0,jsx_runtime.jsx)(_components.strong, {
+          }), "로 로그인 설정을 완료한 후, ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
-          }), "."]
+          }), "에 로그인할 때 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "login.entraidLoginBtn"
+          }), " 버튼을 확인할 수 있습니다."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-entraid-login.png"
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "exclude-integration",
-      children: "Exclude the directory integration"
+      children: "디렉토리 연동 제외하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["When integrating with ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "Entra ID"
-      }), " or ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "Active Directory"
-      }), " through the ", (0,jsx_runtime.jsx)(Cmd, {
+      children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "setting.activeDirectory.menu"
-      }), " feature, users that do not exist in the directory service may be deleted from ", (0,jsx_runtime.jsx)(_components.strong, {
+      }), " 기능을 통해 ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "Entra ID"
+      }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
+        children: "Active Directory"
+      }), "와 연동할 경우, 디렉토리 서비스에 존재하지 않는 사용자는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "BioStar 2"
-      }), ". If there are users that you do not want to be deleted, you can exclude them from the integration using the following method."]
+      }), "에서 삭제될 수 있습니다. 삭제되지 않길 원하는 사용자가 있다면 아래 방법을 통해 연동에서 제외할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Go to the ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
+            children: "BioStar 2"
+          }), "에 관리자 아이디로 로그인하세요."]
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.user"
-          }), " menu."]
+          }), " 메뉴로 이동하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click on the user you want to exclude from the integration in the ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "menu.user.allUserGroups"
-          }), " list."]
+          }), " 목록에서 연동에서 제외할 사용자를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["When the detail information screen of the selected user appears, click the checkbox of ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "user.adsync.exclude"
-          }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["선택한 사용자의 상세 정보 화면이 나타나면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.advanced"
-          }), "."]
+          }), " 섹션에서 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "user.adsync.exclude"
+          }), " 항목의 체크박스를 클릭하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-user-advance-exclude-sync.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "."]
+          }), " 버튼을 클릭하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["The selected user will be excluded from the integration when using the ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["선택한 사용자는 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "setting.activeDirectory.menu"
-      }), " feature."]
+      }), " 기능을 사용할 때 연동에서 제외됩니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "disableIntegration",
-      children: "Disable the directory integration"
+      children: "디렉토리 연동 해제하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["To disable the ", (0,jsx_runtime.jsx)(Cmd, {
+      children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "settings.activeDirectory.title"
-      }), " feature, follow the steps:"]
+      }), " 기능을 해제하려면 다음 안내에 따라 진행하세요."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Log in to ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "BioStar 2"
-          }), " with an administrator account."]
+          }), "에 관리자 아이디로 로그인하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.activeDirectory.menu"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Select ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "settings.activeDirectory.notUse"
-          }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.title"
-          }), "."]
+          }), " 항목에서 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "settings.activeDirectory.notUse"
+          }), "을 선택하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-unset.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["When the ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "modal.warningTitle"
-          }), " message appears, click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " 메시지가 나타나면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.continue"
-          }), "."]
+          }), " 버튼을 클릭하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-unset-warn-message.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["화면 하단의 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), " at the bottom of the screen."]
+          }), " 버튼을 클릭하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "caution",
       children: (0,jsx_runtime.jsxs)(_components.p, {
-        children: ["When the ", (0,jsx_runtime.jsx)(Cmd, {
+        children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "settings.activeDirectory.title"
-        }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
+        }), " 기능을 ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "settings.activeDirectory.notUse"
-        }), ", all integration settings with ", (0,jsx_runtime.jsx)(_components.strong, {
-          children: "Entra ID"
-        }), " or ", (0,jsx_runtime.jsx)(_components.strong, {
-          children: "Active Directory"
-        }), " in ", (0,jsx_runtime.jsx)(_components.strong, {
+        }), "으로 설정하면, ", (0,jsx_runtime.jsx)(_components.strong, {
           children: "BioStar 2"
-        }), " will be removed. The integrated user and group information will not be deleted, but will no longer be synchronized. Please make sure to check before disabling the integration."]
+        }), "에서 ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: "Entra ID"
+        }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
+          children: "Active Directory"
+        }), "와 연동된 모든 설정이 해제됩니다. 연동된 사용자 및 그룹 정보는 삭제되지 않지만, 이후에는 동기화되지 않습니다. 연동을 해제하기 전에 반드시 확인하세요."]
       })
     })]
   });

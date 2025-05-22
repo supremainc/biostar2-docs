@@ -899,8 +899,14 @@ const ReplacementLocaleText = (param)=>{
             localeText = locale[sid] ? locale[sid].replace('<br>', '').replace('</br>', ' ').replace('&sol;', '/') : null;
         }
         if (!localeText) {
-            console.error(`Locale text not found for SID: ${sid}`);
-            return null;
+            return /*#__PURE__*/ (0,jsx_runtime.jsxs)("span", {
+                className: (0,clsx/* default */.Z)('cmd', className),
+                children: [
+                    "Error sid: ",
+                    sid
+                ]
+            });
+            ;
         }
         return /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
             className: (0,clsx/* default */.Z)('cmd', className),
