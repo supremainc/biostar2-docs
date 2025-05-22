@@ -1,67 +1,91 @@
 ---
 id: how-to-use-cs20
-title: CoreStation 20 설정 및 출입문 생성하기
-description: BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다.
+title: CoreStation 20 Setup and Door Creation | CoreStation 20 설정 및 출입문 생성하기
+description: This document describes how to use CoreStation 20 in BioStar 2. | BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다.
 keywords: [ CoreStation 20, CS-20, CS-20P ]
 ---
 
+CoreStation 20 (CS-20/CS-20P) is Suprema’s new controller that facilitates secure access control for two doors.<br/>Compared to the previous four-door model, CoreStation (CS-40), it is lighter and optimized for RFID card-based access control.<br/>It can store up to 500,000 users and supports compatibility with various interfaces.<br/>In particular, the CS-20P model supports PoE+ (Power over Ethernet) for easy installation and is equipped with a SAM card slot for enhanced security.
+
 CoreStation 20(CS-20/CS-20P)은 2도어 출입 통제를 손쉽게 구현할 수 있는 슈프리마의 신규 컨트롤러입니다.<br/>기존 4도어 지원 모델인 CoreStation(CS-40) 대비 경량화되어, RFID 카드 기반 출입 통제에 최적화된 설계를 제공합니다.<br/>최대 50만 명의 사용자 정보를 저장할 수 있으며, 다양한 인터페이스와의 호환성을 지원합니다.<br/>특히 CS-20P 모델은 PoE+(Power over Ethernet)로 간편한 설치가 가능하며, 보안 강화를 위한 SAM 카드 슬롯도 탑재하고 있습니다.
+
+This document provides an overview of the CoreStation 20 menu in BioStar 2 and describes how to create doors.
 
 이 문서에서는 BioStar 2에서 CoreStation 20의 메뉴 설명과 출입문을 생성하는 방법을 안내합니다.
 
 :::info
 
+* CoreStation 20 does not support wireless door locks.
 * CoreStation 20은 무선 도어락을 지원하지 않습니다.
 
+* CoreStation 20 does not support biometric authentication (such as facial or fingerprint authentication) and only supports card authentication.<br/>For biometric authentication, it is recommended to use CoreStation (CS-40).
 * CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 않으며, 카드 인증만 지원합니다.<br/>바이오메트릭 인증을 사용하려는 경우에는 CoreStation(CS-40)을 사용하는 것을 권장합니다.
 
 :::
 
-## 세부 항목 설정하기
+## Configuring Detailed Items | 세부 항목 설정하기
 
+1. Click <Cmd sid="audit.menu.device" />.
 1. <Cmd sid="audit.menu.device" />를 클릭하세요.
 
-1. 장치 목록에서 설정하려는 CoreStation 20(CS-20/CS-20P)을 선택하세요.
+2. Select the CoreStation 20 (CS-20/CS-20P) to configure from the device list.
+2. 장치 목록에서 설정하려는 CoreStation 20(CS-20/CS-20P)을 선택하세요.
 
-### 장치 정보
+### Device Information | 장치 정보
 
 <Image src='/img/CS20-Info-ko.png' />
 
+* <Cmd sid="device.info.name" />: Enter the desired device name.
 * <Cmd sid="device.info.name" />: 원하는 장치 이름을 입력하세요.
 
+* <Cmd sid="device.info.deviceId" />: Check the device ID.
 * <Cmd sid="device.info.deviceId" />: 장치 ID를 확인할 수 있습니다.
 
+* <Cmd sid="device.info.firmwareVersion" />: Click <Cmd sid="device.firmwareUpgrade" /> to install the latest firmware version.
 * <Cmd sid="device.info.firmwareVersion" />: <Cmd sid="device.firmwareUpgrade" />를 클릭하면 새로운 펌웨어 버전을 설치할 수 있습니다.
 
+* <Cmd sid="device.info.kernelVersion" />: Check the kernel version.
 * <Cmd sid="device.info.kernelVersion" />: 커널 버전을 확인할 수 있습니다.
 
+* <Cmd sid="device.info.factoryDefault" />: You can initialize the device settings. Click <Cmd sid="device.info.reset" /> to initialize all settings, or <Cmd sid="device.info.reset.withoutNetwork" /> to initialize all except network settings.
 * <Cmd sid="device.info.factoryDefault" />: 장치의 설정을 초기화할 수 있습니다. <Cmd sid="device.info.reset" />을 클릭하면 모든 설정을 초기화하며, <Cmd sid="device.info.reset.withoutNetwork" />를 클릭하면 네트워크 설정은 유지하고 나머지 설정을 초기화합니다.
 
+* <Cmd sid="device.info.timeZone" />: Set the device’s time zone. The device time zone can be set independently from the BioStar 2 server time zone.
 * <Cmd sid="device.info.timeZone" />: 장치의 표준 시간대를 설정하세요. 장치의 표준 시간대는 BioStar 2 서버의 시간대와 다르게 설정할 수 있습니다.
 
+* <Cmd sid="audit.menu.setting.dst" />: Apply the user-defined daylight saving time to the device. New daylight saving times can be added in <Cmd sid="common.setting" /> → <Cmd sid="setting.dst" />.
 * <Cmd sid="audit.menu.setting.dst" />: 사용자가 설정한 일광 절약 시간을 장치에 적용할 수 있습니다. 새 일광 절약 시간은 <Cmd sid="common.setting" /> → <Cmd sid="setting.dst" />에서 추가할 수 있습니다.
 
+* <Cmd sid="device.info.group" />: Change the device group. Device groups can be added by right-clicking <Cmd sid="menu.device.allDeviceGroups" /> in the <Cmd sid="audit.menu.device" /> menu and selecting <Cmd sid="device.menu.addDeviceGroup" />.
 * <Cmd sid="device.info.group" />: 장치 그룹을 변경할 수 있습니다. 장치 그룹은 <Cmd sid="audit.menu.device" />메뉴에서 <Cmd sid="menu.device.allDeviceGroups" /> 부분에 마우스 오른쪽 버튼을 클릭한 후 <Cmd sid="device.menu.addDeviceGroup" />를 선택하여 추가할 수 있습니다.
 
+* <Cmd sid="device.info.deviceType" />: Check the device type.
 * <Cmd sid="device.info.deviceType" />: 장치 종류를 확인할 수 있습니다.
 
+* <Cmd sid="device.info.productName" />: Check the model name.
 * <Cmd sid="device.info.productName" />: 모델 이름을 확인할 수 있습니다.
 
+* <Cmd sid="device.info.hwVersion" />: Check the hardware version.
 * <Cmd sid="device.info.hwVersion" />: 하드웨어 버전을 확인할 수 있습니다.
 
+* <Cmd sid="device.info.locked" />: If the device is locked due to operational conditions, click <Cmd sid="device.info.unlock" /> to unlock it.
 * <Cmd sid="device.info.locked" />: 작업 조건 및 동작에 의해 장치가 잠겼을 경우 <Cmd sid="device.info.unlock" /> 버튼을 클릭하여 해제할 수 있습니다.
 
+* <Cmd sid="device.info.timeSync" />: Select to synchronize the device time with the server.
 * <Cmd sid="device.info.timeSync" />: 장치의 시간 정보를 서버와 동기화하려면 선택하세요.
 
-##### 시스템
+##### System | 시스템
 
+* <Cmd sid="device.info.date" />: Click <Image src='/img/menus/ico-calendar.png' ico /> to manually set the date and time. If time synchronization with the server is enabled, manual setting is not available.
 * <Cmd sid="device.info.date" />: <Image src='/img/menus/ico-calendar.png' ico />을 클릭하여 날짜와 시간을 수동으로 설정할 수 있습니다. 서버와 시간 동기화가 선택되어 있다면 사용자가 수동으로 날짜나 시간을 선택할 수 없습니다.
 
+* <Cmd sid="device.info.getTime" />: Click to get the current time set on the device.
 * <Cmd sid="device.info.getTime" />: 장치에 설정된 시간을 불러오려면 클릭하세요.
 
+* <Cmd sid="device.info.setTime" />: Click to apply the time set in BioStar 2 to the device.
 * <Cmd sid="device.info.setTime" />: BioStar 2에 설정된 시간을 장치에 적용하려면 클릭하세요.
 
-### 네트워크 설정
+### Network Settings | 네트워크 설정
 
 **TCP/IP**, **DHCP**, **IP 주소**, **서브넷 마스크**, **게이트웨이**, **DNS** 등 기본 네트워크 설정을 지원합니다.
 
@@ -83,13 +107,13 @@ CoreStation 20(CS-20/CS-20P)은 2도어 출입 통제를 손쉽게 구현할 수
 
 * <Cmd sid="device.info.dnsServerAddress" />: DNS 서버 주소를 입력하세요.
 
-##### 서버 통신
+##### Server Communication | 서버 통신
 
 * <Cmd sid="device.info.deviceToServerConnection" />: 장치에서 연결할 BioStar 2 정보를 설정하려면 선택하세요. 이 항목을 선택하면 BioStar 2의 네트워크 정보를 입력할 수 있습니다.
 * <Cmd sid="device.info.serverIP" />: BioStar 2의 IP 주소를 입력하세요.
 * <Cmd sid="device.info.serverPort" />: BioStar 2의 포트를 입력하세요.
 
-##### 시리얼 통신
+##### Serial Communication | 시리얼 통신
 
 * <Cmd sid="device.info.rs485" />: 마스터 모드만 사용할 수 있습니다.
 * <Cmd sid="device.info.baudRate" />: 각 RS-485 포트의 전송 속도를 설정할 수 있습니다.
@@ -102,7 +126,7 @@ CoreStation 20(CS-20/CS-20P)은 2도어 출입 통제를 손쉽게 구현할 수
 
 :::
 
-### 인증 설정
+### Authentication Settings | 인증 설정
 
 <Cmd sid="common.serverMatching" />, <Cmd sid="setting.card.cardType" />(<Cmd sid="device.card.CSN" />, <Cmd sid="device.card.emcard" />, <Cmd sid="device.card.mifare_felica" />), <Cmd sid="device.info.byteOrder" />, <Cmd sid="device.info.formatType" /> 등 카드 인증 관련 설정을 지원합니다.
 
@@ -115,8 +139,9 @@ CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 
 <Image src='/img/CS20-auth-ko.png' />
 
 * <Cmd sid="common.serverMatching" />: <Cmd sid="user.activateCard" />으로 설정하면 BioStar 2가 설치된 PC에 저장된 사용자 정보를 이용하여 인증을 수행하며, <Cmd sid="user.deactivateCard" />으로 설정하면 장치에 저장된 사용자 정보를 이용하여 인증을 수행합니다. 서버 매칭을 사용할 경우 BioStar 2의 서버 매칭도 활성화해야 하며, <Cmd sid="common.setting" /> → <Cmd sid="setting.server" /> → <Cmd sid="common.serverMatching" />에서 <Cmd sid="setting.server.serverMatching.use" />을 활성화하세요.
+* <Cmd sid="common.serverMatching" />: <Cmd sid="user.activateCard" />으로 설정하면 BioStar 2가 설치된 PC에 저장된 사용자 정보를 이용하여 인증을 수행하며, <Cmd sid="user.deactivateCard" />으로 설정하면 장치에 저장된 사용자 정보를 이용하여 인증을 수행합니다. 서버 매칭을 사용할 경우 BioStar 2의 서버 매칭도 활성화해야 하며, <Cmd sid="common.setting" /> → <Cmd sid="setting.server" /> → <Cmd sid="common.serverMatching" />에서 <Cmd sid="setting.server.serverMatching.use" />을 활성화하세요.
 
-##### 카드 종류
+##### Card Types | 카드 종류
 
 장치에서 사용할 카드 종류를 설정할 수 있습니다.
 
@@ -138,7 +163,7 @@ CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 
 
 :::
 
-### 고급 설정
+### Advanced Settings | 고급 설정
 
 <Image src='/img/CS20-advanced-ko.png' />
 
@@ -154,7 +179,7 @@ CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 
 
 :::
 
-##### 작업 조건 및 동작
+##### Operation Conditions and Actions | 작업 조건 및 동작
 
 * <Cmd sid="device.info.configuration" />: 미리 정의된 알람이나 신호 입력에 따른 장치의 동작을 설정할 수 있습니다. 예를 들어, CoreStation 20에서 탬퍼 켜짐 신호가 발생할 때 사용자가 설정한 신호를 출력하거나 장치를 사용하지 못하도록 설정할 수 있습니다.
 
@@ -174,15 +199,17 @@ CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 
 
 CoreStation의 Supervised Input 포트를 TTL Input 포트로 사용하도록 설정할 수 있으며, Supervised Input에 사용할 저항값을 설정할 수 있습니다. 저항값은 1㏀, 2.2㏀, 4.7㏀, 10㏀을 설정할 수 있습니다.
 
-##### 보안 탬퍼
+##### Security Tamper
 
 장치에서 탬퍼 이벤트가 발생할 경우 장치에 저장된 전체 사용자 정보, 전체 로그, 보안 키가 삭제되도록 설정할 수 있습니다.
 
-### OSDP 리더 LED 및 버저
+### OSDP Reader LED and Buzzer Settings | OSDP 리더 LED 및 버저 설정
 
 CoreStation 20에 연결된 모든 OSDP 리더의 이벤트 발생 시 LED와 버저의 동작을 일괄 설정할 수 있습니다.
 
 :::info
+
+If the connected OSDP reader does not support LED or buzzer, the configured actions may not operate as expected.
 
 CoreStation 20에 연결된 OSDP 리더가 LED와 버저를 지원하지 않는 경우 설정한대로 동작하지 않을 수 있습니다.
 
@@ -192,83 +219,116 @@ CoreStation 20에 연결된 OSDP 리더가 LED와 버저를 지원하지 않는 
 
 ##### LED
 
+The LED operation can be configured for events such as <Cmd sid="device.displaySound.event.waitingInput" />, <Cmd sid="device.displaySound.event.authSuccess" />, and <Cmd sid="device.displaySound.event.authFail" />.
+
 <Cmd sid="device.displaySound.event.waitingInput" />, <Cmd sid="device.displaySound.event.authSuccess" />, <Cmd sid="device.displaySound.event.authFail" /> 이벤트 발생 시 LED 동작을 설정할 수 있습니다.
 
+* <Cmd sid="device.info.osdp.ledBuzzer.mode" />: Select the desired operation from <Cmd sid="device.info.osdp.ledBuzzer.mode.off" />, <Cmd sid="device.info.osdp.led.mode.constant" />, or <Cmd sid="device.info.osdp.ledBuzzer.mode.blinking" />.
 * <Cmd sid="device.info.osdp.ledBuzzer.mode" />: <Cmd sid="device.info.osdp.ledBuzzer.mode.off" />, <Cmd sid="device.info.osdp.led.mode.constant" />, <Cmd sid="device.info.osdp.ledBuzzer.mode.blinking" /> 중에 원하는 동작을 설정할 수 있습니다. 
 
+* <Cmd sid="schedule.cycle" />: If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is set to <Cmd sid="device.info.osdp.ledBuzzer.mode.blinking" />, enter the number of blinks. To repeat the mode continuously, check <Cmd sid="device.info.osdp.infinite" />.
 * <Cmd sid="schedule.cycle" />: <Cmd sid="device.info.osdp.ledBuzzer.mode" />를 <Cmd sid="device.info.osdp.ledBuzzer.mode.blinking" />로 선택했을 경우 LED가 깜빡일 횟수를 입력합니다. 설정한 모드를 계속 반복되게 하려면 <Cmd sid="device.info.osdp.infinite" />에 체크하세요. 
 
+* <Cmd sid="device.info.osdp.ledBuzzer.ColorNDuration" />: If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is set to <Cmd sid="device.info.osdp.ledBuzzer.mode.blinking" />, select two colors and enter the duration for each blink. If set to <Cmd sid="device.info.osdp.led.mode.constant" />, select one color and enter the duration.
 * <Cmd sid="device.info.osdp.ledBuzzer.ColorNDuration" />: <Cmd sid="device.info.osdp.ledBuzzer.mode" />를 <Cmd sid="device.info.osdp.ledBuzzer.mode.blinking" />로 선택했을 경우 설정한 반복 횟수마다 깜빡일 두 가지 색상을 선택하고 지속 시간을 입력합니다.
 <Cmd sid="device.info.osdp.ledBuzzer.mode" />를 <Cmd sid="device.info.osdp.led.mode.constant" />로 선택했을 경우 점등될 하나의 색상을 선택하고 지속 시간을 입력합니다. 
 
-##### 버저
+##### Buzzer
+
+The buzzer operation can be configured for events such as <Cmd sid="device.displaySound.event.waitingInput" />, <Cmd sid="device.displaySound.event.authSuccess" />, and <Cmd sid="device.displaySound.event.authFail" />.
 
 <Cmd sid="device.displaySound.event.waitingInput" />, <Cmd sid="device.displaySound.event.authSuccess" />, <Cmd sid="device.displaySound.event.authFail" /> 이벤트 발생 시 버저의 동작을 설정할 수 있습니다.
 
+* <Cmd sid="device.info.osdp.ledBuzzer.mode" />: Select the desired operation from <Cmd sid="device.info.osdp.ledBuzzer.mode.off" />, <Cmd sid="device.info.osdp.buzzer.mode.constant" />, or <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" />.
 * <Cmd sid="device.info.osdp.ledBuzzer.mode" />: <Cmd sid="device.info.osdp.ledBuzzer.mode.off" />, <Cmd sid="device.info.osdp.buzzer.mode.constant" />, <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" /> 중에 원하는 동작을 설정할 수 있습니다. 
 
+* <Cmd sid="schedule.cycle" />: If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is set to <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" />, enter the number of beeps. To repeat the mode continuously, check <Cmd sid="device.info.osdp.infinite" />.
 * <Cmd sid="schedule.cycle" />: <Cmd sid="device.info.osdp.ledBuzzer.mode" />를 <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" />으로 선택했을 경우 버저가 출력되는 횟수를 입력합니다. 설정한 모드를 계속 반복되게 하려면 <Cmd sid="device.info.osdp.infinite" />에 체크하세요. 
 
+* <Cmd sid="devce.info.osdp.ledBuzzer.duration" />: If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is set to <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" />, enter the duration for each beep. If set to <Cmd sid="device.info.osdp.ledBuzzer.mode.constant" />, enter the duration for the constant beep.
 * <Cmd sid="devce.info.osdp.ledBuzzer.duration" />: <Cmd sid="device.info.osdp.ledBuzzer.mode" />를 <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" />으로 선택했을 경우 설정한 반복 횟수마다 버저가 출력될 지속 시간을 입력합니다.
 <Cmd sid="device.info.osdp.ledBuzzer.mode" />를 <Cmd sid="device.info.osdp.ledBuzzer.mode.constant" />로 선택했을 경우 버저가 출력될 지속 시간을 입력합니다. 
 
-## 간편 출입문 설정 기능으로 출입문 생성하기
+## Quick Door Setup | 간편 출입문 설정 기능으로 출입문 생성하기
+
+Right-click the connected CoreStation 20 (CS-20/CS-20P) in the device list and select <Cmd sid="device.menu.quickDoorSetup" /> to quickly create a door.
 
 장치 목록에서 연결된 CoreStation 20(CS-20/CS-20P)에 마우스 오른쪽 버튼을 클릭한 후 <Cmd sid="device.menu.quickDoorSetup" />을 선택하여 간편하게 출입문을 생성할 수 있습니다.
 
 :::info
 
+* If there are no slave or Wiegand devices connected to CoreStation 20, a door cannot be created.
 * CoreStation 20에 연결된 슬레이브 또는 Wiegand 장치가 없는 경우에는 출입문을 생성할 수 없습니다.
 
+* If only a Door Interface is connected to CoreStation 20, a door cannot be created.
 * CoreStation 20에 Door Interface만 연결되어 있는 경우에는 출입문을 생성할 수 없습니다.
 
 :::
 
+1. Click <Cmd sid="audit.menu.device" />.
 1. <Cmd sid="audit.menu.device" />를 클릭하세요.
 
-1. 장치 목록에서 CoreStation 20의 장치 이름에 마우스 오른쪽 버튼을 클릭한 후 <Cmd sid="device.menu.quickDoorSetup" />을 클릭하세요.
+2. Right-click the device name of CoreStation 20 and click <Cmd sid="device.menu.quickDoorSetup" />.
+2. 장치 목록에서 CoreStation 20의 장치 이름에 마우스 오른쪽 버튼을 클릭한 후 <Cmd sid="device.menu.quickDoorSetup" />을 클릭하세요.
 
     <Image src='/img/CS20-Quick Door Setup-ko.png' />
 
-1. <Cmd sid="common.name" />, <Cmd sid="common.group" />, <Cmd sid="audit.door.description" />과 옵션들을 설정하세요.<br/>RS-485 또는 Wiegand 포트에 연결된 장치를 이용해 최대 2개의 출입문을 구성할 수 있습니다. <br/>각 출입문은 포트별로 <Cmd sid="door.entryDevice" />, <Cmd sid="common.doorRelay" />, <Cmd sid="door.doorSensor" />, <Cmd sid="door.exitButton" /> 등의 항목이 자동으로 선택됩니다.
+3. Configure <Cmd sid="common.name" />, <Cmd sid="common.group" />, <Cmd sid="audit.door.description" /> and options. Up to two doors can be created using devices connected to RS-485 or Wiegand ports. For each door, <Cmd sid="door.entryDevice" />, <Cmd sid="common.doorRelay" />, <Cmd sid="door.doorSensor" />, and <Cmd sid="door.exitButton" /> are automatically selected by port.
+3. <Cmd sid="common.name" />, <Cmd sid="common.group" />, <Cmd sid="audit.door.description" />과 옵션들을 설정하세요.<br/>RS-485 또는 Wiegand 포트에 연결된 장치를 이용해 최대 2개의 출입문을 구성할 수 있습니다. <br/>각 출입문은 포트별로 <Cmd sid="door.entryDevice" />, <Cmd sid="common.doorRelay" />, <Cmd sid="door.doorSensor" />, <Cmd sid="door.exitButton" /> 등의 항목이 자동으로 선택됩니다.
 
     :::info
 
+    I/O devices (Door Module, Input Module, Output Module, etc.) are not automatically selected as <Cmd sid="door.entryDevice" /> or <Cmd sid="door.exitDevice" />.
     I/O 장치(Door Module, Input Module, Output Module 등)는 <Cmd sid="door.entryDevice" />, <Cmd sid="door.exitDevice" />로 자동 선택되지 않습니다.
 
     :::
 
     <Image src='/img/Quick-door-setup-ko.png' />
 
-1. 출입문을 생성하려면 <Cmd sid="button.apply" />을 클릭하세요.
+4. Click <Cmd sid="button.apply" /> to create the door.
+4. 출입문을 생성하려면 <Cmd sid="button.apply" />을 클릭하세요.
 
-## <Cmd sid="audit.menu.door" /> 메뉴에서 출입문 생성하기
+## Creating a Door from the <Cmd sid="audit.menu.door" /> Menu | <Cmd sid="audit.menu.door" /> 메뉴에서 출입문 생성하기
+
+A door can be created by selecting the relay of CoreStation 20 in the <Cmd sid="audit.menu.door" /> menu.
 
 <Cmd sid="audit.menu.door" /> 메뉴에서 CoreStation 20의 릴레이를 선택하여 출입문을 생성할 수 있습니다.
 
+1. Click <Cmd sid="audit.menu.device" />.
 1. <Cmd sid="audit.menu.device" />를 클릭하세요.
 
-1. <Cmd sid="button.func.addDoor" />를 클릭하세요.
+2. Click <Cmd sid="button.func.addDoor" />.
+2. <Cmd sid="button.func.addDoor" />를 클릭하세요.
 
-1. <Cmd sid="common.information" />, <Cmd sid="device.info.configuration" />, <Cmd sid="common.option" />, <Cmd sid="door.antiPassBack" />, <Cmd sid="timedAPB.title" />, <Cmd sid="door.alarm" />을 참고하여 각 항목을 설정하세요.
+3. Refer to <Cmd sid="common.information" />, <Cmd sid="device.info.configuration" />, <Cmd sid="common.option" />, <Cmd sid="door.antiPassBack" />, <Cmd sid="timedAPB.title" />, and <Cmd sid="door.alarm" /> to configure each item.
+3. <Cmd sid="common.information" />, <Cmd sid="device.info.configuration" />, <Cmd sid="common.option" />, <Cmd sid="door.antiPassBack" />, <Cmd sid="timedAPB.title" />, <Cmd sid="door.alarm" />을 참고하여 각 항목을 설정하세요.
 
 ### <Cmd sid="common.information" /> {#doorinfo}
+
+The name, group, and description of the door can be entered or changed.
 
 출입문의 이름, 그룹, 설명을 입력하거나 변경할 수 있습니다.
 
 <Image src='/img/CS20-Door-Info-ko.png' />
 
+* <Cmd sid="common.name" />: Enter the desired door name.
 * <Cmd sid="common.name" />: 원하는 출입문 이름을 입력하세요.
 
+* <Cmd sid="common.group" />: Select the door group. Door groups can be added by right-clicking <Cmd sid="menu.door.allDoorGroups" /> in the <Cmd sid="common.gnb.door" /> menu and selecting <Cmd sid="door.addDoorGroup" />.
 * <Cmd sid="common.group" />: 출입문 그룹을 선택하세요. 출입문 그룹은 <Cmd sid="common.gnb.door" /> 메뉴에서 <Cmd sid="menu.door.allDoorGroups" /> 부분에 마우스 오른쪽 버튼을 클릭한 후 <Cmd sid="door.addDoorGroup" />를 선택하여 추가할 수 있습니다.
 
+* <Cmd sid="common.description" />: Enter a brief description of the door.
 * <Cmd sid="common.description" />: 출입문에 대한 간단한 설명을 입력하세요.
 
 ### <Cmd sid="device.info.configuration" /> {#doorconfig}
 
+Configure the device, relay, exit button, and door sensor information.
+
 장치와 릴레이, 퇴실 버튼, 출입문 센서 등의 정보를 설정할 수 있습니다.
 
 :::info
+
+CoreStation cannot be set as an entry or exit device.
 
 CoreStation은 입실 장치나 퇴실 장치로 설정할 수 없습니다.
 
@@ -276,30 +336,16 @@ CoreStation은 입실 장치나 퇴실 장치로 설정할 수 없습니다.
 
 <Image src='/img/CS20-door-setting-ko.png' />
 
+* <Cmd sid="door.entryDevice" />: Select the device to use for entry. Select from the list of registered devices.
 * <Cmd sid="door.entryDevice" />: 입실할 때 사용할 장치를 선택하세요. 등록된 장치 목록에서 선택할 수 있습니다.
 
-    :::info
-
-    CoreStation 20은 무선 도어락을 지원하지 않습니다.
-
-    :::
-
+* <Cmd sid="common.doorRelay" />: Select the relay to operate the door lock.
 * <Cmd sid="common.doorRelay" />: 출입문 잠금 장치를 동작할 릴레이를 선택하세요.
 
-    :::info
-
-    * Lock 출입문 릴레이를 선택하면 <Cmd sid="door.exitButton" />과 <Cmd sid="door.doorSensor" />가 자동으로 선택됩니다.
-    
-    * Alarm 릴레이는 출입문 릴레이로 사용할 수 없습니다.
-
-    :::
-
+* <Cmd sid="door.exitButton" />: Select the port to use for the exit button.
 * <Cmd sid="door.exitButton" />: 퇴실 버튼에 사용할 포트를 선택하세요.
 
-    * <Cmd sid="door.switchType" />는 <Cmd sid="door.switch.normallyClose" />나 <Cmd sid="door.switch.normallyOpen" />으로 설정할 수 있습니다.
-
-    * <Cmd sid="door.simulateUnlockSupported" />: 퇴실 버튼 입력 시 출입문 열림 요청 로그는 발생하지만 릴레이는 동작하지 않도록 설정할 수 있습니다.
-
+* <Cmd sid="door.doorSensor" />: Select the port to use for the door sensor.
 * <Cmd sid="door.doorSensor" />: 출입문 상태를 확인할 때 사용할 포트를 선택하세요.
 
     * <Cmd sid="door.switchType" />는 <Cmd sid="door.switch.normallyClose" />나 <Cmd sid="door.switch.normallyOpen" />으로 설정할 수 있습니다.
@@ -310,6 +356,7 @@ CoreStation은 입실 장치나 퇴실 장치로 설정할 수 없습니다.
 
     * <Cmd sid="door.doorSensor" />를 <Cmd sid="common.none" />으로 설정하면 <Cmd sid="door.alarm" /> 탭을 설정할 수 없습니다. 
 
+* <Cmd sid="door.exitDevice" />: Select the device to use for exit. Exit devices must be connected as slaves.
 * <Cmd sid="door.exitDevice" />: 퇴실할 때 사용할 장치를 선택하세요. 퇴실 장치는 슬레이브로 연결된 장치가 있어야 사용할 수 있습니다.
 
     * <Cmd sid="door.exitDevice" />가 없는 경우 <Cmd sid="door.antiPassBack" />을 설정할 수 없습니다. 
