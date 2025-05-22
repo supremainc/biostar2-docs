@@ -79,7 +79,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 :::caution
 
-**Entra ID**와 연동할 때 <Cmd sid='device.info.enabledrId' /> 필드는 맵핑할 수 없습니다. <Cmd sid='device.info.enabledrId' />는 **BioStar 2**에서 자동 생성하여 적용합니다.
+**Entra ID**와 연동할 때 <Cmd sid='common.userId' /> 필드는 맵핑할 수 없습니다. <Cmd sid='common.userId' />는 **BioStar 2**에서 자동 생성하여 적용합니다.
 
 :::
 
@@ -141,7 +141,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 * Active Directory는 Widows Server 2008 R2 이상의 시스템 환경에서 사용할 수 있습니다.
 
-* Active Directory 서버를 사용하려면 <Cmd sid='common.setting' /> → <Cmd sid='setting.server' /> 메뉴에서 <Cmd sid='setting.userDevice.useridType' /> 항목을 <Cmd sid='setting.userDevice.useridType.alphanumeric' /> 로 설정해야 합니다.
+* Active Directory 서버를 사용하려면 <Cmd sid='common.setting' /> → <Cmd sid='setting.server' /> 메뉴에서 <Cmd sid='setting.userDevice.useridType' /> 항목을 <Cmd sid='setting.userDevice.useridType.alphanumeric' />로 설정해야 합니다.
 
 :::
 
@@ -159,7 +159,7 @@ import SyncIntegration from '../../common/_sync-with-integ.mdx';
 
 * <Cmd sid='settings.activeDirectory.UserName' />: Windows Active Directory 로그인 아이디를 입력하세요.
 
-* <Cmd sid='settings.activeDirectory.Password' />: Windows Active Directory 로그인 암호를 입력하세요.
+* <Cmd sid='settings.activeDirectory.Password' />: Windows Active Directory 로그인 비밀번호를 입력하세요.
 
 * <Cmd sid='settings.activeDirectory.DomainNode' />: Windows Active Directory 기본 도메인 이름을 입력하세요. 기본 도메인 이름은 아래 과정을 통해 확인할 수 있습니다.
 
@@ -231,6 +231,8 @@ Active Directory 서버의 사용자 아이디로 로그인하도록 설정하�
 ## 디렉토리 연동 제외하기 {#exclude-integration}
 
 <Cmd sid='setting.activeDirectory.menu' /> 기능을 통해 **Entra ID** 또는 **Active Directory**와 연동할 경우, 디렉토리 서비스에 존재하지 않는 사용자는 **BioStar 2**에서 삭제될 수 있습니다. 삭제되지 않길 원하는 사용자가 있다면 아래 방법을 통해 연동에서 제외할 수 있습니다.
+
+1. **BioStar 2**에 관리자 아이디로 로그인하세요.
 
 1. <Cmd sid='common.user' /> 메뉴로 이동하세요.
 
