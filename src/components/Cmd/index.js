@@ -30,6 +30,7 @@ const ReplacementLocaleText = ({ sid, code, className, children }) => {
       localeText = locale[sid] ? locale[sid]
                   .replace('<br>', '')
                   .replace('</br>', ' ')
+                  .replace('<br/>', '')
                   .replace('&sol;', '/') : null;
     }
 
