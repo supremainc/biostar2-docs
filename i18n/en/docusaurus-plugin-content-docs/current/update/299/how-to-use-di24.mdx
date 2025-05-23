@@ -1,0 +1,59 @@
+---
+id: how-to-use-di24
+title: Setting Facility Code Authentication for Offline Mode in Door Interface
+description: This document describes how to configure the Door Interface in offline mode in BioStar 2.
+keywords: [ Door Interface, DI-24, Offline Mode ]
+---
+
+The Door Interface is a device that securely and flexibly connects two doors and four readers.<br/>Authentication is possible even in offline environments using <Cmd sid="device.info.facilityCode" />, and the device supports security-focused features such as AC failure, tamper, and fire alarm.<br/>By integrating with CoreStation (CS-40) or CoreStation 20 (CS-20, CS-20P) controllers, a robust access control architecture is provided that flexibly supports a wide range of system environments from small to large enterprises.
+
+This document provides instructions for setting <Cmd sid="device.info.facilityCode" /> for the Door Interface in BioStar 2.
+
+:::info
+
+Most device settings for the Door Interface are the same as those for CoreStation.
+For detailed device settings, refer to [following](how-to-use-cs20#cs20detailsetting).
+
+:::
+
+## Setting <Cmd sid="device.info.facilityCode" />
+
+<Cmd sid="device.info.facilityCode" /> allows the door to operate using facility code authentication even when the Door Interface is offline and disconnected from the master controller.
+
+1. Click <Cmd sid="audit.menu.device" />.
+
+1. Select the Door Interface (DI-24) to configure from the device list.
+
+1. In the <Cmd sid="common.authentication" /> tab, click <Cmd sid="button.addplus" /> under <Cmd sid="device.info.facilityCode" /> and enter the facility code.
+
+    :::info
+
+    * Only numbers from 0 to 4294967295 can be entered for <Cmd sid="device.info.facilityCode" />.
+    * Up to 16 facility codes can be saved for <Cmd sid="device.info.facilityCode" />.
+
+    :::
+
+    <Image src='/img/DI24-offlinemode.png' />
+
+1. After adding the facility code, click <Cmd sid="button.apply" />.
+
+1. When the device is offline and disconnected from the master, authenticating with a card that matches a saved facility code will operate the configured door.
+
+    :::info
+
+    In offline mode, only alarm events are stored and sent to the server when the device reconnects to the master.
+
+    :::
+
+
+## Deleting <Cmd sid="device.info.facilityCode" />
+
+1. Click <Cmd sid="audit.menu.device" />.
+
+1. Select the Door Interface (DI-24) to configure from the device list.
+
+1. In the <Cmd sid="common.authentication" /> tab, check the facility code to delete under <Cmd sid="device.info.facilityCode" /> and click <Cmd sid="button.delete" />.
+
+    <Image src='/img/DI24-offlinemode-del.png' />
+
+1. Click <Cmd sid="button.apply" /> to save.
