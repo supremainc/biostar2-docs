@@ -51,9 +51,9 @@ const DocuementButton = () => {
         PDF
       </button>
 
-      <button onClick={gotoFeedback} className={styles.feedback__button} disabled={!isClient}>
+      {/* <button onClick={gotoFeedback} className={styles.feedback__button} disabled={!isClient}>
         Feedback
-      </button>
+      </button> */}
     </div>
   );
 };
