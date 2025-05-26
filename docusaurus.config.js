@@ -95,7 +95,8 @@ const config = {
           exclude: [
             'common/**.{md,mdx}',
             '_unused/**.{md,mdx}',
-            '**/_*.{md,mdx}'
+            'revision/**.{md,mdx}',
+            '**/_*.{md,mdx}',
           ],
           rehypePlugins: [ rehypeExtendedTable ],
         },
