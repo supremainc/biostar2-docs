@@ -55,7 +55,7 @@ CoreStation 20(CS-20/CS-20P)은 2도어 출입 통제를 손쉽게 구현할 수
 
 ##### 시스템
 
-* <Cmd sid="device.info.date" />: <Image src='/img/menus/ico-calendar.png' ico />을 클릭하여 날짜와 시간을 수동으로 설정할 수 있습니다. <Cmd sid="device.info.timeSync" />가 선택되어 있다면 사용자가 수동으로 날짜나 시간을 선택할 수 없습니다.
+* <Cmd sid="device.info.date" />: <Image src='/img/menus/ico-calendar.png' ico alone />을 클릭하여 날짜와 시간을 수동으로 설정할 수 있습니다. <Cmd sid="device.info.timeSync" />가 선택되어 있다면 사용자가 수동으로 날짜나 시간을 선택할 수 없습니다.
 
 * <Cmd sid="device.info.getTime" />: 장치에 설정된 시간을 불러오려면 클릭하세요.
 
@@ -119,7 +119,7 @@ CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 
 
 <Image src='/img/CS20-auth.png' />
 
-* <Cmd sid="common.serverMatching" />: <Cmd sid="user.activateCard" />으로 설정하면 BioStar 2가 설치된 PC에 저장된 사용자 정보를 이용하여 인증을 수행하며, <Cmd sid="user.deactivateCard" />으로 설정하면 장치에 저장된 사용자 정보를 이용하여 인증을 수행합니다. 서버 매칭을 사용할 경우 BioStar 2의 서버 매칭도 활성화해야 하며, <Cmd sid="common.setting" /> → <Cmd sid="setting.server" /> → <Cmd sid="common.serverMatching" />에서 <Cmd sid="setting.server.serverMatching.use" />을 활성화하세요.
+* <Cmd sid="common.serverMatching" />: <Cmd sid="common.active" />으로 설정하면 BioStar 2가 설치된 PC에 저장된 사용자 정보를 이용하여 인증을 수행하며, <Cmd sid="common.inactive" />으로 설정하면 장치에 저장된 사용자 정보를 이용하여 인증을 수행합니다. 서버 매칭을 사용할 경우 BioStar 2의 서버 매칭도 활성화해야 하며, <Cmd sid="common.setting" /> → <Cmd sid="setting.server" /> → <Cmd sid="common.serverMatching" />에서 <Cmd sid="setting.server.serverMatching.use" />을 활성화하세요.
 
 ##### 카드 종류
 
@@ -169,7 +169,7 @@ CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 
 
 * <Cmd sid="device.info.wiegandInOut" />: 입력 모드만 사용할 수 있습니다.
 
-* <Cmd sid="device.card.wiegand.in" />: 장치에 지정할 Wiegand 형식을 변경할 수 있습니다.
+* <Cmd sid="device.card.wiegand.inOutFormat" />: 장치에 지정할 Wiegand 형식을 변경할 수 있습니다.
 
 * <Cmd sid="device.info.wiegandOutPulseWidth" />: Wiegand 신호의 펄스 폭을 설정할 수 있습니다.
 
@@ -346,15 +346,15 @@ CoreStation 20은 입실 장치나 퇴실 장치로 설정할 수 없습니다.
 
 * <Cmd sid="door.dualAuthentication" />: 두 사람(일반 사용자와 관리자)이 크리덴셜을 인증하여 출입문이 열리도록 설정할 수 있습니다.
 
-    * <Cmd sid="common.device" />: 이중 인증을 사용할 장치를 선택할 수 있습니다. <Cmd sid="common.notUse" />으로 설정하면 이중 인증 모드를 사용하지 않습니다.
+    * <Cmd sid="common.device" />: 이중 인증을 사용할 장치를 선택할 수 있습니다. <Cmd sid="door.dualAuthentication.device.noDevice" />으로 설정하면 이중 인증 모드를 사용하지 않습니다.
 
     * <Cmd sid="common.schedule" />: 이중 인증을 사용할 스케줄을 설정하세요. 원하는 스케줄이 없다면 <Cmd sid="button.plusAddSchedule" />를 클릭하여 설정하세요.
 
-    * <Cmd sid="door.dualAuthentication.approvalType" />: 관리자 인증 순서를 설정할 수 있습니다. <Cmd sid="common.notUse" />으로 설정하면 인증 그룹과 관계 없이 두 명의 인증이 필요합니다. <Cmd sid="door.dualAuthentication.approvalType.last" />으로 설정하면 일반 사용자가 인증한 뒤 설정된 인증 그룹에 포함된 사용자가 인증해야 합니다.
+    * <Cmd sid="door.dualAuthentication.approvalType" />: 관리자 인증 순서를 설정할 수 있습니다. <Cmd sid="door.dualAuthentication.approvalType.none" />으로 설정하면 인증 그룹과 관계 없이 두 명의 인증이 필요합니다. <Cmd sid="door.dualAuthentication.approvalType.last" />으로 설정하면 일반 사용자가 인증한 뒤 설정된 인증 그룹에 포함된 사용자가 인증해야 합니다.
 
     * <Cmd sid="door.approvalGroup" />: 관리자가 속한 그룹을 설정할 수 있습니다.
 
-    * <Cmd sid="device.info.authTimeout" />: 첫 번째 크리덴셜이 인증되고 두 번째 크리덴셜을 인증하는 대기 시간을 설정하세요. 첫 번째 크리덴셜이 인증되고 설정한 시간 안에 두 번째 크리덴셜이 인증되지 않으면 출입문이 열리지 않습니다.
+    * <Cmd sid="door.authenticationTimeout" />: 첫 번째 크리덴셜이 인증되고 두 번째 크리덴셜을 인증하는 대기 시간을 설정하세요. 첫 번째 크리덴셜이 인증되고 설정한 시간 안에 두 번째 크리덴셜이 인증되지 않으면 출입문이 열리지 않습니다.
 
 * <Cmd sid="door.antiTailSensor" /> : 인증하지 않은 사람이 인증한 사람을 따라 출입하는 테일게이팅을 감지하도록 설정할 수 있습니다.
 
