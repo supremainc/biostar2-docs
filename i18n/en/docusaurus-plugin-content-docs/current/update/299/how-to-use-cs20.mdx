@@ -119,7 +119,7 @@ CoreStation 20 does not support biometric authentication (such as face or finger
 
 <Image src='/img/CS20-auth.png' />
 
-* <Cmd sid="common.serverMatching" />: If set to <Cmd sid="user.activateCard" />, authentication is performed using the user information stored on the PC where BioStar 2 is installed. If set to <Cmd sid="user.deactivateCard" />, authentication is performed using the user information stored on the device. When using server matching, BioStar 2's server matching must also be activated by enabling <Cmd sid="setting.server.serverMatching.use" /> in <Cmd sid="common.setting" /> → <Cmd sid="setting.server" /> → <Cmd sid="common.serverMatching" />.
+* <Cmd sid="common.serverMatching" />: If set to <Cmd sid="common.active" />, authentication is performed using the user information stored on the PC where BioStar 2 is installed. If set to <Cmd sid="common.inactive" />, authentication is performed using the user information stored on the device. When using server matching, BioStar 2's server matching must also be activated by enabling <Cmd sid="setting.server.serverMatching.use" /> in <Cmd sid="common.setting" /> → <Cmd sid="setting.server" /> → <Cmd sid="common.serverMatching" />.
 
 ##### Card Types
 
@@ -169,7 +169,7 @@ The types of cards supported by the device are displayed.
 
 * <Cmd sid="device.info.wiegandInOut" />: Can only be used in input mode.
 
-* <Cmd sid="device.card.wiegand.in" />: Change the Wiegand format assigned to the device. For details on setting the Wiegand format, refer to the card format.
+* <Cmd sid="device.card.wiegand.inOutFormat" />: Change the Wiegand format assigned to the device. For details on setting the Wiegand format, refer to the card format.
 
 * <Cmd sid="device.info.wiegandOutPulseWidth" />: Set the pulse width of the Wiegand signal.
 
@@ -179,7 +179,7 @@ The types of cards supported by the device are displayed.
 
 Set the Supervised Input port of the CoreStation 20 to be used as a Input port, and set the resistance value to be used for Supervised Input. The resistance values can be set to 1㏀, 2.2㏀, 4.7㏀, or 10㏀.
 
-##### Security Tamper
+##### Secure Tamper
 
 Set it so that when a tamper event occurs on the device, all user information, logs, and security keys stored on the device are deleted.
 
@@ -320,7 +320,11 @@ CoreStation 20 cannot be set as an entry or exit device.
 
 * <Cmd sid="door.exitDevice" />: Select the device to be used for exit. The exit device must be connected as a slave device.
 
+    :::info
+
     * If there is no <Cmd sid="door.exitDevice" />, the <Cmd sid="door.antiPassBack" /> cannot be set.
+
+    :::
 
 ### <Cmd sid="common.option" /> {#dooroption}
 
@@ -342,15 +346,15 @@ CoreStation 20 cannot be set as an entry or exit device.
 
 * <Cmd sid="door.dualAuthentication" />: Set it so that the door opens only when two people (a regular user and an administrator) authenticate their credentials.
 
-    * <Cmd sid="common.device" />: Select the device to use for dual authentication. If set to <Cmd sid="common.notUse" />, dual authentication mode is not used.
+    * <Cmd sid="common.device" />: Select the device to use for dual authentication. If set to <Cmd sid="door.dualAuthentication.device.noDevice" />, dual authentication mode is not used.
 
     * <Cmd sid="common.schedule" />: Set the schedule for dual authentication. If there is no desired schedule, click <Cmd sid="button.plusAddSchedule" /> to set it.
 
-    * <Cmd sid="door.dualAuthentication.approvalType" />: Set the order of administrator authentication. If set to <Cmd sid="common.notUse" />, two authentications are required regardless of the authentication group. If set to the <Cmd sid="door.dualAuthentication.approvalType.last" />, the user authenticated as a general user, followed by the user in the set authentication group, must authenticate.
+    * <Cmd sid="door.dualAuthentication.approvalType" />: Set the order of administrator authentication. If set to <Cmd sid="door.dualAuthentication.approvalType.none" />, two authentications are required regardless of the authentication group. If set to the <Cmd sid="door.dualAuthentication.approvalType.last" />, the user authenticated as a general user, followed by the user in the set authentication group, must authenticate.
 
     * <Cmd sid="door.approvalGroup" />: Set the group to which the administrator belongs.
 
-    * <Cmd sid="device.info.authTimeout" />: Set the waiting time for authenticating the second credential after the first credential is authenticated. If the second credential is not authenticated within the set time after the first credential is authenticated, the door will not open.
+    * <Cmd sid="door.authenticationTimeout" />: Set the waiting time for authenticating the second credential after the first credential is authenticated. If the second credential is not authenticated within the set time after the first credential is authenticated, the door will not open.
 
 * <Cmd sid="door.antiTailSensor" /> : Set it to detect tailgating, where an unauthorized person follows an authorized person to gain access.
 
