@@ -172,7 +172,7 @@ function _createMdxContent(props) {
       id: "장치-정보",
       children: "장치 정보"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-Info-ko.png"
+      src: "/img/CS20-Info.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -232,7 +232,7 @@ function _createMdxContent(props) {
             sid: "device.info.group"
           }), ": 장치 그룹을 변경할 수 있습니다. 장치 그룹은 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "audit.menu.device"
-          }), "메뉴에서 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " 메뉴에서 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "menu.device.allDeviceGroups"
           }), " 부분에 마우스 오른쪽 버튼을 클릭한 후 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.menu.addDeviceGroup"
@@ -282,7 +282,9 @@ function _createMdxContent(props) {
           }), ": ", (0,jsx_runtime.jsx)(Image, {
             src: "/img/menus/ico-calendar.png",
             ico: true
-          }), "을 클릭하여 날짜와 시간을 수동으로 설정할 수 있습니다. 서버와 시간 동기화가 선택되어 있다면 사용자가 수동으로 날짜나 시간을 선택할 수 없습니다."]
+          }), "을 클릭하여 날짜와 시간을 수동으로 설정할 수 있습니다. ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.timeSync"
+          }), "가 선택되어 있다면 사용자가 수동으로 날짜나 시간을 선택할 수 없습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -324,7 +326,7 @@ function _createMdxContent(props) {
         }), " 모드만 사용할 수 있습니다."]
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-Network-ko.png"
+      src: "/img/CS20-Network.png"
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
       id: "tcpip",
       children: "TCP/IP"
@@ -351,7 +353,7 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.devicePort"
-          }), ": 장치가 사용할 포트를 입력하세요. 이 포트는 BioStar 2와 장치간의 통신에 사용됩니다."]
+          }), ": 장치가 사용할 포트를 입력하세요. 이 포트는 BioStar 2와 장치 간의 통신에 사용됩니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -365,38 +367,52 @@ function _createMdxContent(props) {
       children: "서버 통신"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.info.deviceToServerConnection"
-        }), ": 장치에서 연결할 BioStar 2 정보를 설정하려면 선택하세요. 이 항목을 선택하면 BioStar 2의 네트워크 정보를 입력할 수 있습니다."]
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.deviceToServerConnection"
+          }), ": 장치에서 연결할 BioStar 2 정보를 설정하려면 선택하세요. 이 항목을 선택하면 BioStar 2의 네트워크 정보를 입력할 수 있습니다."]
+        }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.info.serverIP"
-        }), ": BioStar 2의 IP 주소를 입력하세요."]
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.serverIP"
+          }), ": BioStar 2의 IP 주소를 입력하세요."]
+        }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.info.serverPort"
-        }), ": BioStar 2의 포트를 입력하세요."]
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.serverPort"
+          }), ": BioStar 2의 포트를 입력하세요."]
+        }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
       id: "시리얼-통신",
       children: "시리얼 통신"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.info.rs485"
-        }), ": 마스터 모드만 사용할 수 있습니다."]
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.rs485"
+          }), ": 마스터 모드만 사용할 수 있습니다."]
+        }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.info.baudRate"
-        }), ": 각 RS-485 포트의 전송 속도를 설정할 수 있습니다."]
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.baudRate"
+          }), ": 각 RS-485 포트의 전송 속도를 설정할 수 있습니다."]
+        }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.info.scbKey"
-        }), ": 장치의 SCB 키를 설정할 수 있습니다. 이 메뉴는 CoreStation 20에 연결된 RS-485 장치가 없을 때에만 활성화 됩니다."]
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.scbKey"
+          }), ": 장치의 SCB 키를 설정할 수 있습니다. 이 메뉴는 CoreStation 20에 연결된 RS-485 장치가 없을 때만 활성화됩니다."]
+        }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.info.scbKeyConfirm"
-        }), ": 설정한 SCB 키와 일치 여부를 확인합니다. 이 메뉴는 CoreStation 20에 연결된 RS-485 장치가 없을 때에만 활성화 됩니다."]
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.scbKeyConfirm"
+          }), ": 설정한 SCB 키와 일치 여부를 확인합니다. 이 메뉴는 CoreStation 20에 연결된 RS-485 장치가 없을 때만 활성화됩니다."]
+        }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
@@ -430,7 +446,7 @@ function _createMdxContent(props) {
         children: "CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 않으며, 카드 인증만 지원합니다."
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-auth-ko.png"
+      src: "/img/CS20-auth.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: [(0,jsx_runtime.jsx)(Cmd, {
@@ -492,7 +508,7 @@ function _createMdxContent(props) {
               sid: "device.info.byteOrder"
             }), "를 ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "MSB"
-            }), "로 설정할 경우 카드 데이터를 처리할 때 큰 바이트 단위에서 작은 바이트 단위 순서로 처리하여 카드의 일련 번호(CSN)를 저장할 때 왼쪽에서 오른쪽으로 순차적으로 처리합니다. ", (0,jsx_runtime.jsx)(_components.strong, {
+            }), "로 설정하면 카드 데이터가 큰 바이트에서 작은 바이트 순서로 처리되어, 카드의 일련 번호(CSN)가 왼쪽에서 오른쪽으로 저장됩니다. ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "LSB"
             }), "는 작은 바이트 단위에서 큰 바이트 단위 순서로 처리하여 카드의 일련 번호(CSN)를 저장합니다."]
           }), "\n"]
@@ -502,7 +518,7 @@ function _createMdxContent(props) {
       id: "고급-설정",
       children: "고급 설정"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-advanced-ko.png"
+      src: "/img/CS20-advanced.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -544,7 +560,7 @@ function _createMdxContent(props) {
         }), ": 미리 정의된 알람이나 신호 입력에 따른 장치의 동작을 설정할 수 있습니다. 예를 들어, CoreStation 20에서 탬퍼 켜짐 신호가 발생할 때 사용자가 설정한 신호를 출력하거나 장치를 사용하지 못하도록 설정할 수 있습니다."]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-trigger-action-ko.png"
+      src: "/img/CS20-trigger-action.png"
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
       id: "wiegand",
       children: "Wiegand"
@@ -559,7 +575,7 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.card.wiegand.in"
-          }), ": 장치에 지정할 Wiegand 형식을 변경할 수 있습니다. Wiegand 형식 설정에 대한 자세한 내용은 카드 형식을 참고하세요."]
+          }), ": 장치에 지정할 Wiegand 형식을 변경할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -578,7 +594,7 @@ function _createMdxContent(props) {
       id: "supervised-input",
       children: "Supervised Input"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "CoreStation의 Supervised Input 포트를 TTL Input 포트로 사용하도록 설정할 수 있으며, Supervised Input에 사용할 저항값을 설정할 수 있습니다. 저항값은 1㏀, 2.2㏀, 4.7㏀, 10㏀을 설정할 수 있습니다."
+      children: "CoreStation 20의 Supervised Input 포트를 Input 포트로 사용하도록 설정할 수 있으며, Supervised Input에 사용할 저항값을 설정할 수 있습니다. 저항값은 1㏀, 2.2㏀, 4.7㏀, 10㏀을 설정할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
       id: "보안-탬퍼",
       children: "보안 탬퍼"
@@ -595,7 +611,7 @@ function _createMdxContent(props) {
         children: "CoreStation 20에 연결된 OSDP 리더가 LED와 버저를 지원하지 않는 경우 설정한대로 동작하지 않을 수 있습니다."
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-LED-Buzzer-ko.png"
+      src: "/img/CS20-LED-Buzzer.png"
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
       id: "led",
       children: "LED"
@@ -691,7 +707,7 @@ function _createMdxContent(props) {
             sid: "device.info.osdp.ledBuzzer.mode"
           }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.beeping"
-          }), "으로 선택했을 경우 설정한 반복 횟수마다 버저가 출력될 지속 시간을 입력합니다.\n", (0,jsx_runtime.jsx)(Cmd, {
+          }), "으로 선택했을 경우 설정한 반복 횟수마다 버저가 출력될 지속 시간을 입력합니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
           }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.constant"
@@ -731,7 +747,7 @@ function _createMdxContent(props) {
             sid: "device.menu.quickDoorSetup"
           }), "을 클릭하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
-          src: "/img/CS20-Quick Door Setup-ko.png"
+          src: "/img/CS20-Quick Door Setup.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -760,7 +776,7 @@ function _createMdxContent(props) {
             }), "로 자동 선택되지 않습니다."]
           })
         }), "\n", (0,jsx_runtime.jsx)(Image, {
-          src: "/img/Quick-door-setup-ko.png"
+          src: "/img/Quick-door-setup.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -816,7 +832,7 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: "출입문의 이름, 그룹, 설명을 입력하거나 변경할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-Door-Info-ko.png"
+      src: "/img/CS20-door-info.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -853,10 +869,10 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsx)(_components.p, {
-        children: "CoreStation은 입실 장치나 퇴실 장치로 설정할 수 없습니다."
+        children: "CoreStation 20은 입실 장치나 퇴실 장치로 설정할 수 없습니다."
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-door-setting-ko.png"
+      src: "/img/CS20-door-setting.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -906,7 +922,7 @@ function _createMdxContent(props) {
                 sid: "door.switch.normallyClose"
               }), "나 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.switch.normallyOpen"
-              }), "으로 설정할 수 있습니다."]
+              }), "로 설정할 수 있습니다."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -940,23 +956,28 @@ function _createMdxContent(props) {
                 sid: "zone.apbUseDoorSensor"
               }), " 옵션을 사용할 때 출입문 센서 사용 여부를 설정할 수 있습니다."]
             }), "\n"]
-          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "timedAPB.title"
-              }), "이 활성화 되어 있을 경우 이 기능을 사용할 수 없습니다."]
-            }), "\n"]
-          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "door.doorSensor"
-              }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
-                sid: "common.none"
-              }), "으로 설정하면 ", (0,jsx_runtime.jsx)(Cmd, {
-                sid: "door.alarm"
-              }), " 탭을 설정할 수 없습니다."]
-            }), "\n"]
           }), "\n"]
+        }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+          type: "info",
+          children: (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "timedAPB.title"
+                }), "이 활성화되어 있을 경우 이 기능을 사용할 수 없습니다."]
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "door.doorSensor"
+                }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
+                  sid: "common.none"
+                }), "으로 설정하면 ", (0,jsx_runtime.jsx)(Cmd, {
+                  sid: "door.alarm"
+                }), " 탭을 설정할 수 없습니다."]
+              }), "\n"]
+            }), "\n"]
+          })
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -979,7 +1000,7 @@ function _createMdxContent(props) {
         sid: "common.option"
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-door-option-ko.png"
+      src: "/img/CS20-door-option.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -988,19 +1009,19 @@ function _createMdxContent(props) {
           }), ": 출입문 열림에 대한 옵션을 설정할 수 있습니다."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: [(0,jsx_runtime.jsx)(Cmd, {
-              sid: "door.openTime"
-            }), ": 사용자 인증이 완료된 뒤 출입문이 열린 채로 유지되는 시간을 설정하세요. 인증이 성공했을 때 릴레이가 활성화되는 시간이며, 이 시간이 지나면 릴레이는 출입문에 신호를 보내지 않습니다."]
-          }), "\n"]
-        }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
-          type: "info",
-          children: (0,jsx_runtime.jsxs)(_components.p, {
-            children: [(0,jsx_runtime.jsx)(Cmd, {
-              sid: "door.openTime"
-            }), "은 사용하는 출입문 잠금 장치의 종류에 따라 달라질 수 있습니다."]
-          })
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+              children: [(0,jsx_runtime.jsx)(Cmd, {
+                sid: "door.openTime"
+              }), ": 사용자 인증이 완료된 뒤 출입문이 열린 채로 유지되는 시간을 설정하세요. 인증이 성공했을 때 릴레이가 활성화되는 시간이며, 이 시간이 지나면 릴레이는 출입문에 신호를 보내지 않습니다."]
+            }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+              type: "info",
+              children: (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "door.openTime"
+                }), "은 사용하는 출입문 잠금 장치의 종류에 따라 달라질 수 있습니다."]
+              })
+            }), "\n"]
+          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.openOnce"
@@ -1050,7 +1071,9 @@ function _createMdxContent(props) {
                 sid: "door.dualAuthentication.approvalType"
               }), ": 관리자 인증 순서를 설정할 수 있습니다. ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.notUse"
-              }), "으로 설정하면 인증 그룹과 관계 없이 두 명의 인증이 필요합니다. 마지막으로 설정하면 일반 사용자가 인증한 뒤 설정된 인증 그룹에 포함된 사용자가 인증해야 합니다."]
+              }), "으로 설정하면 인증 그룹과 관계 없이 두 명의 인증이 필요합니다. ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "door.dualAuthentication.approvalType.last"
+              }), "으로 설정하면 일반 사용자가 인증한 뒤 설정된 인증 그룹에 포함된 사용자가 인증해야 합니다."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -1105,14 +1128,14 @@ function _createMdxContent(props) {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "timedAPB.title"
-            }), "이 활성화 되어 있을 경우 ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "이 활성화되어 있을 경우 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.antiPassBack"
             }), "을 사용할 수 없습니다."]
           }), "\n"]
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-door-apb-ko.png"
+      src: "/img/CS20-door-apb.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -1146,7 +1169,7 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.resetTime"
-          }), ": 안티패스백 기능이 초기화될 때까지의 시간을 설정할 수 있습니다. 최대 7일(10080분) 까지 설정할 수 있으며, 0으로 설정하면 초기화되지 않습니다."]
+          }), ": 안티패스백 기능이 초기화될 때까지의 시간을 설정할 수 있습니다. 최대 10,080분(7일) 까지 설정할 수 있으며, 0으로 설정하면 초기화되지 않습니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -1208,7 +1231,7 @@ function _createMdxContent(props) {
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-door-tapb-ko.png"
+      src: "/img/CS20-door-tapb.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -1219,24 +1242,26 @@ function _createMdxContent(props) {
           }), "을 원하는 대로 설정하세요."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: [(0,jsx_runtime.jsx)(Cmd, {
-              sid: "door.resetTime"
-            }), ": 입력 단위는 분(min.)이며 기본값은 10분이고 입력 가능한 시간의 범위는 0 ~ 60분입니다."]
-          }), "\n"]
-        }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
-          type: "info",
-          children: (0,jsx_runtime.jsxs)(_components.p, {
-            children: [(0,jsx_runtime.jsx)(Cmd, {
-              sid: "door.resetTime"
-            }), "을 0분으로 설정하면 ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "timedAPB.title"
-            }), "이 동작하지 않습니다."]
-          })
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: [(0,jsx_runtime.jsx)(Cmd, {
-              sid: "zone.apb.bypassGroup"
-            }), ": 시간 제한 안티패스백에 제한받지 않고 항상 통과할 수 있는 출입 그룹을 지정할 수 있습니다."]
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+              children: [(0,jsx_runtime.jsx)(Cmd, {
+                sid: "door.resetTime"
+              }), ": 입력 단위는 분(min.)이며 기본값은 10분이고 입력 가능한 시간의 범위는 0 ~ 60분입니다."]
+            }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+              type: "info",
+              children: (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "door.resetTime"
+                }), "을 0분으로 설정하면 ", (0,jsx_runtime.jsx)(Cmd, {
+                  sid: "timedAPB.title"
+                }), "이 동작하지 않습니다."]
+              })
+            }), "\n"]
+          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+              children: [(0,jsx_runtime.jsx)(Cmd, {
+                sid: "zone.apb.bypassGroup"
+              }), ": 시간 제한 안티패스백에 제한받지 않고 항상 통과할 수 있는 출입 그룹을 지정할 수 있습니다."]
+            }), "\n"]
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -1258,7 +1283,7 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
       children: "출입문이 강제로 열리거나 열린 채로 방치되었거나 안티패스백 위반이 발생했을 때 경보를 울리거나 장치를 사용하지 못하도록 막을 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(Image, {
-      src: "/img/CS20-door-alarm-ko.png"
+      src: "/img/CS20-door-alarm.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -1291,6 +1316,16 @@ function _createMdxContent(props) {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.antiPassBack"
           }), ": 안티패스백 위반이 발생했을 때 알람 동작을 설정할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
+            sid: "button.addplus"
+          }), "를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "button.apply"
+          }), "을 클릭하세요."]
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "timedAPB.title"
+          }), ": 시간 제한 안티패스백 위반이 발생했을 때 알람 동작을 설정할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.addplus"
           }), "를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"

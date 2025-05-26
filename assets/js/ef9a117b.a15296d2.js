@@ -77,7 +77,7 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.p, {
-        children: ["Door Interface의 장치 설정은 대부분 CoreStation과 동일합니다. 세부 장치 설정에 대한 내용은 ", (0,jsx_runtime.jsx)(_components.a, {
+        children: ["Door Interface의 장치 설정은 대부분 CoreStation 20과 동일합니다. 세부 장치 설정에 대한 내용은 ", (0,jsx_runtime.jsx)(_components.a, {
           href: "how-to-use-cs20#cs20detailsetting",
           children: "다음 문서"
         }), "를 참고하세요."]
@@ -129,7 +129,7 @@ function _createMdxContent(props) {
             }), "\n"]
           })
         }), "\n", (0,jsx_runtime.jsx)(Image, {
-          src: "/img/DI24-offlinemode-ko.png"
+          src: "/img/DI24-offlinemode.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -173,7 +173,7 @@ function _createMdxContent(props) {
             sid: "button.delete"
           }), "를 클릭하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
-          src: "/img/DI24-offlinemode-del-ko.png"
+          src: "/img/DI24-offlinemode-del.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {

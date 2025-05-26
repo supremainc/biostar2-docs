@@ -374,9 +374,7 @@ function settings_diretory_integration_createMdxContent(props) {
         children: "Entra ID"
       }), ") 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "액티브 디렉토리"
-      }), "(Active Directory)와 ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "BioStar 2"
-      }), "를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다."]
+      }), "(Active Directory)와 BioStar 2를 연동하여 사용자를 동기화하고 관리하는 방법을 안내합니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(_components.strong, {
         children: "Entra ID"
@@ -390,27 +388,13 @@ function settings_diretory_integration_createMdxContent(props) {
             children: "Entra ID"
           }), "에서 제공하는 Single Sign-On(SSO) 기능을 통해 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID"
-          }), " 계정으로 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "에 로그인할 수 있습니다."]
+          }), " 계정으로 BioStar 2에 로그인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "Active Directory"
-          }), "에서 제공하는 Lightweight Directory Access Protocol(LDAP) 인증을 통해 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "에 로그인할 수 있습니다."]
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "Entra ID"
-          }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Active Directory"
-          }), "에서 구성한 사용자 및 그룹을 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "와 동기화할 수 있습니다."]
+          }), "에서 제공하는 Lightweight Directory Access Protocol(LDAP) 인증을 통해 BioStar 2에 로그인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -418,9 +402,15 @@ function settings_diretory_integration_createMdxContent(props) {
             children: "Entra ID"
           }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Active Directory"
-          }), "에서 사용되는 직함과 부서, 그룹 등의 사용자 정보를 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "의 사용자 정의 필드와 맵핑할 수 있습니다."]
+          }), "에서 구성한 사용자 및 그룹을 BioStar 2와 동기화할 수 있습니다."]
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(_components.strong, {
+            children: "Entra ID"
+          }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Active Directory"
+          }), "에서 사용되는 직함과 부서, 그룹 등의 사용자 정보를 BioStar 2의 사용자 정의 필드와 맵핑할 수 있습니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -451,10 +441,8 @@ function settings_diretory_integration_createMdxContent(props) {
       children: "Entra ID와 연동하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "에 관리자 아이디로 로그인하세요."]
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "BioStar 2에 관리자 아이디로 로그인하세요."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -595,9 +583,7 @@ function settings_diretory_integration_createMdxContent(props) {
               sid: "common.userId"
             }), " 필드는 맵핑할 수 없습니다. ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.userId"
-            }), "는 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "BioStar 2"
-            }), "에서 자동 생성하여 적용합니다."]
+            }), "는 BioStar 2에서 자동 생성하여 적용합니다."]
           })
         })]
       }), (0,jsx_runtime.jsxs)(Step, {
@@ -609,9 +595,7 @@ function settings_diretory_integration_createMdxContent(props) {
         }), (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(_components.strong, {
             children: "Entra ID SSO"
-          }), "로 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "를 로그인하도록 설정하려면, ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "로 BioStar 2를 로그인하도록 설정하려면, ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "settings.activeDirectory.LogintitleEI"
           }), " 항목을 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.enabled"
@@ -693,10 +677,8 @@ function settings_diretory_integration_createMdxContent(props) {
       children: "액티브 디렉토리(Active Directory)와 연동하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "에 관리자 아이디로 로그인하세요."]
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "BioStar 2에 관리자 아이디로 로그인하세요."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -863,9 +845,7 @@ function settings_diretory_integration_createMdxContent(props) {
             sid: "device.info.enabled"
           }), "으로 변경하세요. Active Directory 서버의 ", (0,jsx_runtime.jsx)(_components.code, {
             children: "sAMAccountName"
-          }), " 필드의 값이 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), " 로그인 아이디로 맵핑됩니다."]
+          }), " 필드의 값이 BioStar 2 로그인 아이디로 맵핑됩니다."]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/biostar2-setting-directory-login-with-ad.png"
         })]
@@ -911,9 +891,7 @@ function settings_diretory_integration_createMdxContent(props) {
             children: "Entra ID"
           }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
             children: "Active Directory"
-          }), "로 로그인 설정을 완료한 후, ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "에 로그인할 때 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "로 로그인 설정을 완료한 후, BioStar 2에 로그인할 때 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "login.entraidLoginBtn"
           }), " 버튼을 확인할 수 있습니다."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
@@ -930,15 +908,11 @@ function settings_diretory_integration_createMdxContent(props) {
         children: "Entra ID"
       }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "Active Directory"
-      }), "와 연동할 경우, 디렉토리 서비스에 존재하지 않는 사용자는 ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "BioStar 2"
-      }), "에서 삭제될 수 있습니다. 삭제되지 않길 원하는 사용자가 있다면 아래 방법을 통해 연동에서 제외할 수 있습니다."]
+      }), "와 연동할 경우, 디렉토리 서비스에 존재하지 않는 사용자는 BioStar 2에서 삭제될 수 있습니다. 삭제되지 않길 원하는 사용자가 있다면 아래 방법을 통해 연동에서 제외할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "에 관리자 아이디로 로그인하세요."]
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "BioStar 2에 관리자 아이디로 로그인하세요."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -982,10 +956,8 @@ function settings_diretory_integration_createMdxContent(props) {
       }), " 기능을 해제하려면 다음 안내에 따라 진행하세요."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "BioStar 2"
-          }), "에 관리자 아이디로 로그인하세요."]
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "BioStar 2에 관리자 아이디로 로그인하세요."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -1029,9 +1001,7 @@ function settings_diretory_integration_createMdxContent(props) {
           sid: "settings.activeDirectory.title"
         }), " 기능을 ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "settings.activeDirectory.notUse"
-        }), "으로 설정하면, ", (0,jsx_runtime.jsx)(_components.strong, {
-          children: "BioStar 2"
-        }), "에서 ", (0,jsx_runtime.jsx)(_components.strong, {
+        }), "으로 설정하면, BioStar 2에서 ", (0,jsx_runtime.jsx)(_components.strong, {
           children: "Entra ID"
         }), " 또는 ", (0,jsx_runtime.jsx)(_components.strong, {
           children: "Active Directory"

@@ -1,561 +1,458 @@
-<!doctype html><html lang=en-US dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-update/299/how-to-use-cs20" data-has-hydrated=false><meta charset=UTF-8><meta name=generator content="Docusaurus v3.7.0"><title data-rh=true>CoreStation 20 Setup and Door Creation | CoreStation 20 설정 및 출입문 생성하기 | Suprema Docs</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"><meta data-rh=true name=twitter:card content=summary_large_image><meta data-rh=true property=og:image content=https://docs.supremainc.com/biostar2-docs/en/img/sns_img02.jpg><meta data-rh=true name=twitter:image content=https://docs.supremainc.com/biostar2-docs/en/img/sns_img02.jpg><meta data-rh=true property=og:url content=https://docs.supremainc.com/biostar2-docs/en/update/299/how-to-use-cs20><meta data-rh=true property=og:locale content=en_US><meta data-rh=true property=og:locale:alternate content=ko_KR><meta data-rh=true name=docusaurus_locale content=en><meta data-rh=true name=docsearch:language content=en><meta data-rh=true name=docusaurus_version content=current><meta data-rh=true name=docusaurus_tag content=docs-default-current><meta data-rh=true name=docsearch:version content=current><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current><meta data-rh=true property=og:title content="CoreStation 20 Setup and Door Creation | CoreStation 20 설정 및 출입문 생성하기 | Suprema Docs"><meta data-rh=true name=description content="This document describes how to use CoreStation 20 in BioStar 2. | BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다."><meta data-rh=true property=og:description content="This document describes how to use CoreStation 20 in BioStar 2. | BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다."><meta data-rh=true name=keywords content="CoreStation 20,CS-20,CS-20P"><link data-rh=true rel=icon href=/biostar2-docs/en/img/favicon.ico><link data-rh=true rel=canonical href=https://docs.supremainc.com/biostar2-docs/en/update/299/how-to-use-cs20><link data-rh=true rel=alternate href=https://docs.supremainc.com/biostar2-docs/update/299/how-to-use-cs20 hreflang=ko-KR><link data-rh=true rel=alternate href=https://docs.supremainc.com/biostar2-docs/en/update/299/how-to-use-cs20 hreflang=en-US><link data-rh=true rel=alternate href=https://docs.supremainc.com/biostar2-docs/update/299/how-to-use-cs20 hreflang=x-default><link rel=stylesheet href=/biostar2-docs/en/assets/css/styles.6629ede7.css><script src=/biostar2-docs/en/assets/js/runtime~main.307e5e33.js defer></script><script src=/biostar2-docs/en/assets/js/main.fca6e114.js defer></script><body class=navigation-with-keyboard><script>!function(){var t,e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t=null!==e?e:"light",document.documentElement.setAttribute("data-theme",t)}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><link rel=preload as=image href=/biostar2-docs/en/img/suprema-logo.svg><link rel=preload as=image href=/biostar2-docs/en/img/suprema-logo-bottom.svg><div role=region aria-label="Skip to main content"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><nav aria-label=Main class="navbar navbar--fixed-top"><div class=navbar__inner><div class=navbar__items><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/biostar2-docs/en/><div class=navbar__logo><img src=/biostar2-docs/en/img/suprema-logo.svg alt="Suprema Docs" class="themedComponent_mlkZ themedComponent--light_NVdE" width=120px><img src=/biostar2-docs/en/img/suprema-logo.svg alt="Suprema Docs" class="themedComponent_mlkZ themedComponent--dark_xIcU" width=120px></div><b class="navbar__title text--truncate">BioStar 2</b></a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href=# aria-haspopup=true aria-expanded=false role=button class=navbar__link><svg viewBox="0 0 24 24" width=20 height=20 aria-hidden=true class=iconLanguage_nlXk><path fill=currentColor d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/></svg>English</a><ul class=dropdown__menu><li><a href=/biostar2-docs/update/299/how-to-use-cs20 target=_self rel="noopener noreferrer" class=dropdown__link lang=ko-KR>한국어</a><li><a href=/biostar2-docs/en/update/299/how-to-use-cs20 target=_self rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang=en-US>English</a></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type=button disabled title="Switch between dark and light mode (currently Light mode)" aria-label="Switch between dark and light mode (currently Light mode)" aria-live=polite aria-pressed=false><svg viewBox="0 0 24 24" width=24 height=24 class=lightToggleIcon_pyhR><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 class=darkToggleIcon_wfgR><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg></button></div><div class=navbarSearchContainer_Bca1><div class="navbar__search searchBarContainer_NW3z" dir=ltr><input placeholder=Search aria-label=Search class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item p-title"><div class=menu__list-item-collapsible><a class="menu__link menu__link--active">BioStar 2</a></div><ul style=display:block;overflow:visible;height:auto class=menu__list><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist menu__link--active" tabindex=0 href=/biostar2-docs/en/>New Feature Overview</a><button aria-label="Collapse sidebar category 'New Feature Overview'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul style=display:block;overflow:visible;height:auto class=menu__list><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist menu__link--active" tabindex=0 href=/biostar2-docs/en/update/biostar2-299>Version 2.9.9</a><button aria-label="Collapse sidebar category 'Version 2.9.9'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul style=display:block;overflow:visible;height:auto class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href=/biostar2-docs/en/update/299/how-to-use-cs20>CoreStation 20 Setup and Door Creation | CoreStation 20 설정 및 출입문 생성하기</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class=menu__link tabindex=0 href=/biostar2-docs/en/update/299/how-to-use-di24>Door Interface 오프라인 모드 전용 시설 코드 인증 설정하기</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class=menu__link tabindex=0 href=/biostar2-docs/en/update/299/settings-diretory-integration>Directory Integration Settings</a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" tabindex=0 href=/biostar2-docs/en/update/biostar2-298>Version 2.9.8</a><button aria-label="Expand sidebar category 'Version 2.9.8'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" tabindex=0 href=/biostar2-docs/en/update/biostar2-297>Version 2.9.7</a><button aria-label="Expand sidebar category 'Version 2.9.7'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" tabindex=0 href=/biostar2-docs/en/update/biostar2-295>Version 2.9.5</a><button aria-label="Expand sidebar category 'Version 2.9.5'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2"><hr><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" tabindex=0 href=/biostar2-docs/en/revision/>Revision Notes</a><button aria-label="Expand sidebar category 'Revision Notes'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul></ul></nav><button type=button title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width=20 height=20 aria-hidden=true class=collapseSidebarButtonIcon_kv0_><g fill=#7a7a7a><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"/><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"/></g></svg></button></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_z5aJ"><div class=docItemContainer_c0TR><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Alpn" aria-label=Breadcrumbs><ul class=breadcrumbs itemscope itemtype=https://schema.org/BreadcrumbList><li class=breadcrumbs__item><a aria-label=Home class=breadcrumbs__link href=/biostar2-docs/en/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_xK9p><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li class=breadcrumbs__item><span class=breadcrumbs__link>BioStar 2</span><meta itemprop=position content=1><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class=breadcrumbs__item><a class=breadcrumbs__link itemprop=item href=/biostar2-docs/en/><span itemprop=name>New Feature Overview</span></a><meta itemprop=position content=2><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class=breadcrumbs__item><a class=breadcrumbs__link itemprop=item href=/biostar2-docs/en/update/biostar2-299><span itemprop=name>Version 2.9.9</span></a><meta itemprop=position content=3><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link itemprop=name>CoreStation 20 Setup and Door Creation | CoreStation 20 설정 및 출입문 생성하기</span><meta itemprop=position content=4></ul><div class=btnprint_MOIq><button disabled>PDF</button><button class=feedback__button_L4gG disabled>Feedback</button></div></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_XdKt"><button type=button class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>CoreStation 20 Setup and Door Creation | CoreStation 20 설정 및 출입문 생성하기</h1></header><p>CoreStation 20 (CS-20/CS-20P) is Suprema’s new controller that facilitates secure access control for two doors.<br>Compared to the previous four-door model, CoreStation (CS-40), it is lighter and optimized for RFID card-based access control.<br>It can store up to 500,000 users and supports compatibility with various interfaces.<br>In particular, the CS-20P model supports PoE+ (Power over Ethernet) for easy installation and is equipped with a SAM card slot for enhanced security.</p>
-<p>CoreStation 20(CS-20/CS-20P)은 2도어 출입 통제를 손쉽게 구현할 수 있는 슈프리마의 신규 컨트롤러입니다.<br>기존 4도어 지원 모델인 CoreStation(CS-40) 대비 경량화되어, RFID 카드 기반 출입 통제에 최적화된 설계를 제공합니다.<br>최대 50만 명의 사용자 정보를 저장할 수 있으며, 다양한 인터페이스와의 호환성을 지원합니다.<br>특히 CS-20P 모델은 PoE+(Power over Ethernet)로 간편한 설치가 가능하며, 보안 강화를 위한 SAM 카드 슬롯도 탑재하고 있습니다.</p>
-<p>This document provides an overview of the CoreStation 20 menu in BioStar 2 and describes how to create doors.</p>
-<p>이 문서에서는 BioStar 2에서 CoreStation 20의 메뉴 설명과 출입문을 생성하는 방법을 안내합니다.</p>
+<!doctype html><html lang=en-US dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-update/299/how-to-use-cs20" data-has-hydrated=false><meta charset=UTF-8><meta name=generator content="Docusaurus v3.7.0"><title data-rh=true>CoreStation 20 Setup and Door Creation | Suprema Docs</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"><meta data-rh=true name=twitter:card content=summary_large_image><meta data-rh=true property=og:image content=https://docs.supremainc.com/biostar2-docs/en/img/sns_img02.jpg><meta data-rh=true name=twitter:image content=https://docs.supremainc.com/biostar2-docs/en/img/sns_img02.jpg><meta data-rh=true property=og:url content=https://docs.supremainc.com/biostar2-docs/en/update/299/how-to-use-cs20><meta data-rh=true property=og:locale content=en_US><meta data-rh=true property=og:locale:alternate content=ko_KR><meta data-rh=true name=docusaurus_locale content=en><meta data-rh=true name=docsearch:language content=en><meta data-rh=true name=docusaurus_version content=current><meta data-rh=true name=docusaurus_tag content=docs-default-current><meta data-rh=true name=docsearch:version content=current><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current><meta data-rh=true property=og:title content="CoreStation 20 Setup and Door Creation | Suprema Docs"><meta data-rh=true name=description content="This document describes how to properly use CoreStation 20 in BioStar 2."><meta data-rh=true property=og:description content="This document describes how to properly use CoreStation 20 in BioStar 2."><meta data-rh=true name=keywords content="CoreStation 20,CS-20,CS-20P"><link data-rh=true rel=icon href=/biostar2-docs/en/img/favicon.ico><link data-rh=true rel=canonical href=https://docs.supremainc.com/biostar2-docs/en/update/299/how-to-use-cs20><link data-rh=true rel=alternate href=https://docs.supremainc.com/biostar2-docs/update/299/how-to-use-cs20 hreflang=ko-KR><link data-rh=true rel=alternate href=https://docs.supremainc.com/biostar2-docs/en/update/299/how-to-use-cs20 hreflang=en-US><link data-rh=true rel=alternate href=https://docs.supremainc.com/biostar2-docs/update/299/how-to-use-cs20 hreflang=x-default><link rel=stylesheet href=/biostar2-docs/en/assets/css/styles.6629ede7.css><script src=/biostar2-docs/en/assets/js/runtime~main.2c43aed0.js defer></script><script src=/biostar2-docs/en/assets/js/main.63fec8ea.js defer></script><body class=navigation-with-keyboard><script>!function(){var t,e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t=null!==e?e:"light",document.documentElement.setAttribute("data-theme",t)}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><link rel=preload as=image href=/biostar2-docs/en/img/suprema-logo.svg><link rel=preload as=image href=/biostar2-docs/en/img/suprema-logo-bottom.svg><div role=region aria-label="Skip to main content"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><nav aria-label=Main class="navbar navbar--fixed-top"><div class=navbar__inner><div class=navbar__items><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/biostar2-docs/en/><div class=navbar__logo><img src=/biostar2-docs/en/img/suprema-logo.svg alt="Suprema Docs" class="themedComponent_mlkZ themedComponent--light_NVdE" width=120px><img src=/biostar2-docs/en/img/suprema-logo.svg alt="Suprema Docs" class="themedComponent_mlkZ themedComponent--dark_xIcU" width=120px></div><b class="navbar__title text--truncate">BioStar 2</b></a></div><div class="navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href=# aria-haspopup=true aria-expanded=false role=button class=navbar__link><svg viewBox="0 0 24 24" width=20 height=20 aria-hidden=true class=iconLanguage_nlXk><path fill=currentColor d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/></svg>English</a><ul class=dropdown__menu><li><a href=/biostar2-docs/update/299/how-to-use-cs20 target=_self rel="noopener noreferrer" class=dropdown__link lang=ko-KR>한국어</a><li><a href=/biostar2-docs/en/update/299/how-to-use-cs20 target=_self rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang=en-US>English</a></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type=button disabled title="Switch between dark and light mode (currently Light mode)" aria-label="Switch between dark and light mode (currently Light mode)" aria-live=polite aria-pressed=false><svg viewBox="0 0 24 24" width=24 height=24 class=lightToggleIcon_pyhR><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 class=darkToggleIcon_wfgR><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg></button></div><div class=navbarSearchContainer_Bca1><div class="navbar__search searchBarContainer_NW3z" dir=ltr><input placeholder=Search aria-label=Search class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item p-title"><div class=menu__list-item-collapsible><a class="menu__link menu__link--active">BioStar 2</a></div><ul style=display:block;overflow:visible;height:auto class=menu__list><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist menu__link--active" tabindex=0 href=/biostar2-docs/en/>New Feature Overview</a><button aria-label="Collapse sidebar category 'New Feature Overview'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul style=display:block;overflow:visible;height:auto class=menu__list><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist menu__link--active" tabindex=0 href=/biostar2-docs/en/update/biostar2-299>Version 2.9.9</a><button aria-label="Collapse sidebar category 'Version 2.9.9'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul style=display:block;overflow:visible;height:auto class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href=/biostar2-docs/en/update/299/how-to-use-cs20>CoreStation 20 Setup and Door Creation</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class=menu__link tabindex=0 href=/biostar2-docs/en/update/299/how-to-use-di24>Setting Facility Code Authentication for Offline Mode in Door Interface</a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-4 menu__list-item"><a class=menu__link tabindex=0 href=/biostar2-docs/en/update/299/settings-diretory-integration>Directory Integration Settings</a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" tabindex=0 href=/biostar2-docs/en/update/biostar2-298>Version 2.9.8</a><button aria-label="Expand sidebar category 'Version 2.9.8'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" tabindex=0 href=/biostar2-docs/en/update/biostar2-297>Version 2.9.7</a><button aria-label="Expand sidebar category 'Version 2.9.7'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-3 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" tabindex=0 href=/biostar2-docs/en/update/biostar2-295>Version 2.9.5</a><button aria-label="Expand sidebar category 'Version 2.9.5'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2"><hr><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-2 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="menu__link menu__link--sublist" tabindex=0 href=/biostar2-docs/en/revision/>Revision Notes</a><button aria-label="Expand sidebar category 'Revision Notes'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul></ul></nav><button type=button title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width=20 height=20 aria-hidden=true class=collapseSidebarButtonIcon_kv0_><g fill=#7a7a7a><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"/><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"/></g></svg></button></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_z5aJ"><div class=docItemContainer_c0TR><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Alpn" aria-label=Breadcrumbs><ul class=breadcrumbs itemscope itemtype=https://schema.org/BreadcrumbList><li class=breadcrumbs__item><a aria-label=Home class=breadcrumbs__link href=/biostar2-docs/en/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_xK9p><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li class=breadcrumbs__item><span class=breadcrumbs__link>BioStar 2</span><meta itemprop=position content=1><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class=breadcrumbs__item><a class=breadcrumbs__link itemprop=item href=/biostar2-docs/en/><span itemprop=name>New Feature Overview</span></a><meta itemprop=position content=2><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class=breadcrumbs__item><a class=breadcrumbs__link itemprop=item href=/biostar2-docs/en/update/biostar2-299><span itemprop=name>Version 2.9.9</span></a><meta itemprop=position content=3><li itemscope itemprop=itemListElement itemtype=https://schema.org/ListItem class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link itemprop=name>CoreStation 20 Setup and Door Creation</span><meta itemprop=position content=4></ul><div class=btnprint_MOIq><button disabled>PDF</button><button class=feedback__button_L4gG disabled>Feedback</button></div></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_XdKt"><button type=button class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>CoreStation 20 Setup and Door Creation</h1></header><p>CoreStation 20 (CS-20/CS-20P) is Suprema's new controller that enables easy implementation of two-door access control.<br>Compared to the existing four-door model, CoreStation (CS-40), it is lighter and optimized for RFID card-based access control.<br>It can store up to 500,000 user infomation and supports compatibility with various interfaces.<br>In particular, the CS-20P model supports easy installation with PoE+ (Power over Ethernet) and is equipped with a SAM card slot for enhanced security.</p>
+<p>This document provides an overview of the CoreStation 20 menu in BioStar 2 and explains how to create doors.</p>
 <div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><ul>
 <li>
 <p>CoreStation 20 does not support wireless door locks.</p>
 </li>
 <li>
-<p>CoreStation 20은 무선 도어락을 지원하지 않습니다.</p>
-</li>
-<li>
-<p>CoreStation 20 does not support biometric authentication (such as facial or fingerprint authentication) and only supports card authentication.<br>For biometric authentication, it is recommended to use CoreStation (CS-40).</p>
-</li>
-<li>
-<p>CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 않으며, 카드 인증만 지원합니다.<br>바이오메트릭 인증을 사용하려는 경우에는 CoreStation(CS-40)을 사용하는 것을 권장합니다.</p>
+<p>CoreStation 20 does not support biometric authentication (such as face or fingerprint); only card authentication is supported.<br>If biometric authentication is required, it is recommended to use CoreStation (CS-40).</p>
 </li>
 </ul></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id=configuring-detailed-items--세부-항목-설정하기>Configuring Detailed Items | 세부 항목 설정하기<a href=#configuring-detailed-items--세부-항목-설정하기 class=hash-link aria-label="Direct link to Configuring Detailed Items | 세부 항목 설정하기" title="Direct link to Configuring Detailed Items | 세부 항목 설정하기">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=cs20detailsetting>Detailed Device Settings<a href=#cs20detailsetting class=hash-link aria-label="Direct link to Detailed Device Settings" title="Direct link to Detailed Device Settings">​</a></h2>
 <ol>
 <li>
-<p>Click <span class=cmd>Device</span>.</p>
+<p>Click <span class=cmd>DEVICE</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Device</span>를 클릭하세요.</p>
-</li>
-<li>
-<p>Select the CoreStation 20 (CS-20/CS-20P) to configure from the device list.</p>
-</li>
-<li>
-<p>장치 목록에서 설정하려는 CoreStation 20(CS-20/CS-20P)을 선택하세요.</p>
+<p>In the device list, select the CoreStation 20 (CS-20/CS-20P) you want to configure.</p>
 </li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=device-information--장치-정보>Device Information | 장치 정보<a href=#device-information--장치-정보 class=hash-link aria-label="Direct link to Device Information | 장치 정보" title="Direct link to Device Information | 장치 정보">​</a></h3>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-Info-ko.png></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=device-information>Device Information<a href=#device-information class=hash-link aria-label="Direct link to Device Information" title="Direct link to Device Information">​</a></h3>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-Info.png></p>
 <ul>
 <li>
 <p><span class=cmd>Name</span>: Enter the desired device name.</p>
 </li>
 <li>
-<p><span class=cmd>Name</span>: 원하는 장치 이름을 입력하세요.</p>
+<p><span class=cmd>Device ID</span>: The device ID appears.</p>
 </li>
 <li>
-<p><span class=cmd>Device ID</span>: Check the device ID.</p>
+<p><span class=cmd>Firmware Version</span>: Click <span class=cmd>Firmware Upgrade</span> to install a new firmware version.</p>
 </li>
 <li>
-<p><span class=cmd>Device ID</span>: 장치 ID를 확인할 수 있습니다.</p>
+<p><span class=cmd>Kernel Version</span>: You can check the kernel version.</p>
 </li>
 <li>
-<p><span class=cmd>Firmware Version</span>: Click <span class=cmd>Firmware Upgrade</span> to install the latest firmware version.</p>
+<p><span class=cmd>Restore to default</span>: You can initialize the device settings. Click <span class=cmd>All</span> to initialize all settings, or click <span class=cmd>Without Network</span> to initialize all settings except for the network configuration.</p>
 </li>
 <li>
-<p><span class=cmd>Firmware Version</span>: <span class=cmd>Firmware Upgrade</span>를 클릭하면 새로운 펌웨어 버전을 설치할 수 있습니다.</p>
+<p><span class=cmd>Time Zone</span>: Set the device's time zone. The device time zone can be set differently from the BioStar 2 server time zone.</p>
 </li>
 <li>
-<p><span class=cmd>Kernel Version</span>: Check the kernel version.</p>
+<p><span class=cmd>Daylight Saving Time</span>: Apply the daylight saving time set by the user to the device. New daylight saving time can be added in <span class=cmd>Settings</span> → <span class=cmd>DaylightSaving Time</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Kernel Version</span>: 커널 버전을 확인할 수 있습니다.</p>
+<p><span class=cmd>Group</span>: You can change the device group. Device groups can be added by right-clicking <span class=cmd>All Devices</span> in the <span class=cmd>Device</span> menu and selecting <span class=cmd>Add Device Group</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Restore to default</span>: You can initialize the device settings. Click <span class=cmd>All</span> to initialize all settings, or <span class=cmd>Without Network</span> to initialize all except network settings.</p>
+<p><span class=cmd>Device Type</span>: The device type appears.</p>
 </li>
 <li>
-<p><span class=cmd>Restore to default</span>: 장치의 설정을 초기화할 수 있습니다. <span class=cmd>All</span>을 클릭하면 모든 설정을 초기화하며, <span class=cmd>Without Network</span>를 클릭하면 네트워크 설정은 유지하고 나머지 설정을 초기화합니다.</p>
+<p><span class=cmd>Product Name</span>: You can check the model name.</p>
 </li>
 <li>
-<p><span class=cmd>Time Zone</span>: Set the device’s time zone. The device time zone can be set independently from the BioStar 2 server time zone.</p>
+<p><span class=cmd>Hardware Version</span>: You can check the hardware version.</p>
 </li>
 <li>
-<p><span class=cmd>Time Zone</span>: 장치의 표준 시간대를 설정하세요. 장치의 표준 시간대는 BioStar 2 서버의 시간대와 다르게 설정할 수 있습니다.</p>
+<p><span class=cmd>Locked</span>: If the device is locked due to trigger & actions, click the <span class=cmd>Unlock</span> button to unlock it.</p>
 </li>
 <li>
-<p><span class=cmd>Daylight Saving Time</span>: Apply the user-defined daylight saving time to the device. New daylight saving times can be added in <span class=cmd>Settings</span> → <span class=cmd>DaylightSaving Time</span>.</p>
-</li>
-<li>
-<p><span class=cmd>Daylight Saving Time</span>: 사용자가 설정한 일광 절약 시간을 장치에 적용할 수 있습니다. 새 일광 절약 시간은 <span class=cmd>Settings</span> → <span class=cmd>DaylightSaving Time</span>에서 추가할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Group</span>: Change the device group. Device groups can be added by right-clicking <span class=cmd>All Devices</span> in the <span class=cmd>Device</span> menu and selecting <span class=cmd>Add Device Group</span>.</p>
-</li>
-<li>
-<p><span class=cmd>Group</span>: 장치 그룹을 변경할 수 있습니다. 장치 그룹은 <span class=cmd>Device</span>메뉴에서 <span class=cmd>All Devices</span> 부분에 마우스 오른쪽 버튼을 클릭한 후 <span class=cmd>Add Device Group</span>를 선택하여 추가할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Device Type</span>: Check the device type.</p>
-</li>
-<li>
-<p><span class=cmd>Device Type</span>: 장치 종류를 확인할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Product Name</span>: Check the model name.</p>
-</li>
-<li>
-<p><span class=cmd>Product Name</span>: 모델 이름을 확인할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Hardware Version</span>: Check the hardware version.</p>
-</li>
-<li>
-<p><span class=cmd>Hardware Version</span>: 하드웨어 버전을 확인할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Locked</span>: If the device is locked due to operational conditions, click <span class=cmd>Unlock</span> to unlock it.</p>
-</li>
-<li>
-<p><span class=cmd>Locked</span>: 작업 조건 및 동작에 의해 장치가 잠겼을 경우 <span class=cmd>Unlock</span> 버튼을 클릭하여 해제할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Time Synchronization with Server</span>: Select to synchronize the device time with the server.</p>
-</li>
-<li>
-<p><span class=cmd>Time Synchronization with Server</span>: 장치의 시간 정보를 서버와 동기화하려면 선택하세요.</p>
+<p><span class=cmd>Time Synchronization with Server</span>: Select this option to synchronize the device time with the server.</p>
 </li>
 </ul>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id=system--시스템>System | 시스템<a href=#system--시스템 class=hash-link aria-label="Direct link to System | 시스템" title="Direct link to System | 시스템">​</a></h5>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id=system>System<a href=#system class=hash-link aria-label="Direct link to System" title="Direct link to System">​</a></h5>
 <ul>
 <li>
-<p><span class=cmd>Display Date</span>: Click <img loading=lazy src=/biostar2-docs/en/img/en/menus/ico-calendar.png class=ico> to manually set the date and time. If time synchronization with the server is enabled, manual setting is not available.</p>
+<p><span class=cmd>Display Date</span>: Click <img loading=lazy src=/biostar2-docs/en/img/en/menus/ico-calendar.png class=ico> to manually set the date and time. If <span class=cmd>Time Synchronization with Server</span> is enabled, you cannot manually set the date or time.</p>
 </li>
 <li>
-<p><span class=cmd>Display Date</span>: <img loading=lazy src=/biostar2-docs/en/img/en/menus/ico-calendar.png class=ico>을 클릭하여 날짜와 시간을 수동으로 설정할 수 있습니다. 서버와 시간 동기화가 선택되어 있다면 사용자가 수동으로 날짜나 시간을 선택할 수 없습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Get Time</span>: Click to get the current time set on the device.</p>
-</li>
-<li>
-<p><span class=cmd>Get Time</span>: 장치에 설정된 시간을 불러오려면 클릭하세요.</p>
+<p><span class=cmd>Get Time</span>: Click to retrieve the time set on the device.</p>
 </li>
 <li>
 <p><span class=cmd>Set Time</span>: Click to apply the time set in BioStar 2 to the device.</p>
 </li>
-<li>
-<p><span class=cmd>Set Time</span>: BioStar 2에 설정된 시간을 장치에 적용하려면 클릭하세요.</p>
-</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=network-settings--네트워크-설정>Network Settings | 네트워크 설정<a href=#network-settings--네트워크-설정 class=hash-link aria-label="Direct link to Network Settings | 네트워크 설정" title="Direct link to Network Settings | 네트워크 설정">​</a></h3>
-<p><strong>TCP/IP</strong>, <strong>DHCP</strong>, <strong>IP 주소</strong>, <strong>서브넷 마스크</strong>, <strong>게이트웨이</strong>, <strong>DNS</strong> 등 기본 네트워크 설정을 지원합니다.</p>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>RS485</span> 포트는 <span class=cmd>Master</span> 모드만 사용할 수 있습니다.</div></div>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-Network-ko.png></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=network-settings>Network Settings<a href=#network-settings class=hash-link aria-label="Direct link to Network Settings" title="Direct link to Network Settings">​</a></h3>
+<p><strong>TCP/IP</strong>, <strong>DHCP</strong>, <strong>IP Address</strong>, <strong>Subnet Mask</strong>, <strong>Gateway</strong>, <strong>DNS</strong>, etc. Basic network settings are supported.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>RS485</span> port can only be used in <span class=cmd>Master</span> mode.</div></div>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-Network.png></p>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id=tcpip>TCP/IP<a href=#tcpip class=hash-link aria-label="Direct link to TCP/IP" title="Direct link to TCP/IP">​</a></h5>
 <ul>
 <li>
-<p><span class=cmd>Use DHCP</span>: 장치가 유동 IP 주소를 사용하도록 설정하려면 체크하세요. 이 항목을 체크하면 고정 IP 주소를 할당할 수 없습니다.</p>
+<p><span class=cmd>Use DHCP</span>: Check this option to configure the device to use a dynamic IP address. If this option is selected, a static IP address cannot be assigned.</p>
 </li>
 <li>
-<p><span class=cmd>IP Address</span>, <span class=cmd>Subnet Mask</span>, <span class=cmd>Gateway</span>: 장치에 고정 IP를 할당할 경우 각 네트워크 정보를 입력하세요. <span class=cmd>Use DHCP</span>을 체크 해제한 뒤 입력하세요.</p>
+<p><span class=cmd>IP Address</span>, <span class=cmd>Subnet Mask</span>, <span class=cmd>Gateway</span>: Enter the network information if you want to assign a static IP address to the device. Make sure to uncheck <span class=cmd>Use DHCP</span> before entering these values.</p>
 </li>
 <li>
-<p><span class=cmd>Device Port</span>: 장치가 사용할 포트를 입력하세요. 이 포트는 BioStar 2와 장치간의 통신에 사용됩니다.</p>
+<p><span class=cmd>Device Port</span>: Enter the port number that the device will use. This port is used for communication between BioStar 2 and the device.</p>
 </li>
 <li>
-<p><span class=cmd>DNS Server Address</span>: DNS 서버 주소를 입력하세요.</p>
+<p><span class=cmd>DNS Server Address</span>: Enter the DNS server address.</p>
 </li>
 </ul>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id=server-communication--서버-통신>Server Communication | 서버 통신<a href=#server-communication--서버-통신 class=hash-link aria-label="Direct link to Server Communication | 서버 통신" title="Direct link to Server Communication | 서버 통신">​</a></h5>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id=server-communication>Server Communication<a href=#server-communication class=hash-link aria-label="Direct link to Server Communication" title="Direct link to Server Communication">​</a></h5>
 <ul>
-<li><span class=cmd>Device ▶ Server Connection</span>: 장치에서 연결할 BioStar 2 정보를 설정하려면 선택하세요. 이 항목을 선택하면 BioStar 2의 네트워크 정보를 입력할 수 있습니다.</li>
-<li><span class=cmd>Server Address</span>: BioStar 2의 IP 주소를 입력하세요.</li>
-<li><span class=cmd>Server Port</span>: BioStar 2의 포트를 입력하세요.</li>
+<li>
+<p><span class=cmd>Device ▶ Server Connection</span>: Select this option to configure the BioStar 2 connection information for the device. When selected, you can enter the network information for BioStar 2.</p>
+</li>
+<li>
+<p><span class=cmd>Server Address</span>: Enter the IP address of BioStar 2.</p>
+</li>
+<li>
+<p><span class=cmd>Server Port</span>: Enter the port number of BioStar 2.</p>
+</li>
 </ul>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id=serial-communication--시리얼-통신>Serial Communication | 시리얼 통신<a href=#serial-communication--시리얼-통신 class=hash-link aria-label="Direct link to Serial Communication | 시리얼 통신" title="Direct link to Serial Communication | 시리얼 통신">​</a></h5>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id=serial-communication>Serial Communication<a href=#serial-communication class=hash-link aria-label="Direct link to Serial Communication" title="Direct link to Serial Communication">​</a></h5>
 <ul>
-<li><span class=cmd>RS485</span>: 마스터 모드만 사용할 수 있습니다.</li>
-<li><span class=cmd>Baud Rate</span>: 각 RS-485 포트의 전송 속도를 설정할 수 있습니다.</li>
-<li><span class=cmd>SCB Key</span>: 장치의 SCB 키를 설정할 수 있습니다. 이 메뉴는 CoreStation 20에 연결된 RS-485 장치가 없을 때에만 활성화 됩니다.</li>
-<li><span class=cmd>SCB Key Confirm</span>: 설정한 SCB 키와 일치 여부를 확인합니다. 이 메뉴는 CoreStation 20에 연결된 RS-485 장치가 없을 때에만 활성화 됩니다.</li>
+<li>
+<p><span class=cmd>RS485</span>: Only master mode is supported.</p>
+</li>
+<li>
+<p><span class=cmd>Baud Rate</span>: Set the baud rate for each RS-485 port.</p>
+</li>
+<li>
+<p><span class=cmd>SCB Key</span>: Set the SCB key for the device. This menu is only enabled when there are no RS-485 devices connected to CoreStation 20.</p>
+</li>
+<li>
+<p><span class=cmd>SCB Key Confirm</span>: Confirms whether the entered SCB key matches. This menu is only enabled when there are no RS-485 devices connected to CoreStation 20.</p>
+</li>
 </ul>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>SCB Key</span>는 최대 16 바이트까지 입력할 수 있습니다.</div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=authentication-settings--인증-설정>Authentication Settings | 인증 설정<a href=#authentication-settings--인증-설정 class=hash-link aria-label="Direct link to Authentication Settings | 인증 설정" title="Direct link to Authentication Settings | 인증 설정">​</a></h3>
-<p><span class=cmd>Server Matching</span>, <span class=cmd>Card Type</span>(<span class=cmd>CSN Card</span>, <span class=cmd>EM4100</span>, <span class=cmd>Mifare/Felica</span>), <span class=cmd>Byte Order</span>, <span class=cmd>Format Type</span> 등 카드 인증 관련 설정을 지원합니다.</p>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 않으며, 카드 인증만 지원합니다.</div></div>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-auth-ko.png></p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>SCB Key</span> can be entered up to 16 bytes.</div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=authentication-settings>Authentication Settings<a href=#authentication-settings class=hash-link aria-label="Direct link to Authentication Settings" title="Direct link to Authentication Settings">​</a></h3>
+<p>Supports card authentication related settings such as <span class=cmd>Server Matching</span>, <span class=cmd>Card Type</span>(<span class=cmd>CSN Card</span>, <span class=cmd>EM4100</span>, <span class=cmd>Mifare/Felica</span>), <span class=cmd>Byte Order</span>, and <span class=cmd>Format Type</span>.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>CoreStation 20 does not support biometric authentication (such as face or fingerprint); only card authentication is supported.</div></div>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-auth.png></p>
 <ul>
-<li><span class=cmd>Server Matching</span>: <span class=cmd>Act</span>으로 설정하면 BioStar 2가 설치된 PC에 저장된 사용자 정보를 이용하여 인증을 수행하며, <span class=cmd>Deact</span>으로 설정하면 장치에 저장된 사용자 정보를 이용하여 인증을 수행합니다. 서버 매칭을 사용할 경우 BioStar 2의 서버 매칭도 활성화해야 하며, <span class=cmd>Settings</span> → <span class=cmd>Server</span> → <span class=cmd>Server Matching</span>에서 <span class=cmd>Use Server Matching</span>을 활성화하세요.</li>
-<li><span class=cmd>Server Matching</span>: <span class=cmd>Act</span>으로 설정하면 BioStar 2가 설치된 PC에 저장된 사용자 정보를 이용하여 인증을 수행하며, <span class=cmd>Deact</span>으로 설정하면 장치에 저장된 사용자 정보를 이용하여 인증을 수행합니다. 서버 매칭을 사용할 경우 BioStar 2의 서버 매칭도 활성화해야 하며, <span class=cmd>Settings</span> → <span class=cmd>Server</span> → <span class=cmd>Server Matching</span>에서 <span class=cmd>Use Server Matching</span>을 활성화하세요.</li>
+<li><span class=cmd>Server Matching</span>: If set to <span class=cmd>Act</span>, authentication is performed using the user information stored on the PC where BioStar 2 is installed. If set to <span class=cmd>Deact</span>, authentication is performed using the user information stored on the device. When using server matching, BioStar 2's server matching must also be activated by enabling <span class=cmd>Use Server Matching</span> in <span class=cmd>Settings</span> → <span class=cmd>Server</span> → <span class=cmd>Server Matching</span>.</li>
 </ul>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id=card-types--카드-종류>Card Types | 카드 종류<a href=#card-types--카드-종류 class=hash-link aria-label="Direct link to Card Types | 카드 종류" title="Direct link to Card Types | 카드 종류">​</a></h5>
-<p>장치에서 사용할 카드 종류를 설정할 수 있습니다.</p>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>장치에서 지원하는 카드 종류가 표시됩니다.</div></div>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id=card-types>Card Types<a href=#card-types class=hash-link aria-label="Direct link to Card Types" title="Direct link to Card Types">​</a></h5>
+<p>You can set the types of cards to be used on the device.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>The types of cards supported by the device are displayed.</div></div>
 <ul>
-<li><span class=cmd>CSN Card</span>: CSN 카드 및 포맷 종류를 선택하고 바이트 순서를 설정할 수 있습니다.</li>
+<li><span class=cmd>CSN Card</span>: Select the CSN card and format type and set the byte order.</li>
 </ul>
 <div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><ul>
 <li>
-<p><span class=cmd>Format Type</span>를 <span class=cmd>Normal</span>으로 설정하면 카드의 일련 번호(CSN)를 별도의 변환 없이 모두 읽어서 표현하며, <span class=cmd>Wiegand</span>로 설정하면 장치가 CSN 카드를 읽을 때 사용자가 정의한 Wiegand 형식에 따라 카드의 일련 번호(CSN)를 변환하며 표현합니다.</p>
+<p>When <span class=cmd>Format Type</span> is set to <span class=cmd>Normal</span>, the card serial number (CSN) is read and presented without any conversion. When set to <span class=cmd>Wiegand</span>, the device converts and presents the card serial number (CSN) according to the user-defined Wiegand format when reading a CSN card.</p>
 </li>
 <li>
-<p><span class=cmd>Format Type</span>를 <span class=cmd>Wiegand</span>로 설정하면 장치에서 사용할 Wiegand 형식을 선택할 수 있습니다.</p>
+<p>When <span class=cmd>Format Type</span> is set to <span class=cmd>Wiegand</span>, the Wiegand format to be used on the device is selected.</p>
 </li>
 <li>
-<p><span class=cmd>Byte Order</span>를 <strong>MSB</strong>로 설정할 경우 카드 데이터를 처리할 때 큰 바이트 단위에서 작은 바이트 단위 순서로 처리하여 카드의 일련 번호(CSN)를 저장할 때 왼쪽에서 오른쪽으로 순차적으로 처리합니다. <strong>LSB</strong>는 작은 바이트 단위에서 큰 바이트 단위 순서로 처리하여 카드의 일련 번호(CSN)를 저장합니다.</p>
+<p>When <span class=cmd>Byte Order</span> is set to <strong>MSB</strong>, card data is processed from the most significant byte to the least significant byte, and the card serial number (CSN) is proceed sequentially from left to right. <strong>LSB</strong> processes card data from the least significant byte to the most significant byte and stores the card serial number (CSN) accordingly.</p>
 </li>
 </ul></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=advanced-settings--고급-설정>Advanced Settings | 고급 설정<a href=#advanced-settings--고급-설정 class=hash-link aria-label="Direct link to Advanced Settings | 고급 설정" title="Direct link to Advanced Settings | 고급 설정">​</a></h3>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-advanced-ko.png></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=advanced-settings>Advanced Settings<a href=#advanced-settings class=hash-link aria-label="Direct link to Advanced Settings" title="Direct link to Advanced Settings">​</a></h3>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-advanced.png></p>
 <ul>
 <li>
-<p><span class=cmd>Tamper</span>: 탬퍼 감지 기능을 키거나 끌 수 있습니다. 탬퍼 감지 기능은 장치의 뚜껑이 열리거나 장치가 떨어졌을 때 알람을 발생시킵니다.</p>
+<p><span class=cmd>Tamper</span>: Enable or disable the tamper detection feature. The tamper detection feature triggers an alarm when the device's cover is opened or the device is dropped.</p>
 </li>
 <li>
-<p><span class=cmd>AC Fail</span>: 전원 입력 신호 감지 기능을 키거나 끌 수 있습니다. AC Fail 기능은 전원 공급이 중단되었을 때 알람을 발생시킵니다.</p>
+<p><span class=cmd>AC Fail</span>: Enable or disable the AC fail detection feature. The AC Fail feature triggers an alarm when the power supply is interrupted.</p>
 </li>
 <li>
-<p><span class=cmd>Fire</span>: 화재 감지 기능을 키거나 끌 수 있습니다. 화재 감지 기능은 화재가 발생하여 감지되면 알람과 함께 CoreStation 20으로 생성한 모든 출입문을 자동으로 개방합니다.</p>
+<p><span class=cmd>Fire</span>: Enable or disable the fire detection feature. The fire detection feature triggers an alarm and automatically opens all doors created with CoreStation 20 when a fire is detected.</p>
 </li>
 </ul>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>Tamper</span>, <span class=cmd>AC Fail</span>, <span class=cmd>Fire</span>는 각 기능별로 Aux Input 0~2 포트가 고정으로 할당되어 있기 때문에 기능만 키면 자동으로 설정됩니다. 이 포트는 사용자가 변경할 수 없습니다.</div></div>
-<h5 class="anchor anchorWithStickyNavbar_LWe7" id=operation-conditions-and-actions--작업-조건-및-동작>Operation Conditions and Actions | 작업 조건 및 동작<a href=#operation-conditions-and-actions--작업-조건-및-동작 class=hash-link aria-label="Direct link to Operation Conditions and Actions | 작업 조건 및 동작" title="Direct link to Operation Conditions and Actions | 작업 조건 및 동작">​</a></h5>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>Tamper</span>, <span class=cmd>AC Fail</span>, <span class=cmd>Fire</span> are automatically set to Aux Input 0~2 ports fixed for each function, so they are automatically set the feature is turned on. These ports cannot be changed by the user.</div></div>
+<h5 class="anchor anchorWithStickyNavbar_LWe7" id=trigger--action>Trigger & Action<a href=#trigger--action class=hash-link aria-label="Direct link to Trigger & Action" title="Direct link to Trigger & Action">​</a></h5>
 <ul>
-<li><span class=cmd>Configuration</span>: 미리 정의된 알람이나 신호 입력에 따른 장치의 동작을 설정할 수 있습니다. 예를 들어, CoreStation 20에서 탬퍼 켜짐 신호가 발생할 때 사용자가 설정한 신호를 출력하거나 장치를 사용하지 못하도록 설정할 수 있습니다.</li>
+<li><span class=cmd>Configuration</span>: Set the device's actions according to predefined alarms or signal inputs.</li>
 </ul>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-trigger-action-ko.png></p>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-trigger-action.png></p>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id=wiegand>Wiegand<a href=#wiegand class=hash-link aria-label="Direct link to Wiegand" title="Direct link to Wiegand">​</a></h5>
 <ul>
 <li>
-<p><span class=cmd>Input/Output</span>: 입력 모드만 사용할 수 있습니다.</p>
+<p><span class=cmd>Input/Output</span>: Can only be used in input mode.</p>
 </li>
 <li>
-<p><span class=cmd>Input Format</span>: 장치에 지정할 Wiegand 형식을 변경할 수 있습니다. Wiegand 형식 설정에 대한 자세한 내용은 카드 형식을 참고하세요.</p>
+<p><span class=cmd>Input Format</span>: Change the Wiegand format assigned to the device. For details on setting the Wiegand format, refer to the card format.</p>
 </li>
 <li>
-<p><span class=cmd>Pulse Width(μs)</span>: Wiegand 신호의 펄스 폭을 설정할 수 있습니다.</p>
+<p><span class=cmd>Pulse Width(μs)</span>: Set the pulse width of the Wiegand signal.</p>
 </li>
 <li>
-<p><span class=cmd>Pulse Interval(μs)</span>: Wiegand 신호의 펄스 간격을 설정할 수 있습니다.</p>
+<p><span class=cmd>Pulse Interval(μs)</span>: Set the pulse interval of the Wiegand signal.</p>
 </li>
 </ul>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id=supervised-input>Supervised Input<a href=#supervised-input class=hash-link aria-label="Direct link to Supervised Input" title="Direct link to Supervised Input">​</a></h5>
-<p>CoreStation의 Supervised Input 포트를 TTL Input 포트로 사용하도록 설정할 수 있으며, Supervised Input에 사용할 저항값을 설정할 수 있습니다. 저항값은 1㏀, 2.2㏀, 4.7㏀, 10㏀을 설정할 수 있습니다.</p>
+<p>Set the Supervised Input port of the CoreStation 20 to be used as a Input port, and set the resistance value to be used for Supervised Input. The resistance values can be set to 1㏀, 2.2㏀, 4.7㏀, or 10㏀.</p>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id=security-tamper>Security Tamper<a href=#security-tamper class=hash-link aria-label="Direct link to Security Tamper" title="Direct link to Security Tamper">​</a></h5>
-<p>장치에서 탬퍼 이벤트가 발생할 경우 장치에 저장된 전체 사용자 정보, 전체 로그, 보안 키가 삭제되도록 설정할 수 있습니다.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id=osdp-reader-led-and-buzzer-settings--osdp-리더-led-및-버저-설정>OSDP Reader LED and Buzzer Settings | OSDP 리더 LED 및 버저 설정<a href=#osdp-reader-led-and-buzzer-settings--osdp-리더-led-및-버저-설정 class=hash-link aria-label="Direct link to OSDP Reader LED and Buzzer Settings | OSDP 리더 LED 및 버저 설정" title="Direct link to OSDP Reader LED and Buzzer Settings | OSDP 리더 LED 및 버저 설정">​</a></h3>
-<p>CoreStation 20에 연결된 모든 OSDP 리더의 이벤트 발생 시 LED와 버저의 동작을 일괄 설정할 수 있습니다.</p>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>If the connected OSDP reader does not support LED or buzzer, the configured actions may not operate as expected.<p>CoreStation 20에 연결된 OSDP 리더가 LED와 버저를 지원하지 않는 경우 설정한대로 동작하지 않을 수 있습니다.</div></div>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-LED-Buzzer-ko.png></p>
+<p>Set it so that when a tamper event occurs on the device, all user information, logs, and security keys stored on the device are deleted.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id=osdp-reader-ledbuzzer>OSDP Reader LED/Buzzer<a href=#osdp-reader-ledbuzzer class=hash-link aria-label="Direct link to OSDP Reader LED/Buzzer" title="Direct link to OSDP Reader LED/Buzzer">​</a></h3>
+<p>Uniformly set the operation of the LED and buzzer for events of all OSDP readers connected to the CoreStation 20.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>If the connected OSDP reader does not support LED and buzzer, it may not operate as set.</div></div>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-LED-Buzzer.png></p>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id=led>LED<a href=#led class=hash-link aria-label="Direct link to LED" title="Direct link to LED">​</a></h5>
-<p>The LED operation can be configured for events such as <span class=cmd>Waiting Input</span>, <span class=cmd>Auth Success</span>, and <span class=cmd>Auth Fail</span>.</p>
-<p><span class=cmd>Waiting Input</span>, <span class=cmd>Auth Success</span>, <span class=cmd>Auth Fail</span> 이벤트 발생 시 LED 동작을 설정할 수 있습니다.</p>
+<p>Set the LED operation for events such as <span class=cmd>Waiting Input</span>, <span class=cmd>Auth Success</span>, and <span class=cmd>Auth Fail</span>.</p>
 <ul>
 <li>
-<p><span class=cmd>Mode</span>: Select the desired operation from <span class=cmd>OFF</span>, <span class=cmd>Constant</span>, or <span class=cmd>Blinking</span>.</p>
+<p><span class=cmd>Mode</span>: Set the desired action among <span class=cmd>OFF</span>, <span class=cmd>Constant</span>, and <span class=cmd>Blinking</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Mode</span>: <span class=cmd>OFF</span>, <span class=cmd>Constant</span>, <span class=cmd>Blinking</span> 중에 원하는 동작을 설정할 수 있습니다.</p>
+<p><span class=cmd>Cycle</span>: If <span class=cmd>Mode</span> is selected as <span class=cmd>Blinking</span>, enter the number of times the LED will blink. Check <span class=cmd>Infinite</span> to repeat the set mode continuously.</p>
 </li>
 <li>
-<p><span class=cmd>Cycle</span>: If <span class=cmd>Mode</span> is set to <span class=cmd>Blinking</span>, enter the number of blinks. To repeat the mode continuously, check <span class=cmd>Infinite</span>.</p>
-</li>
-<li>
-<p><span class=cmd>Cycle</span>: <span class=cmd>Mode</span>를 <span class=cmd>Blinking</span>로 선택했을 경우 LED가 깜빡일 횟수를 입력합니다. 설정한 모드를 계속 반복되게 하려면 <span class=cmd>Infinite</span>에 체크하세요.</p>
-</li>
-<li>
-<p><span class=cmd>Color/Duration</span>: If <span class=cmd>Mode</span> is set to <span class=cmd>Blinking</span>, select two colors and enter the duration for each blink. If set to <span class=cmd>Constant</span>, select one color and enter the duration.</p>
-</li>
-<li>
-<p><span class=cmd>Color/Duration</span>: <span class=cmd>Mode</span>를 <span class=cmd>Blinking</span>로 선택했을 경우 설정한 반복 횟수마다 깜빡일 두 가지 색상을 선택하고 지속 시간을 입력합니다.
-<span class=cmd>Mode</span>를 <span class=cmd>Constant</span>로 선택했을 경우 점등될 하나의 색상을 선택하고 지속 시간을 입력합니다.</p>
+<p><span class=cmd>Color/Duration</span>: If <span class=cmd>Mode</span> is selected as <span class=cmd>Blinking</span>, select two colors to blink at the set repetition rate and enter the duration. If <span class=cmd>Mode</span> is selected as <span class=cmd>Constant</span>, select one color to be lit and enter the duration.</p>
 </li>
 </ul>
 <h5 class="anchor anchorWithStickyNavbar_LWe7" id=buzzer>Buzzer<a href=#buzzer class=hash-link aria-label="Direct link to Buzzer" title="Direct link to Buzzer">​</a></h5>
-<p>The buzzer operation can be configured for events such as <span class=cmd>Waiting Input</span>, <span class=cmd>Auth Success</span>, and <span class=cmd>Auth Fail</span>.</p>
-<p><span class=cmd>Waiting Input</span>, <span class=cmd>Auth Success</span>, <span class=cmd>Auth Fail</span> 이벤트 발생 시 버저의 동작을 설정할 수 있습니다.</p>
+<p>Set the operation of the buzzer for events such as <span class=cmd>Waiting Input</span>, <span class=cmd>Auth Success</span>, and <span class=cmd>Auth Fail</span>.</p>
 <ul>
 <li>
-<p><span class=cmd>Mode</span>: Select the desired operation from <span class=cmd>OFF</span>, <span class=cmd>Constant</span>, or <span class=cmd>Beeping</span>.</p>
+<p><span class=cmd>Mode</span>: Set the desired action among <span class=cmd>OFF</span>, <span class=cmd>Constant</span>, and <span class=cmd>Beeping</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Mode</span>: <span class=cmd>OFF</span>, <span class=cmd>Constant</span>, <span class=cmd>Beeping</span> 중에 원하는 동작을 설정할 수 있습니다.</p>
+<p><span class=cmd>Cycle</span>: If <span class=cmd>Mode</span> is selected as <span class=cmd>Beeping</span>, enter the number of times the buzzer will sound. Check <span class=cmd>Infinite</span> to repeat the set mode continuously.</p>
 </li>
 <li>
-<p><span class=cmd>Cycle</span>: If <span class=cmd>Mode</span> is set to <span class=cmd>Beeping</span>, enter the number of beeps. To repeat the mode continuously, check <span class=cmd>Infinite</span>.</p>
-</li>
-<li>
-<p><span class=cmd>Cycle</span>: <span class=cmd>Mode</span>를 <span class=cmd>Beeping</span>으로 선택했을 경우 버저가 출력되는 횟수를 입력합니다. 설정한 모드를 계속 반복되게 하려면 <span class=cmd>Infinite</span>에 체크하세요.</p>
-</li>
-<li>
-<p><span class=cmd>Duration</span>: If <span class=cmd>Mode</span> is set to <span class=cmd>Beeping</span>, enter the duration for each beep. If set to <span class=cmd>Constant</span>, enter the duration for the constant beep.</p>
-</li>
-<li>
-<p><span class=cmd>Duration</span>: <span class=cmd>Mode</span>를 <span class=cmd>Beeping</span>으로 선택했을 경우 설정한 반복 횟수마다 버저가 출력될 지속 시간을 입력합니다.
-<span class=cmd>Mode</span>를 <span class=cmd>Constant</span>로 선택했을 경우 버저가 출력될 지속 시간을 입력합니다.</p>
+<p><span class=cmd>Duration</span>: If <span class=cmd>Mode</span> is selected as <span class=cmd>Beeping</span>, enter the duration for which the buzzer will sound at each set repetition rate.<br>If <span class=cmd>Mode</span> is selected as <span class=cmd>Constant</span>, enter the duration for which the buzzer will sound.</p>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id=quick-door-setup--간편-출입문-설정-기능으로-출입문-생성하기>Quick Door Setup | 간편 출입문 설정 기능으로 출입문 생성하기<a href=#quick-door-setup--간편-출입문-설정-기능으로-출입문-생성하기 class=hash-link aria-label="Direct link to Quick Door Setup | 간편 출입문 설정 기능으로 출입문 생성하기" title="Direct link to Quick Door Setup | 간편 출입문 설정 기능으로 출입문 생성하기">​</a></h2>
-<p>Right-click the connected CoreStation 20 (CS-20/CS-20P) in the device list and select <span class=cmd>Quick Door Setup</span> to quickly create a door.</p>
-<p>장치 목록에서 연결된 CoreStation 20(CS-20/CS-20P)에 마우스 오른쪽 버튼을 클릭한 후 <span class=cmd>Quick Door Setup</span>을 선택하여 간편하게 출입문을 생성할 수 있습니다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=adding-doors-using-the-quick-door-setup-feature>Adding Doors Using the Quick Door Setup Feature<a href=#adding-doors-using-the-quick-door-setup-feature class=hash-link aria-label="Direct link to Adding Doors Using the Quick Door Setup Feature" title="Direct link to Adding Doors Using the Quick Door Setup Feature">​</a></h2>
+<p>Easily create doors by right-clicking on the connected CoreStation 20 (CS-20/CS-20P) in the device list and selecting <span class=cmd>Quick Door Setup</span>.</p>
 <div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><ul>
 <li>
-<p>If there are no slave or Wiegand devices connected to CoreStation 20, a door cannot be created.</p>
+<p>Doors cannot be created if no slave or Wiegand device is connected to CoreStation 20.</p>
 </li>
 <li>
-<p>CoreStation 20에 연결된 슬레이브 또는 Wiegand 장치가 없는 경우에는 출입문을 생성할 수 없습니다.</p>
-</li>
-<li>
-<p>If only a Door Interface is connected to CoreStation 20, a door cannot be created.</p>
-</li>
-<li>
-<p>CoreStation 20에 Door Interface만 연결되어 있는 경우에는 출입문을 생성할 수 없습니다.</p>
+<p>Doors cannot be created if only a Door Interface is connected to CoreStation 20.</p>
 </li>
 </ul></div></div>
 <ol>
 <li>
-<p>Click <span class=cmd>Device</span>.</p>
+<p>Click <span class=cmd>DEVICE</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Device</span>를 클릭하세요.</p>
+<p>In the device list, right-click on the device name of CoreStation 20 and click <span class=cmd>Quick Door Setup</span>.</p>
+<p class=hasimg><img loading=lazy src="/biostar2-docs/en/img/en/CS20-Quick Door Setup.png"></p>
 </li>
 <li>
-<p>Right-click the device name of CoreStation 20 and click <span class=cmd>Quick Door Setup</span>.</p>
-</li>
-<li>
-<p>장치 목록에서 CoreStation 20의 장치 이름에 마우스 오른쪽 버튼을 클릭한 후 <span class=cmd>Quick Door Setup</span>을 클릭하세요.</p>
-<p class=hasimg><img loading=lazy src="/biostar2-docs/en/img/en/CS20-Quick Door Setup-ko.png"></p>
-</li>
-<li>
-<p>Configure <span class=cmd>Name</span>, <span class=cmd>Group</span>, <span class=cmd>Description</span> and options. Up to two doors can be created using devices connected to RS-485 or Wiegand ports. For each door, <span class=cmd>Entry Device</span>, <span class=cmd>Door Relay</span>, <span class=cmd>Door Sensor</span>, and <span class=cmd>Exit Button</span> are automatically selected by port.</p>
-</li>
-<li>
-<p><span class=cmd>Name</span>, <span class=cmd>Group</span>, <span class=cmd>Description</span>과 옵션들을 설정하세요.<br>RS-485 또는 Wiegand 포트에 연결된 장치를 이용해 최대 2개의 출입문을 구성할 수 있습니다. <br>각 출입문은 포트별로 <span class=cmd>Entry Device</span>, <span class=cmd>Door Relay</span>, <span class=cmd>Door Sensor</span>, <span class=cmd>Exit Button</span> 등의 항목이 자동으로 선택됩니다.</p>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>I/O devices (Door Module, Input Module, Output Module, etc.) are not automatically selected as <span class=cmd>Entry Device</span> or <span class=cmd>Exit Device</span>.
-I/O 장치(Door Module, Input Module, Output Module 등)는 <span class=cmd>Entry Device</span>, <span class=cmd>Exit Device</span>로 자동 선택되지 않습니다.</div></div>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/Quick-door-setup-ko.png></p>
+<p>Set <span class=cmd>Name</span>, <span class=cmd>Group</span>, <span class=cmd>Description</span>, and options.<br>Up to 2 doors can be configured using devices connected to the RS-485 or Wiegand port. <br>Each door is automatically assigned items such as <span class=cmd>Entry Device</span>, <span class=cmd>Door Relay</span>, <span class=cmd>Door Sensor</span>, and <span class=cmd>Exit Button</span> by port.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>I/O devices (Door Module, Input Module, Output Module, etc.) are not automatically selected as <span class=cmd>Entry Device</span> or <span class=cmd>Exit Device</span>.</div></div>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/Quick-door-setup.png></p>
 </li>
 <li>
 <p>Click <span class=cmd>Apply</span> to create the door.</p>
 </li>
-<li>
-<p>출입문을 생성하려면 <span class=cmd>Apply</span>을 클릭하세요.</p>
-</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id=creating-a-door-from-the--menu---메뉴에서-출입문-생성하기>Creating a Door from the <span class=cmd>Door</span> Menu | <span class=cmd>Door</span> 메뉴에서 출입문 생성하기<a href=#creating-a-door-from-the--menu---메뉴에서-출입문-생성하기 class=hash-link aria-label="Direct link to creating-a-door-from-the--menu---메뉴에서-출입문-생성하기" title="Direct link to creating-a-door-from-the--menu---메뉴에서-출입문-생성하기">​</a></h2>
-<p>A door can be created by selecting the relay of CoreStation 20 in the <span class=cmd>Door</span> menu.</p>
-<p><span class=cmd>Door</span> 메뉴에서 CoreStation 20의 릴레이를 선택하여 출입문을 생성할 수 있습니다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id=adding-doors-in-the--menu>Adding Doors in the <span class=cmd>Door</span> Menu<a href=#adding-doors-in-the--menu class=hash-link aria-label="Direct link to adding-doors-in-the--menu" title="Direct link to adding-doors-in-the--menu">​</a></h2>
+<p>Add doors by selecting the relay of the CoreStation 20 in the <span class=cmd>Door</span> menu.</p>
 <ol>
 <li>
-<p>Click <span class=cmd>Device</span>.</p>
-</li>
-<li>
-<p><span class=cmd>Device</span>를 클릭하세요.</p>
+<p>Click <span class=cmd>DOOR</span>.</p>
 </li>
 <li>
 <p>Click <span class=cmd>ADD DOOR</span>.</p>
 </li>
 <li>
-<p><span class=cmd>ADD DOOR</span>를 클릭하세요.</p>
-</li>
-<li>
 <p>Refer to <span class=cmd>Information</span>, <span class=cmd>Configuration</span>, <span class=cmd>Option</span>, <span class=cmd>Anti PassBack</span>, <span class=cmd>Timed Anti PassBack</span>, and <span class=cmd>Alarm</span> to configure each item.</p>
-</li>
-<li>
-<p><span class=cmd>Information</span>, <span class=cmd>Configuration</span>, <span class=cmd>Option</span>, <span class=cmd>Anti PassBack</span>, <span class=cmd>Timed Anti PassBack</span>, <span class=cmd>Alarm</span>을 참고하여 각 항목을 설정하세요.</p>
 </li>
 </ol>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id=doorinfo><span class=cmd>Information</span><a href=#doorinfo class=hash-link aria-label="Direct link to doorinfo" title="Direct link to doorinfo">​</a></h3>
-<p>The name, group, and description of the door can be entered or changed.</p>
-<p>출입문의 이름, 그룹, 설명을 입력하거나 변경할 수 있습니다.</p>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-Door-Info-ko.png></p>
+<p>Enter or change the name, group, and description of the door.</p>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-info.png></p>
 <ul>
 <li>
 <p><span class=cmd>Name</span>: Enter the desired door name.</p>
 </li>
 <li>
-<p><span class=cmd>Name</span>: 원하는 출입문 이름을 입력하세요.</p>
-</li>
-<li>
 <p><span class=cmd>Group</span>: Select the door group. Door groups can be added by right-clicking <span class=cmd>All Doors</span> in the <span class=cmd>DOOR</span> menu and selecting <span class=cmd>Add Group</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Group</span>: 출입문 그룹을 선택하세요. 출입문 그룹은 <span class=cmd>DOOR</span> 메뉴에서 <span class=cmd>All Doors</span> 부분에 마우스 오른쪽 버튼을 클릭한 후 <span class=cmd>Add Group</span>를 선택하여 추가할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Description</span>: Enter a brief description of the door.</p>
-</li>
-<li>
-<p><span class=cmd>Description</span>: 출입문에 대한 간단한 설명을 입력하세요.</p>
+<p><span class=cmd>Description</span>: Enter a description of the door.</p>
 </li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id=doorconfig><span class=cmd>Configuration</span><a href=#doorconfig class=hash-link aria-label="Direct link to doorconfig" title="Direct link to doorconfig">​</a></h3>
-<p>Configure the device, relay, exit button, and door sensor information.</p>
-<p>장치와 릴레이, 퇴실 버튼, 출입문 센서 등의 정보를 설정할 수 있습니다.</p>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>CoreStation cannot be set as an entry or exit device.<p>CoreStation은 입실 장치나 퇴실 장치로 설정할 수 없습니다.</div></div>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-setting-ko.png></p>
+<p>Configure the device, relay, exit button, door sensor, and other related information.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>CoreStation 20 cannot be set as an entry or exit device.</div></div>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-setting.png></p>
 <ul>
 <li>
-<p><span class=cmd>Entry Device</span>: Select the device to use for entry. Select from the list of registered devices.</p>
+<p><span class=cmd>Entry Device</span>: Select the device to be used for entry. Choose from the list of registered devices.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p>CoreStation 20 does not support wireless door locks.</div></div>
 </li>
 <li>
-<p><span class=cmd>Entry Device</span>: 입실할 때 사용할 장치를 선택하세요. 등록된 장치 목록에서 선택할 수 있습니다.</p>
+<p><span class=cmd>Door Relay</span>: Select the relay that will operate the door locking device.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><ul>
+<li>
+<p>If select the Lock door relay, <span class=cmd>Exit Button</span> and <span class=cmd>Door Sensor</span> are automatically selected.</p>
 </li>
 <li>
-<p><span class=cmd>Door Relay</span>: Select the relay to operate the door lock.</p>
+<p>Alarm relay cannot be used as a door relay.</p>
+</li>
+</ul></div></div>
 </li>
 <li>
-<p><span class=cmd>Door Relay</span>: 출입문 잠금 장치를 동작할 릴레이를 선택하세요.</p>
-</li>
-<li>
-<p><span class=cmd>Exit Button</span>: Select the port to use for the exit button.</p>
-</li>
-<li>
-<p><span class=cmd>Exit Button</span>: 퇴실 버튼에 사용할 포트를 선택하세요.</p>
-</li>
-<li>
-<p><span class=cmd>Door Sensor</span>: Select the port to use for the door sensor.</p>
-</li>
-<li>
-<p><span class=cmd>Door Sensor</span>: 출입문 상태를 확인할 때 사용할 포트를 선택하세요.</p>
+<p><span class=cmd>Exit Button</span>: Select the port to be used for the exit button.</p>
 <ul>
 <li>
-<p><span class=cmd>Switch</span>는 <span class=cmd>N/C</span>나 <span class=cmd>N/O</span>으로 설정할 수 있습니다.</p>
+<p><span class=cmd>Switch</span> it set to <span class=cmd>N/C</span> or <span class=cmd>N/O</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Use sensor when Entry Confirmed APB enabled</span>: <span class=cmd>Entry Confirmed APB</span> 옵션을 사용할 때 출입문 센서 사용 여부를 설정할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Timed Anti PassBack</span>이 활성화 되어 있을 경우 이 기능을 사용할 수 없습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Door Sensor</span>를 <span class=cmd>None</span>으로 설정하면 <span class=cmd>Alarm</span> 탭을 설정할 수 없습니다.</p>
+<p><span class=cmd>Does not activate relay</span>: Set it so that when the exit button is pressed, the door open request log is generated, but the relay does not operate.</p>
 </li>
 </ul>
 </li>
 <li>
-<p><span class=cmd>Exit Device</span>: Select the device to use for exit. Exit devices must be connected as slaves.</p>
+<p><span class=cmd>Door Sensor</span>: Select the port to be used for checking the door status.</p>
+<ul>
+<li>
+<p><span class=cmd>Switch</span> it set to <span class=cmd>N/C</span> or <span class=cmd>N/O</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Exit Device</span>: 퇴실할 때 사용할 장치를 선택하세요. 퇴실 장치는 슬레이브로 연결된 장치가 있어야 사용할 수 있습니다.</p>
+<p><span class=cmd>Use sensor when Entry Confirmed APB enabled</span>: Set whether to use the door sensor when using the <span class=cmd>Entry Confirmed APB</span> option.</p>
+</li>
+</ul>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><ul>
+<li>
+<p>This feature cannot be used if <span class=cmd>Timed Anti PassBack</span> is activated.</p>
+</li>
+<li>
+<p>If <span class=cmd>Door Sensor</span> is set to <span class=cmd>None</span>, the <span class=cmd>Alarm</span> tab cannot be configured.</p>
+</li>
+</ul></div></div>
+</li>
+<li>
+<p><span class=cmd>Exit Device</span>: Select the device to be used for exit. The exit device must be connected as a slave device.</p>
 <ul>
-<li><span class=cmd>Exit Device</span>가 없는 경우 <span class=cmd>Anti PassBack</span>을 설정할 수 없습니다.</li>
+<li>If there is no <span class=cmd>Exit Device</span>, the <span class=cmd>Anti PassBack</span> cannot be set.</li>
 </ul>
 </li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id=dooroption><span class=cmd>Option</span><a href=#dooroption class=hash-link aria-label="Direct link to dooroption" title="Direct link to dooroption">​</a></h3>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-option-ko.png></p>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-option.png></p>
 <ul>
 <li>
-<p><span class=cmd>Open</span>: 출입문 열림에 대한 옵션을 설정할 수 있습니다.</p>
-<ul>
-<li><span class=cmd>Open Time</span>: 사용자 인증이 완료된 뒤 출입문이 열린 채로 유지되는 시간을 설정하세요. 인증이 성공했을 때 릴레이가 활성화되는 시간이며, 이 시간이 지나면 릴레이는 출입문에 신호를 보내지 않습니다.</li>
-</ul>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>Open Time</span>은 사용하는 출입문 잠금 장치의 종류에 따라 달라질 수 있습니다.</div></div>
+<p><span class=cmd>Open</span>: Set options for door opening.</p>
 <ul>
 <li>
-<p><span class=cmd>Lock when door is closed</span>: 출입문이 닫힌 것을 출입문 센서가 감지하면 출입문이 잠깁니다. <span class=cmd>Use Automatic Door</span>을 <span class=cmd>ON</span>으로 설정한 경우 사용할 수 없습니다.</p>
+<p><span class=cmd>Open Time</span>: Set the time for which the door remains open after user authentication is complete. This is the time when the relay is activated after successful authentication, and after this time, the relay will no longer send a signal to the door.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>Open Time</span> may vary depending on the type of door locking device used.</div></div>
 </li>
 <li>
-<p><span class=cmd>Use Automatic Door</span>: 자동문을 출입문으로 사용할 경우 출입문 센서의 상태와 상관없이 릴레이를 동작할 수 있습니다. <span class=cmd>Lock when door is closed</span>을 <span class=cmd>ON</span>으로 설정한 경우 사용할 수 없습니다.</p>
-</li>
-</ul>
+<p><span class=cmd>Lock when door is closed</span>: The door will be locked when the door sensor detects that the door is closed. This cannot be used if <span class=cmd>Use Automatic Door</span> is set to <span class=cmd>ON</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Dual Authentication</span>: 두 사람(일반 사용자와 관리자)이 크리덴셜을 인증하여 출입문이 열리도록 설정할 수 있습니다.</p>
-<ul>
-<li>
-<p><span class=cmd>Device</span>: 이중 인증을 사용할 장치를 선택할 수 있습니다. <span class=cmd>Not Use</span>으로 설정하면 이중 인증 모드를 사용하지 않습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Schedule</span>: 이중 인증을 사용할 스케줄을 설정하세요. 원하는 스케줄이 없다면 <span class=cmd>+ Add Schedule</span>를 클릭하여 설정하세요.</p>
-</li>
-<li>
-<p><span class=cmd>Approval Type</span>: 관리자 인증 순서를 설정할 수 있습니다. <span class=cmd>Not Use</span>으로 설정하면 인증 그룹과 관계 없이 두 명의 인증이 필요합니다. 마지막으로 설정하면 일반 사용자가 인증한 뒤 설정된 인증 그룹에 포함된 사용자가 인증해야 합니다.</p>
-</li>
-<li>
-<p><span class=cmd>Approval Group</span>: 관리자가 속한 그룹을 설정할 수 있습니다.</p>
-</li>
-<li>
-<p><span class=cmd>Auth Timeout</span>: 첫 번째 크리덴셜이 인증되고 두 번째 크리덴셜을 인증하는 대기 시간을 설정하세요. 첫 번째 크리덴셜이 인증되고 설정한 시간 안에 두 번째 크리덴셜이 인증되지 않으면 출입문이 열리지 않습니다.</p>
+<p><span class=cmd>Use Automatic Door</span>: If the automatic door is to be used as the access door, the relay can operate regardless of the status of the door sensor. This cannot be used if <span class=cmd>Lock when door is closed</span> is set to <span class=cmd>ON</span>.</p>
 </li>
 </ul>
 </li>
 <li>
-<p><span class=cmd>Anti-Tailgating</span> : 인증하지 않은 사람이 인증한 사람을 따라 출입하는 테일게이팅을 감지하도록 설정할 수 있습니다.</p>
+<p><span class=cmd>Dual Authentication</span>: Set it so that the door opens only when two people (a regular user and an administrator) authenticate their credentials.</p>
 <ul>
-<li><span class=cmd>Sensor</span>: 테일게이팅을 감지할 센서를 선택할 수 있습니다.</li>
+<li>
+<p><span class=cmd>Device</span>: Select the device to use for dual authentication. If set to <span class=cmd>Not Use</span>, dual authentication mode is not used.</p>
+</li>
+<li>
+<p><span class=cmd>Schedule</span>: Set the schedule for dual authentication. If there is no desired schedule, click <span class=cmd>+ Add Schedule</span> to set it.</p>
+</li>
+<li>
+<p><span class=cmd>Approval Type</span>: Set the order of administrator authentication. If set to <span class=cmd>Not Use</span>, two authentications are required regardless of the authentication group. If set to the <span class=cmd>Last</span>, the user authenticated as a general user, followed by the user in the set authentication group, must authenticate.</p>
+</li>
+<li>
+<p><span class=cmd>Approval Group</span>: Set the group to which the administrator belongs.</p>
+</li>
+<li>
+<p><span class=cmd>Auth Timeout</span>: Set the waiting time for authenticating the second credential after the first credential is authenticated. If the second credential is not authenticated within the set time after the first credential is authenticated, the door will not open.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><span class=cmd>Anti-Tailgating</span> : Set it to detect tailgating, where an unauthorized person follows an authorized person to gain access.</p>
+<ul>
+<li><span class=cmd>Sensor</span>: Select the sensor to detect tailgating.</li>
 </ul>
 </li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id=doorapb><span class=cmd>Anti PassBack</span><a href=#doorapb class=hash-link aria-label="Direct link to doorapb" title="Direct link to doorapb">​</a></h3>
-<p>안티패스백은 출입 이력을 관리하고 보안을 강화하기 위해 사용합니다.<br>사용자가 출입 카드로 입실 후 다른 사용자에게 카드를 넘겨주는 악용 사례를 막을 수 있으며, 외부인이 출입 권한을 가진 사용자를 뒤따라 들어올 때 나가지 못하도록 막을 수 있습니다.<br><span class=cmd>Entry Device</span>와 <span class=cmd>Exit Device</span>가 모두 설치된 경우 사용할 수 있으며, <span class=cmd>Exit Device</span>를 <span class=cmd>None</span>으로 설정하면 사용할 수 없습니다.</p>
+<p>Anti-passback is used to manage access records and enhance security.<br>It can prevent misuse cases where a user hands over their access card to another user after entering, and it can also prevent outsiders from following authorized users to gain access.<br>It can be used when both <span class=cmd>Entry Device</span> and <span class=cmd>Exit Device</span> are installed, and cannot be used if <span class=cmd>Exit Device</span> is set to <span class=cmd>None</span>.</p>
 <div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><ul>
 <li>
-<p>출입문 설정에서 안티패스백 탭을 활성화하려면 RS-485로 구성된 마스터 장치와 슬레이브 장치가 필요합니다.</p>
+<p>To activate the anti-passback tab in the door settings, a master device and a slave device configured with RS-485 are required.</p>
 </li>
 <li>
-<p><span class=cmd>Timed Anti PassBack</span>이 활성화 되어 있을 경우 <span class=cmd>Anti PassBack</span>을 사용할 수 없습니다.</p>
+<p>If <span class=cmd>Timed Anti PassBack</span> is activated, <span class=cmd>Anti PassBack</span> cannot be used.</p>
 </li>
 </ul></div></div>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-apb-ko.png></p>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-apb.png></p>
 <ul>
 <li>
-<p><span class=cmd>Type</span>: <span class=cmd>Anti PassBack</span> 종류를 선택하세요.</p>
+<p><span class=cmd>Type</span>: Select the type of <span class=cmd>Anti PassBack</span>.</p>
 <ul>
 <li>
-<p><span class=cmd>None</span>: 안티패스백 기능을 끄려면 선택하세요.</p>
+<p><span class=cmd>None</span>: Select this option to turn off the anti-passback feature.</p>
 </li>
 <li>
-<p><span class=cmd>Soft APB</span>: 안티패스백을 위반할 경우 출입은 가능하지만 경보를 울리거나 BioStar 2에 로그를 생성하려면 선택하세요.</p>
+<p><span class=cmd>Soft APB</span>: Select this option to allow access even if anti-passback is violated, but still trigger an alarm or generate a log in BioStar 2.</p>
 </li>
 <li>
-<p><span class=cmd>Hard APB</span>: 안티패스백을 위반할 경우 출입할 수 없으며 경보를 울리거나 BioStar 2에 로그를 생성하려면 선택하세요.</p>
+<p><span class=cmd>Hard APB</span>: Select this option to prevent access when anti-passback is violated, and still trigger an alarm or generate a log in BioStar 2.</p>
 </li>
 </ul>
 </li>
 <li>
-<p><span class=cmd>Reset Time</span>: 안티패스백 기능이 초기화될 때까지의 시간을 설정할 수 있습니다. 최대 7일(10080분) 까지 설정할 수 있으며, 0으로 설정하면 초기화되지 않습니다.</p>
+<p><span class=cmd>Reset Time</span>: Set the time until the anti-passback function is reset. It can be set up to 7 days (10,080 minutes), and if set to 0, it will not be reset.</p>
 </li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id=doortapb><span class=cmd>Timed Anti PassBack</span><a href=#doortapb class=hash-link aria-label="Direct link to doortapb" title="Direct link to doortapb">​</a></h3>
-<p><span class=cmd>Timed APB</span>은 사용자가 출입 인증 후 동일한 장치에 다시 인증하고자 할 때 발생하는 <span class=cmd>Anti PassBack</span>이 재인증을 할 수 있을 때까지 걸리는 초기화 시간을 설정하여 빈번한 입실을 제한할 수 있습니다.</p>
+<p><span class=cmd>Timed APB</span> sets the time it takes for re-authentication to be possible after a user has authenticated their access, to prevent frequent re-entries.</p>
 <div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><ul>
 <li>
-<p><span class=cmd>Timed Anti PassBack</span>은 별도의 BioStar 2 라이선스 없이 사용할 수 있습니다.</p>
+<p><span class=cmd>Timed Anti PassBack</span> is available without a separate BioStar 2 license.</p>
 </li>
 <li>
-<p><span class=cmd>Timed Anti PassBack</span>은 <span class=cmd>Entry Device</span> 또는 <span class=cmd>Exit Device</span>와 <span class=cmd>Door Relay</span>가 선택된 상태에서만 설정할 수 있습니다.</p>
+<p><span class=cmd>Timed Anti PassBack</span> can only be configured when either <span class=cmd>Entry Device</span> or <span class=cmd>Exit Device</span> and <span class=cmd>Door Relay</span> are selected.</p>
 <ul>
-<li>출입문의 보안을 강화하기 위해 사용하는 기능이므로 <span class=cmd>Entry Device</span> 또는 <span class=cmd>Exit Device</span> 중 하나만 선택된 상태에서도 설정할 수 있습니다.</li>
+<li>As this feature is used to enhance door security, it can also be configured when only one of <span class=cmd>Entry Device</span> or <span class=cmd>Exit Device</span> is selected.</li>
 </ul>
 </li>
 <li>
-<p><span class=cmd>Timed Anti PassBack</span>과 <span class=cmd>Use sensor when Entry Confirmed APB enabled</span> 기능은 동시에 사용할 수 없습니다.</p>
+<p><span class=cmd>Timed Anti PassBack</span> and <span class=cmd>Use sensor when Entry Confirmed APB enabled</span> cannot be used at the same time.</p>
 </li>
 <li>
-<p><span class=cmd>Timed Anti PassBack</span>과 <span class=cmd>Anti PassBack</span>은 동시에 사용할 수 없습니다.</p>
+<p><span class=cmd>Timed Anti PassBack</span> and <span class=cmd>Anti PassBack</span> cannot be used at the same time.</p>
 </li>
 </ul></div></div>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-tapb-ko.png></p>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-tapb.png></p>
 <ol>
 <li>
-<p><span class=cmd>Timed Anti PassBack</span>을 사용할 장치를 선택하고 <span class=cmd>Reset Time</span>을 원하는 대로 설정하세요.</p>
+<p>Select the device to use <span class=cmd>Timed Anti PassBack</span> and set <span class=cmd>Reset Time</span> as desired.</p>
 <ul>
-<li><span class=cmd>Reset Time</span>: 입력 단위는 분(min.)이며 기본값은 10분이고 입력 가능한 시간의 범위는 0 ~ 60분입니다.</li>
-</ul>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>Reset Time</span>을 0분으로 설정하면 <span class=cmd>Timed Anti PassBack</span>이 동작하지 않습니다.</div></div>
-<ul>
-<li><span class=cmd>Bypass Group</span>: 시간 제한 안티패스백에 제한받지 않고 항상 통과할 수 있는 출입 그룹을 지정할 수 있습니다.</li>
+<li>
+<p><span class=cmd>Reset Time</span>: The input unit is minutes (min.), the default value is 10 minutes, and the available time range is 0 to 60 minutes.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>Reset Time</span> set to 0 minutes will deactivate <span class=cmd>Timed Anti PassBack</span>.</div></div>
+</li>
+<li>
+<p><span class=cmd>Bypass Group</span>: Specify the access group that can always pass without being restricted by the time-limited anti-passback.</p>
+</li>
 </ul>
 </li>
 <li>
-<p>설정 후 <span class=cmd>Timed Anti PassBack</span>이 발생하면 <span class=cmd>Monitoring</span> 메뉴에서 이벤트 및 <span class=cmd>Image Log</span>를 확인할 수 있습니다.</p>
+<p>After setting, when the <span class=cmd>Timed Anti PassBack</span> occurs, can be view the events and <span class=cmd>Image Log</span> in the <span class=cmd>Monitoring</span> menu.</p>
 </li>
 </ol>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id=dooralarm><span class=cmd>Alarm</span><a href=#dooralarm class=hash-link aria-label="Direct link to dooralarm" title="Direct link to dooralarm">​</a></h3>
-<p>출입문이 강제로 열리거나 열린 채로 방치되었거나 안티패스백 위반이 발생했을 때 경보를 울리거나 장치를 사용하지 못하도록 막을 수 있습니다.</p>
-<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-alarm-ko.png></p>
+<p>Trigger an alarm or prevent the device from being used when the door is forcibly opened, left open, or when an anti-passback violation occurs.</p>
+<p class=hasimg><img loading=lazy src=/biostar2-docs/en/img/en/CS20-door-alarm.png></p>
 <ul>
 <li>
-<p><span class=cmd>Held Open</span>: 출입문이 열린 채로 방치되었을 때 알람 동작을 설정할 수 있습니다.<br><span class=cmd>+ Add</span>를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 <span class=cmd>Apply</span>을 클릭하세요.</p>
+<p><span class=cmd>Held Open</span>: Set the alarm action when the door is left open.<br>Click <span class=cmd>+ Add</span>, then select each item. To register the set items, click <span class=cmd>Apply</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Held Open Time</span>: 장시간 출입문이 열렸을 경우 경보를 울리는 시간을 설정하세요. 출입문이 열려 있을 수 있는 최대 시간을 설정하세요.</p>
+<p><span class=cmd>Held Open Time</span>: Set the time to trigger the alarm if the door is left open for a long time. This sets the maximum time the door can remain open.</p>
 </li>
 <li>
-<p><span class=cmd>Forced Open</span>: 강제로 출입문이 열렸을 때 알람 동작을 설정할 수 있습니다.<br><span class=cmd>+ Add</span>를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 <span class=cmd>Apply</span>을 클릭하세요.</p>
+<p><span class=cmd>Forced Open</span>: Set the alarm action when the door is forcibly opened.<br>Click <span class=cmd>+ Add</span>, then select each item. To register the set items, click <span class=cmd>Apply</span>.</p>
 </li>
 <li>
-<p><span class=cmd>Anti PassBack</span>: 안티패스백 위반이 발생했을 때 알람 동작을 설정할 수 있습니다.<br><span class=cmd>+ Add</span>를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 <span class=cmd>Apply</span>을 클릭하세요.</p>
-<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>Anti PassBack</span>은 <span class=cmd>Exit Device</span>가 등록되어야 설정할 수 있습니다.</div></div>
+<p><span class=cmd>Anti PassBack</span>: Set the alarm action when an anti-passback violation occurs.<br>Click <span class=cmd>+ Add</span>, then select each item. To register the set items, click <span class=cmd>Apply</span>.</p>
+</li>
+<li>
+<p><span class=cmd>Timed Anti PassBack</span>: Set the alarm action when an timed anti-passback violation occurs.<br>Click <span class=cmd>+ Add</span>, then select each item. To register the set items, click <span class=cmd>Apply</span>.</p>
+<div class="theme-admonition theme-admonition-info admonition_Gfwi alert alert--info"><div class=admonitionHeading_f1Ed><span class=admonitionIcon_kpSf><svg viewBox="0 0 14 16"><path fill-rule=evenodd d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg></span>Info</div><div class=admonitionContent_UjKb><p><span class=cmd>Anti PassBack</span> can only be set if <span class=cmd>Exit Device</span> is registered.</div></div>
 </li>
 </ul>
-<p>모든 설정을 완료한 후 <span class=cmd>Apply</span>을 클릭하면 출입문이 생성됩니다.</div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href=/biostar2-docs/en/update/biostar2-299><div class=pagination-nav__sublabel>Previous</div><div class=pagination-nav__label>2.9.9 버전 업데이트 안내</div></a><a class="pagination-nav__link pagination-nav__link--next" href=/biostar2-docs/en/update/299/how-to-use-di24><div class=pagination-nav__sublabel>Next</div><div class=pagination-nav__label>Door Interface 오프라인 모드 전용 시설 코드 인증 설정하기</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_pzBX thin-scrollbar"></div></div></div></div></main></div></div></div><footer class=footer><div class="container container-fluid"><div class="footer__bottom text--left"><div class=margin-bottom--sm><img src=/biostar2-docs/en/img/suprema-logo-bottom.svg alt="Suprema Security & biometrics" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE" width=173px><img src=/biostar2-docs/en/img/suprema-logo-bottom.svg alt="Suprema Security & biometrics" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU" width=173px></div></div><div class="footer__bottom sns--right"><ul class=sns__list><div class="footer__bottom sns--right"><ul class=sns__list><li><a href=http://pf.kakao.com/_xnkPxes target=_blank rel="noopener noreferrer"><img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkI2RkJBQjg2MUMwRjExRUM5RDMwRjM4MTY2MzYyQjFGIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkI2RkJBQjg1MUMwRjExRUM5RDMwRjM4MTY2MzYyQjFGIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyQzBFRTY4NUMyMjQxMUU4QTQyRkRDRTk1NDQ4RjFGOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyQzBFRTY4NkMyMjQxMUU4QTQyRkRDRTk1NDQ4RjFGOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmegBfoAAAJiSURBVHja7JfPSxZBGMffDTXzBc1fQXjwJhgiJHmR0KMFglEqeQqVwIt4khe6BfXii14kRAQ1CzwpUf9BB+kiePAgKqRgiERK+Yo/0PLt88AsDMvu687uHhTeBz7MvLM7z3znmZln9rUymUzsqtiN2BWynJhrISYmG9iJiaVSKSvseDaW2+CWZXkNXE7xAp5AIxRqj09hCT7Dh0Qise8lxst8iUFEPsUrGIK4jwAcwQgkEXUemRiE3KX4oiJhahKpdgTthhajluUb1ITYlhvQZC9bNjGXnaa5kEJiqv9cqKNNVLooWl0eyR4wvUNalb/AeSbh+P0J7hPuAsoieAY/tOelMGbgz58YZnGLokFreo8IGbyCZ+/UqVqEZkj7jE6D8utpeR7txVr9TAbHUQflvNbeDXUwqcSJbUInHMIgPHbxe2K6TAVafUWdhF7HO7Ww7WifhWr4A0/hdxa/vsXoWe/Cpc22KijXfg/AKMwwAcnIq1n8+hbzV6vXs0QS3mmX/CGZOam1Vaoy7uLHXnJjMUdaXe6fN8x0gfIRTMkehxY1eL/BEU8HEZN2rPcA0ZHIrCHqpbqn7sFXKFPvlMBN2y/v33YckFX6HmcT43kd4GzYIzf8Unkmbpj4ehAzG/Q6eAtbLu2VAYRITvoYOAMzC8kVbbAX8m7agef4uwj12YkDOZoPYT2gEOnXgp+dSL6BcSQOhw1F/INxeED/73475UX8Sb2mPsQmEbFl2jmomAl4DXfUkT6QqwEBB2FmYipG8k+fSoBiP6MMq18xkhyWoctkD5ialfvjnxOTExOR/RdgAL5E3zCETnHQAAAAAElFTkSuQmCC></a><li><a href=https://blog.naver.com/supremakr target=_blank rel="noopener noreferrer"><img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDA2IDc5LjE2NDY0OCwgMjAyMS8wMS8xMi0xNTo1MjoyOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0RGNEE2MDk3NUEwMTFFQjkzMUFBQkFCMEFFNTg0MzgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0RGNEE2MDg3NUEwMTFFQjkzMUFBQkFCMEFFNTg0MzgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjFDQjBCRkQwQzIyNDExRTg5Qzg3OTVFRUUwODI2NkJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjFDQjBCRkQxQzIyNDExRTg5Qzg3OTVFRUUwODI2NkJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+GLY+KgAAAe5JREFUeNrs1k1IVFEYxvExJMFFVmgLxYSwFqGi5MYQXISVhEZlrVxogkGgbQRx48KVs4ukCNE+VCpUqF0R1iqEyg+EcRMiEQZuTCeiSPz6H3guHC5zxtnoDMw98GPOvfe9+px3zr2aEQ6HQ6kyDoVSaARhgjBBmCBMWocZk2pH/VNM4/pBhLkpJx31h3EOE7iQ7K/pDf4gA20HFeYMRjGLARTq/DieaJ7vu+cGXuAt+mJ019Q/xLwWdVdb4plXkOkI06PVm1GByyhFFH9j1JuALdaxqb+DS/iCY5hCka6X4arm0b06s4VhfNax6cwtR+0VK8hrdGEFRzGk861WkPfoxar/B7k68wj3kIVl5KLcUVurz5/a/FsK8xwlKFAnzFhDPTbwA4OJ7Jkj+szWE2TGjqP2v1WbrXmedc8/616zuBzNTyTamWZt4kIr2FdH7St0al/MIKLVmzGJX1iwAns1FxN9mkw7z/ueolFH7RzasYnTuKZFml94WzWPFcLbf3XqWNzOeN//N9TgFD7ho9Vqsyk/YN23x96hQR2KaDNv6vpvLa4RZ3W9Ch3xwkxa8xFHJxbFP5ZwP847bUPvoWJUoknnvyfzD6V5zF/iuI7799rA+z221ZEH1rsoKWG6JfjnKggThAnCpHeYXQEGACmhYUqpLPafAAAAAElFTkSuQmCC></a><li><a href=https://www.youtube.com/user/supremainc target=_blank rel="noopener noreferrer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyQzBFRTY4NUMyMjQxMUU4QTQyRkRDRTk1NDQ4RjFGOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyQzBFRTY4NkMyMjQxMUU4QTQyRkRDRTk1NDQ4RjFGOCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjJDMEVFNjgzQzIyNDExRThBNDJGRENFOTU0NDhGMUY4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjJDMEVFNjg0QzIyNDExRThBNDJGRENFOTU0NDhGMUY4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+pP+52gAAASRJREFUeNpi/P//P8NgAUwMgwiMOmbUMaOOGXUMrQELIQVdXV2MQKoYiIOBWAyIOYCYE4j5sXjmHxB/BOLvQPwDiF8C8Tog7i0rK/tPsWOAIAWIu0kIaUEoBgElILaEOnA2NaIpnAoxEEatNKOEQ/weED8n0jHK1HKMEA7x60CsBQ3+/2SaQbJjuPDIfQDiNCC2B+KbeNRxU8sxrESoOQzE+qDMR0FGIU4REQCU3VOBOJqm5QwQ/MYTOqDyJh2IS4FYioAZVHHMN2gBhw70gPg+EIsTaQZVHPMOh2NkSYiBt9RKwLepkKbuUMsxq6ngmNXUiqa50AQMqigl0CpJ9MoSlDZ+QivJT9CKcg3UDIKAcbTfNOqYUceMOmbUMaOOYWAACDAAe9Ew/dLdOIYAAAAASUVORK5CYII="></a><li><a href=https://www.instagram.com/official.suprema/ target=_blank rel="noopener noreferrer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKOSURBVHgB7VbLceJAEB0+BQUXE4I2A28EKyKAjQCIYM2FghPSid8BNgIgAxzBighMBqsQ5BMU333PO+MaU+hr++LSqxr1aKbV86anuzVCpEiR4gsiE0d5MBgYEGY2m62cz+eKnx7mvdPp5GYymU2v13PFR5IhCRieo5kiJi6Xi4PWikIqlAyJ5HK5JxikJ9ZoK3jF4xw9oPry/dVj7EPU0X6gUe97GKG8CAGIzEkExmwYs0Q8zEajkQXZp2chq0HKgZ6hV7DDvyCyBhFTRITyJr7bdLvd6ng8/oMNmXj/FuSdQM+AyD0lDK18FjUh6tj1HXSe0V9hMQfSoDcxbsjvHyFM2RYiCRka5QNGPX3QsqxKuVyeYpGmGoMOxS8cy2y73dqlUuknxlwOMq6wMSHjTiQiw2CkEQaqPl4sFmcw3EB3g2ZzUaTyPfT6eH8A0Uqn02ld24NecjIaqVcyPBosSiIuPFCFl9TcZjqdrg6HA+OjCb2lPDLCjbJOVsQEdleXBG2NyAva7bYHIrauFwexyahzZ6bcmj8ej67s3onPJqOCOZ/PGzcNygwEnkVMJPGMSvM+s0qf47sMYt9yEIRIASxkihMMSqTvEt0G0vcJgWrzyFhTUOhIhDXmtxa86tfwPjLXKa1QKBQe9vs9uw3ozJn+Gpa73c7SB1SJAElPJCXjV6yYNRBM3wWzRlZbZtJK94i2qZfv4TlXJCUDONJYDWJ2PSkXdkJsMOhrIOqbgQqBAcyfGgw5vMcgTvoiASaTSV/+JNfvvkKgzLfkfcYaDocmiD3qFVm8ra6G6vBo8E0NuqYsB00Rgsg3PRhfiP8XpbhYg1DzQ256N0ixqBlhd2DpPSfOHThFihRfEv8AgtdZ9bpVTAkAAAAASUVORK5CYII=" width=35px></a></ul></div></ul><div class=dropdown><div><button class=dropdown-button>FAMILY SITE <!-- -->+</button></div></div></div></div><div class="container text--left"><div class=footer__copyright>Copyright © Suprema Inc. All rights reserved. | SUPREMA Co., Ltd. Business Registration Number 431-87-00369</div></div></footer></div>
+<p>After completing all settings, click <span class=cmd>Apply</span> to create the door.</div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href=/biostar2-docs/en/update/biostar2-299><div class=pagination-nav__sublabel>Previous</div><div class=pagination-nav__label>2.9.9 버전 업데이트 안내</div></a><a class="pagination-nav__link pagination-nav__link--next" href=/biostar2-docs/en/update/299/how-to-use-di24><div class=pagination-nav__sublabel>Next</div><div class=pagination-nav__label>Setting Facility Code Authentication for Offline Mode in Door Interface</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_pzBX thin-scrollbar"></div></div></div></div></main></div></div></div><footer class=footer><div class="container container-fluid"><div class="footer__bottom text--left"><div class=margin-bottom--sm><img src=/biostar2-docs/en/img/suprema-logo-bottom.svg alt="Suprema Security & biometrics" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE" width=173px><img src=/biostar2-docs/en/img/suprema-logo-bottom.svg alt="Suprema Security & biometrics" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU" width=173px></div></div><div class="footer__bottom sns--right"><ul class=sns__list><div class="footer__bottom sns--right"><ul class=sns__list><li><a href=http://pf.kakao.com/_xnkPxes target=_blank rel="noopener noreferrer"><img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkI2RkJBQjg2MUMwRjExRUM5RDMwRjM4MTY2MzYyQjFGIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkI2RkJBQjg1MUMwRjExRUM5RDMwRjM4MTY2MzYyQjFGIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyQzBFRTY4NUMyMjQxMUU4QTQyRkRDRTk1NDQ4RjFGOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyQzBFRTY4NkMyMjQxMUU4QTQyRkRDRTk1NDQ4RjFGOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmegBfoAAAJiSURBVHja7JfPSxZBGMffDTXzBc1fQXjwJhgiJHmR0KMFglEqeQqVwIt4khe6BfXii14kRAQ1CzwpUf9BB+kiePAgKqRgiERK+Yo/0PLt88AsDMvu687uHhTeBz7MvLM7z3znmZln9rUymUzsqtiN2BWynJhrISYmG9iJiaVSKSvseDaW2+CWZXkNXE7xAp5AIxRqj09hCT7Dh0Qise8lxst8iUFEPsUrGIK4jwAcwQgkEXUemRiE3KX4oiJhahKpdgTthhajluUb1ITYlhvQZC9bNjGXnaa5kEJiqv9cqKNNVLooWl0eyR4wvUNalb/AeSbh+P0J7hPuAsoieAY/tOelMGbgz58YZnGLokFreo8IGbyCZ+/UqVqEZkj7jE6D8utpeR7txVr9TAbHUQflvNbeDXUwqcSJbUInHMIgPHbxe2K6TAVafUWdhF7HO7Ww7WifhWr4A0/hdxa/vsXoWe/Cpc22KijXfg/AKMwwAcnIq1n8+hbzV6vXs0QS3mmX/CGZOam1Vaoy7uLHXnJjMUdaXe6fN8x0gfIRTMkehxY1eL/BEU8HEZN2rPcA0ZHIrCHqpbqn7sFXKFPvlMBN2y/v33YckFX6HmcT43kd4GzYIzf8Unkmbpj4ehAzG/Q6eAtbLu2VAYRITvoYOAMzC8kVbbAX8m7agef4uwj12YkDOZoPYT2gEOnXgp+dSL6BcSQOhw1F/INxeED/73475UX8Sb2mPsQmEbFl2jmomAl4DXfUkT6QqwEBB2FmYipG8k+fSoBiP6MMq18xkhyWoctkD5ialfvjnxOTExOR/RdgAL5E3zCETnHQAAAAAElFTkSuQmCC></a><li><a href=https://blog.naver.com/supremakr target=_blank rel="noopener noreferrer"><img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDA2IDc5LjE2NDY0OCwgMjAyMS8wMS8xMi0xNTo1MjoyOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0RGNEE2MDk3NUEwMTFFQjkzMUFBQkFCMEFFNTg0MzgiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0RGNEE2MDg3NUEwMTFFQjkzMUFBQkFCMEFFNTg0MzgiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjFDQjBCRkQwQzIyNDExRTg5Qzg3OTVFRUUwODI2NkJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjFDQjBCRkQxQzIyNDExRTg5Qzg3OTVFRUUwODI2NkJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+GLY+KgAAAe5JREFUeNrs1k1IVFEYxvExJMFFVmgLxYSwFqGi5MYQXISVhEZlrVxogkGgbQRx48KVs4ukCNE+VCpUqF0R1iqEyg+EcRMiEQZuTCeiSPz6H3guHC5zxtnoDMw98GPOvfe9+px3zr2aEQ6HQ6kyDoVSaARhgjBBmCBMWocZk2pH/VNM4/pBhLkpJx31h3EOE7iQ7K/pDf4gA20HFeYMRjGLARTq/DieaJ7vu+cGXuAt+mJ019Q/xLwWdVdb4plXkOkI06PVm1GByyhFFH9j1JuALdaxqb+DS/iCY5hCka6X4arm0b06s4VhfNax6cwtR+0VK8hrdGEFRzGk861WkPfoxar/B7k68wj3kIVl5KLcUVurz5/a/FsK8xwlKFAnzFhDPTbwA4OJ7Jkj+szWE2TGjqP2v1WbrXmedc8/616zuBzNTyTamWZt4kIr2FdH7St0al/MIKLVmzGJX1iwAns1FxN9mkw7z/ueolFH7RzasYnTuKZFml94WzWPFcLbf3XqWNzOeN//N9TgFD7ho9Vqsyk/YN23x96hQR2KaDNv6vpvLa4RZ3W9Ch3xwkxa8xFHJxbFP5ZwP847bUPvoWJUoknnvyfzD6V5zF/iuI7799rA+z221ZEH1rsoKWG6JfjnKggThAnCpHeYXQEGACmhYUqpLPafAAAAAElFTkSuQmCC></a><li><a href=https://www.youtube.com/user/supremainc target=_blank rel="noopener noreferrer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyQzBFRTY4NUMyMjQxMUU4QTQyRkRDRTk1NDQ4RjFGOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyQzBFRTY4NkMyMjQxMUU4QTQyRkRDRTk1NDQ4RjFGOCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjJDMEVFNjgzQzIyNDExRThBNDJGRENFOTU0NDhGMUY4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjJDMEVFNjg0QzIyNDExRThBNDJGRENFOTU0NDhGMUY4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+pP+52gAAASRJREFUeNpi/P//P8NgAUwMgwiMOmbUMaOOGXUMrQELIQVdXV2MQKoYiIOBWAyIOYCYE4j5sXjmHxB/BOLvQPwDiF8C8Tog7i0rK/tPsWOAIAWIu0kIaUEoBgElILaEOnA2NaIpnAoxEEatNKOEQ/weED8n0jHK1HKMEA7x60CsBQ3+/2SaQbJjuPDIfQDiNCC2B+KbeNRxU8sxrESoOQzE+qDMR0FGIU4REQCU3VOBOJqm5QwQ/MYTOqDyJh2IS4FYioAZVHHMN2gBhw70gPg+EIsTaQZVHPMOh2NkSYiBt9RKwLepkKbuUMsxq6ngmNXUiqa50AQMqigl0CpJ9MoSlDZ+QivJT9CKcg3UDIKAcbTfNOqYUceMOmbUMaOOYWAACDAAe9Ew/dLdOIYAAAAASUVORK5CYII="></a><li><a href=https://www.instagram.com/official.suprema/ target=_blank rel="noopener noreferrer"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKOSURBVHgB7VbLceJAEB0+BQUXE4I2A28EKyKAjQCIYM2FghPSid8BNgIgAxzBighMBqsQ5BMU333PO+MaU+hr++LSqxr1aKbV86anuzVCpEiR4gsiE0d5MBgYEGY2m62cz+eKnx7mvdPp5GYymU2v13PFR5IhCRieo5kiJi6Xi4PWikIqlAyJ5HK5JxikJ9ZoK3jF4xw9oPry/dVj7EPU0X6gUe97GKG8CAGIzEkExmwYs0Q8zEajkQXZp2chq0HKgZ6hV7DDvyCyBhFTRITyJr7bdLvd6ng8/oMNmXj/FuSdQM+AyD0lDK18FjUh6tj1HXSe0V9hMQfSoDcxbsjvHyFM2RYiCRka5QNGPX3QsqxKuVyeYpGmGoMOxS8cy2y73dqlUuknxlwOMq6wMSHjTiQiw2CkEQaqPl4sFmcw3EB3g2ZzUaTyPfT6eH8A0Uqn02ld24NecjIaqVcyPBosSiIuPFCFl9TcZjqdrg6HA+OjCb2lPDLCjbJOVsQEdleXBG2NyAva7bYHIrauFwexyahzZ6bcmj8ej67s3onPJqOCOZ/PGzcNygwEnkVMJPGMSvM+s0qf47sMYt9yEIRIASxkihMMSqTvEt0G0vcJgWrzyFhTUOhIhDXmtxa86tfwPjLXKa1QKBQe9vs9uw3ozJn+Gpa73c7SB1SJAElPJCXjV6yYNRBM3wWzRlZbZtJK94i2qZfv4TlXJCUDONJYDWJ2PSkXdkJsMOhrIOqbgQqBAcyfGgw5vMcgTvoiASaTSV/+JNfvvkKgzLfkfcYaDocmiD3qFVm8ra6G6vBo8E0NuqYsB00Rgsg3PRhfiP8XpbhYg1DzQ256N0ixqBlhd2DpPSfOHThFihRfEv8AgtdZ9bpVTAkAAAAASUVORK5CYII=" width=35px></a></ul></div></ul><div class=dropdown><div><button class=dropdown-button>FAMILY SITE <!-- -->+</button></div></div></div></div><div class="container text--left"><div class=footer__copyright>Copyright © Suprema Inc. All rights reserved. | SUPREMA Co., Ltd. Business Registration Number 431-87-00369</div></div></footer></div>
