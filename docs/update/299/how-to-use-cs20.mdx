@@ -306,7 +306,7 @@ CoreStation 20은 입실 장치나 퇴실 장치로 설정할 수 없습니다.
 
 * <Cmd sid="door.doorSensor" />: 출입문 상태를 확인할 때 사용할 포트를 선택하세요.
 
-    * <Cmd sid="door.switchType" />는 <Cmd sid="door.switch.normallyClose" />나 <Cmd sid="door.switch.normallyOpen" />으로 설정할 수 있습니다.
+    * <Cmd sid="door.switchType" />는 <Cmd sid="door.switch.normallyClose" />나 <Cmd sid="door.switch.normallyOpen" />로 설정할 수 있습니다.
 
     * <Cmd sid="door.apbUseDoorSensor" />: <Cmd sid="zone.apbUseDoorSensor" /> 옵션을 사용할 때 출입문 센서 사용 여부를 설정할 수 있습니다.
 
@@ -320,7 +320,11 @@ CoreStation 20은 입실 장치나 퇴실 장치로 설정할 수 없습니다.
 
 * <Cmd sid="door.exitDevice" />: 퇴실할 때 사용할 장치를 선택하세요. 퇴실 장치는 슬레이브로 연결된 장치가 있어야 사용할 수 있습니다.
 
-    * <Cmd sid="door.exitDevice" />가 없는 경우 <Cmd sid="door.antiPassBack" />을 설정할 수 없습니다. 
+    :::info
+
+        * <Cmd sid="door.exitDevice" />가 없는 경우 <Cmd sid="door.antiPassBack" />을 설정할 수 없습니다. 
+
+    :::
 
 ### <Cmd sid="common.option" /> {#dooroption}
 
@@ -378,7 +382,7 @@ CoreStation 20은 입실 장치나 퇴실 장치로 설정할 수 없습니다.
 
     * <Cmd sid="door.apbType.hard" />: 안티패스백을 위반할 경우 출입할 수 없으며 경보를 울리거나 BioStar 2에 로그를 생성하려면 선택하세요.
 
-* <Cmd sid="door.resetTime" />: 안티패스백 기능이 초기화될 때까지의 시간을 설정할 수 있습니다. 최대 10,080분(7일) 까지 설정할 수 있으며, 0으로 설정하면 초기화되지 않습니다.
+* <Cmd sid="door.resetTime" />: 안티패스백 기능이 초기화될 때까지의 시간을 설정할 수 있습니다. 최대 10,080분(7일)까지 설정할 수 있으며, 0으로 설정하면 초기화되지 않습니다.
 
 ### <Cmd sid="timedAPB.title" /> {#doortapb}
 
