@@ -177,7 +177,7 @@ The types of cards supported by the device are displayed.
 
 ##### Supervised Input
 
-Set the Supervised Input port of the CoreStation to be used as a TTL Input port, and set the resistance value to be used for Supervised Input. The resistance values can be set to 1㏀, 2.2㏀, 4.7㏀, or 10㏀.
+Set the Supervised Input port of the CoreStation 20 to be used as a Input port, and set the resistance value to be used for Supervised Input. The resistance values can be set to 1㏀, 2.2㏀, 4.7㏀, or 10㏀.
 
 ##### Security Tamper
 
@@ -214,7 +214,7 @@ Set the operation of the buzzer for events such as <Cmd sid="device.displaySound
 
 * <Cmd sid="schedule.cycle" />: If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is selected as <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" />, enter the number of times the buzzer will sound. Check <Cmd sid="device.info.osdp.infinite" /> to repeat the set mode continuously.
 
-* <Cmd sid="devce.info.osdp.ledBuzzer.duration" />: If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is selected as <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" />, enter the duration for which the buzzer will sound at each set repetition rate. If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is selected as <Cmd sid="device.info.osdp.ledBuzzer.mode.constant" />, enter the duration for which the buzzer will sound.
+* <Cmd sid="devce.info.osdp.ledBuzzer.duration" />: If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is selected as <Cmd sid="device.info.osdp.ledBuzzer.mode.beeping" />, enter the duration for which the buzzer will sound at each set repetition rate.<br/>If <Cmd sid="device.info.osdp.ledBuzzer.mode" /> is selected as <Cmd sid="device.info.osdp.ledBuzzer.mode.constant" />, enter the duration for which the buzzer will sound.
 
 ## Adding Doors Using the Quick Door Setup Feature
 
@@ -274,7 +274,7 @@ Configure the device, relay, exit button, door sensor, and other related informa
 
 :::info
 
-CoreStation cannot be set as an entry or exit device.
+CoreStation 20 cannot be set as an entry or exit device.
 
 :::
 
@@ -310,9 +310,13 @@ CoreStation cannot be set as an entry or exit device.
 
     * <Cmd sid="door.apbUseDoorSensor" />: Set whether to use the door sensor when using the <Cmd sid="zone.apbUseDoorSensor" /> option.
 
-    * This feature cannot be used if <Cmd sid="timedAPB.title" /> is activated.
+    :::info
 
-    * If <Cmd sid="door.doorSensor" /> is set to <Cmd sid="common.none" />, the <Cmd sid="door.alarm" /> tab cannot be configured.
+        * This feature cannot be used if <Cmd sid="timedAPB.title" /> is activated.
+
+        * If <Cmd sid="door.doorSensor" /> is set to <Cmd sid="common.none" />, the <Cmd sid="door.alarm" /> tab cannot be configured.
+
+    :::
 
 * <Cmd sid="door.exitDevice" />: Select the device to be used for exit. The exit device must be connected as a slave device.
 
@@ -326,11 +330,11 @@ CoreStation cannot be set as an entry or exit device.
     
     * <Cmd sid="door.openTime" />: Set the time for which the door remains open after user authentication is complete. This is the time when the relay is activated after successful authentication, and after this time, the relay will no longer send a signal to the door.
 
-    :::info
+        :::info
 
-    <Cmd sid="door.openTime" /> may vary depending on the type of door locking device used.
+        <Cmd sid="door.openTime" /> may vary depending on the type of door locking device used.
 
-    :::
+        :::
 
     * <Cmd sid="door.openOnce" />: The door will be locked when the door sensor detects that the door is closed. This cannot be used if <Cmd sid="door.option.openCondition.useAutoDoor" /> is set to <Cmd sid="common.on" />.
 
@@ -342,7 +346,7 @@ CoreStation cannot be set as an entry or exit device.
 
     * <Cmd sid="common.schedule" />: Set the schedule for dual authentication. If there is no desired schedule, click <Cmd sid="button.plusAddSchedule" /> to set it.
 
-    * <Cmd sid="door.dualAuthentication.approvalType" />: Set the order of administrator authentication. If set to <Cmd sid="common.notUse" />, two authentications are required regardless of the authentication group. If set to the Last, the user authenticated as a general user, followed by the user in the set authentication group, must authenticate.
+    * <Cmd sid="door.dualAuthentication.approvalType" />: Set the order of administrator authentication. If set to <Cmd sid="common.notUse" />, two authentications are required regardless of the authentication group. If set to the <Cmd sid="door.dualAuthentication.approvalType.last" />, the user authenticated as a general user, followed by the user in the set authentication group, must authenticate.
 
     * <Cmd sid="door.approvalGroup" />: Set the group to which the administrator belongs.
 
@@ -400,11 +404,11 @@ Anti-passback is used to manage access records and enhance security.<br/>It can 
 
     * <Cmd sid="door.resetTime" />: The input unit is minutes (min.), the default value is 10 minutes, and the available time range is 0 to 60 minutes.
 
-    :::info
+        :::info
 
-    <Cmd sid="door.resetTime" /> set to 0 minutes will deactivate <Cmd sid="timedAPB.title" />.
+        <Cmd sid="door.resetTime" /> set to 0 minutes will deactivate <Cmd sid="timedAPB.title" />.
 
-    :::
+        :::
 
     * <Cmd sid="zone.apb.bypassGroup" />: Specify the access group that can always pass without being restricted by the time-limited anti-passback.
 
@@ -423,6 +427,8 @@ Trigger an alarm or prevent the device from being used when the door is forcibly
 * <Cmd sid="door.forcedOpen" />: Set the alarm action when the door is forcibly opened.<br/>Click <Cmd sid="button.addplus" />, then select each item. To register the set items, click <Cmd sid="button.apply" />.
 
 * <Cmd sid="door.antiPassBack" />: Set the alarm action when an anti-passback violation occurs.<br/>Click <Cmd sid="button.addplus" />, then select each item. To register the set items, click <Cmd sid="button.apply" />.
+
+* <Cmd sid="timedAPB.title" />: Set the alarm action when an timed anti-passback violation occurs.<br/>Click <Cmd sid="button.addplus" />, then select each item. To register the set items, click <Cmd sid="button.apply" />.
 
     :::info
 
