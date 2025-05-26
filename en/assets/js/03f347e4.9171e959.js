@@ -95,7 +95,7 @@ function _createMdxContent(props) {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "audit.menu.device"
+            sid: "common.gnb.device"
           }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -156,7 +156,7 @@ function _createMdxContent(props) {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "audit.menu.device"
+            sid: "common.gnb.device"
           }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {

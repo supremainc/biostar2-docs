@@ -1,6 +1,6 @@
 "use strict";
-(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["6687"], {
-"4139": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self['webpackChunkBioStar2_Docs'] = self['webpackChunkBioStar2_Docs'] || []).push([["7566"], {
+"7208": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -8,25 +8,25 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ MDXContent),
   frontMatter: () => (/* binding */ frontMatter),
-  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_299_how_to_use_cs_20_mdx_3cf_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_update_299_how_to_use_cs_20_mdx_871_namespaceObject),
   assets: () => (/* binding */ assets),
   toc: () => (/* binding */ toc),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-299-how-to-use-cs-20-mdx-3cf.json
-var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_299_how_to_use_cs_20_mdx_3cf_namespaceObject = JSON.parse('{"id":"update/299/how-to-use-cs20","title":"CoreStation 20 Setup and Door Creation","description":"This document describes how to properly use CoreStation 20 in BioStar 2.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/299/how-to-use-cs20.mdx","sourceDirName":"update/299","slug":"/update/299/how-to-use-cs20","permalink":"/biostar2-docs/en/update/299/how-to-use-cs20","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"how-to-use-cs20","title":"CoreStation 20 Setup and Door Creation","description":"This document describes how to properly use CoreStation 20 in BioStar 2.","keywords":["CoreStation 20","CS-20","CS-20P"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"2.9.9 버전 업데이트 안내","permalink":"/biostar2-docs/en/update/biostar2-299"},"next":{"title":"Setting Facility Code Authentication for Offline Mode in Door Interface","permalink":"/biostar2-docs/en/update/299/how-to-use-di24"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-299-how-to-use-cs-20-mdx-871.json
+var site_docs_update_299_how_to_use_cs_20_mdx_871_namespaceObject = JSON.parse('{"id":"update/299/how-to-use-cs20","title":"CoreStation 20 설정 및 출입문 생성하기","description":"BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다.","source":"@site/docs/update/299/how-to-use-cs20.mdx","sourceDirName":"update/299","slug":"/update/299/how-to-use-cs20","permalink":"/biostar2-docs/update/299/how-to-use-cs20","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"how-to-use-cs20","title":"CoreStation 20 설정 및 출입문 생성하기","description":"BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다.","keywords":["CoreStation 20","CS-20","CS-20P"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"2.9.9 버전 업데이트 안내","permalink":"/biostar2-docs/update/biostar2-299"},"next":{"title":"Door Interface 오프라인 모드 전용 시설 코드 인증 설정하기","permalink":"/biostar2-docs/update/299/how-to-use-di24"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__("5893");
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__("65");
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/299/how-to-use-cs20.mdx
+;// CONCATENATED MODULE: ./docs/update/299/how-to-use-cs20.mdx
 
 
 const frontMatter = {
 	id: 'how-to-use-cs20',
-	title: 'CoreStation 20 Setup and Door Creation',
-	description: 'This document describes how to properly use CoreStation 20 in BioStar 2.',
+	title: 'CoreStation 20 설정 및 출입문 생성하기',
+	description: 'BioStar 2에서 CoreStation 20을 올바르게 사용하는 방법을 설명합니다.',
 	keywords: [
 		'CoreStation 20',
 		'CS-20',
@@ -43,48 +43,48 @@ const assets = {
 
 
 const toc = [{
-  "value": "Detailed Device Settings",
+  "value": "세부 항목 설정하기",
   "id": "cs20detailsetting",
   "level": 2
 }, {
-  "value": "Device Information",
-  "id": "device-information",
+  "value": "장치 정보",
+  "id": "장치-정보",
   "level": 3
 }, {
-  "value": "System",
-  "id": "system",
+  "value": "시스템",
+  "id": "시스템",
   "level": 5
 }, {
-  "value": "Network Settings",
-  "id": "network-settings",
+  "value": "네트워크 설정",
+  "id": "네트워크-설정",
   "level": 3
 }, {
   "value": "TCP/IP",
   "id": "tcpip",
   "level": 5
 }, {
-  "value": "Server Communication",
-  "id": "server-communication",
+  "value": "서버 통신",
+  "id": "서버-통신",
   "level": 5
 }, {
-  "value": "Serial Communication",
-  "id": "serial-communication",
+  "value": "시리얼 통신",
+  "id": "시리얼-통신",
   "level": 5
 }, {
-  "value": "Authentication Settings",
-  "id": "authentication-settings",
+  "value": "인증 설정",
+  "id": "인증-설정",
   "level": 3
 }, {
-  "value": "Card Types",
-  "id": "card-types",
+  "value": "카드 종류",
+  "id": "카드-종류",
   "level": 5
 }, {
-  "value": "Advanced Settings",
-  "id": "advanced-settings",
+  "value": "고급 설정",
+  "id": "고급-설정",
   "level": 3
 }, {
-  "value": "Trigger &amp; Action",
-  "id": "trigger--action",
+  "value": "작업 조건 및 동작",
+  "id": "작업-조건-및-동작",
   "level": 5
 }, {
   "value": "Wiegand",
@@ -95,28 +95,28 @@ const toc = [{
   "id": "supervised-input",
   "level": 5
 }, {
-  "value": "Security Tamper",
-  "id": "security-tamper",
+  "value": "보안 탬퍼",
+  "id": "보안-탬퍼",
   "level": 5
 }, {
-  "value": "OSDP Reader LED/Buzzer",
-  "id": "osdp-reader-ledbuzzer",
+  "value": "OSDP 리더 LED 및 버저",
+  "id": "osdp-리더-led-및-버저",
   "level": 3
 }, {
   "value": "LED",
   "id": "led",
   "level": 5
 }, {
-  "value": "Buzzer",
-  "id": "buzzer",
+  "value": "버저",
+  "id": "버저",
   "level": 5
 }, {
-  "value": "Adding Doors Using the Quick Door Setup Feature",
-  "id": "adding-doors-using-the-quick-door-setup-feature",
+  "value": "간편 출입문 설정 기능으로 출입문 생성하기",
+  "id": "간편-출입문-설정-기능으로-출입문-생성하기",
   "level": 2
 }, {
-  "value": "Adding Doors in the <Cmd></Cmd> Menu",
-  "id": "adding-doors-in-the--menu",
+  "value": "<Cmd></Cmd> 메뉴에서 출입문 생성하기",
+  "id": "-메뉴에서-출입문-생성하기",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -137,40 +137,40 @@ function _createMdxContent(props) {
   if (!Image) _missingMdxReference("Image", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsxs)(_components.p, {
-      children: ["CoreStation 20 (CS-20/CS-20P) is Suprema's new controller that enables easy implementation of two-door access control.", (0,jsx_runtime.jsx)("br", {}), "Compared to the existing four-door model, CoreStation (CS-40), it is lighter and optimized for RFID card-based access control.", (0,jsx_runtime.jsx)("br", {}), "It can store up to 500,000 user infomation and supports compatibility with various interfaces.", (0,jsx_runtime.jsx)("br", {}), "In particular, the CS-20P model supports easy installation with PoE+ (Power over Ethernet) and is equipped with a SAM card slot for enhanced security."]
+      children: ["CoreStation 20(CS-20/CS-20P)은 2도어 출입 통제를 손쉽게 구현할 수 있는 슈프리마의 신규 컨트롤러입니다.", (0,jsx_runtime.jsx)("br", {}), "기존 4도어 지원 모델인 CoreStation(CS-40) 대비 경량화되어, RFID 카드 기반 출입 통제에 최적화된 설계를 제공합니다.", (0,jsx_runtime.jsx)("br", {}), "최대 50만 명의 사용자 정보를 저장할 수 있으며, 다양한 인터페이스와의 호환성을 지원합니다.", (0,jsx_runtime.jsx)("br", {}), "특히 CS-20P 모델은 PoE+(Power over Ethernet)로 간편한 설치가 가능하며, 보안 강화를 위한 SAM 카드 슬롯도 탑재하고 있습니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "This document provides an overview of the CoreStation 20 menu in BioStar 2 and explains how to create doors."
+      children: "이 문서에서는 BioStar 2에서 CoreStation 20의 메뉴 설명과 출입문을 생성하는 방법을 안내합니다."
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-            children: "CoreStation 20 does not support wireless door locks."
+            children: "CoreStation 20은 무선 도어락을 지원하지 않습니다."
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["CoreStation 20 does not support biometric authentication (such as face or fingerprint); only card authentication is supported.", (0,jsx_runtime.jsx)("br", {}), "If biometric authentication is required, it is recommended to use CoreStation (CS-40)."]
+            children: ["CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 않으며, 카드 인증만 지원합니다.", (0,jsx_runtime.jsx)("br", {}), "바이오메트릭 인증을 사용하려는 경우에는 CoreStation(CS-40)을 사용하는 것을 권장합니다."]
           }), "\n"]
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "cs20detailsetting",
-      children: "Detailed Device Settings"
+      children: "세부 항목 설정하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.gnb.device"
-          }), "."]
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "audit.menu.device"
+          }), "를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "In the device list, select the CoreStation 20 (CS-20/CS-20P) you want to configure."
+          children: "장치 목록에서 설정하려는 CoreStation 20(CS-20/CS-20P)을 선택하세요."
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
-      id: "device-information",
-      children: "Device Information"
+      id: "장치-정보",
+      children: "장치 정보"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-Info.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
@@ -178,152 +178,153 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.name"
-          }), ": Enter the desired device name."]
+          }), ": 원하는 장치 이름을 입력하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.deviceId"
-          }), ": The device ID appears."]
+          }), ": 장치 ID를 확인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.firmwareVersion"
-          }), ": Click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.firmwareUpgrade"
-          }), " to install a new firmware version."]
+          }), "를 클릭하면 새로운 펌웨어 버전을 설치할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.kernelVersion"
-          }), ": You can check the kernel version."]
+          }), ": 커널 버전을 확인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.factoryDefault"
-          }), ": You can initialize the device settings. Click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 장치의 설정을 초기화할 수 있습니다. ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.reset"
-          }), " to initialize all settings, or click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "을 클릭하면 모든 설정을 초기화하며, ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.reset.withoutNetwork"
-          }), " to initialize all settings except for the network configuration."]
+          }), "를 클릭하면 네트워크 설정은 유지하고 나머지 설정을 초기화합니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.timeZone"
-          }), ": Set the device's time zone. The device time zone can be set differently from the BioStar 2 server time zone."]
+          }), ": 장치의 표준 시간대를 설정하세요. 장치의 표준 시간대는 BioStar 2 서버의 시간대와 다르게 설정할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "audit.menu.setting.dst"
-          }), ": Apply the daylight saving time set by the user to the device. New daylight saving time can be added in ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 사용자가 설정한 일광 절약 시간을 장치에 적용할 수 있습니다. 새 일광 절약 시간은 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.dst"
-          }), "."]
+          }), "에서 추가할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.group"
-          }), ": You can change the device group. Device groups can be added by right-clicking ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "menu.device.allDeviceGroups"
-          }), " in the ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 장치 그룹을 변경할 수 있습니다. 장치 그룹은 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "audit.menu.device"
-          }), " menu and selecting ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " 메뉴에서 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "menu.device.allDeviceGroups"
+          }), " 부분에 마우스 오른쪽 버튼을 클릭한 후 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.menu.addDeviceGroup"
-          }), "."]
+          }), "를 선택하여 추가할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.deviceType"
-          }), ": The device type appears."]
+          }), ": 장치 종류를 확인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.productName"
-          }), ": You can check the model name."]
+          }), ": 모델 이름을 확인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.hwVersion"
-          }), ": You can check the hardware version."]
+          }), ": 하드웨어 버전을 확인할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.locked"
-          }), ": If the device is locked due to trigger & actions, click the ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 작업 조건 및 동작에 의해 장치가 잠겼을 경우 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.unlock"
-          }), " button to unlock it."]
+          }), " 버튼을 클릭하여 해제할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.timeSync"
-          }), ": Select this option to synchronize the device time with the server."]
+          }), ": 장치의 시간 정보를 서버와 동기화하려면 선택하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
-      id: "system",
-      children: "System"
+      id: "시스템",
+      children: "시스템"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.date"
-          }), ": Click ", (0,jsx_runtime.jsx)(Image, {
+          }), ": ", (0,jsx_runtime.jsx)(Image, {
             src: "/img/menus/ico-calendar.png",
-            ico: true
-          }), " to manually set the date and time. If ", (0,jsx_runtime.jsx)(Cmd, {
+            ico: true,
+            alone: true
+          }), "을 클릭하여 날짜와 시간을 수동으로 설정할 수 있습니다. ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.timeSync"
-          }), " is enabled, you cannot manually set the date or time."]
+          }), "가 선택되어 있다면 사용자가 수동으로 날짜나 시간을 선택할 수 없습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.getTime"
-          }), ": Click to retrieve the time set on the device."]
+          }), ": 장치에 설정된 시간을 불러오려면 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.setTime"
-          }), ": Click to apply the time set in BioStar 2 to the device."]
+          }), ": BioStar 2에 설정된 시간을 장치에 적용하려면 클릭하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
-      id: "network-settings",
-      children: "Network Settings"
+      id: "네트워크-설정",
+      children: "네트워크 설정"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(_components.strong, {
         children: "TCP/IP"
       }), ", ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "DHCP"
       }), ", ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "IP Address"
+        children: "IP 주소"
       }), ", ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "Subnet Mask"
+        children: "서브넷 마스크"
       }), ", ", (0,jsx_runtime.jsx)(_components.strong, {
-        children: "Gateway"
+        children: "게이트웨이"
       }), ", ", (0,jsx_runtime.jsx)(_components.strong, {
         children: "DNS"
-      }), ", etc. Basic network settings are supported."]
+      }), " 등 기본 네트워크 설정을 지원합니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.p, {
         children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "device.info.rs485"
-        }), " port can only be used in ", (0,jsx_runtime.jsx)(Cmd, {
+        }), " 포트는 ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "device.rs485.master"
-        }), " mode."]
+        }), " 모드만 사용할 수 있습니다."]
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-Network.png"
@@ -335,7 +336,7 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.useDhcp"
-          }), ": Check this option to configure the device to use a dynamic IP address. If this option is selected, a static IP address cannot be assigned."]
+          }), ": 장치가 유동 IP 주소를 사용하도록 설정하려면 체크하세요. 이 항목을 체크하면 고정 IP 주소를 할당할 수 없습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -345,73 +346,73 @@ function _createMdxContent(props) {
             sid: "device.info.subnetMask"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.gateway"
-          }), ": Enter the network information if you want to assign a static IP address to the device. Make sure to uncheck ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 장치에 고정 IP를 할당할 경우 각 네트워크 정보를 입력하세요. ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.useDhcp"
-          }), " before entering these values."]
+          }), "을 체크 해제한 뒤 입력하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.devicePort"
-          }), ": Enter the port number that the device will use. This port is used for communication between BioStar 2 and the device."]
+          }), ": 장치가 사용할 포트를 입력하세요. 이 포트는 BioStar 2와 장치 간의 통신에 사용됩니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.dnsServerAddress"
-          }), ": Enter the DNS server address."]
+          }), ": DNS 서버 주소를 입력하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
-      id: "server-communication",
-      children: "Server Communication"
+      id: "서버-통신",
+      children: "서버 통신"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.deviceToServerConnection"
-          }), ": Select this option to configure the BioStar 2 connection information for the device. When selected, you can enter the network information for BioStar 2."]
+          }), ": 장치에서 연결할 BioStar 2 정보를 설정하려면 선택하세요. 이 항목을 선택하면 BioStar 2의 네트워크 정보를 입력할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.serverIP"
-          }), ": Enter the IP address of BioStar 2."]
+          }), ": BioStar 2의 IP 주소를 입력하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.serverPort"
-          }), ": Enter the port number of BioStar 2."]
+          }), ": BioStar 2의 포트를 입력하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
-      id: "serial-communication",
-      children: "Serial Communication"
+      id: "시리얼-통신",
+      children: "시리얼 통신"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.rs485"
-          }), ": Only master mode is supported."]
+          }), ": 마스터 모드만 사용할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.baudRate"
-          }), ": Set the baud rate for each RS-485 port."]
+          }), ": 각 RS-485 포트의 전송 속도를 설정할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.scbKey"
-          }), ": Set the SCB key for the device. This menu is only enabled when there are no RS-485 devices connected to CoreStation 20."]
+          }), ": 장치의 SCB 키를 설정할 수 있습니다. 이 메뉴는 CoreStation 20에 연결된 RS-485 장치가 없을 때만 활성화됩니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.scbKeyConfirm"
-          }), ": Confirms whether the entered SCB key matches. This menu is only enabled when there are no RS-485 devices connected to CoreStation 20."]
+          }), ": 설정한 SCB 키와 일치 여부를 확인합니다. 이 메뉴는 CoreStation 20에 연결된 RS-485 장치가 없을 때만 활성화됩니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -419,13 +420,13 @@ function _createMdxContent(props) {
       children: (0,jsx_runtime.jsxs)(_components.p, {
         children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "device.info.scbKey"
-        }), " can be entered up to 16 bytes."]
+        }), "는 최대 16 바이트까지 입력할 수 있습니다."]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
-      id: "authentication-settings",
-      children: "Authentication Settings"
+      id: "인증-설정",
+      children: "인증 설정"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Supports card authentication related settings such as ", (0,jsx_runtime.jsx)(Cmd, {
+      children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "common.serverMatching"
       }), ", ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "setting.card.cardType"
@@ -437,13 +438,13 @@ function _createMdxContent(props) {
         sid: "device.card.mifare_felica"
       }), "), ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.info.byteOrder"
-      }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+      }), ", ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.info.formatType"
-      }), "."]
+      }), " 등 카드 인증 관련 설정을 지원합니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsx)(_components.p, {
-        children: "CoreStation 20 does not support biometric authentication (such as face or fingerprint); only card authentication is supported."
+        children: "CoreStation 20은 바이오메트릭 인증(얼굴, 지문 등)은 지원하지 않으며, 카드 인증만 지원합니다."
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-auth.png"
@@ -451,72 +452,72 @@ function _createMdxContent(props) {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "common.serverMatching"
-        }), ": If set to ", (0,jsx_runtime.jsx)(Cmd, {
-          sid: "user.activateCard"
-        }), ", authentication is performed using the user information stored on the PC where BioStar 2 is installed. If set to ", (0,jsx_runtime.jsx)(Cmd, {
-          sid: "user.deactivateCard"
-        }), ", authentication is performed using the user information stored on the device. When using server matching, BioStar 2's server matching must also be activated by enabling ", (0,jsx_runtime.jsx)(Cmd, {
-          sid: "setting.server.serverMatching.use"
-        }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+        }), ": ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.active"
+        }), "으로 설정하면 BioStar 2가 설치된 PC에 저장된 사용자 정보를 이용하여 인증을 수행하며, ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.inactive"
+        }), "으로 설정하면 장치에 저장된 사용자 정보를 이용하여 인증을 수행합니다. 서버 매칭을 사용할 경우 BioStar 2의 서버 매칭도 활성화해야 하며, ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "common.setting"
         }), " → ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "setting.server"
         }), " → ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "common.serverMatching"
-        }), "."]
+        }), "에서 ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "setting.server.serverMatching.use"
+        }), "을 활성화하세요."]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
-      id: "card-types",
-      children: "Card Types"
+      id: "카드-종류",
+      children: "카드 종류"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "You can set the types of cards to be used on the device."
+      children: "장치에서 사용할 카드 종류를 설정할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsx)(_components.p, {
-        children: "The types of cards supported by the device are displayed."
+        children: "장치에서 지원하는 카드 종류가 표시됩니다."
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "device.card.CSN"
-        }), ": Select the CSN card and format type and set the byte order."]
+        }), ": CSN 카드 및 포맷 종류를 선택하고 바이트 순서를 설정할 수 있습니다."]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["When ", (0,jsx_runtime.jsx)(Cmd, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.formatType"
-            }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.cardIdFormat.normal"
-            }), ", the card serial number (CSN) is read and presented without any conversion. When set to ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "으로 설정하면 카드의 일련 번호(CSN)를 별도의 변환 없이 모두 읽어서 표현하며, ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.cardIdFormat.wiegand"
-            }), ", the device converts and presents the card serial number (CSN) according to the user-defined Wiegand format when reading a CSN card."]
+            }), "로 설정하면 장치가 CSN 카드를 읽을 때 사용자가 정의한 Wiegand 형식에 따라 카드의 일련 번호(CSN)를 변환하며 표현합니다."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["When ", (0,jsx_runtime.jsx)(Cmd, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.formatType"
-            }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.cardIdFormat.wiegand"
-            }), ", the Wiegand format to be used on the device is selected."]
+            }), "로 설정하면 장치에서 사용할 Wiegand 형식을 선택할 수 있습니다."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["When ", (0,jsx_runtime.jsx)(Cmd, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.byteOrder"
-            }), " is set to ", (0,jsx_runtime.jsx)(_components.strong, {
+            }), "를 ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "MSB"
-            }), ", card data is processed from the most significant byte to the least significant byte, and the card serial number (CSN) is proceed sequentially from left to right. ", (0,jsx_runtime.jsx)(_components.strong, {
+            }), "로 설정하면 카드 데이터가 큰 바이트에서 작은 바이트 순서로 처리되어, 카드의 일련 번호(CSN)가 왼쪽에서 오른쪽으로 저장됩니다. ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "LSB"
-            }), " processes card data from the least significant byte to the most significant byte and stores the card serial number (CSN) accordingly."]
+            }), "는 작은 바이트 단위에서 큰 바이트 단위 순서로 처리하여 카드의 일련 번호(CSN)를 저장합니다."]
           }), "\n"]
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
-      id: "advanced-settings",
-      children: "Advanced Settings"
+      id: "고급-설정",
+      children: "고급 설정"
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-advanced.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
@@ -524,19 +525,19 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.wiegandTamper"
-          }), ": Enable or disable the tamper detection feature. The tamper detection feature triggers an alarm when the device's cover is opened or the device is dropped."]
+          }), ": 탬퍼 감지 기능을 키거나 끌 수 있습니다. 탬퍼 감지 기능은 장치의 뚜껑이 열리거나 장치가 떨어졌을 때 알람을 발생시킵니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.acfail"
-          }), ": Enable or disable the AC fail detection feature. The AC Fail feature triggers an alarm when the power supply is interrupted."]
+          }), ": 전원 입력 신호 감지 기능을 키거나 끌 수 있습니다. AC Fail 기능은 전원 공급이 중단되었을 때 알람을 발생시킵니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.fire"
-          }), ": Enable or disable the fire detection feature. The fire detection feature triggers an alarm and automatically opens all doors created with CoreStation 20 when a fire is detected."]
+          }), ": 화재 감지 기능을 키거나 끌 수 있습니다. 화재 감지 기능은 화재가 발생하여 감지되면 알람과 함께 CoreStation 20으로 생성한 모든 출입문을 자동으로 개방합니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -548,16 +549,16 @@ function _createMdxContent(props) {
           sid: "device.info.acfail"
         }), ", ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "device.info.fire"
-        }), " are automatically set to Aux Input 0~2 ports fixed for each function, so they are automatically set the feature is turned on. These ports cannot be changed by the user."]
+        }), "는 각 기능별로 Aux Input 0~2 포트가 고정으로 할당되어 있기 때문에 기능만 키면 자동으로 설정됩니다. 이 포트는 사용자가 변경할 수 없습니다."]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
-      id: "trigger--action",
-      children: "Trigger & Action"
+      id: "작업-조건-및-동작",
+      children: "작업 조건 및 동작"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: [(0,jsx_runtime.jsx)(Cmd, {
           sid: "device.info.configuration"
-        }), ": Set the device's actions according to predefined alarms or signal inputs."]
+        }), ": 미리 정의된 알람이나 신호 입력에 따른 장치의 동작을 설정할 수 있습니다. 예를 들어, CoreStation 20에서 탬퍼 켜짐 신호가 발생할 때 사용자가 설정한 신호를 출력하거나 장치를 사용하지 못하도록 설정할 수 있습니다."]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-trigger-action.png"
@@ -569,46 +570,46 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.wiegandInOut"
-          }), ": Can only be used in input mode."]
+          }), ": 입력 모드만 사용할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
-            sid: "device.card.wiegand.in"
-          }), ": Change the Wiegand format assigned to the device. For details on setting the Wiegand format, refer to the card format."]
+            sid: "device.card.wiegand.inOutFormat"
+          }), ": 장치에 지정할 Wiegand 형식을 변경할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.wiegandOutPulseWidth"
-          }), ": Set the pulse width of the Wiegand signal."]
+          }), ": Wiegand 신호의 펄스 폭을 설정할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.wiegandOutPulseInterval"
-          }), ": Set the pulse interval of the Wiegand signal."]
+          }), ": Wiegand 신호의 펄스 간격을 설정할 수 있습니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
       id: "supervised-input",
       children: "Supervised Input"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Set the Supervised Input port of the CoreStation 20 to be used as a Input port, and set the resistance value to be used for Supervised Input. The resistance values can be set to 1㏀, 2.2㏀, 4.7㏀, or 10㏀."
+      children: "CoreStation 20의 Supervised Input 포트를 Input 포트로 사용하도록 설정할 수 있으며, Supervised Input에 사용할 저항값을 설정할 수 있습니다. 저항값은 1㏀, 2.2㏀, 4.7㏀, 10㏀을 설정할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
-      id: "security-tamper",
-      children: "Security Tamper"
+      id: "보안-탬퍼",
+      children: "보안 탬퍼"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Set it so that when a tamper event occurs on the device, all user information, logs, and security keys stored on the device are deleted."
+      children: "장치에서 탬퍼 이벤트가 발생할 경우 장치에 저장된 전체 사용자 정보, 전체 로그, 보안 키가 삭제되도록 설정할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
-      id: "osdp-reader-ledbuzzer",
-      children: "OSDP Reader LED/Buzzer"
+      id: "osdp-리더-led-및-버저",
+      children: "OSDP 리더 LED 및 버저"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Uniformly set the operation of the LED and buzzer for events of all OSDP readers connected to the CoreStation 20."
+      children: "CoreStation 20에 연결된 모든 OSDP 리더의 이벤트 발생 시 LED와 버저의 동작을 일괄 설정할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsx)(_components.p, {
-        children: "If the connected OSDP reader does not support LED and buzzer, it may not operate as set."
+        children: "CoreStation 20에 연결된 OSDP 리더가 LED와 버저를 지원하지 않는 경우 설정한대로 동작하지 않을 수 있습니다."
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-LED-Buzzer.png"
@@ -616,200 +617,200 @@ function _createMdxContent(props) {
       id: "led",
       children: "LED"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Set the LED operation for events such as ", (0,jsx_runtime.jsx)(Cmd, {
+      children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "device.displaySound.event.waitingInput"
       }), ", ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.displaySound.event.authSuccess"
-      }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+      }), ", ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.displaySound.event.authFail"
-      }), "."]
+      }), " 이벤트 발생 시 LED 동작을 설정할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
-          }), ": Set the desired action among ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.off"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.led.mode.constant"
-          }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.blinking"
-          }), "."]
+          }), " 중에 원하는 동작을 설정할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "schedule.cycle"
-          }), ": If ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
-          }), " is selected as ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.blinking"
-          }), ", enter the number of times the LED will blink. Check ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "로 선택했을 경우 LED가 깜빡일 횟수를 입력합니다. 설정한 모드를 계속 반복되게 하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.infinite"
-          }), " to repeat the set mode continuously."]
+          }), "에 체크하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.ColorNDuration"
-          }), ": If ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
-          }), " is selected as ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.blinking"
-          }), ", select two colors to blink at the set repetition rate and enter the duration. If ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "로 선택했을 경우 설정한 반복 횟수마다 깜빡일 두 가지 색상을 선택하고 지속 시간을 입력합니다.\n", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
-          }), " is selected as ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.led.mode.constant"
-          }), ", select one color to be lit and enter the duration."]
+          }), "로 선택했을 경우 점등될 하나의 색상을 선택하고 지속 시간을 입력합니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h5, {
-      id: "buzzer",
-      children: "Buzzer"
+      id: "버저",
+      children: "버저"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Set the operation of the buzzer for events such as ", (0,jsx_runtime.jsx)(Cmd, {
+      children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "device.displaySound.event.waitingInput"
       }), ", ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.displaySound.event.authSuccess"
-      }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+      }), ", ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.displaySound.event.authFail"
-      }), "."]
+      }), " 이벤트 발생 시 버저의 동작을 설정할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
-          }), ": Set the desired action among ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.off"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.buzzer.mode.constant"
-          }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.beeping"
-          }), "."]
+          }), " 중에 원하는 동작을 설정할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "schedule.cycle"
-          }), ": If ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
-          }), " is selected as ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.beeping"
-          }), ", enter the number of times the buzzer will sound. Check ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "으로 선택했을 경우 버저가 출력되는 횟수를 입력합니다. 설정한 모드를 계속 반복되게 하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.infinite"
-          }), " to repeat the set mode continuously."]
+          }), "에 체크하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "devce.info.osdp.ledBuzzer.duration"
-          }), ": If ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
-          }), " is selected as ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.beeping"
-          }), ", enter the duration for which the buzzer will sound at each set repetition rate.", (0,jsx_runtime.jsx)("br", {}), "If ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "으로 선택했을 경우 설정한 반복 횟수마다 버저가 출력될 지속 시간을 입력합니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode"
-          }), " is selected as ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.osdp.ledBuzzer.mode.constant"
-          }), ", enter the duration for which the buzzer will sound."]
+          }), "로 선택했을 경우 버저가 출력될 지속 시간을 입력합니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "adding-doors-using-the-quick-door-setup-feature",
-      children: "Adding Doors Using the Quick Door Setup Feature"
+      id: "간편-출입문-설정-기능으로-출입문-생성하기",
+      children: "간편 출입문 설정 기능으로 출입문 생성하기"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Easily create doors by right-clicking on the connected CoreStation 20 (CS-20/CS-20P) in the device list and selecting ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["장치 목록에서 연결된 CoreStation 20(CS-20/CS-20P)에 마우스 오른쪽 버튼을 클릭한 후 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.menu.quickDoorSetup"
-      }), "."]
+      }), "을 선택하여 간편하게 출입문을 생성할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-            children: "Doors cannot be created if no slave or Wiegand device is connected to CoreStation 20."
+            children: "CoreStation 20에 연결된 슬레이브 또는 Wiegand 장치가 없는 경우에는 출입문을 생성할 수 없습니다."
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-            children: "Doors cannot be created if only a Door Interface is connected to CoreStation 20."
+            children: "CoreStation 20에 Door Interface만 연결되어 있는 경우에는 출입문을 생성할 수 없습니다."
           }), "\n"]
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.gnb.device"
-          }), "."]
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "audit.menu.device"
+          }), "를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["In the device list, right-click on the device name of CoreStation 20 and click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["장치 목록에서 CoreStation 20의 장치 이름에 마우스 오른쪽 버튼을 클릭한 후 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.menu.quickDoorSetup"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/CS20-Quick Door Setup.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Set ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.name"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.group"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "audit.door.description"
-          }), ", and options.", (0,jsx_runtime.jsx)("br", {}), "Up to 2 doors can be configured using devices connected to the RS-485 or Wiegand port. ", (0,jsx_runtime.jsx)("br", {}), "Each door is automatically assigned items such as ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "과 옵션들을 설정하세요.", (0,jsx_runtime.jsx)("br", {}), "RS-485 또는 Wiegand 포트에 연결된 장치를 이용해 최대 2개의 출입문을 구성할 수 있습니다. ", (0,jsx_runtime.jsx)("br", {}), "각 출입문은 포트별로 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "door.entryDevice"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.doorRelay"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "door.doorSensor"
-          }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "door.exitButton"
-          }), " by port."]
+          }), " 등의 항목이 자동으로 선택됩니다."]
         }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
           type: "info",
           children: (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["I/O devices (Door Module, Input Module, Output Module, etc.) are not automatically selected as ", (0,jsx_runtime.jsx)(Cmd, {
+            children: ["I/O 장치(Door Module, Input Module, Output Module 등)는 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.entryDevice"
-            }), " or ", (0,jsx_runtime.jsx)(Cmd, {
+            }), ", ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.exitDevice"
-            }), "."]
+            }), "로 자동 선택되지 않습니다."]
           })
         }), "\n", (0,jsx_runtime.jsx)(Image, {
           src: "/img/Quick-door-setup.png"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["출입문을 생성하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), " to create the door."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.h2, {
-      id: "adding-doors-in-the--menu",
-      children: ["Adding Doors in the ", (0,jsx_runtime.jsx)(Cmd, {
+      id: "-메뉴에서-출입문-생성하기",
+      children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "audit.menu.door"
-      }), " Menu"]
+      }), " 메뉴에서 출입문 생성하기"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Add doors by selecting the relay of the CoreStation 20 in the ", (0,jsx_runtime.jsx)(Cmd, {
+      children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "audit.menu.door"
-      }), " menu."]
+      }), " 메뉴에서 CoreStation 20의 릴레이를 선택하여 출입문을 생성할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.gnb.door"
-          }), "."]
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "audit.menu.device"
+          }), "를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "button.func.addDoor"
-          }), "."]
+          }), "를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Refer to ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.information"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.configuration"
@@ -819,9 +820,9 @@ function _createMdxContent(props) {
             sid: "door.antiPassBack"
           }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "timedAPB.title"
-          }), ", and ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ", ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "door.alarm"
-          }), " to configure each item."]
+          }), "을 참고하여 각 항목을 설정하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -830,7 +831,7 @@ function _createMdxContent(props) {
         sid: "common.information"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Enter or change the name, group, and description of the door."
+      children: "출입문의 이름, 그룹, 설명을 입력하거나 변경할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-door-info.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
@@ -838,25 +839,25 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.name"
-          }), ": Enter the desired door name."]
+          }), ": 원하는 출입문 이름을 입력하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.group"
-          }), ": Select the door group. Door groups can be added by right-clicking ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "menu.door.allDoorGroups"
-          }), " in the ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 출입문 그룹을 선택하세요. 출입문 그룹은 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.gnb.door"
-          }), " menu and selecting ", (0,jsx_runtime.jsx)(Cmd, {
+          }), " 메뉴에서 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "menu.door.allDoorGroups"
+          }), " 부분에 마우스 오른쪽 버튼을 클릭한 후 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "door.addDoorGroup"
-          }), "."]
+          }), "를 선택하여 추가할 수 있습니다."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.description"
-          }), ": Enter a description of the door."]
+          }), ": 출입문에 대한 간단한 설명을 입력하세요."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -865,11 +866,11 @@ function _createMdxContent(props) {
         sid: "device.info.configuration"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Configure the device, relay, exit button, door sensor, and other related information."
+      children: "장치와 릴레이, 퇴실 버튼, 출입문 센서 등의 정보를 설정할 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsx)(_components.p, {
-        children: "CoreStation 20 cannot be set as an entry or exit device."
+        children: "CoreStation 20은 입실 장치나 퇴실 장치로 설정할 수 없습니다."
       })
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-door-setting.png"
@@ -878,32 +879,32 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.entryDevice"
-          }), ": Select the device to be used for entry. Choose from the list of registered devices."]
+          }), ": 입실할 때 사용할 장치를 선택하세요. 등록된 장치 목록에서 선택할 수 있습니다."]
         }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
           type: "info",
           children: (0,jsx_runtime.jsx)(_components.p, {
-            children: "CoreStation 20 does not support wireless door locks."
+            children: "CoreStation 20은 무선 도어락을 지원하지 않습니다."
           })
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.doorRelay"
-          }), ": Select the relay that will operate the door locking device."]
+          }), ": 출입문 잠금 장치를 동작할 릴레이를 선택하세요."]
         }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
           type: "info",
           children: (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["If select the Lock door relay, ", (0,jsx_runtime.jsx)(Cmd, {
+                children: ["Lock 출입문 릴레이를 선택하면 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "door.exitButton"
-                }), " and ", (0,jsx_runtime.jsx)(Cmd, {
+                }), "과 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "door.doorSensor"
-                }), " are automatically selected."]
+                }), "가 자동으로 선택됩니다."]
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                children: "Alarm relay cannot be used as a door relay."
+                children: "Alarm 릴레이는 출입문 릴레이로 사용할 수 없습니다."
               }), "\n"]
             }), "\n"]
           })
@@ -912,23 +913,23 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.exitButton"
-          }), ": Select the port to be used for the exit button."]
+          }), ": 퇴실 버튼에 사용할 포트를 선택하세요."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.switchType"
-              }), " it set to ", (0,jsx_runtime.jsx)(Cmd, {
+              }), "는 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.switch.normallyClose"
-              }), " or ", (0,jsx_runtime.jsx)(Cmd, {
+              }), "나 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.switch.normallyOpen"
-              }), "."]
+              }), "로 설정할 수 있습니다."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.simulateUnlockSupported"
-              }), ": Set it so that when the exit button is pressed, the door open request log is generated, but the relay does not operate."]
+              }), ": 퇴실 버튼 입력 시 출입문 열림 요청 로그는 발생하지만 릴레이는 동작하지 않도록 설정할 수 있습니다."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
@@ -936,25 +937,25 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.doorSensor"
-          }), ": Select the port to be used for checking the door status."]
+          }), ": 출입문 상태를 확인할 때 사용할 포트를 선택하세요."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.switchType"
-              }), " it set to ", (0,jsx_runtime.jsx)(Cmd, {
+              }), "는 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.switch.normallyClose"
-              }), " or ", (0,jsx_runtime.jsx)(Cmd, {
+              }), "나 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.switch.normallyOpen"
-              }), "."]
+              }), "로 설정할 수 있습니다."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.apbUseDoorSensor"
-              }), ": Set whether to use the door sensor when using the ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "zone.apbUseDoorSensor"
-              }), " option."]
+              }), " 옵션을 사용할 때 출입문 센서 사용 여부를 설정할 수 있습니다."]
             }), "\n"]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
@@ -962,19 +963,19 @@ function _createMdxContent(props) {
           children: (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["This feature cannot be used if ", (0,jsx_runtime.jsx)(Cmd, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
                   sid: "timedAPB.title"
-                }), " is activated."]
+                }), "이 활성화되어 있을 경우 이 기능을 사용할 수 없습니다."]
               }), "\n"]
             }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
               children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                children: ["If ", (0,jsx_runtime.jsx)(Cmd, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
                   sid: "door.doorSensor"
-                }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
+                }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "common.none"
-                }), ", the ", (0,jsx_runtime.jsx)(Cmd, {
+                }), "으로 설정하면 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "door.alarm"
-                }), " tab cannot be configured."]
+                }), " 탭을 설정할 수 없습니다."]
               }), "\n"]
             }), "\n"]
           })
@@ -983,15 +984,18 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.exitDevice"
-          }), ": Select the device to be used for exit. The exit device must be connected as a slave device."]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["If there is no ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "door.exitDevice"
-            }), ", the ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "door.antiPassBack"
-            }), " cannot be set."]
-          }), "\n"]
+          }), ": 퇴실할 때 사용할 장치를 선택하세요. 퇴실 장치는 슬레이브로 연결된 장치가 있어야 사용할 수 있습니다."]
+        }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+          type: "info",
+          children: (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: [(0,jsx_runtime.jsx)(Cmd, {
+                sid: "door.exitDevice"
+              }), "가 없는 경우 ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "door.antiPassBack"
+              }), "을 설정할 수 없습니다."]
+            }), "\n"]
+          })
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -1006,40 +1010,40 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.open"
-          }), ": Set options for door opening."]
+          }), ": 출입문 열림에 대한 옵션을 설정할 수 있습니다."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.openTime"
-              }), ": Set the time for which the door remains open after user authentication is complete. This is the time when the relay is activated after successful authentication, and after this time, the relay will no longer send a signal to the door."]
+              }), ": 사용자 인증이 완료된 뒤 출입문이 열린 채로 유지되는 시간을 설정하세요. 인증이 성공했을 때 릴레이가 활성화되는 시간이며, 이 시간이 지나면 릴레이는 출입문에 신호를 보내지 않습니다."]
             }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
               type: "info",
               children: (0,jsx_runtime.jsxs)(_components.p, {
                 children: [(0,jsx_runtime.jsx)(Cmd, {
                   sid: "door.openTime"
-                }), " may vary depending on the type of door locking device used."]
+                }), "은 사용하는 출입문 잠금 장치의 종류에 따라 달라질 수 있습니다."]
               })
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.openOnce"
-              }), ": The door will be locked when the door sensor detects that the door is closed. This cannot be used if ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": 출입문이 닫힌 것을 출입문 센서가 감지하면 출입문이 잠깁니다. ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.option.openCondition.useAutoDoor"
-              }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
+              }), "을 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.on"
-              }), "."]
+              }), "으로 설정한 경우 사용할 수 없습니다."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.option.openCondition.useAutoDoor"
-              }), ": If the automatic door is to be used as the access door, the relay can operate regardless of the status of the door sensor. This cannot be used if ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": 자동문을 출입문으로 사용할 경우 출입문 센서의 상태와 상관없이 릴레이를 동작할 수 있습니다. ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.openOnce"
-              }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
+              }), "을 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.on"
-              }), "."]
+              }), "으로 설정한 경우 사용할 수 없습니다."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
@@ -1047,45 +1051,45 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.dualAuthentication"
-          }), ": Set it so that the door opens only when two people (a regular user and an administrator) authenticate their credentials."]
+          }), ": 두 사람(일반 사용자와 관리자)이 크리덴셜을 인증하여 출입문이 열리도록 설정할 수 있습니다."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.device"
-              }), ": Select the device to use for dual authentication. If set to ", (0,jsx_runtime.jsx)(Cmd, {
-                sid: "common.notUse"
-              }), ", dual authentication mode is not used."]
+              }), ": 이중 인증을 사용할 장치를 선택할 수 있습니다. ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "door.dualAuthentication.device.noDevice"
+              }), "으로 설정하면 이중 인증 모드를 사용하지 않습니다."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.schedule"
-              }), ": Set the schedule for dual authentication. If there is no desired schedule, click ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": 이중 인증을 사용할 스케줄을 설정하세요. 원하는 스케줄이 없다면 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "button.plusAddSchedule"
-              }), " to set it."]
+              }), "를 클릭하여 설정하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.dualAuthentication.approvalType"
-              }), ": Set the order of administrator authentication. If set to ", (0,jsx_runtime.jsx)(Cmd, {
-                sid: "common.notUse"
-              }), ", two authentications are required regardless of the authentication group. If set to the ", (0,jsx_runtime.jsx)(Cmd, {
+              }), ": 관리자 인증 순서를 설정할 수 있습니다. ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "door.dualAuthentication.approvalType.none"
+              }), "으로 설정하면 인증 그룹과 관계 없이 두 명의 인증이 필요합니다. ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.dualAuthentication.approvalType.last"
-              }), ", the user authenticated as a general user, followed by the user in the set authentication group, must authenticate."]
+              }), "으로 설정하면 일반 사용자가 인증한 뒤 설정된 인증 그룹에 포함된 사용자가 인증해야 합니다."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.approvalGroup"
-              }), ": Set the group to which the administrator belongs."]
+              }), ": 관리자가 속한 그룹을 설정할 수 있습니다."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.authTimeout"
-              }), ": Set the waiting time for authenticating the second credential after the first credential is authenticated. If the second credential is not authenticated within the set time after the first credential is authenticated, the door will not open."]
+                sid: "door.authenticationTimeout"
+              }), ": 첫 번째 크리덴셜이 인증되고 두 번째 크리덴셜을 인증하는 대기 시간을 설정하세요. 첫 번째 크리덴셜이 인증되고 설정한 시간 안에 두 번째 크리덴셜이 인증되지 않으면 출입문이 열리지 않습니다."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
@@ -1093,12 +1097,12 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.antiTailSensor"
-          }), " : Set it to detect tailgating, where an unauthorized person follows an authorized person to gain access."]
+          }), " : 인증하지 않은 사람이 인증한 사람을 따라 출입하는 테일게이팅을 감지하도록 설정할 수 있습니다."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "common.sensor"
-            }), ": Select the sensor to detect tailgating."]
+            }), ": 테일게이팅을 감지할 센서를 선택할 수 있습니다."]
           }), "\n"]
         }), "\n"]
       }), "\n"]
@@ -1108,29 +1112,29 @@ function _createMdxContent(props) {
         sid: "door.antiPassBack"
       })
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Anti-passback is used to manage access records and enhance security.", (0,jsx_runtime.jsx)("br", {}), "It can prevent misuse cases where a user hands over their access card to another user after entering, and it can also prevent outsiders from following authorized users to gain access.", (0,jsx_runtime.jsx)("br", {}), "It can be used when both ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["안티패스백은 출입 이력을 관리하고 보안을 강화하기 위해 사용합니다.", (0,jsx_runtime.jsx)("br", {}), "사용자가 출입 카드로 입실 후 다른 사용자에게 카드를 넘겨주는 악용 사례를 막을 수 있으며, 외부인이 출입 권한을 가진 사용자를 뒤따라 들어올 때 나가지 못하도록 막을 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
         sid: "door.entryDevice"
-      }), " and ", (0,jsx_runtime.jsx)(Cmd, {
+      }), "와 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "door.exitDevice"
-      }), " are installed, and cannot be used if ", (0,jsx_runtime.jsx)(Cmd, {
+      }), "가 모두 설치된 경우 사용할 수 있으며, ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "door.exitDevice"
-      }), " is set to ", (0,jsx_runtime.jsx)(Cmd, {
+      }), "를 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.none"
-      }), "."]
+      }), "으로 설정하면 사용할 수 없습니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-            children: "To activate the anti-passback tab in the door settings, a master device and a slave device configured with RS-485 are required."
+            children: "출입문 설정에서 안티패스백 탭을 활성화하려면 RS-485로 구성된 마스터 장치와 슬레이브 장치가 필요합니다."
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["If ", (0,jsx_runtime.jsx)(Cmd, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "timedAPB.title"
-            }), " is activated, ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "이 활성화되어 있을 경우 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.antiPassBack"
-            }), " cannot be used."]
+            }), "을 사용할 수 없습니다."]
           }), "\n"]
         }), "\n"]
       })
@@ -1141,27 +1145,27 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.type"
-          }), ": Select the type of ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "door.antiPassBack"
-          }), "."]
+          }), " 종류를 선택하세요."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.none"
-              }), ": Select this option to turn off the anti-passback feature."]
+              }), ": 안티패스백 기능을 끄려면 선택하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.apbType.soft"
-              }), ": Select this option to allow access even if anti-passback is violated, but still trigger an alarm or generate a log in BioStar 2."]
+              }), ": 안티패스백을 위반할 경우 출입은 가능하지만 경보를 울리거나 BioStar 2에 로그를 생성하려면 선택하세요."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.apbType.hard"
-              }), ": Select this option to prevent access when anti-passback is violated, and still trigger an alarm or generate a log in BioStar 2."]
+              }), ": 안티패스백을 위반할 경우 출입할 수 없으며 경보를 울리거나 BioStar 2에 로그를 생성하려면 선택하세요."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
@@ -1169,7 +1173,7 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.resetTime"
-          }), ": Set the time until the anti-passback function is reset. It can be set up to 7 days (10,080 minutes), and if set to 0, it will not be reset."]
+          }), ": 안티패스백 기능이 초기화될 때까지의 시간을 설정할 수 있습니다. 최대 10,080분(7일)까지 설정할 수 있으며, 0으로 설정하면 초기화되지 않습니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -1180,7 +1184,9 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(Cmd, {
         sid: "timedAPB.field"
-      }), " sets the time it takes for re-authentication to be possible after a user has authenticated their access, to prevent frequent re-entries."]
+      }), "은 사용자가 출입 인증 후 동일한 장치에 다시 인증하고자 할 때 발생하는 ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "door.antiPassBack"
+      }), "이 재인증을 할 수 있을 때까지 걸리는 초기화 시간을 설정하여 빈번한 입실을 제한할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
@@ -1188,43 +1194,43 @@ function _createMdxContent(props) {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "timedAPB.title"
-            }), " is available without a separate BioStar 2 license."]
+            }), "은 별도의 BioStar 2 라이선스 없이 사용할 수 있습니다."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "timedAPB.title"
-            }), " can only be configured when either ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "은 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.entryDevice"
-            }), " or ", (0,jsx_runtime.jsx)(Cmd, {
+            }), " 또는 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.exitDevice"
-            }), " and ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "와 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.doorRelay"
-            }), " are selected."]
+            }), "가 선택된 상태에서만 설정할 수 있습니다."]
           }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-              children: ["As this feature is used to enhance door security, it can also be configured when only one of ", (0,jsx_runtime.jsx)(Cmd, {
+              children: ["출입문의 보안을 강화하기 위해 사용하는 기능이므로 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.entryDevice"
-              }), " or ", (0,jsx_runtime.jsx)(Cmd, {
+              }), " 또는 ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.exitDevice"
-              }), " is selected."]
+              }), " 중 하나만 선택된 상태에서도 설정할 수 있습니다."]
             }), "\n"]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "timedAPB.title"
-            }), " and ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "과 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.apbUseDoorSensor"
-            }), " cannot be used at the same time."]
+            }), " 기능은 동시에 사용할 수 없습니다."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "timedAPB.title"
-            }), " and ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "과 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.antiPassBack"
-            }), " cannot be used at the same time."]
+            }), "은 동시에 사용할 수 없습니다."]
           }), "\n"]
         }), "\n"]
       })
@@ -1233,44 +1239,44 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Select the device to use ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "timedAPB.title"
-          }), " and set ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "을 사용할 장치를 선택하고 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "door.resetTime"
-          }), " as desired."]
+          }), "을 원하는 대로 설정하세요."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "door.resetTime"
-              }), ": The input unit is minutes (min.), the default value is 10 minutes, and the available time range is 0 to 60 minutes."]
+              }), ": 입력 단위는 분(min.)이며 기본값은 10분이고 입력 가능한 시간의 범위는 0 ~ 60분입니다."]
             }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
               type: "info",
               children: (0,jsx_runtime.jsxs)(_components.p, {
                 children: [(0,jsx_runtime.jsx)(Cmd, {
                   sid: "door.resetTime"
-                }), " set to 0 minutes will deactivate ", (0,jsx_runtime.jsx)(Cmd, {
+                }), "을 0분으로 설정하면 ", (0,jsx_runtime.jsx)(Cmd, {
                   sid: "timedAPB.title"
-                }), "."]
+                }), "이 동작하지 않습니다."]
               })
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "zone.apb.bypassGroup"
-              }), ": Specify the access group that can always pass without being restricted by the time-limited anti-passback."]
+              }), ": 시간 제한 안티패스백에 제한받지 않고 항상 통과할 수 있는 출입 그룹을 지정할 수 있습니다."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["After setting, when the ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["설정 후 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "timedAPB.title"
-          }), " occurs, can be view the events and ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "common.imageLog"
-          }), " in the ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "이 발생하면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.monitoring"
-          }), " menu."]
+          }), " 메뉴에서 이벤트 및 ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "common.imageLog"
+          }), "를 확인할 수 있습니다."]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h3, {
@@ -1279,7 +1285,7 @@ function _createMdxContent(props) {
         sid: "door.alarm"
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "Trigger an alarm or prevent the device from being used when the door is forcibly opened, left open, or when an anti-passback violation occurs."
+      children: "출입문이 강제로 열리거나 열린 채로 방치되었거나 안티패스백 위반이 발생했을 때 경보를 울리거나 장치를 사용하지 못하도록 막을 수 있습니다."
     }), "\n", (0,jsx_runtime.jsx)(Image, {
       src: "/img/CS20-door-alarm.png"
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
@@ -1287,62 +1293,62 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.heldOpen"
-          }), ": Set the alarm action when the door is left open.", (0,jsx_runtime.jsx)("br", {}), "Click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 출입문이 열린 채로 방치되었을 때 알람 동작을 설정할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.addplus"
-          }), ", then select each item. To register the set items, click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.heldOpenTime"
-          }), ": Set the time to trigger the alarm if the door is left open for a long time. This sets the maximum time the door can remain open."]
+          }), ": 장시간 출입문이 열렸을 경우 경보를 울리는 시간을 설정하세요. 출입문이 열려 있을 수 있는 최대 시간을 설정하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.forcedOpen"
-          }), ": Set the alarm action when the door is forcibly opened.", (0,jsx_runtime.jsx)("br", {}), "Click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 강제로 출입문이 열렸을 때 알람 동작을 설정할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.addplus"
-          }), ", then select each item. To register the set items, click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "door.antiPassBack"
-          }), ": Set the alarm action when an anti-passback violation occurs.", (0,jsx_runtime.jsx)("br", {}), "Click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 안티패스백 위반이 발생했을 때 알람 동작을 설정할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.addplus"
-          }), ", then select each item. To register the set items, click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "timedAPB.title"
-          }), ": Set the alarm action when an timed anti-passback violation occurs.", (0,jsx_runtime.jsx)("br", {}), "Click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ": 시간 제한 안티패스백 위반이 발생했을 때 알람 동작을 설정할 수 있습니다.", (0,jsx_runtime.jsx)("br", {}), (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.addplus"
-          }), ", then select each item. To register the set items, click ", (0,jsx_runtime.jsx)(Cmd, {
+          }), "를 클릭한 뒤 각 항목을 선택하세요. 설정한 항목을 등록하려면 ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply"
-          }), "."]
+          }), "을 클릭하세요."]
         }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
           type: "info",
           children: (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "door.antiPassBack"
-            }), " can only be set if ", (0,jsx_runtime.jsx)(Cmd, {
+            }), "은 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "door.exitDevice"
-            }), " is registered."]
+            }), "가 등록되어야 설정할 수 있습니다."]
           })
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["After completing all settings, click ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["모든 설정을 완료한 후 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "button.apply"
-      }), " to create the door."]
+      }), "을 클릭하면 출입문이 생성됩니다."]
     })]
   });
 }

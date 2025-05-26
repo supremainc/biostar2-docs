@@ -95,12 +95,12 @@ function _createMdxContent(props) {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
-            sid: "audit.menu.device"
+            sid: "common.gnb.device"
           }), "를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "장치 목록에서 설정하려는 Door Interface(DI-24)을 선택하세요."
+          children: "장치 목록에서 설정하려는 Door Interface(DI-24)를 선택하세요."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
@@ -156,12 +156,12 @@ function _createMdxContent(props) {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
           children: [(0,jsx_runtime.jsx)(Cmd, {
-            sid: "audit.menu.device"
+            sid: "common.gnb.device"
           }), "를 클릭하세요."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "장치 목록에서 설정하려는 Door Interface(DI-24)을 선택하세요."
+          children: "장치 목록에서 설정하려는 Door Interface(DI-24)를 선택하세요."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
