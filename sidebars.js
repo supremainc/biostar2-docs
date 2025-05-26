@@ -104,7 +104,7 @@ const sidebars = {
             id: 'revision/index',
           },
           items: [
-            'revision/299',
+            'revision/299-draft',
             'revision/298',
             'revision/297',
             'revision/296',
