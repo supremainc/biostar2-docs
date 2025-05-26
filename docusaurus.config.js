@@ -39,7 +39,7 @@ const config = {
   url: 'https://docs.supremainc.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/biostar2-docs/',
+  baseUrl: '/help/biostar2-docs/',
   future: {
     experimental_faster: true
   },
@@ -50,6 +50,7 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
+  noIndex: true,
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko', 'en'],
@@ -103,12 +104,12 @@ const config = {
         theme: {
           customCss: './src/css/custom.scss',
         },
-        sitemap: {
-          lastmod: 'date',
-          changefreq: 'daily',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-        },
+        // sitemap: {
+        //   lastmod: 'date',
+        //   changefreq: 'daily',
+        //   priority: 0.5,
+        //   ignorePatterns: ['/tags/**'],
+        // },
         svgr: {
           svgrConfig: {
             /* SVGR config */
