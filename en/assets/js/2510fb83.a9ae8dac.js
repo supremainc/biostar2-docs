@@ -103,10 +103,10 @@ function _createMdxContent(props) {
     ul: "ul",
     ...(0,lib/* useMDXComponents */.a)(),
     ...props.components
-  }, {Cmd, Image, Num} = _components;
+  }, {Calloutlists, Cmd, Image} = _components;
+  if (!Calloutlists) _missingMdxReference("Calloutlists", true);
   if (!Cmd) _missingMdxReference("Cmd", true);
   if (!Image) _missingMdxReference("Image", true);
-  if (!Num) _missingMdxReference("Num", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
       children: "The newly added dashboard can be customized as desired by selecting the desired information for each user, adding widgets, and freely arranging the widgets."
@@ -136,50 +136,46 @@ function _createMdxContent(props) {
       src: "/img/biostar-custom-dashboard.png",
       className: "none",
       caption: true
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "1"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Widget Area"
-          }), ": The area where user-added widgets are displayed."]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "The size of each widget can be freely adjusted within the size limits for each widget."
-            }), "\n"]
-          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "Widgets can only be placed in empty areas, and they cannot overlap each other."
+    }), "\n", (0,jsx_runtime.jsx)(Calloutlists, {
+      children: (0,jsx_runtime.jsxs)(_components.ol, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "Widget Area"
+            }), ": The area where user-added widgets are displayed."]
+          }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "The size of each widget can be freely adjusted within the size limits for each widget."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "Widgets can only be placed in empty areas, and they cannot overlap each other."
+              }), "\n"]
             }), "\n"]
           }), "\n"]
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "2"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Refresh"
-          }), ": Refresh the new dashboard page to update the data in the modified widget."]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["Set the refresh cycle in ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "reportApp.autoRefreshInterval"
-            }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "Refresh"
+            }), ": Refresh the new dashboard page to update the data in the modified widget."]
+          }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["Set the refresh cycle in ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "reportApp.autoRefreshInterval"
+              }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "reportApp.dashboardSettings"
+              }), "."]
+            }), "\n"]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "reportApp.dashboardSettings"
-            }), "."]
+            }), ": Add new widgets or set the data and appearance of the added widgets."]
           }), "\n"]
         }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "3"
-          }), " ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "reportApp.dashboardSettings"
-          }), ": Add new widgets or set the data and appearance of the added widgets."]
-        }), "\n"]
-      }), "\n"]
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "adding-widgets",
       children: "Adding Widgets"

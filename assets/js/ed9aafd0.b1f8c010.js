@@ -68,10 +68,10 @@ function _createMdxContent(props) {
     ul: "ul",
     ...(0,lib/* useMDXComponents */.a)(),
     ...props.components
-  }, {Cmd, Image, Num} = _components;
+  }, {Calloutlists, Cmd, Image} = _components;
+  if (!Calloutlists) _missingMdxReference("Calloutlists", true);
   if (!Cmd) _missingMdxReference("Cmd", true);
   if (!Image) _missingMdxReference("Image", true);
-  if (!Num) _missingMdxReference("Num", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
       children: "CoreStation에 무선 도어락을 연결하여 출입문으로 사용할 수 있습니다."
@@ -359,56 +359,52 @@ function _createMdxContent(props) {
       src: "/img/biostar-status-wireless-door-lock.png",
       className: "none",
       caption: true
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "1"
-          }), " ", (0,jsx_runtime.jsx)(Cmd, {
-            children: "필터 저장"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "버튼"
-          }), ": 설정한 필터를 저장할 수 있습니다."]
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "2"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "기능 버튼 (열 설정)"
-          }), ": 로그 목록의 열 설정을 변경할 수 있습니다."]
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "3"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "상태 목록"
-          }), ": 무선 도어락의 배터리 상태를 확인할 수 있습니다."]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.BatteryFullStatus"
-              }), ": 배터리가 충분한 상태입니다."]
-            }), "\n"]
-          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.BatteryGoodStatus"
-              }), " / ", (0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.BatteryHalfStatus"
-              }), ": 배터리 잔량이 부족한 상태이므로 원활한 작동을 위해 배터리 교체를 권장합니다."]
-            }), "\n"]
-          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.BatteryLowStatus"
-              }), ": 배터리 잔량이 거의 없는 상태입니다. 배터리를 교체해주세요."]
+    }), "\n", (0,jsx_runtime.jsx)(Calloutlists, {
+      children: (0,jsx_runtime.jsxs)(_components.ol, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
+              children: "필터 저장"
+            }), " ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "버튼"
+            }), ": 설정한 필터를 저장할 수 있습니다."]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "기능 버튼 (열 설정)"
+            }), ": 로그 목록의 열 설정을 변경할 수 있습니다."]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "상태 목록"
+            }), ": 무선 도어락의 배터리 상태를 확인할 수 있습니다."]
+          }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "device.info.BatteryFullStatus"
+                }), ": 배터리가 충분한 상태입니다."]
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "device.info.BatteryGoodStatus"
+                }), " / ", (0,jsx_runtime.jsx)(Cmd, {
+                  sid: "device.info.BatteryHalfStatus"
+                }), ": 배터리 잔량이 부족한 상태이므로 원활한 작동을 위해 배터리 교체를 권장합니다."]
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "device.info.BatteryLowStatus"
+                }), ": 배터리 잔량이 거의 없는 상태입니다. 배터리를 교체해주세요."]
+              }), "\n"]
             }), "\n"]
           }), "\n"]
         }), "\n"]
-      }), "\n"]
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.p, {

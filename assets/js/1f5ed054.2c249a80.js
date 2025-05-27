@@ -103,10 +103,10 @@ function _createMdxContent(props) {
     ul: "ul",
     ...(0,lib/* useMDXComponents */.a)(),
     ...props.components
-  }, {Cmd, Image, Num} = _components;
+  }, {Calloutlists, Cmd, Image} = _components;
+  if (!Calloutlists) _missingMdxReference("Calloutlists", true);
   if (!Cmd) _missingMdxReference("Cmd", true);
   if (!Image) _missingMdxReference("Image", true);
-  if (!Num) _missingMdxReference("Num", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
       children: "새롭게 추가된 대시보드는 사용자 개인별로 원하는 정보를 선택하여 위젯을 추가하고, 자유롭게 위젯을 설정하고 배치하여 입맛에 맞게 구성할 수 있습니다."
@@ -136,50 +136,46 @@ function _createMdxContent(props) {
       src: "/img/biostar-custom-dashboard.png",
       className: "none",
       caption: true
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "1"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "위젯 표시 영역"
-          }), ": 사용자가 추가한 위젯이 표시되는 영역입니다."]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "각 위젯의 크기는 위젯별로 제한된 크기 내에서 자유롭게 조정할 수 있습니다."
-            }), "\n"]
-          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "위젯은 비어있는 영역에만 배치할 수 있으며 위젯끼리 겹쳐놓을 수 없습니다."
+    }), "\n", (0,jsx_runtime.jsx)(Calloutlists, {
+      children: (0,jsx_runtime.jsxs)(_components.ol, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "위젯 표시 영역"
+            }), ": 사용자가 추가한 위젯이 표시되는 영역입니다."]
+          }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "각 위젯의 크기는 위젯별로 제한된 크기 내에서 자유롭게 조정할 수 있습니다."
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                children: "위젯은 비어있는 영역에만 배치할 수 있으며 위젯끼리 겹쳐놓을 수 없습니다."
+              }), "\n"]
             }), "\n"]
           }), "\n"]
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "2"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "새로고침"
-          }), ": 새 대시보드 페이지를 새로고침하여 수정한 위젯의 데이터를 업데이트합니다."]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "새로고침"
+            }), ": 새 대시보드 페이지를 새로고침하여 수정한 위젯의 데이터를 업데이트합니다."]
+          }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: [(0,jsx_runtime.jsx)(Cmd, {
+                sid: "reportApp.dashboardSettings"
+              }), "의 ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "reportApp.autoRefreshInterval"
+              }), "에서 새로고침 주기를 설정할 수 있습니다."]
+            }), "\n"]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "reportApp.dashboardSettings"
-            }), "의 ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "reportApp.autoRefreshInterval"
-            }), "에서 새로고침 주기를 설정할 수 있습니다."]
+            }), ": 새 위젯을 추가하거나 추가되어있는 위젯의 데이터와 모양을 설정할 수 있습니다."]
           }), "\n"]
         }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "3"
-          }), " ", (0,jsx_runtime.jsx)(Cmd, {
-            sid: "reportApp.dashboardSettings"
-          }), ": 새 위젯을 추가하거나 추가되어있는 위젯의 데이터와 모양을 설정할 수 있습니다."]
-        }), "\n"]
-      }), "\n"]
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "위젯-추가하기",
       children: "위젯 추가하기"

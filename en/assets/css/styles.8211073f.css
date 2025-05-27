@@ -4782,6 +4782,55 @@ See https://twitter.com/JoshWComeau/status/1332015868725891076
   display: block;
   color: var(--ifm-color-color-ol-gray);
 }
+.calloutLists_Z4iK ol {
+  list-style-type: none;
+  counter-reset: callout-counter;
+  padding-left: 0;
+}
+.calloutLists_Z4iK ol > li {
+  counter-increment: callout-counter;
+  position: relative;
+  margin: 25px 0;
+}
+.calloutLists_Z4iK ol li p {
+  margin-left: 40px;
+}
+.calloutLists_Z4iK ol li::before {
+  content: counter(callout-counter);
+  background: var(--ifm-color-cmd);
+  width: 26px;
+  height: 26px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 0px;
+}
+
+.calloutLists_Z4iK ol li p svg {
+  position: absolute;
+  left: 37px;
+}
+
+.calloutLists_Z4iK ol li p:has(svg) {
+  padding-left: 31px;
+}
+
+.calloutLists_Z4iK ol ul {
+  list-style-type: disc;
+}
+
+.calloutLists_Z4iK ol ul li {
+  margin: 10px 0 10px 31px;
+  padding-left: 0;
+}
+.calloutLists_Z4iK ol ul li p {
+  margin-left: 0;
+}
+.calloutLists_Z4iK ol ul li::before {
+  content: none;
+}
 .breadcrumbHomeIcon_xK9p {
   position: relative;
   top: 1px;

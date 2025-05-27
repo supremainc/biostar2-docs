@@ -68,10 +68,10 @@ function _createMdxContent(props) {
     ul: "ul",
     ...(0,lib/* useMDXComponents */.a)(),
     ...props.components
-  }, {Cmd, Image, Num} = _components;
+  }, {Calloutlists, Cmd, Image} = _components;
+  if (!Calloutlists) _missingMdxReference("Calloutlists", true);
   if (!Cmd) _missingMdxReference("Cmd", true);
   if (!Image) _missingMdxReference("Image", true);
-  if (!Num) _missingMdxReference("Num", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
       children: "Connect a wireless door lock to CoreStation and use it as an entry door."
@@ -355,56 +355,52 @@ function _createMdxContent(props) {
       src: "/img/biostar-status-wireless-door-lock.png",
       className: "none",
       caption: true
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "1"
-          }), " ", (0,jsx_runtime.jsx)(Cmd, {
-            children: "Save Filter"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Button"
-          }), ": Saves the set filter."]
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "2"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Function Buttons (Column Setting)"
-          }), ": Changes the column setting of the log."]
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(Num, {
-            num: "3"
-          }), " ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Status List"
-          }), ": Check the battery status of the wireless door lock in use."]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.BatteryFullStatus"
-              }), ": The battery level is sufficient."]
-            }), "\n"]
-          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.BatteryGoodStatus"
-              }), " / ", (0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.BatteryHalfStatus"
-              }), ": The battery level is low, it is recommended to replace the battery for smooth operation."]
-            }), "\n"]
-          }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-            children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "device.info.BatteryLowStatus"
-              }), ": The battery level is almost empty. Please replace the battery."]
+    }), "\n", (0,jsx_runtime.jsx)(Calloutlists, {
+      children: (0,jsx_runtime.jsxs)(_components.ol, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
+              children: "Save Filter"
+            }), " ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Button"
+            }), ": Saves the set filter."]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "Function Buttons (Column Setting)"
+            }), ": Changes the column setting of the log."]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "Status List"
+            }), ": Check the battery status of the wireless door lock in use."]
+          }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+            children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "device.info.BatteryFullStatus"
+                }), ": The battery level is sufficient."]
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "device.info.BatteryGoodStatus"
+                }), " / ", (0,jsx_runtime.jsx)(Cmd, {
+                  sid: "device.info.BatteryHalfStatus"
+                }), ": The battery level is low, it is recommended to replace the battery for smooth operation."]
+              }), "\n"]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+              children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                children: [(0,jsx_runtime.jsx)(Cmd, {
+                  sid: "device.info.BatteryLowStatus"
+                }), ": The battery level is almost empty. Please replace the battery."]
+              }), "\n"]
             }), "\n"]
           }), "\n"]
         }), "\n"]
-      }), "\n"]
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.p, {
