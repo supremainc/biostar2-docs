@@ -23,6 +23,7 @@ import Separator from '@site/src/components/Separator';
 import Badge from '@site/src/components/Badge';
 import BugLists from '@site/src/components/BugLists';
 import Jira from '@site/src/components/Jira';
+import Calloutlists from '@site/src/components/Calloutlists';
 // icon images svg
 import IcLicense from '@site/static/img/menus/ico-license.svg';
 import IcAdd from '@site/static/img/menus/ico-add.svg';
@@ -67,6 +68,7 @@ export default {
     Badge,
     BugLists,
     Jira,
+    Calloutlists,
     IcLicense,
     IcAdd,
     IcClose,
