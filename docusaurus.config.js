@@ -41,6 +41,7 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/biostar2-docs/',
   future: {
+    v4: true,
     experimental_faster: true
   },
   organizationName: 'Suprema.inc', // Usually your GitHub org/user name.
