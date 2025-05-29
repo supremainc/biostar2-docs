@@ -70,168 +70,79 @@
     print-color-adjust: exact !important;
   }
   .markdown h1 {
-    color: var(--ifm-color-cmd);
-    margin-top: 0;
-    font-size: 2rem
+      font-size: 2rem;
   }
-
   .markdown h2 {
-    page-break-before: auto;
-    margin-bottom: .5rem;
-    padding-top: 0;
-    font-size: 1.6rem
+      font-size: 1.8rem;
+      page-break-before: auto;
+      padding-top: 0;
   }
-
   .markdown h3 {
-    font-size: 1.4rem
+      font-size: 1.6rem;
   }
-
   .markdown h4 {
-    font-size: 1.2rem
+      font-size: 1.4rem;
   }
-
   .markdown h5 {
-    font-size: 1.1rem
+      font-size: 1.2rem;
   }
-
   .markdown h6 {
-    font-size: 1rem
+      font-size: 1rem;
   }
-
-  .markdown hr {
-    border: 1px solid var(--ifm-color-cmd);
-    margin-top: 0
+  .markdown p,
+  .markdown dt,
+  .markdown dd {
+      font-size: 0.8rem;
+      line-height: 1.2;
   }
-
-  .markdown .tabs-container ul.tabs {
-    padding-left: 0;
-    display: none
+  .markdown p svg,
+  .markdown dt svg,
+  .markdown dd svg {
+      position: relative;
+      top: 2px;
   }
-
-  .markdown .tabs-container h4.tab-label {
-    margin-top: 1rem;
-    display: block
-  }
-
-  .markdown .tabs-container .margin-top--md>div {
-    display: block
-  }
-
-  .markdown details {
-    page-break-inside: avoid;
-    background: 0 0 !important
-  }
-
-  .markdown details summary {
-    display: block;
-    position: relative
-  }
-
-  .markdown .page-break {
-    page-break-before: always
-  }
-
-  .markdown a {
-    color: var(--ifm-color-cmd) !important;
-    -webkit-text-decoration: none !important;
-    text-decoration: none !important
-  }
-
-  .markdown p, .markdown dt, .markdown dd, .markdown li {
-    line-height: 1.4;
-    font-size: .8rem !important
-  }
-
-  .markdown p code, .markdown dt code, .markdown dd code, .markdown li code {
-    background-color: var(--ifm-color-border);
-    border-radius: var(--ifm-code-border-radius);
-    padding: var(--ifm-code-padding-vertical)var(--ifm-code-padding-horizontal);
-    vertical-align: middle;
-    font-size: .7rem;
-    border: none !important
-  }
-
-  .markdown p svg, .markdown dt svg, .markdown dd svg, .markdown li svg {
-    position: relative;
-    top: 2px
-  }
-
-  .markdown ol ul {
-    margin: .25rem 0
-  }
-
-  .markdown li::marker {
-    font-size: .8rem !important
-  }
-
   .markdown img {
-    max-width: 65%
+      max-width: 65%;
   }
-
-  .markdown ul li table {
-    margin-top: .7rem
-  }
-
   .markdown ol li {
-    page-break-inside: avoid
+      page-break-inside: avoid;
   }
-
   .markdown table {
-    border: 1px;
-    font-size: .8rem
+      font-size: 0.8rem;
+      border: 1px;
   }
-
   .markdown table td {
-    padding: .3rem
+      padding: 0.3rem;
   }
-
   .markdown .theme-code-block {
-    font-size: .8rem
+      font-size: 0.8rem;
   }
-
   .markdown .theme-admonition {
-    page-break-inside: avoid
+      page-break-inside: avoid;
   }
-
   .markdown .theme-admonition-note .admNote {
-    top: -3px;
-    left: 2px svg;
-    left-width: 16.63px !important;
-    left-height: 16.63px !important
+      top: -3px;
+      left: 2px;
   }
-
+  .markdown .theme-admonition-note .admNote svg {
+      width: 16.63px !important;
+      height: 16.63px !important;
+  }
   .markdown div.container .col {
-    float: left;
-    width: 50%;
-    display: inline;
-    flex: none !important
+      display: inline;
+      flex: none !important;
+      float: left;
+      width: 50%;
   }
-
   .markdown section.row article {
-    width: 50%;
-    display: inline;
-    flex: none !important
+      display: inline;
+      flex: none !important;
+      width: 50%;
   }
-
-  .markdown section.row article>a.padding--lg {
-    padding: 20px !important
+  .markdown section.row article > a.padding--lg {
+      padding: 20px !important;
   }
-
-  .markdown .bug--lists ol li p {
-    padding-right: 0 !important
-  }
-
-  .markdown .bug--lists ol li p .badge {
-    background: #696969;
-    position: relative;
-    width: auto !important;
-    padding: .2rem .3rem !important;
-    font-size: .6rem !important;
-    display: inline-block !important;
-    top: 0 !important
-  }
-
   .theme-doc-footer {
-    display: none
+      display: none;
   }
 }

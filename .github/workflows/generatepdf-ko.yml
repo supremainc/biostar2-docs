@@ -1,4 +1,4 @@
-name: Generate PDF KO release notes
+name: Generate PDF release notes
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ env:
 jobs:
   build-n-deploy:
     name: Generate PDF
-    runs-on: macos-latest
+    runs-on: macos-14
     steps:
     - uses: actions/checkout@v4
 
@@ -31,13 +31,13 @@ jobs:
         echo "Input version: ${{ github.event.inputs.version }}"
         echo "Input date: ${{ github.event.inputs.date }}"
 
-    - name: Install Node.js
+    - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
         node-version: 20
 
     - name: Install dependencies
-      run: yarn install
+      run: yarn install --frozen-lockfile
 
     - name: Install Prince
       run: |
