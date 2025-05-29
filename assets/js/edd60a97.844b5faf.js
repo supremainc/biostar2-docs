@@ -1,6 +1,6 @@
 "use strict";
-(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["6823"], {
-8306: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["1918"], {
+5577: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -11,20 +11,20 @@ __webpack_require__.d(__webpack_exports__, {
   contentTitle: () => (/* binding */ contentTitle),
   assets: () => (/* binding */ assets),
   toc: () => (/* binding */ toc),
-  metadata: () => (/* reexport */ site_docs_revision_299_mdx_029_namespaceObject)
+  metadata: () => (/* reexport */ site_docs_revision_299_draft_mdx_edd_namespaceObject)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-revision-299-mdx-029.json
-var site_docs_revision_299_mdx_029_namespaceObject = JSON.parse('{"id":"revision/299","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","description":"릴리즈2025-05-30","source":"@site/docs/revision/299.mdx","sourceDirName":"revision","slug":"/revision/299","permalink":"/biostar2-docs/revision/299","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"299","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","isTranslationMissing":false}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-revision-299-draft-mdx-edd.json
+var site_docs_revision_299_draft_mdx_edd_namespaceObject = JSON.parse('{"id":"revision/299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","description":"릴리즈2025-05-30","source":"@site/docs/revision/299-draft.mdx","sourceDirName":"revision","slug":"/revision/299-draft","permalink":"/biostar2-docs/revision/299-draft","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":299,"frontMatter":{"id":"299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","isTranslationMissing":false}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(65);
-;// CONCATENATED MODULE: ./docs/revision/299.mdx
+;// CONCATENATED MODULE: ./docs/revision/299-draft.mdx
 
 
 const frontMatter = {
-	id: 299,
+	id: '299-draft',
 	title: '버전 2.9.9 (빌드 번호 2.9.9.15)',
 	isTranslationMissing: false
 };
@@ -504,20 +504,6 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(Jira, {
-        num: "BVE-3199"
-      }), " 사용자/장치/도어 그룹 트리 구조 UI 개선"]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
-      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "일부 메뉴의 그룹 트리 UI 개선"
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Improved group tree UI in certain menus."
-        }), "\n"]
-      }), "\n"]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: [(0,jsx_runtime.jsx)(Jira, {
         num: "SW5-798"
       }), " slave 에서 secure tamper on 표시.\n", (0,jsx_runtime.jsx)(Jira, {
         num: "SW5-789"
@@ -786,37 +772,19 @@ function _createMdxContent(props) {
         }), "\n"]
       }), (0,jsx_runtime.jsxs)(_components.p, {
         children: [(0,jsx_runtime.jsx)(Jira, {
-          num: "BF-1876"
-        }), " 네트워크 트래픽 제한 설정 버그 수정 2.9.1"]
-      }), (0,jsx_runtime.jsxs)(_components.ol, {
-        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["네트워크 트래픽 제한 설정 시 장치 연결이 끊기던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.4"
-            })]
-          }), "\n"]
-        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Device connections were lost due to network traffic limit settings. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.4"
-            })]
-          }), "\n"]
-        }), "\n"]
-      }), (0,jsx_runtime.jsxs)(_components.p, {
-        children: [(0,jsx_runtime.jsx)(Jira, {
           num: "BF-1881"
         }), " TA 레지스터된 환경에서 바이오스타 로그아웃시 캐시 초기화 안되는 문제"]
       }), (0,jsx_runtime.jsxs)(_components.ol, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["TA가 등록된 환경에서 로그아웃 시 캐시가 초기화되지 않아 이전 정보가 남아있던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.6.0"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["Cached data was not cleared after logout in environments where TA was registered, causing previous information to remain. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.6.0"
             })]
           }), "\n"]
         }), "\n"]
@@ -1042,7 +1010,7 @@ function _createMdxContent(props) {
             children: ["두 개의 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), "(DST) 설정이 활성화된 상태에서 리포트를 생성할 경우 DST 설정이 적용되지 않던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -1052,7 +1020,7 @@ function _createMdxContent(props) {
             }), " settings were not applied when generating a report with two ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), " configurations enabled. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n"]
@@ -1068,7 +1036,7 @@ function _createMdxContent(props) {
             }), "(DST) 설정이 활성화된 경우 대시보드 위젯에 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), "(DST) 설정이 적용되지 않던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -1078,7 +1046,7 @@ function _createMdxContent(props) {
             }), " settings were not applied to dashboard widgets when two ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), " configurations were enabled. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n"]
@@ -1096,7 +1064,7 @@ function _createMdxContent(props) {
             }), "을 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "reportApp.dynamic"
             }), " 및 '0일 전 00:00부터 0일 전 23:59까지'로 설정 시 결과가 비정상적으로 표시되던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -1108,7 +1076,7 @@ function _createMdxContent(props) {
             }), " was set to ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "reportApp.dynamic"
             }), " and configured from '0 days back at 00:00 to 0 days back at 23:59'. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n"]
@@ -1120,13 +1088,13 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["BioStar 2를 새로 설치했을 때 sysbackup.conf 파일을 찾을 수 없다는 오류가 발생하는 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["Fixed an issue where an error occurred indicating that the sysbackup.conf file was missing when installing BioStar 2. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n"]
@@ -1140,7 +1108,7 @@ function _createMdxContent(props) {
             children: ["새 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.quickAction"
             }), " 추가 시 API가 두 번 호출되던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.5"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -1148,7 +1116,7 @@ function _createMdxContent(props) {
             children: ["API was called twice when adding a new ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "common.quickAction"
             }), ". ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.5"
             })]
           }), "\n"]
         }), "\n"]
@@ -1232,7 +1200,7 @@ function _createMdxContent(props) {
             }), "가 ", (0,jsx_runtime.jsx)(_components.code, {
               children: "-"
             }), "로 표시되는 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -1244,7 +1212,7 @@ function _createMdxContent(props) {
             }), " for some cards in the ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "predefinedReport.name.allCards"
             }), " report. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.9.8"
             })]
           }), "\n"]
         }), "\n"]
@@ -1274,13 +1242,13 @@ function _createMdxContent(props) {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["사용자 등록 시 이전 세션의 영향을 받아 권한이 없는 출입 그룹까지 표시되고 선택할 수 있던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.6.0"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["Access groups without proper permissions were displayed and selectable during user registration due to residual data from a previous session. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "???"
+              children: "2.6.0"
             })]
           }), "\n"]
         }), "\n"]
@@ -1424,6 +1392,46 @@ function _createMdxContent(props) {
           children: ["Support for ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "device.info.useVisualBarcode"
           }), " feature on X-Station 2 (XS2-QAPB, XS2-QDPB) models."]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: [(0,jsx_runtime.jsx)(Jira, {
+        num: "BF-1876"
+      }), " 네트워크 트래픽 제한 설정 버그 수정 2.9.1"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: [(0,jsx_runtime.jsx)(_components.code, {
+        children: "제외"
+      }), " - 문제점이 발견되어 차기 버전으로 이관"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
+      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["네트워크 트래픽 제한 설정 시 장치 연결이 끊기던 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: "2.9.4"
+          })]
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["Device connections were lost due to network traffic limit settings. ", (0,jsx_runtime.jsx)(Badge, {
+            children: "2.9.4"
+          })]
+        }), "\n"]
+      }), "\n"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: [(0,jsx_runtime.jsx)(Jira, {
+        num: "BVE-3199"
+      }), " 사용자/장치/도어 그룹 트리 구조 UI 개선"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: [(0,jsx_runtime.jsx)(_components.code, {
+        children: "제외"
+      }), " - 복잡한 환경에서 동작에 문제가 발생하여 차기 버전으로 이관"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
+      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "일부 메뉴의 그룹 트리 UI 개선"
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "Improved group tree UI in certain menus."
         }), "\n"]
       }), "\n"]
     })]

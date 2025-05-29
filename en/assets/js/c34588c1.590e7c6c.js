@@ -1,6 +1,6 @@
 "use strict";
-(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["1621"], {
-106: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["2455"], {
+5042: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 __webpack_require__.d(__webpack_exports__, {
   ZP: () => (MDXContent),
   d$: () => (toc)
@@ -29,19 +29,19 @@ function _createMdxContent(props) {
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(Details, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("summary", {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-        children: "FaceStation F2 v1.x.x 펌웨어 지원 중단 안내"
+        children: "Notice on FaceStation F2 v1.x.x Firmware Support Discontinuation"
       })
     }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화할 때 템플릿만 전송하도록 변경하여 동기화 성능을 최적화했습니다."
+      children: "Starting with BioStar 2 v2.9.7, we have enhanced synchronization performance by modifying the process to transmit templates exclusively when synchronizing a user's visual face to the device."
     }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "따라서 BioStar 2 v2.9.7부터는 장치에서만 템플릿을 추출할 수 있는 FaceStation F2 v1.x.x 펌웨어의 지원이 중단됩니다."
+      children: "Given the differences in visual face algorithms, FaceStation F2 v1.x.x won't sync well with the new BioStar 2. Therefore, we've decided to end support for FaceStation F2 v1.x.x from BioStar 2 v2.9.7 onward."
     }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "현재 FaceStation F2의 1.x.x 버전 펌웨어를 사용 중인 경우 BioStar 2 v2.9.7을 사용하기 위해서는 FaceStation F2를 최신 펌웨어로 업그레이드하여 사용하세요."
+      children: "If you are currently using FaceStation F2 v1.x.x firmware, kindly upgrade your FaceStation F2 to the latest firmware to utilize BioStar 2 v2.9.7."
     }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["최신 펌웨어는 ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+      children: ["The latest firmware can be downloaded from the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
         href: "https://download.supremainc.com",
-        children: "슈프리마 다운로드 센터"
-      }), "에서 다운로드할 수 있습니다."]
+        children: "Suprema Download Center"
+      }), "."]
     })]
   });
 }
@@ -64,7 +64,7 @@ function _missingMdxReference(id, component) {
 
 
 }),
-3705: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+662: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -75,23 +75,23 @@ __webpack_require__.d(__webpack_exports__, {
   contentTitle: () => (/* binding */ contentTitle),
   assets: () => (/* binding */ assets),
   toc: () => (/* binding */ toc),
-  metadata: () => (/* reexport */ site_docs_revision_298_mdx_cf9_namespaceObject)
+  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_revision_298_mdx_c34_namespaceObject)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-revision-298-mdx-cf9.json
-var site_docs_revision_298_mdx_cf9_namespaceObject = JSON.parse('{"id":"revision/298","title":"버전 2.9.8 (빌드 번호 2.9.8.30)","description":"릴리즈2024-12-06","source":"@site/docs/revision/298.mdx","sourceDirName":"revision","slug":"/revision/298","permalink":"/biostar2-docs/revision/298","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"298","title":"버전 2.9.8 (빌드 번호 2.9.8.30)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"버전 2.9.9 (빌드 번호 2.9.9.15)","permalink":"/biostar2-docs/revision/299-draft"},"next":{"title":"버전 2.9.7 (빌드 번호 2.9.7.41)","permalink":"/biostar2-docs/revision/297"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-revision-298-mdx-c34.json
+var site_i_18_n_en_docusaurus_plugin_content_docs_current_revision_298_mdx_c34_namespaceObject = JSON.parse('{"id":"revision/298","title":"Version 2.9.8 (Build No. 2.9.8.30)","description":"Release2024-12-06","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/revision/298.mdx","sourceDirName":"revision","slug":"/revision/298","permalink":"/biostar2-docs/en/revision/298","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"298","title":"Version 2.9.8 (Build No. 2.9.8.30)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Version 2.9.9 (Build No. 2.9.9.16)","permalink":"/biostar2-docs/en/revision/299"},"next":{"title":"Version 2.9.7 (Build No. 2.9.7.41)","permalink":"/biostar2-docs/en/revision/297"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(65);
-// EXTERNAL MODULE: ./docs/common/_fsf2-firmware-support-discontinuation.mdx
-var _fsf2_firmware_support_discontinuation = __webpack_require__(106);
-;// CONCATENATED MODULE: ./docs/revision/298.mdx
+// EXTERNAL MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/common/_fsf2-firmware-support-discontinuation.mdx
+var _fsf2_firmware_support_discontinuation = __webpack_require__(5042);
+;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/revision/298.mdx
 
 
 const frontMatter = {
 	id: 298,
-	title: '버전 2.9.8 (빌드 번호 2.9.8.30)',
+	title: 'Version 2.9.8 (Build No. 2.9.8.30)',
 	isTranslationMissing: false
 };
 const contentTitle = undefined;
@@ -104,12 +104,12 @@ const assets = {
 
 
 const toc = [..._fsf2_firmware_support_discontinuation/* toc */.d$, {
-  "value": "신규 기능 및 개선",
-  "id": "신규-기능-및-개선",
+  "value": "New Features and Improvements",
+  "id": "new-features-and-improvements",
   "level": 2
 }, {
-  "value": "버그 수정",
-  "id": "버그-수정",
+  "value": "Bug Fixes",
+  "id": "bug-fixes",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -129,118 +129,118 @@ function _createMdxContent(props) {
   if (!Separator) _missingMdxReference("Separator", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsxs)(_components.p, {
-      children: ["릴리즈", (0,jsx_runtime.jsx)(Separator, {}), "2024-12-06"]
+      children: ["Release", (0,jsx_runtime.jsx)(Separator, {}), "2024-12-06"]
     }), "\n", "\n", (0,jsx_runtime.jsx)(_fsf2_firmware_support_discontinuation/* default */.ZP, {}), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "신규-기능-및-개선",
-      children: "신규 기능 및 개선"
+      id: "new-features-and-improvements",
+      children: "New Features and Improvements"
     }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["BioStar 2 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "비디오"
-          }), " 기능 지원 중단"]
+          children: ["Discontinuation of support for the BioStar 2 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "VIDEO"
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["사용자 정보에 파일을 업로드할 수 있는 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "커스텀 사용자 필드"
+          children: ["Supports ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Custom User Field"
           }), " - ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "파일 업로드"
-          }), " 옵션 지원"]
+            children: "File Upload"
+          }), " option that allows files to be uploaded to user information."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["사용자 인증 시 장치 화면에 표시할 개인 메시지를 입력할 수 있는 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "장치 표시 메시지"
-          }), " UI 추가"]
+          children: ["Added ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Device Display Message"
+          }), " UI to enter a private message to be displayed on the device screen during user authentication."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "얼굴 인증 시 마스크를 착용한 경우 인증을 거부하도록 설정할 수 있는 옵션 지원"
+          children: "Added an option to set face authentication to deny authentication if a mask is worn."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "삭제된 CSN 모바일 카드"
-          }), " 별도 관리 페이지 추가"]
+          children: ["Added a separate management page for ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Deleted CSN Mobile Card"
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "시간 제한 안티패스백"
-          }), " 기능 업데이트"]
+          children: ["Updated ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Timed Anti PassBack"
+          }), " feature."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: ["장치별로 ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "시간 제한 안티패스백"
-              }), "을 설정할 수 있도록 UI 개선"]
+              children: ["Improved UI to allow setting ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Timed Anti Passback"
+              }), " for each device."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(_components.strong, {
-                children: "시간 제한 안티패스백"
-              }), "의 ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "항시 통과 그룹"
-              }), " 추가"]
+              children: ["Added a ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Bypass Group"
+              }), " for ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Timed Anti Passback"
+              }), "."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["장치 목록에 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "펌웨어 버전"
-          }), " 표시 추가"]
+          children: ["Added ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Firmware Version"
+          }), " to device list."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "출입문"
-          }), " 메뉴 UI 개선"]
+          children: ["Improved ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "DOOR"
+          }), " menu UI."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: ["출입문 ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "열림 시간"
-              }), " 설정의 UI 개선"]
+              children: ["Improved door ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Open Time"
+              }), " setting UI."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: ["알람 설정에서 ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "안티패스백"
-              }), "과 ", (0,jsx_runtime.jsx)(_components.strong, {
-                children: "시간 제한 안티패스백"
-              }), " 중 어떤 기능에 대한 알람인지 구분할 수 있도록 UI 개선"]
+              children: ["Improved UI in the alarm settings to differentiate between ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Anti PassBack"
+              }), " and ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Timed Anti PassBack"
+              }), "."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "리포트"
-          }), " 메뉴 성능 개선"]
+          children: ["Improved ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "REPORT"
+          }), " performance."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "AC 서비스에 리포트 서비스 병합"
+              children: "Merged report service into AC service."
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(_components.strong, {
-                children: "커스텀 리포트"
-              }), " 생성 시 필터 조건을 일치(AND)에서 포함(OR)으로 변경"]
+              children: ["Changed filter condition from AND to OR when creating ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Custom Report"
+              }), "."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "대시보드"
-          }), " 메뉴 성능 개선"]
+          children: ["Improved ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "DASHBOARD"
+          }), " performance."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Wiegand 카드 사전 정의 포맷 추가"
+          children: "Added new predefined Wiegand card formats."
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -262,249 +262,245 @@ function _createMdxContent(props) {
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "고급 검색"
-          }), " 기능 개선"]
+          children: ["Improved ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Advanced Search"
+          }), "."]
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "사용자 목록 인쇄 기능 개선"
+              children: "Improved user list printing feature."
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(_components.strong, {
-                children: "고급 검색"
-              }), " 후 모두 선택할 수 있도록 개선"]
+              children: ["Improved to allow selecting all after ", (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Advanced Search"
+              }), "."]
             }), "\n"]
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "이벤트 로그"
-          }), "의 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "열 목록"
-          }), "에 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "엘리베이터"
-          }), ", ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "구역"
-          }), " 열 추가"]
+          children: ["Added ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Elevator"
+          }), " and ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Zone"
+          }), " columns to the ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Column List"
+          }), " of the ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Event Log"
+          }), "."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Bootstrap 라이브러리 버전 업그레이드 (3.4.1)"
+          children: "Upgraded Bootstrap library (3.4.1)."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "USB Agent 보안 취약점 개선"
+          children: "Improved USB Agent security vulnerabilities."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "근태 관리"
-          }), " 메뉴의 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "근무 스케줄"
-          }), " 성능 개선"]
+          children: ["Improved performance of ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Schedule"
+          }), " in ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "TIME ATTENDANCE"
+          }), " menu."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: [(0,jsx_runtime.jsx)(_components.strong, {
-            children: "근태 관리"
-          }), " 메뉴의 ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "근태 기록"
-          }), " 성능 개선"]
+          children: ["Improved performance of ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "Report"
+          }), " in ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "TIME ATTENDANCE"
+          }), " menu."]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Node.js 버전 업그레이드"
+          children: "Upgraded Node.js version."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "TA API 호출 시 설정된 사용자 권한에 따라 올바른 결과 값이 조회되도록 개선"
+          children: "Improved to ensure that calling the TA API retrieves correct result values according to the set user permissions."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "근태 관리 보안 취약점 개선"
+          children: "Improved security vulnerabilities."
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "HTTPS 프로토콜 보안 취약점 개선"
+              children: "Improved HTTPS protocol security vulnerabilities."
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "SQL Injection 보안 취약점 개선"
+              children: "Improved SQL Injection security vulnerabilities."
             }), "\n"]
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "BioStar 2 QR 인식률 개선"
+          children: "Improved the recognition rate of BioStar 2 QR."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "C서버에서 사용자 변경 시 성능 최적화"
+          children: "Optimized performance when updating users on the C server."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "API를 사용하여 CSN 카드 생성 시 유효성 검증에 실패했을 경우 표시되는 메시지 수정"
+          children: "Modified the message displayed if validation fails when creating a CSN card using API."
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "카드 등록 시 속도 개선"
+          children: "Improved performance when enrolling cards."
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "버그-수정",
-      children: "버그 수정"
+      id: "bug-fixes",
+      children: "Bug Fixes"
     }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsx)(BugLists, {
       children: (0,jsx_runtime.jsxs)(_components.ol, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: [(0,jsx_runtime.jsx)(_components.strong, {
-              children: "새 대시보드"
-            }), "의 일부 위젯에 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "DST"
-            }), "(", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "일광 절약 시간"
-            }), ") 설정이 제대로 반영되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+              children: "Daylight Saving Time"
+            }), " settings are not properly applied in some widgets of the New Dashboard. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.6"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: [(0,jsx_runtime.jsx)(_components.strong, {
-              children: "리포트"
-            }), " 생성 시 제목의 날짜 및 기간이 BioStar 2 시간 설정을 따르지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["When generating a ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Report"
+            }), ", the date and period in the title do not follow the BioStar 2 time settings. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.3"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["특정 특수 문자가 포함된 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "커스텀 사용자 필드 콤보 박스"
-            }), "를 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "고급 검색"
-            }), "에서 검색했을 때 검색되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "Advanced Search"
+            }), " does not return results when searching for a ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Custom User Field Combo Box"
+            }), " that contains specific special characters. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.6"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["안드로이드 모바일 환경에서 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "비주얼 페이스 모바일 등록 링크"
-            }), "를 통해 비주얼 페이스를 등록하고자 할 때 얼굴 사진을 직접 찍는 옵션이 동작하지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["In the Android mobile environment, when attempting to enroll a visual face through the ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Visual Face Mobile Enrollment Link"
+            }), ", the option to take a face photo directly does not function. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.8.9"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Maria DB 비밀번호에 특수문자가 포함되어있을 때 시스템 백업에 실패하는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["System backup fails when the Maria DB password contains special characters. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.3"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["사용자 그룹을 선택하고 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "고급 검색"
-            }), "을 수행한 다음 인쇄를 했을 때 사용자 목록이 검색된 결과대로 인쇄되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["When selecting a user group and performing an ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Advanced Search"
+            }), ", and then printing, the user list does not print according to the search results. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.5"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["간헐적으로 사용자의 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "출입 그룹"
-            }), "이 비정상적으로 보여지는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["Intermittently, the user's ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Access Group"
+            }), " is displayed incorrectly. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.5"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["크롬(Chrome)의 자동 완성 기능을 통해 ID 및 비밀번호가 저장된 상태에서 사용자 추가 시 특정 필드에 자동으로 값이 입력되는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["When the account ID and password are saved in Chrome's Passwords and autofill, certain fields are automatically filled when adding a user. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.6"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["사용자 정보에 등록된 이메일로 로그인이 되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["Unable to log in with the email address registered in user information. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.8.0"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: [(0,jsx_runtime.jsx)(_components.strong, {
-              children: "커스텀 스마트 카드"
-            }), " 레이아웃 수정 시 간헐적으로 레이아웃이 없다는 오류 팝업 메시지가 나타나는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["Intermittently, an error popup message appears stating that there is no layout when modifying the ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Custom Smart Card"
+            }), " layout. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.4"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["크롬(Chrome)의 Keyboard focusable scrollers 기능으로 인해 특정 옵션에서 드롭다운 목록을 제대로 선택할 수 없던 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["Due to Chrome's Keyboard focusable scrollers feature, the dropdown list cannot be properly selected for certain options. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.0.0"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["장치에서 사용자 정보를 수정한 후 서버에 동기화된 경우 사용자 정보에서 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "출입 그룹"
-            }), "이 사라지는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["After modifying user information on the device and syncing it to the server, the ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Access Group"
+            }), " disappears from the user information. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.0.0"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["일부 메뉴에서 검색을 수행한 후 선택이 되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["In some menus, search results cannot be selected. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.7"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: [(0,jsx_runtime.jsx)(_components.strong, {
-              children: "출입 그룹"
-            }), "의 이름을 검색한 후 선택하면 검색 목록이 초기화되는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["Search list resets after searching and selecting an ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Access Group"
+            }), " by group name. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.0.0"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: [(0,jsx_runtime.jsx)(_components.strong, {
-              children: "개인 정보 DB 암호화"
-            }), " 기능이 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "사용 안 함"
-            }), "으로 설정된 복호화 환경에서 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "근무 스케줄"
-            }), " 수정 시 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "추가된 사용자"
-            }), " 항목에서 사용자 검색이 되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["In a decryption environment where the ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Encrypt Personal Data on Database"
+            }), " is set to ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Not Use"
+            }), ", users cannot be searched in the ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "Added users"
+            }), " section when modifying a TA Schedule. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.6"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["외부에서 서버에 접속한 경우 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "근태 관리"
-            }), " 메뉴에 접근하면 로그아웃되는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["When accessing the ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "TIME ATTENDANCE"
+            }), " menu from an external connection to the server, the user is logged out. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.4.0"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["특정 상황에서 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "업그레이드 필요 (장치 데이터베이스 손상)"
-            }), " 이벤트가 발생하는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "Upgrade required (Device database corrupted)"
+            }), " event occurs in certain situations. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.4"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["BioStar 2 로그인 시 간헐적으로 로그인이 되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["Intermittent login issues occur during BioStar 2 login. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.6.0"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["start_datetime 열이 비어있는 CSV 파일을 가져온 후 사용자 메뉴에 진입하면 사용자가 표시되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["After importing a CSV file with an empty start_datetime column, users are not displayed when entering the ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "USER"
+            }), " menu. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.7"
             })]
           }), "\n"]
