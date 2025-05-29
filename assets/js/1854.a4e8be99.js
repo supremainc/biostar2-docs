@@ -19,7 +19,7 @@ const language = [
     "ko",
     "en"
 ];
-const searchIndexUrl = "search-index{dir}.json?_=1f962792";
+const searchIndexUrl = "search-index{dir}.json?_=143d7f54";
 const searchResultLimits = 8;
 const fuzzyMatchingDistance = 1;
 
@@ -122,7 +122,7 @@ __webpack_require__.miniCssF = (chunkId) => {
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("8ea5bcae8a143190")
+__webpack_require__.h = () => ("a314a0e99014105f")
 })();
 // webpack/runtime/has_own_property
 (() => {
@@ -168,7 +168,7 @@ var priority = deferred[i][2];
 })();
 // webpack/runtime/public_path
 (() => {
-__webpack_require__.p = "/biostar2-docs/en/";
+__webpack_require__.p = "/biostar2-docs/";
 })();
 // webpack/runtime/rspack_version
 (() => {

@@ -39,7 +39,7 @@ function Cover() {
     const { i18n: { currentLocale, label }, siteConfig } = (0,useDocusaurusContext/* default */.Z)();
     const title = "BioStar 2";
     const subtitle = "Revision Notes";
-    const ver = "v2.9.8";
+    const ver = "v2.9.9";
     const lang = siteConfig.i18n.localeConfigs[currentLocale].label;
     const langLabel = currentLocale.toUpperCase();
     const num = `${langLabel} 301.00.BS2`;
