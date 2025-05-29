@@ -1,0 +1,144 @@
+---
+id: 299
+title: Version 2.9.9 (Build No. 2.9.9.16)
+---
+
+Release<Separator/>2025-06-04
+
+import DocumentA from '../common/_fsf2-firmware-support-discontinuation.mdx';
+
+<DocumentA />
+
+## New Features and Improvements
+
+---
+
+1. Supports a new devices.
+
+    * XPass 2 (XP2-MAPB-H)
+
+1. Supports a new controller.
+
+    * CoreStation 20 (CS-20, CS-20P), DoorInterface (DI-24)
+
+1. Added support for logging in to BioStar 2 using Microsoft Entra ID (Azure Active Directory) integration.
+
+1. Improved <Cmd sid="settings.activeDirectory" /> synchronization performance.
+
+1. Added option to turn scramble keypad on and off in authentication menu.
+
+1. Improved security vulnerabilities.
+
+    * Enhanced validation for file uploads and inputs
+
+1. Supports MS SQL Server 2022 and OLE DB Driver.
+
+1. Support for TLS 1.2 when connecting to MS SQL secure communications.
+
+1. Upgraded MariaDB version (11.4.4).
+
+1. Improved Time and Attendance security vulnerabilities.
+
+    * Improved security vulnerabilities of External service interaction (HTTP).
+
+1. Improved system login logic.
+
+1. Improved usability of /punch_logs/modified API for attendance management.
+
+1. Improved to automatically reconnect to the database without restarting the server when using MSSQL with Windows authentication.
+
+1. Supports Microsoft ODBC Driver 17 for SQL Server.
+
+1. Improved user sync performance.
+
+1. Improved to prevent synchronization when the AC service is not running.
+
+1. Improved to allow configuration when the connected slave device supports <Cmd sid="device.card.customSmartCard" />, even if the controller does not support the feature.
+
+1. Improved to automatically reconnect when the TA DB connection is lost during encryption migration after a long idle period.
+
+1. Improved performance when retrieving users belonging to access groups.
+
+1. Improved the popup message shown when adding credentials to a user on a slave device connected via TCP/IP.
+
+1. Improved to display a error popup message with an error code when license activation fails in an offline environment.
+
+1. Added support for special characters (`*`, `,`, `_`) in <Cmd sid="device.intercom.account.new" /> and <Cmd sid="device.intercom.authorization.id" /> fields for <Cmd sid="device.info.interphone" /> settings.
+
+1. Improved <Cmd sid="audit.menu.video" /> performance.
+
+1. Improved to display the <Cmd sid="device.info.tamperOn" /> setting on certain slave devices.
+
+1. Improved the error message shown during cloud registration to help identify possible network-related causes.
+
+1. Added the features to switch the <Cmd sid="audit.menu.setting.cloud" /> account to <Cmd sid="common.notUse" /> and improved support for re-sending activation emails, displaying status information, and checking connection ports.
+
+1. Backup status now displayed as Success or Cancelled in the <Cmd sid="monitoring.auditTrail" /> when performing a <Cmd sid="audit.menu.systemBackup" />.
+
+1. Updated BioStar 2 Mobile application.
+
+1. Improved display of icons according to BioMini product type.
+
+## Bug Fixes
+
+---
+
+<BugLists>
+
+1. The TA Report for the current month is not displayed when looked up after the start of a new month. <Badge>2.8.13</Badge>
+
+1. Decryption failed in environments where <Cmd sid="setting.sever.secure.comm.encrypt.db" /> had previously been applied. <Badge>2.8.0</Badge>
+
+1. Repeated user synchronization and abnormal increase in memory usage and log file size due to specific error during device synchronization. <Badge>2.0.0</Badge>
+
+1. Failed to load users after login when a custom account had permissions for more than 1100 user groups. <Badge>2.9.5</Badge>
+
+1. Visual Face Migration target count was displayed incorrectly. <Badge>2.9.7</Badge>
+
+1. <Cmd sid="device.info.enrollTemplateOnMobile" /> menu appeared on the device detail page for devices that do not support <Cmd sid="device.info.templateOnMobile" /> enrollment. <Badge>2.9.4</Badge>
+
+1. Cached data was not cleared after logout in environments where TA was registered, causing previous information to remain. <Badge>2.6.0</Badge>
+
+1. <Cmd sid="device.info.enrollTemplateOnMobile" /> info message was incorrectly displayed on the device detail page for FaceStation F2 (version 2.2.0 or higher). <Badge>2.9.4</Badge>
+
+1. The number of <Cmd sid="setting.server.license.ac" /> users and <Cmd sid="setting.server.license.ta" /> users does not match. <Badge>2.8.9</Badge>
+
+1. In BioStar 2.8.11 and above, issuance information for <Cmd sid="user.qrSecureCredentialCard" /> was not recorded in <Cmd sid="monitoring.auditTrail" /> <Badge>2.8.11</Badge> .
+
+1. When performing <Cmd sid="user.header.batchEdit" /> with select all in a specific user group, the <Cmd sid="monitoring.auditTrail" /> incorrectly logged the target as All User. <Badge>2.7.1</Badge>
+
+1. When user ID and card ID were the same, the user name was incorrectly logged in the event log after authentication failure. <Badge>2.0.0</Badge>
+
+1. Selecting the Time Attendance menu with an expired login session did not trigger a logout. <Badge>2.2.0</Badge>
+
+1. Delayed response when generating individual reports or calling the API for specific users. <Badge>2.8.5</Badge>
+
+1. Warning popup for overlapping time was incorrectly shown when only one <Cmd sid="shift.mealDeduction" /> was configured in <Cmd sid="shift.shift" /> settings. <Badge>2.9.6</Badge>
+
+1. Incorrect user count update when deleting a user with a <Cmd sid="leave.leave" /> entry from a <Cmd sid="ta.schedule" />. <Badge>2.9.6</Badge>
+
+1. <Cmd sid="audit.menu.setting.dst" /> settings were not applied when generating a report with two <Cmd sid="audit.menu.setting.dst" /> configurations enabled. <Badge>2.9.8</Badge>
+
+1. <Cmd sid="audit.menu.setting.dst" /> settings were not applied to dashboard widgets when two <Cmd sid="audit.menu.setting.dst" /> configurations were enabled. <Badge>2.9.8</Badge>
+
+1. Results were displayed incorrectly in <Cmd sid="reportApp.customReport" /> when the <Cmd sid="customReport.dialog.period" /> was set to <Cmd sid="reportApp.dynamic" /> and configured from '0 days back at 00:00 to 0 days back at 23:59'. <Badge>2.9.8</Badge>
+
+1. Fixed an issue where an error occurred indicating that the sysbackup.conf file was missing when installing BioStar 2. <Badge>2.9.8</Badge>
+
+1. API was called twice when adding a new <Cmd sid="common.quickAction" />. <Badge>2.9.5</Badge>
+
+1. UI was displayed incorrectly when adding a photo to a user while accessing BioStar 2 via HTTP and IP address. <Badge>2.9.5</Badge>
+
+    * Added a message indicating that a secure connection (HTTPS) is required.
+
+1. <Cmd sid="setting.server.custom_field.title" /> values were incorrectly switched when exporting user information to PDF or SVG after changing the <Cmd sid="setting.server.custom_field.order" /> of <Cmd sid="setting.server.custom_field.title" /> in <Cmd sid="common.setting" /> → <Cmd sid="setting.server" />. <Badge>2.9.3</Badge>
+
+1. <Cmd sid="setting.card.cardType" /> was displayed as `-` for some cards in the <Cmd sid="predefinedReport.name.allCards" /> report. <Badge>2.9.8</Badge>
+
+1. User list was not displayed in the search window when generating a time and attendance report for a specific user. <Badge>2.8.0</Badge>
+
+1. Access groups without proper permissions were displayed and selectable during user registration due to residual data from a previous session. <Badge>2.6.0</Badge>
+
+1. Some users were not displayed when generating a report for more than 1,000 users. <Badge>2.9.8</Badge>
+
+</BugLists>
