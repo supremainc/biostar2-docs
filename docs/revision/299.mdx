@@ -1,0 +1,144 @@
+---
+id: 299
+title: 버전 2.9.9 (빌드 번호 2.9.9.16)
+---
+
+릴리즈<Separator/>2025-06-04
+
+import DocumentA from '../common/_fsf2-firmware-support-discontinuation.mdx';
+
+<DocumentA />
+
+## 신규 기능 및 개선
+
+---
+
+1. 신규 장치 연결 지원
+
+    * XPass 2 (XP2-MAPB-H)
+
+1. 신규 컨트롤러 연결 지원
+
+    * CoreStation 20 (CS-20, CS-20P), DoorInterface (DI-24)
+
+1. Microsoft Entra ID(Azure Active Directory) 연동하여 BioStar 2에 로그인할 수 있도록 지원
+
+1. <Cmd sid="settings.activeDirectory" /> 동기화 성능 개선
+
+1. 인증 메뉴에 스크램블 키패드를 켜고 끌 수 있는 옵션 추가
+
+1. 보안 취약점 개선
+
+    * 파일 업로드 및 입력값에 대한 검증 강화
+
+1. MS SQL Server 2022 및 OLE DB 드라이버 지원
+
+1. MS SQL 보안 통신 TLS 1.2 지원
+
+1. MariaDB 버전 업그레이드 (11.4.4)
+
+1. 근태 관리 보안 취약점 개선
+
+    * External service interaction (HTTP) 보안 취약점 개선
+
+1. 시스템 로그인 로직 개선
+
+1. 근태 관리 /punch_logs/modified API 사용성 개선
+
+1. MSSQL 윈도우 인증 사용 시 DB 연결이 끊긴 후 서버 재시작 없이도 자동으로 재연결되도록 개선
+
+1. Microsoft ODBC Driver 17 for SQL Server 지원
+
+1. 사용자 동기화 성능 개선
+
+1. AC 서비스를 가동하고있지 않은 경우에는 동기화를 진행하지 않도록 개선
+
+1. 컨트롤러가 <Cmd sid="device.card.customSmartCard" />를 지원하지 않더라도, 연결된 슬레이브 장치가 해당 기능을 지원하는 경우 설정이 가능하도록 개선
+
+1. 암복호화 마이그레이션 실행 시 장시간 경과로 TA DB 연결이 끊긴 경우, 자동으로 재연결되도록 개선
+
+1. 출입 그룹에 속해 있는 사용자 조회 성능 개선
+
+1. TCP/IP로 연결된 슬레이브 장치에서 사용자에게 크리덴셜을 추가하려고 할 때 나타나는 팝업 메시지 개선
+
+1. 오프라인 환경에서 라이선스 활성화에 실패할 경우 에러 코드를 포함한 팝업 메시지가 표시되도록 개선
+
+1. <Cmd sid="device.info.interphone" /> 설정의 <Cmd sid="device.intercom.account.new" />과 <Cmd sid="device.intercom.authorization.id" />에 일부 특수문자(`*`, `,`, `_`) 지원
+
+1. <Cmd sid="audit.menu.video" /> 메뉴 성능 개선
+
+1. 일부 슬레이브 장치에서 <Cmd sid="device.info.tamperOn" /> 설정이 표시되도록 개선
+
+1. 클라우드 등록 시 네트워크 환경에 따라 발생할 수 있는 오류 메시지를 안내하여 원인 확인이 가능하도록 개선
+
+1. <Cmd sid="audit.menu.setting.cloud" /> 계정을 <Cmd sid="common.notUse" />으로 전환할 수 있는 기능을 추가하고, 재등록 메일 발송, 상태 정보 표시, 연결 포트 검사 기능을 지원하도록 개선
+
+1. <Cmd sid="audit.menu.systemBackup" /> 진행 시 <Cmd sid="monitoring.auditTrail" />에 성공 또는 취소 상태가 표시되도록 개선
+
+1. BioStar 2 Mobile 애플리케이션 업데이트
+
+1. BioMini 제품 종류에 따라 아이콘이 표시되도록 개선
+
+## 버그 수정
+
+---
+
+<BugLists>
+
+1. 새로운 월이 시작된 후 근태 기록 조회 시 해당 월의 근태 기록이 조회되지 않는 문제 <Badge>2.8.13</Badge>
+
+1. <Cmd sid="setting.sever.secure.comm.encrypt.db" />를 진행했던 환경에서 다시 복호화를 진행할 때 실패하는 문제 <Badge>2.8.0</Badge>
+
+1. 장치 동기화 시 특정 오류로 인해 사용자 동기화가 반복되어 메모리 사용량 및 로그 파일 크기가 비정상적으로 증가하던 문제 <Badge>2.0.0</Badge>
+
+1. 커스텀 계정이 1100개 이상의 사용자 그룹 권한을 가진 경우 사용자 조회가 되지 않던 문제 <Badge>2.9.5</Badge>
+
+1. 비주얼 페이스 마이그레이션 대상 개수가 실제와 다르게 표시되던 문제 <Badge>2.9.7</Badge>
+
+1. <Cmd sid="device.info.templateOnMobile" /> 등록을 지원하지 않는 장치의 상세 페이지에 <Cmd sid="device.info.enrollTemplateOnMobile" /> 메뉴가 나타나는 문제 <Badge>2.9.4</Badge>
+
+1. TA가 등록된 환경에서 로그아웃 시 캐시가 초기화되지 않아 이전 정보가 남아있던 문제 <Badge>2.6.0</Badge>
+
+1. FaceStation F2(2.2.0 버전 이상)의 장치 상세 페이지에서 <Cmd sid="device.info.enrollTemplateOnMobile" />의 안내 메시지가 잘못 표시되던 문제 <Badge>2.9.4</Badge>
+
+1. <Cmd sid="setting.server.license.ac" /> 사용자와 <Cmd sid="setting.server.license.ta" /> 사용자의 수가 일치하지 않는 문제 <Badge>2.8.9</Badge>
+
+1. BioStar 2.8.11 이상 버전에서 <Cmd sid="user.qrSecureCredentialCard" />의 발급 정보가 <Cmd sid="monitoring.auditTrail" />에 기록되지 않는 문제 <Badge>2.8.11</Badge>
+
+1. 특정 사용자 그룹 내에서 사용자를 전체 선택하여 <Cmd sid="user.header.batchEdit" />했을 때 감사 추적에 모든 사용자로 잘못 기록되는 문제 <Badge>2.7.1</Badge>
+
+1. 사용자 ID와 카드 ID가 같을 때 인증에 실패할 경우 이벤트 로그에 사용자 이름이 잘못 표시되던 문제 <Badge>2.0.0</Badge>
+
+1. 로그인 세션 만료된 상태에서 근태 관리 메뉴 선택 시 로그아웃이 되지 않는 문제 <Badge>2.2.0</Badge>
+
+1. 일부 사용자를 대상으로 개별 리포트 생성 또는 API 호출 시 응답이 지연되는 문제 <Badge>2.8.5</Badge>
+
+1. <Cmd sid="shift.shift" /> 설정에서 <Cmd sid="shift.mealDeduction" />을 하나만 사용할 경우에도 중복 시간 경고 팝업이 표시되던 문제 <Badge>2.9.6</Badge>
+
+1. <Cmd sid="ta.schedule" />에서 <Cmd sid="leave.leave" />가 설정된 사용자를 삭제했을 때 사용자 수가 올바르게 반영되지 않던 문제 <Badge>2.9.6</Badge>
+
+1. 두 개의 <Cmd sid="audit.menu.setting.dst" />(DST) 설정이 활성화된 상태에서 리포트를 생성할 경우 DST 설정이 적용되지 않던 문제 <Badge>2.9.8</Badge>
+
+1. 두 개의 <Cmd sid="audit.menu.setting.dst" />(DST) 설정이 활성화된 경우 대시보드 위젯에 <Cmd sid="audit.menu.setting.dst" />(DST) 설정이 적용되지 않던 문제 <Badge>2.9.8</Badge>
+
+1. <Cmd sid="reportApp.customReport" />의 <Cmd sid="customReport.dialog.period" />을 <Cmd sid="reportApp.dynamic" /> 및 '0일 전 00:00부터 0일 전 23:59까지'로 설정 시 결과가 비정상적으로 표시되던 문제 <Badge>2.9.8</Badge>
+
+1. BioStar 2를 새로 설치했을 때 sysbackup.conf 파일을 찾을 수 없다는 오류가 발생하는 문제 <Badge>2.9.8</Badge>
+
+1. 새 <Cmd sid="common.quickAction" /> 추가 시 API가 두 번 호출되던 문제 <Badge>2.9.5</Badge>
+
+1. HTTP와 IP 주소로 BioStar 2에 접속한 상태에서 사용자에 사진 등록 시 UI가 비정상적으로 표시되던 문제 <Badge>2.9.5</Badge>
+
+    * 보안 연결(HTTPS)이 필요하다는 안내 메시지 추가
+
+1. <Cmd sid="common.setting" /> → <Cmd sid="setting.server" />에서 <Cmd sid="setting.server.custom_field.title" />의 <Cmd sid="setting.server.custom_field.order" />를 변경한 후 사용자 정보를 PDF 또는 SVG로 출력할 때, <Cmd sid="setting.server.custom_field.title" /> 값이 서로 바뀌어 표시되던 문제 <Badge>2.9.3</Badge>
+
+1. <Cmd sid="predefinedReport.name.allCards" /> 리포트를 생성하면 일부 카드의 <Cmd sid="setting.card.cardType" />가 `-`로 표시되는 문제 <Badge>2.9.8</Badge>
+
+1. 특정 사용자에 대한 근태 보고서를 생성할 때 사용자 검색창에 목록이 표시되지 않던 문제 <Badge>2.8.0</Badge>
+
+1. 사용자 등록 시 이전 세션의 영향을 받아 권한이 없는 출입 그룹까지 표시되고 선택할 수 있던 문제 <Badge>2.6.0</Badge>
+
+1. 1,000명 이상의 사용자를 대상으로 리포트를 생성할 때 일부 사용자가 표시되지 않던 문제 <Badge>2.9.8</Badge>
+
+</BugLists>
