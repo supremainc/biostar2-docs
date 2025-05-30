@@ -31,7 +31,7 @@ jobs:
         echo "Input version: ${{ github.event.inputs.version }}"
         echo "Input date: ${{ github.event.inputs.date }}"
 
-    - name: Set up Node.js
+    - name: Install Set up Node.js
       uses: actions/setup-node@v4
       with:
         node-version: 20
