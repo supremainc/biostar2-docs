@@ -6,13 +6,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 }),
-9478: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by css-extract-rspack-plugin
-
-
-}),
 3601: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -27011,7 +27004,6 @@ var docusaurus_config = __webpack_require__(5150);
 var ExecutionEnvironment = __webpack_require__(7565);
 ;// CONCATENATED MODULE: ./.docusaurus/client-modules.js
 /* ESM default export */ const client_modules = ([
-    __webpack_require__(9478),
     __webpack_require__(3601),
     __webpack_require__(1569),
     __webpack_require__(1987),
@@ -27868,7 +27860,7 @@ var i18n_namespaceObject = JSON.parse('{"defaultLocale":"ko","locales":["ko","en
 // EXTERNAL MODULE: ./.docusaurus/codeTranslations.json
 var codeTranslations = __webpack_require__(2627);
 ;// CONCATENATED MODULE: ./.docusaurus/site-metadata.json
-var site_metadata_namespaceObject = JSON.parse('{"docusaurusVersion":"3.8.0","siteVersion":"0.0.0","pluginVersions":{"docusaurus-plugin-css-cascade-layers":{"type":"package","name":"@docusaurus/plugin-css-cascade-layers","version":"3.8.0"},"docusaurus-plugin-content-docs":{"type":"package","name":"@docusaurus/plugin-content-docs","version":"3.8.0"},"docusaurus-plugin-content-pages":{"type":"package","name":"@docusaurus/plugin-content-pages","version":"3.8.0"},"docusaurus-plugin-sitemap":{"type":"package","name":"@docusaurus/plugin-sitemap","version":"3.8.0"},"docusaurus-plugin-svgr":{"type":"package","name":"@docusaurus/plugin-svgr","version":"3.8.0"},"docusaurus-theme-classic":{"type":"package","name":"@docusaurus/theme-classic","version":"3.8.0"},"docusaurus-plugin-sass":{"type":"package","name":"docusaurus-plugin-sass","version":"0.2.6"},"docusaurus-plugin-image-zoom":{"type":"package","name":"docusaurus-plugin-image-zoom","version":"3.0.1"},"docusaurus-theme-github-codeblock":{"type":"package","name":"@saucelabs/theme-github-codeblock","version":"0.3.0"},"@easyops-cn/docusaurus-search-local":{"type":"package","name":"@easyops-cn/docusaurus-search-local","version":"0.49.1"}}}')
+var site_metadata_namespaceObject = JSON.parse('{"docusaurusVersion":"3.8.0","siteVersion":"0.0.0","pluginVersions":{"docusaurus-plugin-content-docs":{"type":"package","name":"@docusaurus/plugin-content-docs","version":"3.8.0"},"docusaurus-plugin-content-pages":{"type":"package","name":"@docusaurus/plugin-content-pages","version":"3.8.0"},"docusaurus-plugin-sitemap":{"type":"package","name":"@docusaurus/plugin-sitemap","version":"3.8.0"},"docusaurus-plugin-svgr":{"type":"package","name":"@docusaurus/plugin-svgr","version":"3.8.0"},"docusaurus-theme-classic":{"type":"package","name":"@docusaurus/theme-classic","version":"3.8.0"},"docusaurus-plugin-sass":{"type":"package","name":"docusaurus-plugin-sass","version":"0.2.6"},"docusaurus-plugin-image-zoom":{"type":"package","name":"docusaurus-plugin-image-zoom","version":"3.0.1"},"docusaurus-theme-github-codeblock":{"type":"package","name":"@saucelabs/theme-github-codeblock","version":"0.3.0"},"@easyops-cn/docusaurus-search-local":{"type":"package","name":"@easyops-cn/docusaurus-search-local","version":"0.49.1"}}}')
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/docusaurusContext.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -37056,7 +37048,7 @@ __webpack_require__.d(__webpack_exports__, {
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
-      "useCssCascadeLayers": true
+      "useCssCascadeLayers": false
     },
     "experimental_faster": {
       "swcJsLoader": true,
