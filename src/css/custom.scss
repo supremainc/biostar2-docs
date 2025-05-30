@@ -858,10 +858,22 @@ footer {
     }
     details {
       background: none !important;
-      page-break-before: avoid;
+      page-break-inside: avoid;
+      border: none !important;
+      margin-top: 2rem;
+      padding: 0 !important;
+      box-shadow: none !important;
       summary {
         display: block;
         position: relative;
+        padding-left: 0;
+      }
+      summary::before {
+        display: none;
+      }
+      div[class*='collapsibleContent'] {
+        border-top: none !important;
+        padding-top: 0 !important;
       }
     }
     .page-break {
