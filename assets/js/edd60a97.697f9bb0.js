@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-revision-299-draft-mdx-edd.json
-var site_docs_revision_299_draft_mdx_edd_namespaceObject = JSON.parse('{"id":"revision/299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","description":"릴리즈2025-05-30","source":"@site/docs/revision/299-draft.mdx","sourceDirName":"revision","slug":"/revision/299-draft","permalink":"/biostar2-docs/en/revision/299-draft","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":299,"frontMatter":{"id":"299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","isTranslationMissing":true}}')
+var site_docs_revision_299_draft_mdx_edd_namespaceObject = JSON.parse('{"id":"revision/299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","description":"릴리즈2025-05-30","source":"@site/docs/revision/299-draft.mdx","sourceDirName":"revision","slug":"/revision/299-draft","permalink":"/biostar2-docs/revision/299-draft","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":299,"frontMatter":{"id":"299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","isTranslationMissing":false}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -26,7 +26,7 @@ var lib = __webpack_require__(65);
 const frontMatter = {
 	id: '299-draft',
 	title: '버전 2.9.9 (빌드 번호 2.9.9.15)',
-	isTranslationMissing: true
+	isTranslationMissing: false
 };
 const contentTitle = undefined;
 
@@ -791,14 +791,14 @@ function _createMdxContent(props) {
       }), (0,jsx_runtime.jsxs)(_components.p, {
         children: [(0,jsx_runtime.jsx)(Jira, {
           num: "BF-1885"
-        }), " FaceStation F2(ToM 지원 Version) 의 Device Detail 에 ToM Enrollment 의 Info Message 가 잘못 표기되는 문제 2.9.4"]
+        }), " FaceStation F2(ToM 지원 Version) 의 Device Detail 에 ToM Enrollment 의 Info Message 가 잘못 표기되는 문제 2.9.6"]
       }), (0,jsx_runtime.jsxs)(_components.ol, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["FaceStation F2(2.2.0 버전 이상)의 장치 상세 페이지에서 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.enrollTemplateOnMobile"
             }), "의 안내 메시지가 잘못 표시되던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.4"
+              children: "2.9.6"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -806,7 +806,7 @@ function _createMdxContent(props) {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.enrollTemplateOnMobile"
             }), " info message was incorrectly displayed on the device detail page for FaceStation F2 (version 2.2.0 or higher). ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.4"
+              children: "2.9.6"
             })]
           }), "\n"]
         }), "\n"]

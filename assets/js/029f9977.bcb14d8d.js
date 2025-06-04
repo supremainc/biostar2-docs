@@ -354,7 +354,7 @@ function _createMdxContent(props) {
             children: ["FaceStation F2(2.2.0 버전 이상)의 장치 상세 페이지에서 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.enrollTemplateOnMobile"
             }), "의 안내 메시지가 잘못 표시되던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.4"
+              children: "2.9.6"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {

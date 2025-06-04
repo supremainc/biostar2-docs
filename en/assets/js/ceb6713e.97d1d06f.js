@@ -354,7 +354,7 @@ function _createMdxContent(props) {
             children: [(0,jsx_runtime.jsx)(Cmd, {
               sid: "device.info.enrollTemplateOnMobile"
             }), " info message was incorrectly displayed on the device detail page for FaceStation F2 (version 2.2.0 or higher). ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.4"
+              children: "2.9.6"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
