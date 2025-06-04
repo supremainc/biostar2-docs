@@ -79,7 +79,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-revision-299-mdx-ceb.json
-var site_i_18_n_en_docusaurus_plugin_content_docs_current_revision_299_mdx_ceb_namespaceObject = JSON.parse('{"id":"revision/299","title":"Version 2.9.9 (Build No. 2.9.9.18)","description":"Release2025-06-04","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/revision/299.mdx","sourceDirName":"revision","slug":"/revision/299","permalink":"/biostar2-docs/en/revision/299","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"299","title":"Version 2.9.9 (Build No. 2.9.9.18)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Precautions when upgrading BioStar 2","permalink":"/biostar2-docs/en/revision/"},"next":{"title":"Version 2.9.8 (Build No. 2.9.8.30)","permalink":"/biostar2-docs/en/revision/298"}}')
+var site_i_18_n_en_docusaurus_plugin_content_docs_current_revision_299_mdx_ceb_namespaceObject = JSON.parse('{"id":"revision/299","title":"Version 2.9.9 (Build No. 2.9.9.18)","description":"Release2025-06-05","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/revision/299.mdx","sourceDirName":"revision","slug":"/revision/299","permalink":"/biostar2-docs/en/revision/299","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"299","title":"Version 2.9.9 (Build No. 2.9.9.18)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Precautions when upgrading BioStar 2","permalink":"/biostar2-docs/en/revision/"},"next":{"title":"Version 2.9.8 (Build No. 2.9.8.30)","permalink":"/biostar2-docs/en/revision/298"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -130,7 +130,7 @@ function _createMdxContent(props) {
   if (!Separator) _missingMdxReference("Separator", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Release", (0,jsx_runtime.jsx)(Separator, {}), "2025-06-04"]
+      children: ["Release", (0,jsx_runtime.jsx)(Separator, {}), "2025-06-05"]
     }), "\n", "\n", (0,jsx_runtime.jsx)(_fsf2_firmware_support_discontinuation/* default */.ZP, {}), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "new-features-and-improvements",
       children: "New Features and Improvements"
@@ -184,6 +184,10 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
           children: "Upgraded MariaDB version (11.4.4)."
+        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+          children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
+            children: "MariaDB 11.4.4 is not supported on Windows Server 2012. BioStar 2 cannot be upgraded to version 2.9.9 on Windows Server 2012."
+          }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
