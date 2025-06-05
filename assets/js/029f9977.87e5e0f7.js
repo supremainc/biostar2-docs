@@ -293,10 +293,6 @@ function _createMdxContent(props) {
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "BioStar 2 Mobile 애플리케이션 업데이트"
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
           children: "BioMini 제품 종류에 따라 아이콘이 표시되도록 개선"
         }), "\n"]
       }), "\n"]
@@ -432,7 +428,7 @@ function _createMdxContent(props) {
             children: ["두 개의 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), "(DST) 설정이 활성화된 상태에서 리포트를 생성할 경우 DST 설정이 적용되지 않던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.8"
+              children: "2.9.3"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -442,7 +438,7 @@ function _createMdxContent(props) {
             }), "(DST) 설정이 활성화된 경우 대시보드 위젯에 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), "(DST) 설정이 적용되지 않던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.8"
+              children: "2.9.5"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {

@@ -15,7 +15,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-revision-299-draft-mdx-edd.json
-var site_docs_revision_299_draft_mdx_edd_namespaceObject = JSON.parse('{"id":"revision/299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","description":"릴리즈2025-05-30","source":"@site/docs/revision/299-draft.mdx","sourceDirName":"revision","slug":"/revision/299-draft","permalink":"/biostar2-docs/en/revision/299-draft","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":299,"frontMatter":{"id":"299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.15)","isTranslationMissing":true}}')
+var site_docs_revision_299_draft_mdx_edd_namespaceObject = JSON.parse('{"id":"revision/299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.18)","description":"릴리즈2025-06-05","source":"@site/docs/revision/299-draft.mdx","sourceDirName":"revision","slug":"/revision/299-draft","permalink":"/biostar2-docs/revision/299-draft","draft":false,"unlisted":false,"tags":[],"version":"current","sidebarPosition":299,"frontMatter":{"id":"299-draft","title":"버전 2.9.9 (빌드 번호 2.9.9.18)","isTranslationMissing":false}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
@@ -25,8 +25,8 @@ var lib = __webpack_require__(65);
 
 const frontMatter = {
 	id: '299-draft',
-	title: '버전 2.9.9 (빌드 번호 2.9.9.15)',
-	isTranslationMissing: true
+	title: '버전 2.9.9 (빌드 번호 2.9.9.18)',
+	isTranslationMissing: false
 };
 const contentTitle = undefined;
 
@@ -71,7 +71,7 @@ function _createMdxContent(props) {
   if (!Separator) _missingMdxReference("Separator", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsxs)(_components.p, {
-      children: ["릴리즈", (0,jsx_runtime.jsx)(Separator, {}), "2025-05-30"]
+      children: ["릴리즈", (0,jsx_runtime.jsx)(Separator, {}), "2025-06-05"]
     }), "\n", (0,jsx_runtime.jsxs)(Details, {
       children: [(0,jsx_runtime.jsx)("summary", {
         children: (0,jsx_runtime.jsx)(_components.strong, {
@@ -596,20 +596,6 @@ function _createMdxContent(props) {
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: [(0,jsx_runtime.jsx)(Jira, {
-        num: "SW5-162"
-      }), " [BDP-926] Mobile App Renewal"]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
-      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "BioStar 2 Mobile 애플리케이션 업데이트"
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Updated BioStar 2 Mobile application."
-        }), "\n"]
-      }), "\n"]
-    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: [(0,jsx_runtime.jsx)(Jira, {
         num: "BE-3671"
       }), " BioStar 에 연결되는 BioMini 제품 종류에 따른 아이콘 표시 지원"]
     }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
@@ -1010,7 +996,7 @@ function _createMdxContent(props) {
             children: ["두 개의 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), "(DST) 설정이 활성화된 상태에서 리포트를 생성할 경우 DST 설정이 적용되지 않던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.8"
+              children: "2.9.3"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -1020,7 +1006,7 @@ function _createMdxContent(props) {
             }), " settings were not applied when generating a report with two ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), " configurations enabled. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.8"
+              children: "2.9.3"
             })]
           }), "\n"]
         }), "\n"]
@@ -1036,7 +1022,7 @@ function _createMdxContent(props) {
             }), "(DST) 설정이 활성화된 경우 대시보드 위젯에 ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), "(DST) 설정이 적용되지 않던 문제 ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.8"
+              children: "2.9.5"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -1046,7 +1032,7 @@ function _createMdxContent(props) {
             }), " settings were not applied to dashboard widgets when two ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), " configurations were enabled. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.8"
+              children: "2.9.5"
             })]
           }), "\n"]
         }), "\n"]
@@ -1261,13 +1247,13 @@ function _createMdxContent(props) {
       }), (0,jsx_runtime.jsxs)(_components.ol, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["1,000명 이상의 사용자를 대상으로 리포트를 생성할 때 일부 사용자가 표시되지 않던 문제 ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["1,000명 이상의 사용자를 대상으로 근태 보고서를 생성할 때 일부 사용자가 표시되지 않던 문제 ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.8"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Some users were not displayed when generating a report for more than 1,000 users. ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["Some users were not displayed when generating a T&A report for more than 1,000 users. ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.8"
             })]
           }), "\n"]
@@ -1432,6 +1418,24 @@ function _createMdxContent(props) {
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
           children: "Improved group tree UI in certain menus."
+        }), "\n"]
+      }), "\n"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: [(0,jsx_runtime.jsx)(Jira, {
+        num: "SW5-162"
+      }), " [BDP-926] Mobile App Renewal"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: [(0,jsx_runtime.jsx)(_components.code, {
+        children: "제외"
+      }), " - BioStar X 출시에 맞춰 런칭으로 변경"]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
+      children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "BioStar 2 Mobile 애플리케이션 업데이트"
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+          children: "Updated BioStar 2 Mobile application."
         }), "\n"]
       }), "\n"]
     })]

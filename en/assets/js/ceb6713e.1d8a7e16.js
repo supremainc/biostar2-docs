@@ -293,10 +293,6 @@ function _createMdxContent(props) {
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Updated BioStar 2 Mobile application."
-        }), "\n"]
-      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
-        children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
           children: "Improved display of icons according to BioMini product type."
         }), "\n"]
       }), "\n"]
@@ -436,7 +432,7 @@ function _createMdxContent(props) {
             }), " settings were not applied when generating a report with two ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), " configurations enabled. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.8"
+              children: "2.9.3"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
@@ -446,7 +442,7 @@ function _createMdxContent(props) {
             }), " settings were not applied to dashboard widgets when two ", (0,jsx_runtime.jsx)(Cmd, {
               sid: "audit.menu.setting.dst"
             }), " configurations were enabled. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.8"
+              children: "2.9.5"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
