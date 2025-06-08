@@ -49,6 +49,19 @@ jobs:
     - name: Install pdfcpu
       run: brew install pdfcpu
 
+    - name: Install GitHub CLI
+      run: brew install gh
+
+    - name: Delete existing release and tag if exists
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        VERSION: ${{ github.event.inputs.version }}
+      run: |
+        set -e
+        gh release delete "v$VERSION" -y || true
+        git push origin --delete "v$VERSION" || true
+      continue-on-error: true
+
     - name: Build PDF
       run: |
         node generatepdf -u "https://supremainc.github.io/biostar2-docs/cover/biostar2" --prince-args="--page-size='a4' --style=./print.css --javascript" -o ./pdf/BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_KO_${{ github.event.inputs.date }}.pdf --dest ./pdf --include-index
