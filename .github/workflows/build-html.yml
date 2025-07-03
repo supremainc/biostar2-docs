@@ -46,7 +46,7 @@ jobs:
       - name: Create release archive
         run: |
           cd build
-          zip -r "../biostar-2-help-v${{ github.event.inputs.version }}.zip" .
+          zip -r "../biostar-2-docs-v${{ github.event.inputs.version }}.zip" .
           cd ..
 
       - name: Create Release and Upload Assets
@@ -60,4 +60,4 @@ jobs:
             BioStar 2 Docs Release v${{ github.event.inputs.version }} - ${{ github.event.inputs.date }}
           draft: false
           prerelease: false
-          files: "biostar-2-help-v${{ github.event.inputs.version }}.zip"
+          files: "biostar-2-docs-v${{ github.event.inputs.version }}.zip"
