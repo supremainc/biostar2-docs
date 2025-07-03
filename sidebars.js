@@ -34,15 +34,15 @@ const sidebars = {
           items: [
             {
               type: 'category',
-              label: '2.9.9 버전',
+              label: '2.9.10 버전',
               link: {
                 type: 'doc',
-                id: 'update/biostar2-299'
+                id: 'update/biostar2-2910'
               },
               items: [
-                'update/299/how-to-use-cs20',
-                'update/299/how-to-use-di24',
-                'update/299/settings-diretory-integration',
+                'update/2910/how-to-use-cs20',
+                'update/2910/how-to-use-di24',
+                'update/2910/settings-diretory-integration',
               ]
             },
             {
@@ -104,7 +104,7 @@ const sidebars = {
             id: 'revision/index',
           },
           items: [
-            'revision/299',
+            'revision/2910',
             'revision/298',
             'revision/297',
             'revision/296',

@@ -27,8 +27,8 @@
     "message": "Revision Notes",
     "description": "The label for category 리비전 노트 in sidebar biostar"
   },
-  "sidebar.biostar.category.2.9.9 버전": {
-    "message": "Version 2.9.9",
-    "description": "The label for category 2.9.9 버전 in sidebar biostar"
+  "sidebar.biostar.category.2.9.10 버전": {
+    "message": "Version 2.9.10",
+    "description": "The label for category 2.9.10 버전 in sidebar biostar"
   }
 }
