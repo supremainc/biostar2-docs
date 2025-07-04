@@ -152,6 +152,16 @@ function _createMdxContent(props) {
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: ["Supports ", (0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.keypadBackLight"
+          }), " configuration."]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+          children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
+            children: "XPass 2 (XP2-GKDPB) hardware version 1.2.0 or higher, firmware version 1.4.3 or higher."
+          }), "\n"]
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
           children: "Added support for logging in to BioStar 2 using Microsoft Entra ID (Azure Active Directory) integration."
         }), "\n"]

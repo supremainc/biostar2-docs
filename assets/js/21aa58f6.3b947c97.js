@@ -152,6 +152,16 @@ function _createMdxContent(props) {
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
+            sid: "device.info.keypadBackLight"
+          }), " 설정 기능 지원"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
+          children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
+            children: "XPass 2 (XP2-GKDPB) 하드웨어 v1.2.0 이상, 펌웨어 v1.4.3 이상"
+          }), "\n"]
+        }), "\n"]
+      }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
           children: "Microsoft Entra ID(Azure Active Directory) 연동하여 BioStar 2에 로그인할 수 있도록 지원"
         }), "\n"]
