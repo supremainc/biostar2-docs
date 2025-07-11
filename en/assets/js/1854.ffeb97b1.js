@@ -14,12 +14,12 @@ __webpack_require__.d(__webpack_exports__, {
 __webpack_require__(892)((_home_runner_work_biostar2_docs_biostar2_docs_node_modules_lunr_lunr_js__WEBPACK_IMPORTED_MODULE_0___default()));
 __webpack_require__(5270)((_home_runner_work_biostar2_docs_biostar2_docs_node_modules_lunr_lunr_js__WEBPACK_IMPORTED_MODULE_0___default()));
 __webpack_require__(4182)((_home_runner_work_biostar2_docs_biostar2_docs_node_modules_lunr_lunr_js__WEBPACK_IMPORTED_MODULE_0___default()));
-const removeDefaultStopWordFilter = false;
+const removeDefaultStopWordFilter = [];
 const language = [
     "ko",
     "en"
 ];
-const searchIndexUrl = "search-index{dir}.json?_=a6a4d86e";
+const searchIndexUrl = "search-index{dir}.json?_=a85812d6";
 const searchResultLimits = 8;
 const fuzzyMatchingDistance = 1;
 
@@ -107,7 +107,7 @@ __webpack_require__.u = (chunkId) => {
   // return url for filenames not based on template
   
   // return url for filenames based on template
-  return "assets/js/" + chunkId + "." + "24dd8fd4" + ".js"
+  return "assets/js/" + chunkId + "." + "8305f513" + ".js"
 }
 })();
 // webpack/runtime/get mini-css chunk filename
@@ -122,7 +122,7 @@ __webpack_require__.miniCssF = (chunkId) => {
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("d598deb613623232")
+__webpack_require__.h = () => ("ef541f47cbea161f")
 })();
 // webpack/runtime/has_own_property
 (() => {

@@ -14,7 +14,7 @@ var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/react/index.js
 var react = __webpack_require__(7294);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 83 modules
-var Layout = __webpack_require__(3730);
+var Layout = __webpack_require__(8472);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
 var useBaseUrl = __webpack_require__(4757);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js

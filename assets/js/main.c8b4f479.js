@@ -27850,7 +27850,7 @@ var i18n_namespaceObject = JSON.parse('{"defaultLocale":"ko","locales":["ko","en
 // EXTERNAL MODULE: ./.docusaurus/codeTranslations.json
 var codeTranslations = __webpack_require__(2627);
 ;// CONCATENATED MODULE: ./.docusaurus/site-metadata.json
-var site_metadata_namespaceObject = JSON.parse('{"docusaurusVersion":"3.8.1","siteVersion":"0.0.0","pluginVersions":{"docusaurus-plugin-content-docs":{"type":"package","name":"@docusaurus/plugin-content-docs","version":"3.8.1"},"docusaurus-plugin-content-pages":{"type":"package","name":"@docusaurus/plugin-content-pages","version":"3.8.1"},"docusaurus-plugin-sitemap":{"type":"package","name":"@docusaurus/plugin-sitemap","version":"3.8.1"},"docusaurus-plugin-svgr":{"type":"package","name":"@docusaurus/plugin-svgr","version":"3.8.1"},"docusaurus-theme-classic":{"type":"package","name":"@docusaurus/theme-classic","version":"3.8.1"},"docusaurus-plugin-sass":{"type":"package","name":"docusaurus-plugin-sass","version":"0.2.6"},"docusaurus-plugin-image-zoom":{"type":"package","name":"docusaurus-plugin-image-zoom","version":"3.0.1"},"docusaurus-theme-github-codeblock":{"type":"package","name":"@saucelabs/theme-github-codeblock","version":"0.3.0"},"@easyops-cn/docusaurus-search-local":{"type":"package","name":"@easyops-cn/docusaurus-search-local","version":"0.49.1"}}}')
+var site_metadata_namespaceObject = JSON.parse('{"docusaurusVersion":"3.8.1","siteVersion":"0.0.0","pluginVersions":{"docusaurus-plugin-content-docs":{"type":"package","name":"@docusaurus/plugin-content-docs","version":"3.8.1"},"docusaurus-plugin-content-pages":{"type":"package","name":"@docusaurus/plugin-content-pages","version":"3.8.1"},"docusaurus-plugin-sitemap":{"type":"package","name":"@docusaurus/plugin-sitemap","version":"3.8.1"},"docusaurus-plugin-svgr":{"type":"package","name":"@docusaurus/plugin-svgr","version":"3.8.1"},"docusaurus-theme-classic":{"type":"package","name":"@docusaurus/theme-classic","version":"3.8.1"},"docusaurus-plugin-sass":{"type":"package","name":"docusaurus-plugin-sass","version":"0.2.6"},"docusaurus-plugin-image-zoom":{"type":"package","name":"docusaurus-plugin-image-zoom","version":"3.0.1"},"docusaurus-theme-github-codeblock":{"type":"package","name":"@saucelabs/theme-github-codeblock","version":"0.3.0"},"@easyops-cn/docusaurus-search-local":{"type":"package","name":"@easyops-cn/docusaurus-search-local","version":"0.51.1"}}}')
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/docusaurusContext.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -27903,7 +27903,7 @@ var Head = __webpack_require__(4819);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/utils-common/lib/index.js
 var lib = __webpack_require__(8365);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 83 modules
-var Layout = __webpack_require__(3730);
+var Layout = __webpack_require__(8472);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/routeContext.js
 var routeContext = __webpack_require__(4879);
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/theme-fallback/Error/index.js
@@ -29789,7 +29789,7 @@ function IconExternalLink(param) {
 
 
 }),
-3730: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+8472: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 "use strict";
 
 // EXPORTS
@@ -30984,16 +30984,11 @@ function IconLanguage(param) {
     });
 }
 
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/LocaleDropdownNavbarItem/styles.module.css
+;// CONCATENATED MODULE: ./src/theme/NavbarItem/LocaleDropdownNavbarItem/styles.module.css
 // extracted by css-extract-rspack-plugin
-/* ESM default export */ const LocaleDropdownNavbarItem_styles_module = ({"iconLanguage":"iconLanguage_nlXk"});
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/LocaleDropdownNavbarItem/index.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
+/* ESM default export */ const LocaleDropdownNavbarItem_styles_module = ({"iconLanguage":"iconLanguage_DSK9"});
+;// CONCATENATED MODULE: ./src/theme/NavbarItem/LocaleDropdownNavbarItem/index.js
+
 
 
 
@@ -31011,7 +31006,7 @@ function LocaleDropdownNavbarItem(param) {
         const baseTo = `pathname://${alternatePageUtils.createUrl({
             locale,
             fullyQualified: false
-        })}`;
+        })}/index.html`;
         // preserve ?search#hash suffix on locale switches
         const to = `${baseTo}${search}${hash}${queryString}`;
         return {
@@ -31229,12 +31224,12 @@ var lunr_default = /*#__PURE__*/__webpack_require__.n(lunr);
 __webpack_require__(892)((lunr_default()));
 __webpack_require__(5270)((lunr_default()));
 __webpack_require__(4182)((lunr_default()));
-const removeDefaultStopWordFilter = false;
+const removeDefaultStopWordFilter = (/* unused pure expression or super */ null && ([]));
 const language = (/* unused pure expression or super */ null && ([
     "ko",
     "en"
 ]));
-const searchIndexUrl = "search-index{dir}.json?_=a6a4d86e";
+const searchIndexUrl = "search-index{dir}.json?_=a85812d6";
 const searchResultLimits = 8;
 const fuzzyMatchingDistance = 1;
 

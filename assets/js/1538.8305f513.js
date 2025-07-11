@@ -4564,12 +4564,12 @@ const HALF_MAX_TERMS = MAX_TERMS / 2;
     const stopWordPipelines = [];
     for (const lang of generated_constants/* language */.dK){
         if (lang === "en") {
-            if (!generated_constants/* removeDefaultStopWordFilter */._k) {
+            if (!generated_constants/* removeDefaultStopWordFilter,includes */._k.includes(lang)) {
                 stopWordPipelines.unshift((lunr_default()).stopWordFilter);
             }
         } else {
             const lunrLang = (lunr_default())[lang];
-            if (lunrLang.stopWordFilter) {
+            if (lunrLang.stopWordFilter && !generated_constants/* removeDefaultStopWordFilter,includes */._k.includes(lang)) {
                 stopWordPipelines.unshift(lunrLang.stopWordFilter);
             }
         }

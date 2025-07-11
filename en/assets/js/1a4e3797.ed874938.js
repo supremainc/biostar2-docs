@@ -16,7 +16,7 @@ var react = __webpack_require__(7294);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
 var useDocusaurusContext = __webpack_require__(2933);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 83 modules
-var Layout = __webpack_require__(3730);
+var Layout = __webpack_require__(8472);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Head.js
 var Head = __webpack_require__(4819);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/Link.js
