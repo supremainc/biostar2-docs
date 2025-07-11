@@ -1,0 +1,63 @@
+name: BioStar 2 Docs to HTML Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Deployment?"
+        default: "BioStar 2 Docs"
+      version:
+        description: "Version to release"
+        required: true
+      date:
+        description: "Release date"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    name: Deploy BioStar 2 Docs with build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: yarn
+      
+      - name: Delete existing release and tag if exists
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ github.event.inputs.version }}
+        run: |
+          gh release delete "v$VERSION" -y || true
+          git push origin --delete "v$VERSION" || true
+        continue-on-error: true
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        
+      - name: Build website
+        run: yarn build --no-minify
+
+      - name: Create release archive
+        run: |
+          cd build
+          zip -r "../biostar2-docs-v${{ github.event.inputs.version }}.zip" .
+          cd ..
+
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: "v${{ github.event.inputs.version }}"
+          name: "BioStar 2 Docs v${{ github.event.inputs.version }}"
+          body: |
+            BioStar 2 Docs Release v${{ github.event.inputs.version }} - ${{ github.event.inputs.date }}
+          draft: false
+          prerelease: false
+          files: "biostar2-docs-v${{ github.event.inputs.version }}.zip"
