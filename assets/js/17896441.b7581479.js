@@ -855,7 +855,7 @@ function DocItemLayout(param) {
 
 
 }),
-9737: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+9733: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
@@ -1217,35 +1217,6 @@ function Head(param) {
 
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useBaseUrl.js
 var useBaseUrl = __webpack_require__(4757);
-;// CONCATENATED MODULE: ./src/components/Image/useImageDimensions.js
-
-function useImageDimensions(src) {
-    const [dimensions, setDimensions] = (0,react.useState)({
-        width: null,
-        height: null
-    });
-    (0,react.useEffect)(()=>{
-        if (!src) return; // src가 없으면 로직 실행 중단
-        const img = new Image();
-        img.src = src;
-        img.onload = ()=>{
-            setDimensions({
-                width: img.width,
-                height: img.height
-            });
-        };
-        img.onerror = ()=>{
-            setDimensions({
-                width: null,
-                height: null
-            });
-        };
-    }, [
-        src
-    ]);
-    return dimensions;
-}
-
 ;// CONCATENATED MODULE: ./src/components/Image/index.js
 
 
@@ -1254,38 +1225,75 @@ function useImageDimensions(src) {
 
 
 
-function Image_Image(param) {
-    let { src, alt, className, alone, caption, ico } = param;
+function Image(param) {
+    let { src, alt, className, alone, caption, ico, width, height } = param;
     const { i18n: { currentLocale } } = (0,useDocusaurusContext/* default */.Z)();
+    const [imgDimensions, setImgDimensions] = (0,react.useState)({
+        width: width,
+        height: height
+    });
+    const imgRef = (0,react.useRef)(null);
     const imagePath = currentLocale === 'ko' || alone ? (0,useBaseUrl/* default */.ZP)(src) : (0,useBaseUrl/* default */.ZP)(src.replace('/img/', `/img/${currentLocale}/`));
     const errTarget = (0,useBaseUrl/* default */.ZP)('/img/default-placeholder-image.webp');
-    const dimensions = useImageDimensions(imagePath);
+    // 클라이언트 사이드에서 이미지 로드 후 크기 설정
+    (0,react.useEffect)(()=>{
+        if (!width && !height) {
+            const img = imgRef.current;
+            if (img && img.complete && img.naturalWidth > 0) {
+                // 이미지가 이미 로드된 경우
+                setImgDimensions({
+                    width: img.naturalWidth,
+                    height: img.naturalHeight
+                });
+            }
+        }
+    }, [
+        width,
+        height,
+        imagePath
+    ]);
+    // Handle image loading and set dimensions
+    function onLoad(e) {
+        if (!width && !height) {
+            setImgDimensions({
+                width: e.target.naturalWidth,
+                height: e.target.naturalHeight
+            });
+        }
+    }
     // Handle image loading errors
     function onError(e) {
         e.target.src = errTarget;
     }
+    // 서버 사이드 렌더링과 클라이언트 렌더링 일치를 위해
+    // width/height 속성이 있을 때만 포함하고, 없으면 속성 자체를 제거
+    const imageProps = {
+        loading: "lazy",
+        src: imagePath,
+        alt: alt,
+        ref: imgRef,
+        onLoad: onLoad,
+        onError: onError,
+        // width, height가 실제 값이 있을 때만 속성 추가
+        ...imgDimensions.width && {
+            width: imgDimensions.width
+        },
+        ...imgDimensions.height && {
+            height: imgDimensions.height
+        }
+    };
     if (ico) {
         return /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-            loading: "lazy",
-            src: imagePath,
-            alt: alt,
-            className: (0,clsx/* default */.Z)('ico', className),
-            onError: onError,
-            width: dimensions.width || undefined,
-            height: dimensions.height || undefined
+            ...imageProps,
+            className: (0,clsx/* default */.Z)('ico', className)
         });
     } else {
         return /*#__PURE__*/ (0,jsx_runtime.jsx)(MDXContent/* default */.Z, {
             children: caption ? /*#__PURE__*/ (0,jsx_runtime.jsxs)("figure", {
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                        loading: "lazy",
-                        src: imagePath,
-                        alt: alt,
-                        className: (0,clsx/* default */.Z)('img', className),
-                        onError: onError,
-                        width: dimensions.width || undefined,
-                        height: dimensions.height || undefined
+                        ...imageProps,
+                        className: (0,clsx/* default */.Z)('img', className)
                     }),
                     /*#__PURE__*/ (0,jsx_runtime.jsx)("figcaption", {
                         children: (0,Translate/* translate */.I)({
@@ -1297,13 +1305,8 @@ function Image_Image(param) {
             }) : /*#__PURE__*/ (0,jsx_runtime.jsx)("p", {
                 className: "hasimg",
                 children: /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                    loading: "lazy",
-                    src: imagePath,
-                    alt: alt,
-                    className: className,
-                    onError: onError,
-                    width: dimensions.width || undefined,
-                    height: dimensions.height || undefined
+                    ...imageProps,
+                    className: className
                 })
             })
         });
@@ -2869,7 +2872,7 @@ const SvgIcoMore = _ref => {
     Folder: Folder,
     File: File,
     Head: Head,
-    Image: Image_Image,
+    Image: Image,
     DocsSidebar: Toc,
     Collection: components_Collection,
     Kbd: Kbd,
