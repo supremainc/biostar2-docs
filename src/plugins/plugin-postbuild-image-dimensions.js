@@ -75,8 +75,8 @@ function pluginPostBuildImageDimensions(context, options) {
             
             if (src.startsWith('/')) {
               // Remove /docs prefix from src path as it's already handled by baseUrl
-              if (src.startsWith('/docs/')) {
-                cleanSrc = src.replace('/docs/', '/');
+              if (src.startsWith('/biostar2-docs/')) {
+                cleanSrc = src.replace('/biostar2-docs/', '/');
               }
               
               // Handle different build structures for multilingual sites
