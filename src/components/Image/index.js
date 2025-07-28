@@ -19,7 +19,7 @@ export default function Image({src, alt, className, alone, caption, ico, width, 
 
     // 클라이언트 사이드에서 이미지 로드 후 크기 설정
     useEffect(() => {
-        if (!width || !height) {
+        if (!width && !height) {
             const img = imgRef.current;
             if (img && img.complete && img.naturalWidth > 0) {
                 // 이미지가 이미 로드된 경우
@@ -33,7 +33,7 @@ export default function Image({src, alt, className, alone, caption, ico, width, 
 
     // Handle image loading and set dimensions
     function onLoad(e) {
-        if (!width || !height) {
+        if (!width && !height) {
             setImgDimensions({
                 width: e.target.naturalWidth,
                 height: e.target.naturalHeight
