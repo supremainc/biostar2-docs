@@ -122,8 +122,7 @@ const config = {
   ],
   plugins: [
     [ 'docusaurus-plugin-sass', {} ],
-    [ 'docusaurus-plugin-image-zoom', {}],
-    ['./src/plugins/plugin-postbuild-image-dimensions.js', {}]
+    [ 'docusaurus-plugin-image-zoom', {}]
   ],
   markdown: {
     parseFrontMatter: async (params) => {
