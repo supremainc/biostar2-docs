@@ -1,0 +1,204 @@
+---
+id: 2911-draft
+title: 버전 2.9.11 (빌드 번호 2.9.11.3)
+draft: true
+---
+
+릴리즈<Separator/>2025-08-29
+
+<details>
+<summary>**FaceStation F2 v1.x.x 펌웨어 지원 중단 안내**</summary>
+
+BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화할 때 템플릿만 전송하도록 변경하여 동기화 성능을 최적화했습니다.
+
+따라서 BioStar 2 v2.9.7부터는 장치에서만 템플릿을 추출할 수 있는 FaceStation F2 v1.x.x 펌웨어의 지원이 중단됩니다.
+
+현재 FaceStation F2의 1.x.x 버전 펌웨어를 사용 중인 경우 BioStar 2 v2.9.7을 사용하기 위해서는 FaceStation F2를 최신 펌웨어로 업그레이드하여 사용하세요.
+
+최신 펌웨어는 [슈프리마 다운로드 센터](https://download.supremainc.com)에서 다운로드할 수 있습니다.
+
+</details>
+
+## 신규 기능 및 개선
+
+---
+
+<Jira num='BVE-3597' /> jre21 관련 open-jdk 적용
+
+1. Open JDK 버전 업데이트
+1. Updated Open JDK version.
+
+<Jira num='BVE-3591' /> Regular 환경에서 Mobile 발급 된 사용자 Export 한 CSV 파일을 Import 후 User 상세 페이지 진입 시 1000 에러 발생 2.9.10 
+
+1. **레귤러** 사이트 환경에서 모바일 카드가 발급된 사용자를 CSV로 내보낸 후, 해당 사용자를 삭제하고 다시 가져왔을 때 사용자 상세 페이지에 진입할 수 없는 문제 <Badge>2.9.10</Badge>
+
+<Jira num='BJ-1987' /> operator 권한 사용자의 경우 GET:/api/permissions 호출 시 권한있는 permission 정보만 보여야 함  
+
+1. GET/api/permissions 호출 시 사용자의 접근 권한 검증에 대한 보안 취약점 개선
+1. 보안 취약점 개선
+
+    * GET/api/permissions 호출 시 사용자의 접근 권한 검증 강화
+
+1. Improved security vulnerability in user access validation for GET /api/permissions.
+1. Improved security vulnerabilities.
+
+    * Enhanced access permission validation when calling GET/api/permissions for operator users.
+
+<Jira num='BJ-1986' /> csv download 시 session id가 없어도 다운로드 가능  
+<Jira num='BJ-1943' /> 발급한 모바일 카드가 Airfob Portal 앱상에서 보여지지 않는 현상  
+
+<Jira num='BJ-1934' /> 장치 페이지에서 select all 동작 이상
+<Jira num='BJ-1929' /> 특정 사용자 그룹 권한을 가진 custom operator 계정으로 로그인 후 csv import 시 권한 없는 사용자 그룹의 사용자도 추가 가능
+<Jira num='BJ-1925' /> Access group id 를 재활용 할 수 있도록 개선
+<Jira num='BJ-1924' /> INVALID_EXPIRY_DATE_END 오류 발생시 response message 올바르게 안보임
+<Jira num='BJ-1922' /> 업그레이드 시 chaining 도메인 인증서 삭제되는 이슈
+<Jira num='BJ-1920' /> 장기 미출입 사용자 내역에 모바일 카드 인증 성공 이벤트는 반영 안되는 이슈
+<Jira num='BJ-1877' /> orders 에 server_datetime 으로 정렬 불가
+<Jira num='BJ-1831' /> 커스텀 권한 내 권한이 모든 장치 그룹일 경우 모니터링 조회 시 현재 추가돼있는 장치들에 대해서만 필터가 걸림
+<Jira num='BJ-1820' /> 장치 이름 Display에 '>' 입력 시, 출력값에 &gt; 로 표기 됨
+<Jira num='BJ-1782' /> API로 Schedule을 128개 초과해서 만들 수 있는 문제
+<Jira num='BJ-1767' /> trigger&action 이벤트 명 이상
+<Jira num='BJ-1763' /> T_ACSLVLITM 데이터 내 SCHUID 가 NULL 인 상태일 경우 엑세스 레벨 동기화 안됨 이슈
+<Jira num='BJ-1756' /> Timezone이 ~:30분 또는 ~:45 인 경우 event search 시 이벤트 누락
+<Jira num='BJ-1718' /> User 검색 시 Kanji체 검색 안되는 이슈
+<Jira num='BJ-1652' /> 유효기간이 존재하는 라이선스가 정보 상에 출력이 안되는 문제
+<Jira num='BJ-695' /> RS-485 모드가 Slave로 설정된 장치를 TCP/IP로 추가 후 Master 또는 Default로 변경 시 해당 장치의 로그가 업로드 되지 않음
+<Jira num='BJ-594' /> Delete Group API를 호출 시 하위 목록이 있어도 Group이 삭제됨 2.8.6
+<Jira num='BJ-537' /> 그래픽맵 상태 출력 오류 개선
+<Jira num='BJ-294' /> Blacklist 카드 개수가 장치의 Limit을 초과할 경우 장치 상태에 동기화 실패 사유 출력
+<Jira num='BJ-196' /> Slave 장치 상세 페이지 진입한 상태에서 끊어질 경우 확인 버튼 누를 시 연결 해제 팝업 미발생
+<Jira num='BJ-15' /> Monitoring 내 Alarm 상태 출력 오류 개선
+<Jira num='BF-2011' /> Java 서버 보안 취약점 관련 라이브러리 업데이트 작업
+<Jira num='BF-2009' /> csv import 시, custom user field 값이 32 글자 넘어갈 수 있음
+<Jira num='BF-2007' /> Biostar2 CSP 헤더, Internal Server error 응답 노출 취약점 개선
+<Jira num='BF-2006' /> cpp 서버, java 서버 취약점 관련 라이브러리 버전 업데이트
+<Jira num='BF-2004' /> Mask Detection Not Use -> Use (Deny access when wearing mask) 로 변경 시 Check Mode 가 Check before authentication으로 변경되지 않음 2.9.8
+<Jira num='BF-1989' /> (비주기) 서버 재시작 후 로그인 시 비주얼 페이스 추출 실패 되는 문제 2.7.14.2
+<Jira num='BF-1984' /> openSSL 취약점 - openssl 버전 업그레이드 2.6.2
+<Jira num='BF-1983' /> csv export 시 T_USR에서 USRID = NULL인 사용자 그룹 제외하도록 쿼리 수정
+<Jira num='BF-1972' /> [TemporaryIdTable 버그]특정장치 동기화 시 API 를 통해 출입 그룹 업데이트 진행 시 사용자 동기화가 잘못되는 이슈
+<Jira num='BF-1951' /> securedata 테이블의 default_admin_account 컬럼 암/복호화 마이그레이션 대상에서 제외
+<Jira num='BF-1950' /> Zone Status 갱신 쿼리 수정
+<Jira num='BF-1949' /> 경비 구역이 설정된 장치가 연결해제된 상태에서 기존 경비 구역을 삭제 후 재등록하는 경우 장치가 연결되면서 경비 구역 설정정보가 동기화 안되는 문제
+<Jira num='BF-1941' /> sub model name 존재하는 경우 UI 표시
+<Jira num='BF-1940' /> 특정장치 동기화 모드에서 Access Level 없이 사용자 만 있는 Access Group 을 Schedule Lock 의 Bypass 설정시 출입 거부 되는 문제
+<Jira num='BF-1938' /> api/doors/status에 door 상태값을 db에서 조회하지 않는 이슈 2
+<Jira num='BF-1934' /> system.conf 에서 DB 정보 관련 부분에 windows_driver 항목 개선
+<Jira num='BF-1923' /> Device 가 모두 연결 해제된 상태에서 Wiegand Format 생성시 Device Disconnect 관련 메시지 팝업 발생하는 문제
+<Jira num='BF-1906' /> Specific Devices 설정된 상태에서 사용자 정보만 있는 Access Group을 Bypass Group으로 사용하는 Zone 생성 후 Delete Data&Sync Device시 해당 Access Group이 전송되지 않는 문제
+<Jira num='BF-1890' /> C 서버 기동 시 서버 정보 로그 추가
+<Jira num='BF-1889' /> Fail table로 인한 동기화 시에도 Java Server에 로그 추가
+
+<Jira num='BF-1876' /> 네트워크 트래픽 제한 설정 버그 수정 2.9.1
+
+1. 네트워크 트래픽 제한 설정 시 장치 연결이 끊기던 문제 <Badge>2.9.4</Badge>
+
+1. Device connections were lost due to network traffic limit settings. <Badge>2.9.4</Badge>
+
+<Jira num='BF-1869' /> c서버 재 시작 시, visitor 삭제 api가 권한없음 에러코드를 반환.
+<Jira num='BF-1868' /> [CoreStation 40] 이미 존재하는 장치 이름으로 이름 변경시 Error 팝업 발생하나 무한 로딩 발생.
+<Jira num='BF-1867' /> 장치 이름 중복으로 신규 장치 추가시 성공 팝업이 발생하나 추가되지 않음.
+<Jira num='BF-1858' /> AoC 발급된 사용자 삭제 후 다시 동일ID 로 사용자 등록 > AoC 발급 시 Black list 처리되는 문제
+<Jira num='BF-1835' /> 전문가 옵션, 비주얼 페이스 이미지 저장하기 옵션 system.conf에 default 작성
+<Jira num='BF-1822' /> get device api 중 discover_userdata 의 응답값 key 값에 오타 있음.
+<Jira num='BF-1755' /> 장치 설정 실패시 간헐적으로 에러 팝업 발생하지 않는 문제
+<Jira num='BF-1745' /> 사용자 권한 등급 추가 / 수정 시 해당 권한에 속해있는 모든 사용자가 request body에 포함됨
+<Jira num='BF-1724' /> Access Level/Floor Level 설정시 이름 중복인 경우 팝업에 복사 버튼 있는 문제 2.9.6
+<Jira num='BF-1614' /> 암복호화 수행후 mssql에서 default constraint에 alter 쿼리 실패 이슈 2.8.0
+<Jira num='BF-1528' /> 사용자 설정페이지의 custom card read 동작에서 카드타입 유효성 검사 안하는 이슈
+<Jira num='BF-1520' /> 신규 설치시 Data Base 에 생성하려는 Table 이 이미 있는 경우 Drop 하는 기능 추가
+<Jira num='BF-1492' /> 이벤트 로그 캐시 초기화 하는 개발자용 API 필요
+<Jira num='BF-1441' /> Muster Zone 에 최초 인증하는 User 의 인증 로그가 간헐적 업데이트 안되는 문제
+<Jira num='BF-1391' /> [논의필요] 비밀번호 일일 변경 허용 횟수 활성화된 BioStar 에 AD 계정으로 로그인된 상태에서 AD 로그인 연동 옵션이 꺼진 경우 사용자 로그인ID/PW 저장시 800 Error 발생
+<Jira num='BF-1381' /> api/v2/mobile, /api/v2/mobile/bulk에서 카드 추가 시, card csn 0으로 시작하는 카드 생성되는 이슈
+<Jira num='BF-1329' /> Intrusion Alarm Zone 의 Arm/Disarm Setting(Input) 설정 화면에서 Duration 설정항목 제거 2.5.0
+<Jira num='BF-1301' /> Muster Zone 설정 변경시 기존 사용자의 입/퇴실 정보가 초기화 되는 문제
+<Jira num='BF-1263' /> Biostar 1 -> Biostar 2 Migration 시 사용자 그룹 validation check 로직 추가
+<Jira num='BF-1222' /> 이름없는 Elevator가 api로 생성되는 현상
+<Jira num='BF-1221' /> [검토중]installer 에서 오류 메시지 표기 시 이전에 설치 한 오류 메시지를 같이 표기해주는 문제 2.7.7
+<Jira num='BF-1220' /> Zone 에 등록된 Elevator 삭제되는 문제
+<Jira num='BF-1219' /> AC 라이선스 없는 상태에서 AccessGroup > List에 Floor level컬럼 보이는현상
+<Jira num='BF-1218' /> TA, Video 메뉴 최초 진입 후, 비밀번호 최대 실패 허용 횟수 초과에 따른 로그인 실패 시 팝업 문구가 오출력되는 문제
+<Jira num='BF-1216' /> 모바일 카드 발급된 사용자 Edit 화면 진입 후, 발급된 카드 삭제 후 재 발급 시 Email 미 입력되어도 Apply 시 에러 팝업 출력 되지 않는 문제
+<Jira num='BF-1215' /> Setting에 Security메뉴에서 설정값 변경 시 Audit Trail에 2개씩 로그 발생하는 문제
+<Jira num='BF-1214' /> 사용자의 CSN Mobile 카드 발급 화면에서 일부 버튼의 하단 영역을 클릭하여도 버튼이 동작 되지 않는 문제
+
+<Jira num='BF-1177' /> 암호화 > 복호화 > 암호화 된 환경에서 이미지로그 미출력되는 문제
+<Jira num='BF-1176' /> Enrollment Device 의 Device Group 의 All Devices 가 All Devices 로만 보이는 문제
+<Jira num='BF-1175' /> Enrollment Device Add 시 동일 Device 가 중복 등록가능 한 문제
+<Jira num='BF-1159' /> Enrollment Device 에서 "Device Type" 으로 조회 가능
+<Jira num='BF-1157' /> 영문 이외 언어환경에서 Device Search 시 "All Devices" 로 Device Group 검색되는 문제
+<Jira num='BF-1136' /> AccessGroup에서 FloorLevel 두개이상 추가시 표시오류
+<Jira num='BF-1129' /> [Dynamic] 특정시간에 +Mobile 버튼 클릭시 1초 정도 Enroll 버튼이 비활성화 되었다가 활성화 되는 문제 2.9.0
+<Jira num='BF-1051' /> [검토중]user 에게 access group 16개 초과 설정 가능한 문제 및 초과 경고 메시지 개선
+<Jira num='BE-3840' /> Settings > Alert > Door > 'Aux input detected (Fire)' 이벤트 추가 필요 2.9.9
+<Jira num='BE-3770' /> 장치 Admin Password 설정 추가
+
+<Jira num='BDP-1328' /> BSX 로 인해 신규 추가된 이벤트를 BioStar 2 에 추가
+<Jira num='BDP-1291' /> CS-20, DI-24 신규 이벤트를 BioStar 2 Alert 에 추가
+<Jira num='BDP-1281' /> 장치 Master Admin 설정 추가 및 이를 강제하기
+<Jira num='BDP-1193' /> Support Mifare Plus EV1 SL1, SL3, SL1SL3 Mix Mode [PFE 281]
+
+<Jira num='SW5-1038' /> 미지원 Card config 필터 처리 버그 수정.
+<Jira num='SW5-480' /> 1. Configure Mifare Plus Setting.
+
+
+## 버그 수정
+
+---
+
+<BugLists>
+
+<Jira num='FISS-4515' /> [Suprema ME][Socar Polymer] CardPresso - 'Print Job Failed' 에러 2.9.9
+<Jira num='SW5-1029' /> [FISS-4515] Fix cardPresso Print error when user has custom field
+
+1. 사용자 계정에 커스텀 필드 설정이 되어 있을 때 카드 프린트를 할 수 없던 문제 <Badge>2.9.9</Badge>
+
+
+
+</BugLists>
+
+## 제외 이슈
+
+---
+
+<Jira num='BJ-1935' /> aws ses smtp 서버 사용 시 starttls 및 reply 예외처리
+
+`제외`
+
+<Jira num='FISS-4396' /> [Suprema EU][Kimaldi] report 탭의 커스텀 리포트를 클릭하면 Select Events 에 아무것도 안 뜸
+<Jira num='SW5-919' /> [FISS-4396] Remove milliseconds in the insert data statement ac_mssql_event_categories.sql
+
+`제외` - 고객사 환경 이슈로 추정되어 방어코드 추가, 고객용 안내 불필요
+
+<Jira num='FISS-4487' /> [Suprema LATAM][Wire and wireless security systems] 바이오스타 너무 느림
+<Jira num='SW5-935' /> [FISS-4487] after upgrade to 2.9.8 old report service not deleted
+
+`제외` - 고객사 환경 이슈로 추정되어 방어코드 추가, 고객용 안내 불필요
+
+
+2910에서 제외된 이슈들
+
+<Jira num='BE-3744' /> XS2-Q 모델에서 Camera QR 지원
+
+`제외 - 펌웨어 개발 미완`
+
+1. X-Station 2 (XS2-QAPB, XS2-QDPB) 모델에서 <Cmd sid="device.info.useVisualBarcode" /> 기능 지원
+
+1. Support for <Cmd sid="device.info.useVisualBarcode" /> feature on X-Station 2 (XS2-QAPB, XS2-QDPB) models.
+
+<Jira num='BVE-3199' /> 사용자/장치/도어 그룹 트리 구조 UI 개선
+
+`제외` - 복잡한 환경에서 동작에 문제가 발생하여 차기 버전으로 이관
+
+1. 일부 메뉴의 그룹 트리 UI 개선
+
+1. Improved group tree UI in certain menus.
+
+<Jira num='SW5-162' /> [BDP-926] Mobile App Renewal
+
+`제외` - BioStar X 출시에 맞춰 런칭으로 변경
+
+1. BioStar 2 Mobile 애플리케이션 업데이트
+
+1. Updated BioStar 2 Mobile application.
