@@ -1,0 +1,41 @@
+---
+id: 2911
+title: 버전 2.9.11 (빌드 번호 2.9.11.4)
+---
+
+릴리즈<Separator/>2025-08-29
+
+import DocumentA from '../common/_fsf2-firmware-support-discontinuation.mdx';
+
+<DocumentA />
+
+## 신규 기능 및 개선
+
+---
+
+1. 장치의 보안을 향상시키고 무단 접근 및 설정 변경을 방지하기 위한 **마스터 관리자** 기능 추가
+
+1. MIFARE Plus EV1 카드의 보안 수준 호환성을 위해 SL1, SL3, SL1/SL3 혼합 모드 지원
+    * SL1: MIFARE Classic 호환 모드
+    * SL3: AES 기반 고급 보안 모드
+
+1. Open JDK 버전 업데이트
+
+1. <Cmd sid="common.setting" /> → <Cmd sid="common.alert" /> 메뉴에 CoreStation 20, Door Interface 24 장치 관련 이벤트 추가
+
+
+## 버그 수정
+
+---
+
+<BugLists>
+
+1. 사용자 계정에 커스텀 필드 설정이 되어 있을 때 카드 프린트를 할 수 없던 문제 <Badge>2.9.9</Badge>
+
+1. 일부 커스텀 스마트 카드 레이아웃을 적용한 후 장치 상세 페이지 진입 시 에러가 발생하는 문제 <Badge>2.9.6</Badge>
+
+1. **레귤러** 사이트 환경에서 모바일 카드가 발급된 사용자를 CSV로 내보낸 후, 해당 사용자를 삭제하고 다시 가져왔을 때 사용자 상세 페이지에 진입할 수 없는 문제 <Badge>2.9.10</Badge>
+
+1. 사용자에게 커스텀 스마트 카드를 등록하는 과정에서 호환되지 않는 일반 CSN 카드가 읽혀지는 문제 <Badge>2.9.4</Badge>
+
+</BugLists>
