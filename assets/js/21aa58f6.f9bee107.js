@@ -79,7 +79,7 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 ;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-revision-2910-mdx-21a.json
-var site_docs_revision_2910_mdx_21a_namespaceObject = JSON.parse('{"id":"revision/2910","title":"버전 2.9.10 (빌드 번호 2.9.10.1)","description":"릴리즈2025-07-09","source":"@site/docs/revision/2910.mdx","sourceDirName":"revision","slug":"/revision/2910","permalink":"/biostar2-docs/revision/2910","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"2910","title":"버전 2.9.10 (빌드 번호 2.9.10.1)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"BioStar 2 업그레이드 시 주의사항","permalink":"/biostar2-docs/revision/"},"next":{"title":"버전 2.9.8 (빌드 번호 2.9.8.30)","permalink":"/biostar2-docs/revision/298"}}')
+var site_docs_revision_2910_mdx_21a_namespaceObject = JSON.parse('{"id":"revision/2910","title":"버전 2.9.10 (빌드 번호 2.9.10.1)","description":"릴리즈2025-07-09","source":"@site/docs/revision/2910.mdx","sourceDirName":"revision","slug":"/revision/2910","permalink":"/biostar2-docs/revision/2910","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"2910","title":"버전 2.9.10 (빌드 번호 2.9.10.1)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"버전 2.9.11 (빌드 번호 2.9.11.4)","permalink":"/biostar2-docs/revision/2911"},"next":{"title":"버전 2.9.8 (빌드 번호 2.9.8.30)","permalink":"/biostar2-docs/revision/298"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js

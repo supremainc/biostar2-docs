@@ -2533,7 +2533,7 @@ function BugLists(param) {
 function Jira(param) {
     let { num } = param;
     let jiraLink;
-    if (num.startsWith('SW5') || num.startsWith('FISS')) {
+    if (num.startsWith('SW5') || num.startsWith('FISS') || num.startsWith('BDP')) {
         jiraLink = 'https://jira.suprema.co.kr/browse/' + num;
     } else {
         jiraLink = 'http://bss-jira.suprema.co.kr:8880/browse/' + num;
