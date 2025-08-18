@@ -1,0 +1,41 @@
+---
+id: 2911
+title: Version 2.9.11 (Build No. 2.9.11.4)
+---
+
+Release<Separator/>2025-08-29
+
+import DocumentA from '../common/_fsf2-firmware-support-discontinuation.mdx';
+
+<DocumentA />
+
+## New Features and Improvements
+
+---
+
+1. Added **Master Admin** feature to enhance device security and prevent unauthorized access and configuration changes.
+
+1. Supports SL1, SL3, and SL1/SL3 Mix Mode for security level compatibility with MIFARE Plus EV1 cards.
+    * SL1: Compatible mode with MIFARE Classic
+    * SL3: Advanced security mode based on AES
+
+1. Updated Open JDK version.
+
+1. Added CoreStation 20 and Door Interface 24 device-related events to the <Cmd sid="common.setting" /> → <Cmd sid="common.alert" /> menu.
+
+
+## Bug Fixes
+
+---
+
+<BugLists>
+
+1. Cards could not be printed when custom field settings were configured for user accounts. <Badge>2.9.9</Badge>
+
+1. An error occurs when accessing the device detail page after applying certain custom smart card layouts. <Badge>2.9.6</Badge>
+
+1. Users with mobile cards issued in the **Regular** site environment cannot access the user detail page after exporting to CSV, deleting the users, and reimporting them. <Badge>2.9.10</Badge>
+
+1. Incompatible general CSN cards get recognized when enrolling custom smart cards for users. <Badge>2.9.4</Badge>
+
+</BugLists>

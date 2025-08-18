@@ -1,0 +1,156 @@
+---
+id: 2911-draft
+title: 버전 2.9.11 (빌드 번호 2.9.11.4)
+draft: true
+---
+
+릴리즈<Separator/>2025-08-29
+
+<details>
+<summary>**FaceStation F2 v1.x.x 펌웨어 지원 중단 안내**</summary>
+
+BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화할 때 템플릿만 전송하도록 변경하여 동기화 성능을 최적화했습니다.
+
+따라서 BioStar 2 v2.9.7부터는 장치에서만 템플릿을 추출할 수 있는 FaceStation F2 v1.x.x 펌웨어의 지원이 중단됩니다.
+
+현재 FaceStation F2의 1.x.x 버전 펌웨어를 사용 중인 경우 BioStar 2 v2.9.7을 사용하기 위해서는 FaceStation F2를 최신 펌웨어로 업그레이드하여 사용하세요.
+
+최신 펌웨어는 [슈프리마 다운로드 센터](https://download.supremainc.com)에서 다운로드할 수 있습니다.
+
+</details>
+
+## 신규 기능 및 개선
+
+---
+
+<Jira num='BE-3770' /> 장치 Admin Password 설정 추가
+<Jira num='BDP-1281' /> 장치 Master Admin 설정 추가 및 이를 강제하기
+
+1. 장치의 보안을 향상시키고 무단 접근 및 설정 변경을 방지하기 위한 **마스터 관리자** 기능 추가
+1. Added **Master Admin** feature to enhance device security and prevent unauthorized access and configuration changes.
+
+<Jira num='BDP-1193' /> Support Mifare Plus EV1 SL1, SL3, SL1SL3 Mix Mode [PFE 281]
+<Jira num='SW5-480' /> 1. Configure Mifare Plus Setting.
+
+1. MIFARE Plus EV1 카드의 보안 수준 호환성을 위해 SL1, SL3, SL1/SL3 혼합 모드 지원
+    * SL1: MIFARE Classic 호환 모드
+    * SL3: AES 기반 고급 보안 모드
+
+1. Supports SL1, SL3, and SL1/SL3 Mix Mode for security level compatibility with MIFARE Plus EV1 cards.
+    * SL1: Compatible mode with MIFARE Classic
+    * SL3: Advanced security mode based on AES
+
+<Jira num='BVE-3597' /> jre21 관련 open-jdk 적용
+
+1. Open JDK 버전 업데이트
+1. Updated Open JDK version.
+
+<Jira num='BE-3840' /> Settings > Alert > Door > 'Aux input detected (Fire)' 이벤트 추가 필요 2.9.9
+<Jira num='BDP-1291' /> CS-20, DI-24 신규 이벤트를 BioStar 2 Alert 에 추가
+
+1. <Cmd sid="common.setting" /> → <Cmd sid="common.alert" /> 메뉴에 CoreStation 20, Door Interface 24 장치 관련 이벤트 추가
+1. Added CoreStation 20 and Door Interface 24 device-related events to the <Cmd sid="common.setting" /> → <Cmd sid="common.alert" /> menu.
+
+
+## 버그 수정
+
+---
+
+<BugLists>
+
+<Jira num='FISS-4515' /> [Suprema ME][Socar Polymer] CardPresso - 'Print Job Failed' 에러 2.9.9
+<Jira num='SW5-1029' /> [FISS-4515] Fix cardPresso Print error when user has custom field
+
+1. 사용자 계정에 커스텀 필드 설정이 되어 있을 때 카드 프린트를 할 수 없던 문제 <Badge>2.9.9</Badge>
+1. Cards could not be printed when custom field settings were configured for user accounts. <Badge>2.9.9</Badge>
+
+<Jira num='SW5-1038' /> 미지원 Card config 필터 처리 버그 수정.
+
+1. 일부 커스텀 스마트 카드 레이아웃을 적용한 후 장치 상세 페이지 진입 시 에러가 발생하는 문제 <Badge>2.9.6</Badge>
+1. An error occurs when accessing the device detail page after applying certain custom smart card layouts. <Badge>2.9.6</Badge>
+
+<Jira num='BVE-3591' /> Regular 환경에서 Mobile 발급 된 사용자 Export 한 CSV 파일을 Import 후 User 상세 페이지 진입 시 1000 에러 발생 2.9.10 
+
+1. **레귤러** 사이트 환경에서 모바일 카드가 발급된 사용자를 CSV로 내보낸 후, 해당 사용자를 삭제하고 다시 가져왔을 때 사용자 상세 페이지에 진입할 수 없는 문제 <Badge>2.9.10</Badge>
+1. Users with mobile cards issued in the **Regular** site environment cannot access the user detail page after exporting to CSV, deleting the users, and reimporting them. <Badge>2.9.10</Badge>
+
+<Jira num='BF-1528' /> 사용자 설정페이지의 custom card read 동작에서 카드타입 유효성 검사 안하는 이슈
+
+1. 사용자에게 커스텀 스마트 카드를 등록하는 과정에서 호환되지 않는 일반 CSN 카드가 읽혀지는 문제 <Badge>2.9.4</Badge>
+1. Incompatible general CSN cards get recognized when enrolling custom smart cards for users. <Badge>2.9.4</Badge>
+
+</BugLists>
+
+
+## 제외 이슈
+
+---
+
+<Jira num='BF-1492' /> 이벤트 로그 캐시 초기화 하는 개발자용 API 필요
+`제외` - 개발자용 API로 고객용 안내 불필요
+
+<Jira num='FISS-4396' /> [Suprema EU][Kimaldi] report 탭의 커스텀 리포트를 클릭하면 Select Events 에 아무것도 안 뜸
+<Jira num='SW5-919' /> [FISS-4396] Remove milliseconds in the insert data statement ac_mssql_event_categories.sql
+
+`제외` - 고객사 환경 이슈로 추정되어 방어코드 추가, 고객용 안내 불필요
+
+<Jira num='FISS-4487' /> [Suprema LATAM][Wire and wireless security systems] 바이오스타 너무 느림
+<Jira num='SW5-935' /> [FISS-4487] after upgrade to 2.9.8 old report service not deleted
+
+`제외` - 고객사 환경 이슈로 추정되어 방어코드 추가, 고객용 안내 불필요
+
+<Jira num='BJ-1987' /> operator 권한 사용자의 경우 GET:/api/permissions 호출 시 권한있는 permission 정보만 보여야 함  
+
+`제외` - 수정 버전 2.9.14로 변경됨
+
+1. GET/api/permissions 호출 시 사용자의 접근 권한 검증에 대한 보안 취약점 개선
+    or
+1. 보안 취약점 개선
+    * GET/api/permissions 호출 시 사용자의 접근 권한 검증 강화
+
+1. Improved security vulnerability in user access validation for GET /api/permissions.
+    or
+1. Improved security vulnerabilities.
+    * Enhanced access permission validation when calling GET/api/permissions for operator users.
+
+<Jira num='BF-1876' /> 네트워크 트래픽 제한 설정 버그 수정 2.9.1
+
+`제외` - 수정 버전 2.9.12로 변경됨
+
+1. 네트워크 트래픽 제한 설정 시 장치 연결이 끊기던 문제 <Badge>2.9.4</Badge>
+
+1. Device connections were lost due to network traffic limit settings. <Badge>2.9.4</Badge>
+
+<Jira num='BJ-1943' /> 발급한 모바일 카드가 Airfob Portal 앱상에서 보여지지 않는 현상
+
+`제외` - 수정 버전 2.9.14로 변경됨
+
+1. 발급한 모바일 카드가 에어팝 앱에서 보이지 않는 문제 <Badge>2.9.??</Badge>
+1. Issued mobile cards do not appear in the Airfob app. <Badge>2.9.??</Badge>
+
+
+2910에서 제외된 이슈들
+
+<Jira num='BE-3744' /> XS2-Q 모델에서 Camera QR 지원
+
+`제외 - 펌웨어 개발 미완`
+
+1. X-Station 2 (XS2-QAPB, XS2-QDPB) 모델에서 <Cmd sid="device.info.useVisualBarcode" /> 기능 지원
+
+1. Support for <Cmd sid="device.info.useVisualBarcode" /> feature on X-Station 2 (XS2-QAPB, XS2-QDPB) models.
+
+<Jira num='BVE-3199' /> 사용자/장치/도어 그룹 트리 구조 UI 개선
+
+`제외` - 복잡한 환경에서 동작에 문제가 발생하여 차기 버전으로 이관
+
+1. 일부 메뉴의 그룹 트리 UI 개선
+
+1. Improved group tree UI in certain menus.
+
+<Jira num='SW5-162' /> [BDP-926] Mobile App Renewal
+
+`제외` - BioStar X 출시에 맞춰 런칭으로 변경
+
+1. BioStar 2 Mobile 애플리케이션 업데이트
+
+1. Updated BioStar 2 Mobile application.
