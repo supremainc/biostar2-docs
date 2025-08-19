@@ -1,0 +1,129 @@
+---
+id: bs2-master-admin
+title: BioStar 2에서 마스터 관리자 설정하기
+description: BioStar 2에서 마스터 관리자를 설정하는 방법에 대한 가이드입니다.
+keywords: [ 마스터 관리자, Master Admin, 관리자 설정, BioStar 2 관리자 ]
+---
+
+**마스터 관리자** 기능은 장치의 **전체 관리자 권한을 강화**하여, **장치의 보안을 향상**시키고 **무단 접근 및 설정 변경을 방지**하기 위한 기능입니다.<br/>새 장치에는 이 기능을 통해 **반드시 마스터 관리자를 등록**해야 하며, 등록된 마스터 관리자만 관리자 메뉴에 진입하여 장치 설정을 변경할 수 있습니다.
+
+**마스터 관리자** 기능은 **LCD 화면을 통한 사용자 인터페이스가 지원되는 슈프리마 제품**에서만 사용할 수 있습니다.
+
+:::info
+
+* 이 기능은 장치의 보안성을 강화하기 위한 필수 정책입니다.
+
+* 마스터 관리자는 직접 삭제할 수 없으며 **공장 초기화 시에만 삭제됩니다**.
+
+:::
+
+## 마스터 관리자 설정
+
+### 마스터 관리자 지원 제품 안내
+
+마스터 관리자 기능을 지원하는 제품은 다음과 같습니다.
+
+<Table className='component'>
+<Tbody>
+<Row className='center white'>
+
+<Td><Image src='/img/BioStation 3-Front.png' className='none' alone width='130px'/></Td>
+
+<Td><Image src='/img/BioStation 2a-front.png' className='none' alone width='200px' /></Td>
+
+<Td><Image src='/img/BioLite N2-Front.png' className='none' alone width='110px' /></Td>
+
+<Td><Image src='/img/X-Station 2-Front.png' className='none' alone width='300px' /></Td>
+
+</Row>
+<Row className='center'>
+
+<Td>**BioStation 3**<br/>펌웨어 1.4.0 버전 이상</Td>
+
+<Td>**BioStation 2a**<br/>펌웨어 1.2.0 버전 이상</Td>
+
+<Td>**BioLite N2**<br/>펌웨어 1.7.0 버전 이상</Td>
+
+<Td>**X-Station 2**<br/>펌웨어 1.4.0 버전 이상</Td>
+
+</Row>
+</Tbody>
+</Table>
+
+### BioStar 2에서 마스터 관리자 등록하기
+
+새 장치의 연결을 마친 다음 최초로 장치를 부팅하면 **마스터 관리자** 등록 화면이 나타납니다. 새 장치는 **마스터 관리자**를 필수적으로 등록해야하며, 등록하지 않을 경우 장치 사용이 제한됩니다.
+
+새 장치에서 **마스터 관리자**를 등록하지 않더라도 BioStar 2에서 **마스터 관리자**를 등록하고 관리할 수 있습니다.
+
+1. BioStar 2에서 **마스터 관리자**를 등록하려면 <Cmd sid="common.device" /> 메뉴로 이동하여 원하는 장치를 클릭하고 장치의 상세 페이지로 진입하세요.
+
+1. <Cmd sid="device.info.advanced" /> → <Cmd sid="device.info.administrator" />의 <Cmd sid="device.masterAdmin.title" /> 메뉴에서 원하는 크리덴셜 두 종류를 선택하여 등록하세요.
+
+    <Image src='/img/biostar2-master-admin-1.png' />
+
+    **마스터 관리자**에 등록할 수 있는 크리덴셜은 다음과 같습니다.
+
+    <Table>
+      <Tbody>
+      <Row>
+        <Th>크리덴셜 종류</Th>
+        <Th>등록 가능 개수</Th>
+        <Th>세부 조건</Th>
+      </Row>
+      <Row>
+        <Td>카드</Td>
+        <Td>최대 4개</Td>
+        <Td>CSN, Wiegand 타입만 지원<br/>동일 타입 내 중복 등록 불가</Td>
+      </Row>
+      <Row>
+        <Td>얼굴</Td>
+        <Td>최대 2개</Td>
+        <Td>동종 알고리즘 탑재 장치에서만 등록 가능</Td>
+      </Row>
+      <Row>
+        <Td>지문</Td>
+        <Td>최대 2개</Td>
+        <Td>-</Td>
+      </Row>
+      <Row>
+        <Td>PIN</Td>
+        <Td>1개</Td>
+        <Td>최소 8자리 이상</Td>
+      </Row>
+      </Tbody>
+    </Table>
+
+    :::note
+
+    **등록 조건**
+
+    * 최소 두 종류 이상의 크리덴셜을 등록해야 합니다.
+
+    * 새 장치와 펌웨어 업그레이드 장치 모두 동일한 조건이 적용됩니다.
+
+    * 장치가 지원하는 모든 크리덴셜을 인증 수단으로 사용할 수 있습니다.
+
+    :::
+
+1. 두 종류 이상의 크리덴셜을 등록한 후, **완료** 버튼을 누르면 **마스터 관리자** 등록이 완료됩니다.
+
+:::info
+
+* 마스터 관리자 기능은 BioStar 2 v2.9.11부터 지원됩니다.
+
+* 펌웨어를 업그레이드한 장치는 BioStar 2의 장치 설정에 <Cmd sid="device.masterAdmin.title" /> 메뉴가 나타나지 않습니다.</br>펌웨어를 업그레이드한 장치는 <Cmd sid="device.masterAdmin.title" /> 설정을 제공하지 않지만, **관리자 2단계 인증** 옵션을 통해 전체 관리자의 권한을 강화하여 장치의 보안을 향상시킬 수 있습니다.
+
+:::
+
+## [TBD] 마스터 관리자 일괄 편집하기
+
+* 관리자 2단계 인증 및 크리덴셜 등록을 일괄 편집할 수 있습니다.
+
+* 일괄 편집 시 등록한 크리덴셜로 덮어쓰여 집니다.
+
+* 얼굴, 지문, 카드, PIN을 등록할 수 있습니다.
+
+* 선택된 장치가 크리덴셜을 지원하지 않는 경우, 해당 장치는 편집 실패됩니다.
+
+* 새 장치의 경우에도 최소 2개 조건을 충족해야 하며, 미충족 시 해당 장치만 편집 실패 처리됩니다.
