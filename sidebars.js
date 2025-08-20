@@ -34,6 +34,17 @@ const sidebars = {
           items: [
             {
               type: 'category',
+              label: '2.9.11 버전',
+              link: {
+                type: 'doc',
+                id: 'update/biostar2-2911'
+              },
+              items: [
+                'update/2911/bs2-master-admin',
+              ]
+            },
+            {
+              type: 'category',
               label: '2.9.10 버전',
               link: {
                 type: 'doc',
