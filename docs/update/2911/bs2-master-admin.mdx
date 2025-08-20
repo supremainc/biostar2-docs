@@ -139,17 +139,17 @@ keywords: [ 마스터 관리자, Master Admin, 관리자 설정, BioStar 2 관�
 
 1. <Cmd sid="device.masterAdmin.title" />의 <Image src='/img/common/ico-batch-edit-activate-button.png' ico alone />을 클릭하여 편집 모드로 변경한 다음 원하는 크리덴셜을 등록하거나 편집 또는 삭제할 수 있습니다.
 
-    <Image src='/img/biostar2-batch-edit-master-admin.png' />
+    <Image src='/img/biostar2-batch-edit-master-admin.png' width='600px' />
 
-::: info
+    :::info
 
-* 얼굴, 지문, 카드, PIN을 등록할 수 있으며, 최소 두 종류 이상의 크리덴셜을 등록해야 합니다.
+    * 얼굴, 지문, 카드, PIN을 등록할 수 있으며, 최소 두 종류 이상의 크리덴셜을 등록해야 합니다.
 
-* 일괄 편집 시 등록한 크리덴셜로 덮어쓰여 집니다.
+    * 일괄 편집 시 등록한 크리덴셜로 덮어쓰여 집니다.
 
-* 선택한 장치가 크리덴셜을 지원하지 않는 경우, 해당 장치는 편집에 실패합니다.
+    * 선택한 장치가 크리덴셜을 지원하지 않는 경우, 해당 장치는 편집에 실패합니다.
 
-:::
+    :::
 
 ## 2단계 인증 {#2step-authentication}
 
@@ -169,7 +169,7 @@ keywords: [ 마스터 관리자, Master Admin, 관리자 설정, BioStar 2 관�
 
 1. BioStar 2에서 <Cmd sid="device.masterAdmin.twoStepAuth.title" />를 설정하려면 <Cmd sid="common.device" /> 메뉴로 이동하여 원하는 장치를 클릭하고 장치의 상세 페이지로 진입하세요.
 
-    :::note
+    :::caution
 
     장치에 전체 관리자가 설정되어 있지 않은 경우 다음과 같은 팝업 메시지가 나타납니다. <Cmd sid="device.info.advanced" /> → <Cmd sid="device.info.administrator" /> 탭에서 <Cmd sid="device.operatorLevel.all" />에 관리자를 추가하세요.
 
@@ -177,8 +177,22 @@ keywords: [ 마스터 관리자, Master Admin, 관리자 설정, BioStar 2 관�
 
     :::
 
-
-
-1. <Cmd sid="device.info.advanced" /> → <Cmd sid="device.info.administrator" />의 <Cmd sid="device.masterAdmin.twoStepAuth.title" />를 <Cmd sid="common.use" />으로 활성화하세요.
+1. <Cmd sid="device.info.advanced" /> → <Cmd sid="device.info.administrator" />의 <Cmd sid="device.masterAdmin.twoStepAuth.title" />을 <Cmd sid="common.use" />으로 활성화하세요.
 
     <Image src='/img/biostar2-2step-auth-1.png' />
+
+1. <Cmd sid="button.apply" /> 버튼을 누르면 <Cmd sid="device.masterAdmin.twoStepAuth.title" />이 활성화 됩니다.
+
+    :::info
+
+    * 모든 관리자에게 두 종류 이상의 크리덴셜이 등록되어 있지 않을 때 활성화 시 설정이 실패하며 에러 메시지가 표시됩니다.<br/>모든 관리자에게 두 종류 이상의 크리덴셜을 등록한 다음 다시 시도하세요.
+
+    <Image src='/img/biostar2-2step-auth-warning.png' />
+
+    :::
+
+    :::warning
+
+    **관리자 2단계 인증**을 활성화한 후 모든 관리자의 크리덴셜을 2종 미만으로 삭제하면, BioStar 2에 연결할 수 없는 상황에서 관리자 메뉴에 접근할 수 없게 됩니다. 따라서 관리자 크리덴셜을 삭제할 때는 각별한 주의가 필요합니다.
+
+    :::
