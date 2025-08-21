@@ -24,6 +24,7 @@ import Badge from '@site/src/components/Badge';
 import BugLists from '@site/src/components/BugLists';
 import Jira from '@site/src/components/Jira';
 import Calloutlists from '@site/src/components/Calloutlists';
+import { FaqsItems } from '@site/src/components/Faqs';
 // icon images svg
 import IcLicense from '@site/static/img/menus/ico-license.svg';
 import IcAdd from '@site/static/img/menus/ico-add.svg';
@@ -68,7 +69,7 @@ export default {
     Badge,
     BugLists,
     Jira,
-    Calloutlists,
+    Calloutlists, FaqsItems,
     IcLicense,
     IcAdd,
     IcClose,

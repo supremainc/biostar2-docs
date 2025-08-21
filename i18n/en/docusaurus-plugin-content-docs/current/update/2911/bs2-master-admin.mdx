@@ -1,0 +1,244 @@
+---
+id: bs2-master-admin
+title: Setting Master Admin
+description: This document provides a guide on how to set up a Master Admin in BioStar 2.
+keywords: [ Master Admin, Administrator Settings, BioStar 2 Admin ]
+---
+
+The <Cmd sid="device.masterAdmin.title" /> feature is designed to **enhance device security** by **strengthening overall administrator privileges** and **preventing unauthorized access and configuration changes**.
+With this feature, you **must register a Master Admin** on the new device, and only registered Master Admins can access the administrator menu and change device settings.
+
+The <Cmd sid="device.masterAdmin.title" /> feature is available **only on Suprema products that support user interface via LCD screen**.
+
+:::info
+
+* This feature is an essential policy to enhance device security.
+
+* The <Cmd sid="device.masterAdmin.title" /> cannot be deleted directly, and they are **deleted only through factory reset**.
+
+:::
+
+## Master Admin
+
+### Supported Products for Master Admin
+
+The following products support the <Cmd sid="device.masterAdmin.title" /> feature:
+
+<Table className='component'>
+<Tbody>
+<Row className='center white'>
+
+<Td><Image src='/img/BioStation 3-Front.png' className='none' alone width='130px'/></Td>
+
+<Td><Image src='/img/BioStation 2a-front.png' className='none' alone width='200px' /></Td>
+
+<Td><Image src='/img/BioLite N2-Front.png' className='none' alone width='110px' /></Td>
+
+<Td><Image src='/img/X-Station 2-Front.png' className='none' alone width='300px' /></Td>
+
+</Row>
+<Row className='center'>
+
+<Td>**BioStation 3**<br/>Firmware v1.4.0 or later</Td>
+
+<Td>**BioStation 2a**<br/>Firmware v1.2.0 or later</Td>
+
+<Td>**BioLite N2**<br/>Firmware v1.7.0 or later</Td>
+
+<Td>**X-Station 2**<br/>Firmware v1.4.0 or later</Td>
+
+</Row>
+</Tbody>
+</Table>
+
+
+### Registering Master Admin in BioStar 2
+
+When you boot a new device for the first time after connecting it, the <Cmd sid="device.masterAdmin.title" /> registration screen appears. The new device must register a <Cmd sid="device.masterAdmin.title" />, and if not registered, the use of the device will be restricted.
+
+You can register and manage <Cmd sid="device.masterAdmin.title" /> in BioStar 2 without registering <Cmd sid="device.masterAdmin.title" /> on new devices.
+
+:::info
+
+* The <Cmd sid="device.masterAdmin.title" /> feature is supported from **BioStar 2 v2.9.11** onwards.
+
+* For existing devices with upgraded firmware, the <Cmd sid="device.masterAdmin.title" /> menu does not appear in BioStar 2 device settings.<br/>Existing devices upgraded via firmware do not provide <Cmd sid="device.masterAdmin.title" /> settings, but you can enhance administrator security by enabling the <Cmd sid="device.masterAdmin.twoStepAuth.title" /> option. For <Cmd sid="device.masterAdmin.twoStepAuth.title" /> settings, refer to the [following](#2step-authentication).
+
+:::
+
+1. To register <Cmd sid="device.masterAdmin.title" /> in BioStar 2, go to the <Cmd sid="common.device" /> menu, click the desired device, and enter the device detail page.
+
+1. In the <Cmd sid="device.info.advanced" /> → <Cmd sid="device.info.administrator" /> → <Cmd sid="device.masterAdmin.title" /> menu, select and enroll two types of desired credentials.
+
+    <Image src='/img/biostar2-master-admin-1.png' />
+
+    Credentials that can be enrolled for <Cmd sid="device.masterAdmin.title" /> are as follows:
+
+    <Table>
+      <Tbody>
+      <Row>
+        <Th>Credential Type</Th>
+        <Th>Max Quantity</Th>
+        <Th>Details</Th>
+      </Row>
+      <Row>
+        <Td>Card</Td>
+        <Td>Up to 4</Td>
+        <Td>Supports CSN and Wiegand type only<br/>No duplicate enrollment within the same type</Td>
+      </Row>
+      <Row>
+        <Td>Face</Td>
+        <Td>Up to 2</Td>
+        <Td>Available only on devices with the same algorithm</Td>
+      </Row>
+      <Row>
+        <Td>Fingerprint</Td>
+        <Td>Up to 2</Td>
+        <Td>-</Td>
+      </Row>
+      <Row>
+        <Td>PIN</Td>
+        <Td>1</Td>
+        <Td>Minimum 8 digits</Td>
+      </Row>
+      </Tbody>
+    </Table>
+
+    :::note
+
+    **Enrollment Conditions**
+
+    * At least two different types of credentials must be enrolled.
+
+    * The same conditions apply to both new and firmware upgraded devices.
+
+    * All credentials supported by the device can be used for authentication.
+
+    :::
+
+1. After enrolling at least two types of credentials, press the <Cmd sid="button.apply" /> button to finish <Cmd sid="device.masterAdmin.title" /> registration.
+
+
+### Managing Master Admin in BioStar 2
+
+Registered <Cmd sid="device.masterAdmin.title" /> can be managed in BioStar 2. To manage <Cmd sid="device.masterAdmin.title" />, follow these steps:
+
+1. Go to the <Cmd sid="common.device" /> menu, click the desired device, and enter the device detail page.
+
+1. <Cmd sid="device.info.advanced" /> → <Cmd sid="device.info.administrator" /> → <Cmd sid="device.masterAdmin.title" /> menu, you can view enrolled credentials and add, edit, or delete them.
+
+    <Image src='/img/biostar2-master-admin-2.png' />
+
+1. Click the <Cmd sid="button.apply" /> button to apply your changes.
+
+
+### Batch Editing Master Admin
+
+You can batch edit <Cmd sid="device.masterAdmin.title" /> credentials. Use the <Cmd sid="button.batchEdit" /> feature to enroll or modify master administrator credentials for multiple devices simultaneously.
+
+
+1. Go to the <Cmd sid="common.device" /> menu, <Image src='/img/common/ico-checkbox.png' ico alone /> check the devices you want to batch edit in the left checkboxes, then click <Image src='/img/ico-batch-edit.png' ico /> at the top.
+
+1. Click <Image src='/img/common/ico-batch-edit-activate-button.png' ico alone /> for <Cmd sid="device.masterAdmin.title" /> to switch to edit mode, then you can enroll, edit, or delete the desired credentials.
+
+    <Image src='/img/biostar2-batch-edit-master-admin.png' width='600px' />
+
+    :::info
+
+    You can enroll face, fingerprint, card, and PIN credentials, and at least two different types of credentials must be enrolled.
+
+    :::
+
+1. Click the <Cmd sid="button.apply" /> button to apply your changes.
+
+    :::info
+
+    * Batch editing overwrites with the enrolled credentials.
+
+    * If the selected device is not a new device or does not support the configured credentials, the settings will not be applied to that device.
+
+    <Image src='/img/biostar2-batch-edit-master-admin-2.png' />
+
+    :::
+
+## Two-step Authentication {#2step-authentication}
+
+Existing devices upgraded via firmware do not provide <Cmd sid="device.masterAdmin.title" /> settings, but you can enhance administrator security by enabling the <Cmd sid="device.masterAdmin.twoStepAuth.title" /> option.
+
+:::info
+
+* The <Cmd sid="device.masterAdmin.twoStepAuth.title" /> option appears only when the firmware has been upgraded to the latest version on existing devices.
+
+* The default value for <Cmd sid="device.masterAdmin.twoStepAuth.title" /> is single-step authentication.
+
+* <Cmd sid="device.masterAdmin.twoStepAuth.title" /> can be activated only if all registered administrators have at least two types of credentials.
+
+* The firmware upgrade device cannot be downgraded to a lower version after upgrading the firmware.
+
+:::
+
+### Setting Up Two-Step Authentication in BioStar 2
+
+1. To setting <Cmd sid="device.masterAdmin.twoStepAuth.title" /> in BioStar 2, go to the <Cmd sid="common.device" /> menu, click the desired device, and enter the device detail page.
+
+    :::caution
+
+    If no full administrator is configured on the device, the following popup message appears. Add an administrator to <Cmd sid="device.operatorLevel.all" /> in the <Cmd sid="device.info.advanced" /> → <Cmd sid="device.info.administrator" /> tab.
+
+    <Image src='/img/biostar2-admin-warning.png' />
+
+    :::
+
+1. Activate <Cmd sid="device.masterAdmin.twoStepAuth.title" /> by setting it to <Cmd sid="common.use" /> in <Cmd sid="device.info.advanced" /> → <Cmd sid="device.info.administrator" />.
+
+    <Image src='/img/biostar2-2step-auth-1.png' />
+
+1. Click the <Cmd sid="button.apply" /> button to activate <Cmd sid="device.masterAdmin.twoStepAuth.title" />.
+
+    :::info
+
+    If not all administrators have at least two types of credentials, activation will fail and an error message will appear.<br/>Enroll at least two types of credentials for all administrators, and then try again.
+
+    <Image src='/img/biostar2-2step-auth-warning.png' />
+
+    :::
+
+    :::warning
+
+    If you activate <Cmd sid="device.masterAdmin.twoStepAuth.title" /> and then delete credentials so that all administrators have fewer than two types, you will not be able to access the administrator menu if BioStar 2 connection is also unavailable. Therefore, exercise caution when deleting administrator credentials.
+
+    :::
+
+### Batch Editing Two-Step Authentication
+
+You can batch edit <Cmd sid="device.masterAdmin.twoStepAuth.title" />. Use the <Cmd sid="button.batchEdit" /> feature to enable or disable <Cmd sid="device.masterAdmin.twoStepAuth.title" /> for multiple devices simultaneously.
+
+1. Go to the <Cmd sid="common.device" /> menu, <Image src='/img/common/ico-checkbox.png' ico alone /> check the devices you want to batch edit in the left checkboxes, then click <Image src='/img/ico-batch-edit.png' ico /> at the top.
+
+1. Click <Image src='/img/common/ico-batch-edit-activate-button.png' ico alone /> for <Cmd sid="device.masterAdmin.twoStepAuth.title" /> to switch to edit mode, then you can enable or disable <Cmd sid="device.masterAdmin.twoStepAuth.title" />.
+
+    <Image src='/img/biostar2-batch-edit-2step-auth.png' width='600px' />
+
+    :::caution
+
+    When enabling <Cmd sid="device.masterAdmin.twoStepAuth.title" />, administrators with insufficient enrolled credentials may be unable to authenticate. Therefore, before enabling <Cmd sid="device.masterAdmin.twoStepAuth.title" />, ensure that **all administrators have at least two types of credentials enrolled**.
+
+    :::
+
+1. Click the <Cmd sid="button.apply" /> button to apply your changes.
+
+## Additional Information
+
+* **Manual Device Hash Key Change**
+
+  * When manually changing the device hash key, a warning message will indicate that Master Admin PINs will be deleted. Please confirm the message before proceeding.
+
+* **RS-485 Biometric Image Transmission Restriction**
+
+  * Biometric credential images are not transmitted over RS-485 communication, so substitute images appear when viewing the registered Master Admin face on slave devices.
+
+## Frequently Asked Questions
+
+import FaqData from './faqs.json';
+
+<FaqsItems data={FaqData} />
