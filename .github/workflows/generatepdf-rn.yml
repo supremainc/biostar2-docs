@@ -139,7 +139,10 @@ jobs:
           echo "❌ PDF 병합 실패"
           exit 1
         fi
-        
+
+        pdfcpu pagemode set "./pdf/${KO_NAME}.pdf" UseOutlines
+        pdfcpu pagelayout set "./pdf/${KO_NAME}.pdf" SinglePage
+        pdfcpu viewerpref set "./pdf/${KO_NAME}.pdf" '{"FitWindow": true, "CenterWindow": true}'
         echo "✅ 한국어 PDF 생성 완료: ${KO_NAME}.pdf"
 
     - name: Build Release Notes English PDF
@@ -181,6 +184,9 @@ jobs:
           exit 1
         fi
         
+        pdfcpu pagemode set "./pdf/${EN_NAME}.pdf" UseOutlines
+        pdfcpu pagelayout set "./pdf/${EN_NAME}.pdf" SinglePage
+        pdfcpu viewerpref set "./pdf/${EN_NAME}.pdf" '{"FitWindow": true, "CenterWindow": true}'
         echo "✅ 영어 PDF 생성 완료: ${EN_NAME}.pdf"
 
     - name: Verify Generated PDFs
