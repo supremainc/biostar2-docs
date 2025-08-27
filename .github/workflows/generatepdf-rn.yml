@@ -135,7 +135,7 @@ jobs:
         pdfcpu annot remove -pages 1 "./pdf/${KO_NAME}_temp.pdf" || true
 
         echo "프론트 커버와 메인 페이지 병합 중..."
-        if ! pdftk "./pdf/front-cover-ko.pdf" "./pdf/${KO_NAME}_temp.pdf" cat output "./pdf/${KO_NAME}.pdf"; then
+        if ! pdftk "./pdf/front-cover-ko.pdf" "./pdf/${KO_NAME}_temp.pdf" "./back-cover.pdf" cat output "./pdf/${KO_NAME}.pdf"; then
           echo "❌ PDF 병합 실패"
           exit 1
         fi
@@ -179,7 +179,7 @@ jobs:
         pdfcpu annot remove -pages 1 "./pdf/${EN_NAME}_temp.pdf" || true
 
         echo "프론트 커버와 메인 페이지 병합 중..."
-        if ! pdftk "./pdf/front-cover-en.pdf" "./pdf/${EN_NAME}_temp.pdf" cat output "./pdf/${EN_NAME}.pdf"; then
+        if ! pdftk "./pdf/front-cover-en.pdf" "./pdf/${EN_NAME}_temp.pdf" "./back-cover-en.pdf" cat output "./pdf/${EN_NAME}.pdf"; then
           echo "❌ PDF 병합 실패"
           exit 1
         fi
