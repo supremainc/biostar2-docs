@@ -128,7 +128,7 @@ jobs:
         if ! node generatepdf \
           -u "https://supremainc.github.io/biostar2-docs/revision" \
           --prince-args="--page-size='a4' --style=./print.css --javascript" \
-          -o "./pdf/${KO_NAME}_temp.pdf" -dest .pdf --include-index; then
+          -o "./pdf/${KO_NAME}_temp.pdf" --include-index; then
           echo "❌ 릴리스 노트 PDF 생성 실패"
           exit 1
         fi
@@ -169,7 +169,7 @@ jobs:
         if ! node generatepdf \
           -u "https://supremainc.github.io/biostar2-docs/en/revision" \
           --prince-args="--page-size='a4' --style=./print.css --javascript" \
-          -o "./pdf/${EN_NAME}_temp.pdf" -dest .pdf --include-index; then
+          -o "./pdf/${EN_NAME}_temp.pdf" --include-index; then
           echo "❌ 릴리스 노트 PDF 생성 실패"
           exit 1
         fi
