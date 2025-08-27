@@ -218,7 +218,7 @@ function generateCoverHTML(params) {
             <div class="subtitle">${processedSubtitle}</div>
             <div class="ver">${processedVersion}</div>
             <div class="lang">${lang}</div>
-            <div class="number">${number}</div>
+            <div class="number">${processedNumber}</div>
         </div>
         <div class="footer">
             <img src="${logoDataUri}" class="logo" alt="Suprema Logo" />
