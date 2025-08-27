@@ -1,0 +1,270 @@
+name: Generate PDF RN with Cover
+
+on:
+  workflow_dispatch:
+    inputs:
+      product_name:
+        description: "제품명 (예: BioStar 2)"
+        required: true
+        default: "BioStar 2"
+      version:
+        description: "버전"
+        required: true
+        default: "2.9.11"
+      date:
+        description: "릴리스 날짜"
+        required: true
+        default: "YYMMDD"
+
+permissions:
+  contents: write
+
+env:
+  PRINCE_VER: 16
+
+jobs:
+  build-n-deploy:
+    name: Generate PDF
+    runs-on: macos-14
+    timeout-minutes: 30  # 워크플로우 타임아웃 설정
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Print Input
+      run: |
+        echo "===워크플로우 입력값==="
+        echo "Input 제품명: ${{ github.event.inputs.product_name }}"
+        echo "Input 버전: ${{ github.event.inputs.version }}"
+        echo "Input 릴리스 날짜: ${{ github.event.inputs.date }}"
+
+    - name: Install Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'yarn'
+
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
+
+    - name: Install PrinceXML
+      run: |
+        echo "📦 Prince XML 설치 중..."
+        # 캐시 디렉토리 설정
+        CACHE_DIR="$HOME/.cache/prince"
+        PRINCE_FILE="prince-${{ env.PRINCE_VER }}-macos.zip"
+        
+        mkdir -p "$CACHE_DIR"
+        
+        # 캐시된 파일이 있는지 확인
+        if [ ! -f "$CACHE_DIR/$PRINCE_FILE" ]; then
+          echo "Prince XML 다운로드 중..."
+          curl -L "https://www.princexml.com/download/$PRINCE_FILE" -o "$CACHE_DIR/$PRINCE_FILE"
+        else
+          echo "캐시된 Prince XML 사용"
+        fi
+        
+        # 압축 해제 및 설치
+        cd "$CACHE_DIR"
+        tar zxf "$PRINCE_FILE"
+        cd "prince-${{ env.PRINCE_VER }}-macos"
+        yes "" | sudo ./install.sh
+        echo "✅ Prince XML 설치 완료"
+
+    - name: Install other tools
+      run: |
+        echo "📦 기타 도구 설치 중..."
+        # Homebrew 업데이트를 건너뛰어 시간 단축
+        export HOMEBREW_NO_AUTO_UPDATE=1
+        
+        echo "📦 도구 설치 중: pdfcpu, pdftk-java, gh"
+        brew install pdfcpu pdftk-java gh
+
+        echo "✅ 모든 도구 설치 완료"
+    
+    - name: Setup environment variables
+      run: |
+        echo "📊 환경변수 설정 중..."
+        EN_NAME="BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_EN_${{ github.event.inputs.date }}"
+        KO_NAME="BioStar_2_RevisionNotes_${{ github.event.inputs.version }}_KO_${{ github.event.inputs.date }}"
+        TAG_NAME="v${{ github.event.inputs.version }}"
+
+        # 환경변수로 저장
+        echo "EN_NAME=${EN_NAME}" >> $GITHUB_ENV
+        echo "KO_NAME=${KO_NAME}" >> $GITHUB_ENV
+        echo "TAG_NAME=${TAG_NAME}" >> $GITHUB_ENV
+
+        echo "✅ 환경변수 설정 완료"
+        echo "영문 파일명: ${EN_NAME}"
+        echo "한글 파일명: ${KO_NAME}"
+        echo "태그 및 릴리스 노트: ${TAG_NAME}"
+
+    - name: Create PDF output directory
+      run: mkdir -p ./pdf
+
+    - name: Build Release Notes Korean PDF
+      run: |
+        echo "📄 한국어 PDF 생성 및 처리 시작..."
+
+        echo "📄 프론트 커버 생성 중..."
+        if ! node generate-cover-local.js \
+          --title="BioStar 2" \
+          --subtitle="RN" \
+          --version="${{ github.event.inputs.version }}" \
+          --lang="한국어" \
+          --number="301.00.BS2" \
+          --output="./pdf/front-cover-ko.html"; then
+          echo "❌ 프론트 커버 생성 실패"
+          exit 1
+        fi
+          
+        echo "프론트 커버 PDF 변환"
+        if ! prince "./pdf/front-cover-ko.html" -o "./pdf/front-cover-ko.pdf"; then
+          echo "❌ 프론트 커버 PDF 변환 실패"
+          exit 1
+        fi
+        pdfcpu annot remove "./pdf/front-cover-ko.pdf" || true
+
+        echo "릴리스 노트 페이지 PDF 생성 중..."
+        if ! node generatepdf \
+          -u "https://supremainc.github.io/biostar2-docs/revision" \
+          --prince-args="--page-size='a4' --style=./print.css --javascript" \
+          -o "./pdf/${KO_NAME}_temp.pdf" --include-index; then
+          echo "❌ 릴리스 노트 PDF 생성 실패"
+          exit 1
+        fi
+        pdfcpu annot remove -pages 1 "./pdf/${KO_NAME}_temp.pdf" || true
+
+        echo "프론트 커버와 메인 페이지 병합 중..."
+        if ! pdftk "./pdf/front-cover-ko.pdf" "./pdf/${KO_NAME}_temp.pdf" cat output "./pdf/${KO_NAME}.pdf"; then
+          echo "❌ PDF 병합 실패"
+          exit 1
+        fi
+
+        pdfcpu pagemode set "./pdf/${KO_NAME}.pdf" UseOutlines
+        pdfcpu pagelayout set "./pdf/${KO_NAME}.pdf" SinglePage
+        pdfcpu viewerpref set "./pdf/${KO_NAME}.pdf" '{"FitWindow": true, "CenterWindow": true}'
+        echo "✅ 한국어 PDF 생성 완료: ${KO_NAME}.pdf"
+
+    - name: Build Release Notes English PDF
+      run: |
+        echo "📄 영어 PDF 생성 및 처리 시작..."
+
+        echo "📄 프론트 커버 생성 중..."
+        if ! node generate-cover-local.js \
+          --title="BioStar 2" \
+          --subtitle="RN" \
+          --version="${{ github.event.inputs.version }}" \
+          --lang="English" \
+          --number="301.00.BS2" \
+          --output="./pdf/front-cover-en.html"; then
+          echo "❌ 프론트 커버 생성 실패"
+          exit 1
+        fi
+          
+        echo "프론트 커버 PDF 변환"
+        if ! prince "./pdf/front-cover-en.html" -o "./pdf/front-cover-en.pdf"; then
+          echo "❌ 프론트 커버 PDF 변환 실패"
+          exit 1
+        fi
+        pdfcpu annot remove "./pdf/front-cover-en.pdf" || true
+
+        echo "릴리스 노트 페이지 PDF 생성 중..."
+        if ! node generatepdf \
+          -u "https://supremainc.github.io/biostar2-docs/en/revision" \
+          --prince-args="--page-size='a4' --style=./print.css --javascript" \
+          -o "./pdf/${EN_NAME}_temp.pdf" --include-index; then
+          echo "❌ 릴리스 노트 PDF 생성 실패"
+          exit 1
+        fi
+        pdfcpu annot remove -pages 1 "./pdf/${EN_NAME}_temp.pdf" || true
+
+        echo "프론트 커버와 메인 페이지 병합 중..."
+        if ! pdftk "./pdf/front-cover-en.pdf" "./pdf/${EN_NAME}_temp.pdf" cat output "./pdf/${EN_NAME}.pdf"; then
+          echo "❌ PDF 병합 실패"
+          exit 1
+        fi
+        
+        pdfcpu pagemode set "./pdf/${EN_NAME}.pdf" UseOutlines
+        pdfcpu pagelayout set "./pdf/${EN_NAME}.pdf" SinglePage
+        pdfcpu viewerpref set "./pdf/${EN_NAME}.pdf" '{"FitWindow": true, "CenterWindow": true}'
+        echo "✅ 영어 PDF 생성 완료: ${EN_NAME}.pdf"
+
+    - name: Verify Generated PDFs
+      run: |
+        echo "📋 생성된 PDF 파일 검증 중..."
+        
+        # 파일 존재 확인
+        if [ ! -f "./pdf/${KO_NAME}.pdf" ]; then
+          echo "❌ 한국어 PDF 파일이 생성되지 않았습니다: ${KO_NAME}.pdf"
+          exit 1
+        fi
+        
+        if [ ! -f "./pdf/${EN_NAME}.pdf" ]; then
+          echo "❌ 영어 PDF 파일이 생성되지 않았습니다: ${EN_NAME}.pdf"
+          exit 1
+        fi
+        
+        # 파일 크기 확인 (최소 10KB)
+        KO_SIZE=$(stat -c%s "./pdf/${KO_NAME}.pdf" 2>/dev/null || stat -f%z "./pdf/${KO_NAME}.pdf")
+        EN_SIZE=$(stat -c%s "./pdf/${EN_NAME}.pdf" 2>/dev/null || stat -f%z "./pdf/${EN_NAME}.pdf")
+        
+        if [ "$KO_SIZE" -lt 10240 ]; then
+          echo "❌ 한국어 PDF 파일이 너무 작습니다 (${KO_SIZE} bytes)"
+          exit 1
+        fi
+        
+        if [ "$EN_SIZE" -lt 10240 ]; then
+          echo "❌ 영어 PDF 파일이 너무 작습니다 (${EN_SIZE} bytes)"
+          exit 1
+        fi
+        
+        echo "✅ PDF 파일 검증 완료"
+        echo "   - 한국어 PDF: ${KO_NAME}.pdf ($(numfmt --to=iec $KO_SIZE))"
+        echo "   - 영어 PDF: ${EN_NAME}.pdf ($(numfmt --to=iec $EN_SIZE))"
+
+    - name: Check and prepare release
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo "🗑️ 기존 릴리스 및 태그 정리 중: ${TAG_NAME}"
+        # 기존 릴리스 삭제 시도 (최대 3회 재시도)
+        for i in {1..3}; do
+          if gh release delete "${TAG_NAME}" -y 2>/dev/null; then
+            echo "✅ 기존 릴리스 삭제 완료 (시도 $i/3)"
+            break
+          else
+            if [ $i -eq 3 ]; then
+              echo "ℹ️ 기존 릴리스 없음 또는 삭제 실패 (최종)"
+            else
+              echo "⏳ 릴리스 삭제 재시도 중... ($i/3)"
+              sleep 2
+            fi
+          fi
+        done
+        
+        # 기존 태그 삭제 시도
+        git push origin --delete "${TAG_NAME}" 2>/dev/null || echo "ℹ️ 기존 태그 없음 또는 삭제 실패"
+        
+        echo "✅ 릴리스 준비 완료"
+
+    - name: Create Release and Upload Assets
+      env: 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo "📤 릴리스 생성 및 파일 업로드 중..."
+        
+        # 기존 릴리스가 있으면 삭제하고 새로 생성
+        if gh release view "${TAG_NAME}" >/dev/null 2>&1; then
+          echo "🗑️ 기존 릴리스 삭제 중: ${TAG_NAME}"
+          gh release delete "${TAG_NAME}" -y
+        fi
+        
+        # 새 릴리스 생성 및 파일 업로드
+        echo "📤 새 릴리스 생성 및 PDF 파일 업로드 중..."
+        gh release create "${TAG_NAME}" \
+          --title "BioStar 2 Release Notes v${{ github.event.inputs.version }}" \
+          --notes "Suprema BioStar 2 Release Notes v${{ github.event.inputs.version }} (Generated: $(date '+%Y-%m-%d %H:%M:%S'))" \
+          "./pdf/${KO_NAME}.pdf" \
+          "./pdf/${EN_NAME}.pdf"
+        
+        echo "✅ 릴리스 생성 및 업로드 완료"
