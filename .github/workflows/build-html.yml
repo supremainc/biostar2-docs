@@ -33,8 +33,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION: ${{ github.event.inputs.version }}
         run: |
-          gh release delete "v$VERSION" -y || true
-          git push origin --delete "v$VERSION" || true
+          gh release delete "v$VERSION@html" -y || true
+          git push origin --delete "v$VERSION@html" || true
         continue-on-error: true
 
       - name: Install dependencies
@@ -55,8 +55,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: "v${{ github.event.inputs.version }}"
-          name: "BioStar 2 Docs v${{ github.event.inputs.version }}"
+          tag_name: "v${{ github.event.inputs.version }}@html"
+          name: "BioStar 2 Docs v${{ github.event.inputs.version }} HTML"
           body: |
             BioStar 2 Docs Release v${{ github.event.inputs.version }} - ${{ github.event.inputs.date }}
           draft: false
