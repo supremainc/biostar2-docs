@@ -1,6 +1,6 @@
 "use strict";
-(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["8318"], {
-5042: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["6679"], {
+106: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 __webpack_require__.d(__webpack_exports__, {
   ZP: () => (MDXContent),
   d$: () => (toc)
@@ -29,19 +29,19 @@ function _createMdxContent(props) {
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(Details, {
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("summary", {
       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.strong, {
-        children: "Notice on FaceStation F2 v1.x.x Firmware Support Discontinuation"
+        children: "FaceStation F2 v1.x.x 펌웨어 지원 중단 안내"
       })
     }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Starting with BioStar 2 v2.9.7, we have enhanced synchronization performance by modifying the process to transmit templates exclusively when synchronizing a user's visual face to the device."
+      children: "BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화할 때 템플릿만 전송하도록 변경하여 동기화 성능을 최적화했습니다."
     }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "Given the differences in visual face algorithms, FaceStation F2 v1.x.x won't sync well with the new BioStar 2. Therefore, we've decided to end support for FaceStation F2 v1.x.x from BioStar 2 v2.9.7 onward."
+      children: "따라서 BioStar 2 v2.9.7부터는 장치에서만 템플릿을 추출할 수 있는 FaceStation F2 v1.x.x 펌웨어의 지원이 중단됩니다."
     }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.p, {
-      children: "If you are currently using FaceStation F2 v1.x.x firmware, kindly upgrade your FaceStation F2 to the latest firmware to utilize BioStar 2 v2.9.7."
+      children: "현재 FaceStation F2의 1.x.x 버전 펌웨어를 사용 중인 경우 BioStar 2 v2.9.7을 사용하기 위해서는 FaceStation F2를 최신 펌웨어로 업그레이드하여 사용하세요."
     }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components.p, {
-      children: ["The latest firmware can be downloaded from the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
+      children: ["최신 펌웨어는 ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components.a, {
         href: "https://download.supremainc.com",
-        children: "Suprema Download Center"
-      }), "."]
+        children: "슈프리마 다운로드 센터"
+      }), "에서 다운로드할 수 있습니다."]
     })]
   });
 }
@@ -64,7 +64,7 @@ function _missingMdxReference(id, component) {
 
 
 }),
-982: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+7521: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -73,25 +73,25 @@ __webpack_require__.d(__webpack_exports__, {
   frontMatter: () => (/* binding */ frontMatter),
   "default": () => (/* binding */ MDXContent),
   toc: () => (/* binding */ toc),
-  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_revision_2911_mdx_1e1_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_revision_2911_mdx_fe6_namespaceObject),
   assets: () => (/* binding */ assets),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-revision-2911-mdx-1e1.json
-var site_i_18_n_en_docusaurus_plugin_content_docs_current_revision_2911_mdx_1e1_namespaceObject = JSON.parse('{"id":"revision/2911","title":"Version 2.9.11 (Build No. 2.9.11.6)","description":"Release2025-08-29","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2911.mdx","sourceDirName":"revision","slug":"/revision/2911","permalink":"/biostar2-docs/en/revision/2911","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"2911","title":"Version 2.9.11 (Build No. 2.9.11.6)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Precautions when upgrading BioStar 2","permalink":"/biostar2-docs/en/revision/"},"next":{"title":"Version 2.9.10 (Build No. 2.9.10.1)","permalink":"/biostar2-docs/en/revision/2910"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-revision-2911-mdx-fe6.json
+var site_docs_revision_2911_mdx_fe6_namespaceObject = JSON.parse('{"id":"revision/2911","title":"버전 2.9.11 (빌드 번호 2.9.11.6)","description":"릴리즈2025-09-01","source":"@site/docs/revision/2911.mdx","sourceDirName":"revision","slug":"/revision/2911","permalink":"/biostar2-docs/revision/2911","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"2911","title":"버전 2.9.11 (빌드 번호 2.9.11.6)","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"BioStar 2 업그레이드 시 주의사항","permalink":"/biostar2-docs/revision/"},"next":{"title":"버전 2.9.10 (빌드 번호 2.9.10.1)","permalink":"/biostar2-docs/revision/2910"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(65);
-// EXTERNAL MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/common/_fsf2-firmware-support-discontinuation.mdx
-var _fsf2_firmware_support_discontinuation = __webpack_require__(5042);
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/revision/2911.mdx
+// EXTERNAL MODULE: ./docs/common/_fsf2-firmware-support-discontinuation.mdx
+var _fsf2_firmware_support_discontinuation = __webpack_require__(106);
+;// CONCATENATED MODULE: ./docs/revision/2911.mdx
 
 
 const frontMatter = {
 	id: 2911,
-	title: 'Version 2.9.11 (Build No. 2.9.11.6)',
+	title: '버전 2.9.11 (빌드 번호 2.9.11.6)',
 	isTranslationMissing: false
 };
 const contentTitle = undefined;
@@ -104,12 +104,12 @@ const assets = {
 
 
 const toc = [..._fsf2_firmware_support_discontinuation/* toc */.d$, {
-  "value": "New Features and Improvements",
-  "id": "new-features-and-improvements",
+  "value": "신규 기능 및 개선",
+  "id": "신규-기능-및-개선",
   "level": 2
 }, {
-  "value": "Bug Fixes",
-  "id": "bug-fixes",
+  "value": "버그 수정",
+  "id": "버그-수정",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -130,69 +130,75 @@ function _createMdxContent(props) {
   if (!Separator) _missingMdxReference("Separator", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsxs)(_components.p, {
-      children: ["Release", (0,jsx_runtime.jsx)(Separator, {}), "2025-08-29"]
+      children: ["릴리즈", (0,jsx_runtime.jsx)(Separator, {}), "2025-09-01"]
     }), "\n", "\n", (0,jsx_runtime.jsx)(_fsf2_firmware_support_discontinuation/* default */.ZP, {}), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "new-features-and-improvements",
-      children: "New Features and Improvements"
+      id: "신규-기능-및-개선",
+      children: "신규 기능 및 개선"
     }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsxs)(_components.ol, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Added ", (0,jsx_runtime.jsx)(_components.strong, {
-            children: "Master Admin"
-          }), " feature to enhance device security and prevent unauthorized access and configuration changes."]
+          children: ["장치의 보안을 향상시키고 무단 접근 및 설정 변경을 방지하기 위한 ", (0,jsx_runtime.jsx)(_components.strong, {
+            children: "마스터 관리자"
+          }), " 기능 추가"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Supports SL1, SL3, and SL1/SL3 Mix Mode for security level compatibility with MIFARE Plus EV1 cards."
+          children: "MIFARE Plus EV1 카드의 보안 수준 호환성을 위해 SL1, SL3, SL1/SL3 혼용 모드 지원"
         }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.li, {
-            children: "SL1: Compatible mode with MIFARE Classic"
+            children: "SL1: MIFARE Classic 호환 모드"
           }), "\n", (0,jsx_runtime.jsx)(_components.li, {
-            children: "SL3: Advanced security mode based on AES"
+            children: "SL3: AES 기반 고급 보안 모드"
           }), "\n"]
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "Updated Open JDK version."
+          children: "Open JDK 버전 업데이트"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["Added CoreStation 20 and Door Interface 24 device-related events to the ", (0,jsx_runtime.jsx)(Cmd, {
+          children: [(0,jsx_runtime.jsx)(Cmd, {
             sid: "common.setting"
           }), " → ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "common.alert"
-          }), " menu."]
+          }), " 메뉴에 CoreStation 20, Door Interface 24 장치 관련 이벤트 추가"]
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "bug-fixes",
-      children: "Bug Fixes"
+      id: "버그-수정",
+      children: "버그 수정"
     }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsx)(BugLists, {
       children: (0,jsx_runtime.jsxs)(_components.ol, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Cards could not be printed when custom field settings were configured for user accounts. ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["사용자 계정에 커스텀 필드 설정이 되어 있을 때 카드 프린트를 할 수 없던 문제 ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.9"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["An error occurs when accessing the device detail page after applying certain custom smart card layouts. ", (0,jsx_runtime.jsx)(Badge, {
+            children: ["일부 커스텀 스마트 카드 레이아웃을 적용한 후 장치 상세 페이지 진입 시 에러가 발생하는 문제 ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.6"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Users with mobile cards issued in the ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "Regular"
-            }), " site environment cannot access the user detail page after exporting to CSV, deleting the users, and reimporting them. ", (0,jsx_runtime.jsx)(Badge, {
+            children: [(0,jsx_runtime.jsx)(_components.strong, {
+              children: "레귤러"
+            }), " 사이트 환경에서 모바일 카드가 발급된 사용자를 CSV로 내보낸 후, 해당 사용자를 삭제하고 다시 가져왔을 때 사용자 상세 페이지에 진입할 수 없는 문제 ", (0,jsx_runtime.jsx)(Badge, {
               children: "2.9.10"
             })]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["Incompatible general CSN cards get recognized when enrolling custom smart cards for users. ", (0,jsx_runtime.jsx)(Badge, {
-              children: "2.9.4"
+            children: [(0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.info.templateOnMobile"
+            }), " 기능은 지원하지만, ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.info.templateOnMobile"
+            }), "의 등록은 지원하지 않는 장치의 상세 페이지에서 ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.info.templateOnMobile"
+            }), " 설정이 표시되지 않는 문제 ", (0,jsx_runtime.jsx)(Badge, {
+              children: "2.9.9"
             })]
           }), "\n"]
         }), "\n"]
