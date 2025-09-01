@@ -74,13 +74,13 @@ BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화�
 1. **레귤러** 사이트 환경에서 모바일 카드가 발급된 사용자를 CSV로 내보낸 후, 해당 사용자를 삭제하고 다시 가져왔을 때 사용자 상세 페이지에 진입할 수 없는 문제 <Badge>2.9.10</Badge>
 1. Users with mobile cards issued in the **Regular** site environment cannot access the user detail page after exporting to CSV, deleting the users, and reimporting them. <Badge>2.9.10</Badge>
 
-<Jira num='BF-1528' /> 사용자 설정페이지의 custom card read 동작에서 카드타입 유효성 검사 안하는 이슈
+<Jira num='BVE-3609' /> ToM을 지원하지만 ToM Enrollment 지원하지 않는 장치에서 ToM 메뉴가 보이지 않는 문제 2.9.9
 
-1. 사용자에게 커스텀 스마트 카드를 등록하는 과정에서 호환되지 않는 일반 CSN 카드가 읽혀지는 문제 <Badge>2.9.4</Badge>
-1. Incompatible general CSN cards get recognized when enrolling custom smart cards for users. <Badge>2.9.4</Badge>
+1. <Cmd sid="device.info.templateOnMobile" /> 기능은 지원하지만, <Cmd sid="device.info.templateOnMobile" />의 등록은 지원하지 않는 장치의 상세 페이지에서 <Cmd sid="device.info.templateOnMobile" /> 설정이 표시되지 않는 문제 <Badge>2.9.9</Badge>
+
+1. <Cmd sid="device.info.templateOnMobile" /> settings do not appear on the device detail page for devices that support the <Cmd sid="device.info.templateOnMobile" /> feature but do not support <Cmd sid="device.info.templateOnMobile" /> enrollment. <Badge>2.9.9</Badge>
 
 </BugLists>
-
 
 ## 제외 이슈
 
@@ -154,3 +154,10 @@ BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화�
 1. BioStar 2 Mobile 애플리케이션 업데이트
 
 1. Updated BioStar 2 Mobile application.
+
+<Jira num='BF-1528' /> 사용자 설정페이지의 custom card read 동작에서 카드타입 유효성 검사 안하는 이슈
+
+`제외` - 2.9.11에 수정되지 않음
+
+1. 사용자에게 커스텀 스마트 카드를 등록하는 과정에서 호환되지 않는 일반 CSN 카드가 읽혀지는 문제 <Badge>2.9.4</Badge>
+1. Incompatible general CSN cards get recognized when enrolling custom smart cards for users. <Badge>2.9.4</Badge>
