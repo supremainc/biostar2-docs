@@ -25775,35 +25775,45 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 var routesChunkNames = __webpack_require__(7138);
 ;// CONCATENATED MODULE: ./.docusaurus/registry.js
 /* ESM default export */ const registry = ({
-    "011ed341": [
-        ()=>__webpack_require__.e(/* import() | 011ed341 */ "9208").then(__webpack_require__.bind(__webpack_require__, 3982)),
-        "@site/docs/revision/2817.mdx",
-        /*require.resolve*/(3982)
+    "0069a404": [
+        ()=>__webpack_require__.e(/* import() | 0069a404 */ "7258").then(__webpack_require__.bind(__webpack_require__, 743)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2817.mdx",
+        /*require.resolve*/(743)
     ],
-    "05df8820": [
-        ()=>__webpack_require__.e(/* import() | 05df8820 */ "7537").then(__webpack_require__.bind(__webpack_require__, 6875)),
-        "@site/docs/update/2911/bs2-master-admin.mdx",
-        /*require.resolve*/(6875)
+    "02751dd0": [
+        ()=>__webpack_require__.e(/* import() | 02751dd0 */ "7717").then(__webpack_require__.bind(__webpack_require__, 7354)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/288.mdx",
+        /*require.resolve*/(7354)
+    ],
+    "04b7312d": [
+        ()=>__webpack_require__.e(/* import() | 04b7312d */ "8260").then(__webpack_require__.bind(__webpack_require__, 8519)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/263.mdx",
+        /*require.resolve*/(8519)
+    ],
+    "052bd3b6": [
+        ()=>__webpack_require__.e(/* import() | 052bd3b6 */ "7351").then(__webpack_require__.bind(__webpack_require__, 8884)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/297/multi-factor-auth-for-login.mdx",
+        /*require.resolve*/(8884)
     ],
     "07b870ec": [
         ()=>__webpack_require__.e(/* import() | 07b870ec */ "6695").then(__webpack_require__.bind(__webpack_require__, 4783)),
         "@site/docs/revision/2910-draft.mdx",
         /*require.resolve*/(4783)
     ],
-    "0954da10": [
-        ()=>__webpack_require__.e(/* import() | 0954da10 */ "3455").then(__webpack_require__.bind(__webpack_require__, 702)),
-        "@site/docs/revision/284.mdx",
-        /*require.resolve*/(702)
+    "092c32d3": [
+        ()=>__webpack_require__.e(/* import() | 092c32d3 */ "3093").then(__webpack_require__.bind(__webpack_require__, 1766)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/285.mdx",
+        /*require.resolve*/(1766)
     ],
-    "0a45dc6f": [
-        ()=>__webpack_require__.e(/* import() | 0a45dc6f */ "6946").then(__webpack_require__.bind(__webpack_require__, 9140)),
-        "@site/docs/update/biostar2-295.mdx",
-        /*require.resolve*/(9140)
+    "0ab78278": [
+        ()=>__webpack_require__.e(/* import() | 0ab78278 */ "2374").then(__webpack_require__.bind(__webpack_require__, 1950)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/user-photo-enroll-using-webcam.mdx",
+        /*require.resolve*/(1950)
     ],
-    "0c25ca7e": [
-        ()=>__webpack_require__.e(/* import() | 0c25ca7e */ "852").then(__webpack_require__.bind(__webpack_require__, 6779)),
-        "@site/docs/update/biostar2-2911.mdx",
-        /*require.resolve*/(6779)
+    "10087596": [
+        ()=>__webpack_require__.e(/* import() | 10087596 */ "4846").then(__webpack_require__.bind(__webpack_require__, 250)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/280.mdx",
+        /*require.resolve*/(250)
     ],
     "138e0e15": [
         ()=>__webpack_require__.e(/* import() | 138e0e15 */ "151").then(__webpack_require__.t.bind(__webpack_require__, 3765, 19)),
@@ -25820,110 +25830,125 @@ var routesChunkNames = __webpack_require__(7138);
         "@theme/SearchPage",
         /*require.resolve*/(3634)
     ],
-    "1c63e954": [
-        ()=>__webpack_require__.e(/* import() | 1c63e954 */ "1254").then(__webpack_require__.bind(__webpack_require__, 3702)),
-        "@site/docs/revision/272.mdx",
-        /*require.resolve*/(3702)
+    "1a808aab": [
+        ()=>__webpack_require__.e(/* import() | 1a808aab */ "6115").then(__webpack_require__.bind(__webpack_require__, 3279)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2910/ad-encrypt.mdx",
+        /*require.resolve*/(3279)
     ],
-    "1f5ed054": [
-        ()=>__webpack_require__.e(/* import() | 1f5ed054 */ "9983").then(__webpack_require__.bind(__webpack_require__, 2135)),
-        "@site/docs/update/295/new-dashboard.mdx",
-        /*require.resolve*/(2135)
+    "1bf61c02": [
+        ()=>__webpack_require__.e(/* import() | 1bf61c02 */ "6950").then(__webpack_require__.bind(__webpack_require__, 3630)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/deny-access-when-wearing-mask.mdx",
+        /*require.resolve*/(3630)
     ],
-    "21922693": [
-        ()=>__webpack_require__.e(/* import() | 21922693 */ "5082").then(__webpack_require__.bind(__webpack_require__, 465)),
-        "@site/docs/revision/294.mdx",
-        /*require.resolve*/(465)
+    "1d0abbe8": [
+        ()=>__webpack_require__.e(/* import() | 1d0abbe8 */ "5205").then(__webpack_require__.bind(__webpack_require__, 4931)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/291.mdx",
+        /*require.resolve*/(4931)
     ],
-    "21aa58f6": [
-        ()=>__webpack_require__.e(/* import() | 21aa58f6 */ "9836").then(__webpack_require__.bind(__webpack_require__, 2663)),
-        "@site/docs/revision/2910.mdx",
-        /*require.resolve*/(2663)
+    "1deca8b7": [
+        ()=>__webpack_require__.e(/* import() | 1deca8b7 */ "1553").then(__webpack_require__.bind(__webpack_require__, 353)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/260.mdx",
+        /*require.resolve*/(353)
     ],
-    "23f1d5de": [
-        ()=>__webpack_require__.e(/* import() | 23f1d5de */ "2802").then(__webpack_require__.bind(__webpack_require__, 3920)),
-        "@site/docs/update/298/other-update.mdx",
-        /*require.resolve*/(3920)
+    "1e135ad0": [
+        ()=>__webpack_require__.e(/* import() | 1e135ad0 */ "8318").then(__webpack_require__.bind(__webpack_require__, 982)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2911.mdx",
+        /*require.resolve*/(982)
     ],
-    "24cef709": [
-        ()=>__webpack_require__.e(/* import() | 24cef709 */ "920").then(__webpack_require__.bind(__webpack_require__, 2789)),
-        "@site/docs/update/295/unified-gateway.mdx",
-        /*require.resolve*/(2789)
+    "216bef97": [
+        ()=>__webpack_require__.e(/* import() | 216bef97 */ "8792").then(__webpack_require__.bind(__webpack_require__, 9116)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
+        /*require.resolve*/(9116)
     ],
-    "2b958d9c": [
-        ()=>__webpack_require__.e(/* import() | 2b958d9c */ "4277").then(__webpack_require__.bind(__webpack_require__, 5068)),
-        "@site/docs/revision/285.mdx",
-        /*require.resolve*/(5068)
+    "22f32fa9": [
+        ()=>__webpack_require__.e(/* import() | 22f32fa9 */ "805").then(__webpack_require__.bind(__webpack_require__, 8842)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/273.mdx",
+        /*require.resolve*/(8842)
     ],
-    "2c2669f6": [
-        ()=>__webpack_require__.e(/* import() | 2c2669f6 */ "5276").then(__webpack_require__.bind(__webpack_require__, 6327)),
-        "@site/docs/update/2910/how-to-use-di24.mdx",
-        /*require.resolve*/(6327)
+    "2510fb83": [
+        ()=>__webpack_require__.e(/* import() | 2510fb83 */ "6262").then(__webpack_require__.bind(__webpack_require__, 3636)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/new-dashboard.mdx",
+        /*require.resolve*/(3636)
     ],
-    "31323990": [
-        ()=>__webpack_require__.e(/* import() | 31323990 */ "6968").then(__webpack_require__.bind(__webpack_require__, 2980)),
-        "@site/docs/update/2910/how-to-use-cs20.mdx",
-        /*require.resolve*/(2980)
+    "3179504a": [
+        ()=>__webpack_require__.e(/* import() | 3179504a */ "6767").then(__webpack_require__.bind(__webpack_require__, 3743)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/278.mdx",
+        /*require.resolve*/(3743)
     ],
-    "329b7b82": [
-        ()=>__webpack_require__.e(/* import() | 329b7b82 */ "1221").then(__webpack_require__.bind(__webpack_require__, 2985)),
-        "@site/docs/update/biostar2-298.mdx",
-        /*require.resolve*/(2985)
+    "3b945e55": [
+        ()=>__webpack_require__.e(/* import() | 3b945e55 */ "3848").then(__webpack_require__.bind(__webpack_require__, 8183)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2910/how-to-use-cs20.mdx",
+        /*require.resolve*/(8183)
     ],
-    "36321d29": [
-        ()=>__webpack_require__.e(/* import() | 36321d29 */ "6518").then(__webpack_require__.bind(__webpack_require__, 269)),
-        "@site/docs/revision/260.mdx",
-        /*require.resolve*/(269)
+    "40575fab": [
+        ()=>__webpack_require__.e(/* import() | 40575fab */ "9285").then(__webpack_require__.bind(__webpack_require__, 2509)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/csn-mobile-card.mdx",
+        /*require.resolve*/(2509)
     ],
-    "37f0d07c": [
-        ()=>__webpack_require__.e(/* import() | 37f0d07c */ "1925").then(__webpack_require__.bind(__webpack_require__, 1893)),
-        "@site/docs/revision/292.mdx",
-        /*require.resolve*/(1893)
+    "40f2fb3e": [
+        ()=>__webpack_require__.e(/* import() | 40f2fb3e */ "217").then(__webpack_require__.bind(__webpack_require__, 2950)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2910.mdx",
+        /*require.resolve*/(2950)
     ],
-    "3d565b9d": [
-        ()=>__webpack_require__.e(/* import() | 3d565b9d */ "2273").then(__webpack_require__.bind(__webpack_require__, 7323)),
-        "@site/docs/revision/281.mdx",
-        /*require.resolve*/(7323)
+    "44b7a0c0": [
+        ()=>__webpack_require__.e(/* import() | 44b7a0c0 */ "2947").then(__webpack_require__.bind(__webpack_require__, 8125)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2816.mdx",
+        /*require.resolve*/(8125)
     ],
-    "4133abef": [
-        ()=>__webpack_require__.e(/* import() | 4133abef */ "3809").then(__webpack_require__.bind(__webpack_require__, 2254)),
-        "@site/docs/revision/262.mdx",
-        /*require.resolve*/(2254)
+    "450f52ad": [
+        ()=>__webpack_require__.e(/* import() | 450f52ad */ "660").then(__webpack_require__.bind(__webpack_require__, 6760)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/297.mdx",
+        /*require.resolve*/(6760)
     ],
-    "42ecb57c": [
-        ()=>__webpack_require__.e(/* import() | 42ecb57c */ "3233").then(__webpack_require__.bind(__webpack_require__, 8444)),
-        "@site/docs/revision/271.mdx",
-        /*require.resolve*/(8444)
-    ],
-    "4399770d": [
-        ()=>__webpack_require__.e(/* import() | 4399770d */ "647").then(__webpack_require__.bind(__webpack_require__, 4044)),
-        "@site/docs/update/295/timed-apb.mdx",
-        /*require.resolve*/(4044)
-    ],
-    "470e0e0f": [
-        ()=>__webpack_require__.e(/* import() | 470e0e0f */ "7098").then(__webpack_require__.bind(__webpack_require__, 1361)),
-        "@site/docs/revision/282.mdx",
-        /*require.resolve*/(1361)
-    ],
-    "4edc808e": [
-        ()=>__webpack_require__.e(/* import() | 4edc808e */ "8005").then(__webpack_require__.bind(__webpack_require__, 8741)),
-        "@site/docs/index.mdx",
-        /*require.resolve*/(8741)
+    "4b374cb0": [
+        ()=>__webpack_require__.e(/* import() | 4b374cb0 */ "4850").then(__webpack_require__.bind(__webpack_require__, 5782)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/update-timed-apb.mdx",
+        /*require.resolve*/(5782)
     ],
     "5308dfd1": [
         ()=>Promise.all(/* import() | 5308dfd1 */ [__webpack_require__.e("6212"), __webpack_require__.e("7397")]).then(__webpack_require__.bind(__webpack_require__, 3492)),
         "@site/src/pages/back/index.js",
         /*require.resolve*/(3492)
     ],
-    "5347b71d": [
-        ()=>__webpack_require__.e(/* import() | 5347b71d */ "390").then(__webpack_require__.bind(__webpack_require__, 9536)),
-        "@site/docs/revision/274.mdx",
-        /*require.resolve*/(9536)
+    "533e231f": [
+        ()=>__webpack_require__.e(/* import() | 533e231f */ "4733").then(__webpack_require__.bind(__webpack_require__, 7496)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/wireless-door-lock.mdx",
+        /*require.resolve*/(7496)
     ],
-    "5a3cd577": [
-        ()=>__webpack_require__.e(/* import() | 5a3cd577 */ "114").then(__webpack_require__.bind(__webpack_require__, 2616)),
-        "@site/docs/update/298/deny-access-when-wearing-mask.mdx",
-        /*require.resolve*/(2616)
+    "53ac7d2d": [
+        ()=>__webpack_require__.e(/* import() | 53ac7d2d */ "9717").then(__webpack_require__.bind(__webpack_require__, 4378)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/290.mdx",
+        /*require.resolve*/(4378)
+    ],
+    "54b64734": [
+        ()=>__webpack_require__.e(/* import() | 54b64734 */ "7650").then(__webpack_require__.bind(__webpack_require__, 2127)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2910/how-to-use-di24.mdx",
+        /*require.resolve*/(2127)
+    ],
+    "5518cd1d": [
+        ()=>__webpack_require__.e(/* import() | 5518cd1d */ "5647").then(__webpack_require__.bind(__webpack_require__, 3170)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/advanced-search.mdx",
+        /*require.resolve*/(3170)
+    ],
+    "565ee0ad": [
+        ()=>__webpack_require__.e(/* import() | 565ee0ad */ "7413").then(__webpack_require__.bind(__webpack_require__, 1325)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/262.mdx",
+        /*require.resolve*/(1325)
+    ],
+    "58a1c2b9": [
+        ()=>__webpack_require__.e(/* import() | 58a1c2b9 */ "4605").then(__webpack_require__.bind(__webpack_require__, 8942)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/index.mdx",
+        /*require.resolve*/(8942)
+    ],
+    "5c0ccdb7": [
+        ()=>__webpack_require__.e(/* import() | 5c0ccdb7 */ "77").then(__webpack_require__.bind(__webpack_require__, 359)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/quick-action.mdx",
+        /*require.resolve*/(359)
+    ],
+    "5d6cde95": [
+        ()=>__webpack_require__.e(/* import() | 5d6cde95 */ "2212").then(__webpack_require__.bind(__webpack_require__, 3093)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/274.mdx",
+        /*require.resolve*/(3093)
     ],
     "5e95c892": [
         ()=>__webpack_require__.e(/* import() | 5e95c892 */ "3432").then(__webpack_require__.bind(__webpack_require__, 1359)),
@@ -25935,130 +25960,110 @@ var routesChunkNames = __webpack_require__(7138);
         "@generated/docusaurus.config",
         /*require.resolve*/(5150)
     ],
-    "5f0a05a2": [
-        ()=>__webpack_require__.e(/* import() | 5f0a05a2 */ "4969").then(__webpack_require__.bind(__webpack_require__, 5001)),
-        "@site/docs/revision/276.mdx",
-        /*require.resolve*/(5001)
+    "5ec07ba0": [
+        ()=>__webpack_require__.e(/* import() | 5ec07ba0 */ "906").then(__webpack_require__.bind(__webpack_require__, 6343)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/282.mdx",
+        /*require.resolve*/(6343)
     ],
-    "61ed4732": [
-        ()=>__webpack_require__.e(/* import() | 61ed4732 */ "2491").then(__webpack_require__.bind(__webpack_require__, 1202)),
-        "@site/docs/update/295/quick-action.mdx",
-        /*require.resolve*/(1202)
+    "6148ec90": [
+        ()=>__webpack_require__.e(/* import() | 6148ec90 */ "3671").then(__webpack_require__.bind(__webpack_require__, 1420)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/283.mdx",
+        /*require.resolve*/(1420)
     ],
-    "69589054": [
-        ()=>__webpack_require__.e(/* import() | 69589054 */ "7885").then(__webpack_require__.bind(__webpack_require__, 9136)),
-        "@site/docs/update/295/user-photo-enroll-using-webcam.mdx",
-        /*require.resolve*/(9136)
+    "62fa8aa4": [
+        ()=>__webpack_require__.e(/* import() | 62fa8aa4 */ "5689").then(__webpack_require__.bind(__webpack_require__, 1744)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/295.mdx",
+        /*require.resolve*/(1744)
     ],
-    "75fc1a58": [
-        ()=>__webpack_require__.e(/* import() | 75fc1a58 */ "7353").then(__webpack_require__.bind(__webpack_require__, 1061)),
-        "@site/docs/revision/293.mdx",
-        /*require.resolve*/(1061)
+    "70aac116": [
+        ()=>__webpack_require__.e(/* import() | 70aac116 */ "9079").then(__webpack_require__.bind(__webpack_require__, 7458)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/296.mdx",
+        /*require.resolve*/(7458)
     ],
-    "76242231": [
-        ()=>__webpack_require__.e(/* import() | 76242231 */ "4550").then(__webpack_require__.bind(__webpack_require__, 9727)),
-        "@site/docs/revision/280.mdx",
-        /*require.resolve*/(9727)
+    "70bfd4e8": [
+        ()=>__webpack_require__.e(/* import() | 70bfd4e8 */ "1873").then(__webpack_require__.bind(__webpack_require__, 1097)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/284.mdx",
+        /*require.resolve*/(1097)
     ],
-    "771e6e33": [
-        ()=>__webpack_require__.e(/* import() | 771e6e33 */ "3484").then(__webpack_require__.bind(__webpack_require__, 5797)),
-        "@site/docs/revision/2814.mdx",
-        /*require.resolve*/(5797)
+    "750433da": [
+        ()=>__webpack_require__.e(/* import() | 750433da */ "8402").then(__webpack_require__.bind(__webpack_require__, 7979)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/272.mdx",
+        /*require.resolve*/(7979)
     ],
-    "77523d2d": [
-        ()=>__webpack_require__.e(/* import() | 77523d2d */ "5538").then(__webpack_require__.bind(__webpack_require__, 2141)),
-        "@site/docs/revision/291.mdx",
-        /*require.resolve*/(2141)
+    "76d2606a": [
+        ()=>__webpack_require__.e(/* import() | 76d2606a */ "1919").then(__webpack_require__.bind(__webpack_require__, 7875)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/270.mdx",
+        /*require.resolve*/(7875)
     ],
-    "7b25b112": [
-        ()=>__webpack_require__.e(/* import() | 7b25b112 */ "6563").then(__webpack_require__.bind(__webpack_require__, 2929)),
-        "@site/docs/revision/2816.mdx",
-        /*require.resolve*/(2929)
+    "80b601b3": [
+        ()=>__webpack_require__.e(/* import() | 80b601b3 */ "1199").then(__webpack_require__.bind(__webpack_require__, 8334)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/other-update.mdx",
+        /*require.resolve*/(8334)
     ],
-    "7b810a03": [
-        ()=>__webpack_require__.e(/* import() | 7b810a03 */ "8266").then(__webpack_require__.bind(__webpack_require__, 6290)),
-        "@site/docs/revision/2813.mdx",
-        /*require.resolve*/(6290)
+    "80c89947": [
+        ()=>__webpack_require__.e(/* import() | 80c89947 */ "2043").then(__webpack_require__.bind(__webpack_require__, 5910)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2711.mdx",
+        /*require.resolve*/(5910)
     ],
-    "847ad22e": [
-        ()=>__webpack_require__.e(/* import() | 847ad22e */ "3261").then(__webpack_require__.bind(__webpack_require__, 4484)),
-        "@site/docs/revision/2811.mdx",
-        /*require.resolve*/(4484)
+    "830b40bb": [
+        ()=>__webpack_require__.e(/* import() | 830b40bb */ "1805").then(__webpack_require__.bind(__webpack_require__, 1537)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2814.mdx",
+        /*require.resolve*/(1537)
     ],
-    "85bfd125": [
-        ()=>__webpack_require__.e(/* import() | 85bfd125 */ "9154").then(__webpack_require__.bind(__webpack_require__, 2045)),
-        "@site/docs/revision/278.mdx",
-        /*require.resolve*/(2045)
+    "8847613a": [
+        ()=>__webpack_require__.e(/* import() | 8847613a */ "7847").then(__webpack_require__.bind(__webpack_require__, 3443)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2815.mdx",
+        /*require.resolve*/(3443)
     ],
-    "8b9d34de": [
-        ()=>__webpack_require__.e(/* import() | 8b9d34de */ "7929").then(__webpack_require__.bind(__webpack_require__, 2272)),
-        "@site/docs/update/295/advanced-search.mdx",
-        /*require.resolve*/(2272)
+    "89ff097c": [
+        ()=>__webpack_require__.e(/* import() | 89ff097c */ "3952").then(__webpack_require__.bind(__webpack_require__, 1485)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2810.mdx",
+        /*require.resolve*/(1485)
     ],
-    "8f1f3ab6": [
-        ()=>__webpack_require__.e(/* import() | 8f1f3ab6 */ "3695").then(__webpack_require__.bind(__webpack_require__, 1308)),
-        "@site/docs/revision/2810.mdx",
-        /*require.resolve*/(1308)
+    "8af17015": [
+        ()=>__webpack_require__.e(/* import() | 8af17015 */ "8799").then(__webpack_require__.bind(__webpack_require__, 9360)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2910.mdx",
+        /*require.resolve*/(9360)
     ],
-    "8f903b9c": [
-        ()=>__webpack_require__.e(/* import() | 8f903b9c */ "9448").then(__webpack_require__.bind(__webpack_require__, 4043)),
-        "@site/docs/revision/295.mdx",
-        /*require.resolve*/(4043)
+    "8ec9172d": [
+        ()=>__webpack_require__.e(/* import() | 8ec9172d */ "8680").then(__webpack_require__.bind(__webpack_require__, 7446)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2710.mdx",
+        /*require.resolve*/(7446)
     ],
-    "8fd673e8": [
-        ()=>__webpack_require__.e(/* import() | 8fd673e8 */ "7753").then(__webpack_require__.bind(__webpack_require__, 1330)),
-        "@site/docs/revision/273.mdx",
-        /*require.resolve*/(1330)
+    "926d4dc7": [
+        ()=>__webpack_require__.e(/* import() | 926d4dc7 */ "5126").then(__webpack_require__.bind(__webpack_require__, 8261)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/289.mdx",
+        /*require.resolve*/(8261)
     ],
-    "9002ad59": [
-        ()=>__webpack_require__.e(/* import() | 9002ad59 */ "6972").then(__webpack_require__.bind(__webpack_require__, 8763)),
-        "@site/docs/revision/264.mdx",
-        /*require.resolve*/(8763)
+    "986fcd3c": [
+        ()=>__webpack_require__.e(/* import() | 986fcd3c */ "2364").then(__webpack_require__.bind(__webpack_require__, 8652)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-297.mdx",
+        /*require.resolve*/(8652)
     ],
-    "9686a783": [
-        ()=>__webpack_require__.e(/* import() | 9686a783 */ "8375").then(__webpack_require__.bind(__webpack_require__, 5256)),
-        "@site/docs/update/298/update-timed-apb.mdx",
-        /*require.resolve*/(5256)
+    "9bd3041f": [
+        ()=>__webpack_require__.e(/* import() | 9bd3041f */ "2123").then(__webpack_require__.bind(__webpack_require__, 9701)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/unified-gateway.mdx",
+        /*require.resolve*/(9701)
     ],
-    "98725db8": [
-        ()=>__webpack_require__.e(/* import() | 98725db8 */ "1057").then(__webpack_require__.bind(__webpack_require__, 6934)),
-        "@site/docs/update/297/multi-factor-auth-for-login.mdx",
-        /*require.resolve*/(6934)
+    "9c5dffbf": [
+        ()=>__webpack_require__.e(/* import() | 9c5dffbf */ "3762").then(__webpack_require__.bind(__webpack_require__, 4104)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2714.mdx",
+        /*require.resolve*/(4104)
     ],
-    "98cf39d2": [
-        ()=>__webpack_require__.e(/* import() | 98cf39d2 */ "8190").then(__webpack_require__.bind(__webpack_require__, 7140)),
-        "@site/docs/revision/2712.mdx",
-        /*require.resolve*/(7140)
+    "9fe3680c": [
+        ()=>__webpack_require__.e(/* import() | 9fe3680c */ "7394").then(__webpack_require__.bind(__webpack_require__, 7487)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/275.mdx",
+        /*require.resolve*/(7487)
     ],
-    "9bde920f": [
-        ()=>__webpack_require__.e(/* import() | 9bde920f */ "2947").then(__webpack_require__.bind(__webpack_require__, 619)),
-        "@site/docs/revision/2714.mdx",
-        /*require.resolve*/(619)
-    ],
-    "9d0b4025": [
-        ()=>__webpack_require__.e(/* import() | 9d0b4025 */ "4034").then(__webpack_require__.bind(__webpack_require__, 3591)),
-        "@site/docs/revision/270.mdx",
-        /*require.resolve*/(3591)
-    ],
-    "a4f38dec": [
-        ()=>__webpack_require__.e(/* import() | a4f38dec */ "3494").then(__webpack_require__.bind(__webpack_require__, 3569)),
-        "@site/docs/revision/261.mdx",
-        /*require.resolve*/(3569)
-    ],
-    "a6edefa9": [
-        ()=>__webpack_require__.e(/* import() | a6edefa9 */ "5945").then(__webpack_require__.bind(__webpack_require__, 5329)),
-        "@site/docs/revision/2710.mdx",
-        /*require.resolve*/(5329)
+    "a2b2d524": [
+        ()=>__webpack_require__.e(/* import() | a2b2d524 */ "2229").then(__webpack_require__.bind(__webpack_require__, 7574)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/286.mdx",
+        /*require.resolve*/(7574)
     ],
     "a7456010": [
         ()=>__webpack_require__.e(/* import() | a7456010 */ "7365").then(__webpack_require__.t.bind(__webpack_require__, 2050, 19)),
         "@generated/docusaurus-plugin-content-pages/default/__plugin.json",
         /*require.resolve*/(2050)
-    ],
-    "a7a95a8a": [
-        ()=>__webpack_require__.e(/* import() | a7a95a8a */ "3005").then(__webpack_require__.bind(__webpack_require__, 1806)),
-        "@site/docs/update/298/device-display-message.mdx",
-        /*require.resolve*/(1806)
     ],
     "a7bd4aaa": [
         ()=>__webpack_require__.e(/* import() | a7bd4aaa */ "5211").then(__webpack_require__.bind(__webpack_require__, 8688)),
@@ -26070,135 +26075,130 @@ var routesChunkNames = __webpack_require__(7138);
         "@theme/DocRoot",
         /*require.resolve*/(2001)
     ],
+    "aa4af078": [
+        ()=>__webpack_require__.e(/* import() | aa4af078 */ "3706").then(__webpack_require__.bind(__webpack_require__, 901)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/292.mdx",
+        /*require.resolve*/(901)
+    ],
     "aba21aa0": [
         ()=>__webpack_require__.e(/* import() | aba21aa0 */ "5112").then(__webpack_require__.t.bind(__webpack_require__, 2418, 19)),
         "@generated/docusaurus-plugin-content-docs/default/__plugin.json",
         /*require.resolve*/(2418)
     ],
-    "ac6468f7": [
-        ()=>__webpack_require__.e(/* import() | ac6468f7 */ "27").then(__webpack_require__.bind(__webpack_require__, 7570)),
-        "@site/docs/revision/277.mdx",
-        /*require.resolve*/(7570)
+    "ae1c4358": [
+        ()=>__webpack_require__.e(/* import() | ae1c4358 */ "854").then(__webpack_require__.bind(__webpack_require__, 9785)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2712.mdx",
+        /*require.resolve*/(9785)
     ],
-    "b74f3db2": [
-        ()=>__webpack_require__.e(/* import() | b74f3db2 */ "6826").then(__webpack_require__.bind(__webpack_require__, 9636)),
-        "@site/docs/revision/289.mdx",
-        /*require.resolve*/(9636)
+    "b2d70ba7": [
+        ()=>__webpack_require__.e(/* import() | b2d70ba7 */ "7087").then(__webpack_require__.bind(__webpack_require__, 5337)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/277.mdx",
+        /*require.resolve*/(5337)
     ],
-    "b86b925d": [
-        ()=>__webpack_require__.e(/* import() | b86b925d */ "9505").then(__webpack_require__.bind(__webpack_require__, 8997)),
-        "@site/docs/update/298/file-upload-user-information.mdx",
-        /*require.resolve*/(8997)
+    "b5b3e37b": [
+        ()=>__webpack_require__.e(/* import() | b5b3e37b */ "2199").then(__webpack_require__.bind(__webpack_require__, 4211)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2812.mdx",
+        /*require.resolve*/(4211)
     ],
-    "bb2b3c07": [
-        ()=>__webpack_require__.e(/* import() | bb2b3c07 */ "3745").then(__webpack_require__.t.bind(__webpack_require__, 8566, 19)),
-        "@generated/docusaurus-plugin-content-docs/default/p/biostar-2-docs-8ad.json",
-        /*require.resolve*/(8566)
+    "b5c20607": [
+        ()=>__webpack_require__.e(/* import() | b5c20607 */ "1570").then(__webpack_require__.bind(__webpack_require__, 3524)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/294.mdx",
+        /*require.resolve*/(3524)
     ],
-    "bced4e4a": [
-        ()=>__webpack_require__.e(/* import() | bced4e4a */ "504").then(__webpack_require__.bind(__webpack_require__, 6931)),
-        "@site/docs/revision/2815.mdx",
-        /*require.resolve*/(6931)
+    "b9ac637d": [
+        ()=>__webpack_require__.e(/* import() | b9ac637d */ "2606").then(__webpack_require__.bind(__webpack_require__, 6269)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2813.mdx",
+        /*require.resolve*/(6269)
     ],
-    "c060969a": [
-        ()=>__webpack_require__.e(/* import() | c060969a */ "5132").then(__webpack_require__.bind(__webpack_require__, 8614)),
-        "@site/docs/update/2910/ad-encrypt.mdx",
-        /*require.resolve*/(8614)
+    "bc1a2790": [
+        ()=>__webpack_require__.e(/* import() | bc1a2790 */ "4500").then(__webpack_require__.bind(__webpack_require__, 289)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/271.mdx",
+        /*require.resolve*/(289)
     ],
-    "c0fbcc12": [
-        ()=>__webpack_require__.e(/* import() | c0fbcc12 */ "3940").then(__webpack_require__.bind(__webpack_require__, 8632)),
-        "@site/docs/update/297/visual-face-with-template.mdx",
-        /*require.resolve*/(8632)
+    "c125c272": [
+        ()=>__webpack_require__.e(/* import() | c125c272 */ "2308").then(__webpack_require__.bind(__webpack_require__, 4140)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/276.mdx",
+        /*require.resolve*/(4140)
     ],
-    "c10251a3": [
-        ()=>__webpack_require__.e(/* import() | c10251a3 */ "5870").then(__webpack_require__.bind(__webpack_require__, 422)),
-        "@site/docs/revision/index.mdx",
-        /*require.resolve*/(422)
+    "c34588c1": [
+        ()=>__webpack_require__.e(/* import() | c34588c1 */ "2455").then(__webpack_require__.bind(__webpack_require__, 662)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/298.mdx",
+        /*require.resolve*/(662)
     ],
-    "c1645870": [
-        ()=>__webpack_require__.e(/* import() | c1645870 */ "2650").then(__webpack_require__.bind(__webpack_require__, 2647)),
-        "@site/docs/revision/286.mdx",
-        /*require.resolve*/(2647)
+    "c727cc7b": [
+        ()=>__webpack_require__.e(/* import() | c727cc7b */ "175").then(__webpack_require__.bind(__webpack_require__, 4555)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/264.mdx",
+        /*require.resolve*/(4555)
     ],
-    "c56b6afc": [
-        ()=>__webpack_require__.e(/* import() | c56b6afc */ "1514").then(__webpack_require__.bind(__webpack_require__, 567)),
-        "@site/docs/revision/283.mdx",
-        /*require.resolve*/(567)
+    "cf5521b5": [
+        ()=>__webpack_require__.e(/* import() | cf5521b5 */ "8119").then(__webpack_require__.bind(__webpack_require__, 9823)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2811.mdx",
+        /*require.resolve*/(9823)
     ],
-    "cf9206d4": [
-        ()=>__webpack_require__.e(/* import() | cf9206d4 */ "1621").then(__webpack_require__.bind(__webpack_require__, 3705)),
-        "@site/docs/revision/298.mdx",
-        /*require.resolve*/(3705)
+    "d0070183": [
+        ()=>__webpack_require__.e(/* import() | d0070183 */ "2905").then(__webpack_require__.bind(__webpack_require__, 7027)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/file-upload-user-information.mdx",
+        /*require.resolve*/(7027)
     ],
-    "d2fb79f1": [
-        ()=>__webpack_require__.e(/* import() | d2fb79f1 */ "8476").then(__webpack_require__.bind(__webpack_require__, 2063)),
-        "@site/docs/revision/288.mdx",
-        /*require.resolve*/(2063)
+    "d4007db6": [
+        ()=>__webpack_require__.e(/* import() | d4007db6 */ "9201").then(__webpack_require__.bind(__webpack_require__, 9655)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/297/visual-face-with-template.mdx",
+        /*require.resolve*/(9655)
     ],
-    "d35339d9": [
-        ()=>__webpack_require__.e(/* import() | d35339d9 */ "4040").then(__webpack_require__.bind(__webpack_require__, 4483)),
-        "@site/docs/update/298/csn-mobile-card.mdx",
-        /*require.resolve*/(4483)
+    "d6ed9b8e": [
+        ()=>__webpack_require__.e(/* import() | d6ed9b8e */ "9268").then(__webpack_require__.bind(__webpack_require__, 1246)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-298.mdx",
+        /*require.resolve*/(1246)
     ],
-    "d3d81a80": [
-        ()=>__webpack_require__.e(/* import() | d3d81a80 */ "8428").then(__webpack_require__.bind(__webpack_require__, 2416)),
-        "@site/docs/revision/263.mdx",
-        /*require.resolve*/(2416)
+    "d9dab780": [
+        ()=>__webpack_require__.e(/* import() | d9dab780 */ "8994").then(__webpack_require__.bind(__webpack_require__, 3946)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/261.mdx",
+        /*require.resolve*/(3946)
     ],
-    "d7e8eb73": [
-        ()=>__webpack_require__.e(/* import() | d7e8eb73 */ "2104").then(__webpack_require__.bind(__webpack_require__, 5045)),
-        "@site/docs/revision/296.mdx",
-        /*require.resolve*/(5045)
+    "df379f10": [
+        ()=>__webpack_require__.e(/* import() | df379f10 */ "8498").then(__webpack_require__.bind(__webpack_require__, 4209)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/293.mdx",
+        /*require.resolve*/(4209)
     ],
-    "d849bdc6": [
-        ()=>__webpack_require__.e(/* import() | d849bdc6 */ "2402").then(__webpack_require__.bind(__webpack_require__, 5353)),
-        "@site/docs/update/biostar2-2910.mdx",
-        /*require.resolve*/(5353)
+    "dfa9b1fe": [
+        ()=>__webpack_require__.e(/* import() | dfa9b1fe */ "939").then(__webpack_require__.bind(__webpack_require__, 5503)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/timed-apb.mdx",
+        /*require.resolve*/(5503)
     ],
-    "d920f39e": [
-        ()=>__webpack_require__.e(/* import() | d920f39e */ "4397").then(__webpack_require__.bind(__webpack_require__, 6681)),
-        "@site/docs/revision/290.mdx",
-        /*require.resolve*/(6681)
+    "e7bad1f0": [
+        ()=>__webpack_require__.e(/* import() | e7bad1f0 */ "202").then(__webpack_require__.bind(__webpack_require__, 6857)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2911/bs2-master-admin.mdx",
+        /*require.resolve*/(6857)
     ],
-    "e2615b34": [
-        ()=>__webpack_require__.e(/* import() | e2615b34 */ "5039").then(__webpack_require__.bind(__webpack_require__, 3005)),
-        "@site/docs/revision/2711.mdx",
-        /*require.resolve*/(3005)
+    "e8365100": [
+        ()=>__webpack_require__.e(/* import() | e8365100 */ "9815").then(__webpack_require__.t.bind(__webpack_require__, 1016, 19)),
+        "@generated/docusaurus-plugin-content-docs/default/p/biostar-2-docs-en-5ee.json",
+        /*require.resolve*/(1016)
     ],
-    "ed9aafd0": [
-        ()=>__webpack_require__.e(/* import() | ed9aafd0 */ "9502").then(__webpack_require__.bind(__webpack_require__, 2429)),
-        "@site/docs/update/295/wireless-door-lock.mdx",
-        /*require.resolve*/(2429)
+    "ef81307c": [
+        ()=>__webpack_require__.e(/* import() | ef81307c */ "9439").then(__webpack_require__.bind(__webpack_require__, 3528)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2911.mdx",
+        /*require.resolve*/(3528)
     ],
-    "f700c88a": [
-        ()=>__webpack_require__.e(/* import() | f700c88a */ "4820").then(__webpack_require__.bind(__webpack_require__, 9229)),
-        "@site/docs/revision/297.mdx",
-        /*require.resolve*/(9229)
+    "f8cc440d": [
+        ()=>__webpack_require__.e(/* import() | f8cc440d */ "8226").then(__webpack_require__.bind(__webpack_require__, 6106)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/device-display-message.mdx",
+        /*require.resolve*/(6106)
     ],
-    "f7170e03": [
-        ()=>__webpack_require__.e(/* import() | f7170e03 */ "6597").then(__webpack_require__.bind(__webpack_require__, 9207)),
-        "@site/docs/revision/275.mdx",
-        /*require.resolve*/(9207)
+    "fb7fc25d": [
+        ()=>__webpack_require__.e(/* import() | fb7fc25d */ "1069").then(__webpack_require__.bind(__webpack_require__, 400)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-295.mdx",
+        /*require.resolve*/(400)
     ],
-    "fd4346ad": [
-        ()=>__webpack_require__.e(/* import() | fd4346ad */ "5556").then(__webpack_require__.bind(__webpack_require__, 2608)),
-        "@site/docs/update/2910/settings-diretory-integration.mdx",
-        /*require.resolve*/(2608)
+    "fc9363d2": [
+        ()=>__webpack_require__.e(/* import() | fc9363d2 */ "9659").then(__webpack_require__.bind(__webpack_require__, 8336)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/281.mdx",
+        /*require.resolve*/(8336)
     ],
-    "fd57cc51": [
-        ()=>__webpack_require__.e(/* import() | fd57cc51 */ "606").then(__webpack_require__.bind(__webpack_require__, 515)),
-        "@site/docs/revision/2812.mdx",
-        /*require.resolve*/(515)
-    ],
-    "fd5d3d35": [
-        ()=>__webpack_require__.e(/* import() | fd5d3d35 */ "9840").then(__webpack_require__.bind(__webpack_require__, 4451)),
-        "@site/docs/update/biostar2-297.mdx",
-        /*require.resolve*/(4451)
-    ],
-    "fe6a2171": [
-        ()=>__webpack_require__.e(/* import() | fe6a2171 */ "6679").then(__webpack_require__.bind(__webpack_require__, 7521)),
-        "@site/docs/revision/2911.mdx",
-        /*require.resolve*/(7521)
+    "ff2ab287": [
+        ()=>__webpack_require__.e(/* import() | ff2ab287 */ "5707").then(__webpack_require__.bind(__webpack_require__, 5623)),
+        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2910/settings-diretory-integration.mdx",
+        /*require.resolve*/(5623)
     ]
 });
 
@@ -26493,467 +26493,467 @@ function ComponentCreator(path, hash) {
 
 /* ESM default export */ const routes = ([
     {
-        path: '/biostar2-docs/back/',
-        component: ComponentCreator('/biostar2-docs/back/', '4c7'),
+        path: '/biostar2-docs/en/back/',
+        component: ComponentCreator('/biostar2-docs/en/back/', '4a9'),
         exact: true
     },
     {
-        path: '/biostar2-docs/search',
-        component: ComponentCreator('/biostar2-docs/search', '2f9'),
+        path: '/biostar2-docs/en/search',
+        component: ComponentCreator('/biostar2-docs/en/search', '430'),
         exact: true
     },
     {
-        path: '/biostar2-docs/',
-        component: ComponentCreator('/biostar2-docs/', 'a2c'),
+        path: '/biostar2-docs/en/',
+        component: ComponentCreator('/biostar2-docs/en/', '388'),
         routes: [
             {
-                path: '/biostar2-docs/',
-                component: ComponentCreator('/biostar2-docs/', 'ec5'),
+                path: '/biostar2-docs/en/',
+                component: ComponentCreator('/biostar2-docs/en/', 'a30'),
                 routes: [
                     {
-                        path: '/biostar2-docs/',
-                        component: ComponentCreator('/biostar2-docs/', '837'),
+                        path: '/biostar2-docs/en/',
+                        component: ComponentCreator('/biostar2-docs/en/', '53e'),
                         routes: [
                             {
-                                path: '/biostar2-docs/revision/',
-                                component: ComponentCreator('/biostar2-docs/revision/', 'dd2'),
+                                path: '/biostar2-docs/en/revision/',
+                                component: ComponentCreator('/biostar2-docs/en/revision/', '7fe'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/260',
-                                component: ComponentCreator('/biostar2-docs/revision/260', 'b95'),
+                                path: '/biostar2-docs/en/revision/260',
+                                component: ComponentCreator('/biostar2-docs/en/revision/260', '318'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/261',
-                                component: ComponentCreator('/biostar2-docs/revision/261', 'd50'),
+                                path: '/biostar2-docs/en/revision/261',
+                                component: ComponentCreator('/biostar2-docs/en/revision/261', 'a5c'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/262',
-                                component: ComponentCreator('/biostar2-docs/revision/262', '4a0'),
+                                path: '/biostar2-docs/en/revision/262',
+                                component: ComponentCreator('/biostar2-docs/en/revision/262', '2d2'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/263',
-                                component: ComponentCreator('/biostar2-docs/revision/263', '2ae'),
+                                path: '/biostar2-docs/en/revision/263',
+                                component: ComponentCreator('/biostar2-docs/en/revision/263', '3cf'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/264',
-                                component: ComponentCreator('/biostar2-docs/revision/264', '05e'),
+                                path: '/biostar2-docs/en/revision/264',
+                                component: ComponentCreator('/biostar2-docs/en/revision/264', 'f25'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/270',
-                                component: ComponentCreator('/biostar2-docs/revision/270', '997'),
+                                path: '/biostar2-docs/en/revision/270',
+                                component: ComponentCreator('/biostar2-docs/en/revision/270', 'b42'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/271',
-                                component: ComponentCreator('/biostar2-docs/revision/271', '254'),
+                                path: '/biostar2-docs/en/revision/271',
+                                component: ComponentCreator('/biostar2-docs/en/revision/271', '759'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2710',
-                                component: ComponentCreator('/biostar2-docs/revision/2710', 'c2c'),
+                                path: '/biostar2-docs/en/revision/2710',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2710', '58c'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2711',
-                                component: ComponentCreator('/biostar2-docs/revision/2711', 'e47'),
+                                path: '/biostar2-docs/en/revision/2711',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2711', 'c0d'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2712',
-                                component: ComponentCreator('/biostar2-docs/revision/2712', 'd02'),
+                                path: '/biostar2-docs/en/revision/2712',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2712', 'f25'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2714',
-                                component: ComponentCreator('/biostar2-docs/revision/2714', '740'),
+                                path: '/biostar2-docs/en/revision/2714',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2714', '474'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/272',
-                                component: ComponentCreator('/biostar2-docs/revision/272', '451'),
+                                path: '/biostar2-docs/en/revision/272',
+                                component: ComponentCreator('/biostar2-docs/en/revision/272', '902'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/273',
-                                component: ComponentCreator('/biostar2-docs/revision/273', 'e4b'),
+                                path: '/biostar2-docs/en/revision/273',
+                                component: ComponentCreator('/biostar2-docs/en/revision/273', '5cf'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/274',
-                                component: ComponentCreator('/biostar2-docs/revision/274', '788'),
+                                path: '/biostar2-docs/en/revision/274',
+                                component: ComponentCreator('/biostar2-docs/en/revision/274', '3a5'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/275',
-                                component: ComponentCreator('/biostar2-docs/revision/275', 'e25'),
+                                path: '/biostar2-docs/en/revision/275',
+                                component: ComponentCreator('/biostar2-docs/en/revision/275', 'b0b'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/276',
-                                component: ComponentCreator('/biostar2-docs/revision/276', '367'),
+                                path: '/biostar2-docs/en/revision/276',
+                                component: ComponentCreator('/biostar2-docs/en/revision/276', '2af'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/277',
-                                component: ComponentCreator('/biostar2-docs/revision/277', '85b'),
+                                path: '/biostar2-docs/en/revision/277',
+                                component: ComponentCreator('/biostar2-docs/en/revision/277', 'e08'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/278',
-                                component: ComponentCreator('/biostar2-docs/revision/278', 'e66'),
+                                path: '/biostar2-docs/en/revision/278',
+                                component: ComponentCreator('/biostar2-docs/en/revision/278', '329'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/280',
-                                component: ComponentCreator('/biostar2-docs/revision/280', '998'),
+                                path: '/biostar2-docs/en/revision/280',
+                                component: ComponentCreator('/biostar2-docs/en/revision/280', 'aaf'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/281',
-                                component: ComponentCreator('/biostar2-docs/revision/281', '8d7'),
+                                path: '/biostar2-docs/en/revision/281',
+                                component: ComponentCreator('/biostar2-docs/en/revision/281', 'f23'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2810',
-                                component: ComponentCreator('/biostar2-docs/revision/2810', '13e'),
+                                path: '/biostar2-docs/en/revision/2810',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2810', '33d'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2811',
-                                component: ComponentCreator('/biostar2-docs/revision/2811', '08b'),
+                                path: '/biostar2-docs/en/revision/2811',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2811', 'd68'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2812',
-                                component: ComponentCreator('/biostar2-docs/revision/2812', 'fa7'),
+                                path: '/biostar2-docs/en/revision/2812',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2812', 'ae3'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2813',
-                                component: ComponentCreator('/biostar2-docs/revision/2813', '3cd'),
+                                path: '/biostar2-docs/en/revision/2813',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2813', '9d6'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2814',
-                                component: ComponentCreator('/biostar2-docs/revision/2814', 'c92'),
+                                path: '/biostar2-docs/en/revision/2814',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2814', 'd67'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2815',
-                                component: ComponentCreator('/biostar2-docs/revision/2815', 'c4c'),
+                                path: '/biostar2-docs/en/revision/2815',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2815', 'e63'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2816',
-                                component: ComponentCreator('/biostar2-docs/revision/2816', '9bc'),
+                                path: '/biostar2-docs/en/revision/2816',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2816', '945'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2817',
-                                component: ComponentCreator('/biostar2-docs/revision/2817', 'bf8'),
+                                path: '/biostar2-docs/en/revision/2817',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2817', 'a09'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/282',
-                                component: ComponentCreator('/biostar2-docs/revision/282', '95b'),
+                                path: '/biostar2-docs/en/revision/282',
+                                component: ComponentCreator('/biostar2-docs/en/revision/282', '4e4'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/283',
-                                component: ComponentCreator('/biostar2-docs/revision/283', '390'),
+                                path: '/biostar2-docs/en/revision/283',
+                                component: ComponentCreator('/biostar2-docs/en/revision/283', 'f72'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/284',
-                                component: ComponentCreator('/biostar2-docs/revision/284', '823'),
+                                path: '/biostar2-docs/en/revision/284',
+                                component: ComponentCreator('/biostar2-docs/en/revision/284', 'c3a'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/285',
-                                component: ComponentCreator('/biostar2-docs/revision/285', 'cb4'),
+                                path: '/biostar2-docs/en/revision/285',
+                                component: ComponentCreator('/biostar2-docs/en/revision/285', '6cb'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/286',
-                                component: ComponentCreator('/biostar2-docs/revision/286', 'c2a'),
+                                path: '/biostar2-docs/en/revision/286',
+                                component: ComponentCreator('/biostar2-docs/en/revision/286', '9f2'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/288',
-                                component: ComponentCreator('/biostar2-docs/revision/288', '422'),
+                                path: '/biostar2-docs/en/revision/288',
+                                component: ComponentCreator('/biostar2-docs/en/revision/288', 'b17'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/289',
-                                component: ComponentCreator('/biostar2-docs/revision/289', '197'),
+                                path: '/biostar2-docs/en/revision/289',
+                                component: ComponentCreator('/biostar2-docs/en/revision/289', 'd43'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/290',
-                                component: ComponentCreator('/biostar2-docs/revision/290', '2e1'),
+                                path: '/biostar2-docs/en/revision/290',
+                                component: ComponentCreator('/biostar2-docs/en/revision/290', '7fd'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/291',
-                                component: ComponentCreator('/biostar2-docs/revision/291', '6a5'),
+                                path: '/biostar2-docs/en/revision/291',
+                                component: ComponentCreator('/biostar2-docs/en/revision/291', 'eb6'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2910',
-                                component: ComponentCreator('/biostar2-docs/revision/2910', '11f'),
+                                path: '/biostar2-docs/en/revision/2910',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2910', 'f4f'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/2910-draft',
-                                component: ComponentCreator('/biostar2-docs/revision/2910-draft', '222'),
+                                path: '/biostar2-docs/en/revision/2910-draft',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2910-draft', '18c'),
                                 exact: true
                             },
                             {
-                                path: '/biostar2-docs/revision/2911',
-                                component: ComponentCreator('/biostar2-docs/revision/2911', '190'),
+                                path: '/biostar2-docs/en/revision/2911',
+                                component: ComponentCreator('/biostar2-docs/en/revision/2911', '3d5'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/292',
-                                component: ComponentCreator('/biostar2-docs/revision/292', '307'),
+                                path: '/biostar2-docs/en/revision/292',
+                                component: ComponentCreator('/biostar2-docs/en/revision/292', '8d8'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/293',
-                                component: ComponentCreator('/biostar2-docs/revision/293', '8ac'),
+                                path: '/biostar2-docs/en/revision/293',
+                                component: ComponentCreator('/biostar2-docs/en/revision/293', '096'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/294',
-                                component: ComponentCreator('/biostar2-docs/revision/294', 'da1'),
+                                path: '/biostar2-docs/en/revision/294',
+                                component: ComponentCreator('/biostar2-docs/en/revision/294', '741'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/295',
-                                component: ComponentCreator('/biostar2-docs/revision/295', 'd81'),
+                                path: '/biostar2-docs/en/revision/295',
+                                component: ComponentCreator('/biostar2-docs/en/revision/295', 'f2c'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/296',
-                                component: ComponentCreator('/biostar2-docs/revision/296', '7fa'),
+                                path: '/biostar2-docs/en/revision/296',
+                                component: ComponentCreator('/biostar2-docs/en/revision/296', '903'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/297',
-                                component: ComponentCreator('/biostar2-docs/revision/297', '9eb'),
+                                path: '/biostar2-docs/en/revision/297',
+                                component: ComponentCreator('/biostar2-docs/en/revision/297', '71f'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/revision/298',
-                                component: ComponentCreator('/biostar2-docs/revision/298', '216'),
+                                path: '/biostar2-docs/en/revision/298',
+                                component: ComponentCreator('/biostar2-docs/en/revision/298', '73e'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/2910/ad-encrypt',
-                                component: ComponentCreator('/biostar2-docs/update/2910/ad-encrypt', '787'),
+                                path: '/biostar2-docs/en/update/2910/ad-encrypt',
+                                component: ComponentCreator('/biostar2-docs/en/update/2910/ad-encrypt', 'c1c'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/2910/how-to-use-cs20',
-                                component: ComponentCreator('/biostar2-docs/update/2910/how-to-use-cs20', '26a'),
+                                path: '/biostar2-docs/en/update/2910/how-to-use-cs20',
+                                component: ComponentCreator('/biostar2-docs/en/update/2910/how-to-use-cs20', 'a5d'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/2910/how-to-use-di24',
-                                component: ComponentCreator('/biostar2-docs/update/2910/how-to-use-di24', '45b'),
+                                path: '/biostar2-docs/en/update/2910/how-to-use-di24',
+                                component: ComponentCreator('/biostar2-docs/en/update/2910/how-to-use-di24', '3a2'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/2910/settings-diretory-integration',
-                                component: ComponentCreator('/biostar2-docs/update/2910/settings-diretory-integration', 'e75'),
+                                path: '/biostar2-docs/en/update/2910/settings-diretory-integration',
+                                component: ComponentCreator('/biostar2-docs/en/update/2910/settings-diretory-integration', '120'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/2911/bs2-master-admin',
-                                component: ComponentCreator('/biostar2-docs/update/2911/bs2-master-admin', '7d0'),
+                                path: '/biostar2-docs/en/update/2911/bs2-master-admin',
+                                component: ComponentCreator('/biostar2-docs/en/update/2911/bs2-master-admin', '688'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/295/advanced-search',
-                                component: ComponentCreator('/biostar2-docs/update/295/advanced-search', 'a82'),
+                                path: '/biostar2-docs/en/update/295/advanced-search',
+                                component: ComponentCreator('/biostar2-docs/en/update/295/advanced-search', 'edb'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/295/new-dashboard',
-                                component: ComponentCreator('/biostar2-docs/update/295/new-dashboard', 'e7c'),
+                                path: '/biostar2-docs/en/update/295/new-dashboard',
+                                component: ComponentCreator('/biostar2-docs/en/update/295/new-dashboard', '81f'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/295/quick-action',
-                                component: ComponentCreator('/biostar2-docs/update/295/quick-action', 'bb9'),
+                                path: '/biostar2-docs/en/update/295/quick-action',
+                                component: ComponentCreator('/biostar2-docs/en/update/295/quick-action', '6ec'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/295/timed-apb',
-                                component: ComponentCreator('/biostar2-docs/update/295/timed-apb', 'f4a'),
+                                path: '/biostar2-docs/en/update/295/timed-apb',
+                                component: ComponentCreator('/biostar2-docs/en/update/295/timed-apb', '804'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/295/unified-gateway',
-                                component: ComponentCreator('/biostar2-docs/update/295/unified-gateway', '261'),
+                                path: '/biostar2-docs/en/update/295/unified-gateway',
+                                component: ComponentCreator('/biostar2-docs/en/update/295/unified-gateway', 'fc2'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/295/user-photo-enroll-using-webcam',
-                                component: ComponentCreator('/biostar2-docs/update/295/user-photo-enroll-using-webcam', 'e5f'),
+                                path: '/biostar2-docs/en/update/295/user-photo-enroll-using-webcam',
+                                component: ComponentCreator('/biostar2-docs/en/update/295/user-photo-enroll-using-webcam', 'ad4'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/295/wireless-door-lock',
-                                component: ComponentCreator('/biostar2-docs/update/295/wireless-door-lock', '2c5'),
+                                path: '/biostar2-docs/en/update/295/wireless-door-lock',
+                                component: ComponentCreator('/biostar2-docs/en/update/295/wireless-door-lock', '0cc'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/297/multi-factor-auth-for-login',
-                                component: ComponentCreator('/biostar2-docs/update/297/multi-factor-auth-for-login', 'd34'),
+                                path: '/biostar2-docs/en/update/297/multi-factor-auth-for-login',
+                                component: ComponentCreator('/biostar2-docs/en/update/297/multi-factor-auth-for-login', '803'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/297/visual-face-with-template',
-                                component: ComponentCreator('/biostar2-docs/update/297/visual-face-with-template', '415'),
+                                path: '/biostar2-docs/en/update/297/visual-face-with-template',
+                                component: ComponentCreator('/biostar2-docs/en/update/297/visual-face-with-template', '679'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/298/csn-mobile-card',
-                                component: ComponentCreator('/biostar2-docs/update/298/csn-mobile-card', '4d8'),
+                                path: '/biostar2-docs/en/update/298/csn-mobile-card',
+                                component: ComponentCreator('/biostar2-docs/en/update/298/csn-mobile-card', '281'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/298/deny-access-when-wearing-mask',
-                                component: ComponentCreator('/biostar2-docs/update/298/deny-access-when-wearing-mask', '425'),
+                                path: '/biostar2-docs/en/update/298/deny-access-when-wearing-mask',
+                                component: ComponentCreator('/biostar2-docs/en/update/298/deny-access-when-wearing-mask', 'ca1'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/298/device-display-message',
-                                component: ComponentCreator('/biostar2-docs/update/298/device-display-message', '8eb'),
+                                path: '/biostar2-docs/en/update/298/device-display-message',
+                                component: ComponentCreator('/biostar2-docs/en/update/298/device-display-message', 'c29'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/298/file-upload-user-information',
-                                component: ComponentCreator('/biostar2-docs/update/298/file-upload-user-information', '5b2'),
+                                path: '/biostar2-docs/en/update/298/file-upload-user-information',
+                                component: ComponentCreator('/biostar2-docs/en/update/298/file-upload-user-information', '8fc'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/298/other-update',
-                                component: ComponentCreator('/biostar2-docs/update/298/other-update', '12a'),
+                                path: '/biostar2-docs/en/update/298/other-update',
+                                component: ComponentCreator('/biostar2-docs/en/update/298/other-update', '95a'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/298/update-timed-apb',
-                                component: ComponentCreator('/biostar2-docs/update/298/update-timed-apb', '940'),
+                                path: '/biostar2-docs/en/update/298/update-timed-apb',
+                                component: ComponentCreator('/biostar2-docs/en/update/298/update-timed-apb', '293'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/biostar2-2910',
-                                component: ComponentCreator('/biostar2-docs/update/biostar2-2910', 'b91'),
+                                path: '/biostar2-docs/en/update/biostar2-2910',
+                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-2910', '939'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/biostar2-2911',
-                                component: ComponentCreator('/biostar2-docs/update/biostar2-2911', '9d7'),
+                                path: '/biostar2-docs/en/update/biostar2-2911',
+                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-2911', 'f2e'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/biostar2-295',
-                                component: ComponentCreator('/biostar2-docs/update/biostar2-295', '91d'),
+                                path: '/biostar2-docs/en/update/biostar2-295',
+                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-295', 'cef'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/biostar2-297',
-                                component: ComponentCreator('/biostar2-docs/update/biostar2-297', '23f'),
+                                path: '/biostar2-docs/en/update/biostar2-297',
+                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-297', '6af'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/update/biostar2-298',
-                                component: ComponentCreator('/biostar2-docs/update/biostar2-298', '103'),
+                                path: '/biostar2-docs/en/update/biostar2-298',
+                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-298', '54d'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/',
-                                component: ComponentCreator('/biostar2-docs/', 'ae4'),
+                                path: '/biostar2-docs/en/',
+                                component: ComponentCreator('/biostar2-docs/en/', '5af'),
                                 exact: true,
                                 sidebar: "biostar"
                             }
@@ -27877,9 +27877,9 @@ var react = __webpack_require__(7294);
 // EXTERNAL MODULE: ./.docusaurus/docusaurus.config.mjs
 var docusaurus_config = __webpack_require__(5150);
 ;// CONCATENATED MODULE: ./.docusaurus/globalData.json
-var globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/biostar2-docs/","versions":[{"name":"current","label":"Next","isLast":true,"path":"/biostar2-docs/","mainDocId":"index","docs":[{"id":"index","path":"/biostar2-docs/","sidebar":"biostar"},{"id":"revision/260","path":"/biostar2-docs/revision/260","sidebar":"biostar"},{"id":"revision/261","path":"/biostar2-docs/revision/261","sidebar":"biostar"},{"id":"revision/262","path":"/biostar2-docs/revision/262","sidebar":"biostar"},{"id":"revision/263","path":"/biostar2-docs/revision/263","sidebar":"biostar"},{"id":"revision/264","path":"/biostar2-docs/revision/264","sidebar":"biostar"},{"id":"revision/270","path":"/biostar2-docs/revision/270","sidebar":"biostar"},{"id":"revision/271","path":"/biostar2-docs/revision/271","sidebar":"biostar"},{"id":"revision/2710","path":"/biostar2-docs/revision/2710","sidebar":"biostar"},{"id":"revision/2711","path":"/biostar2-docs/revision/2711","sidebar":"biostar"},{"id":"revision/2712","path":"/biostar2-docs/revision/2712","sidebar":"biostar"},{"id":"revision/2714","path":"/biostar2-docs/revision/2714","sidebar":"biostar"},{"id":"revision/272","path":"/biostar2-docs/revision/272","sidebar":"biostar"},{"id":"revision/273","path":"/biostar2-docs/revision/273","sidebar":"biostar"},{"id":"revision/274","path":"/biostar2-docs/revision/274","sidebar":"biostar"},{"id":"revision/275","path":"/biostar2-docs/revision/275","sidebar":"biostar"},{"id":"revision/276","path":"/biostar2-docs/revision/276","sidebar":"biostar"},{"id":"revision/277","path":"/biostar2-docs/revision/277","sidebar":"biostar"},{"id":"revision/278","path":"/biostar2-docs/revision/278","sidebar":"biostar"},{"id":"revision/280","path":"/biostar2-docs/revision/280","sidebar":"biostar"},{"id":"revision/281","path":"/biostar2-docs/revision/281","sidebar":"biostar"},{"id":"revision/2810","path":"/biostar2-docs/revision/2810","sidebar":"biostar"},{"id":"revision/2811","path":"/biostar2-docs/revision/2811","sidebar":"biostar"},{"id":"revision/2812","path":"/biostar2-docs/revision/2812","sidebar":"biostar"},{"id":"revision/2813","path":"/biostar2-docs/revision/2813","sidebar":"biostar"},{"id":"revision/2814","path":"/biostar2-docs/revision/2814","sidebar":"biostar"},{"id":"revision/2815","path":"/biostar2-docs/revision/2815","sidebar":"biostar"},{"id":"revision/2816","path":"/biostar2-docs/revision/2816","sidebar":"biostar"},{"id":"revision/2817","path":"/biostar2-docs/revision/2817","sidebar":"biostar"},{"id":"revision/282","path":"/biostar2-docs/revision/282","sidebar":"biostar"},{"id":"revision/283","path":"/biostar2-docs/revision/283","sidebar":"biostar"},{"id":"revision/284","path":"/biostar2-docs/revision/284","sidebar":"biostar"},{"id":"revision/285","path":"/biostar2-docs/revision/285","sidebar":"biostar"},{"id":"revision/286","path":"/biostar2-docs/revision/286","sidebar":"biostar"},{"id":"revision/288","path":"/biostar2-docs/revision/288","sidebar":"biostar"},{"id":"revision/289","path":"/biostar2-docs/revision/289","sidebar":"biostar"},{"id":"revision/290","path":"/biostar2-docs/revision/290","sidebar":"biostar"},{"id":"revision/291","path":"/biostar2-docs/revision/291","sidebar":"biostar"},{"id":"revision/2910","path":"/biostar2-docs/revision/2910","sidebar":"biostar"},{"id":"revision/2910-draft","path":"/biostar2-docs/revision/2910-draft"},{"id":"revision/2911","path":"/biostar2-docs/revision/2911","sidebar":"biostar"},{"id":"revision/292","path":"/biostar2-docs/revision/292","sidebar":"biostar"},{"id":"revision/293","path":"/biostar2-docs/revision/293","sidebar":"biostar"},{"id":"revision/294","path":"/biostar2-docs/revision/294","sidebar":"biostar"},{"id":"revision/295","path":"/biostar2-docs/revision/295","sidebar":"biostar"},{"id":"revision/296","path":"/biostar2-docs/revision/296","sidebar":"biostar"},{"id":"revision/297","path":"/biostar2-docs/revision/297","sidebar":"biostar"},{"id":"revision/298","path":"/biostar2-docs/revision/298","sidebar":"biostar"},{"id":"revision/index","path":"/biostar2-docs/revision/","sidebar":"biostar"},{"id":"update/2910/ad-encrypt","path":"/biostar2-docs/update/2910/ad-encrypt","sidebar":"biostar"},{"id":"update/2910/how-to-use-cs20","path":"/biostar2-docs/update/2910/how-to-use-cs20","sidebar":"biostar"},{"id":"update/2910/how-to-use-di24","path":"/biostar2-docs/update/2910/how-to-use-di24","sidebar":"biostar"},{"id":"update/2910/settings-diretory-integration","path":"/biostar2-docs/update/2910/settings-diretory-integration","sidebar":"biostar"},{"id":"update/2911/bs2-master-admin","path":"/biostar2-docs/update/2911/bs2-master-admin","sidebar":"biostar"},{"id":"update/295/advanced-search","path":"/biostar2-docs/update/295/advanced-search","sidebar":"biostar"},{"id":"update/295/new-dashboard","path":"/biostar2-docs/update/295/new-dashboard","sidebar":"biostar"},{"id":"update/295/quick-action","path":"/biostar2-docs/update/295/quick-action","sidebar":"biostar"},{"id":"update/295/timed-apb","path":"/biostar2-docs/update/295/timed-apb","sidebar":"biostar"},{"id":"update/295/unified-gateway","path":"/biostar2-docs/update/295/unified-gateway","sidebar":"biostar"},{"id":"update/295/user-photo-enroll-using-webcam","path":"/biostar2-docs/update/295/user-photo-enroll-using-webcam","sidebar":"biostar"},{"id":"update/295/wireless-door-lock","path":"/biostar2-docs/update/295/wireless-door-lock","sidebar":"biostar"},{"id":"update/297/multi-factor-auth-for-login","path":"/biostar2-docs/update/297/multi-factor-auth-for-login","sidebar":"biostar"},{"id":"update/297/visual-face-with-template","path":"/biostar2-docs/update/297/visual-face-with-template","sidebar":"biostar"},{"id":"update/298/csn-mobile-card","path":"/biostar2-docs/update/298/csn-mobile-card","sidebar":"biostar"},{"id":"update/298/deny-access-when-wearing-mask","path":"/biostar2-docs/update/298/deny-access-when-wearing-mask","sidebar":"biostar"},{"id":"update/298/device-display-message","path":"/biostar2-docs/update/298/device-display-message","sidebar":"biostar"},{"id":"update/298/file-upload-user-information","path":"/biostar2-docs/update/298/file-upload-user-information","sidebar":"biostar"},{"id":"update/298/other-update","path":"/biostar2-docs/update/298/other-update","sidebar":"biostar"},{"id":"update/298/update-timed-apb","path":"/biostar2-docs/update/298/update-timed-apb","sidebar":"biostar"},{"id":"update/biostar2-2910","path":"/biostar2-docs/update/biostar2-2910","sidebar":"biostar"},{"id":"update/biostar2-2911","path":"/biostar2-docs/update/biostar2-2911","sidebar":"biostar"},{"id":"update/biostar2-295","path":"/biostar2-docs/update/biostar2-295","sidebar":"biostar"},{"id":"update/biostar2-297","path":"/biostar2-docs/update/biostar2-297","sidebar":"biostar"},{"id":"update/biostar2-298","path":"/biostar2-docs/update/biostar2-298","sidebar":"biostar"}],"draftIds":["revision/2911-draft"],"sidebars":{"biostar":{"link":{"path":"/biostar2-docs/","label":"신규 기능 소개"}}}}],"breadcrumbs":true}}}')
+var globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/biostar2-docs/en/","versions":[{"name":"current","label":"Next","isLast":true,"path":"/biostar2-docs/en/","mainDocId":"index","docs":[{"id":"index","path":"/biostar2-docs/en/","sidebar":"biostar"},{"id":"revision/260","path":"/biostar2-docs/en/revision/260","sidebar":"biostar"},{"id":"revision/261","path":"/biostar2-docs/en/revision/261","sidebar":"biostar"},{"id":"revision/262","path":"/biostar2-docs/en/revision/262","sidebar":"biostar"},{"id":"revision/263","path":"/biostar2-docs/en/revision/263","sidebar":"biostar"},{"id":"revision/264","path":"/biostar2-docs/en/revision/264","sidebar":"biostar"},{"id":"revision/270","path":"/biostar2-docs/en/revision/270","sidebar":"biostar"},{"id":"revision/271","path":"/biostar2-docs/en/revision/271","sidebar":"biostar"},{"id":"revision/2710","path":"/biostar2-docs/en/revision/2710","sidebar":"biostar"},{"id":"revision/2711","path":"/biostar2-docs/en/revision/2711","sidebar":"biostar"},{"id":"revision/2712","path":"/biostar2-docs/en/revision/2712","sidebar":"biostar"},{"id":"revision/2714","path":"/biostar2-docs/en/revision/2714","sidebar":"biostar"},{"id":"revision/272","path":"/biostar2-docs/en/revision/272","sidebar":"biostar"},{"id":"revision/273","path":"/biostar2-docs/en/revision/273","sidebar":"biostar"},{"id":"revision/274","path":"/biostar2-docs/en/revision/274","sidebar":"biostar"},{"id":"revision/275","path":"/biostar2-docs/en/revision/275","sidebar":"biostar"},{"id":"revision/276","path":"/biostar2-docs/en/revision/276","sidebar":"biostar"},{"id":"revision/277","path":"/biostar2-docs/en/revision/277","sidebar":"biostar"},{"id":"revision/278","path":"/biostar2-docs/en/revision/278","sidebar":"biostar"},{"id":"revision/280","path":"/biostar2-docs/en/revision/280","sidebar":"biostar"},{"id":"revision/281","path":"/biostar2-docs/en/revision/281","sidebar":"biostar"},{"id":"revision/2810","path":"/biostar2-docs/en/revision/2810","sidebar":"biostar"},{"id":"revision/2811","path":"/biostar2-docs/en/revision/2811","sidebar":"biostar"},{"id":"revision/2812","path":"/biostar2-docs/en/revision/2812","sidebar":"biostar"},{"id":"revision/2813","path":"/biostar2-docs/en/revision/2813","sidebar":"biostar"},{"id":"revision/2814","path":"/biostar2-docs/en/revision/2814","sidebar":"biostar"},{"id":"revision/2815","path":"/biostar2-docs/en/revision/2815","sidebar":"biostar"},{"id":"revision/2816","path":"/biostar2-docs/en/revision/2816","sidebar":"biostar"},{"id":"revision/2817","path":"/biostar2-docs/en/revision/2817","sidebar":"biostar"},{"id":"revision/282","path":"/biostar2-docs/en/revision/282","sidebar":"biostar"},{"id":"revision/283","path":"/biostar2-docs/en/revision/283","sidebar":"biostar"},{"id":"revision/284","path":"/biostar2-docs/en/revision/284","sidebar":"biostar"},{"id":"revision/285","path":"/biostar2-docs/en/revision/285","sidebar":"biostar"},{"id":"revision/286","path":"/biostar2-docs/en/revision/286","sidebar":"biostar"},{"id":"revision/288","path":"/biostar2-docs/en/revision/288","sidebar":"biostar"},{"id":"revision/289","path":"/biostar2-docs/en/revision/289","sidebar":"biostar"},{"id":"revision/290","path":"/biostar2-docs/en/revision/290","sidebar":"biostar"},{"id":"revision/291","path":"/biostar2-docs/en/revision/291","sidebar":"biostar"},{"id":"revision/2910","path":"/biostar2-docs/en/revision/2910","sidebar":"biostar"},{"id":"revision/2910-draft","path":"/biostar2-docs/en/revision/2910-draft"},{"id":"revision/2911","path":"/biostar2-docs/en/revision/2911","sidebar":"biostar"},{"id":"revision/292","path":"/biostar2-docs/en/revision/292","sidebar":"biostar"},{"id":"revision/293","path":"/biostar2-docs/en/revision/293","sidebar":"biostar"},{"id":"revision/294","path":"/biostar2-docs/en/revision/294","sidebar":"biostar"},{"id":"revision/295","path":"/biostar2-docs/en/revision/295","sidebar":"biostar"},{"id":"revision/296","path":"/biostar2-docs/en/revision/296","sidebar":"biostar"},{"id":"revision/297","path":"/biostar2-docs/en/revision/297","sidebar":"biostar"},{"id":"revision/298","path":"/biostar2-docs/en/revision/298","sidebar":"biostar"},{"id":"revision/index","path":"/biostar2-docs/en/revision/","sidebar":"biostar"},{"id":"update/2910/ad-encrypt","path":"/biostar2-docs/en/update/2910/ad-encrypt","sidebar":"biostar"},{"id":"update/2910/how-to-use-cs20","path":"/biostar2-docs/en/update/2910/how-to-use-cs20","sidebar":"biostar"},{"id":"update/2910/how-to-use-di24","path":"/biostar2-docs/en/update/2910/how-to-use-di24","sidebar":"biostar"},{"id":"update/2910/settings-diretory-integration","path":"/biostar2-docs/en/update/2910/settings-diretory-integration","sidebar":"biostar"},{"id":"update/2911/bs2-master-admin","path":"/biostar2-docs/en/update/2911/bs2-master-admin","sidebar":"biostar"},{"id":"update/295/advanced-search","path":"/biostar2-docs/en/update/295/advanced-search","sidebar":"biostar"},{"id":"update/295/new-dashboard","path":"/biostar2-docs/en/update/295/new-dashboard","sidebar":"biostar"},{"id":"update/295/quick-action","path":"/biostar2-docs/en/update/295/quick-action","sidebar":"biostar"},{"id":"update/295/timed-apb","path":"/biostar2-docs/en/update/295/timed-apb","sidebar":"biostar"},{"id":"update/295/unified-gateway","path":"/biostar2-docs/en/update/295/unified-gateway","sidebar":"biostar"},{"id":"update/295/user-photo-enroll-using-webcam","path":"/biostar2-docs/en/update/295/user-photo-enroll-using-webcam","sidebar":"biostar"},{"id":"update/295/wireless-door-lock","path":"/biostar2-docs/en/update/295/wireless-door-lock","sidebar":"biostar"},{"id":"update/297/multi-factor-auth-for-login","path":"/biostar2-docs/en/update/297/multi-factor-auth-for-login","sidebar":"biostar"},{"id":"update/297/visual-face-with-template","path":"/biostar2-docs/en/update/297/visual-face-with-template","sidebar":"biostar"},{"id":"update/298/csn-mobile-card","path":"/biostar2-docs/en/update/298/csn-mobile-card","sidebar":"biostar"},{"id":"update/298/deny-access-when-wearing-mask","path":"/biostar2-docs/en/update/298/deny-access-when-wearing-mask","sidebar":"biostar"},{"id":"update/298/device-display-message","path":"/biostar2-docs/en/update/298/device-display-message","sidebar":"biostar"},{"id":"update/298/file-upload-user-information","path":"/biostar2-docs/en/update/298/file-upload-user-information","sidebar":"biostar"},{"id":"update/298/other-update","path":"/biostar2-docs/en/update/298/other-update","sidebar":"biostar"},{"id":"update/298/update-timed-apb","path":"/biostar2-docs/en/update/298/update-timed-apb","sidebar":"biostar"},{"id":"update/biostar2-2910","path":"/biostar2-docs/en/update/biostar2-2910","sidebar":"biostar"},{"id":"update/biostar2-2911","path":"/biostar2-docs/en/update/biostar2-2911","sidebar":"biostar"},{"id":"update/biostar2-295","path":"/biostar2-docs/en/update/biostar2-295","sidebar":"biostar"},{"id":"update/biostar2-297","path":"/biostar2-docs/en/update/biostar2-297","sidebar":"biostar"},{"id":"update/biostar2-298","path":"/biostar2-docs/en/update/biostar2-298","sidebar":"biostar"}],"draftIds":["revision/2911-draft"],"sidebars":{"biostar":{"link":{"path":"/biostar2-docs/en/","label":"New Feature Overview"}}}}],"breadcrumbs":true}}}')
 ;// CONCATENATED MODULE: ./.docusaurus/i18n.json
-var i18n_namespaceObject = JSON.parse('{"defaultLocale":"ko","locales":["ko","en"],"path":"i18n","currentLocale":"ko","localeConfigs":{"ko":{"label":"한국어","direction":"ltr","htmlLang":"ko-KR","calendar":"gregory","path":"ko"},"en":{"label":"English","direction":"ltr","htmlLang":"en-US","calendar":"gregory","path":"en"}}}')
+var i18n_namespaceObject = JSON.parse('{"defaultLocale":"ko","locales":["ko","en"],"path":"i18n","currentLocale":"en","localeConfigs":{"ko":{"label":"한국어","direction":"ltr","htmlLang":"ko-KR","calendar":"gregory","path":"ko"},"en":{"label":"English","direction":"ltr","htmlLang":"en-US","calendar":"gregory","path":"en"}}}')
 // EXTERNAL MODULE: ./.docusaurus/codeTranslations.json
 var codeTranslations = __webpack_require__(2627);
 ;// CONCATENATED MODULE: ./.docusaurus/site-metadata.json
@@ -31262,7 +31262,7 @@ const language = (/* unused pure expression or super */ null && ([
     "ko",
     "en"
 ]));
-const searchIndexUrl = "search-index{dir}.json?_=26740cce";
+const searchIndexUrl = "search-index{dir}.json?_=59abcff0";
 const searchResultLimits = 8;
 const fuzzyMatchingDistance = 1;
 
@@ -37058,11 +37058,11 @@ __webpack_require__.d(__webpack_exports__, {
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 /* ESM default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  "title": "슈프리마 Docs",
-  "tagline": "슈프리마의 모든 제품 및 BioStar 관련 정보를 이곳에서 확인하세요.",
+  "title": "Suprema Docs",
+  "tagline": "Check out all of Suprema's products and BioStar related information here.",
   "favicon": "/img/favicon.ico",
   "url": "https://docs.supremainc.com",
-  "baseUrl": "/biostar2-docs/",
+  "baseUrl": "/biostar2-docs/en/",
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -37219,7 +37219,7 @@ __webpack_require__.d(__webpack_exports__, {
         "src": "img/suprema-logo-bottom.svg",
         "width": "173px"
       },
-      "copyright": "Copyright © Suprema Inc. All rights reserved. | 주식회사 슈프리마 사업자 등록번호 431-87-00369",
+      "copyright": "Copyright © Suprema Inc. All rights reserved. | SUPREMA Co., Ltd. Business Registration Number 431-87-00369",
       "links": []
     },
     "prism": {
@@ -41791,12 +41791,12 @@ function getBackgroundColor(zoom) {
 }),
 2627: (function (module) {
 "use strict";
-module.exports = JSON.parse('{"theme.AnnouncementBar.closeButtonAriaLabel":"닫기","theme.BackToTopButton.buttonAriaLabel":"맨 위로 스크롤하기","theme.CodeBlock.copied":"복사했습니다","theme.CodeBlock.copy":"복사","theme.CodeBlock.copyButtonAriaLabel":"클립보드에 코드 복사","theme.CodeBlock.wordWrapToggle":"줄 바꿈 전환","theme.DocSidebarItem.collapseCategoryAriaLabel":"사이드바 분류 \'{label}\' 접기","theme.DocSidebarItem.expandCategoryAriaLabel":"사이드바 분류 \'{label}\' 펼치기","theme.ErrorPageContent.title":"페이지에 오류가 발생하였습니다.","theme.ErrorPageContent.tryAgain":"다시 시도해 보세요","theme.NavBar.navAriaLabel":"메인","theme.NotFound.p1":"원하는 페이지를 찾을 수 없습니다.","theme.NotFound.p2":"사이트 관리자에게 링크가 깨진 것을 알려주세요.","theme.NotFound.title":"페이지를 찾을 수 없습니다.","theme.TOCCollapsible.toggleButtonLabel":"이 페이지에서","theme.admonition.caution":"주의","theme.admonition.danger":"위험","theme.admonition.info":"알아두기","theme.admonition.note":"노트","theme.admonition.tip":"팁","theme.admonition.warning":"경고","theme.blog.archive.description":"게시물 목록","theme.blog.archive.title":"게시물 목록","theme.blog.author.noPosts":"작성자가 아직 게시글을 작성하지 않았습니다.","theme.blog.author.pageTitle":"{authorName} - {nPosts}","theme.blog.authorsList.pageTitle":"저자","theme.blog.authorsList.viewAll":"모든 저자 보기","theme.blog.paginator.navAriaLabel":"블로그 게시물 목록 탐색","theme.blog.paginator.newerEntries":"이전 페이지","theme.blog.paginator.olderEntries":"다음 페이지","theme.blog.post.paginator.navAriaLabel":"블로그 게시물 탐색","theme.blog.post.paginator.newerPost":"이전 게시물","theme.blog.post.paginator.olderPost":"다음 게시물","theme.blog.post.plurals":"{count}개 게시물","theme.blog.post.readMore":"자세히 보기","theme.blog.post.readMoreLabel":"{title} 에 대해 더 읽어보기","theme.blog.post.readingTime.plurals":"약 {readingTime}분","theme.blog.sidebar.navAriaLabel":"최근 블로그 문서 둘러보기","theme.blog.tagTitle":"\\"{tagName}\\" 태그로 연결된 {nPosts}개의 게시물이 있습니다.","theme.colorToggle.ariaLabel":"어두운 모드와 밝은 모드 전환하기 (현재 {mode})","theme.colorToggle.ariaLabel.mode.dark":"어두운 모드","theme.colorToggle.ariaLabel.mode.light":"밝은 모드","theme.colorToggle.ariaLabel.mode.system":"system mode","theme.common.editThisPage":"페이지 편집","theme.common.headingLinkTitle":"{heading}에 대한 직접 링크","theme.common.skipToMainContent":"본문으로 건너뛰기","theme.contentVisibility.draftBanner.message":"이 페이지는 아직 작성 중입니다. 개발 환경에서만 보이며 프로덕션 빌드에서는 제외됩니다.","theme.contentVisibility.draftBanner.title":"작성 중인 페이지","theme.contentVisibility.unlistedBanner.message":"이 문서는 색인되지 않습니다. 검색 엔진이 이 문서를 색인하지 않으며, 주소를 알고 있는 사용자만 접근할 수 있습니다.","theme.contentVisibility.unlistedBanner.title":"색인되지 않은 문서","theme.docs.DocCard.categoryDescription.plurals":"{count} 문서","theme.docs.breadcrumbs.home":"홈","theme.docs.breadcrumbs.navAriaLabel":"탐색 경로","theme.docs.paginator.navAriaLabel":"문서 페이지","theme.docs.paginator.next":"다음","theme.docs.paginator.previous":"이전","theme.docs.sidebar.closeSidebarButtonAriaLabel":"사이드바 닫기","theme.docs.sidebar.collapseButtonAriaLabel":"사이드바 숨기기","theme.docs.sidebar.collapseButtonTitle":"사이드바 숨기기","theme.docs.sidebar.expandButtonAriaLabel":"사이드바 열기","theme.docs.sidebar.expandButtonTitle":"사이드바 열기","theme.docs.sidebar.navAriaLabel":"문서 사이드바","theme.docs.sidebar.toggleSidebarButtonAriaLabel":"사이드바 펼치거나 접기","theme.docs.tagDocListPageTitle":"{nDocsTagged} \\"{tagName}\\" 태그에 분류되었습니다","theme.docs.tagDocListPageTitle.nDocsTagged":"{count}개 문서가","theme.docs.versionBadge.label":"버전: {versionLabel}","theme.docs.versions.latestVersionLinkLabel":"최신 버전","theme.docs.versions.latestVersionSuggestionLabel":"최신 문서는 {latestVersionLink} ({versionLabel})을 확인하세요.","theme.docs.versions.unmaintainedVersionLabel":"{siteTitle} {versionLabel} 문서는 더 이상 업데이트되지 않습니다.","theme.docs.versions.unreleasedVersionLabel":"{siteTitle} {versionLabel} 문서는 아직 정식 공개되지 않았습니다.","theme.lastUpdated.atDate":" {date}에","theme.lastUpdated.byUser":" {user}가","theme.lastUpdated.lastUpdatedAtBy":"최종 수정: {atDate}{byUser}","theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel":"Collapse the dropdown","theme.navbar.mobileDropdown.collapseButton.expandAriaLabel":"Expand the dropdown","theme.navbar.mobileLanguageDropdown.label":"언어","theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel":"← 메인 메뉴로 돌아가기","theme.navbar.mobileVersionsDropdown.label":"버전","theme.tags.tagsListLabel":"태그:","theme.tags.tagsPageLink":"모든 태그 보기","theme.tags.tagsPageTitle":"태그","externalLinks.BioEntryW3.desc":"Simple, Durable, Secure<br/>AI 기반 얼굴인증 디바이스","externalLinks.FaceStationF2.desc":"퓨전 얼굴인증 장치","externalLinks.XStation2.desc":"차세대 모바일 출입인증 단말기","theme.SearchPage.existingResultsTitle":"\\"{query}\\"에 대한 검색 결과","theme.SearchPage.emptyResultsTitle":"문서 검색하기","theme.SearchPage.searchContext.everywhere":"어디에나","theme.SearchPage.documentsFound.plurals":"{count}개의 문서를 찾았습니다.","theme.SearchPage.noResultsText":"검색어와 일치하는 문서를 찾을 수 없습니다.","theme.SearchBar.noResultsText":"검색 결과가 없습니다.","theme.SearchBar.seeAllOutsideContext":"\\"{context}\\" 검색 결과 모두 보기","theme.SearchBar.searchInContext":"\\"{context}\\" 내의 모든 검색 결과 보기","theme.SearchBar.seeAll":"모든 결과 보기","theme.SearchBar.label":"검색하기","theme.docs.nextStep":"다음 단계","theme.figureCaption.desc":"위 이미지는 예시 화면입니다. 실제 화면과 다를 수 있습니다.","theme.cover.address":"<b>(주) 슈프리마</b><br/>13554 경기도 성남시 분당구 정자일로 248 파크뷰타워 17층<br/>영업 문의 1522 4507(1번) korea@suprema.co.kr | 고객지원 1522 4507(2번) cs@suprema.co.kr","theme.cover.copyright":"© 2025 Suprema Inc. 이 문서에 표기된 슈프리마, 제품명, 번호는 슈프리마의 등록 상표입니다. 모든 회사명과 제품명은 해당 회사의 상표이거나 등록 상표입니다. 제품 외관, 제조 상태 및 사양은 사전 통지 없이 변경될 수 있습니다.","theme.cover.qrCodetext":"For more information about Suprema\'s global branch offices,<br/>visit the webpage below by scanning the QR code.<br/>https://supremainc.com/en/about/global-office.asp","theme.revision.badge":"발생 버전","index.search":"검색","windows.key.start":"시작","biostar2.install.ok":"OK","biostar2.install.agree":"동의","biostar2.install.next":"다음","biostar2.install.expressInstall":"간편 설치","biostar2.install.customInstall":"사용자 정의 설치","biostar2.install.btnInstall":"설치","biostar2.install.complete":"완료","theme.docs.overview.viewContent":"둘러보기"}')
+module.exports = JSON.parse('{"externalLinks.BioEntryW3.desc":"Simple, Durable, Secure<br/>AI-Powered Facial Authentication Device","externalLinks.FaceStationF2.desc":"Fusion Multimodal Terminal","externalLinks.XStation2.desc":"Versatile Intelligent Terminal","theme.docs.breadcrumbs.navAriaLabel":"Breadcrumbs","theme.admonition.caution":"Caution","theme.admonition.danger":"Danger","theme.admonition.info":"Info","theme.admonition.note":"Note","theme.admonition.tip":"Tip","theme.admonition.warning":"Warning","theme.docs.breadcrumbs.home":"Home","theme.ErrorPageContent.title":"This page crashed.","theme.BackToTopButton.buttonAriaLabel":"Scroll back to top","theme.blog.archive.title":"Archive","theme.blog.archive.description":"Archive","theme.blog.paginator.navAriaLabel":"Blog list page navigation","theme.blog.paginator.newerEntries":"Newer entries","theme.blog.paginator.olderEntries":"Older entries","theme.blog.post.paginator.navAriaLabel":"Blog post page navigation","theme.blog.post.paginator.newerPost":"Newer post","theme.blog.post.paginator.olderPost":"Older post","theme.tags.tagsPageLink":"View all tags","theme.colorToggle.ariaLabel":"Switch between dark and light mode (currently {mode})","theme.colorToggle.ariaLabel.mode.dark":"Dark mode","theme.colorToggle.ariaLabel.mode.light":"Light mode","theme.docs.DocCard.categoryDescription.plurals":"1 item|{count} items","theme.docs.paginator.navAriaLabel":"Docs pages","theme.docs.paginator.previous":"Previous","theme.docs.paginator.next":"Next","theme.docs.tagDocListPageTitle.nDocsTagged":"One doc tagged|{count} docs tagged","theme.docs.tagDocListPageTitle":"{nDocsTagged} with \\"{tagName}\\"","theme.docs.versionBadge.label":"Version: {versionLabel}","theme.docs.versions.unreleasedVersionLabel":"This is unreleased documentation for {siteTitle} {versionLabel} version.","theme.docs.versions.unmaintainedVersionLabel":"This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.","theme.docs.versions.latestVersionSuggestionLabel":"For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).","theme.docs.versions.latestVersionLinkLabel":"latest version","theme.common.editThisPage":"Edit this page","theme.common.headingLinkTitle":"Direct link to {heading}","theme.lastUpdated.atDate":" on {date}","theme.lastUpdated.byUser":" by {user}","theme.lastUpdated.lastUpdatedAtBy":"Last updated{atDate}{byUser}","theme.navbar.mobileVersionsDropdown.label":"Versions","theme.NotFound.title":"Page Not Found","theme.tags.tagsListLabel":"Tags:","theme.AnnouncementBar.closeButtonAriaLabel":"Close","theme.blog.sidebar.navAriaLabel":"Blog recent posts navigation","theme.CodeBlock.copied":"Copied","theme.CodeBlock.copyButtonAriaLabel":"Copy code to clipboard","theme.CodeBlock.copy":"Copy","theme.CodeBlock.wordWrapToggle":"Toggle word wrap","theme.DocSidebarItem.expandCategoryAriaLabel":"Expand sidebar category \'{label}\'","theme.DocSidebarItem.collapseCategoryAriaLabel":"Collapse sidebar category \'{label}\'","theme.NavBar.navAriaLabel":"Main","theme.navbar.mobileLanguageDropdown.label":"Languages","theme.NotFound.p1":"We could not find what you were looking for.","theme.NotFound.p2":"Please contact the owner of the site that linked you to the original URL and let them know their link is broken.","theme.TOCCollapsible.toggleButtonLabel":"On this page","theme.blog.post.readMore":"Read more","theme.blog.post.readMoreLabel":"Read more about {title}","theme.blog.post.readingTime.plurals":"One min read|{readingTime} min read","theme.docs.sidebar.collapseButtonTitle":"Collapse sidebar","theme.docs.sidebar.collapseButtonAriaLabel":"Collapse sidebar","theme.docs.sidebar.navAriaLabel":"Docs sidebar","theme.docs.sidebar.closeSidebarButtonAriaLabel":"Close navigation bar","theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel":"← Back to main men","theme.docs.sidebar.toggleSidebarButtonAriaLabel":"Toggle navigation bar","theme.docs.sidebar.expandButtonTitle":"Expand sidebar","theme.docs.sidebar.expandButtonAriaLabel":"Expand sidebar","theme.SearchPage.existingResultsTitle":"Search results for \\"{query}\\"","theme.SearchPage.emptyResultsTitle":"Search the documentation","theme.SearchPage.searchContext.everywhere":"Everywhere","theme.SearchPage.documentsFound.plurals":"1 document found|{count} documents found","theme.SearchPage.noResultsText":"No documents were found","theme.SearchBar.noResultsText":"No results","theme.SearchBar.seeAllOutsideContext":"See all results outside \\"{context}\\"","theme.SearchBar.searchInContext":"See all results within \\"{context}\\"","theme.SearchBar.seeAll":"See all results","theme.SearchBar.label":"Search","theme.blog.post.plurals":"One post|{count} posts","theme.blog.tagTitle":"{nPosts} tagged with \\"{tagName}\\"","theme.blog.author.pageTitle":"{authorName} - {nPosts}","theme.blog.authorsList.pageTitle":"Authors","theme.blog.authorsList.viewAll":"View all authors","theme.blog.author.noPosts":"This author has not written any posts yet.","theme.contentVisibility.unlistedBanner.title":"Unlisted page","theme.contentVisibility.unlistedBanner.message":"This page is unlisted. Search engines will not index it, and only users having a direct link can access it.","theme.contentVisibility.draftBanner.title":"Draft page","theme.contentVisibility.draftBanner.message":"This page is a draft. It will only be visible in dev and be excluded from the production build.","theme.ErrorPageContent.tryAgain":"Try again","theme.common.skipToMainContent":"Skip to main content","theme.tags.tagsPageTitle":"Tags","theme.docs.nextStep":"Next step","theme.figureCaption.desc":"The image above is an example screen and may differ from the actual screen.","theme.cover.address":"<b>Suprema Inc.</b><br/>17F Parkview Tower, 248, Jeongjail-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, 13554, Rep. of KOREA<br/>Tel: +82 31 783 4502 | Fax: +82 31 783 4503 | Inquiry: sales_sys@supremainc.com","theme.cover.copyright":"© 2025 Suprema Inc. Suprema and identifying product names and numbers herein are registered trade marks of Suprema, Inc.<br/>All non-Suprema brands and product names are trademarks or registered trademarks of their respective companies.<br/>Product appearance, build status and/or specifications are subject to change without notice.","theme.cover.qrCodetext":"For more information about Suprema\'s global branch offices,<br/>visit the webpage below by scanning the QR code.<br/>https://supremainc.com/en/about/global-office.asp","theme.revision.badge":"Affects version","index.search":"Search","windows.key.start":"Start","biostar2.install.ok":"OK","biostar2.install.agree":"I accept the agreement","biostar2.install.next":"Next","biostar2.install.expressInstall":"Express installation","biostar2.install.customInstall":"Custom installation","biostar2.install.btnInstall":"Install","biostar2.install.complete":"Finish","theme.docs.overview.viewContent":"Read more"}')
 
 }),
 7138: (function (module) {
 "use strict";
-module.exports = JSON.parse('{"/biostar2-docs/back/-4c7":{"__comp":"5308dfd1","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"},"/biostar2-docs/search-2f9":{"__comp":"1a4e3797","__context":{"plugin":"138e0e15"}},"/biostar2-docs/-a2c":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/biostar2-docs/-ec5":{"__comp":"a7bd4aaa","__props":"bb2b3c07"},"/biostar2-docs/-837":{"__comp":"a94703ab"},"/biostar2-docs/revision/-dd2":{"__comp":"17896441","content":"c10251a3"},"/biostar2-docs/revision/260-b95":{"__comp":"17896441","content":"36321d29"},"/biostar2-docs/revision/261-d50":{"__comp":"17896441","content":"a4f38dec"},"/biostar2-docs/revision/262-4a0":{"__comp":"17896441","content":"4133abef"},"/biostar2-docs/revision/263-2ae":{"__comp":"17896441","content":"d3d81a80"},"/biostar2-docs/revision/264-05e":{"__comp":"17896441","content":"9002ad59"},"/biostar2-docs/revision/270-997":{"__comp":"17896441","content":"9d0b4025"},"/biostar2-docs/revision/271-254":{"__comp":"17896441","content":"42ecb57c"},"/biostar2-docs/revision/2710-c2c":{"__comp":"17896441","content":"a6edefa9"},"/biostar2-docs/revision/2711-e47":{"__comp":"17896441","content":"e2615b34"},"/biostar2-docs/revision/2712-d02":{"__comp":"17896441","content":"98cf39d2"},"/biostar2-docs/revision/2714-740":{"__comp":"17896441","content":"9bde920f"},"/biostar2-docs/revision/272-451":{"__comp":"17896441","content":"1c63e954"},"/biostar2-docs/revision/273-e4b":{"__comp":"17896441","content":"8fd673e8"},"/biostar2-docs/revision/274-788":{"__comp":"17896441","content":"5347b71d"},"/biostar2-docs/revision/275-e25":{"__comp":"17896441","content":"f7170e03"},"/biostar2-docs/revision/276-367":{"__comp":"17896441","content":"5f0a05a2"},"/biostar2-docs/revision/277-85b":{"__comp":"17896441","content":"ac6468f7"},"/biostar2-docs/revision/278-e66":{"__comp":"17896441","content":"85bfd125"},"/biostar2-docs/revision/280-998":{"__comp":"17896441","content":"76242231"},"/biostar2-docs/revision/281-8d7":{"__comp":"17896441","content":"3d565b9d"},"/biostar2-docs/revision/2810-13e":{"__comp":"17896441","content":"8f1f3ab6"},"/biostar2-docs/revision/2811-08b":{"__comp":"17896441","content":"847ad22e"},"/biostar2-docs/revision/2812-fa7":{"__comp":"17896441","content":"fd57cc51"},"/biostar2-docs/revision/2813-3cd":{"__comp":"17896441","content":"7b810a03"},"/biostar2-docs/revision/2814-c92":{"__comp":"17896441","content":"771e6e33"},"/biostar2-docs/revision/2815-c4c":{"__comp":"17896441","content":"bced4e4a"},"/biostar2-docs/revision/2816-9bc":{"__comp":"17896441","content":"7b25b112"},"/biostar2-docs/revision/2817-bf8":{"__comp":"17896441","content":"011ed341"},"/biostar2-docs/revision/282-95b":{"__comp":"17896441","content":"470e0e0f"},"/biostar2-docs/revision/283-390":{"__comp":"17896441","content":"c56b6afc"},"/biostar2-docs/revision/284-823":{"__comp":"17896441","content":"0954da10"},"/biostar2-docs/revision/285-cb4":{"__comp":"17896441","content":"2b958d9c"},"/biostar2-docs/revision/286-c2a":{"__comp":"17896441","content":"c1645870"},"/biostar2-docs/revision/288-422":{"__comp":"17896441","content":"d2fb79f1"},"/biostar2-docs/revision/289-197":{"__comp":"17896441","content":"b74f3db2"},"/biostar2-docs/revision/290-2e1":{"__comp":"17896441","content":"d920f39e"},"/biostar2-docs/revision/291-6a5":{"__comp":"17896441","content":"77523d2d"},"/biostar2-docs/revision/2910-11f":{"__comp":"17896441","content":"21aa58f6"},"/biostar2-docs/revision/2910-draft-222":{"__comp":"17896441","content":"07b870ec"},"/biostar2-docs/revision/2911-190":{"__comp":"17896441","content":"fe6a2171"},"/biostar2-docs/revision/292-307":{"__comp":"17896441","content":"37f0d07c"},"/biostar2-docs/revision/293-8ac":{"__comp":"17896441","content":"75fc1a58"},"/biostar2-docs/revision/294-da1":{"__comp":"17896441","content":"21922693"},"/biostar2-docs/revision/295-d81":{"__comp":"17896441","content":"8f903b9c"},"/biostar2-docs/revision/296-7fa":{"__comp":"17896441","content":"d7e8eb73"},"/biostar2-docs/revision/297-9eb":{"__comp":"17896441","content":"f700c88a"},"/biostar2-docs/revision/298-216":{"__comp":"17896441","content":"cf9206d4"},"/biostar2-docs/update/2910/ad-encrypt-787":{"__comp":"17896441","content":"c060969a"},"/biostar2-docs/update/2910/how-to-use-cs20-26a":{"__comp":"17896441","content":"31323990"},"/biostar2-docs/update/2910/how-to-use-di24-45b":{"__comp":"17896441","content":"2c2669f6"},"/biostar2-docs/update/2910/settings-diretory-integration-e75":{"__comp":"17896441","content":"fd4346ad"},"/biostar2-docs/update/2911/bs2-master-admin-7d0":{"__comp":"17896441","content":"05df8820"},"/biostar2-docs/update/295/advanced-search-a82":{"__comp":"17896441","content":"8b9d34de"},"/biostar2-docs/update/295/new-dashboard-e7c":{"__comp":"17896441","content":"1f5ed054"},"/biostar2-docs/update/295/quick-action-bb9":{"__comp":"17896441","content":"61ed4732"},"/biostar2-docs/update/295/timed-apb-f4a":{"__comp":"17896441","content":"4399770d"},"/biostar2-docs/update/295/unified-gateway-261":{"__comp":"17896441","content":"24cef709"},"/biostar2-docs/update/295/user-photo-enroll-using-webcam-e5f":{"__comp":"17896441","content":"69589054"},"/biostar2-docs/update/295/wireless-door-lock-2c5":{"__comp":"17896441","content":"ed9aafd0"},"/biostar2-docs/update/297/multi-factor-auth-for-login-d34":{"__comp":"17896441","content":"98725db8"},"/biostar2-docs/update/297/visual-face-with-template-415":{"__comp":"17896441","content":"c0fbcc12"},"/biostar2-docs/update/298/csn-mobile-card-4d8":{"__comp":"17896441","content":"d35339d9"},"/biostar2-docs/update/298/deny-access-when-wearing-mask-425":{"__comp":"17896441","content":"5a3cd577"},"/biostar2-docs/update/298/device-display-message-8eb":{"__comp":"17896441","content":"a7a95a8a"},"/biostar2-docs/update/298/file-upload-user-information-5b2":{"__comp":"17896441","content":"b86b925d"},"/biostar2-docs/update/298/other-update-12a":{"__comp":"17896441","content":"23f1d5de"},"/biostar2-docs/update/298/update-timed-apb-940":{"__comp":"17896441","content":"9686a783"},"/biostar2-docs/update/biostar2-2910-b91":{"__comp":"17896441","content":"d849bdc6"},"/biostar2-docs/update/biostar2-2911-9d7":{"__comp":"17896441","content":"0c25ca7e"},"/biostar2-docs/update/biostar2-295-91d":{"__comp":"17896441","content":"0a45dc6f"},"/biostar2-docs/update/biostar2-297-23f":{"__comp":"17896441","content":"fd5d3d35"},"/biostar2-docs/update/biostar2-298-103":{"__comp":"17896441","content":"329b7b82"},"/biostar2-docs/-ae4":{"__comp":"17896441","content":"4edc808e"}}')
+module.exports = JSON.parse('{"/biostar2-docs/en/back/-4a9":{"__comp":"5308dfd1","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"},"/biostar2-docs/en/search-430":{"__comp":"1a4e3797","__context":{"plugin":"138e0e15"}},"/biostar2-docs/en/-388":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/biostar2-docs/en/-a30":{"__comp":"a7bd4aaa","__props":"e8365100"},"/biostar2-docs/en/-53e":{"__comp":"a94703ab"},"/biostar2-docs/en/revision/-7fe":{"__comp":"17896441","content":"58a1c2b9"},"/biostar2-docs/en/revision/260-318":{"__comp":"17896441","content":"1deca8b7"},"/biostar2-docs/en/revision/261-a5c":{"__comp":"17896441","content":"d9dab780"},"/biostar2-docs/en/revision/262-2d2":{"__comp":"17896441","content":"565ee0ad"},"/biostar2-docs/en/revision/263-3cf":{"__comp":"17896441","content":"04b7312d"},"/biostar2-docs/en/revision/264-f25":{"__comp":"17896441","content":"c727cc7b"},"/biostar2-docs/en/revision/270-b42":{"__comp":"17896441","content":"76d2606a"},"/biostar2-docs/en/revision/271-759":{"__comp":"17896441","content":"bc1a2790"},"/biostar2-docs/en/revision/2710-58c":{"__comp":"17896441","content":"8ec9172d"},"/biostar2-docs/en/revision/2711-c0d":{"__comp":"17896441","content":"80c89947"},"/biostar2-docs/en/revision/2712-f25":{"__comp":"17896441","content":"ae1c4358"},"/biostar2-docs/en/revision/2714-474":{"__comp":"17896441","content":"9c5dffbf"},"/biostar2-docs/en/revision/272-902":{"__comp":"17896441","content":"750433da"},"/biostar2-docs/en/revision/273-5cf":{"__comp":"17896441","content":"22f32fa9"},"/biostar2-docs/en/revision/274-3a5":{"__comp":"17896441","content":"5d6cde95"},"/biostar2-docs/en/revision/275-b0b":{"__comp":"17896441","content":"9fe3680c"},"/biostar2-docs/en/revision/276-2af":{"__comp":"17896441","content":"c125c272"},"/biostar2-docs/en/revision/277-e08":{"__comp":"17896441","content":"b2d70ba7"},"/biostar2-docs/en/revision/278-329":{"__comp":"17896441","content":"3179504a"},"/biostar2-docs/en/revision/280-aaf":{"__comp":"17896441","content":"10087596"},"/biostar2-docs/en/revision/281-f23":{"__comp":"17896441","content":"fc9363d2"},"/biostar2-docs/en/revision/2810-33d":{"__comp":"17896441","content":"89ff097c"},"/biostar2-docs/en/revision/2811-d68":{"__comp":"17896441","content":"cf5521b5"},"/biostar2-docs/en/revision/2812-ae3":{"__comp":"17896441","content":"b5b3e37b"},"/biostar2-docs/en/revision/2813-9d6":{"__comp":"17896441","content":"b9ac637d"},"/biostar2-docs/en/revision/2814-d67":{"__comp":"17896441","content":"830b40bb"},"/biostar2-docs/en/revision/2815-e63":{"__comp":"17896441","content":"8847613a"},"/biostar2-docs/en/revision/2816-945":{"__comp":"17896441","content":"44b7a0c0"},"/biostar2-docs/en/revision/2817-a09":{"__comp":"17896441","content":"0069a404"},"/biostar2-docs/en/revision/282-4e4":{"__comp":"17896441","content":"5ec07ba0"},"/biostar2-docs/en/revision/283-f72":{"__comp":"17896441","content":"6148ec90"},"/biostar2-docs/en/revision/284-c3a":{"__comp":"17896441","content":"70bfd4e8"},"/biostar2-docs/en/revision/285-6cb":{"__comp":"17896441","content":"092c32d3"},"/biostar2-docs/en/revision/286-9f2":{"__comp":"17896441","content":"a2b2d524"},"/biostar2-docs/en/revision/288-b17":{"__comp":"17896441","content":"02751dd0"},"/biostar2-docs/en/revision/289-d43":{"__comp":"17896441","content":"926d4dc7"},"/biostar2-docs/en/revision/290-7fd":{"__comp":"17896441","content":"53ac7d2d"},"/biostar2-docs/en/revision/291-eb6":{"__comp":"17896441","content":"1d0abbe8"},"/biostar2-docs/en/revision/2910-f4f":{"__comp":"17896441","content":"8af17015"},"/biostar2-docs/en/revision/2910-draft-18c":{"__comp":"17896441","content":"07b870ec"},"/biostar2-docs/en/revision/2911-3d5":{"__comp":"17896441","content":"1e135ad0"},"/biostar2-docs/en/revision/292-8d8":{"__comp":"17896441","content":"aa4af078"},"/biostar2-docs/en/revision/293-096":{"__comp":"17896441","content":"df379f10"},"/biostar2-docs/en/revision/294-741":{"__comp":"17896441","content":"b5c20607"},"/biostar2-docs/en/revision/295-f2c":{"__comp":"17896441","content":"62fa8aa4"},"/biostar2-docs/en/revision/296-903":{"__comp":"17896441","content":"70aac116"},"/biostar2-docs/en/revision/297-71f":{"__comp":"17896441","content":"450f52ad"},"/biostar2-docs/en/revision/298-73e":{"__comp":"17896441","content":"c34588c1"},"/biostar2-docs/en/update/2910/ad-encrypt-c1c":{"__comp":"17896441","content":"1a808aab"},"/biostar2-docs/en/update/2910/how-to-use-cs20-a5d":{"__comp":"17896441","content":"3b945e55"},"/biostar2-docs/en/update/2910/how-to-use-di24-3a2":{"__comp":"17896441","content":"54b64734"},"/biostar2-docs/en/update/2910/settings-diretory-integration-120":{"__comp":"17896441","content":"ff2ab287"},"/biostar2-docs/en/update/2911/bs2-master-admin-688":{"__comp":"17896441","content":"e7bad1f0"},"/biostar2-docs/en/update/295/advanced-search-edb":{"__comp":"17896441","content":"5518cd1d"},"/biostar2-docs/en/update/295/new-dashboard-81f":{"__comp":"17896441","content":"2510fb83"},"/biostar2-docs/en/update/295/quick-action-6ec":{"__comp":"17896441","content":"5c0ccdb7"},"/biostar2-docs/en/update/295/timed-apb-804":{"__comp":"17896441","content":"dfa9b1fe"},"/biostar2-docs/en/update/295/unified-gateway-fc2":{"__comp":"17896441","content":"9bd3041f"},"/biostar2-docs/en/update/295/user-photo-enroll-using-webcam-ad4":{"__comp":"17896441","content":"0ab78278"},"/biostar2-docs/en/update/295/wireless-door-lock-0cc":{"__comp":"17896441","content":"533e231f"},"/biostar2-docs/en/update/297/multi-factor-auth-for-login-803":{"__comp":"17896441","content":"052bd3b6"},"/biostar2-docs/en/update/297/visual-face-with-template-679":{"__comp":"17896441","content":"d4007db6"},"/biostar2-docs/en/update/298/csn-mobile-card-281":{"__comp":"17896441","content":"40575fab"},"/biostar2-docs/en/update/298/deny-access-when-wearing-mask-ca1":{"__comp":"17896441","content":"1bf61c02"},"/biostar2-docs/en/update/298/device-display-message-c29":{"__comp":"17896441","content":"f8cc440d"},"/biostar2-docs/en/update/298/file-upload-user-information-8fc":{"__comp":"17896441","content":"d0070183"},"/biostar2-docs/en/update/298/other-update-95a":{"__comp":"17896441","content":"80b601b3"},"/biostar2-docs/en/update/298/update-timed-apb-293":{"__comp":"17896441","content":"4b374cb0"},"/biostar2-docs/en/update/biostar2-2910-939":{"__comp":"17896441","content":"40f2fb3e"},"/biostar2-docs/en/update/biostar2-2911-f2e":{"__comp":"17896441","content":"ef81307c"},"/biostar2-docs/en/update/biostar2-295-cef":{"__comp":"17896441","content":"fb7fc25d"},"/biostar2-docs/en/update/biostar2-297-6af":{"__comp":"17896441","content":"986fcd3c"},"/biostar2-docs/en/update/biostar2-298-54d":{"__comp":"17896441","content":"d6ed9b8e"},"/biostar2-docs/en/-5af":{"__comp":"17896441","content":"216bef97"}}')
 
 }),
 
