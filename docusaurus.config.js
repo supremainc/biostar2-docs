@@ -41,7 +41,10 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/help/biostar2-docs/',
   future: {
-    v4: true,
+    v4: {
+      removeLegacyPostBuildHeadAttribute: true,
+      useCssCascadeLayers: false,
+    },
     experimental_faster: true
   },
   organizationName: 'Suprema.inc', // Usually your GitHub org/user name.
@@ -51,7 +54,6 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
-  // noIndex: true,
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko', 'en'],
@@ -97,7 +99,6 @@ const config = {
           exclude: [
             'common/**.{md,mdx}',
             '_unused/**.{md,mdx}',
-            // 'revision/**.{md,mdx}',
             '**/_*.{md,mdx}',
           ],
           rehypePlugins: [ rehypeExtendedTable ],
