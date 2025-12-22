@@ -219,11 +219,18 @@ function _createMdxContent(props) {
         sid: "device.masterAdmin.title"
       }), ", and if not registered, the use of the device will be restricted."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["You can register and manage ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["In BioStar 2, you can register and manage ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.masterAdmin.title"
-      }), " in BioStar 2 without registering ", (0,jsx_runtime.jsx)(Cmd, {
-        sid: "device.masterAdmin.title"
-      }), " on new devices."]
+      }), "."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+      type: "caution",
+      children: (0,jsx_runtime.jsxs)(_components.p, {
+        children: ["If ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "device.masterAdmin.title"
+        }), " is not registered on a device, features such as credential authentication are restricted. Make sure to use a device with ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "device.masterAdmin.title"
+        }), " registered."]
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
