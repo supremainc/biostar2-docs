@@ -224,12 +224,24 @@ function _createMdxContent(props) {
       }), "."]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "caution",
-      children: (0,jsx_runtime.jsxs)(_components.p, {
-        children: ["If ", (0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.masterAdmin.title"
-        }), " is not registered on a device, features such as credential authentication are restricted. Make sure to use a device with ", (0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.masterAdmin.title"
-        }), " registered."]
+      children: (0,jsx_runtime.jsxs)(_components.ul, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: ["If only new devices without a ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.masterAdmin.title"
+            }), " registered are connected to BioStar 2, you cannot register or manage the ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.masterAdmin.title"
+            }), " in BioStar 2."]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: ["Devices without a ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.masterAdmin.title"
+            }), " registered have limited features (for example, credential authentication). To enroll credentials, use a device with a ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.masterAdmin.title"
+            }), " already registered."]
+          }), "\n"]
+        }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",

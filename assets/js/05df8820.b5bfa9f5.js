@@ -222,15 +222,27 @@ function _createMdxContent(props) {
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
       children: ["BioStar 2에서 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.masterAdmin.title"
-      }), "를 등록하거나 관리할 수 있습니다."]
+      }), "를 등록하고 관리할 수 있습니다."]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "caution",
-      children: (0,jsx_runtime.jsxs)(_components.p, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.masterAdmin.title"
-        }), "가 등록되어 있지 않은 장치에서는 크리덴셜 인식 등의 기능들이 제한되므로 반드시 ", (0,jsx_runtime.jsx)(Cmd, {
-          sid: "device.masterAdmin.title"
-        }), "가 등록된 장치를 사용해야 합니다."]
+      children: (0,jsx_runtime.jsxs)(_components.ul, {
+        children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: ["BioStar 2에 연결된 장치가 ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.masterAdmin.title"
+            }), "가 등록되지 않은 새 장치만 있는 경우, BioStar 2에서 ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.masterAdmin.title"
+            }), "를 등록하거나 관리할 수 없습니다."]
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+            children: [(0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.masterAdmin.title"
+            }), "가 등록되지 않은 장치에서는 크리덴셜 인식 등의 기능이 제한되므로, ", (0,jsx_runtime.jsx)(Cmd, {
+              sid: "device.masterAdmin.title"
+            }), "가 등록된 장치를 등록용으로 사용하세요."]
+          }), "\n"]
+        }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
