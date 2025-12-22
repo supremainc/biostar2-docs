@@ -36,10 +36,10 @@ const config = {
   tagline: getLocalizedConfigValue('tagline'),
   favicon: '/img/favicon.ico',
   // Set the production url of your site here
-  url: 'https://supremainc.github.io',
+  url: 'https://docs.supremainc.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/biostar2-docs/',
+  baseUrl: '/help/biostar2-docs/',
   future: {
     v4: {
       removeLegacyPostBuildHeadAttribute: true,
@@ -107,12 +107,12 @@ const config = {
         theme: {
           customCss: './src/css/custom.scss',
         },
-        sitemap: {
-          lastmod: 'date',
-          changefreq: 'daily',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-        },
+        // sitemap: {
+        //   lastmod: 'date',
+        //   changefreq: 'daily',
+        //   priority: 0.5,
+        //   ignorePatterns: ['/tags/**'],
+        // },
         svgr: {
           svgrConfig: {
             /* SVGR config */
