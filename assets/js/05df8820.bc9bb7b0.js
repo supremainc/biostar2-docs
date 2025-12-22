@@ -220,11 +220,18 @@ function _createMdxContent(props) {
         sid: "device.masterAdmin.title"
       }), "를 필수적으로 등록해야 하며, 등록하지 않을 경우 장치 사용이 제한됩니다."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["새 장치에서 ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["BioStar 2에서 ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "device.masterAdmin.title"
-      }), "를 등록하지 않더라도 BioStar 2에서 ", (0,jsx_runtime.jsx)(Cmd, {
-        sid: "device.masterAdmin.title"
-      }), "를 등록하고 관리할 수 있습니다."]
+      }), "를 등록하거나 관리할 수 있습니다."]
+    }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
+      type: "caution",
+      children: (0,jsx_runtime.jsxs)(_components.p, {
+        children: [(0,jsx_runtime.jsx)(Cmd, {
+          sid: "device.masterAdmin.title"
+        }), "가 등록되어 있지 않은 장치에서는 크리덴셜 인식 등의 기능들이 제한되므로 반드시 ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "device.masterAdmin.title"
+        }), "가 등록된 장치를 사용해야 합니다."]
+      })
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
