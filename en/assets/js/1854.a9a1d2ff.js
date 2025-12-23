@@ -19,7 +19,7 @@ const language = [
     "ko",
     "en"
 ];
-const searchIndexUrl = "search-index{dir}.json?_=0f7864b9";
+const searchIndexUrl = "search-index{dir}.json?_=2a31a2d3";
 const searchResultLimits = 8;
 const fuzzyMatchingDistance = 1;
 
@@ -122,7 +122,7 @@ __webpack_require__.miniCssF = (chunkId) => {
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("af2fbe9d182ab2bc")
+__webpack_require__.h = () => ("c6eddc399ac8bea8")
 })();
 // webpack/runtime/has_own_property
 (() => {
