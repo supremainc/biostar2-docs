@@ -1,0 +1,113 @@
+---
+id: bs2-remote-access
+title: Remote Access Settings
+description: Learn how to configure Remote Access. This feature allows to securely access internal networks from external networks using the ngrok service.
+keywords:
+  - Remote Access
+  - ngrok
+---
+
+Remote access is a new feature that replaces the existing cloud function. This feature allows to securely access internal networks from external networks using the ngrok service. This feature enables access to the BioStar 2 server remotely without firewall settings or port forwarding.
+
+:::info
+
+* The Remote Access feature is requires a **BioStar 2 Remote Access** license.
+
+* When purchasing the remote access license, Suprema generates a bot account, endpoint, and license document for remote access use on the ngrok Suprema site.
+
+:::
+
+:::caution
+
+* Remote Access is provided through ngrok’s third‑party tunneling service. Remote Access is provided through ngrok’s third‑party tunneling service. Before using this feature, please review [Remote Access Feature Agreement](https://docs.supremainc.com/legal/eula#remote-access-agreement).
+
+* BioStar 2 simply supports the connection by calling the ngrok API, but the security, safety, and continuity of internet connectivity entirely depend on the ngrok service. Therefore, Suprema assumes no responsibility for any security incidents, data loss, or system breaches that may occur during the use of this feature.
+
+:::
+
+## When to use this?
+
+Use the remote access feature in the following situations.
+
+* When you need to connect to the BioStar 2 server from an external network
+
+* When it's challenging to connect directly due to firewalls or NAT environments
+
+* When you want to quickly set up remote access without complex network setups
+
+* When you need to temporarily provide outside access rights
+
+## Remote access setup
+
+<Steps>
+<Step>
+
+### Activate remote access license
+
+1. Log in with your BioStar 2 admin ID.
+
+1. Click <Cmd sid='common.setting' /> on the top of screen.
+
+1. Click <Cmd sid='common.license' />.
+
+1. Enter the admin name and remote access license key that received by Suprema on <Cmd sid='setting.menu.remoteAccess.root' /> of the <Cmd sid='setting.server.license.biostar2' /> section.
+
+1. Click <Cmd sid='setting.server.license.button.activate' product='2' />.
+
+:::info
+
+For more information on license registration, refer to [the following](settings-license-biostar-x-license).
+
+:::
+
+</Step>
+<Step>
+
+### Activate remote access
+
+1. Log in with your BioStar 2 admin ID.
+
+1. Click <Cmd sid='common.setting' /> on the top of screen.
+
+1. Click <Cmd sid='setting.menu.remoteAccess.root' />.
+
+1. Change the <Cmd sid='setting.menu.remoteAccess.root' /> option to <Cmd sid='common.use' /> in the <Cmd sid='setting.remoteAccess.section.title' /> section.
+
+<Image src='/img/bs2-settings-remote-access.png' />
+
+:::info
+
+<Cmd sid='setting.menu.remoteAccess.root' /> feature is limited in the services that can be accessed depending on whether <Cmd sid='common.enabled' /> is enabled. <Cmd sid='common.enabled' /> can be configured in <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />.
+
+* If <Cmd sid='common.enabled' /> is enabled, all services can be accessed via remote access.
+
+* If <Cmd sid='common.enabled' /> is disabled, only the access control service can be accessed via remote access.
+
+:::
+
+</Step>
+<Step>
+
+### Enter ngrok setup information
+
+Enter the ngrok setup information provided by Suprema.
+
+* <Cmd sid='setting.remoteAccess.field.tunnelToken' />: Enter your authentication token(Authtoken).
+
+* <Cmd sid='setting.remoteAccess.field.hostURL' />: Enter the endpoint URL. The URL is in the format `your-name.bsx.ngrok.app`.
+
+After entering all the information, click <Cmd sid='button.apply' product='2' />. If a warning message window appears, check the content and click the <Cmd sid='setting.remoteAccess.button.agree' /> button.
+
+</Step>
+
+</Steps>
+
+## Access endpoint URL
+
+After completing the setup, verify whether you can access the BioStar 2 server from an external network using the endpoint URL you entered in <Cmd sid='setting.remoteAccess.field.hostURL' />.
+
+:::info
+
+If you cannot access via endpoint URL from an external network, contact the sales point or distributor that issued your license.
+
+:::
