@@ -34,6 +34,17 @@ const sidebars = {
           items: [
             {
               type: 'category',
+              label: '2.9.12 버전',
+              link: {
+                type: 'doc',
+                id: 'update/biostar2-2912'
+              },
+              items: [
+                'update/2912/bs2-remote-access',
+              ]
+            },
+            {
+              type: 'category',
               label: '2.9.11 버전',
               link: {
                 type: 'doc',
@@ -115,6 +126,7 @@ const sidebars = {
             id: 'revision/index',
           },
           items: [
+            'revision/2912',
             'revision/2911',
             'revision/2910',
             'revision/298',

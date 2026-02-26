@@ -1,13 +1,11 @@
 ---
 id: bs2-remote-access
-title: Remote Access Settings
+title: Setting Remote Access
 description: Learn how to configure Remote Access. This feature allows to securely access internal networks from external networks using the ngrok service.
-keywords:
-  - Remote Access
-  - ngrok
+keywords: [ Remote Access, ngrok ]
 ---
 
-Remote access is a new feature that replaces the existing cloud function. This feature allows to securely access internal networks from external networks using the ngrok service. This feature enables access to the BioStar 2 server remotely without firewall settings or port forwarding.
+Remote access is a new feature that replaces the existing BioStar 2 CLOUD feature. This feature allows to securely access internal networks from external networks using the ngrok service. This feature enables access to the BioStar 2 server remotely without firewall settings or port forwarding.
 
 :::info
 
@@ -75,13 +73,14 @@ For more information on license registration, refer to [the following](settings-
 
 <Image src='/img/bs2-settings-remote-access.png' />
 
-:::info
+:::info **Remote Access Permissions based on Unified Gateway Settings**
 
-<Cmd sid='setting.menu.remoteAccess.root' /> feature is limited in the services that can be accessed depending on whether <Cmd sid='common.enabled' /> is enabled. <Cmd sid='common.enabled' /> can be configured in <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />.
+The services accessible via <Cmd sid='setting.menu.remoteAccess.root' /> vary depending on whether the <Cmd sid='common.enabled' /> is enabled. You can configure the <Cmd sid='common.enabled' /> in <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />.
 
-* If <Cmd sid='common.enabled' /> is enabled, all services can be accessed via remote access.
-
-* If <Cmd sid='common.enabled' /> is disabled, only the access control service can be accessed via remote access.
+| Unified Gateway | Accessible Services |
+| :--- | :--- |
+| **Active** | All services |
+| **Inactive** | Access Control service |
 
 :::
 
@@ -94,7 +93,7 @@ Enter the ngrok setup information provided by Suprema.
 
 * <Cmd sid='setting.remoteAccess.field.tunnelToken' />: Enter your authentication token(Authtoken).
 
-* <Cmd sid='setting.remoteAccess.field.hostURL' />: Enter the endpoint URL. The URL is in the format `your-name.bsx.ngrok.app`.
+* <Cmd sid='setting.remoteAccess.field.hostURL' />: Enter the endpoint URL. The URL is in the format `your-name.bs.ngrok.app`.
 
 After entering all the information, click <Cmd sid='button.apply' product='2' />. If a warning message window appears, check the content and click the <Cmd sid='setting.remoteAccess.button.agree' /> button.
 

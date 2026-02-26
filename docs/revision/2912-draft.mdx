@@ -1,0 +1,302 @@
+---
+id: 2912-draft
+title: 버전 2.9.12 (빌드 번호 2.9.12.27)
+draft: true
+---
+
+릴리즈<Separator/>2026-02-27
+
+<details>
+<summary>**FaceStation F2 v1.x.x 펌웨어 지원 중단 안내**</summary>
+
+BioStar 2 v2.9.7부터 사용자의 비주얼 페이스를 장치에 동기화할 때 템플릿만 전송하도록 변경하여 동기화 성능을 최적화했습니다.
+
+따라서 BioStar 2 v2.9.7부터는 장치에서만 템플릿을 추출할 수 있는 FaceStation F2 v1.x.x 펌웨어의 지원이 중단됩니다.
+
+현재 FaceStation F2의 1.x.x 버전 펌웨어를 사용 중인 경우 BioStar 2 v2.9.7을 사용하기 위해서는 FaceStation F2를 최신 펌웨어로 업그레이드하여 사용하세요.
+
+최신 펌웨어는 [슈프리마 다운로드 센터](https://download.supremainc.com)에서 다운로드할 수 있습니다.
+
+</details>
+
+## 신규 기능 및 개선
+
+---
+
+<Jira num='BE-3846' /> BioStar2에 BioStation 3 MAX 지원
+<Jira num='SW5-974' /> 2. BioStar2 XPass Q2 support
+
+1. 신규 장치 연결 지원
+
+   * BioStation 3 Max
+
+   * XPass Q2
+
+1. Supports a new devices.
+
+   * BioStation 3 Max
+
+   * XPass Q2
+
+<Jira num='BVE-3732' /> BioStar 2.9.12에서 장치의 이벤트 로그 삭제 하기
+
+1. BioStar 2에서 장치의 이벤트 로그를 삭제할 수 있는 기능 추가
+
+1. Support for deleting device event logs in BioStar 2.
+
+<Jira num='BE-3908' /> BSX 로 인해 신규 추가된 이벤트를 BioStar 2 에 추가
+
+1. BioStar X 지원 펌웨어가 설치된 장치를 BioStar 2에서 사용할 때, 신규 이벤트 로그가 정상적으로 출력되도록 업데이트
+
+1. Updated to correctly display new event logs when using devices with BioStar X supported firmware in BioStar 2.
+
+<Jira num='SW5-1181' /> [BDP-1378] - BioStar 2 에서 Remote Access 지원
+
+1. <Cmd sid="setting.menu.remoteAccess.root" /> 기능 지원
+
+1. Support for <Cmd sid="setting.menu.remoteAccess.root" />.
+
+<Jira num='TA-999' /> PDF Export URL 관련 취약점 수정
+<Jira num='TA-967' /> Minimist 버전 업그레이드
+<Jira num='TA-961' /> 하드코딩된 테스트관련 ID / PW 조정
+<Jira num='TA-843' /> DB 비번 암호화 강화 반영
+
+1. 근태 관리 보안 취약점 개선
+
+   * PDF 내보내기 시 발생하는 URL 노출 및 비인가 접근 취약점 개선
+
+   * Minimist 라이브러리 보안 취약점에 따른 버전 업데이트
+
+   * 스크립트 파일 내 하드코딩된 테스트 계정 정보 제거
+
+   * DB 비밀번호 암호화 방식 강화
+
+1. Security improvements for Time & Attendance
+
+   * Fixed a security vulnerability regarding URL exposure and unauthorized access during PDF export.
+
+   * Updated the Minimist library to address security vulnerabilities.
+
+   * Removed hardcoded test credentials from JavaScript files.
+
+   * Enhanced the database password encryption method.
+
+<Jira num='BVE-3694' /> [보안] JDK 21 보안 업데이트
+
+1. Open JDK 버전 업데이트
+
+1. Updated Open JDK version.
+
+<Jira num='BVE-3596' /> 보안 헤더 추가
+<Jira num='BVE-3555' /> DB 접속 비밀번호 암호화 강화
+<Jira num='BF-2011' /> Java 서버 보안 취약점 관련 라이브러리 업데이트 작업
+<Jira num='BF-1984' /> openSSL 취약점 - openssl 버전 업그레이드
+<Jira num='SW5-1183' /> [Report, Dashboard] Update Axios Dependency
+<Jira num='BE-3934' /> [Directory Integration] ad server 설정 정보 조회 시 비밀번호가 평문으로 노출되는 문제
+<Jira num='BE-3923' /> [보안] user 리스트 pdf, svg print 시 생성되는 파일에 권한 없이 접근 가능한 취약점 수정
+<Jira num='FRON-972' /> download 폴더 내에 있는 파일다운로드 요청 할 때 header에 session id 추가
+<Jira num='BVE-3661' /> [보안] GET /api/zones SQL Injection 취약점
+<Jira num='SW5-1171' /> Fix SQL Injection issue FISS-4623
+
+1. 시스템 보안 취약점 개선
+
+   * 웹 서버 보안 헤더(HTTP Security Headers) 적용
+
+   * 데이터베이스 접속 비밀번호의 암호화 저장 방식 강화
+
+   * Java 서버 보안 취약점 관련 내부 라이브러리 업데이트
+
+   * 디렉토리 연동 페이지의 비밀번호 보안 강화
+
+   * 사용자 목록 페이지의 접근 권한 관련 취약점 개선
+
+   * SQL Injection 보안 취약점 개선
+
+1. Improved system security vulnerabilities
+
+   * Application of HTTP security headers for the web server
+
+   * Enhancement of the encryption method for database connection passwords
+
+   * Update of internal libraries regarding Java server security vulnerabilities
+
+   * Enhancement of password security on the Directory Integration page
+
+   * Improved access permissions on the User List page
+
+   * Improved SQL Injection vulnerabilities
+
+<Jira num='BVE-3595' /> [보안] 2.9.8 이상으로 업그레이드 시 redis 삭제 권고 팝업 및 삭제
+
+1. 보안 강화를 위해 2.9.8 이상 버전으로 업그레이드 시, 불필요한 Redis가 설치되어 있을 경우 삭제를 권고하는 팝업 메시지 추가
+
+1. Added a popup message recommending the deletion of unnecessary Redis for enhanced security when upgrading to version 2.9.8 or higher.
+
+<Jira num='BE-3919' /> Directory Integration 동기화 사용 시, BioStar 사용자에 대한 디렉토리 연동 제외 처리
+
+1. 2.9.8 이하의 버전에서 업그레이드 시, 기존 사용자의 데이터를 보호하기 위해 첫 동기화 과정에서 연동 제외 설정을 자동으로 적용하도록 개선
+
+1. Improved the upgrade process from v2.9.8 or earlier to automatically apply the 'Exclude from Synchronization' setting to existing users during the first synchronization.
+
+
+## 버그 수정
+
+---
+
+<BugLists>
+
+<Jira num='TA-964' /> AC 인증로그와 Sync 되지 않아서 TA 근태보고서가 정상출력 되지 않음.
+
+1. 출입 인증 로그가 동기화되지 않아 근태 보고서가 정상적으로 출력되지 않는 문제 <Badge>2.8.9</Badge>
+
+1. Time & Attendance reports not generating correctly due to authentication log synchronization failure. <Badge>2.8.9</Badge>
+
+<Jira num='TA-788' /> report_filter api 개선
+
+1. 관리자 권한이 없는 사용자가 API를 통해 타인의 리포트 필터를 조회할 수 있는 문제 <Badge>2.4.1</Badge>
+
+1. Fixed an issue where non-admin users could access other users' report filters via the API. <Badge>2.4.1</Badge>
+
+<Jira num='TA-707' /> 암복호화시 이슈되는 컬럼 데이터 부분 변경
+
+1. 개인 정보 DB 암호화 설정 변경 시, 마이그레이션이 실패하는 문제 <Badge>2.2.0</Badge>
+
+1. Fixed an issue where database migration failed when enabling or disabling the Encrypt Personal Data On DataBase option. <Badge>2.2.0</Badge>
+
+<Jira num='BVE-3673' /> 동일한 장치로 muster zone과 hard-global apb가 함께 생성되었을 시 apb동작하지 않음
+
+1. 동일한 장치가 소집 구역과 글로벌 하드 안티패스백이 동시에 구성된 경우, 안티패스백 기능이 정상적으로 동작하지 않는 문제 <Badge>2.8.10</Badge>
+
+1. Fixed an issue where the anti-passback feature did not function properly when the same device was configured for both Muster zone and Global Hard APB. <Badge>2.8.10</Badge>
+
+<Jira num='BVE-3652' /> Visual Face 마이그레이션 대상 얼굴 수가 0개일때 팝업 추가
+
+1. 비주얼 페이스 마이그레이션 시, 대상 데이터가 존재함에도 결과가 0건으로 표시되는 문제 <Badge>2.0.0</Badge>
+
+   * 비주얼 페이스 마이그레이션 대상이 없는 경우, 불필요한 진행을 막고 알림 메시지를 표시하도록 개선
+
+1. Fixed an issue where the Visual Face Migration result was displayed as 0 even when valid data existed. <Badge>2.0.0</Badge>
+
+    * Added a popup message to prevent unnecessary processing when there are no valid data for Visual Face Migration. <Badge>2.0.0</Badge>
+
+<Jira num='BVE-3645' /> 이름에 `<<<>>>` 꺽쇠 기호가 들어갈 시 title 이 이상하게 뜨는 문제 수정
+
+1. 장치 이름에 `<<<` 또는 `>>>` 기호가 포함된 경우 상세 페이지에서 장치 제목 부분이 비정상적으로 표시되는 문제 <Badge>2.9.11</Badge>
+
+1. Device title displayed incorrectly on the detail page when the device name contains `<<<` or `>>>` characters. <Badge>2.9.11</Badge>
+
+<Jira num='BVE-3612' /> 장기 미출입 사용자 내역에 모바일 카드 인증 성공 이벤트는 반영 안되는 이슈
+
+1. 장기 미출입 사용자가 모바일 카드 등 특정 크리덴셜로 인증에 성공하더라도 장기 미출입 목록에서 제외되지 않는 문제 <Badge>2.8.16</Badge>
+
+1. Long-term non-access users remaining on the list even after successful authentication with specific credentials (e.g., Mobile Card). <Badge>2.8.16</Badge>
+
+<Jira num='BVE-3557' /> VisualFace Template가 허용 개수 이상일때 처리
+
+1. 특정 비주얼 페이스를 동기화할 때 서버가 종료되는 문제 <Badge>2.8.6</Badge>
+
+1. Server shutdown occurring during the synchronization of certain Visual Face. <Badge>2.8.6</Badge>
+
+<Jira num='BVE-3512' /> BS2A 에서 usb 로 로그 가져오기 기능 미동작 문제
+
+1. BioStation 2a에서 USB로 내보낸 이벤트 로그 파일을 가져올 때 오류가 발생하는 문제 <Badge>2.9.4</Badge>
+
+1. Error occurring when importing event log files exported via USB from BioStation 2a. <Badge>2.9.4</Badge>
+
+<Jira num='BF-2086' /> Transfer to Device 로 대량 사용자 전송 메모리 증가하고 완료되어도 감소하지 않는 문제
+
+1. **장치로 전송** 기능을 통해 대량의 사용자 데이터를 전송할 때, 서버 메모리 사용량이 증가한 후 감소하지 않는 문제 <Badge>2.9.7</Badge>
+
+1. Server memory usage increasing and not decreasing after transferring a large number of users to devices via the **Transfer to Device** function. <Badge>2.9.7</Badge>
+
+<Jira num='BF-2085' /> audit 많으면 암복호화 validation 체크 쿼리에서 db out of memory 발생
+
+1. 감사 로그 데이터가 과도하게 누적된 경우, 데이터 검증 과정에서 메모리 부족으로 인해 서버가 정상적으로 시작되지 않는 문제 <Badge>2.9.7</Badge>
+
+1. Server failing to start due to a database out-of-memory error during data validation when a large volume of Audit Logs is present. <Badge>2.9.7</Badge>
+
+<Jira num='BF-2004' /> Mask Detection Not Use -> Use (Deny access when wearing mask) 로 변경 시 Check Mode 가 Check before authentication으로 변경되지 않음
+
+1. **마스크 검출** 설정을 **사용(마스크 착용 시 인증 거부)**으로 변경할 때, **마스크 확인 방식**이 **인증 전 확인**으로 자동 전환되지 않는 문제 <Badge>2.9.8</Badge>
+
+1. **Mask Check Mode** failing to switch to **Check before authentication** automatically when changing **Use (Deny access when wearing mask) **in **Mask Detection** settings. <Badge>2.9.8</Badge>
+
+<Jira num='BF-1989' /> (비주기) 서버 재시작 후 로그인 시 비주얼 페이스 추출 실패 되는 문제
+
+1. 서버 재시작 후 메모리 부족 등의 사유로 인해 비주얼 페이스 추출에 실패하는 문제 <Badge>2.7.14</Badge>
+
+1. Fixed an issue where Visual Face extraction failed after a server restart due to memory constraints or initialization errors. <Badge>2.7.14</Badge>
+
+<Jira num='BF-1948' /> Monitoring, Floor Status 에서 Floor 검색필터가 제대로 동작하지 않음.
+
+1. **모니터링**의 **층 상태** 메뉴에서 특정 층이 검색 필터 목록에 나타나지 않는 문제 <Badge>2.0.0</Badge>
+
+1. Certain floors not appearing in the search filter list on the **Floor Status** page of the **MONITORING** menu. <Badge>2.0.0</Badge>
+
+<Jira num='BE-3944' /> CS-40 Aux_Input 설정이 안되는 문제
+
+1. CoreStation 장치 상세 페이지에서 탬퍼 및 AC Fail 입력 설정을 변경해도 저장이 되지 않는 문제 <Badge>2.9.10</Badge>
+
+1. CoreStation device detail page failing to save changes to Tamper and AC Fail input settings. <Badge>2.9.10</Badge>
+
+<Jira num='BE-3928' /> 출입문 그룹 명에 \"_\" (Underscore)가 있는 그룹을 삭제 시 다른 그룹도 삭제되는 문제
+
+1. 출입문 그룹 명에 언더스코어(`_`)가 포함된 그룹을 삭제할 때, 이름이 유사한 다른 그룹까지 함께 삭제되는 문제 <Badge>2.0.0</Badge>
+
+1. Unintended deletion of door groups with similar names when deleting a group that includes an underscore (`_`). <Badge>2.0.0</Badge>
+
+<Jira num='BE-3924' /> EntraID에서 특정 그룹만 선택해서 동기화 시 그룹에 속하지 않는 사용자들도 같이 동기화 되는 이슈
+
+1. Microsoft Entra ID 연동 시 특정 사용자 그룹만 선택하여 동기화하더라도, 그룹에 속하지 않은 전체 사용자가 함께 동기화되는 문제 <Badge>2.9.10</Badge>
+
+1. Fixed an issue where all users were synchronized from Microsoft Entra ID even when only specific user groups were selected for synchronization. <Badge>2.9.10</Badge>
+
+<Jira num='BE-3922' /> usergroup mapping을 none으로 하고 일부 그룹만 선택 후 동기화 시 동기화가 안되는 이슈
+
+1. Microsoft Entra ID 연동 시 사용자 그룹 매핑을 '없음(None)'으로 설정하고 특정 그룹만 선택하여 동기화할 경우, 사용자가 정상적으로 추가되지 않는 문제 <Badge>2.9.10</Badge>
+
+1. Fixed an issue where users were not synchronized when the User Group mapping field was set to 'None' and only specific groups were selected. <Badge>2.9.10</Badge>
+
+<Jira num='BE-3917' /> 음수의 ID 가진 Wiegand Reader 장치 설정 저장 문제
+
+1. 음수 ID를 가진 위겐드 리더의 상세 페이지에서 설정을 저장할 때 서버 에러가 발생하는 문제 <Badge>2.9.11</Badge>
+
+1. Server error occurring when saving settings on the detail page of a Wiegand Reader device with a negative ID. <Badge>2.9.11</Badge>
+
+<Jira num='BE-3916' /> Active Directory 연결 정보 입력 시 Base Domain Name에 OU, DC를 소문자도 허용하도록 수정
+
+1. Active Directory 연동 시 **기본 Domain 명**의 키값(OU, DC)을 소문자로 입력하면 동기화가 실패하는 문제 <Badge>2.9.10</Badge>
+
+1. Improved the Active Directory synchronization logic to support both uppercase and lowercase keys (e.g., ou, dc) in the Base Domain Name. <Badge>2.9.10</Badge>
+
+<Jira num='BE-3914' /> sAMAccountName이 스펙에 맞지 않을 경우 AD 동기화 및 사용자 등록이 안되는 버그
+
+1. Active Directory 동기화 시, 사용자의 `sAMAccountName`에 특수 문자 등 특정 규격에 맞지 않는 문자가 포함되어 있으면 사용자 등록이 실패하는 문제 <Badge>2.9.10</Badge>
+
+1. User registration failure during Active Directory synchronization when the `sAMAccountName` contains non-standard characters. <Badge>2.9.10</Badge>
+
+<Jira num='BE-3910' /> EntraID의 그룹이 100개 이상 사용할 경우, BioStar2 동기화 시 사용자 그룹 필터를 못 가져오는 이슈
+
+1. Microsoft Entra ID에 등록된 사용자 그룹이 100개를 초과할 경우, 그룹 목록을 불러오지 못하거나 동기화가 정상적으로 진행되지 않는 문제 <Badge>2.9.10</Badge>
+
+1. Failure to retrieve group lists or synchronize data from Microsoft Entra ID when the number of user groups exceeds 100. <Badge>2.9.10</Badge>
+
+<Jira num='BE-3543' /> DE-620 드라이버 업데이트 패키지 작업
+
+1. 특정 운영체제 환경에서 USB Device Agent 설치 시, DE-620 드라이버가 정상적으로 설치되지 않는 문제 <Badge>2.0.0</Badge>
+
+1. Improved the USB Device Agent installer by including the latest DE-620 drivers to ensure compatibility with Windows 11 security updates. <Badge>2.0.0</Badge>
+
+<Jira num='SW5-1172' /> Fix Failing User Profile Photo Decryption
+
+1. **개인 정보 DB 암호화** 설정 변경 후, 특정 사용자의 프로필 사진 복호화에 실패하여 리포트 등에서 사용자 조회가 되지 않는 문제 <Badge>???</Badge>
+
+1. User profile photos not displaying and users missing from reports due to decryption failures after enabling Encrypt Personal Data on Database. <Badge>???</Badge>
+
+<Jira num='SW5-1175' /> FISS-4570 - Visual Face Count Not Displayed in AC Report
+
+1. 출입 통제 리포트 출력 시, 사용자별로 등록된 비주얼 페이스 수량이 표시되지 않는 문제 <Badge>???</Badge>
+
+1. Visual Face counts enrolled to users not displaying in the AC Report. <Badge>???</Badge>
+
+</BugLists>

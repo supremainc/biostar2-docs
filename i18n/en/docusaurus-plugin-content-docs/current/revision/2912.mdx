@@ -1,0 +1,117 @@
+---
+id: 2912
+title: Version 2.9.12 (Build No. 2.9.12.27)
+---
+
+Release<Separator/>2026-02-27
+
+import DocumentA from '../common/_fsf2-firmware-support-discontinuation.mdx';
+
+<DocumentA />
+
+## New Features and Improvements
+
+---
+
+1. Supports a new devices.
+
+   * BioStation 3 Max
+
+   * XPass Q2
+
+1. Support for deleting device event logs in BioStar 2.
+
+1. Updated to correctly display new event logs when using devices with BioStar X supported firmware in BioStar 2.
+
+1. Support for <Cmd sid="setting.menu.remoteAccess.root" />.
+
+1. Security improvements for Time & Attendance
+
+   * Fixed a security vulnerability regarding URL exposure and unauthorized access during PDF export.
+
+   * Updated the Minimist library to address security vulnerabilities.
+
+   * Removed hardcoded test credentials from JavaScript files.
+
+   * Enhanced the database password encryption method.
+
+1. Updated Open JDK version.
+
+1. Improved system security vulnerabilities
+
+   * Application of HTTP security headers for the web server
+
+   * Enhancement of the encryption method for database connection passwords
+
+   * Update of internal libraries regarding Java server security vulnerabilities
+
+   * Enhancement of password security on the Directory Integration page
+
+   * Improved access permissions on the User List page
+
+   * Improved SQL Injection vulnerabilities
+
+1. Added a popup message recommending the deletion of unnecessary Redis for enhanced security when upgrading to version 2.9.8 or higher.
+
+1. Improved the upgrade process from v2.9.8 or earlier to automatically apply the 'Exclude from Synchronization' setting to existing users during the first synchronization.
+
+
+## Bug Fixes
+
+---
+
+<BugLists>
+
+1. Time & Attendance reports not generating correctly due to authentication log synchronization failure. <Badge>2.8.9</Badge>
+
+1. Fixed an issue where non-admin users could access other users' report filters via the API. <Badge>2.4.1</Badge>
+
+1. Fixed an issue where database migration failed when enabling or disabling the Encrypt Personal Data On DataBase option. <Badge>2.2.0</Badge>
+
+1. Fixed an issue where the anti-passback feature did not function properly when the same device was configured for both Muster zone and Global Hard APB. <Badge>2.8.10</Badge>
+
+1. Fixed an issue where the Visual Face Migration result was displayed as 0 even when valid data existed. <Badge>2.0.0</Badge>
+
+    * Added a popup message to prevent unnecessary processing when there are no valid data for Visual Face Migration.
+
+1. Device title displayed incorrectly on the detail page when the device name contains `<<<` or `>>>` characters. <Badge>2.9.11</Badge>
+
+1. Long-term non-access users remaining on the list even after successful authentication with specific credentials (e.g., Mobile Card). <Badge>2.8.16</Badge>
+
+1. Server shutdown occurring during the synchronization of certain Visual Face. <Badge>2.8.6</Badge>
+
+1. Error occurring when importing event log files exported via USB from BioStation 2a. <Badge>2.9.4</Badge>
+
+1. Server memory usage increasing and not decreasing after transferring a large number of users to devices via the <Cmd sid="button.transferToDevice" /> feature. <Badge>2.9.7</Badge>
+
+1. Server failing to start due to a database out-of-memory error during data validation when a large volume of Audit Logs is present. <Badge>2.9.7</Badge>
+
+1. <Cmd sid="device.thermal.maskOnlyMode" /> failing to switch to <Cmd sid="device.thermal.authAfterMode" /> automatically when changing <Cmd sid="device.mask.checkModeDenyMask" /> in <Cmd sid="device.mask.useMask" /> settings. <Badge>2.9.8</Badge>
+
+1. Fixed an issue where Visual Face extraction failed after a server restart due to memory constraints or initialization errors. <Badge>2.7.14</Badge>
+
+1. Certain floors not appearing in the search filter list on the <Cmd sid="monitoring.elevator.tree.title" /> page of the <Cmd sid="common.gnb.monitoring" /> menu. <Badge>2.0.0</Badge>
+
+1. CoreStation device detail page failing to save changes to Tamper and AC Fail input settings. <Badge>2.9.10</Badge>
+
+1. Unintended deletion of door groups with similar names when deleting a group that includes an underscore (`_`). <Badge>2.0.0</Badge>
+
+1. Fixed an issue where all users were synchronized from Microsoft Entra ID even when only specific user groups were selected for synchronization. <Badge>2.9.10</Badge>
+
+1. Fixed an issue where users were not synchronized when the User Group mapping field was set to 'None' and only specific groups were selected. <Badge>2.9.10</Badge>
+
+1. Server error occurring when saving settings on the detail page of a Wiegand Reader device with a negative ID. <Badge>2.9.11</Badge>
+
+1. Improved the Active Directory synchronization logic to support both uppercase and lowercase keys (e.g., ou, dc) in the <Cmd sid="settings.activeDirectory.DomainNode" />. <Badge>2.9.10</Badge>
+
+1. User registration failure during Active Directory synchronization when the `sAMAccountName` contains non-standard characters. <Badge>2.9.10</Badge>
+
+1. Failure to retrieve group lists or synchronize data from Microsoft Entra ID when the number of user groups exceeds 100. <Badge>2.9.10</Badge>
+
+1. Improved the USB Device Agent installer by including the latest DE-620 drivers to ensure compatibility with Windows 11 security updates. <Badge>2.0.0</Badge>
+
+1. User profile photos not displaying and users missing from reports due to decryption failures after enabling <Cmd sid="setting.sever.secure.comm.encrypt.db" />. <Badge>???</Badge>
+
+1. Visual Face counts enrolled to users not displaying in the AC Report. <Badge>???</Badge>
+
+</BugLists>
