@@ -3877,7 +3877,7 @@ var types = [
   __webpack_require__(4785),
   __webpack_require__(8291),
   __webpack_require__(2709),
-  __webpack_require__(2506),
+  __webpack_require__(4852),
   __webpack_require__(9176)
 ];
 var draining;
@@ -4034,7 +4034,7 @@ exports.install = function (func) {
 
 
 }),
-2506: (function (__unused_webpack_module, exports, __webpack_require__) {
+4852: (function (__unused_webpack_module, exports, __webpack_require__) {
 "use strict";
 
 

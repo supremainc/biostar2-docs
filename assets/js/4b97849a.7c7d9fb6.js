@@ -1,6 +1,6 @@
 "use strict";
-(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["8792"], {
-9116: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["1788"], {
+4612: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -9,23 +9,28 @@ __webpack_require__.d(__webpack_exports__, {
   frontMatter: () => (/* binding */ frontMatter),
   "default": () => (/* binding */ MDXContent),
   toc: () => (/* binding */ toc),
-  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_index_mdx_216_namespaceObject),
+  metadata: () => (/* reexport */ site_docs_update_biostar_2_2912_mdx_4b9_namespaceObject),
   assets: () => (/* binding */ assets),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-index-mdx-216.json
-var site_i_18_n_en_docusaurus_plugin_content_docs_current_index_mdx_216_namespaceObject = JSON.parse('{"id":"index","title":"BioStar 2 New Feature Overview","description":"Starting with BioStar v2.9.5, Feature Guide is provided separately by topic on how to use new or improved features.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/index.mdx","sourceDirName":".","slug":"/","permalink":"/biostar2-docs/en/","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"title":"BioStar 2 New Feature Overview","description":"Starting with BioStar v2.9.5, Feature Guide is provided separately by topic on how to use new or improved features.","isTranslationMissing":false},"sidebar":"biostar","next":{"title":"Updates in BioStar 2 v2.9.11","permalink":"/biostar2-docs/en/update/biostar2-2911"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-biostar-2-2912-mdx-4b9.json
+var site_docs_update_biostar_2_2912_mdx_4b9_namespaceObject = JSON.parse('{"id":"update/biostar2-2912","title":"2.9.12 버전 업데이트 안내","description":"BioStar 2.9.12 버전에서 업데이트된 기능들을 소개하고 사용하기 쉽도록 안내합니다.","source":"@site/docs/update/biostar2-2912.mdx","sourceDirName":"update","slug":"/update/biostar2-2912","permalink":"/biostar2-docs/update/biostar2-2912","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"biostar2-2912","title":"2.9.12 버전 업데이트 안내","keywords":["2.9.12 버전","BioStation 3 Max","XPass Q2"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"BioStar 2 신규 기능 소개","permalink":"/biostar2-docs/"},"next":{"title":"리모트 액세스 설정하기","permalink":"/biostar2-docs/update/2912/bs2-remote-access"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(65);
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/index.mdx
+;// CONCATENATED MODULE: ./docs/update/biostar2-2912.mdx
 
 
 const frontMatter = {
-	title: 'BioStar 2 New Feature Overview',
-	description: 'Starting with BioStar v2.9.5, Feature Guide is provided separately by topic on how to use new or improved features.',
+	id: 'biostar2-2912',
+	title: '2.9.12 버전 업데이트 안내',
+	keywords: [
+		'2.9.12 버전',
+		'BioStation 3 Max',
+		'XPass Q2'
+	],
 	isTranslationMissing: false
 };
 const contentTitle = undefined;
@@ -39,16 +44,15 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
-    hr: "hr",
     p: "p",
     ...(0,lib/* useMDXComponents */.a)(),
     ...props.components
-  }, {Overview} = _components;
-  if (!Overview) _missingMdxReference("Overview", true);
+  }, {DocCardList} = _components;
+  if (!DocCardList) _missingMdxReference("DocCardList", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
-      children: "Starting with BioStar v2.9.5, Feature Guide is provided separately by topic on how to use new or improved features."
-    }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsx)(Overview, {})]
+      children: "BioStar 2.9.12 버전에서 업데이트된 기능들을 소개하고 사용하기 쉽도록 안내합니다."
+    }), "\n", (0,jsx_runtime.jsx)(DocCardList, {})]
   });
 }
 function MDXContent(props = {}) {

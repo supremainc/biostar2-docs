@@ -1,6 +1,6 @@
 "use strict";
-(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["9439"], {
-3528: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["8792"], {
+9116: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -9,23 +9,23 @@ __webpack_require__.d(__webpack_exports__, {
   frontMatter: () => (/* binding */ frontMatter),
   "default": () => (/* binding */ MDXContent),
   toc: () => (/* binding */ toc),
-  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_biostar_2_2911_mdx_ef8_namespaceObject),
+  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_index_mdx_216_namespaceObject),
   assets: () => (/* binding */ assets),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-biostar-2-2911-mdx-ef8.json
-var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_biostar_2_2911_mdx_ef8_namespaceObject = JSON.parse('{"id":"update/biostar2-2911","title":"Updates in BioStar 2 v2.9.11","description":"Introduces the updated features in BioStar version 2.9.11 and provides a guide for easy usage.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2911.mdx","sourceDirName":"update","slug":"/update/biostar2-2911","permalink":"/biostar2-docs/en/update/biostar2-2911","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"biostar2-2911","title":"Updates in BioStar 2 v2.9.11","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"BioStar 2 New Feature Overview","permalink":"/biostar2-docs/en/"},"next":{"title":"Setting Master Admin","permalink":"/biostar2-docs/en/update/2911/bs2-master-admin"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-index-mdx-216.json
+var site_i_18_n_en_docusaurus_plugin_content_docs_current_index_mdx_216_namespaceObject = JSON.parse('{"id":"index","title":"BioStar 2 New Feature Overview","description":"Starting with BioStar v2.9.5, Feature Guide is provided separately by topic on how to use new or improved features.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/index.mdx","sourceDirName":".","slug":"/","permalink":"/biostar2-docs/en/","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"title":"BioStar 2 New Feature Overview","description":"Starting with BioStar v2.9.5, Feature Guide is provided separately by topic on how to use new or improved features.","isTranslationMissing":false},"sidebar":"biostar","next":{"title":"Updates in BioStar 2 v2.9.12","permalink":"/biostar2-docs/en/update/biostar2-2912"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(65);
-;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2911.mdx
+;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/index.mdx
 
 
 const frontMatter = {
-	id: 'biostar2-2911',
-	title: 'Updates in BioStar 2 v2.9.11',
+	title: 'BioStar 2 New Feature Overview',
+	description: 'Starting with BioStar v2.9.5, Feature Guide is provided separately by topic on how to use new or improved features.',
 	isTranslationMissing: false
 };
 const contentTitle = undefined;
@@ -39,15 +39,16 @@ const assets = {
 const toc = [];
 function _createMdxContent(props) {
   const _components = {
+    hr: "hr",
     p: "p",
     ...(0,lib/* useMDXComponents */.a)(),
     ...props.components
-  }, {DocCardList} = _components;
-  if (!DocCardList) _missingMdxReference("DocCardList", true);
+  }, {Overview} = _components;
+  if (!Overview) _missingMdxReference("Overview", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
-      children: "Introduces the updated features in BioStar version 2.9.11 and provides a guide for easy usage."
-    }), "\n", (0,jsx_runtime.jsx)(DocCardList, {})]
+      children: "Starting with BioStar v2.9.5, Feature Guide is provided separately by topic on how to use new or improved features."
+    }), "\n", (0,jsx_runtime.jsx)(_components.hr, {}), "\n", (0,jsx_runtime.jsx)(Overview, {})]
   });
 }
 function MDXContent(props = {}) {

@@ -1,6 +1,6 @@
 "use strict";
-(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["852"], {
-6779: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["9439"], {
+3528: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -9,28 +9,23 @@ __webpack_require__.d(__webpack_exports__, {
   frontMatter: () => (/* binding */ frontMatter),
   "default": () => (/* binding */ MDXContent),
   toc: () => (/* binding */ toc),
-  metadata: () => (/* reexport */ site_docs_update_biostar_2_2911_mdx_0c2_namespaceObject),
+  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_biostar_2_2911_mdx_ef8_namespaceObject),
   assets: () => (/* binding */ assets),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-biostar-2-2911-mdx-0c2.json
-var site_docs_update_biostar_2_2911_mdx_0c2_namespaceObject = JSON.parse('{"id":"update/biostar2-2911","title":"2.9.11 버전 업데이트 안내","description":"BioStar 2.9.11 버전에서 업데이트된 기능들을 소개하고 사용하기 쉽도록 안내합니다.","source":"@site/docs/update/biostar2-2911.mdx","sourceDirName":"update","slug":"/update/biostar2-2911","permalink":"/biostar2-docs/update/biostar2-2911","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"biostar2-2911","title":"2.9.11 버전 업데이트 안내","keywords":["2.9.11 버전","마스터 관리자","Master Admin"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"BioStar 2 신규 기능 소개","permalink":"/biostar2-docs/"},"next":{"title":"마스터 관리자 설정하기","permalink":"/biostar2-docs/update/2911/bs2-master-admin"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-biostar-2-2911-mdx-ef8.json
+var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_biostar_2_2911_mdx_ef8_namespaceObject = JSON.parse('{"id":"update/biostar2-2911","title":"Updates in BioStar 2 v2.9.11","description":"Introduces the updated features in BioStar version 2.9.11 and provides a guide for easy usage.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2911.mdx","sourceDirName":"update","slug":"/update/biostar2-2911","permalink":"/biostar2-docs/en/update/biostar2-2911","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"biostar2-2911","title":"Updates in BioStar 2 v2.9.11","isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Setting Remote Access","permalink":"/biostar2-docs/en/update/2912/bs2-remote-access"},"next":{"title":"Setting Master Admin","permalink":"/biostar2-docs/en/update/2911/bs2-master-admin"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(65);
-;// CONCATENATED MODULE: ./docs/update/biostar2-2911.mdx
+;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2911.mdx
 
 
 const frontMatter = {
 	id: 'biostar2-2911',
-	title: '2.9.11 버전 업데이트 안내',
-	keywords: [
-		'2.9.11 버전',
-		'마스터 관리자',
-		'Master Admin'
-	],
+	title: 'Updates in BioStar 2 v2.9.11',
 	isTranslationMissing: false
 };
 const contentTitle = undefined;
@@ -51,7 +46,7 @@ function _createMdxContent(props) {
   if (!DocCardList) _missingMdxReference("DocCardList", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
-      children: "BioStar 2.9.11 버전에서 업데이트된 기능들을 소개하고 사용하기 쉽도록 안내합니다."
+      children: "Introduces the updated features in BioStar version 2.9.11 and provides a guide for easy usage."
     }), "\n", (0,jsx_runtime.jsx)(DocCardList, {})]
   });
 }
