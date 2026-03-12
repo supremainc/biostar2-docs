@@ -37096,6 +37096,7 @@ __webpack_require__.d(__webpack_exports__, {
   "favicon": "/img/favicon.ico",
   "url": "https://supremainc.github.io",
   "baseUrl": "/biostar2-docs/",
+  "noIndex": true,
   "future": {
     "v4": {
       "removeLegacyPostBuildHeadAttribute": true,
@@ -37435,8 +37436,7 @@ __webpack_require__.d(__webpack_exports__, {
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
-  "titleDelimiter": "|",
-  "noIndex": false
+  "titleDelimiter": "|"
 });
 
 

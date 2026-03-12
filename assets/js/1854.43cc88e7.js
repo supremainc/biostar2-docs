@@ -122,7 +122,7 @@ __webpack_require__.miniCssF = (chunkId) => {
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("4053c20f8c0c5981")
+__webpack_require__.h = () => ("809f68d46f13d67f")
 })();
 // webpack/runtime/has_own_property
 (() => {
@@ -168,7 +168,7 @@ var priority = deferred[i][2];
 })();
 // webpack/runtime/public_path
 (() => {
-__webpack_require__.p = "/biostar2-docs/en/";
+__webpack_require__.p = "/biostar2-docs/";
 })();
 // webpack/runtime/rspack_version
 (() => {
