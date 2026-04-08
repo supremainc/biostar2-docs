@@ -31295,7 +31295,7 @@ const language = (/* unused pure expression or super */ null && ([
     "ko",
     "en"
 ]));
-const searchIndexUrl = "search-index{dir}.json?_=2ac6f10c";
+const searchIndexUrl = "search-index{dir}.json?_=5e13fb15";
 const searchResultLimits = 8;
 const fuzzyMatchingDistance = 1;
 

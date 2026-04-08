@@ -46,6 +46,10 @@ const toc = [{
   "id": "when-to-use-this",
   "level": 2
 }, {
+  "value": "Before you start",
+  "id": "before-you-start",
+  "level": 2
+}, {
   "value": "Remote access setup",
   "id": "remote-access-setup",
   "level": 2
@@ -74,7 +78,6 @@ function _createMdxContent(props) {
     h2: "h2",
     h3: "h3",
     li: "li",
-    mdxAdmonitionTitle: "mdxAdmonitionTitle",
     ol: "ol",
     p: "p",
     strong: "strong",
@@ -102,7 +105,9 @@ function _createMdxContent(props) {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["The Remote Access feature is requires a ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "BioStar 2 Remote Access"
-            }), " license."]
+            }), " license. ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "BioStar 2 Remote Access"
+            }), " license is an annual subscription license."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -149,6 +154,81 @@ function _createMdxContent(props) {
           children: "When you need to temporarily provide outside access rights"
         }), "\n"]
       }), "\n"]
+    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
+      id: "before-you-start",
+      children: "Before you start"
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["Before using the remote access feature, make sure the ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "common.enabled"
+      }), " setting is enabled. You can check the ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "common.enabled"
+      }), " setting in ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "common.setting"
+      }), " → ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "setting.systemSecurity"
+      }), "."]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
+      title: "Remote Access Permissions based on Unified Gateway Settings",
+      type: "info",
+      children: [(0,jsx_runtime.jsxs)(_components.p, {
+        children: ["The services accessible via ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "setting.menu.remoteAccess.root"
+        }), " vary depending on whether the ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.enabled"
+        }), " is enabled. You can configure the ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.enabled"
+        }), " in ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.setting"
+        }), " → ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "setting.systemSecurity"
+        }), "."]
+      }), (0,jsx_runtime.jsxs)(_components.table, {
+        children: [(0,jsx_runtime.jsx)(_components.thead, {
+          children: (0,jsx_runtime.jsxs)(_components.tr, {
+            children: [(0,jsx_runtime.jsx)(_components.th, {
+              style: {
+                textAlign: "left"
+              },
+              children: "Unified Gateway"
+            }), (0,jsx_runtime.jsx)(_components.th, {
+              style: {
+                textAlign: "left"
+              },
+              children: "Accessible Services"
+            })]
+          })
+        }), (0,jsx_runtime.jsxs)(_components.tbody, {
+          children: [(0,jsx_runtime.jsxs)(_components.tr, {
+            children: [(0,jsx_runtime.jsx)(_components.td, {
+              style: {
+                textAlign: "left"
+              },
+              children: (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Active"
+              })
+            }), (0,jsx_runtime.jsx)(_components.td, {
+              style: {
+                textAlign: "left"
+              },
+              children: "All services"
+            })]
+          }), (0,jsx_runtime.jsxs)(_components.tr, {
+            children: [(0,jsx_runtime.jsx)(_components.td, {
+              style: {
+                textAlign: "left"
+              },
+              children: (0,jsx_runtime.jsx)(_components.strong, {
+                children: "Inactive"
+              })
+            }), (0,jsx_runtime.jsx)(_components.td, {
+              style: {
+                textAlign: "left"
+              },
+              children: "Access Control service"
+            })]
+          })]
+        })]
+      })]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "remote-access-setup",
       children: "Remote access setup"
@@ -225,71 +305,6 @@ function _createMdxContent(props) {
           }), "\n"]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/bs2-settings-remote-access.png"
-        }), (0,jsx_runtime.jsxs)(_components.admonition, {
-          type: "info",
-          children: [(0,jsx_runtime.jsx)(_components.mdxAdmonitionTitle, {
-            children: (0,jsx_runtime.jsx)(_components.strong, {
-              children: "Remote Access Permissions based on Unified Gateway Settings"
-            })
-          }), (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["The services accessible via ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "setting.menu.remoteAccess.root"
-            }), " vary depending on whether the ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.enabled"
-            }), " is enabled. You can configure the ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.enabled"
-            }), " in ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.setting"
-            }), " → ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "setting.systemSecurity"
-            }), "."]
-          }), (0,jsx_runtime.jsxs)(_components.table, {
-            children: [(0,jsx_runtime.jsx)(_components.thead, {
-              children: (0,jsx_runtime.jsxs)(_components.tr, {
-                children: [(0,jsx_runtime.jsx)(_components.th, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: "Unified Gateway"
-                }), (0,jsx_runtime.jsx)(_components.th, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: "Accessible Services"
-                })]
-              })
-            }), (0,jsx_runtime.jsxs)(_components.tbody, {
-              children: [(0,jsx_runtime.jsxs)(_components.tr, {
-                children: [(0,jsx_runtime.jsx)(_components.td, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "Active"
-                  })
-                }), (0,jsx_runtime.jsx)(_components.td, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: "All services"
-                })]
-              }), (0,jsx_runtime.jsxs)(_components.tr, {
-                children: [(0,jsx_runtime.jsx)(_components.td, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "Inactive"
-                  })
-                }), (0,jsx_runtime.jsx)(_components.td, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: "Access Control service"
-                })]
-              })]
-            })]
-          })]
         })]
       }), (0,jsx_runtime.jsxs)(Step, {
         children: [(0,jsx_runtime.jsx)(_components.h3, {
@@ -309,8 +324,27 @@ function _createMdxContent(props) {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "setting.remoteAccess.field.hostURL"
               }), ": Enter the endpoint URL. The URL is in the format ", (0,jsx_runtime.jsx)(_components.code, {
-                children: "your-name.bs.ngrok.app"
+                children: "https://desire-subdomain.bs.ngrok.app"
               }), "."]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
+              type: "info",
+              children: [(0,jsx_runtime.jsxs)(_components.p, {
+                children: ["The subdomain (", (0,jsx_runtime.jsx)(_components.code, {
+                  children: "desire-subdomain"
+                }), ") must follow the rules below. Subdomains that do not comply with these rules cannot be used."]
+              }), (0,jsx_runtime.jsxs)(_components.ul, {
+                children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+                  children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                    children: ["Only English alphabets (A-Z, a-z), numbers (0-9), and hyphens (", (0,jsx_runtime.jsx)(_components.code, {
+                      children: "-"
+                    }), ") are allowed."]
+                  }), "\n"]
+                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                    children: "Special characters and spaces are not allowed."
+                  }), "\n"]
+                }), "\n"]
+              })]
             }), "\n"]
           }), "\n"]
         }), (0,jsx_runtime.jsxs)(_components.p, {

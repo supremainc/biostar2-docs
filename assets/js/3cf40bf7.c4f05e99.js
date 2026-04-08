@@ -46,6 +46,10 @@ const toc = [{
   "id": "언제-사용하나요",
   "level": 2
 }, {
+  "value": "시작하기 전에",
+  "id": "시작하기-전에",
+  "level": 2
+}, {
   "value": "리모트 액세스 설정",
   "id": "리모트-액세스-설정",
   "level": 2
@@ -74,7 +78,6 @@ function _createMdxContent(props) {
     h2: "h2",
     h3: "h3",
     li: "li",
-    mdxAdmonitionTitle: "mdxAdmonitionTitle",
     ol: "ol",
     p: "p",
     strong: "strong",
@@ -102,7 +105,9 @@ function _createMdxContent(props) {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
             children: ["리모트 액세스(Remote Access) 기능은 ", (0,jsx_runtime.jsx)(_components.strong, {
               children: "BioStar 2 리모트 액세스"
-            }), " 라이선스가 필요합니다."]
+            }), " 라이선스가 필요합니다. ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "BioStar 2 리모트 액세스"
+            }), " 라이선스는 연간 구독 라이선스입니다."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
@@ -149,6 +154,81 @@ function _createMdxContent(props) {
           children: "임시로 외부 접속 권한을 제공해야 하는 경우"
         }), "\n"]
       }), "\n"]
+    }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
+      id: "시작하기-전에",
+      children: "시작하기 전에"
+    }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
+      children: ["리모트 액세스 기능을 사용하기 전에 ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "common.enabled"
+      }), " 설정이 활성화되어 있는지 확인하세요. ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "common.enabled"
+      }), " 설정은 ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "common.setting"
+      }), " → ", (0,jsx_runtime.jsx)(Cmd, {
+        sid: "setting.systemSecurity"
+      }), "에서 확인할 수 있습니다."]
+    }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
+      title: "통합 게이트웨이 설정에 따른 리모트 액세스 접근 권한",
+      type: "info",
+      children: [(0,jsx_runtime.jsxs)(_components.p, {
+        children: [(0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.enabled"
+        }), "의 활성화 여부에 따라 ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "setting.menu.remoteAccess.root"
+        }), "로 접근할 수 있는 서비스가 달라집니다. ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.enabled"
+        }), "는 ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.setting"
+        }), " → ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "setting.systemSecurity"
+        }), "에서 설정할 수 있습니다."]
+      }), (0,jsx_runtime.jsxs)(_components.table, {
+        children: [(0,jsx_runtime.jsx)(_components.thead, {
+          children: (0,jsx_runtime.jsxs)(_components.tr, {
+            children: [(0,jsx_runtime.jsx)(_components.th, {
+              style: {
+                textAlign: "left"
+              },
+              children: "통합 게이트웨이"
+            }), (0,jsx_runtime.jsx)(_components.th, {
+              style: {
+                textAlign: "left"
+              },
+              children: "접근 가능 서비스"
+            })]
+          })
+        }), (0,jsx_runtime.jsxs)(_components.tbody, {
+          children: [(0,jsx_runtime.jsxs)(_components.tr, {
+            children: [(0,jsx_runtime.jsx)(_components.td, {
+              style: {
+                textAlign: "left"
+              },
+              children: (0,jsx_runtime.jsx)(_components.strong, {
+                children: "활성화"
+              })
+            }), (0,jsx_runtime.jsx)(_components.td, {
+              style: {
+                textAlign: "left"
+              },
+              children: "모든 서비스"
+            })]
+          }), (0,jsx_runtime.jsxs)(_components.tr, {
+            children: [(0,jsx_runtime.jsx)(_components.td, {
+              style: {
+                textAlign: "left"
+              },
+              children: (0,jsx_runtime.jsx)(_components.strong, {
+                children: "비활성화"
+              })
+            }), (0,jsx_runtime.jsx)(_components.td, {
+              style: {
+                textAlign: "left"
+              },
+              children: "출입 통제 서비스"
+            })]
+          })]
+        })]
+      })]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
       id: "리모트-액세스-설정",
       children: "리모트 액세스 설정"
@@ -224,71 +304,6 @@ function _createMdxContent(props) {
           }), "\n"]
         }), (0,jsx_runtime.jsx)(Image, {
           src: "/img/bs2-settings-remote-access.png"
-        }), (0,jsx_runtime.jsxs)(_components.admonition, {
-          type: "info",
-          children: [(0,jsx_runtime.jsx)(_components.mdxAdmonitionTitle, {
-            children: (0,jsx_runtime.jsx)(_components.strong, {
-              children: "통합 게이트웨이 설정에 따른 리모트 액세스 접근 권한"
-            })
-          }), (0,jsx_runtime.jsxs)(_components.p, {
-            children: [(0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.enabled"
-            }), "의 활성화 여부에 따라 ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "setting.menu.remoteAccess.root"
-            }), "로 접근할 수 있는 서비스가 달라집니다. ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.enabled"
-            }), "는 ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "common.setting"
-            }), " → ", (0,jsx_runtime.jsx)(Cmd, {
-              sid: "setting.systemSecurity"
-            }), "에서 설정할 수 있습니다."]
-          }), (0,jsx_runtime.jsxs)(_components.table, {
-            children: [(0,jsx_runtime.jsx)(_components.thead, {
-              children: (0,jsx_runtime.jsxs)(_components.tr, {
-                children: [(0,jsx_runtime.jsx)(_components.th, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: "통합 게이트웨이"
-                }), (0,jsx_runtime.jsx)(_components.th, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: "접근 가능 서비스"
-                })]
-              })
-            }), (0,jsx_runtime.jsxs)(_components.tbody, {
-              children: [(0,jsx_runtime.jsxs)(_components.tr, {
-                children: [(0,jsx_runtime.jsx)(_components.td, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "활성화"
-                  })
-                }), (0,jsx_runtime.jsx)(_components.td, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: "모든 서비스"
-                })]
-              }), (0,jsx_runtime.jsxs)(_components.tr, {
-                children: [(0,jsx_runtime.jsx)(_components.td, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: (0,jsx_runtime.jsx)(_components.strong, {
-                    children: "비활성화"
-                  })
-                }), (0,jsx_runtime.jsx)(_components.td, {
-                  style: {
-                    textAlign: "left"
-                  },
-                  children: "출입 통제 서비스"
-                })]
-              })]
-            })]
-          })]
         })]
       }), (0,jsx_runtime.jsxs)(Step, {
         children: [(0,jsx_runtime.jsx)(_components.h3, {
@@ -308,8 +323,27 @@ function _createMdxContent(props) {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "setting.remoteAccess.field.hostURL"
               }), ": 엔드포인트 URL을 입력하세요. URL은 ", (0,jsx_runtime.jsx)(_components.code, {
-                children: "your-name.bs.ngrok.app"
+                children: "https://desire-subdomain.bs.ngrok.app"
               }), " 형식입니다."]
+            }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
+              type: "info",
+              children: [(0,jsx_runtime.jsxs)(_components.p, {
+                children: ["서브 도메인(", (0,jsx_runtime.jsx)(_components.code, {
+                  children: "desire-subdomain"
+                }), ")은 아래와 같은 규칙을 따릅니다. 규칙을 준수하지 않은 서브 도메인은 사용할 수 없습니다."]
+              }), (0,jsx_runtime.jsxs)(_components.ul, {
+                children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+                  children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
+                    children: ["영문 알파벳(A-Z, a-z), 숫자(0-9), 하이픈(", (0,jsx_runtime.jsx)(_components.code, {
+                      children: "-"
+                    }), ")만 사용할 수 있습니다."]
+                  }), "\n"]
+                }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
+                  children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+                    children: "특수 문자, 공백은 사용할 수 없습니다."
+                  }), "\n"]
+                }), "\n"]
+              })]
             }), "\n"]
           }), "\n"]
         }), (0,jsx_runtime.jsxs)(_components.p, {
