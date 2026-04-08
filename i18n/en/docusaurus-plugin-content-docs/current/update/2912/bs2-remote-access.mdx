@@ -9,7 +9,7 @@ Remote access is a new feature that replaces the existing BioStar 2 CLOUD featur
 
 :::info
 
-* The Remote Access feature is requires a **BioStar 2 Remote Access** license.
+* The Remote Access feature is requires a **BioStar 2 Remote Access** license. **BioStar 2 Remote Access** license is an annual subscription license.
 
 * When purchasing the remote access license, Suprema generates a bot account, endpoint, and license document for remote access use on the ngrok Suprema site.
 
@@ -34,6 +34,21 @@ Use the remote access feature in the following situations.
 * When you want to quickly set up remote access without complex network setups
 
 * When you need to temporarily provide outside access rights
+
+## Before you start
+
+Before using the remote access feature, make sure the <Cmd sid='common.enabled' /> setting is enabled. You can check the <Cmd sid='common.enabled' /> setting in <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />.
+
+:::info[Remote Access Permissions based on Unified Gateway Settings]
+
+The services accessible via <Cmd sid='setting.menu.remoteAccess.root' /> vary depending on whether the <Cmd sid='common.enabled' /> is enabled. You can configure the <Cmd sid='common.enabled' /> in <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />.
+
+| Unified Gateway | Accessible Services |
+| :--- | :--- |
+| **Active** | All services |
+| **Inactive** | Access Control service |
+
+:::
 
 ## Remote access setup
 
@@ -67,17 +82,6 @@ Use the remote access feature in the following situations.
 
 <Image src='/img/bs2-settings-remote-access.png' />
 
-:::info **Remote Access Permissions based on Unified Gateway Settings**
-
-The services accessible via <Cmd sid='setting.menu.remoteAccess.root' /> vary depending on whether the <Cmd sid='common.enabled' /> is enabled. You can configure the <Cmd sid='common.enabled' /> in <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />.
-
-| Unified Gateway | Accessible Services |
-| :--- | :--- |
-| **Active** | All services |
-| **Inactive** | Access Control service |
-
-:::
-
 </Step>
 <Step>
 
@@ -87,7 +91,17 @@ Enter the ngrok setup information provided by Suprema.
 
 * <Cmd sid='setting.remoteAccess.field.tunnelToken' />: Enter your authentication token(Authtoken).
 
-* <Cmd sid='setting.remoteAccess.field.hostURL' />: Enter the endpoint URL. The URL is in the format `your-name.bs.ngrok.app`.
+* <Cmd sid='setting.remoteAccess.field.hostURL' />: Enter the endpoint URL. The URL is in the format `https://desire-subdomain.bs.ngrok.app`.
+
+  :::info
+
+  The subdomain (`desire-subdomain`) must follow the rules below. Subdomains that do not comply with these rules cannot be used.
+
+  * Only English alphabets (A-Z, a-z), numbers (0-9), and hyphens (`-`) are allowed.
+
+  * Special characters and spaces are not allowed.
+
+  :::
 
 After entering all the information, click <Cmd sid='button.apply' product='2' />. If a warning message window appears, check the content and click the <Cmd sid='setting.remoteAccess.button.agree' /> button.
 
