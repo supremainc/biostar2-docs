@@ -9,7 +9,7 @@ keywords: [ 리모트 액세스, ngrok ]
 
 :::info
 
-* 리모트 액세스(Remote Access) 기능은 **BioStar 2 리모트 액세스** 라이선스가 필요합니다.
+* 리모트 액세스(Remote Access) 기능은 **BioStar 2 리모트 액세스** 라이선스가 필요합니다. **BioStar 2 리모트 액세스** 라이선스는 연간 구독 라이선스입니다.
 
 * 리모트 액세스 라이선스를 구매하면 슈프리마에서는 리모트 액세스 라이선스 발급 및 리모트 액세스 사용을 위한 ngrok 슈프리마 사이트의 bot 계정, 엔드포인트를 생성하고 라이선스 문서를 사용자에게 제공합니다.
 
@@ -34,6 +34,21 @@ keywords: [ 리모트 액세스, ngrok ]
 - 복잡한 네트워크 설정 없이 간편하게 원격 접속을 구성하고 싶을 때
 
 - 임시로 외부 접속 권한을 제공해야 하는 경우
+
+## 시작하기 전에
+
+리모트 액세스 기능을 사용하기 전에 <Cmd sid='common.enabled' /> 설정이 활성화되어 있는지 확인하세요. <Cmd sid='common.enabled' /> 설정은 <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />에서 확인할 수 있습니다.
+
+:::info[통합 게이트웨이 설정에 따른 리모트 액세스 접근 권한]
+
+<Cmd sid='common.enabled' />의 활성화 여부에 따라 <Cmd sid='setting.menu.remoteAccess.root' />로 접근할 수 있는 서비스가 달라집니다. <Cmd sid='common.enabled' />는 <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />에서 설정할 수 있습니다.
+
+| 통합 게이트웨이 | 접근 가능 서비스 |
+| :--- | :--- |
+| **활성화** | 모든 서비스 |
+| **비활성화** | 출입 통제 서비스 |
+
+:::
 
 ## 리모트 액세스 설정
 
@@ -67,17 +82,6 @@ keywords: [ 리모트 액세스, ngrok ]
 
 <Image src='/img/bs2-settings-remote-access.png' />
 
-:::info **통합 게이트웨이 설정에 따른 리모트 액세스 접근 권한**
-
-<Cmd sid='common.enabled' />의 활성화 여부에 따라 <Cmd sid='setting.menu.remoteAccess.root' />로 접근할 수 있는 서비스가 달라집니다. <Cmd sid='common.enabled' />는 <Cmd sid='common.setting' /> → <Cmd sid='setting.systemSecurity' />에서 설정할 수 있습니다.
-
-| 통합 게이트웨이 | 접근 가능 서비스 |
-| :--- | :--- |
-| **활성화** | 모든 서비스 |
-| **비활성화** | 출입 통제 서비스 |
-
-:::
-
 </Step>
 <Step>
 
@@ -87,7 +91,17 @@ keywords: [ 리모트 액세스, ngrok ]
 
 * <Cmd sid='setting.remoteAccess.field.tunnelToken' />: 인증 토큰(Authtoken)을 입력하세요.
 
-* <Cmd sid='setting.remoteAccess.field.hostURL' />: 엔드포인트 URL을 입력하세요. URL은 `your-name.bs.ngrok.app` 형식입니다.
+* <Cmd sid='setting.remoteAccess.field.hostURL' />: 엔드포인트 URL을 입력하세요. URL은 `https://desire-subdomain.bs.ngrok.app` 형식입니다.
+
+  :::info
+
+  서브 도메인(`desire-subdomain`)은 아래와 같은 규칙을 따릅니다. 규칙을 준수하지 않은 서브 도메인은 사용할 수 없습니다.
+
+  * 영문 알파벳(A-Z, a-z), 숫자(0-9), 하이픈(`-`)만 사용할 수 있습니다.
+
+  * 특수 문자, 공백은 사용할 수 없습니다.
+
+  :::
 
 모든 정보를 입력한 후 <Cmd sid='button.apply' product='2' /> 버튼을 클릭하세요. 경고 메시지 창이 나타나면 내용을 확인하고 <Cmd sid='setting.remoteAccess.button.agree' /> 버튼을 클릭하세요.
 
