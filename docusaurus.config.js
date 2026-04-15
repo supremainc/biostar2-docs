@@ -39,7 +39,8 @@ const config = {
   url: 'https://supremainc.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/help/biostar2-docs/',
+  baseUrl: '/biostar2-docs/',
+  noIndex: true,
   future: {
     v4: {
       removeLegacyPostBuildHeadAttribute: true,
@@ -75,6 +76,7 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       ({
+        indexDocs: true,
         indexBlog: false,
         indexPages: false,
         docsRouteBasePath: "/",
@@ -83,6 +85,7 @@ const config = {
         language: ["ko", "en"],
         highlightSearchTermsOnTargetPage: true,
         searchBarPosition: "right",
+        forceIgnoreNoIndex: true,
       })
     ]
   ],
