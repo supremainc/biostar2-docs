@@ -25775,50 +25775,35 @@ var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
 var routesChunkNames = __webpack_require__(7138);
 ;// CONCATENATED MODULE: ./.docusaurus/registry.js
 /* ESM default export */ const registry = ({
-    "0069a404": [
-        ()=>__webpack_require__.e(/* import() | 0069a404 */ "7258").then(__webpack_require__.bind(__webpack_require__, 743)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2817.mdx",
-        /*require.resolve*/(743)
+    "011ed341": [
+        ()=>__webpack_require__.e(/* import() | 011ed341 */ "9208").then(__webpack_require__.bind(__webpack_require__, 3982)),
+        "@site/docs/revision/2817.mdx",
+        /*require.resolve*/(3982)
     ],
-    "02751dd0": [
-        ()=>__webpack_require__.e(/* import() | 02751dd0 */ "7717").then(__webpack_require__.bind(__webpack_require__, 7354)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/288.mdx",
-        /*require.resolve*/(7354)
-    ],
-    "04b7312d": [
-        ()=>__webpack_require__.e(/* import() | 04b7312d */ "8260").then(__webpack_require__.bind(__webpack_require__, 8519)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/263.mdx",
-        /*require.resolve*/(8519)
-    ],
-    "052bd3b6": [
-        ()=>__webpack_require__.e(/* import() | 052bd3b6 */ "7351").then(__webpack_require__.bind(__webpack_require__, 8884)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/297/multi-factor-auth-for-login.mdx",
-        /*require.resolve*/(8884)
+    "05df8820": [
+        ()=>__webpack_require__.e(/* import() | 05df8820 */ "7537").then(__webpack_require__.bind(__webpack_require__, 6875)),
+        "@site/docs/update/2911/bs2-master-admin.mdx",
+        /*require.resolve*/(6875)
     ],
     "07b870ec": [
         ()=>__webpack_require__.e(/* import() | 07b870ec */ "6695").then(__webpack_require__.bind(__webpack_require__, 4783)),
         "@site/docs/revision/2910-draft.mdx",
         /*require.resolve*/(4783)
     ],
-    "092c32d3": [
-        ()=>__webpack_require__.e(/* import() | 092c32d3 */ "3093").then(__webpack_require__.bind(__webpack_require__, 1766)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/285.mdx",
-        /*require.resolve*/(1766)
+    "0954da10": [
+        ()=>__webpack_require__.e(/* import() | 0954da10 */ "3455").then(__webpack_require__.bind(__webpack_require__, 702)),
+        "@site/docs/revision/284.mdx",
+        /*require.resolve*/(702)
     ],
-    "09915dc4": [
-        ()=>__webpack_require__.e(/* import() | 09915dc4 */ "79").then(__webpack_require__.bind(__webpack_require__, 2506)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2912.mdx",
-        /*require.resolve*/(2506)
+    "0a45dc6f": [
+        ()=>__webpack_require__.e(/* import() | 0a45dc6f */ "6946").then(__webpack_require__.bind(__webpack_require__, 9140)),
+        "@site/docs/update/biostar2-295.mdx",
+        /*require.resolve*/(9140)
     ],
-    "0ab78278": [
-        ()=>__webpack_require__.e(/* import() | 0ab78278 */ "2374").then(__webpack_require__.bind(__webpack_require__, 1950)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/user-photo-enroll-using-webcam.mdx",
-        /*require.resolve*/(1950)
-    ],
-    "10087596": [
-        ()=>__webpack_require__.e(/* import() | 10087596 */ "4846").then(__webpack_require__.bind(__webpack_require__, 250)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/280.mdx",
-        /*require.resolve*/(250)
+    "0c25ca7e": [
+        ()=>__webpack_require__.e(/* import() | 0c25ca7e */ "852").then(__webpack_require__.bind(__webpack_require__, 6779)),
+        "@site/docs/update/biostar2-2911.mdx",
+        /*require.resolve*/(6779)
     ],
     "138e0e15": [
         ()=>__webpack_require__.e(/* import() | 138e0e15 */ "151").then(__webpack_require__.t.bind(__webpack_require__, 3765, 19)),
@@ -25835,130 +25820,125 @@ var routesChunkNames = __webpack_require__(7138);
         "@theme/SearchPage",
         /*require.resolve*/(3634)
     ],
-    "1a808aab": [
-        ()=>__webpack_require__.e(/* import() | 1a808aab */ "6115").then(__webpack_require__.bind(__webpack_require__, 3279)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2910/ad-encrypt.mdx",
-        /*require.resolve*/(3279)
+    "1c63e954": [
+        ()=>__webpack_require__.e(/* import() | 1c63e954 */ "1254").then(__webpack_require__.bind(__webpack_require__, 3702)),
+        "@site/docs/revision/272.mdx",
+        /*require.resolve*/(3702)
     ],
-    "1bf61c02": [
-        ()=>__webpack_require__.e(/* import() | 1bf61c02 */ "6950").then(__webpack_require__.bind(__webpack_require__, 3630)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/deny-access-when-wearing-mask.mdx",
-        /*require.resolve*/(3630)
+    "1f40be42": [
+        ()=>__webpack_require__.e(/* import() | 1f40be42 */ "2968").then(__webpack_require__.bind(__webpack_require__, 5104)),
+        "@site/docs/revision/2912.mdx",
+        /*require.resolve*/(5104)
     ],
-    "1d0abbe8": [
-        ()=>__webpack_require__.e(/* import() | 1d0abbe8 */ "5205").then(__webpack_require__.bind(__webpack_require__, 4931)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/291.mdx",
-        /*require.resolve*/(4931)
+    "1f5ed054": [
+        ()=>__webpack_require__.e(/* import() | 1f5ed054 */ "9983").then(__webpack_require__.bind(__webpack_require__, 2135)),
+        "@site/docs/update/295/new-dashboard.mdx",
+        /*require.resolve*/(2135)
     ],
-    "1deca8b7": [
-        ()=>__webpack_require__.e(/* import() | 1deca8b7 */ "1553").then(__webpack_require__.bind(__webpack_require__, 353)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/260.mdx",
-        /*require.resolve*/(353)
+    "21922693": [
+        ()=>__webpack_require__.e(/* import() | 21922693 */ "5082").then(__webpack_require__.bind(__webpack_require__, 465)),
+        "@site/docs/revision/294.mdx",
+        /*require.resolve*/(465)
     ],
-    "1e135ad0": [
-        ()=>__webpack_require__.e(/* import() | 1e135ad0 */ "8318").then(__webpack_require__.bind(__webpack_require__, 982)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2911.mdx",
-        /*require.resolve*/(982)
+    "21aa58f6": [
+        ()=>__webpack_require__.e(/* import() | 21aa58f6 */ "9836").then(__webpack_require__.bind(__webpack_require__, 2663)),
+        "@site/docs/revision/2910.mdx",
+        /*require.resolve*/(2663)
     ],
-    "216bef97": [
-        ()=>__webpack_require__.e(/* import() | 216bef97 */ "8792").then(__webpack_require__.bind(__webpack_require__, 9116)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/index.mdx",
-        /*require.resolve*/(9116)
+    "23f1d5de": [
+        ()=>__webpack_require__.e(/* import() | 23f1d5de */ "2802").then(__webpack_require__.bind(__webpack_require__, 3920)),
+        "@site/docs/update/298/other-update.mdx",
+        /*require.resolve*/(3920)
     ],
-    "22f32fa9": [
-        ()=>__webpack_require__.e(/* import() | 22f32fa9 */ "805").then(__webpack_require__.bind(__webpack_require__, 8842)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/273.mdx",
-        /*require.resolve*/(8842)
+    "24cef709": [
+        ()=>__webpack_require__.e(/* import() | 24cef709 */ "920").then(__webpack_require__.bind(__webpack_require__, 2789)),
+        "@site/docs/update/295/unified-gateway.mdx",
+        /*require.resolve*/(2789)
     ],
-    "2510fb83": [
-        ()=>__webpack_require__.e(/* import() | 2510fb83 */ "6262").then(__webpack_require__.bind(__webpack_require__, 3636)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/new-dashboard.mdx",
-        /*require.resolve*/(3636)
+    "2b958d9c": [
+        ()=>__webpack_require__.e(/* import() | 2b958d9c */ "4277").then(__webpack_require__.bind(__webpack_require__, 5068)),
+        "@site/docs/revision/285.mdx",
+        /*require.resolve*/(5068)
     ],
-    "3179504a": [
-        ()=>__webpack_require__.e(/* import() | 3179504a */ "6767").then(__webpack_require__.bind(__webpack_require__, 3743)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/278.mdx",
-        /*require.resolve*/(3743)
+    "2c2669f6": [
+        ()=>__webpack_require__.e(/* import() | 2c2669f6 */ "5276").then(__webpack_require__.bind(__webpack_require__, 6327)),
+        "@site/docs/update/2910/how-to-use-di24.mdx",
+        /*require.resolve*/(6327)
     ],
-    "3b945e55": [
-        ()=>__webpack_require__.e(/* import() | 3b945e55 */ "3848").then(__webpack_require__.bind(__webpack_require__, 8183)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2910/how-to-use-cs20.mdx",
-        /*require.resolve*/(8183)
+    "31323990": [
+        ()=>__webpack_require__.e(/* import() | 31323990 */ "6968").then(__webpack_require__.bind(__webpack_require__, 2980)),
+        "@site/docs/update/2910/how-to-use-cs20.mdx",
+        /*require.resolve*/(2980)
     ],
-    "40575fab": [
-        ()=>__webpack_require__.e(/* import() | 40575fab */ "9285").then(__webpack_require__.bind(__webpack_require__, 2509)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/csn-mobile-card.mdx",
-        /*require.resolve*/(2509)
+    "329b7b82": [
+        ()=>__webpack_require__.e(/* import() | 329b7b82 */ "1221").then(__webpack_require__.bind(__webpack_require__, 2985)),
+        "@site/docs/update/biostar2-298.mdx",
+        /*require.resolve*/(2985)
     ],
-    "40f2fb3e": [
-        ()=>__webpack_require__.e(/* import() | 40f2fb3e */ "217").then(__webpack_require__.bind(__webpack_require__, 2950)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2910.mdx",
-        /*require.resolve*/(2950)
+    "36321d29": [
+        ()=>__webpack_require__.e(/* import() | 36321d29 */ "6518").then(__webpack_require__.bind(__webpack_require__, 269)),
+        "@site/docs/revision/260.mdx",
+        /*require.resolve*/(269)
     ],
-    "44b7a0c0": [
-        ()=>__webpack_require__.e(/* import() | 44b7a0c0 */ "2947").then(__webpack_require__.bind(__webpack_require__, 8125)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2816.mdx",
-        /*require.resolve*/(8125)
+    "37f0d07c": [
+        ()=>__webpack_require__.e(/* import() | 37f0d07c */ "1925").then(__webpack_require__.bind(__webpack_require__, 1893)),
+        "@site/docs/revision/292.mdx",
+        /*require.resolve*/(1893)
     ],
-    "450f52ad": [
-        ()=>__webpack_require__.e(/* import() | 450f52ad */ "660").then(__webpack_require__.bind(__webpack_require__, 6760)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/297.mdx",
-        /*require.resolve*/(6760)
+    "3cf40bf7": [
+        ()=>__webpack_require__.e(/* import() | 3cf40bf7 */ "2309").then(__webpack_require__.bind(__webpack_require__, 3918)),
+        "@site/docs/update/2912/bs2-remote-access.mdx",
+        /*require.resolve*/(3918)
     ],
-    "4b374cb0": [
-        ()=>__webpack_require__.e(/* import() | 4b374cb0 */ "4850").then(__webpack_require__.bind(__webpack_require__, 5782)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/update-timed-apb.mdx",
-        /*require.resolve*/(5782)
+    "3d565b9d": [
+        ()=>__webpack_require__.e(/* import() | 3d565b9d */ "2273").then(__webpack_require__.bind(__webpack_require__, 7323)),
+        "@site/docs/revision/281.mdx",
+        /*require.resolve*/(7323)
+    ],
+    "4133abef": [
+        ()=>__webpack_require__.e(/* import() | 4133abef */ "3809").then(__webpack_require__.bind(__webpack_require__, 2254)),
+        "@site/docs/revision/262.mdx",
+        /*require.resolve*/(2254)
+    ],
+    "42ecb57c": [
+        ()=>__webpack_require__.e(/* import() | 42ecb57c */ "3233").then(__webpack_require__.bind(__webpack_require__, 8444)),
+        "@site/docs/revision/271.mdx",
+        /*require.resolve*/(8444)
+    ],
+    "4399770d": [
+        ()=>__webpack_require__.e(/* import() | 4399770d */ "647").then(__webpack_require__.bind(__webpack_require__, 4044)),
+        "@site/docs/update/295/timed-apb.mdx",
+        /*require.resolve*/(4044)
+    ],
+    "470e0e0f": [
+        ()=>__webpack_require__.e(/* import() | 470e0e0f */ "7098").then(__webpack_require__.bind(__webpack_require__, 1361)),
+        "@site/docs/revision/282.mdx",
+        /*require.resolve*/(1361)
+    ],
+    "4b97849a": [
+        ()=>__webpack_require__.e(/* import() | 4b97849a */ "1788").then(__webpack_require__.bind(__webpack_require__, 4612)),
+        "@site/docs/update/biostar2-2912.mdx",
+        /*require.resolve*/(4612)
+    ],
+    "4edc808e": [
+        ()=>__webpack_require__.e(/* import() | 4edc808e */ "8005").then(__webpack_require__.bind(__webpack_require__, 8741)),
+        "@site/docs/index.mdx",
+        /*require.resolve*/(8741)
     ],
     "5308dfd1": [
         ()=>Promise.all(/* import() | 5308dfd1 */ [__webpack_require__.e("6212"), __webpack_require__.e("7397")]).then(__webpack_require__.bind(__webpack_require__, 3492)),
         "@site/src/pages/back/index.js",
         /*require.resolve*/(3492)
     ],
-    "533e231f": [
-        ()=>__webpack_require__.e(/* import() | 533e231f */ "4733").then(__webpack_require__.bind(__webpack_require__, 7496)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/wireless-door-lock.mdx",
-        /*require.resolve*/(7496)
+    "5347b71d": [
+        ()=>__webpack_require__.e(/* import() | 5347b71d */ "390").then(__webpack_require__.bind(__webpack_require__, 9536)),
+        "@site/docs/revision/274.mdx",
+        /*require.resolve*/(9536)
     ],
-    "53ac7d2d": [
-        ()=>__webpack_require__.e(/* import() | 53ac7d2d */ "9717").then(__webpack_require__.bind(__webpack_require__, 4378)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/290.mdx",
-        /*require.resolve*/(4378)
-    ],
-    "54b64734": [
-        ()=>__webpack_require__.e(/* import() | 54b64734 */ "7650").then(__webpack_require__.bind(__webpack_require__, 2127)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2910/how-to-use-di24.mdx",
-        /*require.resolve*/(2127)
-    ],
-    "5518cd1d": [
-        ()=>__webpack_require__.e(/* import() | 5518cd1d */ "5647").then(__webpack_require__.bind(__webpack_require__, 3170)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/advanced-search.mdx",
-        /*require.resolve*/(3170)
-    ],
-    "565ee0ad": [
-        ()=>__webpack_require__.e(/* import() | 565ee0ad */ "7413").then(__webpack_require__.bind(__webpack_require__, 1325)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/262.mdx",
-        /*require.resolve*/(1325)
-    ],
-    "58a1c2b9": [
-        ()=>__webpack_require__.e(/* import() | 58a1c2b9 */ "4605").then(__webpack_require__.bind(__webpack_require__, 8942)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/index.mdx",
-        /*require.resolve*/(8942)
-    ],
-    "5c0ccdb7": [
-        ()=>__webpack_require__.e(/* import() | 5c0ccdb7 */ "77").then(__webpack_require__.bind(__webpack_require__, 359)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/quick-action.mdx",
-        /*require.resolve*/(359)
-    ],
-    "5d6cde95": [
-        ()=>__webpack_require__.e(/* import() | 5d6cde95 */ "2212").then(__webpack_require__.bind(__webpack_require__, 3093)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/274.mdx",
-        /*require.resolve*/(3093)
-    ],
-    "5d79424d": [
-        ()=>__webpack_require__.e(/* import() | 5d79424d */ "8075").then(__webpack_require__.bind(__webpack_require__, 6337)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2912.mdx",
-        /*require.resolve*/(6337)
+    "5a3cd577": [
+        ()=>__webpack_require__.e(/* import() | 5a3cd577 */ "114").then(__webpack_require__.bind(__webpack_require__, 2616)),
+        "@site/docs/update/298/deny-access-when-wearing-mask.mdx",
+        /*require.resolve*/(2616)
     ],
     "5e95c892": [
         ()=>__webpack_require__.e(/* import() | 5e95c892 */ "3432").then(__webpack_require__.bind(__webpack_require__, 1359)),
@@ -25970,110 +25950,130 @@ var routesChunkNames = __webpack_require__(7138);
         "@generated/docusaurus.config",
         /*require.resolve*/(5150)
     ],
-    "5ec07ba0": [
-        ()=>__webpack_require__.e(/* import() | 5ec07ba0 */ "906").then(__webpack_require__.bind(__webpack_require__, 6343)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/282.mdx",
-        /*require.resolve*/(6343)
+    "5f0a05a2": [
+        ()=>__webpack_require__.e(/* import() | 5f0a05a2 */ "4969").then(__webpack_require__.bind(__webpack_require__, 5001)),
+        "@site/docs/revision/276.mdx",
+        /*require.resolve*/(5001)
     ],
-    "6148ec90": [
-        ()=>__webpack_require__.e(/* import() | 6148ec90 */ "3671").then(__webpack_require__.bind(__webpack_require__, 1420)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/283.mdx",
-        /*require.resolve*/(1420)
+    "61ed4732": [
+        ()=>__webpack_require__.e(/* import() | 61ed4732 */ "2491").then(__webpack_require__.bind(__webpack_require__, 1202)),
+        "@site/docs/update/295/quick-action.mdx",
+        /*require.resolve*/(1202)
     ],
-    "62fa8aa4": [
-        ()=>__webpack_require__.e(/* import() | 62fa8aa4 */ "5689").then(__webpack_require__.bind(__webpack_require__, 1744)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/295.mdx",
-        /*require.resolve*/(1744)
+    "69589054": [
+        ()=>__webpack_require__.e(/* import() | 69589054 */ "7885").then(__webpack_require__.bind(__webpack_require__, 9136)),
+        "@site/docs/update/295/user-photo-enroll-using-webcam.mdx",
+        /*require.resolve*/(9136)
     ],
-    "70aac116": [
-        ()=>__webpack_require__.e(/* import() | 70aac116 */ "9079").then(__webpack_require__.bind(__webpack_require__, 7458)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/296.mdx",
-        /*require.resolve*/(7458)
+    "75fc1a58": [
+        ()=>__webpack_require__.e(/* import() | 75fc1a58 */ "7353").then(__webpack_require__.bind(__webpack_require__, 1061)),
+        "@site/docs/revision/293.mdx",
+        /*require.resolve*/(1061)
     ],
-    "70bfd4e8": [
-        ()=>__webpack_require__.e(/* import() | 70bfd4e8 */ "1873").then(__webpack_require__.bind(__webpack_require__, 1097)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/284.mdx",
-        /*require.resolve*/(1097)
+    "76242231": [
+        ()=>__webpack_require__.e(/* import() | 76242231 */ "4550").then(__webpack_require__.bind(__webpack_require__, 9727)),
+        "@site/docs/revision/280.mdx",
+        /*require.resolve*/(9727)
     ],
-    "750433da": [
-        ()=>__webpack_require__.e(/* import() | 750433da */ "8402").then(__webpack_require__.bind(__webpack_require__, 7979)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/272.mdx",
-        /*require.resolve*/(7979)
+    "771e6e33": [
+        ()=>__webpack_require__.e(/* import() | 771e6e33 */ "3484").then(__webpack_require__.bind(__webpack_require__, 5797)),
+        "@site/docs/revision/2814.mdx",
+        /*require.resolve*/(5797)
     ],
-    "76d2606a": [
-        ()=>__webpack_require__.e(/* import() | 76d2606a */ "1919").then(__webpack_require__.bind(__webpack_require__, 7875)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/270.mdx",
-        /*require.resolve*/(7875)
+    "77523d2d": [
+        ()=>__webpack_require__.e(/* import() | 77523d2d */ "5538").then(__webpack_require__.bind(__webpack_require__, 2141)),
+        "@site/docs/revision/291.mdx",
+        /*require.resolve*/(2141)
     ],
-    "80b601b3": [
-        ()=>__webpack_require__.e(/* import() | 80b601b3 */ "1199").then(__webpack_require__.bind(__webpack_require__, 8334)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/other-update.mdx",
-        /*require.resolve*/(8334)
+    "7b25b112": [
+        ()=>__webpack_require__.e(/* import() | 7b25b112 */ "6563").then(__webpack_require__.bind(__webpack_require__, 2929)),
+        "@site/docs/revision/2816.mdx",
+        /*require.resolve*/(2929)
     ],
-    "80c89947": [
-        ()=>__webpack_require__.e(/* import() | 80c89947 */ "2043").then(__webpack_require__.bind(__webpack_require__, 5910)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2711.mdx",
-        /*require.resolve*/(5910)
+    "7b810a03": [
+        ()=>__webpack_require__.e(/* import() | 7b810a03 */ "8266").then(__webpack_require__.bind(__webpack_require__, 6290)),
+        "@site/docs/revision/2813.mdx",
+        /*require.resolve*/(6290)
     ],
-    "830b40bb": [
-        ()=>__webpack_require__.e(/* import() | 830b40bb */ "1805").then(__webpack_require__.bind(__webpack_require__, 1537)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2814.mdx",
-        /*require.resolve*/(1537)
+    "847ad22e": [
+        ()=>__webpack_require__.e(/* import() | 847ad22e */ "3261").then(__webpack_require__.bind(__webpack_require__, 4484)),
+        "@site/docs/revision/2811.mdx",
+        /*require.resolve*/(4484)
     ],
-    "8847613a": [
-        ()=>__webpack_require__.e(/* import() | 8847613a */ "7847").then(__webpack_require__.bind(__webpack_require__, 3443)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2815.mdx",
-        /*require.resolve*/(3443)
+    "85bfd125": [
+        ()=>__webpack_require__.e(/* import() | 85bfd125 */ "9154").then(__webpack_require__.bind(__webpack_require__, 2045)),
+        "@site/docs/revision/278.mdx",
+        /*require.resolve*/(2045)
     ],
-    "89ff097c": [
-        ()=>__webpack_require__.e(/* import() | 89ff097c */ "3952").then(__webpack_require__.bind(__webpack_require__, 1485)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2810.mdx",
-        /*require.resolve*/(1485)
+    "8b9d34de": [
+        ()=>__webpack_require__.e(/* import() | 8b9d34de */ "7929").then(__webpack_require__.bind(__webpack_require__, 2272)),
+        "@site/docs/update/295/advanced-search.mdx",
+        /*require.resolve*/(2272)
     ],
-    "8af17015": [
-        ()=>__webpack_require__.e(/* import() | 8af17015 */ "8799").then(__webpack_require__.bind(__webpack_require__, 9360)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2910.mdx",
-        /*require.resolve*/(9360)
+    "8f1f3ab6": [
+        ()=>__webpack_require__.e(/* import() | 8f1f3ab6 */ "3695").then(__webpack_require__.bind(__webpack_require__, 1308)),
+        "@site/docs/revision/2810.mdx",
+        /*require.resolve*/(1308)
     ],
-    "8ec9172d": [
-        ()=>__webpack_require__.e(/* import() | 8ec9172d */ "8680").then(__webpack_require__.bind(__webpack_require__, 7446)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2710.mdx",
-        /*require.resolve*/(7446)
+    "8f903b9c": [
+        ()=>__webpack_require__.e(/* import() | 8f903b9c */ "9448").then(__webpack_require__.bind(__webpack_require__, 4043)),
+        "@site/docs/revision/295.mdx",
+        /*require.resolve*/(4043)
     ],
-    "926d4dc7": [
-        ()=>__webpack_require__.e(/* import() | 926d4dc7 */ "5126").then(__webpack_require__.bind(__webpack_require__, 8261)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/289.mdx",
-        /*require.resolve*/(8261)
+    "8fd673e8": [
+        ()=>__webpack_require__.e(/* import() | 8fd673e8 */ "7753").then(__webpack_require__.bind(__webpack_require__, 1330)),
+        "@site/docs/revision/273.mdx",
+        /*require.resolve*/(1330)
     ],
-    "986fcd3c": [
-        ()=>__webpack_require__.e(/* import() | 986fcd3c */ "2364").then(__webpack_require__.bind(__webpack_require__, 8652)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-297.mdx",
-        /*require.resolve*/(8652)
+    "9002ad59": [
+        ()=>__webpack_require__.e(/* import() | 9002ad59 */ "6972").then(__webpack_require__.bind(__webpack_require__, 8763)),
+        "@site/docs/revision/264.mdx",
+        /*require.resolve*/(8763)
     ],
-    "9bd3041f": [
-        ()=>__webpack_require__.e(/* import() | 9bd3041f */ "2123").then(__webpack_require__.bind(__webpack_require__, 9701)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/unified-gateway.mdx",
-        /*require.resolve*/(9701)
+    "9686a783": [
+        ()=>__webpack_require__.e(/* import() | 9686a783 */ "8375").then(__webpack_require__.bind(__webpack_require__, 5256)),
+        "@site/docs/update/298/update-timed-apb.mdx",
+        /*require.resolve*/(5256)
     ],
-    "9c5dffbf": [
-        ()=>__webpack_require__.e(/* import() | 9c5dffbf */ "3762").then(__webpack_require__.bind(__webpack_require__, 4104)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2714.mdx",
-        /*require.resolve*/(4104)
+    "98725db8": [
+        ()=>__webpack_require__.e(/* import() | 98725db8 */ "1057").then(__webpack_require__.bind(__webpack_require__, 6934)),
+        "@site/docs/update/297/multi-factor-auth-for-login.mdx",
+        /*require.resolve*/(6934)
     ],
-    "9fe3680c": [
-        ()=>__webpack_require__.e(/* import() | 9fe3680c */ "7394").then(__webpack_require__.bind(__webpack_require__, 7487)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/275.mdx",
-        /*require.resolve*/(7487)
+    "98cf39d2": [
+        ()=>__webpack_require__.e(/* import() | 98cf39d2 */ "8190").then(__webpack_require__.bind(__webpack_require__, 7140)),
+        "@site/docs/revision/2712.mdx",
+        /*require.resolve*/(7140)
     ],
-    "a2b2d524": [
-        ()=>__webpack_require__.e(/* import() | a2b2d524 */ "2229").then(__webpack_require__.bind(__webpack_require__, 7574)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/286.mdx",
-        /*require.resolve*/(7574)
+    "9bde920f": [
+        ()=>__webpack_require__.e(/* import() | 9bde920f */ "2947").then(__webpack_require__.bind(__webpack_require__, 619)),
+        "@site/docs/revision/2714.mdx",
+        /*require.resolve*/(619)
+    ],
+    "9d0b4025": [
+        ()=>__webpack_require__.e(/* import() | 9d0b4025 */ "4034").then(__webpack_require__.bind(__webpack_require__, 3591)),
+        "@site/docs/revision/270.mdx",
+        /*require.resolve*/(3591)
+    ],
+    "a4f38dec": [
+        ()=>__webpack_require__.e(/* import() | a4f38dec */ "3494").then(__webpack_require__.bind(__webpack_require__, 3569)),
+        "@site/docs/revision/261.mdx",
+        /*require.resolve*/(3569)
+    ],
+    "a6edefa9": [
+        ()=>__webpack_require__.e(/* import() | a6edefa9 */ "5945").then(__webpack_require__.bind(__webpack_require__, 5329)),
+        "@site/docs/revision/2710.mdx",
+        /*require.resolve*/(5329)
     ],
     "a7456010": [
         ()=>__webpack_require__.e(/* import() | a7456010 */ "7365").then(__webpack_require__.t.bind(__webpack_require__, 2050, 19)),
         "@generated/docusaurus-plugin-content-pages/default/__plugin.json",
         /*require.resolve*/(2050)
+    ],
+    "a7a95a8a": [
+        ()=>__webpack_require__.e(/* import() | a7a95a8a */ "3005").then(__webpack_require__.bind(__webpack_require__, 1806)),
+        "@site/docs/update/298/device-display-message.mdx",
+        /*require.resolve*/(1806)
     ],
     "a7bd4aaa": [
         ()=>__webpack_require__.e(/* import() | a7bd4aaa */ "5211").then(__webpack_require__.bind(__webpack_require__, 8688)),
@@ -26085,135 +26085,135 @@ var routesChunkNames = __webpack_require__(7138);
         "@theme/DocRoot",
         /*require.resolve*/(2001)
     ],
-    "aa4af078": [
-        ()=>__webpack_require__.e(/* import() | aa4af078 */ "3706").then(__webpack_require__.bind(__webpack_require__, 901)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/292.mdx",
-        /*require.resolve*/(901)
-    ],
     "aba21aa0": [
         ()=>__webpack_require__.e(/* import() | aba21aa0 */ "5112").then(__webpack_require__.t.bind(__webpack_require__, 2418, 19)),
         "@generated/docusaurus-plugin-content-docs/default/__plugin.json",
         /*require.resolve*/(2418)
     ],
-    "ae1c4358": [
-        ()=>__webpack_require__.e(/* import() | ae1c4358 */ "854").then(__webpack_require__.bind(__webpack_require__, 9785)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2712.mdx",
-        /*require.resolve*/(9785)
+    "ac6468f7": [
+        ()=>__webpack_require__.e(/* import() | ac6468f7 */ "27").then(__webpack_require__.bind(__webpack_require__, 7570)),
+        "@site/docs/revision/277.mdx",
+        /*require.resolve*/(7570)
     ],
-    "b2d70ba7": [
-        ()=>__webpack_require__.e(/* import() | b2d70ba7 */ "7087").then(__webpack_require__.bind(__webpack_require__, 5337)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/277.mdx",
-        /*require.resolve*/(5337)
+    "b74f3db2": [
+        ()=>__webpack_require__.e(/* import() | b74f3db2 */ "6826").then(__webpack_require__.bind(__webpack_require__, 9636)),
+        "@site/docs/revision/289.mdx",
+        /*require.resolve*/(9636)
     ],
-    "b5b3e37b": [
-        ()=>__webpack_require__.e(/* import() | b5b3e37b */ "2199").then(__webpack_require__.bind(__webpack_require__, 4211)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2812.mdx",
-        /*require.resolve*/(4211)
+    "b86b925d": [
+        ()=>__webpack_require__.e(/* import() | b86b925d */ "9505").then(__webpack_require__.bind(__webpack_require__, 8997)),
+        "@site/docs/update/298/file-upload-user-information.mdx",
+        /*require.resolve*/(8997)
     ],
-    "b5c20607": [
-        ()=>__webpack_require__.e(/* import() | b5c20607 */ "1570").then(__webpack_require__.bind(__webpack_require__, 3524)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/294.mdx",
-        /*require.resolve*/(3524)
+    "bb2b3c07": [
+        ()=>__webpack_require__.e(/* import() | bb2b3c07 */ "3745").then(__webpack_require__.t.bind(__webpack_require__, 8566, 19)),
+        "@generated/docusaurus-plugin-content-docs/default/p/biostar-2-docs-8ad.json",
+        /*require.resolve*/(8566)
     ],
-    "b9ac637d": [
-        ()=>__webpack_require__.e(/* import() | b9ac637d */ "2606").then(__webpack_require__.bind(__webpack_require__, 6269)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2813.mdx",
-        /*require.resolve*/(6269)
+    "bced4e4a": [
+        ()=>__webpack_require__.e(/* import() | bced4e4a */ "504").then(__webpack_require__.bind(__webpack_require__, 6931)),
+        "@site/docs/revision/2815.mdx",
+        /*require.resolve*/(6931)
     ],
-    "ba07f917": [
-        ()=>__webpack_require__.e(/* import() | ba07f917 */ "9548").then(__webpack_require__.bind(__webpack_require__, 2243)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2912/bs2-remote-access.mdx",
-        /*require.resolve*/(2243)
+    "c060969a": [
+        ()=>__webpack_require__.e(/* import() | c060969a */ "5132").then(__webpack_require__.bind(__webpack_require__, 8614)),
+        "@site/docs/update/2910/ad-encrypt.mdx",
+        /*require.resolve*/(8614)
     ],
-    "bc1a2790": [
-        ()=>__webpack_require__.e(/* import() | bc1a2790 */ "4500").then(__webpack_require__.bind(__webpack_require__, 289)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/271.mdx",
-        /*require.resolve*/(289)
+    "c0fbcc12": [
+        ()=>__webpack_require__.e(/* import() | c0fbcc12 */ "3940").then(__webpack_require__.bind(__webpack_require__, 8632)),
+        "@site/docs/update/297/visual-face-with-template.mdx",
+        /*require.resolve*/(8632)
     ],
-    "c125c272": [
-        ()=>__webpack_require__.e(/* import() | c125c272 */ "2308").then(__webpack_require__.bind(__webpack_require__, 4140)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/276.mdx",
-        /*require.resolve*/(4140)
+    "c10251a3": [
+        ()=>__webpack_require__.e(/* import() | c10251a3 */ "5870").then(__webpack_require__.bind(__webpack_require__, 422)),
+        "@site/docs/revision/index.mdx",
+        /*require.resolve*/(422)
     ],
-    "c34588c1": [
-        ()=>__webpack_require__.e(/* import() | c34588c1 */ "2455").then(__webpack_require__.bind(__webpack_require__, 662)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/298.mdx",
-        /*require.resolve*/(662)
+    "c1645870": [
+        ()=>__webpack_require__.e(/* import() | c1645870 */ "2650").then(__webpack_require__.bind(__webpack_require__, 2647)),
+        "@site/docs/revision/286.mdx",
+        /*require.resolve*/(2647)
     ],
-    "c727cc7b": [
-        ()=>__webpack_require__.e(/* import() | c727cc7b */ "175").then(__webpack_require__.bind(__webpack_require__, 4555)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/264.mdx",
-        /*require.resolve*/(4555)
+    "c56b6afc": [
+        ()=>__webpack_require__.e(/* import() | c56b6afc */ "1514").then(__webpack_require__.bind(__webpack_require__, 567)),
+        "@site/docs/revision/283.mdx",
+        /*require.resolve*/(567)
     ],
-    "cf5521b5": [
-        ()=>__webpack_require__.e(/* import() | cf5521b5 */ "8119").then(__webpack_require__.bind(__webpack_require__, 9823)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/2811.mdx",
-        /*require.resolve*/(9823)
+    "cf9206d4": [
+        ()=>__webpack_require__.e(/* import() | cf9206d4 */ "1621").then(__webpack_require__.bind(__webpack_require__, 3705)),
+        "@site/docs/revision/298.mdx",
+        /*require.resolve*/(3705)
     ],
-    "d0070183": [
-        ()=>__webpack_require__.e(/* import() | d0070183 */ "2905").then(__webpack_require__.bind(__webpack_require__, 7027)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/file-upload-user-information.mdx",
-        /*require.resolve*/(7027)
+    "d2fb79f1": [
+        ()=>__webpack_require__.e(/* import() | d2fb79f1 */ "8476").then(__webpack_require__.bind(__webpack_require__, 2063)),
+        "@site/docs/revision/288.mdx",
+        /*require.resolve*/(2063)
     ],
-    "d4007db6": [
-        ()=>__webpack_require__.e(/* import() | d4007db6 */ "9201").then(__webpack_require__.bind(__webpack_require__, 9655)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/297/visual-face-with-template.mdx",
-        /*require.resolve*/(9655)
+    "d35339d9": [
+        ()=>__webpack_require__.e(/* import() | d35339d9 */ "4040").then(__webpack_require__.bind(__webpack_require__, 4483)),
+        "@site/docs/update/298/csn-mobile-card.mdx",
+        /*require.resolve*/(4483)
     ],
-    "d6ed9b8e": [
-        ()=>__webpack_require__.e(/* import() | d6ed9b8e */ "9268").then(__webpack_require__.bind(__webpack_require__, 1246)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-298.mdx",
-        /*require.resolve*/(1246)
+    "d3d81a80": [
+        ()=>__webpack_require__.e(/* import() | d3d81a80 */ "8428").then(__webpack_require__.bind(__webpack_require__, 2416)),
+        "@site/docs/revision/263.mdx",
+        /*require.resolve*/(2416)
     ],
-    "d9dab780": [
-        ()=>__webpack_require__.e(/* import() | d9dab780 */ "8994").then(__webpack_require__.bind(__webpack_require__, 3946)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/261.mdx",
-        /*require.resolve*/(3946)
+    "d7e8eb73": [
+        ()=>__webpack_require__.e(/* import() | d7e8eb73 */ "2104").then(__webpack_require__.bind(__webpack_require__, 5045)),
+        "@site/docs/revision/296.mdx",
+        /*require.resolve*/(5045)
     ],
-    "df379f10": [
-        ()=>__webpack_require__.e(/* import() | df379f10 */ "8498").then(__webpack_require__.bind(__webpack_require__, 4209)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/293.mdx",
-        /*require.resolve*/(4209)
+    "d849bdc6": [
+        ()=>__webpack_require__.e(/* import() | d849bdc6 */ "2402").then(__webpack_require__.bind(__webpack_require__, 5353)),
+        "@site/docs/update/biostar2-2910.mdx",
+        /*require.resolve*/(5353)
     ],
-    "dfa9b1fe": [
-        ()=>__webpack_require__.e(/* import() | dfa9b1fe */ "939").then(__webpack_require__.bind(__webpack_require__, 5503)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/295/timed-apb.mdx",
-        /*require.resolve*/(5503)
+    "d920f39e": [
+        ()=>__webpack_require__.e(/* import() | d920f39e */ "4397").then(__webpack_require__.bind(__webpack_require__, 6681)),
+        "@site/docs/revision/290.mdx",
+        /*require.resolve*/(6681)
     ],
-    "e7bad1f0": [
-        ()=>__webpack_require__.e(/* import() | e7bad1f0 */ "202").then(__webpack_require__.bind(__webpack_require__, 6857)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2911/bs2-master-admin.mdx",
-        /*require.resolve*/(6857)
+    "e2615b34": [
+        ()=>__webpack_require__.e(/* import() | e2615b34 */ "5039").then(__webpack_require__.bind(__webpack_require__, 3005)),
+        "@site/docs/revision/2711.mdx",
+        /*require.resolve*/(3005)
     ],
-    "e8365100": [
-        ()=>__webpack_require__.e(/* import() | e8365100 */ "9815").then(__webpack_require__.t.bind(__webpack_require__, 1016, 19)),
-        "@generated/docusaurus-plugin-content-docs/default/p/biostar-2-docs-en-5ee.json",
-        /*require.resolve*/(1016)
+    "ed9aafd0": [
+        ()=>__webpack_require__.e(/* import() | ed9aafd0 */ "9502").then(__webpack_require__.bind(__webpack_require__, 2429)),
+        "@site/docs/update/295/wireless-door-lock.mdx",
+        /*require.resolve*/(2429)
     ],
-    "ef81307c": [
-        ()=>__webpack_require__.e(/* import() | ef81307c */ "9439").then(__webpack_require__.bind(__webpack_require__, 3528)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-2911.mdx",
-        /*require.resolve*/(3528)
+    "f700c88a": [
+        ()=>__webpack_require__.e(/* import() | f700c88a */ "4820").then(__webpack_require__.bind(__webpack_require__, 9229)),
+        "@site/docs/revision/297.mdx",
+        /*require.resolve*/(9229)
     ],
-    "f8cc440d": [
-        ()=>__webpack_require__.e(/* import() | f8cc440d */ "8226").then(__webpack_require__.bind(__webpack_require__, 6106)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/298/device-display-message.mdx",
-        /*require.resolve*/(6106)
+    "f7170e03": [
+        ()=>__webpack_require__.e(/* import() | f7170e03 */ "6597").then(__webpack_require__.bind(__webpack_require__, 9207)),
+        "@site/docs/revision/275.mdx",
+        /*require.resolve*/(9207)
     ],
-    "fb7fc25d": [
-        ()=>__webpack_require__.e(/* import() | fb7fc25d */ "1069").then(__webpack_require__.bind(__webpack_require__, 400)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/biostar2-295.mdx",
-        /*require.resolve*/(400)
+    "fd4346ad": [
+        ()=>__webpack_require__.e(/* import() | fd4346ad */ "5556").then(__webpack_require__.bind(__webpack_require__, 2608)),
+        "@site/docs/update/2910/settings-diretory-integration.mdx",
+        /*require.resolve*/(2608)
     ],
-    "fc9363d2": [
-        ()=>__webpack_require__.e(/* import() | fc9363d2 */ "9659").then(__webpack_require__.bind(__webpack_require__, 8336)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/revision/281.mdx",
-        /*require.resolve*/(8336)
+    "fd57cc51": [
+        ()=>__webpack_require__.e(/* import() | fd57cc51 */ "606").then(__webpack_require__.bind(__webpack_require__, 515)),
+        "@site/docs/revision/2812.mdx",
+        /*require.resolve*/(515)
     ],
-    "ff2ab287": [
-        ()=>__webpack_require__.e(/* import() | ff2ab287 */ "5707").then(__webpack_require__.bind(__webpack_require__, 5623)),
-        "@site/i18n/en/docusaurus-plugin-content-docs/current/update/2910/settings-diretory-integration.mdx",
-        /*require.resolve*/(5623)
+    "fd5d3d35": [
+        ()=>__webpack_require__.e(/* import() | fd5d3d35 */ "9840").then(__webpack_require__.bind(__webpack_require__, 4451)),
+        "@site/docs/update/biostar2-297.mdx",
+        /*require.resolve*/(4451)
+    ],
+    "fe6a2171": [
+        ()=>__webpack_require__.e(/* import() | fe6a2171 */ "6679").then(__webpack_require__.bind(__webpack_require__, 7521)),
+        "@site/docs/revision/2911.mdx",
+        /*require.resolve*/(7521)
     ]
 });
 
@@ -26508,485 +26508,485 @@ function ComponentCreator(path, hash) {
 
 /* ESM default export */ const routes = ([
     {
-        path: '/biostar2-docs/en/back/',
-        component: ComponentCreator('/biostar2-docs/en/back/', '4a9'),
+        path: '/biostar2-docs/back/',
+        component: ComponentCreator('/biostar2-docs/back/', '4c7'),
         exact: true
     },
     {
-        path: '/biostar2-docs/en/search',
-        component: ComponentCreator('/biostar2-docs/en/search', '430'),
+        path: '/biostar2-docs/search',
+        component: ComponentCreator('/biostar2-docs/search', '2f9'),
         exact: true
     },
     {
-        path: '/biostar2-docs/en/',
-        component: ComponentCreator('/biostar2-docs/en/', '890'),
+        path: '/biostar2-docs/',
+        component: ComponentCreator('/biostar2-docs/', '916'),
         routes: [
             {
-                path: '/biostar2-docs/en/',
-                component: ComponentCreator('/biostar2-docs/en/', 'f40'),
+                path: '/biostar2-docs/',
+                component: ComponentCreator('/biostar2-docs/', '207'),
                 routes: [
                     {
-                        path: '/biostar2-docs/en/',
-                        component: ComponentCreator('/biostar2-docs/en/', 'f9e'),
+                        path: '/biostar2-docs/',
+                        component: ComponentCreator('/biostar2-docs/', 'fd2'),
                         routes: [
                             {
-                                path: '/biostar2-docs/en/revision/',
-                                component: ComponentCreator('/biostar2-docs/en/revision/', '7fe'),
+                                path: '/biostar2-docs/revision/',
+                                component: ComponentCreator('/biostar2-docs/revision/', 'dd2'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/260',
-                                component: ComponentCreator('/biostar2-docs/en/revision/260', '318'),
+                                path: '/biostar2-docs/revision/260',
+                                component: ComponentCreator('/biostar2-docs/revision/260', 'b95'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/261',
-                                component: ComponentCreator('/biostar2-docs/en/revision/261', 'a5c'),
+                                path: '/biostar2-docs/revision/261',
+                                component: ComponentCreator('/biostar2-docs/revision/261', 'd50'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/262',
-                                component: ComponentCreator('/biostar2-docs/en/revision/262', '2d2'),
+                                path: '/biostar2-docs/revision/262',
+                                component: ComponentCreator('/biostar2-docs/revision/262', '4a0'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/263',
-                                component: ComponentCreator('/biostar2-docs/en/revision/263', '3cf'),
+                                path: '/biostar2-docs/revision/263',
+                                component: ComponentCreator('/biostar2-docs/revision/263', '2ae'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/264',
-                                component: ComponentCreator('/biostar2-docs/en/revision/264', 'f25'),
+                                path: '/biostar2-docs/revision/264',
+                                component: ComponentCreator('/biostar2-docs/revision/264', '05e'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/270',
-                                component: ComponentCreator('/biostar2-docs/en/revision/270', 'b42'),
+                                path: '/biostar2-docs/revision/270',
+                                component: ComponentCreator('/biostar2-docs/revision/270', '997'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/271',
-                                component: ComponentCreator('/biostar2-docs/en/revision/271', '759'),
+                                path: '/biostar2-docs/revision/271',
+                                component: ComponentCreator('/biostar2-docs/revision/271', '254'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2710',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2710', '58c'),
+                                path: '/biostar2-docs/revision/2710',
+                                component: ComponentCreator('/biostar2-docs/revision/2710', 'c2c'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2711',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2711', 'c0d'),
+                                path: '/biostar2-docs/revision/2711',
+                                component: ComponentCreator('/biostar2-docs/revision/2711', 'e47'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2712',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2712', 'f25'),
+                                path: '/biostar2-docs/revision/2712',
+                                component: ComponentCreator('/biostar2-docs/revision/2712', 'd02'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2714',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2714', '474'),
+                                path: '/biostar2-docs/revision/2714',
+                                component: ComponentCreator('/biostar2-docs/revision/2714', '740'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/272',
-                                component: ComponentCreator('/biostar2-docs/en/revision/272', '902'),
+                                path: '/biostar2-docs/revision/272',
+                                component: ComponentCreator('/biostar2-docs/revision/272', '451'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/273',
-                                component: ComponentCreator('/biostar2-docs/en/revision/273', '5cf'),
+                                path: '/biostar2-docs/revision/273',
+                                component: ComponentCreator('/biostar2-docs/revision/273', 'e4b'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/274',
-                                component: ComponentCreator('/biostar2-docs/en/revision/274', '3a5'),
+                                path: '/biostar2-docs/revision/274',
+                                component: ComponentCreator('/biostar2-docs/revision/274', '788'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/275',
-                                component: ComponentCreator('/biostar2-docs/en/revision/275', 'b0b'),
+                                path: '/biostar2-docs/revision/275',
+                                component: ComponentCreator('/biostar2-docs/revision/275', 'e25'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/276',
-                                component: ComponentCreator('/biostar2-docs/en/revision/276', '2af'),
+                                path: '/biostar2-docs/revision/276',
+                                component: ComponentCreator('/biostar2-docs/revision/276', '367'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/277',
-                                component: ComponentCreator('/biostar2-docs/en/revision/277', 'e08'),
+                                path: '/biostar2-docs/revision/277',
+                                component: ComponentCreator('/biostar2-docs/revision/277', '85b'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/278',
-                                component: ComponentCreator('/biostar2-docs/en/revision/278', '329'),
+                                path: '/biostar2-docs/revision/278',
+                                component: ComponentCreator('/biostar2-docs/revision/278', 'e66'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/280',
-                                component: ComponentCreator('/biostar2-docs/en/revision/280', 'aaf'),
+                                path: '/biostar2-docs/revision/280',
+                                component: ComponentCreator('/biostar2-docs/revision/280', '998'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/281',
-                                component: ComponentCreator('/biostar2-docs/en/revision/281', 'f23'),
+                                path: '/biostar2-docs/revision/281',
+                                component: ComponentCreator('/biostar2-docs/revision/281', '8d7'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2810',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2810', '33d'),
+                                path: '/biostar2-docs/revision/2810',
+                                component: ComponentCreator('/biostar2-docs/revision/2810', '13e'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2811',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2811', 'd68'),
+                                path: '/biostar2-docs/revision/2811',
+                                component: ComponentCreator('/biostar2-docs/revision/2811', '08b'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2812',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2812', 'ae3'),
+                                path: '/biostar2-docs/revision/2812',
+                                component: ComponentCreator('/biostar2-docs/revision/2812', 'fa7'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2813',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2813', '9d6'),
+                                path: '/biostar2-docs/revision/2813',
+                                component: ComponentCreator('/biostar2-docs/revision/2813', '3cd'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2814',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2814', 'd67'),
+                                path: '/biostar2-docs/revision/2814',
+                                component: ComponentCreator('/biostar2-docs/revision/2814', 'c92'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2815',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2815', 'e63'),
+                                path: '/biostar2-docs/revision/2815',
+                                component: ComponentCreator('/biostar2-docs/revision/2815', 'c4c'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2816',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2816', '945'),
+                                path: '/biostar2-docs/revision/2816',
+                                component: ComponentCreator('/biostar2-docs/revision/2816', '9bc'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2817',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2817', 'a09'),
+                                path: '/biostar2-docs/revision/2817',
+                                component: ComponentCreator('/biostar2-docs/revision/2817', 'bf8'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/282',
-                                component: ComponentCreator('/biostar2-docs/en/revision/282', '4e4'),
+                                path: '/biostar2-docs/revision/282',
+                                component: ComponentCreator('/biostar2-docs/revision/282', '95b'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/283',
-                                component: ComponentCreator('/biostar2-docs/en/revision/283', 'f72'),
+                                path: '/biostar2-docs/revision/283',
+                                component: ComponentCreator('/biostar2-docs/revision/283', '390'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/284',
-                                component: ComponentCreator('/biostar2-docs/en/revision/284', 'c3a'),
+                                path: '/biostar2-docs/revision/284',
+                                component: ComponentCreator('/biostar2-docs/revision/284', '823'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/285',
-                                component: ComponentCreator('/biostar2-docs/en/revision/285', '6cb'),
+                                path: '/biostar2-docs/revision/285',
+                                component: ComponentCreator('/biostar2-docs/revision/285', 'cb4'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/286',
-                                component: ComponentCreator('/biostar2-docs/en/revision/286', '9f2'),
+                                path: '/biostar2-docs/revision/286',
+                                component: ComponentCreator('/biostar2-docs/revision/286', 'c2a'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/288',
-                                component: ComponentCreator('/biostar2-docs/en/revision/288', 'b17'),
+                                path: '/biostar2-docs/revision/288',
+                                component: ComponentCreator('/biostar2-docs/revision/288', '422'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/289',
-                                component: ComponentCreator('/biostar2-docs/en/revision/289', 'd43'),
+                                path: '/biostar2-docs/revision/289',
+                                component: ComponentCreator('/biostar2-docs/revision/289', '197'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/290',
-                                component: ComponentCreator('/biostar2-docs/en/revision/290', '7fd'),
+                                path: '/biostar2-docs/revision/290',
+                                component: ComponentCreator('/biostar2-docs/revision/290', '2e1'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/291',
-                                component: ComponentCreator('/biostar2-docs/en/revision/291', 'eb6'),
+                                path: '/biostar2-docs/revision/291',
+                                component: ComponentCreator('/biostar2-docs/revision/291', '6a5'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2910',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2910', 'f4f'),
+                                path: '/biostar2-docs/revision/2910',
+                                component: ComponentCreator('/biostar2-docs/revision/2910', '11f'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2910-draft',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2910-draft', '18c'),
+                                path: '/biostar2-docs/revision/2910-draft',
+                                component: ComponentCreator('/biostar2-docs/revision/2910-draft', '222'),
                                 exact: true
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2911',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2911', '3d5'),
+                                path: '/biostar2-docs/revision/2911',
+                                component: ComponentCreator('/biostar2-docs/revision/2911', '190'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/2912',
-                                component: ComponentCreator('/biostar2-docs/en/revision/2912', 'fe8'),
+                                path: '/biostar2-docs/revision/2912',
+                                component: ComponentCreator('/biostar2-docs/revision/2912', 'e50'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/292',
-                                component: ComponentCreator('/biostar2-docs/en/revision/292', '8d8'),
+                                path: '/biostar2-docs/revision/292',
+                                component: ComponentCreator('/biostar2-docs/revision/292', '307'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/293',
-                                component: ComponentCreator('/biostar2-docs/en/revision/293', '096'),
+                                path: '/biostar2-docs/revision/293',
+                                component: ComponentCreator('/biostar2-docs/revision/293', '8ac'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/294',
-                                component: ComponentCreator('/biostar2-docs/en/revision/294', '741'),
+                                path: '/biostar2-docs/revision/294',
+                                component: ComponentCreator('/biostar2-docs/revision/294', 'da1'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/295',
-                                component: ComponentCreator('/biostar2-docs/en/revision/295', 'f2c'),
+                                path: '/biostar2-docs/revision/295',
+                                component: ComponentCreator('/biostar2-docs/revision/295', 'd81'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/296',
-                                component: ComponentCreator('/biostar2-docs/en/revision/296', '903'),
+                                path: '/biostar2-docs/revision/296',
+                                component: ComponentCreator('/biostar2-docs/revision/296', '7fa'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/297',
-                                component: ComponentCreator('/biostar2-docs/en/revision/297', '71f'),
+                                path: '/biostar2-docs/revision/297',
+                                component: ComponentCreator('/biostar2-docs/revision/297', '9eb'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/revision/298',
-                                component: ComponentCreator('/biostar2-docs/en/revision/298', '73e'),
+                                path: '/biostar2-docs/revision/298',
+                                component: ComponentCreator('/biostar2-docs/revision/298', '216'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/2910/ad-encrypt',
-                                component: ComponentCreator('/biostar2-docs/en/update/2910/ad-encrypt', 'c1c'),
+                                path: '/biostar2-docs/update/2910/ad-encrypt',
+                                component: ComponentCreator('/biostar2-docs/update/2910/ad-encrypt', '787'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/2910/how-to-use-cs20',
-                                component: ComponentCreator('/biostar2-docs/en/update/2910/how-to-use-cs20', 'a5d'),
+                                path: '/biostar2-docs/update/2910/how-to-use-cs20',
+                                component: ComponentCreator('/biostar2-docs/update/2910/how-to-use-cs20', '26a'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/2910/how-to-use-di24',
-                                component: ComponentCreator('/biostar2-docs/en/update/2910/how-to-use-di24', '3a2'),
+                                path: '/biostar2-docs/update/2910/how-to-use-di24',
+                                component: ComponentCreator('/biostar2-docs/update/2910/how-to-use-di24', '45b'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/2910/settings-diretory-integration',
-                                component: ComponentCreator('/biostar2-docs/en/update/2910/settings-diretory-integration', '120'),
+                                path: '/biostar2-docs/update/2910/settings-diretory-integration',
+                                component: ComponentCreator('/biostar2-docs/update/2910/settings-diretory-integration', 'e75'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/2911/bs2-master-admin',
-                                component: ComponentCreator('/biostar2-docs/en/update/2911/bs2-master-admin', '688'),
+                                path: '/biostar2-docs/update/2911/bs2-master-admin',
+                                component: ComponentCreator('/biostar2-docs/update/2911/bs2-master-admin', '7d0'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/2912/bs2-remote-access',
-                                component: ComponentCreator('/biostar2-docs/en/update/2912/bs2-remote-access', '512'),
+                                path: '/biostar2-docs/update/2912/bs2-remote-access',
+                                component: ComponentCreator('/biostar2-docs/update/2912/bs2-remote-access', 'f90'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/295/advanced-search',
-                                component: ComponentCreator('/biostar2-docs/en/update/295/advanced-search', 'edb'),
+                                path: '/biostar2-docs/update/295/advanced-search',
+                                component: ComponentCreator('/biostar2-docs/update/295/advanced-search', 'a82'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/295/new-dashboard',
-                                component: ComponentCreator('/biostar2-docs/en/update/295/new-dashboard', '81f'),
+                                path: '/biostar2-docs/update/295/new-dashboard',
+                                component: ComponentCreator('/biostar2-docs/update/295/new-dashboard', 'e7c'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/295/quick-action',
-                                component: ComponentCreator('/biostar2-docs/en/update/295/quick-action', '6ec'),
+                                path: '/biostar2-docs/update/295/quick-action',
+                                component: ComponentCreator('/biostar2-docs/update/295/quick-action', 'bb9'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/295/timed-apb',
-                                component: ComponentCreator('/biostar2-docs/en/update/295/timed-apb', '804'),
+                                path: '/biostar2-docs/update/295/timed-apb',
+                                component: ComponentCreator('/biostar2-docs/update/295/timed-apb', 'f4a'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/295/unified-gateway',
-                                component: ComponentCreator('/biostar2-docs/en/update/295/unified-gateway', 'fc2'),
+                                path: '/biostar2-docs/update/295/unified-gateway',
+                                component: ComponentCreator('/biostar2-docs/update/295/unified-gateway', '261'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/295/user-photo-enroll-using-webcam',
-                                component: ComponentCreator('/biostar2-docs/en/update/295/user-photo-enroll-using-webcam', 'ad4'),
+                                path: '/biostar2-docs/update/295/user-photo-enroll-using-webcam',
+                                component: ComponentCreator('/biostar2-docs/update/295/user-photo-enroll-using-webcam', 'e5f'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/295/wireless-door-lock',
-                                component: ComponentCreator('/biostar2-docs/en/update/295/wireless-door-lock', '0cc'),
+                                path: '/biostar2-docs/update/295/wireless-door-lock',
+                                component: ComponentCreator('/biostar2-docs/update/295/wireless-door-lock', '2c5'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/297/multi-factor-auth-for-login',
-                                component: ComponentCreator('/biostar2-docs/en/update/297/multi-factor-auth-for-login', '803'),
+                                path: '/biostar2-docs/update/297/multi-factor-auth-for-login',
+                                component: ComponentCreator('/biostar2-docs/update/297/multi-factor-auth-for-login', 'd34'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/297/visual-face-with-template',
-                                component: ComponentCreator('/biostar2-docs/en/update/297/visual-face-with-template', '679'),
+                                path: '/biostar2-docs/update/297/visual-face-with-template',
+                                component: ComponentCreator('/biostar2-docs/update/297/visual-face-with-template', '415'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/298/csn-mobile-card',
-                                component: ComponentCreator('/biostar2-docs/en/update/298/csn-mobile-card', '281'),
+                                path: '/biostar2-docs/update/298/csn-mobile-card',
+                                component: ComponentCreator('/biostar2-docs/update/298/csn-mobile-card', '4d8'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/298/deny-access-when-wearing-mask',
-                                component: ComponentCreator('/biostar2-docs/en/update/298/deny-access-when-wearing-mask', 'ca1'),
+                                path: '/biostar2-docs/update/298/deny-access-when-wearing-mask',
+                                component: ComponentCreator('/biostar2-docs/update/298/deny-access-when-wearing-mask', '425'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/298/device-display-message',
-                                component: ComponentCreator('/biostar2-docs/en/update/298/device-display-message', 'c29'),
+                                path: '/biostar2-docs/update/298/device-display-message',
+                                component: ComponentCreator('/biostar2-docs/update/298/device-display-message', '8eb'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/298/file-upload-user-information',
-                                component: ComponentCreator('/biostar2-docs/en/update/298/file-upload-user-information', '8fc'),
+                                path: '/biostar2-docs/update/298/file-upload-user-information',
+                                component: ComponentCreator('/biostar2-docs/update/298/file-upload-user-information', '5b2'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/298/other-update',
-                                component: ComponentCreator('/biostar2-docs/en/update/298/other-update', '95a'),
+                                path: '/biostar2-docs/update/298/other-update',
+                                component: ComponentCreator('/biostar2-docs/update/298/other-update', '12a'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/298/update-timed-apb',
-                                component: ComponentCreator('/biostar2-docs/en/update/298/update-timed-apb', '293'),
+                                path: '/biostar2-docs/update/298/update-timed-apb',
+                                component: ComponentCreator('/biostar2-docs/update/298/update-timed-apb', '940'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/biostar2-2910',
-                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-2910', '939'),
+                                path: '/biostar2-docs/update/biostar2-2910',
+                                component: ComponentCreator('/biostar2-docs/update/biostar2-2910', 'b91'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/biostar2-2911',
-                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-2911', 'f2e'),
+                                path: '/biostar2-docs/update/biostar2-2911',
+                                component: ComponentCreator('/biostar2-docs/update/biostar2-2911', '9d7'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/biostar2-2912',
-                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-2912', 'f3c'),
+                                path: '/biostar2-docs/update/biostar2-2912',
+                                component: ComponentCreator('/biostar2-docs/update/biostar2-2912', '1bd'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/biostar2-295',
-                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-295', 'cef'),
+                                path: '/biostar2-docs/update/biostar2-295',
+                                component: ComponentCreator('/biostar2-docs/update/biostar2-295', '91d'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/biostar2-297',
-                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-297', '6af'),
+                                path: '/biostar2-docs/update/biostar2-297',
+                                component: ComponentCreator('/biostar2-docs/update/biostar2-297', '23f'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/update/biostar2-298',
-                                component: ComponentCreator('/biostar2-docs/en/update/biostar2-298', '54d'),
+                                path: '/biostar2-docs/update/biostar2-298',
+                                component: ComponentCreator('/biostar2-docs/update/biostar2-298', '103'),
                                 exact: true,
                                 sidebar: "biostar"
                             },
                             {
-                                path: '/biostar2-docs/en/',
-                                component: ComponentCreator('/biostar2-docs/en/', '5af'),
+                                path: '/biostar2-docs/',
+                                component: ComponentCreator('/biostar2-docs/', 'ae4'),
                                 exact: true,
                                 sidebar: "biostar"
                             }
@@ -27910,13 +27910,13 @@ var react = __webpack_require__(7294);
 // EXTERNAL MODULE: ./.docusaurus/docusaurus.config.mjs
 var docusaurus_config = __webpack_require__(5150);
 ;// CONCATENATED MODULE: ./.docusaurus/globalData.json
-var globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/biostar2-docs/en/","versions":[{"name":"current","label":"Next","isLast":true,"path":"/biostar2-docs/en/","mainDocId":"index","docs":[{"id":"index","path":"/biostar2-docs/en/","sidebar":"biostar"},{"id":"revision/260","path":"/biostar2-docs/en/revision/260","sidebar":"biostar"},{"id":"revision/261","path":"/biostar2-docs/en/revision/261","sidebar":"biostar"},{"id":"revision/262","path":"/biostar2-docs/en/revision/262","sidebar":"biostar"},{"id":"revision/263","path":"/biostar2-docs/en/revision/263","sidebar":"biostar"},{"id":"revision/264","path":"/biostar2-docs/en/revision/264","sidebar":"biostar"},{"id":"revision/270","path":"/biostar2-docs/en/revision/270","sidebar":"biostar"},{"id":"revision/271","path":"/biostar2-docs/en/revision/271","sidebar":"biostar"},{"id":"revision/2710","path":"/biostar2-docs/en/revision/2710","sidebar":"biostar"},{"id":"revision/2711","path":"/biostar2-docs/en/revision/2711","sidebar":"biostar"},{"id":"revision/2712","path":"/biostar2-docs/en/revision/2712","sidebar":"biostar"},{"id":"revision/2714","path":"/biostar2-docs/en/revision/2714","sidebar":"biostar"},{"id":"revision/272","path":"/biostar2-docs/en/revision/272","sidebar":"biostar"},{"id":"revision/273","path":"/biostar2-docs/en/revision/273","sidebar":"biostar"},{"id":"revision/274","path":"/biostar2-docs/en/revision/274","sidebar":"biostar"},{"id":"revision/275","path":"/biostar2-docs/en/revision/275","sidebar":"biostar"},{"id":"revision/276","path":"/biostar2-docs/en/revision/276","sidebar":"biostar"},{"id":"revision/277","path":"/biostar2-docs/en/revision/277","sidebar":"biostar"},{"id":"revision/278","path":"/biostar2-docs/en/revision/278","sidebar":"biostar"},{"id":"revision/280","path":"/biostar2-docs/en/revision/280","sidebar":"biostar"},{"id":"revision/281","path":"/biostar2-docs/en/revision/281","sidebar":"biostar"},{"id":"revision/2810","path":"/biostar2-docs/en/revision/2810","sidebar":"biostar"},{"id":"revision/2811","path":"/biostar2-docs/en/revision/2811","sidebar":"biostar"},{"id":"revision/2812","path":"/biostar2-docs/en/revision/2812","sidebar":"biostar"},{"id":"revision/2813","path":"/biostar2-docs/en/revision/2813","sidebar":"biostar"},{"id":"revision/2814","path":"/biostar2-docs/en/revision/2814","sidebar":"biostar"},{"id":"revision/2815","path":"/biostar2-docs/en/revision/2815","sidebar":"biostar"},{"id":"revision/2816","path":"/biostar2-docs/en/revision/2816","sidebar":"biostar"},{"id":"revision/2817","path":"/biostar2-docs/en/revision/2817","sidebar":"biostar"},{"id":"revision/282","path":"/biostar2-docs/en/revision/282","sidebar":"biostar"},{"id":"revision/283","path":"/biostar2-docs/en/revision/283","sidebar":"biostar"},{"id":"revision/284","path":"/biostar2-docs/en/revision/284","sidebar":"biostar"},{"id":"revision/285","path":"/biostar2-docs/en/revision/285","sidebar":"biostar"},{"id":"revision/286","path":"/biostar2-docs/en/revision/286","sidebar":"biostar"},{"id":"revision/288","path":"/biostar2-docs/en/revision/288","sidebar":"biostar"},{"id":"revision/289","path":"/biostar2-docs/en/revision/289","sidebar":"biostar"},{"id":"revision/290","path":"/biostar2-docs/en/revision/290","sidebar":"biostar"},{"id":"revision/291","path":"/biostar2-docs/en/revision/291","sidebar":"biostar"},{"id":"revision/2910","path":"/biostar2-docs/en/revision/2910","sidebar":"biostar"},{"id":"revision/2910-draft","path":"/biostar2-docs/en/revision/2910-draft"},{"id":"revision/2911","path":"/biostar2-docs/en/revision/2911","sidebar":"biostar"},{"id":"revision/2912","path":"/biostar2-docs/en/revision/2912","sidebar":"biostar"},{"id":"revision/292","path":"/biostar2-docs/en/revision/292","sidebar":"biostar"},{"id":"revision/293","path":"/biostar2-docs/en/revision/293","sidebar":"biostar"},{"id":"revision/294","path":"/biostar2-docs/en/revision/294","sidebar":"biostar"},{"id":"revision/295","path":"/biostar2-docs/en/revision/295","sidebar":"biostar"},{"id":"revision/296","path":"/biostar2-docs/en/revision/296","sidebar":"biostar"},{"id":"revision/297","path":"/biostar2-docs/en/revision/297","sidebar":"biostar"},{"id":"revision/298","path":"/biostar2-docs/en/revision/298","sidebar":"biostar"},{"id":"revision/index","path":"/biostar2-docs/en/revision/","sidebar":"biostar"},{"id":"update/2910/ad-encrypt","path":"/biostar2-docs/en/update/2910/ad-encrypt","sidebar":"biostar"},{"id":"update/2910/how-to-use-cs20","path":"/biostar2-docs/en/update/2910/how-to-use-cs20","sidebar":"biostar"},{"id":"update/2910/how-to-use-di24","path":"/biostar2-docs/en/update/2910/how-to-use-di24","sidebar":"biostar"},{"id":"update/2910/settings-diretory-integration","path":"/biostar2-docs/en/update/2910/settings-diretory-integration","sidebar":"biostar"},{"id":"update/2911/bs2-master-admin","path":"/biostar2-docs/en/update/2911/bs2-master-admin","sidebar":"biostar"},{"id":"update/2912/bs2-remote-access","path":"/biostar2-docs/en/update/2912/bs2-remote-access","sidebar":"biostar"},{"id":"update/295/advanced-search","path":"/biostar2-docs/en/update/295/advanced-search","sidebar":"biostar"},{"id":"update/295/new-dashboard","path":"/biostar2-docs/en/update/295/new-dashboard","sidebar":"biostar"},{"id":"update/295/quick-action","path":"/biostar2-docs/en/update/295/quick-action","sidebar":"biostar"},{"id":"update/295/timed-apb","path":"/biostar2-docs/en/update/295/timed-apb","sidebar":"biostar"},{"id":"update/295/unified-gateway","path":"/biostar2-docs/en/update/295/unified-gateway","sidebar":"biostar"},{"id":"update/295/user-photo-enroll-using-webcam","path":"/biostar2-docs/en/update/295/user-photo-enroll-using-webcam","sidebar":"biostar"},{"id":"update/295/wireless-door-lock","path":"/biostar2-docs/en/update/295/wireless-door-lock","sidebar":"biostar"},{"id":"update/297/multi-factor-auth-for-login","path":"/biostar2-docs/en/update/297/multi-factor-auth-for-login","sidebar":"biostar"},{"id":"update/297/visual-face-with-template","path":"/biostar2-docs/en/update/297/visual-face-with-template","sidebar":"biostar"},{"id":"update/298/csn-mobile-card","path":"/biostar2-docs/en/update/298/csn-mobile-card","sidebar":"biostar"},{"id":"update/298/deny-access-when-wearing-mask","path":"/biostar2-docs/en/update/298/deny-access-when-wearing-mask","sidebar":"biostar"},{"id":"update/298/device-display-message","path":"/biostar2-docs/en/update/298/device-display-message","sidebar":"biostar"},{"id":"update/298/file-upload-user-information","path":"/biostar2-docs/en/update/298/file-upload-user-information","sidebar":"biostar"},{"id":"update/298/other-update","path":"/biostar2-docs/en/update/298/other-update","sidebar":"biostar"},{"id":"update/298/update-timed-apb","path":"/biostar2-docs/en/update/298/update-timed-apb","sidebar":"biostar"},{"id":"update/biostar2-2910","path":"/biostar2-docs/en/update/biostar2-2910","sidebar":"biostar"},{"id":"update/biostar2-2911","path":"/biostar2-docs/en/update/biostar2-2911","sidebar":"biostar"},{"id":"update/biostar2-2912","path":"/biostar2-docs/en/update/biostar2-2912","sidebar":"biostar"},{"id":"update/biostar2-295","path":"/biostar2-docs/en/update/biostar2-295","sidebar":"biostar"},{"id":"update/biostar2-297","path":"/biostar2-docs/en/update/biostar2-297","sidebar":"biostar"},{"id":"update/biostar2-298","path":"/biostar2-docs/en/update/biostar2-298","sidebar":"biostar"}],"draftIds":["revision/2911-draft","revision/2912-draft"],"sidebars":{"biostar":{"link":{"path":"/biostar2-docs/en/","label":"New Feature Overview"}}}}],"breadcrumbs":true}}}')
+var globalData_namespaceObject = JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/biostar2-docs/","versions":[{"name":"current","label":"Next","isLast":true,"path":"/biostar2-docs/","mainDocId":"index","docs":[{"id":"index","path":"/biostar2-docs/","sidebar":"biostar"},{"id":"revision/260","path":"/biostar2-docs/revision/260","sidebar":"biostar"},{"id":"revision/261","path":"/biostar2-docs/revision/261","sidebar":"biostar"},{"id":"revision/262","path":"/biostar2-docs/revision/262","sidebar":"biostar"},{"id":"revision/263","path":"/biostar2-docs/revision/263","sidebar":"biostar"},{"id":"revision/264","path":"/biostar2-docs/revision/264","sidebar":"biostar"},{"id":"revision/270","path":"/biostar2-docs/revision/270","sidebar":"biostar"},{"id":"revision/271","path":"/biostar2-docs/revision/271","sidebar":"biostar"},{"id":"revision/2710","path":"/biostar2-docs/revision/2710","sidebar":"biostar"},{"id":"revision/2711","path":"/biostar2-docs/revision/2711","sidebar":"biostar"},{"id":"revision/2712","path":"/biostar2-docs/revision/2712","sidebar":"biostar"},{"id":"revision/2714","path":"/biostar2-docs/revision/2714","sidebar":"biostar"},{"id":"revision/272","path":"/biostar2-docs/revision/272","sidebar":"biostar"},{"id":"revision/273","path":"/biostar2-docs/revision/273","sidebar":"biostar"},{"id":"revision/274","path":"/biostar2-docs/revision/274","sidebar":"biostar"},{"id":"revision/275","path":"/biostar2-docs/revision/275","sidebar":"biostar"},{"id":"revision/276","path":"/biostar2-docs/revision/276","sidebar":"biostar"},{"id":"revision/277","path":"/biostar2-docs/revision/277","sidebar":"biostar"},{"id":"revision/278","path":"/biostar2-docs/revision/278","sidebar":"biostar"},{"id":"revision/280","path":"/biostar2-docs/revision/280","sidebar":"biostar"},{"id":"revision/281","path":"/biostar2-docs/revision/281","sidebar":"biostar"},{"id":"revision/2810","path":"/biostar2-docs/revision/2810","sidebar":"biostar"},{"id":"revision/2811","path":"/biostar2-docs/revision/2811","sidebar":"biostar"},{"id":"revision/2812","path":"/biostar2-docs/revision/2812","sidebar":"biostar"},{"id":"revision/2813","path":"/biostar2-docs/revision/2813","sidebar":"biostar"},{"id":"revision/2814","path":"/biostar2-docs/revision/2814","sidebar":"biostar"},{"id":"revision/2815","path":"/biostar2-docs/revision/2815","sidebar":"biostar"},{"id":"revision/2816","path":"/biostar2-docs/revision/2816","sidebar":"biostar"},{"id":"revision/2817","path":"/biostar2-docs/revision/2817","sidebar":"biostar"},{"id":"revision/282","path":"/biostar2-docs/revision/282","sidebar":"biostar"},{"id":"revision/283","path":"/biostar2-docs/revision/283","sidebar":"biostar"},{"id":"revision/284","path":"/biostar2-docs/revision/284","sidebar":"biostar"},{"id":"revision/285","path":"/biostar2-docs/revision/285","sidebar":"biostar"},{"id":"revision/286","path":"/biostar2-docs/revision/286","sidebar":"biostar"},{"id":"revision/288","path":"/biostar2-docs/revision/288","sidebar":"biostar"},{"id":"revision/289","path":"/biostar2-docs/revision/289","sidebar":"biostar"},{"id":"revision/290","path":"/biostar2-docs/revision/290","sidebar":"biostar"},{"id":"revision/291","path":"/biostar2-docs/revision/291","sidebar":"biostar"},{"id":"revision/2910","path":"/biostar2-docs/revision/2910","sidebar":"biostar"},{"id":"revision/2910-draft","path":"/biostar2-docs/revision/2910-draft"},{"id":"revision/2911","path":"/biostar2-docs/revision/2911","sidebar":"biostar"},{"id":"revision/2912","path":"/biostar2-docs/revision/2912","sidebar":"biostar"},{"id":"revision/292","path":"/biostar2-docs/revision/292","sidebar":"biostar"},{"id":"revision/293","path":"/biostar2-docs/revision/293","sidebar":"biostar"},{"id":"revision/294","path":"/biostar2-docs/revision/294","sidebar":"biostar"},{"id":"revision/295","path":"/biostar2-docs/revision/295","sidebar":"biostar"},{"id":"revision/296","path":"/biostar2-docs/revision/296","sidebar":"biostar"},{"id":"revision/297","path":"/biostar2-docs/revision/297","sidebar":"biostar"},{"id":"revision/298","path":"/biostar2-docs/revision/298","sidebar":"biostar"},{"id":"revision/index","path":"/biostar2-docs/revision/","sidebar":"biostar"},{"id":"update/2910/ad-encrypt","path":"/biostar2-docs/update/2910/ad-encrypt","sidebar":"biostar"},{"id":"update/2910/how-to-use-cs20","path":"/biostar2-docs/update/2910/how-to-use-cs20","sidebar":"biostar"},{"id":"update/2910/how-to-use-di24","path":"/biostar2-docs/update/2910/how-to-use-di24","sidebar":"biostar"},{"id":"update/2910/settings-diretory-integration","path":"/biostar2-docs/update/2910/settings-diretory-integration","sidebar":"biostar"},{"id":"update/2911/bs2-master-admin","path":"/biostar2-docs/update/2911/bs2-master-admin","sidebar":"biostar"},{"id":"update/2912/bs2-remote-access","path":"/biostar2-docs/update/2912/bs2-remote-access","sidebar":"biostar"},{"id":"update/295/advanced-search","path":"/biostar2-docs/update/295/advanced-search","sidebar":"biostar"},{"id":"update/295/new-dashboard","path":"/biostar2-docs/update/295/new-dashboard","sidebar":"biostar"},{"id":"update/295/quick-action","path":"/biostar2-docs/update/295/quick-action","sidebar":"biostar"},{"id":"update/295/timed-apb","path":"/biostar2-docs/update/295/timed-apb","sidebar":"biostar"},{"id":"update/295/unified-gateway","path":"/biostar2-docs/update/295/unified-gateway","sidebar":"biostar"},{"id":"update/295/user-photo-enroll-using-webcam","path":"/biostar2-docs/update/295/user-photo-enroll-using-webcam","sidebar":"biostar"},{"id":"update/295/wireless-door-lock","path":"/biostar2-docs/update/295/wireless-door-lock","sidebar":"biostar"},{"id":"update/297/multi-factor-auth-for-login","path":"/biostar2-docs/update/297/multi-factor-auth-for-login","sidebar":"biostar"},{"id":"update/297/visual-face-with-template","path":"/biostar2-docs/update/297/visual-face-with-template","sidebar":"biostar"},{"id":"update/298/csn-mobile-card","path":"/biostar2-docs/update/298/csn-mobile-card","sidebar":"biostar"},{"id":"update/298/deny-access-when-wearing-mask","path":"/biostar2-docs/update/298/deny-access-when-wearing-mask","sidebar":"biostar"},{"id":"update/298/device-display-message","path":"/biostar2-docs/update/298/device-display-message","sidebar":"biostar"},{"id":"update/298/file-upload-user-information","path":"/biostar2-docs/update/298/file-upload-user-information","sidebar":"biostar"},{"id":"update/298/other-update","path":"/biostar2-docs/update/298/other-update","sidebar":"biostar"},{"id":"update/298/update-timed-apb","path":"/biostar2-docs/update/298/update-timed-apb","sidebar":"biostar"},{"id":"update/biostar2-2910","path":"/biostar2-docs/update/biostar2-2910","sidebar":"biostar"},{"id":"update/biostar2-2911","path":"/biostar2-docs/update/biostar2-2911","sidebar":"biostar"},{"id":"update/biostar2-2912","path":"/biostar2-docs/update/biostar2-2912","sidebar":"biostar"},{"id":"update/biostar2-295","path":"/biostar2-docs/update/biostar2-295","sidebar":"biostar"},{"id":"update/biostar2-297","path":"/biostar2-docs/update/biostar2-297","sidebar":"biostar"},{"id":"update/biostar2-298","path":"/biostar2-docs/update/biostar2-298","sidebar":"biostar"}],"draftIds":["revision/2911-draft","revision/2912-draft"],"sidebars":{"biostar":{"link":{"path":"/biostar2-docs/","label":"신규 기능 소개"}}}}],"breadcrumbs":true}}}')
 ;// CONCATENATED MODULE: ./.docusaurus/i18n.json
-var i18n_namespaceObject = JSON.parse('{"defaultLocale":"ko","locales":["ko","en"],"path":"i18n","currentLocale":"en","localeConfigs":{"ko":{"label":"한국어","direction":"ltr","htmlLang":"ko-KR","calendar":"gregory","path":"ko"},"en":{"label":"English","direction":"ltr","htmlLang":"en-US","calendar":"gregory","path":"en"}}}')
+var i18n_namespaceObject = JSON.parse('{"defaultLocale":"ko","locales":["ko","en"],"path":"i18n","currentLocale":"ko","localeConfigs":{"ko":{"label":"한국어","direction":"ltr","htmlLang":"ko-KR","calendar":"gregory","path":"ko"},"en":{"label":"English","direction":"ltr","htmlLang":"en-US","calendar":"gregory","path":"en"}}}')
 // EXTERNAL MODULE: ./.docusaurus/codeTranslations.json
 var codeTranslations = __webpack_require__(2627);
 ;// CONCATENATED MODULE: ./.docusaurus/site-metadata.json
-var site_metadata_namespaceObject = JSON.parse('{"docusaurusVersion":"3.8.1","siteVersion":"0.0.0","pluginVersions":{"docusaurus-plugin-content-docs":{"type":"package","name":"@docusaurus/plugin-content-docs","version":"3.8.1"},"docusaurus-plugin-content-pages":{"type":"package","name":"@docusaurus/plugin-content-pages","version":"3.8.1"},"docusaurus-plugin-sitemap":{"type":"package","name":"@docusaurus/plugin-sitemap","version":"3.8.1"},"docusaurus-plugin-svgr":{"type":"package","name":"@docusaurus/plugin-svgr","version":"3.8.1"},"docusaurus-theme-classic":{"type":"package","name":"@docusaurus/theme-classic","version":"3.8.1"},"docusaurus-plugin-sass":{"type":"package","name":"docusaurus-plugin-sass","version":"0.2.6"},"docusaurus-plugin-image-zoom":{"type":"package","name":"docusaurus-plugin-image-zoom","version":"3.0.1"},"docusaurus-theme-github-codeblock":{"type":"package","name":"@saucelabs/theme-github-codeblock","version":"0.3.0"},"@easyops-cn/docusaurus-search-local":{"type":"package","name":"@easyops-cn/docusaurus-search-local","version":"0.51.1"}}}')
+var site_metadata_namespaceObject = JSON.parse('{"docusaurusVersion":"3.8.1","siteVersion":"0.0.0","pluginVersions":{"docusaurus-plugin-content-docs":{"type":"package","name":"@docusaurus/plugin-content-docs","version":"3.8.1"},"docusaurus-plugin-content-pages":{"type":"package","name":"@docusaurus/plugin-content-pages","version":"3.8.1"},"docusaurus-plugin-sitemap":{"type":"package","name":"@docusaurus/plugin-sitemap","version":"3.8.1"},"docusaurus-plugin-svgr":{"type":"package","name":"@docusaurus/plugin-svgr","version":"3.8.1"},"docusaurus-theme-classic":{"type":"package","name":"@docusaurus/theme-classic","version":"3.8.1"},"docusaurus-plugin-sass":{"type":"package","name":"docusaurus-plugin-sass","version":"0.2.6"},"docusaurus-plugin-image-zoom":{"type":"package","name":"docusaurus-plugin-image-zoom","version":"3.0.1"},"docusaurus-theme-github-codeblock":{"type":"package","name":"@saucelabs/theme-github-codeblock","version":"0.3.0"},"@easyops-cn/docusaurus-search-local":{"type":"package","name":"@easyops-cn/docusaurus-search-local","version":"0.55.1"}}}')
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/docusaurusContext.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -27968,8 +27968,8 @@ var ExecutionEnvironment = __webpack_require__(7565);
 var Head = __webpack_require__(4819);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/utils-common/lib/index.js
 var lib = __webpack_require__(8365);
-// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 83 modules
-var Layout = __webpack_require__(8472);
+// EXTERNAL MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/Layout/index.js + 89 modules
+var Layout = __webpack_require__(4866);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/routeContext.js
 var routeContext = __webpack_require__(4879);
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/core/lib/client/theme-fallback/Error/index.js
@@ -28867,7 +28867,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* ESM import */var _docusaurus_plugin_content_docs_client__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(1723);
 /* ESM import */var _docusaurus_constants__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(7710);
 /* ESM import */var _docusaurus_theme_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(140);
-/* ESM import */var _docusaurus_theme_common_internal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6009);
+/* ESM import */var _docusaurus_theme_common_internal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8737);
 /* ESM import */var _docusaurus_theme_common_internal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5346);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -29855,7 +29855,7 @@ function IconExternalLink(param) {
 
 
 }),
-8472: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+4866: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 "use strict";
 
 // EXPORTS
@@ -30780,7 +30780,7 @@ var Collapsible = __webpack_require__(7455);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/routesUtils.js
 var routesUtils = __webpack_require__(9246);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
-var exports_useDocusaurusContext = __webpack_require__(2933);
+var useDocusaurusContext = __webpack_require__(2933);
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/useLocalPathname.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -30794,7 +30794,7 @@ var exports_useDocusaurusContext = __webpack_require__(2933);
  * - `/docs/myDoc` => `/docs/myDoc`
  * - `/baseUrl/docs/myDoc` => `/docs/myDoc`
  */ function useLocalPathname() {
-    const { siteConfig: { baseUrl } } = (0,exports_useDocusaurusContext/* default */.Z)();
+    const { siteConfig: { baseUrl } } = (0,useDocusaurusContext/* default */.Z)();
     const { pathname } = (0,react_router/* useLocation */.TH)();
     return pathname.replace(baseUrl, '/');
 } //# sourceMappingURL=useLocalPathname.js.map
@@ -31065,7 +31065,7 @@ function IconLanguage(param) {
 
 function LocaleDropdownNavbarItem(param) {
     let { mobile, dropdownItemsBefore, dropdownItemsAfter, queryString = '', ...props } = param;
-    const { i18n: { currentLocale, locales, localeConfigs } } = (0,exports_useDocusaurusContext/* default */.Z)();
+    const { i18n: { currentLocale, locales, localeConfigs } } = (0,useDocusaurusContext/* default */.Z)();
     const alternatePageUtils = (0,useAlternatePageUtils/* useAlternatePageUtils */.l)();
     const { search, hash } = (0,react_router/* useLocation */.TH)();
     const localeItems = locales.map((locale)=>{
@@ -31115,7 +31115,100 @@ function LocaleDropdownNavbarItem(param) {
 
 // EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/proxiedGenerated.js + 1 modules
 var proxiedGenerated = __webpack_require__(322);
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/theme-common/lib/index.js
+// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useGlobalData.js
+var useGlobalData = __webpack_require__(1672);
+;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/docsClientUtils.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ 
+// This code is not part of the api surface, not in ./theme on purpose
+// get the data of the plugin that is currently "active"
+// ie the docs of that plugin are currently browsed
+// it is useful to support multiple docs plugin instances
+function getActivePlugin(allPluginData, pathname) {
+    let options = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
+    const activeEntry = Object.entries(allPluginData)// Route sorting: '/android/foo' should match '/android' instead of '/'
+    .sort((a, b)=>b[1].path.localeCompare(a[1].path)).find((param)=>{
+        let [, pluginData] = param;
+        return !!(0,react_router/* matchPath */.LX)(pathname, {
+            path: pluginData.path,
+            exact: false,
+            strict: false
+        });
+    });
+    const activePlugin = activeEntry ? {
+        pluginId: activeEntry[0],
+        pluginData: activeEntry[1]
+    } : undefined;
+    if (!activePlugin && options.failfast) {
+        throw new Error(`Can't find active docs plugin for "${pathname}" pathname, while it was expected to be found. Maybe you tried to use a docs feature that can only be used on a docs-related page? Existing docs plugin paths are: ${Object.values(allPluginData).map((plugin)=>plugin.path).join(', ')}`);
+    }
+    return activePlugin;
+}
+const docsClientUtils_getLatestVersion = (data)=>data.versions.find((version)=>version.isLast);
+function docsClientUtils_getActiveVersion(data, pathname) {
+    // Sort paths so that a match-all version like /docs/* is matched last
+    // Otherwise /docs/* would match /docs/1.0.0/* routes
+    // This is simplified but similar to the core sortRoutes() logic
+    const sortedVersions = [
+        ...data.versions
+    ].sort((a, b)=>{
+        if (a.path === b.path) {
+            return 0;
+        }
+        if (a.path.includes(b.path)) {
+            return -1;
+        }
+        if (b.path.includes(a.path)) {
+            return 1;
+        }
+        return 0;
+    });
+    return sortedVersions.find((version)=>!!(0,react_router/* matchPath */.LX)(pathname, {
+            path: version.path,
+            exact: false,
+            strict: false
+        }));
+}
+function docsClientUtils_getActiveDocContext(data, pathname) {
+    const activeVersion = docsClientUtils_getActiveVersion(data, pathname);
+    const activeDoc = activeVersion?.docs.find((doc)=>!!matchPath(pathname, {
+            path: doc.path,
+            exact: true,
+            strict: false
+        }));
+    function getAlternateVersionDocs(docId) {
+        const result = {};
+        data.versions.forEach((version)=>{
+            version.docs.forEach((doc)=>{
+                if (doc.id === docId) {
+                    result[version.name] = doc;
+                }
+            });
+        });
+        return result;
+    }
+    const alternateVersionDocs = activeDoc ? getAlternateVersionDocs(activeDoc.id) : {};
+    return {
+        activeVersion,
+        activeDoc,
+        alternateDocVersions: alternateVersionDocs
+    };
+}
+function docsClientUtils_getDocVersionSuggestions(data, pathname) {
+    const latestVersion = docsClientUtils_getLatestVersion(data);
+    const activeDocContext = docsClientUtils_getActiveDocContext(data, pathname);
+    const latestDocSuggestion = activeDocContext.alternateDocVersions[latestVersion.name];
+    return {
+        latestDocSuggestion,
+        latestVersionSuggestion: latestVersion
+    };
+}
+
+;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/index.js
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -31123,83 +31216,89 @@ var proxiedGenerated = __webpack_require__(322);
  * LICENSE file in the root directory of this source tree.
  */ 
 
-// TODO Docusaurus v4: remove these workarounds as a breaking change
-//  and remove docs plugin peerDeps in theme-common/package.json
-//  This is public API surface that we need to keep for v3
-//  See https://github.com/facebook/docusaurus/pull/10316
-function useCurrentSidebarCategory() {
-    for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++){
-        args[_key] = arguments[_key];
+
+
+
+
+
+
+
+
+
+// Important to use a constant object to avoid React useEffect executions etc.
+// see https://github.com/facebook/docusaurus/issues/5089
+const StableEmptyObject = {};
+// In blog-only mode, docs hooks are still used by the theme. We need a fail-
+// safe fallback when the docs plugin is not in use
+const client_useAllDocsData = ()=>(0,useGlobalData/* useAllPluginInstancesData */.OD)('docusaurus-plugin-content-docs') ?? StableEmptyObject;
+const client_useDocsData = (pluginId)=>{
+    try {
+        return (0,useGlobalData/* usePluginData */.eZ)('docusaurus-plugin-content-docs', pluginId, {
+            failfast: true
+        });
+    } catch (error) {
+        throw new Error(`You are using a feature of the Docusaurus docs plugin, but this plugin does not seem to be enabled${pluginId === 'Default' ? '' : ` (pluginId=${pluginId}`}`, {
+            cause: error
+        });
     }
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    return (__webpack_require__(3911)/* .useCurrentSidebarCategory */.jA)(...args);
+};
+// TODO this feature should be provided by docusaurus core
+function useActivePlugin() {
+    let options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    const data = client_useAllDocsData();
+    const { pathname } = (0,react_router/* useLocation */.TH)();
+    return getActivePlugin(data, pathname, options);
 }
-function filterDocCardListItems() {
-    for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++){
-        args[_key] = arguments[_key];
+function useActivePluginAndVersion() {
+    let options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
+    const activePlugin = useActivePlugin(options);
+    const { pathname } = useLocation();
+    if (!activePlugin) {
+        return undefined;
     }
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    return (__webpack_require__(3911)/* .filterDocCardListItems */.MN)(...args);
-}
-function useDocsPreferredVersion() {
-    for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++){
-        args[_key] = arguments[_key];
-    }
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    return (__webpack_require__(3911)/* .useDocsPreferredVersion */.J)(...args);
-}
-function useContextualSearchFilters() {
-    const { i18n } = useDocusaurusContext();
-    const docsTags = // eslint-disable-next-line @typescript-eslint/no-var-requires
-    (__webpack_require__(3911)/* .useDocsContextualSearchTags */.z1)();
-    const tags = [
-        DEFAULT_SEARCH_TAG,
-        ...docsTags
-    ];
+    const activeVersion = getActiveVersion(activePlugin.pluginData, pathname);
     return {
-        locale: i18n.currentLocale,
-        tags
+        activePlugin,
+        activeVersion
     };
 }
-/*
- * APIs to document
- */ 
+/** Versions are returned ordered (most recent first). */ function useVersions(pluginId) {
+    const data = client_useDocsData(pluginId);
+    return data.versions;
+}
+function useLatestVersion(pluginId) {
+    const data = client_useDocsData(pluginId);
+    return getLatestVersion(data);
+}
+/**
+ * Returns `undefined` on doc-unrelated pages, because there's no version
+ * currently considered as active.
+ */ function useActiveVersion(pluginId) {
+    const data = client_useDocsData(pluginId);
+    const { pathname } = (0,react_router/* useLocation */.TH)();
+    return docsClientUtils_getActiveVersion(data, pathname);
+}
+function useActiveDocContext(pluginId) {
+    const data = client_useDocsData(pluginId);
+    const { pathname } = useLocation();
+    return getActiveDocContext(data, pathname);
+}
+/**
+ * Useful to say "hey, you are not on the latest docs version, please switch"
+ */ function useDocVersionSuggestions(pluginId) {
+    const data = client_useDocsData(pluginId);
+    const { pathname } = useLocation();
+    return getDocVersionSuggestions(data, pathname);
+}
 
-
-
-
-
-
-
-
-
-
-
-/*
- * APIs kept undocumented, on purpose
- * Note: we still guarantee retro-compatibility on those
- */ 
-
-
-
-
-
-
-
-
-
- //# sourceMappingURL=index.js.map
-
-// EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/theme-common/lib/utils/reactUtils.js
-var utils_reactUtils = __webpack_require__(4106);
-// EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/index.js + 6 modules
-var client = __webpack_require__(3911);
 // EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/searchByWorker.js + 1 modules
 var searchByWorker = __webpack_require__(9235);
 // EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/shared/interfaces.js
 var interfaces = __webpack_require__(5528);
 // EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/concatDocumentPath.js
 var concatDocumentPath = __webpack_require__(7591);
+// EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/escapeHtml.js
+var escapeHtml = __webpack_require__(9863);
 // EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/getStemmedPositions.js
 var getStemmedPositions = __webpack_require__(7303);
 // EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/highlight.js
@@ -31214,6 +31313,7 @@ const iconAction = '<svg width="20" height="20" viewBox="0 0 20 20"><g stroke="c
 const iconNoResults = '<svg width="40" height="40" viewBox="0 0 20 20" fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 4.8c2 3 1.7 7-1 9.7h0l4.3 4.3-4.3-4.3a7.8 7.8 0 01-9.8 1m-2.2-2.2A7.8 7.8 0 0113.2 2.4M2 18L18 2"></path></svg>';
 const iconTreeInter = '<svg viewBox="0 0 24 54"><g stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6v42M20 27H8.3"></path></g></svg>';
 const iconTreeLast = '<svg viewBox="0 0 24 54"><g stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6v21M20 27H8.3"></path></g></svg>';
+const iconAskAI = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles-icon lucide-sparkles"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/><path d="M20 2v4"/><path d="M22 4h-4"/><circle cx="4" cy="20" r="2"/></svg>';
 
 ;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/SearchBar.module.css
 // extracted by css-extract-rspack-plugin
@@ -31227,8 +31327,17 @@ const iconTreeLast = '<svg viewBox="0 0 24 54"><g stroke="currentColor" fill="no
 
 
 
+
 function SuggestionTemplate(param) {
     let { document, type, page, metadata, tokens, isInterOfTree, isLastOfTree } = param;
+    if (type === interfaces/* SearchDocumentType,AskAI */.P.AskAI) {
+        return [
+            `<span class="${SearchBar_module.hitIcon}">${iconAskAI}</span>`,
+            `<span class="${SearchBar_module.hitWrapper}">`,
+            `<span class="${SearchBar_module.hitTitle}">Ask AI: <mark>${(0,escapeHtml/* escapeHtml */.X)(tokens.join(" "))}</mark></span>`,
+            `</span>`
+        ].join("");
+    }
     const isTitle = type === interfaces/* SearchDocumentType,Title */.P.Title;
     const isKeywords = type === interfaces/* SearchDocumentType,Keywords */.P.Keywords;
     const isTitleRelated = isTitle || isKeywords;
@@ -31295,7 +31404,7 @@ const language = (/* unused pure expression or super */ null && ([
     "ko",
     "en"
 ]));
-const searchIndexUrl = "search-index{dir}.json?_=5e13fb15";
+const searchIndexUrl = "search-index{dir}.json?_=a5e50aeb";
 const searchResultLimits = 8;
 const fuzzyMatchingDistance = 1;
 
@@ -31303,7 +31412,106 @@ const fuzzyMatchingDistance = 1;
 // This file is auto generated while building.
 
 
+;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/platform.js
+/**
+ * Detects if the current platform is macOS using modern, non-deprecated APIs.
+ * Falls back gracefully for older browsers or server-side rendering.
+ */ function isMacPlatform() {
+    // Handle server-side rendering or missing navigator
+    if (typeof navigator === 'undefined') {
+        return false;
+    }
+    // Try modern User-Agent Client Hints API first (if available)
+    if ('userAgentData' in navigator && navigator.userAgentData?.platform) {
+        const platform = navigator.userAgentData.platform.toLowerCase();
+        return platform.includes('mac');
+    }
+    // Fall back to user agent string parsing (more reliable than navigator.platform)
+    if (navigator.userAgent) {
+        return /mac/i.test(navigator.userAgent);
+    }
+    // Final fallback to deprecated navigator.platform for very old browsers
+    if (navigator.platform) {
+        return navigator.platform.toLowerCase().includes('mac');
+    }
+    return false;
+}
+
+;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/keymap.js
+
+function parseKeymap(keymap) {
+    const parts = keymap.toLowerCase().split('+');
+    const result = {
+        key: '',
+        ctrl: false,
+        alt: false,
+        shift: false,
+        meta: false
+    };
+    // Detect if we're on Mac to handle 'mod' appropriately
+    const isMac = isMacPlatform();
+    for (const part of parts){
+        const trimmed = part.trim();
+        switch(trimmed){
+            case 'ctrl':
+                result.ctrl = true;
+                break;
+            case 'cmd':
+                result.meta = true;
+                break;
+            case 'mod':
+                if (isMac) {
+                    result.meta = true;
+                } else {
+                    result.ctrl = true;
+                }
+                break;
+            case 'alt':
+                result.alt = true;
+                break;
+            case 'shift':
+                result.shift = true;
+                break;
+            default:
+                result.key = trimmed;
+                break;
+        }
+    }
+    return result;
+}
+function matchesKeymap(event, keymap) {
+    return !!event.key && event.key.toLowerCase() === keymap.key && event.ctrlKey === keymap.ctrl && event.altKey === keymap.alt && event.shiftKey === keymap.shift && event.metaKey === keymap.meta;
+}
+function getKeymapHints(keymap, isMac) {
+    const parsedKeymap = parseKeymap(keymap);
+    const hints = [];
+    // Handle original keymap string to detect 'mod' for proper hint display
+    const parts = keymap.toLowerCase().split('+').map((p)=>p.trim());
+    const hasMod = parts.includes('mod');
+    if (parsedKeymap.ctrl && !hasMod) {
+        hints.push('ctrl');
+    }
+    if (parsedKeymap.meta && !hasMod) {
+        hints.push(isMac ? "\u2318" : 'cmd');
+    }
+    if (hasMod) {
+        hints.push(isMac ? "\u2318" : 'ctrl');
+    }
+    if (parsedKeymap.alt) {
+        hints.push(isMac ? "\u2325" : 'alt');
+    }
+    if (parsedKeymap.shift) {
+        hints.push(isMac ? "\u21E7" : 'shift');
+    }
+    if (parsedKeymap.key) {
+        hints.push(parsedKeymap.key.toUpperCase());
+    }
+    return hints;
+}
+
 ;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/SearchBar.jsx
+
+
 
 
 
@@ -31333,34 +31541,34 @@ async function fetchAutoCompleteJS() {
     }
     return autoComplete;
 }
+async function fetchOpenAskAI() {
+    try {
+        // Dynamic import of open-ask-ai (optional peer dependency)
+        // This creates a separate webpack chunk that is only loaded when:
+        // 1. The askAi option is configured
+        // 2. This function is called (when user interacts with search)
+        // If open-ask-ai is not installed, the import will fail and be caught gracefully
+        const openAskAIModule = await Promise.resolve(/* import() */).then(__webpack_require__.t.bind(__webpack_require__, 6058, 23));
+        await Promise.resolve(/* import() */).then(__webpack_require__.t.bind(__webpack_require__, 6680, 23));
+        return {
+            AskAIWidget: openAskAIModule.AskAIWidget
+        };
+    } catch (error) {
+        // open-ask-ai is optional, return null if not available
+        return null;
+    }
+}
 const SEARCH_PARAM_HIGHLIGHT = "_highlight";
 function SearchBar(param) {
     let { handleSearchBarToggle } = param;
     const isBrowser = (0,useIsBrowser/* default */.Z)();
-    const { siteConfig: { baseUrl }, i18n: { currentLocale } } = (0,exports_useDocusaurusContext/* default */.Z)();
+    const { siteConfig: { baseUrl }, i18n: { currentLocale } } = (0,useDocusaurusContext/* default */.Z)();
     // It returns undefined for non-docs pages
-    const activePlugin = (0,client/* useActivePlugin */.gA)();
+    const activePlugin = useActivePlugin();
     let versionUrl = baseUrl;
-    // For non-docs pages while using plugin-content-docs with custom ids,
-    // this will throw an error of:
-    //   > Docusaurus plugin global data not found for "docusaurus-plugin-content-docs" plugin with id "default".
-    // It seems that we can not get the correct id for non-docs pages.
-    try {
-        // The try-catch is a hack because useDocsPreferredVersion just throws an
-        // exception when versions are not used.
-        // The same hack is used in SearchPage.tsx
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-        const { preferredVersion } = useDocsPreferredVersion(activePlugin?.pluginId ?? proxiedGenerated/* docsPluginIdForPreferredVersion */.gQ);
-        if (preferredVersion && !preferredVersion.isLast) {
-            versionUrl = preferredVersion.path + "/";
-        }
-    } catch (e) {
-        if (proxiedGenerated/* indexDocs */.l9) {
-            if (e instanceof utils_reactUtils/* ReactContextError */.i6) {
-            /* ignore, happens when website doesn't use versions */ } else {
-                throw e;
-            }
-        }
+    const activeVersion = useActiveVersion(activePlugin?.pluginId ?? proxiedGenerated/* docsPluginIdForPreferredVersion */.gQ);
+    if (activeVersion && !activeVersion.isLast) {
+        versionUrl = activeVersion.path + "/";
     }
     const history = (0,react_router/* useHistory */.k6)();
     const location = (0,react_router/* useLocation */.TH)();
@@ -31372,6 +31580,8 @@ function SearchBar(param) {
     const [inputChanged, setInputChanged] = (0,react.useState)(false);
     const [inputValue, setInputValue] = (0,react.useState)("");
     const search = (0,react.useRef)(null);
+    const askAIWidgetRef = (0,react.useRef)(null);
+    const [AskAIWidgetComponent, setAskAIWidgetComponent] = (0,react.useState)(null);
     const prevSearchContext = (0,react.useRef)("");
     const [searchContext, setSearchContext] = (0,react.useState)("");
     const prevVersionUrl = (0,react.useRef)(baseUrl);
@@ -31418,10 +31628,14 @@ function SearchBar(param) {
         indexStateMap.current.set(searchContext, "loading");
         search.current?.autocomplete.destroy();
         setLoading(true);
-        const [autoComplete] = await Promise.all([
+        const [autoComplete, openAskAIModule] = await Promise.all([
             fetchAutoCompleteJS(),
+            proxiedGenerated/* askAi */.C4 ? fetchOpenAskAI() : Promise.resolve(null),
             (0,searchByWorker/* fetchIndexesByWorker */.r)(versionUrl, searchContext)
         ]);
+        if (openAskAIModule) {
+            setAskAIWidgetComponent(()=>openAskAIModule.AskAIWidget);
+        }
         const searchFooterLinkElement = (param)=>{
             let { query, isEmpty } = param;
             const a = document.createElement("a");
@@ -31495,7 +31709,26 @@ function SearchBar(param) {
             {
                 source: async (input, callback)=>{
                     const result = await (0,searchByWorker/* searchByWorker */.a)(versionUrl, searchContext, input, searchResultLimits);
-                    callback(result);
+                    if (input && proxiedGenerated/* askAi */.C4) {
+                        callback([
+                            {
+                                document: {
+                                    i: -1,
+                                    t: "",
+                                    u: ""
+                                },
+                                type: interfaces/* SearchDocumentType,AskAI */.P.AskAI,
+                                page: undefined,
+                                metadata: {},
+                                tokens: [
+                                    input
+                                ]
+                            },
+                            ...result
+                        ]);
+                    } else {
+                        callback(result);
+                    }
                 },
                 templates: {
                     suggestion: SuggestionTemplate,
@@ -31517,8 +31750,12 @@ function SearchBar(param) {
                 }
             }
         ]).on("autocomplete:selected", function(event, param) {
-            let { document: { u, h }, tokens } = param;
+            let { document: { u, h }, type, tokens } = param;
             searchBarRef.current?.blur();
+            if (type === interfaces/* SearchDocumentType,AskAI */.P.AskAI && proxiedGenerated/* askAi */.C4) {
+                askAIWidgetRef.current?.openWithNewSession(tokens.join(""));
+                return;
+            }
             let url = u;
             if (proxiedGenerated/* Mark */.vc && tokens.length > 0) {
                 const params = new URLSearchParams();
@@ -31542,6 +31779,11 @@ function SearchBar(param) {
                 search.current?.autocomplete.open();
             }
             input.focus();
+            // On small screens the input is collapsed by default; after expanding via
+            // focus, move the caret to the end so backspace works as expected.
+            if (window.matchMedia("(max-width: 576px)").matches) {
+                input.setSelectionRange(input.value.length, input.value.length);
+            }
         }
     }, [
         hidden,
@@ -31588,6 +31830,17 @@ function SearchBar(param) {
         loadIndex();
         setFocused(true);
         handleSearchBarToggle?.(true);
+        // On small screens the input is collapsed by default; after expanding via
+        // focus, move the caret to the end so backspace works as expected.
+        // On large screens we leave the native caret behaviour untouched.
+        if (window.matchMedia("(max-width: 576px)").matches) {
+            const input = searchBarRef.current;
+            if (input) {
+                setTimeout(()=>{
+                    input.setSelectionRange(input.value.length, input.value.length);
+                }, 0);
+            }
+        }
     }, [
         handleSearchBarToggle,
         loadIndex
@@ -31610,7 +31863,7 @@ function SearchBar(param) {
         }
     }, []);
     // Implement hint icons for the search shortcuts on mac and the rest operating systems.
-    const isMac = isBrowser ? /mac/i.test(navigator.userAgentData?.platform ?? navigator.platform) : false;
+    const isMac = isBrowser ? isMacPlatform() : false;
     // Sync the input value and focus state for SSR
     (0,react.useEffect)(()=>{
         const searchBar = searchBarRef.current;
@@ -31628,12 +31881,13 @@ function SearchBar(param) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     []);
     (0,react.useEffect)(()=>{
-        if (!proxiedGenerated/* searchBarShortcut */.AY) {
+        if (!proxiedGenerated/* searchBarShortcut */.AY || !proxiedGenerated/* searchBarShortcutKeymap */.kv) {
             return;
         }
-        // Add shortcuts command/ctrl + K
+        const parsedKeymap = parseKeymap(proxiedGenerated/* searchBarShortcutKeymap */.kv);
+        // Add shortcuts based on custom keymap
         const handleShortcut = (event)=>{
-            if ((isMac ? event.metaKey : event.ctrlKey) && (event.key === "k" || event.key === "K")) {
+            if (matchesKeymap(event, parsedKeymap)) {
                 event.preventDefault();
                 searchBarRef.current?.focus();
                 onInputFocus();
@@ -31644,8 +31898,8 @@ function SearchBar(param) {
             document.removeEventListener("keydown", handleShortcut);
         };
     }, [
-        isMac,
-        onInputFocus
+        onInputFocus,
+        proxiedGenerated/* searchBarShortcutKeymap */.kv
     ]);
     const onClearSearch = (0,react.useCallback)(()=>{
         const params = new URLSearchParams(location.search);
@@ -31688,6 +31942,13 @@ function SearchBar(param) {
                 ref: searchBarRef,
                 value: inputValue
             }),
+            proxiedGenerated/* askAi */.C4 && AskAIWidgetComponent && /*#__PURE__*/ (0,jsx_runtime.jsx)(AskAIWidgetComponent, {
+                ref: askAIWidgetRef,
+                ...proxiedGenerated/* askAi */.C4,
+                children: /*#__PURE__*/ (0,jsx_runtime.jsx)("span", {
+                    hidden: true
+                })
+            }),
             /*#__PURE__*/ (0,jsx_runtime.jsx)(LoadingRing/* default */.Z, {
                 className: SearchBar_module.searchBarLoadingRing
             }),
@@ -31695,27 +31956,416 @@ function SearchBar(param) {
                 className: SearchBar_module.searchClearButton,
                 onClick: onClearSearch,
                 children: "\u2715"
-            }) : isBrowser && /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
+            }) : isBrowser && proxiedGenerated/* searchBarShortcutKeymap */.kv && /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
                 className: SearchBar_module.searchHintContainer,
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("kbd", {
+                children: getKeymapHints(proxiedGenerated/* searchBarShortcutKeymap */.kv, isMac).map((hint, index)=>/*#__PURE__*/ (0,jsx_runtime.jsx)("kbd", {
                         className: SearchBar_module.searchHint,
-                        children: isMac ? "\u2318" : "ctrl"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime.jsx)("kbd", {
-                        className: SearchBar_module.searchHint,
-                        children: "K"
-                    })
-                ]
+                        children: hint
+                    }, index))
             }))
         ]
     });
 }
 
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/index.js
+;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/theme-common/lib/utils/useThemeConfig.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ 
+/**
+ * A convenient/more semantic way to get theme config from context.
+ */ function useThemeConfig_useThemeConfig() {
+    return (0,useDocusaurusContext/* default */.Z)().siteConfig.themeConfig;
+} //# sourceMappingURL=useThemeConfig.js.map
+
+// EXTERNAL MODULE: ./.docusaurus/site-storage.json
+var site_storage = __webpack_require__(5874);
+;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/theme-common/lib/utils/storageUtils.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ 
+
+const DefaultStorageType = site_storage/* type */.d;
+function applyNamespace(storageKey) {
+    return `${storageKey}${site_storage/* namespace */.u}`;
+}
+// window.addEventListener('storage') only works for different windows...
+// so for current window we have to dispatch the event manually
+// Now we can listen for both cross-window / current-window storage changes!
+// see https://stackoverflow.com/a/71177640/82609
+// see https://stackoverflow.com/questions/26974084/listen-for-changes-with-localstorage-on-the-same-window
+function dispatchChangeEvent(param) {
+    let { key, oldValue, newValue, storage } = param;
+    // If we set multiple times the same storage value, events should not be fired
+    // The native events behave this way, so our manual event dispatch should
+    // rather behave exactly the same. Not doing so might create infinite loops.
+    // See https://github.com/facebook/docusaurus/issues/8594
+    if (oldValue === newValue) {
+        return;
+    }
+    const event = document.createEvent('StorageEvent');
+    event.initStorageEvent('storage', false, false, key, oldValue, newValue, window.location.href, storage);
+    window.dispatchEvent(event);
+}
+/**
+ * Will return `null` if browser storage is unavailable (like running Docusaurus
+ * in an iframe). This should NOT be called in SSR.
+ *
+ * @see https://github.com/facebook/docusaurus/pull/4501
+ */ function getBrowserStorage() {
+    let storageType = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : DefaultStorageType;
+    if (typeof window === 'undefined') {
+        throw new Error('Browser storage is not available on Node.js/Docusaurus SSR process.');
+    }
+    if (storageType === 'none') {
+        return null;
+    }
+    try {
+        return window[storageType];
+    } catch (err) {
+        logOnceBrowserStorageNotAvailableWarning(err);
+        return null;
+    }
+}
+let hasLoggedBrowserStorageNotAvailableWarning = false;
+/**
+ * Poor man's memoization to avoid logging multiple times the same warning.
+ * Sometimes, `localStorage`/`sessionStorage` is unavailable due to browser
+ * policies.
+ */ function logOnceBrowserStorageNotAvailableWarning(error) {
+    if (!hasLoggedBrowserStorageNotAvailableWarning) {
+        console.warn(`Docusaurus browser storage is not available.
+Possible reasons: running Docusaurus in an iframe, in an incognito browser session, or using too strict browser privacy settings.`, error);
+        hasLoggedBrowserStorageNotAvailableWarning = true;
+    }
+}
+const NoopStorageSlot = {
+    get: ()=>null,
+    set: ()=>{},
+    del: ()=>{},
+    listen: ()=>()=>{}
+};
+// Fail-fast, as storage APIs should not be used during the SSR process
+function createServerStorageSlot(key) {
+    function throwError() {
+        throw new Error(`Illegal storage API usage for storage key "${key}".
+Docusaurus storage APIs are not supposed to be called on the server-rendering process.
+Please only call storage APIs in effects and event handlers.`);
+    }
+    return {
+        get: throwError,
+        set: throwError,
+        del: throwError,
+        listen: throwError
+    };
+}
+/**
+ * Creates an interface to work on a particular key in the storage model.
+ * Note that this function only initializes the interface, but doesn't allocate
+ * anything by itself (i.e. no side-effects).
+ *
+ * The API is fail-safe, since usage of browser storage should be considered
+ * unreliable. Local storage might simply be unavailable (iframe + browser
+ * security) or operations might fail individually. Please assume that using
+ * this API can be a no-op. See also https://github.com/facebook/docusaurus/issues/6036
+ */ function createStorageSlot(keyInput, options) {
+    const key = applyNamespace(keyInput);
+    if (typeof window === 'undefined') {
+        return createServerStorageSlot(key);
+    }
+    const storage = getBrowserStorage(options?.persistence);
+    if (storage === null) {
+        return NoopStorageSlot;
+    }
+    return {
+        get: ()=>{
+            try {
+                return storage.getItem(key);
+            } catch (err) {
+                console.error(`Docusaurus storage error, can't get key=${key}`, err);
+                return null;
+            }
+        },
+        set: (newValue)=>{
+            try {
+                const oldValue = storage.getItem(key);
+                storage.setItem(key, newValue);
+                dispatchChangeEvent({
+                    key,
+                    oldValue,
+                    newValue,
+                    storage
+                });
+            } catch (err) {
+                console.error(`Docusaurus storage error, can't set ${key}=${newValue}`, err);
+            }
+        },
+        del: ()=>{
+            try {
+                const oldValue = storage.getItem(key);
+                storage.removeItem(key);
+                dispatchChangeEvent({
+                    key,
+                    oldValue,
+                    newValue: null,
+                    storage
+                });
+            } catch (err) {
+                console.error(`Docusaurus storage error, can't delete key=${key}`, err);
+            }
+        },
+        listen: (onChange)=>{
+            try {
+                const listener = (event)=>{
+                    if (event.storageArea === storage && event.key === key) {
+                        onChange(event);
+                    }
+                };
+                window.addEventListener('storage', listener);
+                return ()=>window.removeEventListener('storage', listener);
+            } catch (err) {
+                console.error(`Docusaurus storage error, can't listen for changes of key=${key}`, err);
+                return ()=>{};
+            }
+        }
+    };
+}
+function useStorageSlot(key, options) {
+    // Not ideal but good enough: assumes storage slot config is constant
+    const storageSlot = useRef(()=>{
+        if (key === null) {
+            return NoopStorageSlot;
+        }
+        return createStorageSlot(key, options);
+    }).current();
+    const listen = useCallback((onChange)=>{
+        // Do not try to add a listener during SSR
+        if (typeof window === 'undefined') {
+            return ()=>{};
+        }
+        return storageSlot.listen(onChange);
+    }, [
+        storageSlot
+    ]);
+    const currentValue = useSyncExternalStore(listen, ()=>{
+        // react-test-renderer (deprecated) never call getServerSnapshot() :/
+        if (false) {}
+        return storageSlot.get();
+    }, ()=>null);
+    return [
+        currentValue,
+        storageSlot
+    ];
+}
+/**
+ * Returns a list of all the keys currently stored in browser storage,
+ * or an empty list if browser storage can't be accessed.
+ */ function listStorageKeys() {
+    let storageType = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : DefaultStorageType;
+    const browserStorage = getBrowserStorage(storageType);
+    if (!browserStorage) {
+        return [];
+    }
+    const keys = [];
+    for(let i = 0; i < browserStorage.length; i += 1){
+        const key = browserStorage.key(i);
+        if (key !== null) {
+            keys.push(key);
+        }
+    }
+    return keys;
+} //# sourceMappingURL=storageUtils.js.map
+
+;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/docsPreferredVersion.js
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */ 
 
 
-/* ESM default export */ const theme_SearchBar = (SearchBar);
+
+
+
+const docsPreferredVersion_storageKey = (pluginId)=>`docs-preferred-version-${pluginId}`;
+const DocsPreferredVersionStorage = {
+    save: (pluginId, persistence, versionName)=>{
+        createStorageSlot(docsPreferredVersion_storageKey(pluginId), {
+            persistence
+        }).set(versionName);
+    },
+    read: (pluginId, persistence)=>createStorageSlot(docsPreferredVersion_storageKey(pluginId), {
+            persistence
+        }).get(),
+    clear: (pluginId, persistence)=>{
+        createStorageSlot(docsPreferredVersion_storageKey(pluginId), {
+            persistence
+        }).del();
+    }
+};
+/**
+ * Initial state is always null as we can't read local storage from node SSR
+ */ const getInitialState = (pluginIds)=>Object.fromEntries(pluginIds.map((id)=>[
+            id,
+            {
+                preferredVersionName: null
+            }
+        ]));
+/**
+ * Read storage for all docs plugins, assigning each doc plugin a preferred
+ * version (if found)
+ */ function readStorageState(param) {
+    let { pluginIds, versionPersistence, allDocsData } = param;
+    /**
+     * The storage value we read might be stale, and belong to a version that does
+     * not exist in the site anymore. In such case, we remove the storage value to
+     * avoid downstream errors.
+     */ function restorePluginState(pluginId) {
+        const preferredVersionNameUnsafe = DocsPreferredVersionStorage.read(pluginId, versionPersistence);
+        const pluginData = allDocsData[pluginId];
+        const versionExists = pluginData.versions.some((version)=>version.name === preferredVersionNameUnsafe);
+        if (versionExists) {
+            return {
+                preferredVersionName: preferredVersionNameUnsafe
+            };
+        }
+        DocsPreferredVersionStorage.clear(pluginId, versionPersistence);
+        return {
+            preferredVersionName: null
+        };
+    }
+    return Object.fromEntries(pluginIds.map((id)=>[
+            id,
+            restorePluginState(id)
+        ]));
+}
+function useVersionPersistence() {
+    return useThemeConfig_useThemeConfig().docs.versionPersistence;
+}
+const docsPreferredVersion_Context = /*#__PURE__*/ react.createContext(null);
+function docsPreferredVersion_useContextValue() {
+    const allDocsData = client_useAllDocsData();
+    const versionPersistence = useVersionPersistence();
+    const pluginIds = (0,react.useMemo)(()=>Object.keys(allDocsData), [
+        allDocsData
+    ]);
+    // Initial state is empty, as we can't read browser storage in node/SSR
+    const [state, setState] = (0,react.useState)(()=>getInitialState(pluginIds));
+    // On mount, we set the state read from browser storage
+    (0,react.useEffect)(()=>{
+        setState(readStorageState({
+            allDocsData,
+            versionPersistence,
+            pluginIds
+        }));
+    }, [
+        allDocsData,
+        versionPersistence,
+        pluginIds
+    ]);
+    // The API that we expose to consumer hooks (memo for constant object)
+    const api = (0,react.useMemo)(()=>{
+        function savePreferredVersion(pluginId, versionName) {
+            DocsPreferredVersionStorage.save(pluginId, versionPersistence, versionName);
+            setState((s)=>({
+                    ...s,
+                    [pluginId]: {
+                        preferredVersionName: versionName
+                    }
+                }));
+        }
+        return {
+            savePreferredVersion
+        };
+    }, [
+        versionPersistence
+    ]);
+    return [
+        state,
+        api
+    ];
+}
+function DocsPreferredVersionContextProviderUnsafe(param) {
+    let { children } = param;
+    const value = docsPreferredVersion_useContextValue();
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(docsPreferredVersion_Context.Provider, {
+        value: value,
+        children: children
+    });
+}
+/**
+ * This is a maybe-layer. If the docs plugin is not enabled, this provider is a
+ * simple pass-through.
+ */ function DocsPreferredVersionContextProvider(param) {
+    let { children } = param;
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(DocsPreferredVersionContextProviderUnsafe, {
+        children: children
+    });
+}
+function useDocsPreferredVersionContext() {
+    const value = useContext(docsPreferredVersion_Context);
+    if (!value) {
+        throw new ReactContextError('DocsPreferredVersionContextProvider');
+    }
+    return value;
+}
+/**
+ * Returns a read-write interface to a plugin's preferred version. The
+ * "preferred version" is defined as the last version that the user visited.
+ * For example, if a user is using v3, even when v4 is later published, the user
+ * would still be browsing v3 docs when she opens the website next time. Note,
+ * the `preferredVersion` attribute will always be `null` before mount.
+ */ function useDocsPreferredVersion() {
+    let pluginId = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : DEFAULT_PLUGIN_ID;
+    const docsData = useDocsData(pluginId);
+    const [state, api] = useDocsPreferredVersionContext();
+    const { preferredVersionName } = state[pluginId];
+    const preferredVersion = docsData.versions.find((version)=>version.name === preferredVersionName) ?? null;
+    const savePreferredVersionName = useCallback((versionName)=>{
+        api.savePreferredVersion(pluginId, versionName);
+    }, [
+        api,
+        pluginId
+    ]);
+    return {
+        preferredVersion,
+        savePreferredVersionName
+    };
+}
+function useDocsPreferredVersionByPluginId() {
+    const allDocsData = useAllDocsData();
+    const [state] = useDocsPreferredVersionContext();
+    function getPluginIdPreferredVersion(pluginId) {
+        const docsData = allDocsData[pluginId];
+        const { preferredVersionName } = state[pluginId];
+        return docsData.versions.find((version)=>version.name === preferredVersionName) ?? null;
+    }
+    const pluginIds = Object.keys(allDocsData);
+    return Object.fromEntries(pluginIds.map((id)=>[
+            id,
+            getPluginIdPreferredVersion(id)
+        ]));
+}
+
+;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/theme/SearchBar/index.jsx
+
+
+
+
+
+function SearchBarWrapper(props) {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(DocsPreferredVersionContextProvider, {
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(SearchBar, {
+            ...props
+        })
+    });
+}
 
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/Navbar/Search/styles.module.css
 // extracted by css-extract-rspack-plugin
@@ -31755,7 +32405,7 @@ function SearchNavbarItem(param) {
     }
     return /*#__PURE__*/ (0,jsx_runtime.jsx)(NavbarSearch, {
         className: className,
-        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(theme_SearchBar, {})
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(SearchBarWrapper, {})
     });
 }
 
@@ -31783,7 +32433,7 @@ function HtmlNavbarItem(param) {
 }
 
 // EXTERNAL MODULE: ./node_modules/@docusaurus/plugin-content-docs/lib/client/index.js + 1 modules
-var lib_client = __webpack_require__(1723);
+var client = __webpack_require__(1723);
 // EXTERNAL MODULE: ./node_modules/@docusaurus/plugin-content-docs/lib/client/docsUtils.js
 var docsUtils = __webpack_require__(9369);
 ;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-classic/lib/theme/NavbarItem/DocNavbarItem.js
@@ -31798,7 +32448,7 @@ var docsUtils = __webpack_require__(9369);
 
 function DocNavbarItem(param) {
     let { docId, label: staticLabel, docsPluginId, ...props } = param;
-    const { activeDoc } = (0,lib_client/* useActiveDocContext */.Iw)(docsPluginId);
+    const { activeDoc } = (0,client/* useActiveDocContext */.Iw)(docsPluginId);
     const doc = (0,docsUtils/* useLayoutDoc */.vY)(docId, docsPluginId);
     const pageActive = activeDoc?.path === doc?.path;
     // Draft and unlisted items are not displayed in the navbar.
@@ -31826,7 +32476,7 @@ function DocNavbarItem(param) {
 
 function DocSidebarNavbarItem(param) {
     let { sidebarId, label, docsPluginId, ...props } = param;
-    const { activeDoc } = (0,lib_client/* useActiveDocContext */.Iw)(docsPluginId);
+    const { activeDoc } = (0,client/* useActiveDocContext */.Iw)(docsPluginId);
     const sidebarLink = (0,docsUtils/* useLayoutDocsSidebar */.oz)(sidebarId, docsPluginId).link;
     if (!sidebarLink) {
         throw new Error(`DocSidebarNavbarItem: Sidebar with ID "${sidebarId}" doesn't have anything to be linked to.`);
@@ -31913,7 +32563,7 @@ Available version names:\n- ${versions.map((v)=>`${v.name}`).join('\n- ')}`);
 }
 function useVersionItems(param) {
     let { docsPluginId, configs } = param;
-    const versions = (0,lib_client/* useVersions */.gB)(docsPluginId);
+    const versions = (0,client/* useVersions */.gB)(docsPluginId);
     return getVersionItems(versions, configs);
 }
 function DocsVersionDropdownNavbarItem_getVersionMainDoc(version) {
@@ -31935,7 +32585,7 @@ function useDisplayedVersionItem(param) {
 function DocsVersionDropdownNavbarItem(param) {
     let { mobile, docsPluginId, dropdownActiveClassDisabled, dropdownItemsBefore, dropdownItemsAfter, versions: configs, ...props } = param;
     const { search, hash } = (0,react_router/* useLocation */.TH)();
-    const activeDocContext = (0,lib_client/* useActiveDocContext */.Iw)(docsPluginId);
+    const activeDocContext = (0,client/* useActiveDocContext */.Iw)(docsPluginId);
     const { savePreferredVersionName } = (0,docsPreferredVersion/* useDocsPreferredVersion */.J)(docsPluginId);
     const versionItems = useVersionItems({
         docsPluginId,
@@ -32443,7 +33093,7 @@ function NavbarContent() {
                     className: Navbar_Content_styles_module.colorModeToggle
                 }),
                 !searchBarItem && /*#__PURE__*/ (0,jsx_runtime.jsx)(NavbarSearch, {
-                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(theme_SearchBar, {})
+                    children: /*#__PURE__*/ (0,jsx_runtime.jsx)(SearchBarWrapper, {})
                 })
             ]
         })
@@ -32728,7 +33378,7 @@ function SNS() {
 
 const DropdownMenu = ()=>{
     const [isOpen, setIsOpen] = (0,react.useState)(false);
-    const { i18n: { currentLocale } } = (0,exports_useDocusaurusContext/* default */.Z)();
+    const { i18n: { currentLocale } } = (0,useDocusaurusContext/* default */.Z)();
     const dropdownRef = (0,react.useRef)(null);
     const links = [
         {
@@ -33425,7 +34075,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* ESM import */var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 /* ESM import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7294);
 /* ESM import */var _docusaurus_useIsBrowser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7227);
-/* ESM import */var _utils_storageUtils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6009);
+/* ESM import */var _utils_storageUtils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(8737);
 /* ESM import */var _utils_reactUtils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5346);
 /* ESM import */var _utils_useThemeConfig__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(140);
 /**
@@ -33517,7 +34167,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* ESM import */var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
 /* ESM import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7294);
 /* ESM import */var _utils_reactUtils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5346);
-/* ESM import */var _utils_storageUtils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6009);
+/* ESM import */var _utils_storageUtils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8737);
 /* ESM import */var _utils_useThemeConfig__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(140);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -34861,22 +35511,14 @@ function smoothScrollPolyfill(top) {
 
 
 }),
-6009: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+8737: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 "use strict";
-
-// EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  WA: () => (/* binding */ createStorageSlot),
-  Nk: () => (/* binding */ useStorageSlot)
+  Nk: () => (useStorageSlot),
+  WA: () => (createStorageSlot)
 });
-
-// UNUSED EXPORTS: listStorageKeys
-
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(7294);
-;// CONCATENATED MODULE: ./.docusaurus/site-storage.json
-var site_storage_namespaceObject = JSON.parse('{"d":"localStorage","u":""}')
-;// CONCATENATED MODULE: ./node_modules/@docusaurus/theme-common/lib/utils/storageUtils.js
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7294);
+/* ESM import */var _generated_site_storage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5874);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -34884,9 +35526,9 @@ var site_storage_namespaceObject = JSON.parse('{"d":"localStorage","u":""}')
  * LICENSE file in the root directory of this source tree.
  */ 
 
-const DefaultStorageType = site_storage_namespaceObject.d;
+const DefaultStorageType = _generated_site_storage__WEBPACK_IMPORTED_MODULE_1__/* .type */.d;
 function applyNamespace(storageKey) {
-    return `${storageKey}${site_storage_namespaceObject.u}`;
+    return `${storageKey}${_generated_site_storage__WEBPACK_IMPORTED_MODULE_1__/* .namespace */.u}`;
 }
 // window.addEventListener('storage') only works for different windows...
 // so for current window we have to dispatch the event manually
@@ -35031,13 +35673,13 @@ Please only call storage APIs in effects and event handlers.`);
 }
 function useStorageSlot(key, options) {
     // Not ideal but good enough: assumes storage slot config is constant
-    const [storageSlot] = (0,react.useState)(()=>{
+    const [storageSlot] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(()=>{
         if (key === null) {
             return NoopStorageSlot;
         }
         return createStorageSlot(key, options);
     });
-    const listen = (0,react.useCallback)((onChange)=>{
+    const listen = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)((onChange)=>{
         // Do not try to add a listener during SSR
         if (typeof window === 'undefined') {
             return ()=>{};
@@ -35046,7 +35688,7 @@ function useStorageSlot(key, options) {
     }, [
         storageSlot
     ]);
-    const currentValue = (0,react.useSyncExternalStore)(listen, ()=>{
+    const currentValue = (0,react__WEBPACK_IMPORTED_MODULE_0__.useSyncExternalStore)(listen, ()=>{
         // react-test-renderer (deprecated) never call getServerSnapshot() :/
         if (false) {}
         return storageSlot.get();
@@ -36135,20 +36777,21 @@ function normalizeContextByPath(context, currentLocale) {
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  t_: () => (/* reexport */ searchBarShortcutHint),
-  hG: () => (/* reexport */ hideSearchBarWithNoSearchContext),
   Kc: () => (/* reexport */ searchContextByPaths),
+  hG: () => (/* reexport */ hideSearchBarWithNoSearchContext),
   Hk: () => (/* reexport */ searchResultContextMaxLength),
   vc: () => (/* reexport */ (mark_default())),
   pQ: () => (/* reexport */ useAllContextsWithNoSearchContext),
   gQ: () => (/* reexport */ docsPluginIdForPreferredVersion),
+  C4: () => (/* reexport */ askAi),
   H6: () => (/* reexport */ explicitSearchResultPath),
   AY: () => (/* reexport */ searchBarShortcut),
+  kv: () => (/* reexport */ searchBarShortcutKeymap),
   pu: () => (/* reexport */ searchBarPosition),
-  l9: () => (/* reexport */ indexDocs)
+  t_: () => (/* reexport */ searchBarShortcutHint)
 });
 
-// UNUSED EXPORTS: removeDefaultStemmer
+// UNUSED EXPORTS: indexDocs, removeDefaultStemmer
 
 // EXTERNAL MODULE: ./node_modules/mark.js/dist/mark.js
 var mark = __webpack_require__(813);
@@ -36160,12 +36803,14 @@ const searchResultContextMaxLength = 50;
 const explicitSearchResultPath = false;
 const searchBarShortcut = true;
 const searchBarShortcutHint = true;
+const searchBarShortcutKeymap = "mod+k";
 const searchBarPosition = "right";
 const docsPluginIdForPreferredVersion = undefined;
 const indexDocs = true;
 const searchContextByPaths = null;
 const hideSearchBarWithNoSearchContext = false;
 const useAllContextsWithNoSearchContext = false;
+const askAi = null;
 
 ;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/proxiedGenerated.js
 // This file is auto generated while building.
@@ -36185,898 +36830,21 @@ var SearchDocumentType;
     SearchDocumentType[SearchDocumentType["Description"] = 2] = "Description";
     SearchDocumentType[SearchDocumentType["Keywords"] = 3] = "Keywords";
     SearchDocumentType[SearchDocumentType["Content"] = 4] = "Content";
+    SearchDocumentType[SearchDocumentType["AskAI"] = 5] = "AskAI";
 })(SearchDocumentType || (SearchDocumentType = {}));
 
 
 }),
-3911: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+6058: (function (module) {
 "use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  WS: () => (/* binding */ useActivePluginAndVersion),
-  MN: () => (/* reexport */ filterDocCardListItems),
-  jA: () => (/* reexport */ useCurrentSidebarCategory),
-  zh: () => (/* binding */ useDocsData),
-  J: () => (/* reexport */ docsPreferredVersion_useDocsPreferredVersion),
-  z1: () => (/* reexport */ useDocsContextualSearchTags),
-  _r: () => (/* binding */ client_useAllDocsData),
-  gA: () => (/* binding */ client_useActivePlugin)
-});
-
-// UNUSED EXPORTS: useActiveVersion, useDoc, findFirstSidebarItemLink, DocSidebarItemsExpandedStateProvider, useDocSidebarItemsExpandedState, useDocVersionSuggestions, useDocRootMetadata, useDocsPreferredVersionByPluginId, DocsSidebarProvider, useDocsSidebar, useSidebarBreadcrumbs, isActiveSidebarItem, findSidebarCategory, isVisibleSidebarItem, useDocsVersion, useDocsVersionCandidates, useLayoutDoc, DocsVersionProvider, useDocById, useVersions, useActiveDocContext, getDocsVersionSearchTag, DocProvider, DocsPreferredVersionContextProvider, useLayoutDocsSidebar, useLatestVersion, useVisibleSidebarItems
-
-// EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js
-var react_router = __webpack_require__(6550);
-// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useGlobalData.js
-var useGlobalData = __webpack_require__(1672);
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/docsClientUtils.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
-// This code is not part of the api surface, not in ./theme on purpose
-// get the data of the plugin that is currently "active"
-// ie the docs of that plugin are currently browsed
-// it is useful to support multiple docs plugin instances
-function getActivePlugin(allPluginData, pathname) {
-    let options = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {};
-    const activeEntry = Object.entries(allPluginData)// Route sorting: '/android/foo' should match '/android' instead of '/'
-    .sort((a, b)=>b[1].path.localeCompare(a[1].path)).find((param)=>{
-        let [, pluginData] = param;
-        return !!(0,react_router/* matchPath */.LX)(pathname, {
-            path: pluginData.path,
-            exact: false,
-            strict: false
-        });
-    });
-    const activePlugin = activeEntry ? {
-        pluginId: activeEntry[0],
-        pluginData: activeEntry[1]
-    } : undefined;
-    if (!activePlugin && options.failfast) {
-        throw new Error(`Can't find active docs plugin for "${pathname}" pathname, while it was expected to be found. Maybe you tried to use a docs feature that can only be used on a docs-related page? Existing docs plugin paths are: ${Object.values(allPluginData).map((plugin)=>plugin.path).join(', ')}`);
-    }
-    return activePlugin;
-}
-const docsClientUtils_getLatestVersion = (data)=>data.versions.find((version)=>version.isLast);
-function docsClientUtils_getActiveVersion(data, pathname) {
-    // Sort paths so that a match-all version like /docs/* is matched last
-    // Otherwise /docs/* would match /docs/1.0.0/* routes
-    // This is simplified but similar to the core sortRoutes() logic
-    const sortedVersions = [
-        ...data.versions
-    ].sort((a, b)=>{
-        if (a.path === b.path) {
-            return 0;
-        }
-        if (a.path.includes(b.path)) {
-            return -1;
-        }
-        if (b.path.includes(a.path)) {
-            return 1;
-        }
-        return 0;
-    });
-    return sortedVersions.find((version)=>!!(0,react_router/* matchPath */.LX)(pathname, {
-            path: version.path,
-            exact: false,
-            strict: false
-        }));
-}
-function docsClientUtils_getActiveDocContext(data, pathname) {
-    const activeVersion = docsClientUtils_getActiveVersion(data, pathname);
-    const activeDoc = activeVersion?.docs.find((doc)=>!!matchPath(pathname, {
-            path: doc.path,
-            exact: true,
-            strict: false
-        }));
-    function getAlternateVersionDocs(docId) {
-        const result = {};
-        data.versions.forEach((version)=>{
-            version.docs.forEach((doc)=>{
-                if (doc.id === docId) {
-                    result[version.name] = doc;
-                }
-            });
-        });
-        return result;
-    }
-    const alternateVersionDocs = activeDoc ? getAlternateVersionDocs(activeDoc.id) : {};
-    return {
-        activeVersion,
-        activeDoc,
-        alternateDocVersions: alternateVersionDocs
-    };
-}
-function docsClientUtils_getDocVersionSuggestions(data, pathname) {
-    const latestVersion = docsClientUtils_getLatestVersion(data);
-    const activeDocContext = docsClientUtils_getActiveDocContext(data, pathname);
-    const latestDocSuggestion = activeDocContext.alternateDocVersions[latestVersion.name];
-    return {
-        latestDocSuggestion,
-        latestVersionSuggestion: latestVersion
-    };
-}
-
-// EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(7294);
-// EXTERNAL MODULE: ./.docusaurus/routes.js + 3 modules
-var _docusaurus_routes = __webpack_require__(4143);
-// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/useDocusaurusContext.js
-var exports_useDocusaurusContext = __webpack_require__(2933);
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/theme-common/lib/utils/routesUtils.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
-
-
-/**
- * Compare the 2 paths, case insensitive and ignoring trailing slash
- */ function routesUtils_isSamePath(path1, path2) {
-    const normalize = (pathname)=>(!pathname || pathname.endsWith('/') ? pathname : `${pathname}/`)?.toLowerCase();
-    return normalize(path1) === normalize(path2);
-}
-/**
- * Note that sites don't always have a homepage in practice, so we can't assume
- * that linking to '/' is always safe.
- * @see https://github.com/facebook/docusaurus/pull/6517#issuecomment-1048709116
- */ function findHomePageRoute(param) {
-    let { baseUrl, routes: initialRoutes } = param;
-    function isHomePageRoute(route) {
-        return route.path === baseUrl && route.exact === true;
-    }
-    function isHomeParentRoute(route) {
-        return route.path === baseUrl && !route.exact;
-    }
-    function doFindHomePageRoute(routes) {
-        if (routes.length === 0) {
-            return undefined;
-        }
-        const homePage = routes.find(isHomePageRoute);
-        if (homePage) {
-            return homePage;
-        }
-        const indexSubRoutes = routes.filter(isHomeParentRoute).flatMap((route)=>route.routes ?? []);
-        return doFindHomePageRoute(indexSubRoutes);
-    }
-    return doFindHomePageRoute(initialRoutes);
-}
-/**
- * Fetches the route that points to "/". Use this instead of the naive "/",
- * because the homepage may not exist.
- */ function useHomePageRoute() {
-    const { baseUrl } = useDocusaurusContext().siteConfig;
-    return useMemo(()=>findHomePageRoute({
-            routes: generatedRoutes,
-            baseUrl
-        }), [
-        baseUrl
-    ]);
-} //# sourceMappingURL=routesUtils.js.map
-
-// EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
-var jsx_runtime = __webpack_require__(5893);
-// EXTERNAL MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/theme-common/lib/utils/reactUtils.js
-var reactUtils = __webpack_require__(4106);
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/docsSidebar.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
-
-
-// Using a Symbol because null is a valid context value (a doc with no sidebar)
-// Inspired by https://github.com/jamiebuilds/unstated-next/blob/master/src/unstated-next.tsx
-const EmptyContext = Symbol('EmptyContext');
-const Context = /*#__PURE__*/ react.createContext(EmptyContext);
-/**
- * Provide the current sidebar to your children.
- */ function DocsSidebarProvider(param) {
-    let { children, name, items } = param;
-    const stableValue = useMemo(()=>name && items ? {
-            name,
-            items
-        } : null, [
-        name,
-        items
-    ]);
-    return /*#__PURE__*/ _jsx(Context.Provider, {
-        value: stableValue,
-        children: children
-    });
-}
-/**
- * Gets the sidebar that's currently displayed, or `null` if there isn't one
- */ function docsSidebar_useDocsSidebar() {
-    const value = (0,react.useContext)(Context);
-    if (value === EmptyContext) {
-        throw new reactUtils/* ReactContextError */.i6('DocsSidebarProvider');
-    }
-    return value;
-}
-
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/docsUtils.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
-
-
-
-
-
-
-
-
-function useDocById(id) {
-    const version = useDocsVersion();
-    if (!id) {
-        return undefined;
-    }
-    const doc = version.docs[id];
-    if (!doc) {
-        throw new Error(`no version doc found by id=${id}`);
-    }
-    return doc;
-}
-/**
- * Pure function, similar to `Array#find`, but works on the sidebar tree.
- */ function findSidebarCategory(sidebar, predicate) {
-    for (const item of sidebar){
-        if (item.type === 'category') {
-            if (predicate(item)) {
-                return item;
-            }
-            const subItem = findSidebarCategory(item.items, predicate);
-            if (subItem) {
-                return subItem;
-            }
-        }
-    }
-    return undefined;
-}
-/**
- * Best effort to assign a link to a sidebar category. If the category doesn't
- * have a link itself, we link to the first sub item with a link.
- */ function findFirstSidebarItemCategoryLink(item) {
-    if (item.href && !item.linkUnlisted) {
-        return item.href;
-    }
-    for (const subItem of item.items){
-        const link = findFirstSidebarItemLink(subItem);
-        if (link) {
-            return link;
-        }
-    }
-    return undefined;
-}
-/**
- * Best effort to assign a link to a sidebar item.
- */ function findFirstSidebarItemLink(item) {
-    if (item.type === 'link' && !item.unlisted) {
-        return item.href;
-    }
-    if (item.type === 'category') {
-        return findFirstSidebarItemCategoryLink(item);
-    }
-    // Other items types, like "html"
-    return undefined;
-}
-/**
- * Gets the category associated with the current location. Should only be used
- * on category index pages.
- */ function useCurrentSidebarCategory() {
-    const { pathname } = (0,react_router/* useLocation */.TH)();
-    const sidebar = docsSidebar_useDocsSidebar();
-    if (!sidebar) {
-        throw new Error('Unexpected: cant find current sidebar in context');
-    }
-    const categoryBreadcrumbs = getSidebarBreadcrumbs({
-        sidebarItems: sidebar.items,
-        pathname,
-        onlyCategories: true
-    });
-    const deepestCategory = categoryBreadcrumbs.slice(-1)[0];
-    if (!deepestCategory) {
-        throw new Error(`${pathname} is not associated with a category. useCurrentSidebarCategory() should only be used on category index pages.`);
-    }
-    return deepestCategory;
-}
-const isActive = (testedPath, activePath)=>typeof testedPath !== 'undefined' && isSamePath(testedPath, activePath);
-const containsActiveSidebarItem = (items, activePath)=>items.some((subItem)=>isActiveSidebarItem(subItem, activePath));
-/**
- * Checks if a sidebar item should be active, based on the active path.
- */ function isActiveSidebarItem(item, activePath) {
-    if (item.type === 'link') {
-        return isActive(item.href, activePath);
-    }
-    if (item.type === 'category') {
-        return isActive(item.href, activePath) || containsActiveSidebarItem(item.items, activePath);
-    }
-    return false;
-}
-function isVisibleSidebarItem(item, activePath) {
-    switch(item.type){
-        case 'category':
-            return isActiveSidebarItem(item, activePath) || typeof item.href !== 'undefined' && !item.linkUnlisted || item.items.some((subItem)=>isVisibleSidebarItem(subItem, activePath));
-        case 'link':
-            // An unlisted item remains visible if it is active
-            return !item.unlisted || isActiveSidebarItem(item, activePath);
-        default:
-            return true;
-    }
-}
-function useVisibleSidebarItems(items, activePath) {
-    return useMemo(()=>items.filter((item)=>isVisibleSidebarItem(item, activePath)), [
-        items,
-        activePath
-    ]);
-}
-/**
- * Get the sidebar the breadcrumbs for a given pathname
- * Ordered from top to bottom
- */ function getSidebarBreadcrumbs(param) {
-    let { sidebarItems, pathname, onlyCategories = false } = param;
-    const breadcrumbs = [];
-    function extract(items) {
-        for (const item of items){
-            if (item.type === 'category' && (routesUtils_isSamePath(item.href, pathname) || extract(item.items)) || item.type === 'link' && routesUtils_isSamePath(item.href, pathname)) {
-                const filtered = onlyCategories && item.type !== 'category';
-                if (!filtered) {
-                    breadcrumbs.unshift(item);
-                }
-                return true;
-            }
-        }
-        return false;
-    }
-    extract(sidebarItems);
-    return breadcrumbs;
-}
-/**
- * Gets the breadcrumbs of the current doc page, based on its sidebar location.
- * Returns `null` if there's no sidebar or breadcrumbs are disabled.
- */ function useSidebarBreadcrumbs() {
-    const sidebar = useDocsSidebar();
-    const { pathname } = useLocation();
-    const breadcrumbsOption = useActivePlugin()?.pluginData.breadcrumbs;
-    if (breadcrumbsOption === false || !sidebar) {
-        return null;
-    }
-    return getSidebarBreadcrumbs({
-        sidebarItems: sidebar.items,
-        pathname
-    });
-}
-/**
- * "Version candidates" are mostly useful for the layout components, which must
- * be able to work on all pages. For example, if a user has `{ type: "doc",
- * docId: "intro" }` as a navbar item, which version does that refer to? We
- * believe that it could refer to at most three version candidates:
- *
- * 1. The **active version**, the one that the user is currently browsing. See
- * {@link useActiveDocContext}.
- * 2. The **preferred version**, the one that the user last visited. See
- * {@link useDocsPreferredVersion}.
- * 3. The **latest version**, the "default". See {@link useLatestVersion}.
- *
- * @param docsPluginId The plugin ID to get versions from.
- * @returns An array of 1~3 versions with priorities defined above, guaranteed
- * to be unique and non-sparse. Will be memoized, hence stable for deps array.
- */ function useDocsVersionCandidates(docsPluginId) {
-    const { activeVersion } = useActiveDocContext(docsPluginId);
-    const { preferredVersion } = useDocsPreferredVersion(docsPluginId);
-    const latestVersion = useLatestVersion(docsPluginId);
-    return useMemo(()=>uniq([
-            activeVersion,
-            preferredVersion,
-            latestVersion
-        ].filter(Boolean)), [
-        activeVersion,
-        preferredVersion,
-        latestVersion
-    ]);
-}
-/**
- * The layout components, like navbar items, must be able to work on all pages,
- * even on non-doc ones where there's no version context, so a sidebar ID could
- * be ambiguous. This hook would always return a sidebar to be linked to. See
- * also {@link useDocsVersionCandidates} for how this selection is done.
- *
- * @throws This hook throws if a sidebar with said ID is not found.
- */ function useLayoutDocsSidebar(sidebarId, docsPluginId) {
-    const versions = useDocsVersionCandidates(docsPluginId);
-    return useMemo(()=>{
-        const allSidebars = versions.flatMap((version)=>version.sidebars ? Object.entries(version.sidebars) : []);
-        const sidebarEntry = allSidebars.find((sidebar)=>sidebar[0] === sidebarId);
-        if (!sidebarEntry) {
-            throw new Error(`Can't find any sidebar with id "${sidebarId}" in version${versions.length > 1 ? 's' : ''} ${versions.map((version)=>version.name).join(', ')}".
-Available sidebar ids are:
-- ${allSidebars.map((entry)=>entry[0]).join('\n- ')}`);
-        }
-        return sidebarEntry[1];
-    }, [
-        sidebarId,
-        versions
-    ]);
-}
-/**
- * The layout components, like navbar items, must be able to work on all pages,
- * even on non-doc ones where there's no version context, so a doc ID could be
- * ambiguous. This hook would always return a doc to be linked to. See also
- * {@link useDocsVersionCandidates} for how this selection is done.
- *
- * @throws This hook throws if a doc with said ID is not found.
- */ function useLayoutDoc(docId, docsPluginId) {
-    const versions = useDocsVersionCandidates(docsPluginId);
-    return useMemo(()=>{
-        const allDocs = versions.flatMap((version)=>version.docs);
-        const doc = allDocs.find((versionDoc)=>versionDoc.id === docId);
-        if (!doc) {
-            const isDraft = versions.flatMap((version)=>version.draftIds).includes(docId);
-            // Drafts should be silently filtered instead of throwing
-            if (isDraft) {
-                return null;
-            }
-            throw new Error(`Couldn't find any doc with id "${docId}" in version${versions.length > 1 ? 's' : ''} "${versions.map((version)=>version.name).join(', ')}".
-Available doc ids are:
-- ${uniq(allDocs.map((versionDoc)=>versionDoc.id)).join('\n- ')}`);
-        }
-        return doc;
-    }, [
-        docId,
-        versions
-    ]);
-}
-// TODO later read version/route directly from context
-/**
- * The docs plugin creates nested routes, with the top-level route providing the
- * version metadata, and the subroutes creating individual doc pages. This hook
- * will match the current location against all known sub-routes.
- *
- * @param props The props received by `@theme/DocRoot`
- * @returns The data of the relevant document at the current location, or `null`
- * if no document associated with the current location can be found.
- */ function useDocRootMetadata(param) {
-    let { route } = param;
-    const location = useLocation();
-    const versionMetadata = useDocsVersion();
-    const docRoutes = route.routes;
-    const currentDocRoute = docRoutes.find((docRoute)=>matchPath(location.pathname, docRoute));
-    if (!currentDocRoute) {
-        return null;
-    }
-    // For now, the sidebarName is added as route config: not ideal!
-    const sidebarName = currentDocRoute.sidebar;
-    const sidebarItems = sidebarName ? versionMetadata.docsSidebars[sidebarName] : undefined;
-    const docElement = renderRoutes(docRoutes);
-    return {
-        docElement,
-        sidebarName,
-        sidebarItems
-    };
-}
-/**
- * Filter items we don't want to display on the doc card list view
- * @param items
- */ function filterDocCardListItems(items) {
-    return items.filter((item)=>{
-        const canHaveLink = item.type === 'category' || item.type === 'link';
-        if (canHaveLink) {
-            return !!findFirstSidebarItemLink(item);
-        }
-        return true;
-    });
-}
-
-// EXTERNAL MODULE: ./node_modules/@docusaurus/core/lib/client/exports/constants.js
-var constants = __webpack_require__(7710);
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/docsPreferredVersion.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
-
-
-
-
-
-const storageKey = (pluginId)=>`docs-preferred-version-${pluginId}`;
-const DocsPreferredVersionStorage = (/* unused pure expression or super */ null && ({
-    save: (pluginId, persistence, versionName)=>{
-        createStorageSlot(storageKey(pluginId), {
-            persistence
-        }).set(versionName);
-    },
-    read: (pluginId, persistence)=>createStorageSlot(storageKey(pluginId), {
-            persistence
-        }).get(),
-    clear: (pluginId, persistence)=>{
-        createStorageSlot(storageKey(pluginId), {
-            persistence
-        }).del();
-    }
-}));
-/**
- * Initial state is always null as we can't read local storage from node SSR
- */ const getInitialState = (pluginIds)=>Object.fromEntries(pluginIds.map((id)=>[
-            id,
-            {
-                preferredVersionName: null
-            }
-        ]));
-/**
- * Read storage for all docs plugins, assigning each doc plugin a preferred
- * version (if found)
- */ function readStorageState(param) {
-    let { pluginIds, versionPersistence, allDocsData } = param;
-    /**
-     * The storage value we read might be stale, and belong to a version that does
-     * not exist in the site anymore. In such case, we remove the storage value to
-     * avoid downstream errors.
-     */ function restorePluginState(pluginId) {
-        const preferredVersionNameUnsafe = DocsPreferredVersionStorage.read(pluginId, versionPersistence);
-        const pluginData = allDocsData[pluginId];
-        const versionExists = pluginData.versions.some((version)=>version.name === preferredVersionNameUnsafe);
-        if (versionExists) {
-            return {
-                preferredVersionName: preferredVersionNameUnsafe
-            };
-        }
-        DocsPreferredVersionStorage.clear(pluginId, versionPersistence);
-        return {
-            preferredVersionName: null
-        };
-    }
-    return Object.fromEntries(pluginIds.map((id)=>[
-            id,
-            restorePluginState(id)
-        ]));
-}
-function useVersionPersistence() {
-    return useThemeConfig().docs.versionPersistence;
-}
-const docsPreferredVersion_Context = /*#__PURE__*/ react.createContext(null);
-function useContextValue() {
-    const allDocsData = useAllDocsData();
-    const versionPersistence = useVersionPersistence();
-    const pluginIds = useMemo(()=>Object.keys(allDocsData), [
-        allDocsData
-    ]);
-    // Initial state is empty, as we can't read browser storage in node/SSR
-    const [state, setState] = useState(()=>getInitialState(pluginIds));
-    // On mount, we set the state read from browser storage
-    useEffect(()=>{
-        setState(readStorageState({
-            allDocsData,
-            versionPersistence,
-            pluginIds
-        }));
-    }, [
-        allDocsData,
-        versionPersistence,
-        pluginIds
-    ]);
-    // The API that we expose to consumer hooks (memo for constant object)
-    const api = useMemo(()=>{
-        function savePreferredVersion(pluginId, versionName) {
-            DocsPreferredVersionStorage.save(pluginId, versionPersistence, versionName);
-            setState((s)=>({
-                    ...s,
-                    [pluginId]: {
-                        preferredVersionName: versionName
-                    }
-                }));
-        }
-        return {
-            savePreferredVersion
-        };
-    }, [
-        versionPersistence
-    ]);
-    return [
-        state,
-        api
-    ];
-}
-function DocsPreferredVersionContextProviderUnsafe(param) {
-    let { children } = param;
-    const value = useContextValue();
-    return /*#__PURE__*/ _jsx(docsPreferredVersion_Context.Provider, {
-        value: value,
-        children: children
-    });
-}
-/**
- * This is a maybe-layer. If the docs plugin is not enabled, this provider is a
- * simple pass-through.
- */ function DocsPreferredVersionContextProvider(param) {
-    let { children } = param;
-    return /*#__PURE__*/ _jsx(DocsPreferredVersionContextProviderUnsafe, {
-        children: children
-    });
-}
-function useDocsPreferredVersionContext() {
-    const value = (0,react.useContext)(docsPreferredVersion_Context);
-    if (!value) {
-        throw new reactUtils/* ReactContextError */.i6('DocsPreferredVersionContextProvider');
-    }
-    return value;
-}
-/**
- * Returns a read-write interface to a plugin's preferred version. The
- * "preferred version" is defined as the last version that the user visited.
- * For example, if a user is using v3, even when v4 is later published, the user
- * would still be browsing v3 docs when she opens the website next time. Note,
- * the `preferredVersion` attribute will always be `null` before mount.
- */ function docsPreferredVersion_useDocsPreferredVersion() {
-    let pluginId = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : constants/* DEFAULT_PLUGIN_ID */.m;
-    const docsData = useDocsData(pluginId);
-    const [state, api] = useDocsPreferredVersionContext();
-    const { preferredVersionName } = state[pluginId];
-    const preferredVersion = docsData.versions.find((version)=>version.name === preferredVersionName) ?? null;
-    const savePreferredVersionName = (0,react.useCallback)((versionName)=>{
-        api.savePreferredVersion(pluginId, versionName);
-    }, [
-        api,
-        pluginId
-    ]);
-    return {
-        preferredVersion,
-        savePreferredVersionName
-    };
-}
-function useDocsPreferredVersionByPluginId() {
-    const allDocsData = client_useAllDocsData();
-    const [state] = useDocsPreferredVersionContext();
-    function getPluginIdPreferredVersion(pluginId) {
-        const docsData = allDocsData[pluginId];
-        const { preferredVersionName } = state[pluginId];
-        return docsData.versions.find((version)=>version.name === preferredVersionName) ?? null;
-    }
-    const pluginIds = Object.keys(allDocsData);
-    return Object.fromEntries(pluginIds.map((id)=>[
-            id,
-            getPluginIdPreferredVersion(id)
-        ]));
-}
-
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/docsSearch.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
-
-/** The search tag to append as each doc's metadata. */ function getDocsVersionSearchTag(pluginId, versionName) {
-    return `docs-${pluginId}-${versionName}`;
-}
-/**
- * Gets the relevant docs tags to search.
- * This is the logic that powers the contextual search feature.
- *
- * If user is browsing Android 1.4 docs, he'll get presented with:
- * - Android '1.4' docs
- * - iOS 'preferred | latest' docs
- *
- * The result is generic and not coupled to Algolia/DocSearch on purpose.
- */ function useDocsContextualSearchTags() {
-    const allDocsData = client_useAllDocsData();
-    const activePluginAndVersion = useActivePluginAndVersion();
-    const docsPreferredVersionByPluginId = useDocsPreferredVersionByPluginId();
-    // This can't use more specialized hooks because we are mapping over all
-    // plugin instances.
-    function getDocPluginTags(pluginId) {
-        const activeVersion = activePluginAndVersion?.activePlugin.pluginId === pluginId ? activePluginAndVersion.activeVersion : undefined;
-        const preferredVersion = docsPreferredVersionByPluginId[pluginId];
-        const latestVersion = allDocsData[pluginId].versions.find((v)=>v.isLast);
-        const version = activeVersion ?? preferredVersion ?? latestVersion;
-        return getDocsVersionSearchTag(pluginId, version.name);
-    }
-    return [
-        ...Object.keys(allDocsData).map(getDocPluginTags)
-    ];
-}
-
-;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/node_modules/@docusaurus/plugin-content-docs/lib/client/index.js
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
-
-
-
-
-
-
-
-
-
-
-// Important to use a constant object to avoid React useEffect executions etc.
-// see https://github.com/facebook/docusaurus/issues/5089
-const StableEmptyObject = {};
-// In blog-only mode, docs hooks are still used by the theme. We need a fail-
-// safe fallback when the docs plugin is not in use
-const client_useAllDocsData = ()=>(0,useGlobalData/* useAllPluginInstancesData */.OD)('docusaurus-plugin-content-docs') ?? StableEmptyObject;
-const useDocsData = (pluginId)=>{
-    try {
-        return (0,useGlobalData/* usePluginData */.eZ)('docusaurus-plugin-content-docs', pluginId, {
-            failfast: true
-        });
-    } catch (error) {
-        throw new Error(`You are using a feature of the Docusaurus docs plugin, but this plugin does not seem to be enabled${pluginId === 'Default' ? '' : ` (pluginId=${pluginId}`}`, {
-            cause: error
-        });
-    }
-};
-// TODO this feature should be provided by docusaurus core
-function client_useActivePlugin() {
-    let options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
-    const data = client_useAllDocsData();
-    const { pathname } = (0,react_router/* useLocation */.TH)();
-    return getActivePlugin(data, pathname, options);
-}
-function useActivePluginAndVersion() {
-    let options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
-    const activePlugin = client_useActivePlugin(options);
-    const { pathname } = (0,react_router/* useLocation */.TH)();
-    if (!activePlugin) {
-        return undefined;
-    }
-    const activeVersion = docsClientUtils_getActiveVersion(activePlugin.pluginData, pathname);
-    return {
-        activePlugin,
-        activeVersion
-    };
-}
-/** Versions are returned ordered (most recent first). */ function useVersions(pluginId) {
-    const data = useDocsData(pluginId);
-    return data.versions;
-}
-function client_useLatestVersion(pluginId) {
-    const data = useDocsData(pluginId);
-    return getLatestVersion(data);
-}
-/**
- * Returns `undefined` on doc-unrelated pages, because there's no version
- * currently considered as active.
- */ function useActiveVersion(pluginId) {
-    const data = useDocsData(pluginId);
-    const { pathname } = useLocation();
-    return getActiveVersion(data, pathname);
-}
-function client_useActiveDocContext(pluginId) {
-    const data = useDocsData(pluginId);
-    const { pathname } = useLocation();
-    return getActiveDocContext(data, pathname);
-}
-/**
- * Useful to say "hey, you are not on the latest docs version, please switch"
- */ function useDocVersionSuggestions(pluginId) {
-    const data = useDocsData(pluginId);
-    const { pathname } = useLocation();
-    return getDocVersionSuggestions(data, pathname);
-}
-
+if(typeof open-ask-ai === 'undefined') { var e = new Error("Cannot find module 'open-ask-ai'"); e.code = 'MODULE_NOT_FOUND'; throw e; }
+module.exports = open-ask-ai;
 
 }),
-4106: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+6680: (function (module) {
 "use strict";
-__webpack_require__.d(__webpack_exports__, {
-  i6: () => (ReactContextError)
-});
-/* ESM import */var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5893);
-/* ESM import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7294);
-/* ESM import */var _docusaurus_useIsomorphicLayoutEffect__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2000);
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */ 
-
-
-/**
- * Temporary userland implementation until an official hook is implemented
- * See RFC: https://github.com/reactjs/rfcs/pull/220
- *
- * Permits to transform an unstable callback (like an arrow function provided as
- * props) to a "stable" callback that is safe to use in a `useEffect` dependency
- * array. Useful to avoid React stale closure problems + avoid useless effect
- * re-executions.
- *
- * This generally works but has some potential drawbacks, such as
- * https://github.com/facebook/react/issues/16956#issuecomment-536636418
- */ function useEvent(callback) {
-    const ref = useRef(callback);
-    useIsomorphicLayoutEffect(()=>{
-        ref.current = callback;
-    }, [
-        callback
-    ]);
-    // @ts-expect-error: TS is right that this callback may be a supertype of T,
-    // but good enough for our use
-    return useCallback(function() {
-        for(var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++){
-            args[_key] = arguments[_key];
-        }
-        return ref.current(...args);
-    }, []);
-}
-/**
- * Gets `value` from the last render.
- */ function usePrevious(value) {
-    const ref = useRef();
-    useIsomorphicLayoutEffect(()=>{
-        ref.current = value;
-    });
-    return ref.current;
-}
-/**
- * This error is thrown when a context is consumed outside its provider. Allows
- * reusing a generic error message format and reduces bundle size. The hook's
- * name will be extracted from its stack, so only the provider's name is needed.
- */ class ReactContextError extends Error {
-    constructor(providerName, additionalInfo){
-        super();
-        this.name = 'ReactContextError';
-        this.message = `Hook ${this.stack?.split('\n')[1]?.match(/at (?:\w+\.)?(?<name>\w+)/)?.groups.name ?? ''} is called outside the <${providerName}>. ${additionalInfo ?? ''}`;
-    }
-}
-/**
- * Shallow-memoize an object. This means the returned object will be the same as
- * the previous render if the property keys and values did not change. This
- * works for simple cases: when property values are primitives or stable
- * objects.
- *
- * @param obj
- */ function useShallowMemoObject(obj) {
-    const deps = Object.entries(obj);
-    // Sort by keys to make it order-insensitive
-    deps.sort((a, b)=>a[0].localeCompare(b[0]));
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    return useMemo(()=>obj, deps.flat());
-}
-/**
- * Creates a single React provider from an array of existing providers
- * assuming providers only take "children" as props.
- *
- * Prevents the annoying React element nesting
- * Example here: https://getfrontend.tips/compose-multiple-react-providers/
- *
- * The order matters:
- * - The first provider is at the top of the tree.
- * - The last provider is the most nested one
- *
- * @param providers array of providers to compose
- */ function composeProviders(providers) {
-    // Creates a single React component: it's cheaper to compose JSX elements
-    return (param)=>{
-        let { children } = param;
-        return /*#__PURE__*/ _jsx(_Fragment, {
-            children: providers.reduceRight((element, CurrentProvider)=>/*#__PURE__*/ _jsx(CurrentProvider, {
-                    children: element
-                }), children)
-        });
-    };
-} //# sourceMappingURL=reactUtils.js.map
-
+if(typeof open-ask-ai/styles.css === 'undefined') { var e = new Error("Cannot find module 'open-ask-ai/styles.css'"); e.code = 'MODULE_NOT_FOUND'; throw e; }
+module.exports = open-ask-ai/styles.css;
 
 }),
 5150: (function (__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
@@ -37091,11 +36859,11 @@ __webpack_require__.d(__webpack_exports__, {
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 /* ESM default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  "title": "Suprema Docs",
-  "tagline": "Check out all of Suprema's products and BioStar related information here.",
+  "title": "슈프리마 Docs",
+  "tagline": "슈프리마의 모든 제품 및 BioStar 관련 정보를 이곳에서 확인하세요.",
   "favicon": "/img/favicon.ico",
   "url": "https://supremainc.github.io",
-  "baseUrl": "/biostar2-docs/en/",
+  "baseUrl": "/biostar2-docs/",
   "noIndex": true,
   "future": {
     "v4": {
@@ -37150,6 +36918,7 @@ __webpack_require__.d(__webpack_exports__, {
     [
       "/home/runner/work/biostar2-docs/biostar2-docs/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
+        "indexDocs": true,
         "indexBlog": false,
         "indexPages": false,
         "docsRouteBasePath": "/",
@@ -37160,7 +36929,8 @@ __webpack_require__.d(__webpack_exports__, {
           "en"
         ],
         "highlightSearchTermsOnTargetPage": true,
-        "searchBarPosition": "right"
+        "searchBarPosition": "right",
+        "forceIgnoreNoIndex": true
       }
     ]
   ],
@@ -37253,7 +37023,7 @@ __webpack_require__.d(__webpack_exports__, {
         "src": "img/suprema-logo-bottom.svg",
         "width": "173px"
       },
-      "copyright": "Copyright © Suprema Inc. All rights reserved. | SUPREMA Co., Ltd. Business Registration Number 431-87-00369",
+      "copyright": "Copyright © Suprema Inc. All rights reserved. | 주식회사 슈프리마 사업자 등록번호 431-87-00369",
       "links": []
     },
     "prism": {
@@ -41824,12 +41594,17 @@ function getBackgroundColor(zoom) {
 }),
 2627: (function (module) {
 "use strict";
-module.exports = JSON.parse('{"externalLinks.BioEntryW3.desc":"Simple, Durable, Secure<br/>AI-Powered Facial Authentication Device","externalLinks.FaceStationF2.desc":"Fusion Multimodal Terminal","externalLinks.XStation2.desc":"Versatile Intelligent Terminal","theme.docs.breadcrumbs.navAriaLabel":"Breadcrumbs","theme.admonition.caution":"Caution","theme.admonition.danger":"Danger","theme.admonition.info":"Info","theme.admonition.note":"Note","theme.admonition.tip":"Tip","theme.admonition.warning":"Warning","theme.docs.breadcrumbs.home":"Home","theme.ErrorPageContent.title":"This page crashed.","theme.BackToTopButton.buttonAriaLabel":"Scroll back to top","theme.blog.archive.title":"Archive","theme.blog.archive.description":"Archive","theme.blog.paginator.navAriaLabel":"Blog list page navigation","theme.blog.paginator.newerEntries":"Newer entries","theme.blog.paginator.olderEntries":"Older entries","theme.blog.post.paginator.navAriaLabel":"Blog post page navigation","theme.blog.post.paginator.newerPost":"Newer post","theme.blog.post.paginator.olderPost":"Older post","theme.tags.tagsPageLink":"View all tags","theme.colorToggle.ariaLabel":"Switch between dark and light mode (currently {mode})","theme.colorToggle.ariaLabel.mode.dark":"Dark mode","theme.colorToggle.ariaLabel.mode.light":"Light mode","theme.docs.DocCard.categoryDescription.plurals":"1 item|{count} items","theme.docs.paginator.navAriaLabel":"Docs pages","theme.docs.paginator.previous":"Previous","theme.docs.paginator.next":"Next","theme.docs.tagDocListPageTitle.nDocsTagged":"One doc tagged|{count} docs tagged","theme.docs.tagDocListPageTitle":"{nDocsTagged} with \\"{tagName}\\"","theme.docs.versionBadge.label":"Version: {versionLabel}","theme.docs.versions.unreleasedVersionLabel":"This is unreleased documentation for {siteTitle} {versionLabel} version.","theme.docs.versions.unmaintainedVersionLabel":"This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.","theme.docs.versions.latestVersionSuggestionLabel":"For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).","theme.docs.versions.latestVersionLinkLabel":"latest version","theme.common.editThisPage":"Edit this page","theme.common.headingLinkTitle":"Direct link to {heading}","theme.lastUpdated.atDate":" on {date}","theme.lastUpdated.byUser":" by {user}","theme.lastUpdated.lastUpdatedAtBy":"Last updated{atDate}{byUser}","theme.navbar.mobileVersionsDropdown.label":"Versions","theme.NotFound.title":"Page Not Found","theme.tags.tagsListLabel":"Tags:","theme.AnnouncementBar.closeButtonAriaLabel":"Close","theme.blog.sidebar.navAriaLabel":"Blog recent posts navigation","theme.CodeBlock.copied":"Copied","theme.CodeBlock.copyButtonAriaLabel":"Copy code to clipboard","theme.CodeBlock.copy":"Copy","theme.CodeBlock.wordWrapToggle":"Toggle word wrap","theme.DocSidebarItem.expandCategoryAriaLabel":"Expand sidebar category \'{label}\'","theme.DocSidebarItem.collapseCategoryAriaLabel":"Collapse sidebar category \'{label}\'","theme.NavBar.navAriaLabel":"Main","theme.navbar.mobileLanguageDropdown.label":"Languages","theme.NotFound.p1":"We could not find what you were looking for.","theme.NotFound.p2":"Please contact the owner of the site that linked you to the original URL and let them know their link is broken.","theme.TOCCollapsible.toggleButtonLabel":"On this page","theme.blog.post.readMore":"Read more","theme.blog.post.readMoreLabel":"Read more about {title}","theme.blog.post.readingTime.plurals":"One min read|{readingTime} min read","theme.docs.sidebar.collapseButtonTitle":"Collapse sidebar","theme.docs.sidebar.collapseButtonAriaLabel":"Collapse sidebar","theme.docs.sidebar.navAriaLabel":"Docs sidebar","theme.docs.sidebar.closeSidebarButtonAriaLabel":"Close navigation bar","theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel":"← Back to main men","theme.docs.sidebar.toggleSidebarButtonAriaLabel":"Toggle navigation bar","theme.docs.sidebar.expandButtonTitle":"Expand sidebar","theme.docs.sidebar.expandButtonAriaLabel":"Expand sidebar","theme.SearchPage.existingResultsTitle":"Search results for \\"{query}\\"","theme.SearchPage.emptyResultsTitle":"Search the documentation","theme.SearchPage.searchContext.everywhere":"Everywhere","theme.SearchPage.documentsFound.plurals":"1 document found|{count} documents found","theme.SearchPage.noResultsText":"No documents were found","theme.SearchBar.noResultsText":"No results","theme.SearchBar.seeAllOutsideContext":"See all results outside \\"{context}\\"","theme.SearchBar.searchInContext":"See all results within \\"{context}\\"","theme.SearchBar.seeAll":"See all results","theme.SearchBar.label":"Search","theme.blog.post.plurals":"One post|{count} posts","theme.blog.tagTitle":"{nPosts} tagged with \\"{tagName}\\"","theme.blog.author.pageTitle":"{authorName} - {nPosts}","theme.blog.authorsList.pageTitle":"Authors","theme.blog.authorsList.viewAll":"View all authors","theme.blog.author.noPosts":"This author has not written any posts yet.","theme.contentVisibility.unlistedBanner.title":"Unlisted page","theme.contentVisibility.unlistedBanner.message":"This page is unlisted. Search engines will not index it, and only users having a direct link can access it.","theme.contentVisibility.draftBanner.title":"Draft page","theme.contentVisibility.draftBanner.message":"This page is a draft. It will only be visible in dev and be excluded from the production build.","theme.ErrorPageContent.tryAgain":"Try again","theme.common.skipToMainContent":"Skip to main content","theme.tags.tagsPageTitle":"Tags","theme.docs.nextStep":"Next step","theme.figureCaption.desc":"The image above is an example screen and may differ from the actual screen.","theme.cover.address":"<b>Suprema Inc.</b><br/>17F Parkview Tower, 248, Jeongjail-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, 13554, Rep. of KOREA<br/>Tel: +82 31 783 4502 | Fax: +82 31 783 4503 | Inquiry: sales_sys@supremainc.com","theme.cover.copyright":"© 2025 Suprema Inc. Suprema and identifying product names and numbers herein are registered trade marks of Suprema, Inc.<br/>All non-Suprema brands and product names are trademarks or registered trademarks of their respective companies.<br/>Product appearance, build status and/or specifications are subject to change without notice.","theme.cover.qrCodetext":"For more information about Suprema\'s global branch offices,<br/>visit the webpage below by scanning the QR code.<br/>https://supremainc.com/en/about/global-office.asp","theme.revision.badge":"Affects version","index.search":"Search","windows.key.start":"Start","biostar2.install.ok":"OK","biostar2.install.agree":"I accept the agreement","biostar2.install.next":"Next","biostar2.install.expressInstall":"Express installation","biostar2.install.customInstall":"Custom installation","biostar2.install.btnInstall":"Install","biostar2.install.complete":"Finish","theme.docs.overview.viewContent":"Read more"}')
+module.exports = JSON.parse('{"theme.AnnouncementBar.closeButtonAriaLabel":"닫기","theme.BackToTopButton.buttonAriaLabel":"맨 위로 스크롤하기","theme.CodeBlock.copied":"복사했습니다","theme.CodeBlock.copy":"복사","theme.CodeBlock.copyButtonAriaLabel":"클립보드에 코드 복사","theme.CodeBlock.wordWrapToggle":"줄 바꿈 전환","theme.DocSidebarItem.collapseCategoryAriaLabel":"사이드바 분류 \'{label}\' 접기","theme.DocSidebarItem.expandCategoryAriaLabel":"사이드바 분류 \'{label}\' 펼치기","theme.ErrorPageContent.title":"페이지에 오류가 발생하였습니다.","theme.ErrorPageContent.tryAgain":"다시 시도해 보세요","theme.NavBar.navAriaLabel":"메인","theme.NotFound.p1":"원하는 페이지를 찾을 수 없습니다.","theme.NotFound.p2":"사이트 관리자에게 링크가 깨진 것을 알려주세요.","theme.NotFound.title":"페이지를 찾을 수 없습니다.","theme.TOCCollapsible.toggleButtonLabel":"이 페이지에서","theme.admonition.caution":"주의","theme.admonition.danger":"위험","theme.admonition.info":"알아두기","theme.admonition.note":"노트","theme.admonition.tip":"팁","theme.admonition.warning":"경고","theme.blog.archive.description":"게시물 목록","theme.blog.archive.title":"게시물 목록","theme.blog.author.noPosts":"작성자가 아직 게시글을 작성하지 않았습니다.","theme.blog.author.pageTitle":"{authorName} - {nPosts}","theme.blog.authorsList.pageTitle":"저자","theme.blog.authorsList.viewAll":"모든 저자 보기","theme.blog.paginator.navAriaLabel":"블로그 게시물 목록 탐색","theme.blog.paginator.newerEntries":"이전 페이지","theme.blog.paginator.olderEntries":"다음 페이지","theme.blog.post.paginator.navAriaLabel":"블로그 게시물 탐색","theme.blog.post.paginator.newerPost":"이전 게시물","theme.blog.post.paginator.olderPost":"다음 게시물","theme.blog.post.plurals":"{count}개 게시물","theme.blog.post.readMore":"자세히 보기","theme.blog.post.readMoreLabel":"{title} 에 대해 더 읽어보기","theme.blog.post.readingTime.plurals":"약 {readingTime}분","theme.blog.sidebar.navAriaLabel":"최근 블로그 문서 둘러보기","theme.blog.tagTitle":"\\"{tagName}\\" 태그로 연결된 {nPosts}개의 게시물이 있습니다.","theme.colorToggle.ariaLabel":"어두운 모드와 밝은 모드 전환하기 (현재 {mode})","theme.colorToggle.ariaLabel.mode.dark":"어두운 모드","theme.colorToggle.ariaLabel.mode.light":"밝은 모드","theme.colorToggle.ariaLabel.mode.system":"system mode","theme.common.editThisPage":"페이지 편집","theme.common.headingLinkTitle":"{heading}에 대한 직접 링크","theme.common.skipToMainContent":"본문으로 건너뛰기","theme.contentVisibility.draftBanner.message":"이 페이지는 아직 작성 중입니다. 개발 환경에서만 보이며 프로덕션 빌드에서는 제외됩니다.","theme.contentVisibility.draftBanner.title":"작성 중인 페이지","theme.contentVisibility.unlistedBanner.message":"이 문서는 색인되지 않습니다. 검색 엔진이 이 문서를 색인하지 않으며, 주소를 알고 있는 사용자만 접근할 수 있습니다.","theme.contentVisibility.unlistedBanner.title":"색인되지 않은 문서","theme.docs.DocCard.categoryDescription.plurals":"{count} 문서","theme.docs.breadcrumbs.home":"홈","theme.docs.breadcrumbs.navAriaLabel":"탐색 경로","theme.docs.paginator.navAriaLabel":"문서 페이지","theme.docs.paginator.next":"다음","theme.docs.paginator.previous":"이전","theme.docs.sidebar.closeSidebarButtonAriaLabel":"사이드바 닫기","theme.docs.sidebar.collapseButtonAriaLabel":"사이드바 숨기기","theme.docs.sidebar.collapseButtonTitle":"사이드바 숨기기","theme.docs.sidebar.expandButtonAriaLabel":"사이드바 열기","theme.docs.sidebar.expandButtonTitle":"사이드바 열기","theme.docs.sidebar.navAriaLabel":"문서 사이드바","theme.docs.sidebar.toggleSidebarButtonAriaLabel":"사이드바 펼치거나 접기","theme.docs.tagDocListPageTitle":"{nDocsTagged} \\"{tagName}\\" 태그에 분류되었습니다","theme.docs.tagDocListPageTitle.nDocsTagged":"{count}개 문서가","theme.docs.versionBadge.label":"버전: {versionLabel}","theme.docs.versions.latestVersionLinkLabel":"최신 버전","theme.docs.versions.latestVersionSuggestionLabel":"최신 문서는 {latestVersionLink} ({versionLabel})을 확인하세요.","theme.docs.versions.unmaintainedVersionLabel":"{siteTitle} {versionLabel} 문서는 더 이상 업데이트되지 않습니다.","theme.docs.versions.unreleasedVersionLabel":"{siteTitle} {versionLabel} 문서는 아직 정식 공개되지 않았습니다.","theme.lastUpdated.atDate":" {date}에","theme.lastUpdated.byUser":" {user}가","theme.lastUpdated.lastUpdatedAtBy":"최종 수정: {atDate}{byUser}","theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel":"Collapse the dropdown","theme.navbar.mobileDropdown.collapseButton.expandAriaLabel":"Expand the dropdown","theme.navbar.mobileLanguageDropdown.label":"언어","theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel":"← 메인 메뉴로 돌아가기","theme.navbar.mobileVersionsDropdown.label":"버전","theme.tags.tagsListLabel":"태그:","theme.tags.tagsPageLink":"모든 태그 보기","theme.tags.tagsPageTitle":"태그","externalLinks.BioEntryW3.desc":"Simple, Durable, Secure<br/>AI 기반 얼굴인증 디바이스","externalLinks.FaceStationF2.desc":"퓨전 얼굴인증 장치","externalLinks.XStation2.desc":"차세대 모바일 출입인증 단말기","theme.SearchPage.existingResultsTitle":"\\"{query}\\"에 대한 검색 결과","theme.SearchPage.emptyResultsTitle":"문서 검색하기","theme.SearchPage.searchContext.everywhere":"어디에나","theme.SearchPage.documentsFound.plurals":"{count}개의 문서를 찾았습니다.","theme.SearchPage.noResultsText":"검색어와 일치하는 문서를 찾을 수 없습니다.","theme.SearchBar.noResultsText":"검색 결과가 없습니다.","theme.SearchBar.seeAllOutsideContext":"\\"{context}\\" 검색 결과 모두 보기","theme.SearchBar.searchInContext":"\\"{context}\\" 내의 모든 검색 결과 보기","theme.SearchBar.seeAll":"모든 결과 보기","theme.SearchBar.label":"검색하기","theme.docs.nextStep":"다음 단계","theme.figureCaption.desc":"위 이미지는 예시 화면입니다. 실제 화면과 다를 수 있습니다.","theme.cover.address":"<b>(주) 슈프리마</b><br/>13554 경기도 성남시 분당구 정자일로 248 파크뷰타워 17층<br/>영업 문의 1522 4507(1번) korea@suprema.co.kr | 고객지원 1522 4507(2번) cs@suprema.co.kr","theme.cover.copyright":"© 2025 Suprema Inc. 이 문서에 표기된 슈프리마, 제품명, 번호는 슈프리마의 등록 상표입니다. 모든 회사명과 제품명은 해당 회사의 상표이거나 등록 상표입니다. 제품 외관, 제조 상태 및 사양은 사전 통지 없이 변경될 수 있습니다.","theme.cover.qrCodetext":"For more information about Suprema\'s global branch offices,<br/>visit the webpage below by scanning the QR code.<br/>https://supremainc.com/en/about/global-office.asp","theme.revision.badge":"발생 버전","index.search":"검색","windows.key.start":"시작","biostar2.install.ok":"OK","biostar2.install.agree":"동의","biostar2.install.next":"다음","biostar2.install.expressInstall":"간편 설치","biostar2.install.customInstall":"사용자 정의 설치","biostar2.install.btnInstall":"설치","biostar2.install.complete":"완료","theme.docs.overview.viewContent":"둘러보기"}')
 
 }),
 7138: (function (module) {
 "use strict";
-module.exports = JSON.parse('{"/biostar2-docs/en/back/-4a9":{"__comp":"5308dfd1","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"},"/biostar2-docs/en/search-430":{"__comp":"1a4e3797","__context":{"plugin":"138e0e15"}},"/biostar2-docs/en/-890":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/biostar2-docs/en/-f40":{"__comp":"a7bd4aaa","__props":"e8365100"},"/biostar2-docs/en/-f9e":{"__comp":"a94703ab"},"/biostar2-docs/en/revision/-7fe":{"__comp":"17896441","content":"58a1c2b9"},"/biostar2-docs/en/revision/260-318":{"__comp":"17896441","content":"1deca8b7"},"/biostar2-docs/en/revision/261-a5c":{"__comp":"17896441","content":"d9dab780"},"/biostar2-docs/en/revision/262-2d2":{"__comp":"17896441","content":"565ee0ad"},"/biostar2-docs/en/revision/263-3cf":{"__comp":"17896441","content":"04b7312d"},"/biostar2-docs/en/revision/264-f25":{"__comp":"17896441","content":"c727cc7b"},"/biostar2-docs/en/revision/270-b42":{"__comp":"17896441","content":"76d2606a"},"/biostar2-docs/en/revision/271-759":{"__comp":"17896441","content":"bc1a2790"},"/biostar2-docs/en/revision/2710-58c":{"__comp":"17896441","content":"8ec9172d"},"/biostar2-docs/en/revision/2711-c0d":{"__comp":"17896441","content":"80c89947"},"/biostar2-docs/en/revision/2712-f25":{"__comp":"17896441","content":"ae1c4358"},"/biostar2-docs/en/revision/2714-474":{"__comp":"17896441","content":"9c5dffbf"},"/biostar2-docs/en/revision/272-902":{"__comp":"17896441","content":"750433da"},"/biostar2-docs/en/revision/273-5cf":{"__comp":"17896441","content":"22f32fa9"},"/biostar2-docs/en/revision/274-3a5":{"__comp":"17896441","content":"5d6cde95"},"/biostar2-docs/en/revision/275-b0b":{"__comp":"17896441","content":"9fe3680c"},"/biostar2-docs/en/revision/276-2af":{"__comp":"17896441","content":"c125c272"},"/biostar2-docs/en/revision/277-e08":{"__comp":"17896441","content":"b2d70ba7"},"/biostar2-docs/en/revision/278-329":{"__comp":"17896441","content":"3179504a"},"/biostar2-docs/en/revision/280-aaf":{"__comp":"17896441","content":"10087596"},"/biostar2-docs/en/revision/281-f23":{"__comp":"17896441","content":"fc9363d2"},"/biostar2-docs/en/revision/2810-33d":{"__comp":"17896441","content":"89ff097c"},"/biostar2-docs/en/revision/2811-d68":{"__comp":"17896441","content":"cf5521b5"},"/biostar2-docs/en/revision/2812-ae3":{"__comp":"17896441","content":"b5b3e37b"},"/biostar2-docs/en/revision/2813-9d6":{"__comp":"17896441","content":"b9ac637d"},"/biostar2-docs/en/revision/2814-d67":{"__comp":"17896441","content":"830b40bb"},"/biostar2-docs/en/revision/2815-e63":{"__comp":"17896441","content":"8847613a"},"/biostar2-docs/en/revision/2816-945":{"__comp":"17896441","content":"44b7a0c0"},"/biostar2-docs/en/revision/2817-a09":{"__comp":"17896441","content":"0069a404"},"/biostar2-docs/en/revision/282-4e4":{"__comp":"17896441","content":"5ec07ba0"},"/biostar2-docs/en/revision/283-f72":{"__comp":"17896441","content":"6148ec90"},"/biostar2-docs/en/revision/284-c3a":{"__comp":"17896441","content":"70bfd4e8"},"/biostar2-docs/en/revision/285-6cb":{"__comp":"17896441","content":"092c32d3"},"/biostar2-docs/en/revision/286-9f2":{"__comp":"17896441","content":"a2b2d524"},"/biostar2-docs/en/revision/288-b17":{"__comp":"17896441","content":"02751dd0"},"/biostar2-docs/en/revision/289-d43":{"__comp":"17896441","content":"926d4dc7"},"/biostar2-docs/en/revision/290-7fd":{"__comp":"17896441","content":"53ac7d2d"},"/biostar2-docs/en/revision/291-eb6":{"__comp":"17896441","content":"1d0abbe8"},"/biostar2-docs/en/revision/2910-f4f":{"__comp":"17896441","content":"8af17015"},"/biostar2-docs/en/revision/2910-draft-18c":{"__comp":"17896441","content":"07b870ec"},"/biostar2-docs/en/revision/2911-3d5":{"__comp":"17896441","content":"1e135ad0"},"/biostar2-docs/en/revision/2912-fe8":{"__comp":"17896441","content":"5d79424d"},"/biostar2-docs/en/revision/292-8d8":{"__comp":"17896441","content":"aa4af078"},"/biostar2-docs/en/revision/293-096":{"__comp":"17896441","content":"df379f10"},"/biostar2-docs/en/revision/294-741":{"__comp":"17896441","content":"b5c20607"},"/biostar2-docs/en/revision/295-f2c":{"__comp":"17896441","content":"62fa8aa4"},"/biostar2-docs/en/revision/296-903":{"__comp":"17896441","content":"70aac116"},"/biostar2-docs/en/revision/297-71f":{"__comp":"17896441","content":"450f52ad"},"/biostar2-docs/en/revision/298-73e":{"__comp":"17896441","content":"c34588c1"},"/biostar2-docs/en/update/2910/ad-encrypt-c1c":{"__comp":"17896441","content":"1a808aab"},"/biostar2-docs/en/update/2910/how-to-use-cs20-a5d":{"__comp":"17896441","content":"3b945e55"},"/biostar2-docs/en/update/2910/how-to-use-di24-3a2":{"__comp":"17896441","content":"54b64734"},"/biostar2-docs/en/update/2910/settings-diretory-integration-120":{"__comp":"17896441","content":"ff2ab287"},"/biostar2-docs/en/update/2911/bs2-master-admin-688":{"__comp":"17896441","content":"e7bad1f0"},"/biostar2-docs/en/update/2912/bs2-remote-access-512":{"__comp":"17896441","content":"ba07f917"},"/biostar2-docs/en/update/295/advanced-search-edb":{"__comp":"17896441","content":"5518cd1d"},"/biostar2-docs/en/update/295/new-dashboard-81f":{"__comp":"17896441","content":"2510fb83"},"/biostar2-docs/en/update/295/quick-action-6ec":{"__comp":"17896441","content":"5c0ccdb7"},"/biostar2-docs/en/update/295/timed-apb-804":{"__comp":"17896441","content":"dfa9b1fe"},"/biostar2-docs/en/update/295/unified-gateway-fc2":{"__comp":"17896441","content":"9bd3041f"},"/biostar2-docs/en/update/295/user-photo-enroll-using-webcam-ad4":{"__comp":"17896441","content":"0ab78278"},"/biostar2-docs/en/update/295/wireless-door-lock-0cc":{"__comp":"17896441","content":"533e231f"},"/biostar2-docs/en/update/297/multi-factor-auth-for-login-803":{"__comp":"17896441","content":"052bd3b6"},"/biostar2-docs/en/update/297/visual-face-with-template-679":{"__comp":"17896441","content":"d4007db6"},"/biostar2-docs/en/update/298/csn-mobile-card-281":{"__comp":"17896441","content":"40575fab"},"/biostar2-docs/en/update/298/deny-access-when-wearing-mask-ca1":{"__comp":"17896441","content":"1bf61c02"},"/biostar2-docs/en/update/298/device-display-message-c29":{"__comp":"17896441","content":"f8cc440d"},"/biostar2-docs/en/update/298/file-upload-user-information-8fc":{"__comp":"17896441","content":"d0070183"},"/biostar2-docs/en/update/298/other-update-95a":{"__comp":"17896441","content":"80b601b3"},"/biostar2-docs/en/update/298/update-timed-apb-293":{"__comp":"17896441","content":"4b374cb0"},"/biostar2-docs/en/update/biostar2-2910-939":{"__comp":"17896441","content":"40f2fb3e"},"/biostar2-docs/en/update/biostar2-2911-f2e":{"__comp":"17896441","content":"ef81307c"},"/biostar2-docs/en/update/biostar2-2912-f3c":{"__comp":"17896441","content":"09915dc4"},"/biostar2-docs/en/update/biostar2-295-cef":{"__comp":"17896441","content":"fb7fc25d"},"/biostar2-docs/en/update/biostar2-297-6af":{"__comp":"17896441","content":"986fcd3c"},"/biostar2-docs/en/update/biostar2-298-54d":{"__comp":"17896441","content":"d6ed9b8e"},"/biostar2-docs/en/-5af":{"__comp":"17896441","content":"216bef97"}}')
+module.exports = JSON.parse('{"/biostar2-docs/back/-4c7":{"__comp":"5308dfd1","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"},"/biostar2-docs/search-2f9":{"__comp":"1a4e3797","__context":{"plugin":"138e0e15"}},"/biostar2-docs/-916":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/biostar2-docs/-207":{"__comp":"a7bd4aaa","__props":"bb2b3c07"},"/biostar2-docs/-fd2":{"__comp":"a94703ab"},"/biostar2-docs/revision/-dd2":{"__comp":"17896441","content":"c10251a3"},"/biostar2-docs/revision/260-b95":{"__comp":"17896441","content":"36321d29"},"/biostar2-docs/revision/261-d50":{"__comp":"17896441","content":"a4f38dec"},"/biostar2-docs/revision/262-4a0":{"__comp":"17896441","content":"4133abef"},"/biostar2-docs/revision/263-2ae":{"__comp":"17896441","content":"d3d81a80"},"/biostar2-docs/revision/264-05e":{"__comp":"17896441","content":"9002ad59"},"/biostar2-docs/revision/270-997":{"__comp":"17896441","content":"9d0b4025"},"/biostar2-docs/revision/271-254":{"__comp":"17896441","content":"42ecb57c"},"/biostar2-docs/revision/2710-c2c":{"__comp":"17896441","content":"a6edefa9"},"/biostar2-docs/revision/2711-e47":{"__comp":"17896441","content":"e2615b34"},"/biostar2-docs/revision/2712-d02":{"__comp":"17896441","content":"98cf39d2"},"/biostar2-docs/revision/2714-740":{"__comp":"17896441","content":"9bde920f"},"/biostar2-docs/revision/272-451":{"__comp":"17896441","content":"1c63e954"},"/biostar2-docs/revision/273-e4b":{"__comp":"17896441","content":"8fd673e8"},"/biostar2-docs/revision/274-788":{"__comp":"17896441","content":"5347b71d"},"/biostar2-docs/revision/275-e25":{"__comp":"17896441","content":"f7170e03"},"/biostar2-docs/revision/276-367":{"__comp":"17896441","content":"5f0a05a2"},"/biostar2-docs/revision/277-85b":{"__comp":"17896441","content":"ac6468f7"},"/biostar2-docs/revision/278-e66":{"__comp":"17896441","content":"85bfd125"},"/biostar2-docs/revision/280-998":{"__comp":"17896441","content":"76242231"},"/biostar2-docs/revision/281-8d7":{"__comp":"17896441","content":"3d565b9d"},"/biostar2-docs/revision/2810-13e":{"__comp":"17896441","content":"8f1f3ab6"},"/biostar2-docs/revision/2811-08b":{"__comp":"17896441","content":"847ad22e"},"/biostar2-docs/revision/2812-fa7":{"__comp":"17896441","content":"fd57cc51"},"/biostar2-docs/revision/2813-3cd":{"__comp":"17896441","content":"7b810a03"},"/biostar2-docs/revision/2814-c92":{"__comp":"17896441","content":"771e6e33"},"/biostar2-docs/revision/2815-c4c":{"__comp":"17896441","content":"bced4e4a"},"/biostar2-docs/revision/2816-9bc":{"__comp":"17896441","content":"7b25b112"},"/biostar2-docs/revision/2817-bf8":{"__comp":"17896441","content":"011ed341"},"/biostar2-docs/revision/282-95b":{"__comp":"17896441","content":"470e0e0f"},"/biostar2-docs/revision/283-390":{"__comp":"17896441","content":"c56b6afc"},"/biostar2-docs/revision/284-823":{"__comp":"17896441","content":"0954da10"},"/biostar2-docs/revision/285-cb4":{"__comp":"17896441","content":"2b958d9c"},"/biostar2-docs/revision/286-c2a":{"__comp":"17896441","content":"c1645870"},"/biostar2-docs/revision/288-422":{"__comp":"17896441","content":"d2fb79f1"},"/biostar2-docs/revision/289-197":{"__comp":"17896441","content":"b74f3db2"},"/biostar2-docs/revision/290-2e1":{"__comp":"17896441","content":"d920f39e"},"/biostar2-docs/revision/291-6a5":{"__comp":"17896441","content":"77523d2d"},"/biostar2-docs/revision/2910-11f":{"__comp":"17896441","content":"21aa58f6"},"/biostar2-docs/revision/2910-draft-222":{"__comp":"17896441","content":"07b870ec"},"/biostar2-docs/revision/2911-190":{"__comp":"17896441","content":"fe6a2171"},"/biostar2-docs/revision/2912-e50":{"__comp":"17896441","content":"1f40be42"},"/biostar2-docs/revision/292-307":{"__comp":"17896441","content":"37f0d07c"},"/biostar2-docs/revision/293-8ac":{"__comp":"17896441","content":"75fc1a58"},"/biostar2-docs/revision/294-da1":{"__comp":"17896441","content":"21922693"},"/biostar2-docs/revision/295-d81":{"__comp":"17896441","content":"8f903b9c"},"/biostar2-docs/revision/296-7fa":{"__comp":"17896441","content":"d7e8eb73"},"/biostar2-docs/revision/297-9eb":{"__comp":"17896441","content":"f700c88a"},"/biostar2-docs/revision/298-216":{"__comp":"17896441","content":"cf9206d4"},"/biostar2-docs/update/2910/ad-encrypt-787":{"__comp":"17896441","content":"c060969a"},"/biostar2-docs/update/2910/how-to-use-cs20-26a":{"__comp":"17896441","content":"31323990"},"/biostar2-docs/update/2910/how-to-use-di24-45b":{"__comp":"17896441","content":"2c2669f6"},"/biostar2-docs/update/2910/settings-diretory-integration-e75":{"__comp":"17896441","content":"fd4346ad"},"/biostar2-docs/update/2911/bs2-master-admin-7d0":{"__comp":"17896441","content":"05df8820"},"/biostar2-docs/update/2912/bs2-remote-access-f90":{"__comp":"17896441","content":"3cf40bf7"},"/biostar2-docs/update/295/advanced-search-a82":{"__comp":"17896441","content":"8b9d34de"},"/biostar2-docs/update/295/new-dashboard-e7c":{"__comp":"17896441","content":"1f5ed054"},"/biostar2-docs/update/295/quick-action-bb9":{"__comp":"17896441","content":"61ed4732"},"/biostar2-docs/update/295/timed-apb-f4a":{"__comp":"17896441","content":"4399770d"},"/biostar2-docs/update/295/unified-gateway-261":{"__comp":"17896441","content":"24cef709"},"/biostar2-docs/update/295/user-photo-enroll-using-webcam-e5f":{"__comp":"17896441","content":"69589054"},"/biostar2-docs/update/295/wireless-door-lock-2c5":{"__comp":"17896441","content":"ed9aafd0"},"/biostar2-docs/update/297/multi-factor-auth-for-login-d34":{"__comp":"17896441","content":"98725db8"},"/biostar2-docs/update/297/visual-face-with-template-415":{"__comp":"17896441","content":"c0fbcc12"},"/biostar2-docs/update/298/csn-mobile-card-4d8":{"__comp":"17896441","content":"d35339d9"},"/biostar2-docs/update/298/deny-access-when-wearing-mask-425":{"__comp":"17896441","content":"5a3cd577"},"/biostar2-docs/update/298/device-display-message-8eb":{"__comp":"17896441","content":"a7a95a8a"},"/biostar2-docs/update/298/file-upload-user-information-5b2":{"__comp":"17896441","content":"b86b925d"},"/biostar2-docs/update/298/other-update-12a":{"__comp":"17896441","content":"23f1d5de"},"/biostar2-docs/update/298/update-timed-apb-940":{"__comp":"17896441","content":"9686a783"},"/biostar2-docs/update/biostar2-2910-b91":{"__comp":"17896441","content":"d849bdc6"},"/biostar2-docs/update/biostar2-2911-9d7":{"__comp":"17896441","content":"0c25ca7e"},"/biostar2-docs/update/biostar2-2912-1bd":{"__comp":"17896441","content":"4b97849a"},"/biostar2-docs/update/biostar2-295-91d":{"__comp":"17896441","content":"0a45dc6f"},"/biostar2-docs/update/biostar2-297-23f":{"__comp":"17896441","content":"fd5d3d35"},"/biostar2-docs/update/biostar2-298-103":{"__comp":"17896441","content":"329b7b82"},"/biostar2-docs/-ae4":{"__comp":"17896441","content":"4edc808e"}}')
+
+}),
+5874: (function (module) {
+"use strict";
+module.exports = JSON.parse('{"d":"localStorage","u":""}')
 
 }),
 

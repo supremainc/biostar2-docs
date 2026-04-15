@@ -3666,7 +3666,7 @@ __webpack_require__.d(__webpack_exports__, {
 /* ESM import */var _docusaurus_useIsomorphicLayoutEffect__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2000);
 /* ESM import */var _docusaurus_theme_common_internal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4520);
 /* ESM import */var _index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8341);
-/* ESM import */var _index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6009);
+/* ESM import */var _index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(8737);
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *

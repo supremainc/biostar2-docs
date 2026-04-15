@@ -19,7 +19,7 @@ const language = [
     "ko",
     "en"
 ];
-const searchIndexUrl = "search-index{dir}.json?_=5e13fb15";
+const searchIndexUrl = "search-index{dir}.json?_=a5e50aeb";
 const searchResultLimits = 8;
 const fuzzyMatchingDistance = 1;
 
@@ -107,7 +107,7 @@ __webpack_require__.u = (chunkId) => {
   // return url for filenames not based on template
   
   // return url for filenames based on template
-  return "assets/js/" + chunkId + "." + "8305f513" + ".js"
+  return "assets/js/" + chunkId + "." + "09895716" + ".js"
 }
 })();
 // webpack/runtime/get mini-css chunk filename
@@ -122,7 +122,7 @@ __webpack_require__.miniCssF = (chunkId) => {
 })();
 // webpack/runtime/get_full_hash
 (() => {
-__webpack_require__.h = () => ("3ea937bc79a10908")
+__webpack_require__.h = () => ("da07784d12f98add")
 })();
 // webpack/runtime/has_own_property
 (() => {
@@ -168,7 +168,7 @@ var priority = deferred[i][2];
 })();
 // webpack/runtime/public_path
 (() => {
-__webpack_require__.p = "/biostar2-docs/en/";
+__webpack_require__.p = "/biostar2-docs/";
 })();
 // webpack/runtime/rspack_version
 (() => {

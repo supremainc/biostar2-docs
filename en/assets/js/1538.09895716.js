@@ -4652,6 +4652,7 @@ var interfaces_SearchDocumentType;
     SearchDocumentType[SearchDocumentType["Description"] = 2] = "Description";
     SearchDocumentType[SearchDocumentType["Keywords"] = 3] = "Keywords";
     SearchDocumentType[SearchDocumentType["Content"] = 4] = "Content";
+    SearchDocumentType[SearchDocumentType["AskAI"] = 5] = "AskAI";
 })(interfaces_SearchDocumentType || (interfaces_SearchDocumentType = {}));
 
 ;// CONCATENATED MODULE: ./node_modules/@easyops-cn/docusaurus-search-local/dist/client/client/utils/sortSearchResults.js
