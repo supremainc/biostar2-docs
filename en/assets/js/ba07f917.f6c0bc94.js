@@ -1,6 +1,6 @@
 "use strict";
-(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["2309"], {
-3918: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+(self["webpackChunkBioStar2_Docs"] = self["webpackChunkBioStar2_Docs"] || []).push([["9548"], {
+2243: (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -9,26 +9,26 @@ __webpack_require__.d(__webpack_exports__, {
   frontMatter: () => (/* binding */ frontMatter),
   "default": () => (/* binding */ MDXContent),
   toc: () => (/* binding */ toc),
-  metadata: () => (/* reexport */ site_docs_update_2912_bs_2_remote_access_mdx_3cf_namespaceObject),
+  metadata: () => (/* reexport */ site_i_18_n_en_docusaurus_plugin_content_docs_current_update_2912_bs_2_remote_access_mdx_ba0_namespaceObject),
   assets: () => (/* binding */ assets),
   contentTitle: () => (/* binding */ contentTitle)
 });
 
-;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-docs-update-2912-bs-2-remote-access-mdx-3cf.json
-var site_docs_update_2912_bs_2_remote_access_mdx_3cf_namespaceObject = JSON.parse('{"id":"update/2912/bs2-remote-access","title":"리모트 액세스 설정하기","description":"리모트 액세스를 설정 방법을 안내합니다. 리모트 액세스(Remote Access)는 ngrok 서비스를 통해 외부 네트워크에서 내부 네트워크로 안전하게 접속할 수 있는 기능입니다.","source":"@site/docs/update/2912/bs2-remote-access.mdx","sourceDirName":"update/2912","slug":"/update/2912/bs2-remote-access","permalink":"/biostar2-docs/update/2912/bs2-remote-access","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"bs2-remote-access","title":"리모트 액세스 설정하기","description":"리모트 액세스를 설정 방법을 안내합니다. 리모트 액세스(Remote Access)는 ngrok 서비스를 통해 외부 네트워크에서 내부 네트워크로 안전하게 접속할 수 있는 기능입니다.","keywords":["리모트 액세스","ngrok"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"2.9.12 버전 업데이트 안내","permalink":"/biostar2-docs/update/biostar2-2912"},"next":{"title":"2.9.11 버전 업데이트 안내","permalink":"/biostar2-docs/update/biostar2-2911"}}')
+;// CONCATENATED MODULE: ./.docusaurus/docusaurus-plugin-content-docs/default/site-i-18-n-en-docusaurus-plugin-content-docs-current-update-2912-bs-2-remote-access-mdx-ba0.json
+var site_i_18_n_en_docusaurus_plugin_content_docs_current_update_2912_bs_2_remote_access_mdx_ba0_namespaceObject = JSON.parse('{"id":"update/2912/bs2-remote-access","title":"Setting Remote Access","description":"Learn how to configure Remote Access. This feature allows to securely access internal networks from external networks using the ngrok service.","source":"@site/i18n/en/docusaurus-plugin-content-docs/current/update/2912/bs2-remote-access.mdx","sourceDirName":"update/2912","slug":"/update/2912/bs2-remote-access","permalink":"/biostar2-docs/en/update/2912/bs2-remote-access","draft":false,"unlisted":false,"tags":[],"version":"current","frontMatter":{"id":"bs2-remote-access","title":"Setting Remote Access","description":"Learn how to configure Remote Access. This feature allows to securely access internal networks from external networks using the ngrok service.","keywords":["Remote Access","ngrok"],"isTranslationMissing":false},"sidebar":"biostar","previous":{"title":"Updates in BioStar 2 v2.9.12","permalink":"/biostar2-docs/en/update/biostar2-2912"},"next":{"title":"Updates in BioStar 2 v2.9.11","permalink":"/biostar2-docs/en/update/biostar2-2911"}}')
 // EXTERNAL MODULE: ./node_modules/react/jsx-runtime.js
 var jsx_runtime = __webpack_require__(5893);
 // EXTERNAL MODULE: ./node_modules/@mdx-js/react/lib/index.js
 var lib = __webpack_require__(65);
-;// CONCATENATED MODULE: ./docs/update/2912/bs2-remote-access.mdx
+;// CONCATENATED MODULE: ./i18n/en/docusaurus-plugin-content-docs/current/update/2912/bs2-remote-access.mdx
 
 
 const frontMatter = {
 	id: 'bs2-remote-access',
-	title: '리모트 액세스 설정하기',
-	description: '리모트 액세스를 설정 방법을 안내합니다. 리모트 액세스(Remote Access)는 ngrok 서비스를 통해 외부 네트워크에서 내부 네트워크로 안전하게 접속할 수 있는 기능입니다.',
+	title: 'Setting Remote Access',
+	description: 'Learn how to configure Remote Access. This feature allows to securely access internal networks from external networks using the ngrok service.',
 	keywords: [
-		'리모트 액세스',
+		'Remote Access',
 		'ngrok'
 	],
 	isTranslationMissing: false
@@ -42,32 +42,32 @@ const assets = {
 
 
 const toc = [{
-  "value": "언제 사용하나요?",
-  "id": "언제-사용하나요",
+  "value": "When to use this?",
+  "id": "when-to-use-this",
   "level": 2
 }, {
-  "value": "시작하기 전에",
-  "id": "시작하기-전에",
+  "value": "Before you start",
+  "id": "before-you-start",
   "level": 2
 }, {
-  "value": "리모트 액세스 설정",
-  "id": "리모트-액세스-설정",
+  "value": "Remote access setup",
+  "id": "remote-access-setup",
   "level": 2
 }, {
-  "value": "리모트 액세스 라이선스 활성화",
-  "id": "리모트-액세스-라이선스-활성화",
+  "value": "Activate remote access license",
+  "id": "activate-remote-access-license",
   "level": 3
 }, {
-  "value": "리모트 액세스 활성화",
-  "id": "리모트-액세스-활성화",
+  "value": "Activate remote access",
+  "id": "activate-remote-access",
   "level": 3
 }, {
-  "value": "ngrok 설정 정보 입력",
-  "id": "ngrok-설정-정보-입력",
+  "value": "Enter ngrok setup information",
+  "id": "enter-ngrok-setup-information",
   "level": 3
 }, {
-  "value": "엔드포인트 URL 접속",
-  "id": "엔드포인트-url-접속",
+  "value": "Access endpoint URL",
+  "id": "access-endpoint-url",
   "level": 2
 }];
 function _createMdxContent(props) {
@@ -97,21 +97,21 @@ function _createMdxContent(props) {
   if (!Steps) _missingMdxReference("Steps", true);
   return (0,jsx_runtime.jsxs)(jsx_runtime.Fragment, {
     children: [(0,jsx_runtime.jsx)(_components.p, {
-      children: "리모트 액세스(Remote Access)는 기존 BioStar 2 클라우드 기능을 대체하는 새로운 기능입니다. ngrok 서비스를 통해 외부 네트워크에서 내부 네트워크로 안전하게 접속할 수 있는 기능입니다. 이 기능을 사용하면 방화벽 설정이나 포트 포워딩 없이도 원격지에서 BioStar 2 서버에 접속할 수 있습니다."
+      children: "Remote access is a new feature that replaces the existing BioStar 2 CLOUD feature. This feature allows to securely access internal networks from external networks using the ngrok service. This feature enables access to the BioStar 2 server remotely without firewall settings or port forwarding."
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["리모트 액세스(Remote Access) 기능은 ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "BioStar 2 리모트 액세스"
-            }), " 라이선스가 필요합니다. ", (0,jsx_runtime.jsx)(_components.strong, {
-              children: "BioStar 2 리모트 액세스"
-            }), " 라이선스는 연간 구독 라이선스입니다."]
+            children: ["The Remote Access feature is requires a ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "BioStar 2 Remote Access"
+            }), " license. ", (0,jsx_runtime.jsx)(_components.strong, {
+              children: "BioStar 2 Remote Access"
+            }), " license is an annual subscription license."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-            children: "리모트 액세스 라이선스를 구매하면 슈프리마에서는 리모트 액세스 라이선스 발급 및 리모트 액세스 사용을 위한 ngrok 슈프리마 사이트의 bot 계정, 엔드포인트를 생성하고 라이선스 문서를 사용자에게 제공합니다."
+            children: "When purchasing the remote access license, Suprema generates a bot account, endpoint, and license document for remote access use on the ngrok Suprema site."
           }), "\n"]
         }), "\n"]
       })
@@ -119,69 +119,73 @@ function _createMdxContent(props) {
       type: "caution",
       children: (0,jsx_runtime.jsxs)(_components.ul, {
         children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
+          children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
+            children: "BioStar 2 API does not support the Remote Access feature."
+          }), "\n"]
+        }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-            children: ["리모트 액세스(Remote Access) 기능은 제3자 서비스인 ngrok의 터널링 서비스를 통해 제공됩니다. 기능 사용 전 반드시 ", (0,jsx_runtime.jsx)(_components.a, {
-              href: "https://docs.supremainc.com/legal/eula#remote-access-agreement",
-              children: "Remote Access 기능 사용 동의"
-            }), " 약관을 확인하세요."]
+            children: ["Remote Access is provided through ngrok’s third‑party tunneling service. Remote Access is provided through ngrok’s third‑party tunneling service. Before using this feature, please review ", (0,jsx_runtime.jsx)(_components.a, {
+              href: "https://docs.supremainc.com/en/legal/eula#10-remote-access-feature-agreement",
+              children: "Remote Access Feature Agreement"
+            }), "."]
           }), "\n"]
         }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
           children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-            children: "BioStar 2는 단순히 ngrok API를 호출하여 연결을 지원할 뿐, 인터넷 연결의 보안성, 안전성, 연속성은 ngrok 서비스에 전적으로 의존합니다. 따라서 본 기능 사용 중 발생할 수 있는 보안 사고, 데이터 손실, 시스템 침해 등에 대하여 슈프리마는 어떠한 책임도 지지 않습니다."
+            children: "BioStar 2 simply supports the connection by calling the ngrok API, but the security, safety, and continuity of internet connectivity entirely depend on the ngrok service. Therefore, Suprema assumes no responsibility for any security incidents, data loss, or system breaches that may occur during the use of this feature."
           }), "\n"]
         }), "\n"]
       })
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "언제-사용하나요",
-      children: "언제 사용하나요?"
+      id: "when-to-use-this",
+      children: "When to use this?"
     }), "\n", (0,jsx_runtime.jsx)(_components.p, {
-      children: "다음과 같은 상황에서 리모트 액세스 기능을 사용하세요."
+      children: "Use the remote access feature in the following situations."
     }), "\n", (0,jsx_runtime.jsxs)(_components.ul, {
       children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "외부 네트워크에서 사내 BioStar 2 서버에 접속해야 할 때"
+          children: "When you need to connect to the BioStar 2 server from an external network"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "방화벽이나 NAT 환경으로 인해 직접 접속이 어려운 경우"
+          children: "When it's challenging to connect directly due to firewalls or NAT environments"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "복잡한 네트워크 설정 없이 간편하게 원격 접속을 구성하고 싶을 때"
+          children: "When you want to quickly set up remote access without complex network setups"
         }), "\n"]
       }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
         children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-          children: "임시로 외부 접속 권한을 제공해야 하는 경우"
+          children: "When you need to temporarily provide outside access rights"
         }), "\n"]
       }), "\n"]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "시작하기-전에",
-      children: "시작하기 전에"
+      id: "before-you-start",
+      children: "Before you start"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["리모트 액세스 기능을 사용하기 전에 ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["Before using the remote access feature, make sure the ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.enabled"
-      }), " 설정이 활성화되어 있는지 확인하세요. ", (0,jsx_runtime.jsx)(Cmd, {
+      }), " setting is enabled. You can check the ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.enabled"
-      }), " 설정은 ", (0,jsx_runtime.jsx)(Cmd, {
+      }), " setting in ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "common.setting"
       }), " → ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "setting.systemSecurity"
-      }), "에서 확인할 수 있습니다."]
+      }), "."]
     }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
-      title: "통합 게이트웨이 설정에 따른 리모트 액세스 접근 권한",
+      title: "Remote Access Permissions based on Unified Gateway Settings",
       type: "info",
       children: [(0,jsx_runtime.jsxs)(_components.p, {
-        children: [(0,jsx_runtime.jsx)(Cmd, {
-          sid: "common.enabled"
-        }), "의 활성화 여부에 따라 ", (0,jsx_runtime.jsx)(Cmd, {
+        children: ["The services accessible via ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "setting.menu.remoteAccess.root"
-        }), "로 접근할 수 있는 서비스가 달라집니다. ", (0,jsx_runtime.jsx)(Cmd, {
+        }), " vary depending on whether the ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "common.enabled"
-        }), "는 ", (0,jsx_runtime.jsx)(Cmd, {
+        }), " is enabled. You can configure the ", (0,jsx_runtime.jsx)(Cmd, {
+          sid: "common.enabled"
+        }), " in ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "common.setting"
         }), " → ", (0,jsx_runtime.jsx)(Cmd, {
           sid: "setting.systemSecurity"
-        }), "에서 설정할 수 있습니다."]
+        }), "."]
       }), (0,jsx_runtime.jsxs)(_components.table, {
         children: [(0,jsx_runtime.jsx)(_components.thead, {
           children: (0,jsx_runtime.jsxs)(_components.tr, {
@@ -189,12 +193,12 @@ function _createMdxContent(props) {
               style: {
                 textAlign: "left"
               },
-              children: "통합 게이트웨이"
+              children: "Unified Gateway"
             }), (0,jsx_runtime.jsx)(_components.th, {
               style: {
                 textAlign: "left"
               },
-              children: "접근 가능 서비스"
+              children: "Accessible Services"
             })]
           })
         }), (0,jsx_runtime.jsxs)(_components.tbody, {
@@ -204,13 +208,13 @@ function _createMdxContent(props) {
                 textAlign: "left"
               },
               children: (0,jsx_runtime.jsx)(_components.strong, {
-                children: "활성화"
+                children: "Active"
               })
             }), (0,jsx_runtime.jsx)(_components.td, {
               style: {
                 textAlign: "left"
               },
-              children: "모든 서비스"
+              children: "All services"
             })]
           }), (0,jsx_runtime.jsxs)(_components.tr, {
             children: [(0,jsx_runtime.jsx)(_components.td, {
@@ -218,88 +222,89 @@ function _createMdxContent(props) {
                 textAlign: "left"
               },
               children: (0,jsx_runtime.jsx)(_components.strong, {
-                children: "비활성화"
+                children: "Inactive"
               })
             }), (0,jsx_runtime.jsx)(_components.td, {
               style: {
                 textAlign: "left"
               },
-              children: "출입 통제 서비스"
+              children: "Access Control service"
             })]
           })]
         })]
       })]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "리모트-액세스-설정",
-      children: "리모트 액세스 설정"
+      id: "remote-access-setup",
+      children: "Remote access setup"
     }), "\n", (0,jsx_runtime.jsxs)(Steps, {
       children: [(0,jsx_runtime.jsxs)(Step, {
         children: [(0,jsx_runtime.jsx)(_components.h3, {
-          id: "리모트-액세스-라이선스-활성화",
-          children: "리모트 액세스 라이선스 활성화"
+          id: "activate-remote-access-license",
+          children: "Activate remote access license"
         }), (0,jsx_runtime.jsxs)(_components.ol, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "BioStar 2 관리자 아이디로 로그인하세요."
+              children: "Log in with your BioStar 2 admin ID."
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: ["화면 상단의 ", (0,jsx_runtime.jsx)(Cmd, {
+              children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.setting"
-              }), "을 클릭하세요."]
+              }), " on the top of screen."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
+              children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.license"
-              }), "를 클릭하세요."]
+              }), "."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "setting.server.license.biostar2"
-              }), " 섹션의 ", (0,jsx_runtime.jsx)(Cmd, {
+              children: ["Enter the admin name and remote access license key that received by Suprema on ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "setting.menu.remoteAccess.root"
-              }), "에서 관리자 이름과 슈프리마로부터 전달받은 리모트 액세스 라이선스 키를 입력하세요."]
+              }), " of the ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "setting.server.license.biostar2"
+              }), " section."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "setting.server.license.button.activate"
-              }), " 버튼을 클릭하세요."]
+              children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "setting.server.license.button.activate",
+                product: "2"
+              }), "."]
             }), "\n"]
           }), "\n"]
         })]
       }), (0,jsx_runtime.jsxs)(Step, {
         children: [(0,jsx_runtime.jsx)(_components.h3, {
-          id: "리모트-액세스-활성화",
-          children: "리모트 액세스 활성화"
+          id: "activate-remote-access",
+          children: "Activate remote access"
         }), (0,jsx_runtime.jsxs)(_components.ol, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-              children: "BioStar 2 관리자 아이디로 로그인하세요."
+              children: "Log in with your BioStar 2 admin ID."
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: ["화면 상단의 ", (0,jsx_runtime.jsx)(Cmd, {
+              children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.setting"
-              }), "을 클릭하세요."]
+              }), " on the top of screen."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
+              children: ["Click ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "setting.menu.remoteAccess.root"
-              }), "를 클릭하세요."]
+              }), "."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-              children: [(0,jsx_runtime.jsx)(Cmd, {
-                sid: "setting.remoteAccess.section.title"
-              }), " 섹션에서 ", (0,jsx_runtime.jsx)(Cmd, {
+              children: ["Change the ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "setting.menu.remoteAccess.root"
-              }), " 옵션을 ", (0,jsx_runtime.jsx)(Cmd, {
+              }), " option to ", (0,jsx_runtime.jsx)(Cmd, {
                 sid: "common.use"
-              }), "으로 변경하세요."]
+              }), " in the ", (0,jsx_runtime.jsx)(Cmd, {
+                sid: "setting.remoteAccess.section.title"
+              }), " section."]
             }), "\n"]
           }), "\n"]
         }), (0,jsx_runtime.jsx)(Image, {
@@ -307,65 +312,65 @@ function _createMdxContent(props) {
         })]
       }), (0,jsx_runtime.jsxs)(Step, {
         children: [(0,jsx_runtime.jsx)(_components.h3, {
-          id: "ngrok-설정-정보-입력",
-          children: "ngrok 설정 정보 입력"
+          id: "enter-ngrok-setup-information",
+          children: "Enter ngrok setup information"
         }), (0,jsx_runtime.jsx)(_components.p, {
-          children: "슈프리마로부터 전달받은 ngrok 설정 정보를 입력하세요."
+          children: "Enter the ngrok setup information provided by Suprema."
         }), (0,jsx_runtime.jsxs)(_components.ul, {
           children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "setting.remoteAccess.field.tunnelToken"
-              }), ": 인증 토큰(Authtoken)을 입력하세요."]
+              }), ": Enter your authentication token(Authtoken)."]
             }), "\n"]
           }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
             children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
               children: [(0,jsx_runtime.jsx)(Cmd, {
                 sid: "setting.remoteAccess.field.hostURL"
-              }), ": 엔드포인트 URL을 입력하세요. URL은 ", (0,jsx_runtime.jsx)(_components.code, {
+              }), ": Enter the endpoint URL. The URL is in the format ", (0,jsx_runtime.jsx)(_components.code, {
                 children: "https://desire-subdomain.bs.ngrok.app"
-              }), " 형식입니다."]
+              }), "."]
             }), "\n", (0,jsx_runtime.jsxs)(_components.admonition, {
               type: "info",
               children: [(0,jsx_runtime.jsxs)(_components.p, {
-                children: ["서브 도메인(", (0,jsx_runtime.jsx)(_components.code, {
+                children: ["The subdomain (", (0,jsx_runtime.jsx)(_components.code, {
                   children: "desire-subdomain"
-                }), ")은 아래와 같은 규칙을 따릅니다. 규칙을 준수하지 않은 서브 도메인은 사용할 수 없습니다."]
+                }), ") must follow the rules below. Subdomains that do not comply with these rules cannot be used."]
               }), (0,jsx_runtime.jsxs)(_components.ul, {
                 children: ["\n", (0,jsx_runtime.jsxs)(_components.li, {
                   children: ["\n", (0,jsx_runtime.jsxs)(_components.p, {
-                    children: ["영문 알파벳(A-Z, a-z), 숫자(0-9), 하이픈(", (0,jsx_runtime.jsx)(_components.code, {
+                    children: ["Only English alphabets (A-Z, a-z), numbers (0-9), and hyphens (", (0,jsx_runtime.jsx)(_components.code, {
                       children: "-"
-                    }), ")만 사용할 수 있습니다."]
+                    }), ") are allowed."]
                   }), "\n"]
                 }), "\n", (0,jsx_runtime.jsxs)(_components.li, {
                   children: ["\n", (0,jsx_runtime.jsx)(_components.p, {
-                    children: "특수 문자, 공백은 사용할 수 없습니다."
+                    children: "Special characters and spaces are not allowed."
                   }), "\n"]
                 }), "\n"]
               })]
             }), "\n"]
           }), "\n"]
         }), (0,jsx_runtime.jsxs)(_components.p, {
-          children: ["모든 정보를 입력한 후 ", (0,jsx_runtime.jsx)(Cmd, {
+          children: ["After entering all the information, click ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "button.apply",
             product: "2"
-          }), " 버튼을 클릭하세요. 경고 메시지 창이 나타나면 내용을 확인하고 ", (0,jsx_runtime.jsx)(Cmd, {
+          }), ". If a warning message window appears, check the content and click the ", (0,jsx_runtime.jsx)(Cmd, {
             sid: "setting.remoteAccess.button.agree"
-          }), " 버튼을 클릭하세요."]
+          }), " button."]
         })]
       })]
     }), "\n", (0,jsx_runtime.jsx)(_components.h2, {
-      id: "엔드포인트-url-접속",
-      children: "엔드포인트 URL 접속"
+      id: "access-endpoint-url",
+      children: "Access endpoint URL"
     }), "\n", (0,jsx_runtime.jsxs)(_components.p, {
-      children: ["설정을 완료하고 ", (0,jsx_runtime.jsx)(Cmd, {
+      children: ["After completing the setup, verify whether you can access the BioStar 2 server from an external network using the endpoint URL you entered in ", (0,jsx_runtime.jsx)(Cmd, {
         sid: "setting.remoteAccess.field.hostURL"
-      }), " 항목에 입력한 엔드포인트 URL을 통해 외부 네트워크에서 BioStar 2 서버에 접속할 수 있는지 확인하세요."]
+      }), "."]
     }), "\n", (0,jsx_runtime.jsx)(_components.admonition, {
       type: "info",
       children: (0,jsx_runtime.jsx)(_components.p, {
-        children: "외부 네트워크에서 엔드포인트 URL을 통해 접속할 수 없다면 라이선스를 발급받은 영업점 또는 대리점에 문의하세요."
+        children: "If you cannot access via endpoint URL from an external network, contact the sales point or distributor that issued your license."
       })
     })]
   });
