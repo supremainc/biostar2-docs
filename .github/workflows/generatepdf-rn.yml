@@ -8,9 +8,9 @@ on:
         required: true
         default: "BioStar 2"
       version:
-        description: "버전 (예: 2.9.11@pdf, 2.9.12@pdf)"
+        description: "버전 (예: 2.9.11, 2.9.12)"
         required: true
-        default: "2.9.11@pdf"
+        default: "2.9.11"
       date:
         description: "릴리스 날짜"
         required: true
